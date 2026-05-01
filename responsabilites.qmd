@@ -1,41 +1,187 @@
 ---
 title: "Responsabilités"
-subtitle: "Pédagogiques, administratives et institutionnelles"
+subtitle: "Direction départementale, recherche, IA, stratégie, pédagogie"
 toc: true
 ---
 
-## Responsabilités pédagogiques
+## Direction départementale et stratégique
 
 ::: {.card-module}
-### Coordination de modules
-Coordinateur des modules ECUE211, ECUE311, ECUE411, ECUE421, ECUEO412
-au sein des filières LMAD, MDSI, MKD, MBA, GAMMA.
+### Head of Department CSAM · ESB · depuis 2019
+**Computer Science & Applied Mathematics Department**
 
-**Périmètre** : conception des supports, harmonisation des évaluations,
-encadrement de l'équipe enseignante.
+Direction complète du département (passage de Co-Chef en 2019 à Head of
+Department). Supervision de l'équipe enseignante (permanents et vacataires),
+coordination pédagogique de l'ensemble des modules math/stats/RO/ML/DL,
+participation aux comités stratégiques d'ESB.
 :::
 
-## Responsabilités administratives
+::: {.card-module}
+### HUU Task Force AI Team · Honoris United University · depuis 2024
+**Representative of ESB at Honoris Task Force AI**
 
-À compléter.
+Représentation d'Esprit School of Business au sein de la Task Force AI
+de Honoris United University, réseau d'enseignement supérieur réunissant
+11 institutions sur 10 pays.
+:::
 
-## Comités et instances
+## Recherche
 
-À compléter — comité pédagogique, conseil scientifique, etc.
+::: {.card-module}
+### Head of Research Team AI4U · Esprit Tech · depuis 2023
+**Artificial Intelligence 4 University**
+
+Direction d'une équipe de recherche dédiée aux applications de
+l'intelligence artificielle dans l'enseignement supérieur :
+pédagogie augmentée par l'IA, outils de génération automatique
+de contenus, évaluation augmentée, etc.
+:::
+
+## Pédagogie — Programmes et formations IA
+
+::: {.card-module}
+### Co-Responsible Alternance Program · ESB × Jems Group · depuis 2024
+**Business Analytics oriented to Generative Artificial Intelligence**
+
+Co-direction d'un programme d'alternance en partenariat avec
+**Jems Group**, axé sur la **Generative AI** appliquée au business analytics.
+:::
+
+::: {.card-module}
+### AI Instructor · Training of Trainers Departement · ESB · depuis 2023
+Sessions de formation spécialisées délivrées aux formateurs ESB :
+
+- **Artificial Intelligence** — fondamentaux
+- **Machine Learning** — algorithmes supervisés/non supervisés
+- **Deep Learning** — réseaux de neurones, CNN, RNN
+- **Data Analysis** — pipelines complets
+- **NLP** — Natural Language Processing
+- **Transformers** — architectures attention
+- **LLM** — Large Language Models
+:::
+
+::: {.card-module}
+### Tekouin Administrator · ESB · depuis 2020
+Administration de la plateforme **Tekouin** — e-Learning Plateform
+for coding. Maintenance, support utilisateurs, développement de contenus
+de coding pour les étudiants ESB.
+:::
+
+## Programmes pédagogiques (mandats)
+
+::: {.card-module}
+### Responsible Master Degree GAMMA · 2021 – 2024
+**Master GAMMA** : Gestion Actuarielle et Modélisation MAthématique.
+:::
+
+::: {.card-module}
+### Responsible Bachelor Degree M(AD)² · 2019 – 2024
+**Licence M(AD)²** : Mathématiques Appliquées à l'Analyse des Données
+et Aide à la Décision.
+
+J'ai conçu le **plan d'études** et préparé le **dossier d'habilitation**
+de cette nouvelle licence ESB en 2018–2019.
+:::
+
+::: {.card-module}
+### Responsable de l'unité de Statistiques d'ESB · 09/2017 – 04/2018
+:::
+
+## Coordination de modules (depuis 2017)
+
+- **ECUE211** — Algèbre 2 (linéaire) · LMAD/SD
+- **ECUE311** — Algèbre 3 (réduction) · LMAD
+- **ECUE411** — Probabilités · LMAD
+- **ECUE421** — Analyse 4 (plusieurs variables) · LMAD
+- **ECUEO412** — Recherche Opérationnelle · MDSI
+- **ECUET112** — Statistiques descriptives avec R · S1
+- **Modules récents** : Linear Algebra 3, Analysis 2, Machine Learning,
+  Deep Learning, NLP, Python, GLM, Advanced Probability, Integration,
+  Generative Computer Vision, Tools for ML, Portfolio Optimization
+
+## Concours d'admission ESB
+
+::: {.card-module}
+### Responsable de l'épreuve Logique du concours d'admission · depuis 2017
+Création et enrichissement de la **banque de questions Logique** —
+environ **120 questions** opérationnelles.
+:::
+
+::: {.card-module}
+### Jury entretiens oraux · depuis 2017
+:::
+
+::: {.card-module}
+### Responsable concours d'admission au Cameroun · 2018, 2019
+Conception et déroulement des épreuves Calcul, Logique, Culture Générale.
+:::
+
+## Comités de conception de parcours
+
+::: {.card-module}
+### Licence M(AD)² · 2018–2019
+**Conception du plan d'études + dossier d'habilitation**.
+:::
+
+::: {.card-module}
+### Master Université de Montpellier · 2019–2020
+Proposition d'un nouveau master suite au partenariat avec l'**Université
+de Montpellier** (master MIND et licence Mathématique-Informatique).
+Réunion avec M. Ali Ganoun.
+:::
+
+::: {.card-module}
+### Parcours SID — Système d'Informations Décisionnel · 2017–2018
+Membre du comité de conception sous la direction de Mme Syrine Ben Meskina.
+:::
+
+::: {.card-module}
+### Master Business Analytics · 2017–2018
+Membre du comité de conception sous la direction de Mme Kaouther Bouzouita.
+:::
 
 ## Jurys
 
-### Jurys de soutenance
+::: {.card-module}
+### Jury de recrutement · depuis 2017
+Membre des jurys des sessions de recrutement des **enseignants des
+mathématiques et statistiques** à ESB.
+:::
 
-À compléter.
+::: {.card-module}
+### Jury de soutenance — séminaires, projets, PFE
+Voir [Encadrements](encadrements.qmd) pour la liste détaillée.
+:::
 
-### Jurys de recrutement
+## Animation de clubs
 
-À compléter.
+::: {.card-module}
+### MAD University Club · Tutor and Founder · depuis 2020
+**Club universitaire** créé en 2020 lié à la licence M(AD)².
+:::
 
-### Jurys de passage de grade
+::: {.card-module}
+### B-Movie Film Club · Tutor, Founder and Organizer · depuis 2018
+Ciné-club universitaire ESB. Projections thématiques + débats.
 
-À compléter.
+**Événements organisés :**
+- Partenariat **festival Fespaco** — hommage cinéma Burkinabais (présence ambassadeur du Burkina Faso)
+- Co-organisation **festival Fest-In** avec ambassade du Brésil — couvert par *La Presse*
+:::
+
+::: {.card-module}
+### Club Horizon ESB · Tuteur · 2017–2018
+Magazine étudiants (projet en pause).
+:::
+
+## Ateliers Préparation au Tage Mage · depuis 2017
+
+3 ateliers : Aptitudes linguistiques (I. Kaouech), Calcul (M. Jaoua),
+**Raisonnement logique (Aymen Ben Brik)** — édition 2017–2018 : 30 étudiants.
+
+## École d'été pédagogique « Improve your Maths » · 2018
+
+Cours intensif de mathématiques pour les nouveaux étudiants ESB.
 
 ## Tableau récapitulatif
 
@@ -45,9 +191,6 @@ import pandas as pd
 from itables import init_notebook_mode, show
 init_notebook_mode(all_interactive=True)
 
-try:
-    df = pd.read_csv("data/responsabilites.csv")
-    show(df, lengthMenu=[10, 25, 50], classes="display compact")
-except Exception:
-    print("À compléter — voir data/responsabilites.csv")
+df = pd.read_csv("data/responsabilites.csv")
+show(df, lengthMenu=[15, 30, 50], classes="display compact")
 ```

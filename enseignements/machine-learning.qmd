@@ -1,0 +1,52 @@
+---
+title: "Machine Learning"
+subtitle: "Apprentissage supervisé et non supervisé · LMAD / MDSI · 42h"
+toc: true
+---
+
+## Présentation
+
+Module créé en **2021–2022** dans le cadre de l'évolution du curriculum
+data science d'ESB, puis maintenu et enrichi chaque année.
+Approche par projet avec datasets réels.
+
+## Acquis d'apprentissage
+
+- **AA1** — Comprendre la dichotomie supervisé / non supervisé / renforcement
+- **AA2** — Maîtriser les algorithmes classiques (linéaires, arbres, ensembles)
+- **AA3** — Évaluer un modèle (validation croisée, métriques, biais-variance)
+- **AA4** — Pré-traiter les données (nettoyage, encodage, scaling, feature engineering)
+- **AA5** — Implémenter un pipeline ML complet en Python avec scikit-learn
+- **AA6** — Détecter et corriger l'overfitting
+- **AA7** — Communiquer les résultats via dashboards et rapports
+
+## Supports pédagogiques
+
+| Type | Description | Lien |
+|---|---|---|
+| Polycopié | Cours *book* avec exercices corrigés | [PDF](#) |
+| Slides | Beamer Metropolis 16:9 | [PDF](#) |
+| TDs | Énoncés + corrections | [PDF](#) |
+| TPs Python | Pipelines scikit-learn, projets datasets réels | [PDF + code](#) |
+| Projet | Compétition Kaggle interne | [Sujet](#) |
+| Repository | Code source | [GitHub](https://github.com/Aymenbenbrik) |
+
+## Plan détaillé
+
+1. **Introduction** : taxonomie ML, vocabulaire, vue d'ensemble du pipeline
+2. **Régression linéaire et logistique** : moindres carrés, descente de gradient, régularisation L1/L2
+3. **Arbres de décision et forêts aléatoires** : gini, entropie, bagging, boosting
+4. **SVM** : marges, kernels, dualité
+5. **K-NN, Naive Bayes** : algorithmes paresseux et probabilistes
+6. **Apprentissage non supervisé** : K-means, DBSCAN, hiérarchique, PCA
+7. **Évaluation** : courbe ROC, matrice de confusion, validation croisée, GridSearchCV
+8. **Pipelines, sélection de features, déploiement**
+
+## Outils mobilisés
+
+`scikit-learn` · `pandas` · `numpy` · `matplotlib` · `seaborn` · `plotly` · `xgboost` · `lightgbm`
+
+## Prolongements
+
+Module précurseur de **[Deep Learning](deep-learning.qmd)**,
+**[NLP](nlp.qmd)** et **[Tools for Machine Learning](tools-for-ml.qmd)**.

@@ -1,31 +1,107 @@
 ---
 title: "Événements"
-subtitle: "Conférences, formations animées, manifestations"
+subtitle: "Conférences, formations animées, concours, manifestations"
 toc: true
 ---
 
-## Conférences et communications
+## Concours d'admission ESB
 
-À compléter.
+::: {.card-module}
+### Responsable de l'épreuve Logique · depuis 2017
+- **Banque de questions** : ~120 questions opérationnelles, enrichies en continu
+- **Concours Cameroun 2018** : 4 sessions (Calcul & Logique #1 le 22/04/2018, Logique #2 le 01/07, Logique #3 le 29/07, Logique #4 le 19/08)
+- **Concours Cameroun 2019** : Logique 1 (14/04), CG2 (30/06), CG3 (04/08), Logique 2 et 3
+:::
 
-## Formations animées
+## Animation de formations et ateliers
 
-À compléter — formations dispensées en interne ou en externe.
+::: {.card-module}
+### Préparation au Tage Mage · 2017–2018
+**30 étudiants formés** à l'atelier Raisonnement logique animé personnellement,
+dans le cadre d'un programme à 3 volets pour la préparation aux mobilités
+internationales.
+:::
 
-## Organisation de manifestations
+::: {.card-module}
+### Atelier Jeux de Logique · BALC'ON 2017–2018
+Animation pour les étudiants 1ère année.
+:::
 
-À compléter — comités d'organisation, journées scientifiques,
-workshops, séminaires.
+::: {.card-module}
+### Atelier Citoyen Digital · BALC'ON 2017–2018
+Animation et encadrement du projet « Citoyen Digital ».
+:::
 
-## Pilotage d'événements
+::: {.card-module}
+### Atelier Initiation à la programmation · BALC'ON 2018–2019, 2019–2020
+- 2018–2019 : 1LFIG — encadrement et jury du projet **« Journal Télévisé »**
+- 2019–2020 : 1LBC — encadrement et jury du projet **« Émission Radio »**
+:::
 
-À compléter — chair, co-chair, responsable de session.
+::: {.card-module}
+### APP0 ESB · 2017–2018
+Coaching des étudiants sur leurs projets dans le cadre du dispositif APP0.
+:::
 
-## Activités grand public
+::: {.card-module}
+### École d'été « Improve your Maths » · 2018
+Organisation et animation d'une session de cours intensif en mathématiques
+pour les nouveaux étudiants ESB.
+:::
 
-À compléter — émissions radio/TV, presse, panels, débats.
+## Visites d'entreprise (encadrant)
 
-## Tableau récapitulatif
+| Année | Entreprise | Promotion |
+|---|---|---|
+| 2017–2018 | **Sigma Conseil** | 1LFG2 |
+| 2017–2018 | **Ooredoo** | 1LFG4 |
+| 2018–2019 | **Telnet** | 2LFIG1 |
+
+## Écoles d'été et formation à la recherche
+
+::: {.card-module}
+### CIMPA 2019 · Été 2019
+**Science des données pour l'ingénierie et la technologie** —
+école d'été du Centre International de Mathématiques Pures et Appliquées.
+:::
+
+::: {.card-module}
+### IHEC SUMMER SCHOOL · Été 2018
+**Data Science for Finance** — IHEC Carthage.
+:::
+
+## Mobilités internationales
+
+::: {.card-module}
+### SUP'DE COM Lyon · ERASMUS
+Visite des locaux dans le cadre du programme d'échange des enseignants —
+extension du partenariat ESB / SUP'DE COM aux licences (qui était limité
+aux masters).
+:::
+
+## Événements culturels (Club B-Movie)
+
+::: {.card-module}
+### Festival Fespaco — hommage au cinéma Burkinabais · 2018
+Partenariat avec l'un des plus anciens festivals africains.
+**Présence de l'ambassadeur du Burkina Faso** à ESB.
+:::
+
+::: {.card-module}
+### Festival Fest-In — cinéma lusophone · 2018
+Co-organisation avec l'**ambassade du Brésil** à ESB.
+**Couvert par La Presse.**
+:::
+
+## Journées portes ouvertes
+
+::: {.card-module}
+### JPO ESB 2018
+Animation d'un atelier de jeux de logique. Participation également avec
+le club B-Movie.
+:::
+
+## Tableau interactif complet
 
 ```{python}
 #| echo: false
@@ -33,9 +109,7 @@ import pandas as pd
 from itables import init_notebook_mode, show
 init_notebook_mode(all_interactive=True)
 
-try:
-    df = pd.read_csv("data/evenements.csv")
-    show(df, lengthMenu=[10, 25, 50], classes="display compact")
-except Exception:
-    print("À compléter — voir data/evenements.csv")
+df = pd.read_csv("data/evenements.csv")
+df = df.sort_values("date", ascending=False)
+show(df, lengthMenu=[10, 25, 50], classes="display compact")
 ```

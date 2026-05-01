@@ -1,0 +1,57 @@
+---
+title: "Deep Learning"
+subtitle: "Réseaux de neurones profonds · LMAD / MDSI · 42h"
+toc: true
+---
+
+## Présentation
+
+Module créé en **2022–2023**, maintenu et enrichi avec les évolutions
+des architectures neuronales modernes. Approche pratique :
+construction de réseaux from scratch puis avec TensorFlow/PyTorch.
+
+Module conçu en cohérence avec ma **Spécialisation Deep Learning de
+deeplearning.ai** (Coursera, 5 cours certifiés en 2019).
+
+## Acquis d'apprentissage
+
+- **AA1** — Comprendre la rétropropagation et la descente de gradient stochastique
+- **AA2** — Construire un réseau dense (DNN) from scratch
+- **AA3** — Entraîner un CNN sur des données images (vision)
+- **AA4** — Implémenter un RNN/LSTM/GRU pour du séquentiel
+- **AA5** — Utiliser TensorFlow et Keras de manière idiomatique
+- **AA6** — Diagnostiquer un entraînement (loss, accuracy, overfitting, vanishing gradient)
+- **AA7** — Optimiser avec dropout, batch norm, learning rate scheduling
+- **AA8** — Comprendre l'architecture Transformer (vers le module **NLP**)
+
+## Supports pédagogiques
+
+| Type | Description | Lien |
+|---|---|---|
+| Polycopié | Cours *book* | [PDF](#) |
+| Slides | Beamer Metropolis 16:9 | [PDF](#) |
+| TDs | Énoncés + corrections | [PDF](#) |
+| TPs Python | TensorFlow/Keras, projets vision et séquence | [PDF + code](#) |
+| Projet | Application complète end-to-end | [Sujet](#) |
+| Repository | Code source | [GitHub](https://github.com/Aymenbenbrik) |
+
+## Plan détaillé
+
+1. **Fondamentaux** : neurone, perceptron, fonctions d'activation
+2. **Réseaux denses (DNN)** : architecture, rétropropagation, optimiseurs (SGD, Adam)
+3. **Régularisation** : dropout, batch normalization, early stopping
+4. **CNN** : convolutions, pooling, ResNet, VGG, transfer learning
+5. **RNN, LSTM, GRU** : séquences, gradient vanishing, attention basique
+6. **Autoencodeurs et GANs** : génération, débruitage
+7. **Introduction aux Transformers** (préfigure le module NLP)
+8. **Déploiement** : TensorFlow Serving, ONNX
+
+## Outils mobilisés
+
+`tensorflow` · `keras` · `pytorch` · `numpy` · `matplotlib` · `tensorboard`
+`opencv` · `transformers` (HuggingFace, intro)
+
+## Prolongements
+
+Module qui prépare **[NLP](nlp.qmd)** (Transformers, LLM)
+et **[Generative Computer Vision](generative-computer-vision.qmd)** (GANs, diffusion).

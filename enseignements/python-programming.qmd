@@ -1,0 +1,86 @@
+---
+title: "Python Programming · Advanced Python"
+subtitle: "Du fondamental au niveau avancé · LMAD / MDSI · 84h (42 + 42)"
+toc: true
+---
+
+## Présentation
+
+Deux modules complémentaires créés en **2022–2023** :
+
+- **Python Programming** (S1, 42h) — initiation et fondamentaux
+- **Advanced Python Programming** (S2, 42h) — patterns avancés et écosystème data
+
+Couverture orientée **data science** et **IA**, avec focus sur la
+reproductibilité (seeds, environnements, packaging).
+
+## Acquis d'apprentissage
+
+### Python Programming (initiation)
+
+- **AA1** — Maîtriser la syntaxe de base (variables, contrôle, fonctions)
+- **AA2** — Manipuler les structures de données (listes, dicts, sets, tuples)
+- **AA3** — Comprendre la POO (classes, héritage, polymorphisme)
+- **AA4** — Lire/écrire des fichiers et utiliser les modules standards
+- **AA5** — Écrire du code testable (unittest, pytest)
+
+### Advanced Python (avancé)
+
+- **AA6** — Décorateurs, generators, context managers, descriptors
+- **AA7** — Programmation fonctionnelle (map, filter, reduce, partial)
+- **AA8** — Gestion de packages (pip, poetry, virtualenv, pyproject.toml)
+- **AA9** — Async/await et concurrence (asyncio, threading, multiprocessing)
+- **AA10** — Performance (profiling, vectorisation NumPy, Cython, Numba)
+- **AA11** — Écosystème data science (NumPy, Pandas, scikit-learn)
+
+## Supports pédagogiques
+
+| Type | Description | Lien |
+|---|---|---|
+| Polycopié | Cours *book* avec exercices corrigés | [PDF](#) |
+| Slides | Beamer Metropolis 16:9 | [PDF](#) |
+| TPs hands-on | Notebooks Jupyter avec seeds reproductibles | [PDF + code](#) |
+| Projet | Mini-projet en équipe — outil data science | [Sujet](#) |
+| Repository | Code source | [GitHub](https://github.com/Aymenbenbrik) |
+
+## Plan détaillé
+
+### Python Programming (S1)
+
+1. **Bases du langage** : types, opérateurs, contrôle de flux
+2. **Fonctions** : arguments, *args, **kwargs, lambdas, scoping
+3. **Structures de données** : listes, dicts, sets, tuples, comprehensions
+4. **Modules et packages** : import, structure d'un package
+5. **POO** : classes, méthodes, héritage, polymorphisme, dunder methods
+6. **Fichiers et exceptions** : I/O, gestion des erreurs
+7. **Standard Library** : itertools, functools, collections, datetime
+8. **Tests** : pytest, fixtures, mocks
+
+### Advanced Python (S2)
+
+1. **Idiomes Python** : zen of Python, PEP 8, typage statique
+2. **Décorateurs** : fonctions, classes, paramétrés
+3. **Generators et iterators** : yield, itertools avancé
+4. **Context managers** : with, contextlib, exit stacks
+5. **Programmation fonctionnelle** : higher-order functions, currying
+6. **Concurrence** : threading, multiprocessing, asyncio
+7. **Performance** : profiling, NumPy vectorisation, Numba JIT
+8. **Packaging et déploiement** : poetry, Docker, CI/CD
+
+## Outils mobilisés
+
+`python>=3.10` · `numpy` · `pandas` · `pytest` · `mypy` · `black` · `ruff`
+`poetry` · `jupyter` · `numba` · `asyncio` · `requests`
+
+## Reproductibilité
+
+Tous les TPs utilisent des **seeds reproductibles** garantissant que
+chaque étudiant obtient les mêmes résultats expérimentaux. Cela
+facilite le debugging, l'évaluation et la collaboration.
+
+## Prolongements
+
+Modules transverses qui sous-tendent **[Machine Learning](machine-learning.qmd)**,
+**[Deep Learning](deep-learning.qmd)**, **[NLP](nlp.qmd)**,
+**[Generative Computer Vision](generative-computer-vision.qmd)**
+et **[Tools for Machine Learning](tools-for-ml.qmd)**.

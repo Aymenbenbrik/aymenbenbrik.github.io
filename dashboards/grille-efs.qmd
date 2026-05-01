@@ -1,100 +1,392 @@
 ---
-title: "Grille EFS — Score actuel"
-subtitle: "Décomposition par rubrique de la grille de passage de grade"
-toc: true
+title: "Grille EFS — Score auto-évalué /340"
+subtitle: "Tracker du dossier de passage de grade · Aymen Ben Brik · Session 2026-2027"
+format:
+  dashboard:
+    orientation: rows
+    scrolling: true
+    nav-buttons:
+      - icon: house
+        href: ../index.html
+      - icon: file-pdf
+        href: ../cv.html
 ---
 
-## Score global
-
-Le score total du dossier EFS est calculé sur **340 points**, répartis
-sur 6 grilles d'évaluation. Cette page calcule automatiquement
-l'avancement à partir des données saisies.
-
 ```{python}
-#| echo: false
+#| context: setup
 import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+import pandas as pd
 
-# Saisie manuelle du score auto-évalué — à mettre à jour au fur et à mesure
-SCORES = {
-    "Livrable 1 — RDI (/90)":              {"obtenu": 0, "max": 90},
-    "Livrable 2 — Pédagogique (/65)":      {"obtenu": 0, "max": 65},
-    "Grille 3.1 — RDI/Socio (/20)":        {"obtenu": 0, "max": 20},
-    "Grille 3.2 — Pédagogique (/35)":      {"obtenu": 0, "max": 35},
-    "Grille 3.3 — Rayonnement (/60)":      {"obtenu": 0, "max": 60},
-    "Grille 4 — Présentation (/70)":       {"obtenu": 0, "max": 70},
+COLOR_PRIMARY = "#C8102E"
+COLOR_OK = "#2E7D32"
+
+# === SCORES AUTO-EVALUES (a mettre a jour) ===
+LIVRABLES = {
+    "Livrable 1 — Production RDI": {
+        "obtenu": 0, "max": 90,
+        "icon": "📄",
+        "rubriques": [
+            ("Publications scientifiques", 0, 50),
+            ("Production technique", 0, 20),
+            ("Projet RDI 2 ans", 0, 20),
+        ],
+    },
+    "Livrable 2 — Production Pédagogique": {
+        "obtenu": 0, "max": 65,
+        "icon": "🎓",
+        "rubriques": [
+            ("Supports pédagogiques (SPOC, capsules)", 0, 30),
+            ("Intégration de technologies", 0, 20),
+            ("Apport de l'expérience professionnelle", 0, 15),
+        ],
+    },
+    "Livrable 3 — Grille 3.1 RDI/Socio": {
+        "obtenu": 0, "max": 20,
+        "icon": "🌍",
+        "rubriques": [
+            ("Activités socio-éco / socio-culturel", 0, 4),
+            ("Encadrements RDI / Socio-culturels", 0, 5),
+            ("Contribution équipes RDI", 0, 3),
+            ("Coaching clubs / associations", 0, 4),
+            ("Produits grand public", 0, 4),
+        ],
+    },
+    "Livrable 3 — Grille 3.2 Pédagogique": {
+        "obtenu": 0, "max": 35,
+        "icon": "📚",
+        "rubriques": [
+            ("Accompagnement Moniteurs/AT/EF", 0, 10),
+            ("Développement professionnel", 0, 10),
+            ("Enseignements (création modules)", 0, 7.5),
+            ("Encadrement étudiants (PFE, projets)", 0, 7.5),
+        ],
+    },
+    "Livrable 3 — Grille 3.3 Rayonnement": {
+        "obtenu": 0, "max": 60,
+        "icon": "🏆",
+        "rubriques": [
+            ("Animation de formations", 0, 10),
+            ("Organisation de manifestations", 0, 10),
+            ("Responsabilités péda/admin", 0, 20),
+            ("Pilotage événements scientifiques", 0, 5),
+            ("Contrats-projets entreprises", 0, 10),
+            ("Jurys recrutement / passage de grade", 0, 5),
+        ],
+    },
+    "Grille 4 — Dossier & Entretien": {
+        "obtenu": 0, "max": 70,
+        "icon": "💬",
+        "rubriques": [
+            ("Évaluation du Dossier", 0, 20),
+            ("Évaluation de la Présentation", 0, 20),
+            ("Évaluation de l'Entretien", 0, 30),
+        ],
+    },
 }
 
-total_obtenu = sum(s["obtenu"] for s in SCORES.values())
-total_max = sum(s["max"] for s in SCORES.values())
+total_obtenu = sum(v["obtenu"] for v in LIVRABLES.values())
+total_max = sum(v["max"] for v in LIVRABLES.values())
 pct = round(100 * total_obtenu / total_max, 1) if total_max else 0
 
+def gauge(value, max_val, title, color=COLOR_PRIMARY, height=180):
+    fig = go.Figure(go.Indicator(
+        mode="gauge+number",
+        value=value,
+        domain={"x": [0, 1], "y": [0, 1]},
+        title={"text": title, "font": {"size": 13}},
+        gauge={
+            "axis": {"range": [0, max_val], "tickfont": {"size": 10}},
+            "bar": {"color": color, "thickness": 0.85},
+            "bgcolor": "white",
+            "borderwidth": 1,
+            "bordercolor": "#DDD",
+            "steps": [
+                {"range": [0, max_val * 0.5], "color": "#FFEBEE"},
+                {"range": [max_val * 0.5, max_val * 0.75], "color": "#FFCDD2"},
+                {"range": [max_val * 0.75, max_val], "color": "#EF9A9A"},
+            ],
+            "threshold": {"line": {"color": "black", "width": 2},
+                           "thickness": 0.85, "value": max_val * 0.7},
+        },
+    ))
+    fig.update_layout(height=height, margin=dict(l=15, r=15, t=40, b=10),
+                       font=dict(family="Inter, sans-serif"))
+    return fig
+```
+
+# Score global
+
+## Row {height=15%}
+
+```{python}
+#| content: valuebox
+#| title: "Score total auto-evalue"
+dict(
+    icon="trophy-fill",
+    color="primary",
+    value=f"{total_obtenu} / {total_max}",
+)
+```
+
+```{python}
+#| content: valuebox
+#| title: "Progression"
+dict(
+    icon="graph-up-arrow",
+    color="info",
+    value=f"{pct}%",
+)
+```
+
+```{python}
+#| content: valuebox
+#| title: "Seuil indicatif (70%)"
+dict(
+    icon="bullseye",
+    color="warning",
+    value=f"{int(total_max * 0.70)} pts",
+)
+```
+
+```{python}
+#| content: valuebox
+#| title: "Reste a obtenir"
+dict(
+    icon="hourglass-split",
+    color="secondary",
+    value=int(total_max - total_obtenu),
+)
+```
+
+```{python}
+#| content: valuebox
+#| title: "Livrables a finaliser"
+n_left = sum(1 for v in LIVRABLES.values() if v["obtenu"] < v["max"])
+dict(
+    icon="list-check",
+    color="danger",
+    value=n_left,
+)
+```
+
+## Row {height=42%}
+
+### Column {width=55%}
+
+```{python}
+#| title: "Jauge globale /340"
 fig = go.Figure(go.Indicator(
     mode="gauge+number+delta",
     value=total_obtenu,
+    delta={"reference": int(total_max * 0.70),
+            "increasing": {"color": COLOR_OK},
+            "decreasing": {"color": COLOR_PRIMARY}},
     domain={"x": [0, 1], "y": [0, 1]},
-    title={"text": f"Score auto-évalué / {total_max}"},
+    title={"text": f"<b>Score / {total_max}</b>", "font": {"size": 18}},
     gauge={
-        "axis": {"range": [0, total_max]},
-        "bar": {"color": "#C8102E"},
+        "axis": {"range": [0, total_max], "tickwidth": 1},
+        "bar": {"color": COLOR_PRIMARY, "thickness": 0.85},
         "steps": [
-            {"range": [0, total_max * 0.5],  "color": "#FFEBEE"},
-            {"range": [total_max * 0.5, total_max * 0.75], "color": "#FFCDD2"},
-            {"range": [total_max * 0.75, total_max], "color": "#EF9A9A"},
+            {"range": [0, total_max * 0.5], "color": "#FFEBEE"},
+            {"range": [total_max * 0.5, total_max * 0.7], "color": "#FFCDD2"},
+            {"range": [total_max * 0.7, total_max * 0.85], "color": "#FFE0B2"},
+            {"range": [total_max * 0.85, total_max], "color": "#C8E6C9"},
         ],
-        "threshold": {"line": {"color": "black", "width": 3}, "thickness": 0.85,
-                       "value": total_max * 0.7},
+        "threshold": {"line": {"color": "black", "width": 4},
+                       "thickness": 0.9, "value": int(total_max * 0.70)},
     },
 ))
-fig.update_layout(height=320, margin=dict(l=20, r=20, t=40, b=10))
+fig.update_layout(height=380, margin=dict(l=20, r=20, t=60, b=20),
+                   font=dict(family="Inter, sans-serif"))
 fig.show()
-
-print(f"\nProgression globale : {pct} %")
 ```
 
-## Décomposition par grille
+### Column {width=45%}
 
 ```{python}
-#| echo: false
-import plotly.graph_objects as go
+#| title: "Progression par livrable (obtenu / restant)"
+labels = list(LIVRABLES.keys())
+obtenus = [LIVRABLES[k]["obtenu"] for k in labels]
+maxs    = [LIVRABLES[k]["max"] - LIVRABLES[k]["obtenu"] for k in labels]
+totaux = [LIVRABLES[k]["max"] for k in labels]
 
-labels = list(SCORES.keys())
-obtenus = [SCORES[k]["obtenu"] for k in labels]
-maxs    = [SCORES[k]["max"] - SCORES[k]["obtenu"] for k in labels]
-
-fig = go.Figure(data=[
-    go.Bar(name="Obtenu", x=obtenus, y=labels, orientation="h", marker_color="#C8102E"),
-    go.Bar(name="Reste",   x=maxs,    y=labels, orientation="h", marker_color="#E0E0E0"),
-])
+fig = go.Figure()
+fig.add_trace(go.Bar(
+    name="Obtenu", x=obtenus, y=labels, orientation="h",
+    text=[f"{o}/{t}" for o, t in zip(obtenus, totaux)],
+    textposition="inside",
+    marker_color=COLOR_PRIMARY,
+))
+fig.add_trace(go.Bar(
+    name="Reste", x=maxs, y=labels, orientation="h",
+    marker_color="#E0E0E0",
+))
 fig.update_layout(
     barmode="stack", template="plotly_white", height=380,
-    margin=dict(l=10, r=10, t=10, b=10),
-    xaxis_title="Points", legend=dict(orientation="h", y=-0.15),
+    margin=dict(l=10, r=20, t=20, b=20),
+    xaxis_title="Points", yaxis=dict(autorange="reversed"),
+    legend=dict(orientation="h", y=-0.2, x=0.5, xanchor="center"),
+    font=dict(family="Inter, sans-serif"),
 )
 fig.show()
 ```
 
-## Détail par sous-rubrique
+## Row {height=43%}
 
-| Grille | Sous-rubrique | Barème | Auto-éval. |
-|---|---|---:|---:|
-| **3.1 RDI/Socio** | Activités socio-éco/socio-culturel | /4 | 0 |
-|  | Encadrements RDI/Socio | /5 | 0 |
-|  | Contribution équipes RDI | /3 | 0 |
-|  | Coaching clubs/assos | /4 | 0 |
-|  | Produits grand public | /4 | 0 |
-| **3.2 Pédagogique** | Accompagnement Moniteurs/AT/EF | /10 | 0 |
-|  | Développement professionnel | /10 | 0 |
-|  | Enseignements (nouveaux modules) | /7.5 | 0 |
-|  | Encadrement étudiants (PFE, projets) | /7.5 | 0 |
-| **3.3 Rayonnement** | Animation de formations | /10 | 0 |
-|  | Organisation manifestations | /10 | 0 |
-|  | Responsabilités péda/admin | /20 | 0 |
-|  | Pilotage événements | /5 | 0 |
-|  | Contrats-projets entreprises | /10 | 0 |
-|  | Jurys recrutement/grade | /5 | 0 |
+### Column
 
-::: {.callout-note}
-Cette table est saisie manuellement pour le moment. Une fois les CSVs
-remplis (encadrements, certifications, événements, etc.), elle pourra
-être calculée automatiquement à partir de règles de comptabilisation.
+```{python}
+#| title: "Jauges Livrable 1 (RDI /90) et Livrable 2 (Pédagogique /65)"
+fig = make_subplots(
+    rows=1, cols=2,
+    specs=[[{"type": "indicator"}, {"type": "indicator"}]],
+    subplot_titles=("Livrable 1 — RDI", "Livrable 2 — Pédagogique"),
+)
+keys = list(LIVRABLES.keys())[:2]
+for i, k in enumerate(keys):
+    v = LIVRABLES[k]
+    fig.add_trace(go.Indicator(
+        mode="gauge+number",
+        value=v["obtenu"],
+        gauge={
+            "axis": {"range": [0, v["max"]]},
+            "bar": {"color": COLOR_PRIMARY},
+            "steps": [
+                {"range": [0, v["max"] * 0.5], "color": "#FFEBEE"},
+                {"range": [v["max"] * 0.5, v["max"] * 0.7], "color": "#FFCDD2"},
+                {"range": [v["max"] * 0.7, v["max"]], "color": "#EF9A9A"},
+            ],
+            "threshold": {"line": {"color": "black", "width": 2},
+                           "thickness": 0.85, "value": v["max"] * 0.7},
+        },
+    ), row=1, col=i + 1)
+fig.update_layout(height=320, margin=dict(l=20, r=20, t=50, b=10),
+                   font=dict(family="Inter, sans-serif"))
+fig.show()
+```
+
+### Column
+
+```{python}
+#| title: "Jauges Livrable 3 (3.1 + 3.2 + 3.3) et Grille 4"
+fig = make_subplots(
+    rows=1, cols=4,
+    specs=[[{"type": "indicator"}, {"type": "indicator"}, {"type": "indicator"}, {"type": "indicator"}]],
+    subplot_titles=("3.1 RDI/Socio", "3.2 Pédagogique", "3.3 Rayonnement", "G4 Présentation"),
+)
+keys = list(LIVRABLES.keys())[2:]
+for i, k in enumerate(keys):
+    v = LIVRABLES[k]
+    fig.add_trace(go.Indicator(
+        mode="gauge+number",
+        value=v["obtenu"],
+        gauge={
+            "axis": {"range": [0, v["max"]], "tickfont": {"size": 9}},
+            "bar": {"color": COLOR_PRIMARY},
+            "steps": [
+                {"range": [0, v["max"] * 0.5], "color": "#FFEBEE"},
+                {"range": [v["max"] * 0.5, v["max"] * 0.7], "color": "#FFCDD2"},
+                {"range": [v["max"] * 0.7, v["max"]], "color": "#EF9A9A"},
+            ],
+            "threshold": {"line": {"color": "black", "width": 2},
+                           "thickness": 0.85, "value": v["max"] * 0.7},
+        },
+    ), row=1, col=i + 1)
+fig.update_layout(height=320, margin=dict(l=10, r=10, t=50, b=10),
+                   font=dict(family="Inter, sans-serif"))
+fig.show()
+```
+
+# Décomposition par sous-rubrique
+
+## Row
+
+```{python}
+#| title: "Sunburst : Livrable → Sous-rubrique (avancement)"
+rows = []
+for liv, info in LIVRABLES.items():
+    for rub_name, rub_obtenu, rub_max in info["rubriques"]:
+        rows.append({"livrable": liv, "rubrique": rub_name, "max": rub_max,
+                     "obtenu": rub_obtenu, "reste": rub_max - rub_obtenu})
+
+df_rub = pd.DataFrame(rows)
+
+import plotly.express as px
+fig = px.sunburst(
+    df_rub,
+    path=["livrable", "rubrique"],
+    values="max",
+    color="obtenu",
+    color_continuous_scale=[[0, "#FFEBEE"], [0.5, "#EF9A9A"], [1, "#2E7D32"]],
+    hover_data=["obtenu", "reste"],
+)
+fig.update_layout(height=520, margin=dict(l=10, r=10, t=20, b=10),
+                   font=dict(family="Inter, sans-serif"))
+fig.show()
+```
+
+## Row
+
+```{python}
+#| title: "Détail des sous-rubriques avec barres de progression"
+import pandas as pd
+
+rows_table = []
+for liv, info in LIVRABLES.items():
+    for rub_name, rub_obtenu, rub_max in info["rubriques"]:
+        pct = round(100 * rub_obtenu / rub_max, 1) if rub_max else 0
+        bar = "█" * int(pct / 5) + "░" * (20 - int(pct / 5))
+        rows_table.append({
+            "Livrable": liv,
+            "Sous-rubrique": rub_name,
+            "Barème": f"/{rub_max}",
+            "Obtenu": rub_obtenu,
+            "Avancement": bar,
+            "%": f"{pct}%",
+        })
+
+df_table = pd.DataFrame(rows_table)
+from itables import init_notebook_mode, show
+init_notebook_mode(all_interactive=True)
+show(df_table, lengthMenu=[10, 25], classes="display compact", paging=False)
+```
+
+# Aide
+
+## Row
+
+::: {.card title="Comment mettre à jour les scores"}
+
+Le tableau de bord lit ses scores depuis le dictionnaire `LIVRABLES` défini en
+tête du fichier `dashboards/grille-efs.qmd`. Pour mettre à jour :
+
+1. Ouvrir `dashboards/grille-efs.qmd`
+2. Modifier les valeurs `obtenu` dans la section `LIVRABLES = {...}`
+3. Re-build : `quarto render` (ou push si workflow GitHub Actions actif)
+
+Toutes les jauges, valueboxes, sunburst et tableau se recalculent automatiquement.
+
+:::
+
+::: {.card title="Détail des seuils"}
+
+| Couleur jauge | Plage |
+|---|---|
+| Rouge clair (#FFEBEE) | 0 – 50 % |
+| Rose | 50 – 70 % |
+| Orange | 70 – 85 % |
+| Vert | 85 – 100 % |
+
+Le **seuil noir vertical à 70 %** indique le minimum recommandé par grille.
+
+:::
+
+::: {.card title="Liens vers les livrables"}
+
+- Livrable 1 — `Passage de grade/Livrable_1_Production_RDI/`
+- Livrable 2 — `Passage de grade/Livrable_2_Production_Pedagogique/`
+- Livrable 3 — `Passage de grade/Rapport_Synthese/`
+- Procédure officielle — `Procédure de Passage aux Grades EFS-PLCCS ESB _02_2026.pdf`
+
 :::

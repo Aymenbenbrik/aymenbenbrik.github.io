@@ -1,44 +1,146 @@
 ---
-title: "Recherche"
-subtitle: "Publications, communications, projets RDI"
+title: "Recherche & Production scientifique"
+subtitle: "Head of Research Team AI4U · Mémoires · Partenariats · Veille"
 toc: true
-bibliography: data/publications.bib
 ---
+
+## Head of Research Team AI4U · Esprit Tech · depuis 2023
+
+::: {.card-module}
+### AI4U — Artificial Intelligence 4 University
+Direction d'une équipe de recherche dédiée aux applications de
+l'intelligence artificielle dans l'enseignement supérieur.
+
+**Axes de recherche :**
+
+- Pédagogie augmentée par l'IA et la **GenAI**
+- Génération automatique de contenus pédagogiques
+- Évaluation augmentée par l'IA
+- LLMs, Transformers et NLP appliqués à l'enseignement
+- Computer Vision pour l'analyse de productions étudiantes
+- Outils de personnalisation de l'apprentissage
+:::
+
+## HUU Task Force AI Team · Honoris United University · depuis 2024
+
+::: {.card-module}
+### Representative of ESB
+Représentation d'ESB au sein de la Task Force AI du réseau **Honoris
+United University** (11 institutions, 10 pays). Coordination
+inter-institutions sur les enjeux IA stratégiques.
+:::
+
+## Mémoire de Master (2010)
+
+::: {.card-module}
+### Equidistribution of Eigenvalues of Hecke Operators Applied to Modular Forms
+**Faculty of Sciences of Tunis** — Master's Degree in Fundamental
+Mathematics, **Number Theory**. **Honors: Very Good.**
+
+Étude asymptotique des valeurs propres des opérateurs de Hecke agissant
+sur les formes modulaires, dans la lignée des travaux sur les
+conjectures de Sato-Tate.
+:::
 
 ## Domaines de recherche
 
-À compléter — résumer les axes de recherche actuels et passés.
+::: {.grid}
+::: {.g-col-6}
+### Mathématiques pures
+- Théorie des nombres
+- Formes modulaires, opérateurs de Hecke
+- Arithmétique et mathématiques discrètes
+:::
+
+::: {.g-col-6}
+### Mathématiques appliquées & Data Science
+- Recherche opérationnelle, optimisation
+- Modélisation stochastique
+- Machine Learning, Deep Learning
+- NLP, Transformers, LLM
+- Generative AI, Computer Vision
+- Séries temporelles, ARIMA/SARIMA
+- Actuariat, mouvement Brownien, Monte Carlo
+- Portfolio Optimization
+:::
+:::
+
+## Écoles d'été et formation continue à la recherche
+
+::: {.card-module}
+### CIMPA 2019 · Été 2019
+**Science des données pour l'ingénierie et la technologie**
+
+Centre International de Mathématiques Pures et Appliquées.
+:::
+
+::: {.card-module}
+### IHEC SUMMER SCHOOL · Été 2018
+**Data Science for Finance** — IHEC Carthage.
+:::
+
+## Partenariats internationaux
+
+::: {.card-module}
+### Jems Group · 2024 — présent
+Partenariat industriel pour le programme **Alternance Business Analytics
+oriented Generative AI**. Co-Responsable du programme.
+:::
+
+::: {.card-module}
+### Université de Montpellier · 2019–2020
+Accord de partenariat (master MIND, licence Mathématique-Informatique).
+Réunion avec M. Ali Ganoun.
+:::
+
+::: {.card-module}
+### SUP'DE COM Lyon · Programme ERASMUS
+Extension du partenariat aux licences (auparavant limité aux masters).
+:::
+
+::: {.card-module}
+### Honoris United University (HUU) · depuis 2024
+Réseau de 11 institutions d'enseignement supérieur sur 10 pays —
+Task Force AI.
+:::
+
+## Formations dispensées (AI Instructor)
+
+En tant qu'**AI Instructor** au Training of Trainers Departement (depuis 2023),
+sessions sur :
+
+- **Artificial Intelligence** — fondamentaux
+- **Machine Learning** — algorithmes supervisés / non supervisés
+- **Deep Learning** — DNN, CNN, RNN, attention
+- **Data Analysis** — pipelines complets
+- **NLP** — Natural Language Processing
+- **Transformers** — architectures attention
+- **LLM** — Large Language Models
+
+## Reviewing & expertise
+
+À compléter (selon participations à comités de relecture).
+
+## Veille technologique
+
+Voir [Certifications](certifications.qmd) — 16 certifications obtenues
+(Spécialisation Deep Learning Coursera, Udemy data science, pédagogie).
 
 ## Publications
 
-### Articles dans des revues à comité de lecture
-
 À compléter — voir `data/publications.bib`.
 
-### Chapitres d'ouvrages
+## Projet RDI 2026–2028
 
-À compléter.
-
-### Communications dans des conférences
-
-À compléter.
-
-## Projets RDI
+Section requise par le **Livrable 1** du dossier de passage de grade EFS.
 
 ::: {.card-module}
-### [Titre du projet] (Année–Année)
-**Rôle** · **Partenaires** · **Financement**
-
-Résumé du projet à compléter.
+### Axes
+1. **Pédagogie augmentée par GenAI** — capsules génératives, simulateurs LLM, évaluation automatisée
+2. **AI4U — outils de personnalisation de l'apprentissage** dans l'enseignement supérieur
+3. **Computer Vision générative** appliquée à l'analyse de productions étudiantes
+4. **NLP / LLM** pour l'aide à l'apprentissage
 :::
 
-## Reviewing
-
-À compléter — revues / conférences pour lesquelles vous avez été reviewer.
-
-## Projets RDI à venir (2 ans)
-
-Section requise par le Livrable 1 du dossier EFS.
-
-À compléter — projets de recherche, développement et innovation
-prévus pour les deux prochaines années.
+À détailler avec objectifs scientifiques, plan de travail trimestriel,
+productions attendues, partenariats Jems Group / HUU / Esprit Tech.

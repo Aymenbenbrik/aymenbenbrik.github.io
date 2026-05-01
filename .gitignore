@@ -26,3 +26,6 @@ desktop.ini
 # Secrets
 .env
 .env.local
+
+/.quarto/
+**/*.quarto_ipynb

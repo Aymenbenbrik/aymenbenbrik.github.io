@@ -4,9 +4,9 @@ project:
 
 website:
   title: "Aymen Ben Brik"
-  description: "Enseignant Formateur — Esprit School of Business"
+  description: "Head of Department CSAM · Esprit School of Business · AI4U Lead"
   site-url: https://aymen-benbrik.github.io
-  repo-url: https://github.com/aymen-benbrik/aymen-benbrik.github.io
+  repo-url: https://github.com/Aymenbenbrik/aymen-benbrik.github.io
   favicon: images/favicon.png
   reader-mode: false
   page-navigation: true
@@ -22,17 +22,34 @@ website:
       - text: Enseignements
         menu:
           - href: enseignements/index.qmd
-            text: Vue d'ensemble
+            text: "Vue d'ensemble"
+          - text: "── Mathématiques ──"
           - href: enseignements/algebre2.qmd
-            text: Algèbre 2 (ECUE211)
+            text: "Algèbre 2 (ECUE211)"
           - href: enseignements/algebre3.qmd
-            text: Algèbre 3 (ECUE311)
+            text: "Algèbre 3 (ECUE311)"
           - href: enseignements/probabilites.qmd
-            text: Probabilités (ECUE411)
+            text: "Probabilités (ECUE411)"
           - href: enseignements/analyse4.qmd
-            text: Analyse 4 (ECUE421)
+            text: "Analyse 4 (ECUE421)"
           - href: enseignements/recherche-operationnelle.qmd
-            text: Recherche Opérationnelle (ECUEO412)
+            text: "Recherche Opérationnelle (ECUEO412)"
+          - text: "── Data Science & IA ──"
+          - href: enseignements/machine-learning.qmd
+            text: "Machine Learning"
+          - href: enseignements/deep-learning.qmd
+            text: "Deep Learning"
+          - href: enseignements/nlp.qmd
+            text: "NLP"
+          - href: enseignements/generative-computer-vision.qmd
+            text: "Generative Computer Vision"
+          - href: enseignements/python-programming.qmd
+            text: "Python Programming"
+          - href: enseignements/tools-for-ml.qmd
+            text: "Tools for ML"
+          - text: "── Finance & Actuariat ──"
+          - href: enseignements/portfolio-optimization.qmd
+            text: "Portfolio Optimization"
       - href: encadrements.qmd
         text: Encadrements
       - href: recherche.qmd
@@ -46,11 +63,11 @@ website:
       - text: Dashboards
         menu:
           - href: dashboards/index.qmd
-            text: Vue d'ensemble
+            text: "Vue d'ensemble"
           - href: dashboards/evolution.qmd
-            text: Évolution annuelle
+            text: "Évolution & Activités"
           - href: dashboards/grille-efs.qmd
-            text: Grille EFS
+            text: "Grille EFS — Score /340"
       - href: cv.qmd
         text: CV
     right:
@@ -61,7 +78,7 @@ website:
         href: "https://www.linkedin.com/in/aymen-ben-brik"
         aria-label: LinkedIn
       - icon: github
-        href: "https://github.com/aymen-benbrik"
+        href: "https://github.com/Aymenbenbrik"
         aria-label: GitHub
 
   page-footer:

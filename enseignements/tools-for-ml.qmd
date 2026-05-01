@@ -1,0 +1,65 @@
+---
+title: "Tools for Machine Learning"
+subtitle: "Outils et écosystème · LMAD / MDSI · 42h"
+toc: true
+---
+
+## Présentation
+
+Module créé en **2024–2025**, axé sur l'**écosystème opérationnel** du
+ML : versioning, expérimentation, déploiement, MLOps. Approche
+ingénieur — savoir choisir les bons outils et les intégrer dans un
+pipeline reproductible.
+
+## Acquis d'apprentissage
+
+- **AA1** — Versionner code, données et modèles (Git, DVC, MLflow)
+- **AA2** — Tracker les expériences ML (MLflow, Weights & Biases)
+- **AA3** — Containeriser un modèle (Docker)
+- **AA4** — Déployer une API d'inférence (FastAPI, Flask)
+- **AA5** — Construire un pipeline CI/CD ML (GitHub Actions)
+- **AA6** — Surveiller un modèle en production (drift, performance)
+- **AA7** — Automatiser le tuning d'hyperparamètres (Optuna, Ray Tune)
+- **AA8** — Visualiser et communiquer les résultats (Streamlit, Gradio, Plotly)
+
+## Supports pédagogiques
+
+| Type | Description | Lien |
+|---|---|---|
+| Polycopié | Cours *book* | [PDF](#) |
+| Slides | Beamer Metropolis 16:9 | [PDF](#) |
+| TPs hands-on | Pipeline complet end-to-end | [PDF + code](#) |
+| Projet | Déployer un modèle ML en production | [Sujet](#) |
+| Repository | Code source | [GitHub](https://github.com/Aymenbenbrik) |
+
+## Plan détaillé
+
+1. **Versioning** : Git avancé, branches, GitHub workflows
+2. **Data versioning** : DVC, LakeFS, alternatives
+3. **Expérimentation** : MLflow tracking, W&B, comparaison de runs
+4. **Tuning d'hyperparamètres** : Optuna, Ray Tune, Bayesian Optimization
+5. **Containerisation** : Docker pour ML, multi-stage builds
+6. **API d'inférence** : FastAPI, validation Pydantic, sécurité
+7. **Déploiement** : cloud (AWS SageMaker, GCP Vertex, Azure ML), on-prem
+8. **MLOps** : CI/CD pipelines, tests, monitoring
+9. **Drift detection** : Evidently, Alibi Detect
+10. **Interfaces utilisateur** : Streamlit, Gradio, Dash
+
+## Outils mobilisés
+
+`git` · `dvc` · `mlflow` · `wandb` · `docker` · `fastapi` · `streamlit`
+`gradio` · `optuna` · `ray` · `evidently` · `prefect` · `airflow`
+`github-actions` · `pre-commit`
+
+## Liens avec mes activités
+
+- **Tekouin Administrator** (depuis 2020) — plateforme e-Learning de coding
+- **AI Instructor** (depuis 2023) — sessions outils ML pour formateurs
+- **Head of Research Team AI4U** — outils intégrés dans les workflows recherche
+
+## Prolongements
+
+Module pratique qui consolide **[Machine Learning](machine-learning.qmd)**,
+**[Deep Learning](deep-learning.qmd)**, **[NLP](nlp.qmd)** et
+**[Python Programming](python-programming.qmd)** dans une perspective
+opérationnelle.

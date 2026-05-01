@@ -1,6 +1,6 @@
 ---
 title: "Aymen Ben Brik"
-subtitle: "Enseignant Formateur — Esprit School of Business"
+subtitle: "Mathematician · Statistician · Data Scientist"
 about:
   template: trestles
   image: images/photo.jpg
@@ -15,7 +15,7 @@ about:
       href: "https://www.linkedin.com/in/aymen-ben-brik"
     - icon: github
       text: GitHub
-      href: "https://github.com/aymen-benbrik"
+      href: "https://github.com/Aymenbenbrik"
     - icon: file-pdf
       text: CV
       href: cv.qmd
@@ -24,13 +24,19 @@ toc: false
 
 ## Bienvenue
 
-Enseignant Formateur en mathématiques appliquées et data science à
-**Esprit School of Business**, je conçois et coordonne des modules pour
-les filières LMAD, MDSI, MKD, MBA et GAMMA.
+**Head of Department CSAM** (Computer Science & Applied Mathematics)
+à **Esprit School of Business** depuis 2019,
+**Head of Research Team AI4U** chez **Esprit Tech** depuis 2023,
+et **AI Instructor** au Training of Trainers Departement.
 
-Ce site centralise mes activités pédagogiques, mes encadrements,
-mes travaux de recherche, mes responsabilités et mon évolution
-année après année.
+Représentant d'ESB à la **Honoris Task Force AI Team (HUU)** et
+**Co-Responsable du programme Alternance Business Analytics oriented
+Generative AI** en partenariat avec **Jems Group**.
+
+Mon enseignement et ma recherche couvrent les **mathématiques appliquées**,
+les **statistiques**, la **recherche opérationnelle**, le **machine learning**,
+le **deep learning** et l'**actuariat**, avec une emphase sur la pédagogie
+augmentée par l'IA.
 
 ## Indicateurs clés
 
@@ -39,50 +45,117 @@ année après année.
 import pandas as pd
 from IPython.display import HTML
 
-# Lecture des données pour les KPI
 try:
     enseignements = pd.read_csv("data/enseignements.csv")
     encadrements = pd.read_csv("data/encadrements.csv")
     certifications = pd.read_csv("data/certifications.csv")
+    responsabilites = pd.read_csv("data/responsabilites.csv")
+
     n_modules = enseignements["module"].nunique()
-    n_heures = int(enseignements["heures"].sum())
+    n_heures_total = int(enseignements["heures"].sum())
     n_etudiants = int(encadrements.shape[0])
     n_certifs = int(certifications.shape[0])
+    n_resp = int(responsabilites.shape[0])
+    n_annees = enseignements["annee_universitaire"].nunique()
 except Exception:
-    n_modules, n_heures, n_etudiants, n_certifs = 5, 369, 0, 0
+    n_modules, n_heures_total, n_etudiants, n_certifs, n_resp, n_annees = 0, 0, 0, 0, 0, 0
 
 html = f"""
 <div style="text-align:center; margin: 2rem 0;">
-  <div class="kpi"><span class="value">{n_modules}</span><span class="label">Modules</span></div>
-  <div class="kpi"><span class="value">{n_heures}</span><span class="label">Heures / an</span></div>
-  <div class="kpi"><span class="value">{n_etudiants}</span><span class="label">Étudiants encadrés</span></div>
+  <div class="kpi"><span class="value">{n_annees}</span><span class="label">Années d'enseignement ESB</span></div>
+  <div class="kpi"><span class="value">{n_modules}</span><span class="label">Modules différents</span></div>
+  <div class="kpi"><span class="value">{n_heures_total}</span><span class="label">Heures cumulées</span></div>
+  <div class="kpi"><span class="value">{n_etudiants}</span><span class="label">Encadrements</span></div>
   <div class="kpi"><span class="value">{n_certifs}</span><span class="label">Certifications</span></div>
+  <div class="kpi"><span class="value">{n_resp}</span><span class="label">Responsabilités</span></div>
 </div>
 """
 HTML(html)
 ```
+
+## Postes actuels
+
+::: {.card-module}
+### Head of Department CSAM · ESB · depuis 2019
+**Computer Science & Applied Mathematics**
+
+Direction du département CSAM, supervision des enseignants, coordination
+pédagogique, jurys de recrutement, partenariats académiques.
+:::
+
+::: {.card-module}
+### Head of Research Team AI4U · Esprit Tech · depuis 2023
+**Artificial Intelligence 4 University**
+
+Direction d'une équipe de recherche dédiée aux applications de
+l'intelligence artificielle dans l'enseignement supérieur.
+:::
+
+::: {.card-module}
+### AI Instructor · Training of Trainers · ESB · depuis 2023
+Sessions de formation spécialisées en **AI, Machine Learning, Deep Learning,
+Data Analysis, NLP, Transformers et LLM** pour les formateurs internes.
+:::
+
+::: {.card-module}
+### Co-Responsible Alternance Program — Generative AI · ESB × Jems Group · depuis 2024
+Programme **Business Analytics oriented to Generative Artificial Intelligence**
+en partenariat avec **Jems Group**.
+:::
+
+::: {.card-module}
+### HUU Task Force AI Team · Honoris United University · depuis 2024
+**Representative of ESB** au sein de la Task Force AI de Honoris United
+University, réseau de 11 institutions d'enseignement supérieur sur 10 pays.
+:::
+
+::: {.card-module}
+### Tekouin Administrator · ESB · depuis 2020
+Administration de la plateforme **Tekouin** — e-learning de coding
+pour les étudiants ESB.
+:::
 
 ## Domaines d'expertise
 
 ::: {.grid}
 ::: {.g-col-6}
 ### Mathématiques appliquées
-- Algèbre linéaire
+- Algèbre linéaire et bilinéaire
 - Analyse à plusieurs variables
-- Probabilités
-- Réduction des endomorphismes
+- Probabilités et statistiques avancées
+- Réduction des endomorphismes, ACP
+- Intégration, théorie de la mesure
 :::
 
 ::: {.g-col-6}
 ### Aide à la décision
 - Recherche opérationnelle
-- Programmation linéaire
-- Théorie des graphes
-- Optimisation
+- Programmation linéaire, simplexe
+- Théorie des graphes, ordonnancement
+- Optimisation de portefeuille
+- Generalized Linear Models
+:::
+
+::: {.g-col-6}
+### IA & Data Science
+- Machine Learning (Python, R)
+- Deep Learning (DNN, CNN, RNN, Transformers)
+- NLP, LLM, Generative AI
+- Generative Computer Vision
+- Tableau, Power BI, Plotly
+:::
+
+::: {.g-col-6}
+### Actuariat & Finance
+- Processus stochastiques, Markov, Poisson
+- Mouvement Brownien, Monte Carlo
+- Gestion de portefeuille
+- Statistiques non paramétriques
+- Modèles linéaires généralisés
 :::
 :::
 
-## Modules enseignés
+## Modules actuels
 
 ::: {.card-module}
 ### [Algèbre 2 (ECUE211)](enseignements/algebre2.qmd)
@@ -107,4 +180,9 @@ Topologie · Calcul différentiel · Descente de gradient — S4 LMAD · 84h · 
 ::: {.card-module}
 ### [Recherche Opérationnelle (ECUEO412)](enseignements/recherche-operationnelle.qmd)
 Programmation linéaire · Théorie des graphes — 42h
+:::
+
+::: {.card-module}
+### Portfolio Optimization · 2025–2026 · NEW
+Optimisation de portefeuille — Master GAMMA / Alternance BA · 42h
 :::

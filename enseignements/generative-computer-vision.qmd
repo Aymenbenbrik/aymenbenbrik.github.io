@@ -1,0 +1,66 @@
+---
+title: "Generative Computer Vision"
+subtitle: "Vision par ordinateur générative · MDSI · 42h"
+toc: true
+---
+
+## Présentation
+
+Module créé en **2024–2025**, à la pointe des techniques de vision
+générative : GANs, diffusion models, vision-language models (CLIP, DALL-E,
+Stable Diffusion, Midjourney-like architectures).
+
+S'inscrit dans le programme stratégique **Alternance BA — Business
+Analytics oriented to Generative AI** (partenariat ESB / **Jems Group**)
+dont je suis Co-Responsable depuis 2024.
+
+## Acquis d'apprentissage
+
+- **AA1** — Maîtriser les fondamentaux de la vision par ordinateur (CNN, segmentation, détection)
+- **AA2** — Comprendre les Autoencodeurs et Variational Autoencoders (VAE)
+- **AA3** — Implémenter des Generative Adversarial Networks (GAN, DCGAN, StyleGAN)
+- **AA4** — Comprendre les diffusion models (DDPM, Stable Diffusion)
+- **AA5** — Manipuler les modèles vision-language (CLIP, BLIP)
+- **AA6** — Générer des images à partir de texte (text-to-image)
+- **AA7** — Évaluer les modèles génératifs (FID, IS, perceptual metrics)
+- **AA8** — Considérations éthiques et deepfakes
+
+## Supports pédagogiques
+
+| Type | Description | Lien |
+|---|---|---|
+| Polycopié | Cours *book* | [PDF](#) |
+| Slides | Beamer Metropolis 16:9 | [PDF](#) |
+| TDs | Énoncés + corrections | [PDF](#) |
+| TPs Python | PyTorch, HuggingFace Diffusers, GANs from scratch | [PDF + code](#) |
+| Projet | Pipeline complet text-to-image personnalisé | [Sujet](#) |
+| Repository | Code source | [GitHub](https://github.com/Aymenbenbrik) |
+
+## Plan détaillé
+
+1. **Rappels CV** : CNN, ResNet, Vision Transformers (ViT)
+2. **Autoencodeurs** : encodage, décodage, débruitage
+3. **VAE** : reparametrization trick, KL divergence
+4. **GANs** : générateur, discriminateur, équilibre de Nash
+5. **Architectures avancées** : DCGAN, Pix2Pix, CycleGAN, StyleGAN
+6. **Diffusion models** : forward/reverse process, DDPM, DDIM
+7. **Stable Diffusion** : latent diffusion, U-Net conditionnel
+8. **Vision-Language Models** : CLIP, BLIP, contrastive learning
+9. **Text-to-image** : DALL-E, Imagen, Stable Diffusion
+10. **Applications** : transfer de style, super-résolution, inpainting
+
+## Outils mobilisés
+
+`torch` · `diffusers` (HuggingFace) · `transformers` · `clip` · `accelerate`
+`opencv` · `pillow` · `matplotlib` · `wandb`
+
+## Liens avec mes activités
+
+- **Co-Responsable Alternance BA-GenAI** (ESB × Jems Group, depuis 2024)
+- **Head of Research Team AI4U** (Esprit Tech, depuis 2023) — applications GenAI dans l'enseignement
+- **AI Instructor** (Training of Trainers, depuis 2023) — sessions Generative AI
+
+## Prolongements
+
+Module phare du virage Generative AI à ESB, complémentaire de
+**[NLP](nlp.qmd)** (générateurs de texte) et **[Deep Learning](deep-learning.qmd)**.

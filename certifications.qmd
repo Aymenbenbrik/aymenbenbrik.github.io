@@ -1,10 +1,101 @@
 ---
 title: "Certifications & Formations"
-subtitle: "Développement professionnel continu"
+subtitle: "Développement professionnel continu — Data Science, Deep Learning, Pédagogie"
 toc: true
 ---
 
-## Vue d'ensemble
+## Synthèse
+
+**16 certifications** obtenues depuis 2018, dont la **Spécialisation Deep Learning
+de deeplearning.ai** sur Coursera (5 cours), un panel de certifications Udemy en
+data science, et une certification pédagogique « Get Interactive: Practical
+Teaching with Technology ».
+
+## Spécialisation Deep Learning · deeplearning.ai · Coursera
+
+::: {.card-module}
+### 1. Neural Networks and Deep Learning · 09/2019
+Fondamentaux des réseaux de neurones, propagation avant et arrière,
+construction d'un réseau profond.
+:::
+
+::: {.card-module}
+### 2. Improving Deep Neural Networks · 09/2019
+*Hyperparameter tuning, Regularization and Optimization* — techniques avancées
+d'amélioration des modèles.
+:::
+
+::: {.card-module}
+### 3. Structuring Machine Learning Projects · 10/2019
+Stratégies pour la conception et le débogage de projets ML.
+:::
+
+::: {.card-module}
+### 4. Convolutional Neural Networks · 10/2019
+Architectures CNN (ResNet, Inception), object detection, segmentation,
+neural style transfer.
+:::
+
+::: {.card-module}
+### 5. Sequence Models · 10/2019
+RNN, LSTM, GRU, attention, modèles séquence-à-séquence,
+applications NLP.
+:::
+
+## Certifications Udemy
+
+| Date | Certification | Description |
+|---|---|---|
+| 06/2019 | **SQL pour la Data Science de A à Z** | Analyse de données réelles |
+| 07/2019 | **Python A-Z** | Python for Data Science With Real-Life Exercises |
+| 07/2019 | **Data Science A-Z** | Real-Life Data Science Exercises |
+| 07/2019 | **Deep Learning A-Z** | Hands-On Artificial Neural Networks |
+| 07/2019 | **Machine Learning A-Z** | Hands-On Python & R in Data Science |
+| 08/2019 | **R Programming** | Advanced Analytics In R For Data Science |
+| 09/2019 | **Time Series Analysis in Python 2019** | ARIMA, SARIMA, modèles avancés |
+| 09/2019 | **Tableau 10 de A à Z** | Hands-On Tableau Training For Data Science |
+
+## Certifications pédagogiques
+
+::: {.card-module}
+### Get Interactive: Practical Teaching with Technology · 12/2019
+Certification dédiée à l'enseignement augmenté par la technologie,
+suivie en complément de la spécialisation data science pour ancrer la
+dimension pédagogique du parcours.
+:::
+
+## Écoles d'été — formation à la recherche
+
+::: {.card-module}
+### CIMPA 2019 · Été 2019
+**Science des données pour l'ingénierie et la technologie**
+
+Centre International de Mathématiques Pures et Appliquées — école d'été
+internationale dédiée à la recherche en data science et IA.
+:::
+
+::: {.card-module}
+### IHEC SUMMER SCHOOL · Été 2018
+**Data Science for Finance**
+
+Institut des Hautes Études Commerciales de Carthage — école d'été
+sur les applications de la data science en finance.
+:::
+
+## Mobilité enseignante
+
+::: {.card-module}
+### SUP'DE COM Lyon · Programme ERASMUS
+Visite des locaux de SUP'DE COM Lyon dans le cadre du programme d'échange
+des enseignants ERASMUS. La visite a permis :
+
+- d'élargir le partenariat (extension de la coopération aux licences,
+  alors qu'elle se limitait aux masters)
+- de découvrir les outils digitaux utilisés pour assurer le bon
+  déroulement des cours
+:::
+
+## Tableau interactif
 
 ```{python}
 #| echo: false
@@ -12,22 +103,7 @@ import pandas as pd
 from itables import init_notebook_mode, show
 init_notebook_mode(all_interactive=True)
 
-try:
-    df = pd.read_csv("data/certifications.csv")
-    df = df.sort_values("date", ascending=False)
-    show(df, lengthMenu=[10, 25, 50], classes="display compact")
-except Exception:
-    print("À compléter — voir data/certifications.csv")
+df = pd.read_csv("data/certifications.csv")
+df = df.sort_values("date", ascending=False)
+show(df, lengthMenu=[10, 25, 50], classes="display compact")
 ```
-
-## Certifications
-
-À compléter — chaque certification avec organisme, date, thème.
-
-## Formations suivies
-
-À compléter — MOOCs, ateliers, formations continues.
-
-## Conférences et séminaires assistés
-
-À compléter.

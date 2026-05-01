@@ -1,0 +1,69 @@
+---
+title: "Portfolio Optimization"
+subtitle: "Optimisation de portefeuille · Master GAMMA / Alternance BA · 42h"
+toc: true
+---
+
+## Présentation
+
+Module créé en **2025–2026**, dédié à l'optimisation de portefeuille
+financier — théorie classique (Markowitz, CAPM) et approches modernes
+(Black-Litterman, Risk Parity, ML-based allocation).
+
+S'inscrit dans la continuité de mon **MSc Applied Mathematics — Actuarial
+Science Track** (Paris Dauphine Tunis) et de mon expertise actuariat
+établie depuis 2016.
+
+## Acquis d'apprentissage
+
+- **AA1** — Théorie moderne du portefeuille (Markowitz)
+- **AA2** — CAPM et modèles à facteurs (Fama-French)
+- **AA3** — Mesures de risque (variance, VaR, CVaR, drawdown)
+- **AA4** — Optimisation sous contraintes (programmation quadratique)
+- **AA5** — Black-Litterman et incorporation de vues subjectives
+- **AA6** — Risk Parity et diversification
+- **AA7** — Méthodes Monte Carlo pour la simulation de portefeuilles
+- **AA8** — Approches ML : reinforcement learning, deep portfolio
+- **AA9** — Backtesting rigoureux et metriques de performance
+
+## Supports pédagogiques
+
+| Type | Description | Lien |
+|---|---|---|
+| Polycopié | Cours *book* | [PDF](#) |
+| Slides | Beamer Metropolis 16:9 | [PDF](#) |
+| TDs | Optimisation analytique + numérique | [PDF](#) |
+| TPs Python | scipy.optimize, cvxpy, riskfolio-lib, Monte Carlo | [PDF + code](#) |
+| Projet | Construction et backtesting d'une stratégie | [Sujet](#) |
+| Repository | Code source | [GitHub](https://github.com/Aymenbenbrik) |
+
+## Plan détaillé
+
+1. **Rappels statistiques financières** : rendements, volatilité, corrélation
+2. **Théorie de Markowitz** : frontière efficiente, portefeuille tangent
+3. **CAPM** : beta, prime de risque, droite de marché
+4. **Modèles à facteurs** : Fama-French, APT
+5. **Mesures de risque** : VaR, CVaR, Expected Shortfall, drawdown
+6. **Optimisation contrainte** : programmation quadratique avec contraintes linéaires
+7. **Black-Litterman** : combinaison de vues subjectives et équilibre
+8. **Risk Parity** : Equal Risk Contribution, leveraging
+9. **Approches ML** : deep portfolio, reinforcement learning trading
+10. **Monte Carlo** : simulations de scénarios, stress testing
+11. **Backtesting** : data leakage, biais de survie, analyse out-of-sample
+
+## Outils mobilisés
+
+`scipy.optimize` · `cvxpy` · `riskfolio-lib` · `pyportfolioopt` · `quantlib`
+`yfinance` · `pandas` · `numpy` · `matplotlib` · `plotly`
+
+## Liens avec mon parcours
+
+- **MSc Applied Mathematics — Actuarial Science Track** (Paris Dauphine Tunis, 2015–2016) — Portfolio Management, Monte Carlo Methods, Linear Models, Brownian Motion
+- **Responsable Master GAMMA** (2021–2024) — Gestion Actuarielle et Modélisation Mathématique
+- **Co-Responsable Alternance BA-GenAI** (depuis 2024) — applications quantitatives en business analytics
+
+## Prolongements
+
+Module à l'intersection de l'**Actuariat**, de la **Recherche Opérationnelle**
+([RO](recherche-operationnelle.qmd)) et du **Machine Learning**
+([ML](machine-learning.qmd)).

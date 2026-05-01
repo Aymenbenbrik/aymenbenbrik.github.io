@@ -1,0 +1,68 @@
+---
+title: "NLP — Natural Language Processing"
+subtitle: "Traitement du langage naturel · MDSI · 42h"
+toc: true
+---
+
+## Présentation
+
+Module créé en **2022–2023**, axé sur les techniques modernes de NLP
+(Transformers, attention, LLMs) tout en couvrant les fondamentaux
+classiques (tokenization, embeddings, modèles séquence-à-séquence).
+
+Lié directement à mes activités d'**AI Instructor** (Training of Trainers
+Departement) où j'anime des sessions sur **NLP, Transformers et LLM**.
+
+## Acquis d'apprentissage
+
+- **AA1** — Tokenization, BPE, WordPiece
+- **AA2** — Embeddings : Word2Vec, GloVe, FastText, contextualisés
+- **AA3** — Modèles séquentiels classiques (RNN, LSTM, GRU pour texte)
+- **AA4** — Mécanisme d'attention et architecture Transformer
+- **AA5** — Modèles pré-entraînés : BERT, GPT, T5
+- **AA6** — Fine-tuning et prompt engineering
+- **AA7** — Tâches NLP : classification, NER, QA, résumé, traduction
+- **AA8** — Introduction aux Large Language Models (LLM)
+
+## Supports pédagogiques
+
+| Type | Description | Lien |
+|---|---|---|
+| Polycopié | Cours *book* | [PDF](#) |
+| Slides | Beamer Metropolis 16:9 | [PDF](#) |
+| TDs | Énoncés + corrections | [PDF](#) |
+| TPs Python | HuggingFace Transformers, fine-tuning, prompts | [PDF + code](#) |
+| Projet | Application NLP complète | [Sujet](#) |
+| Repository | Code source | [GitHub](https://github.com/Aymenbenbrik) |
+
+## Plan détaillé
+
+1. **Fondamentaux du langage** : morphologie, syntaxe, sémantique
+2. **Pré-traitement** : tokenization, lemmatization, stop words
+3. **Embeddings** : one-hot, Word2Vec, GloVe, FastText
+4. **Modèles séquentiels** : RNN, LSTM, GRU pour texte
+5. **Mécanisme d'attention** : self-attention, multi-head attention
+6. **Architecture Transformer** : encodeur, décodeur, positional encoding
+7. **Modèles pré-entraînés** : BERT (encodeur), GPT (décodeur), T5 (seq2seq)
+8. **Fine-tuning et adaptation** : LoRA, PEFT
+9. **Large Language Models (LLM)** : prompting, RAG, alignement
+10. **Applications** : chatbots, résumé, traduction, recherche sémantique
+
+## Outils mobilisés
+
+`transformers` (HuggingFace) · `torch` · `tensorflow` · `spacy` · `nltk`
+`gensim` · `langchain` · `openai` · `tiktoken` · `sentencepiece`
+
+## Liens avec mes activités de recherche
+
+Recherche menée au sein de l'équipe **AI4U (Artificial Intelligence 4 University)**,
+notamment :
+
+- Génération automatique de contenus pédagogiques via LLM
+- Évaluation augmentée par NLP
+- Personnalisation de l'apprentissage par modèles séquentiels
+
+## Prolongements
+
+Module qui s'articule avec **[Deep Learning](deep-learning.qmd)** (architectures)
+et **[Generative Computer Vision](generative-computer-vision.qmd)** (Generative AI).

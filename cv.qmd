@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-subtitle: "Aymen Ben Brik"
+subtitle: "Aymen Ben Brik · Mathematician, Statistician, Data Scientist"
 toc: true
 ---
 
@@ -8,56 +8,209 @@ toc: true
 
 | | |
 |---|---|
-| **Nom** | Ben Brik |
-| **Prénom** | Aymen |
+| **Nom · Prénom** | BEN BRIK · Aymen |
 | **Email pro** | [aymen.benbrik@esprit.tn](mailto:aymen.benbrik@esprit.tn) |
-| **Établissement** | Esprit School of Business |
-| **Fonction** | Enseignant Formateur |
+| **Email perso** | aymenbenbrik@gmail.com |
+| **Téléphone · Skype** | +216 94 937 226 · aymenbenbrik.skype |
+| **Adresse** | Résidence El Mesk, Appart. A12, Cité des palmeraies, Aouina 2045 Tunis |
+| **Établissement** | Esprit School of Business · Esprit Tech |
+| **Fonction** | Head of Department CSAM · Head of Research Team AI4U |
 
-## Cursus universitaire
-
-::: {.card-module}
-### [Année–Année] · Diplôme
-*Établissement, mention*
-
-À compléter
-:::
-
-## Parcours professionnel
+## Expériences professionnelles
 
 ::: {.card-module}
-### [Année–Présent] · Enseignant Formateur
+### 2019 — présent · Head of Department CSAM
 *Esprit School of Business*
 
-Coordination et enseignement des modules de mathématiques appliquées
-et de recherche opérationnelle pour les filières LMAD, MDSI, MKD,
-MBA et GAMMA.
+**CSAM Departement** : Computer Science & Applied Mathematics.
+Direction du département (passé de Co-Chef en 2019 à Head of Department),
+supervision des enseignants permanents et vacataires, coordination pédagogique
+des modules de mathématiques, statistiques, RO, ML, DL.
 :::
 
-## Domaines d'expertise
+::: {.card-module}
+### 2024 — présent · Co-Responsible of Alternance Program
+*Esprit School of Business / Jems Group*
 
-- Algèbre linéaire et bilinéaire
-- Analyse à plusieurs variables, calcul différentiel, optimisation
-- Probabilités et statistiques
-- Recherche opérationnelle (programmation linéaire, théorie des graphes)
-- Data science et apprentissage automatique
-- Pédagogie numérique (Python, LaTeX, Beamer, plateformes SPOC)
+**Alternance BA** : Business Analytics oriented to Generative
+Artificial Intelligence program for Jems Group.
+:::
 
-## Compétences techniques
+::: {.card-module}
+### 2023 — présent · Head of Research Team AI4U
+*Esprit Tech*
 
-| Catégorie | Outils |
+**AI4U** : Artificial Intelligence 4 University. Direction d'une équipe
+de recherche dédiée aux applications de l'IA dans l'enseignement supérieur.
+:::
+
+::: {.card-module}
+### 2024 — présent · H.U.U Task Force AI Team
+*Honoris United University*
+
+**HUU** : Representative of ESB at Honoris Task Force AI — coordination
+inter-institutions sur les sujets IA au niveau du réseau Honoris.
+:::
+
+::: {.card-module}
+### 2023 — présent · AI Instructor
+*Training of Trainers Departement, ESB*
+
+Special Training sessions on **AI, Machine Learning, Deep Learning,
+Data Analysis, NLP, Transformers and LLM** pour les formateurs internes.
+:::
+
+::: {.card-module}
+### 2020 — présent · Tekouin Administrator
+*Esprit School of Business*
+
+**Tekouin** : e-Learning Plateform for coding. Administration et
+maintenance de la plateforme.
+:::
+
+::: {.card-module}
+### 2021 — 2024 · Responsible Master Degree GAMMA
+*Esprit School of Business*
+
+**Master GAMMA** : Gestion Actuarielle et Modélisation MAthématique.
+:::
+
+::: {.card-module}
+### 2019 — 2024 · Responsible Bachelor Degree M(AD)²
+*Esprit School of Business*
+
+**Licence M(AD)²** : Mathématiques Appliquées à l'Analyse des
+Données et Aide à la Décision. Conception du plan d'études et préparation
+du dossier d'habilitation en 2018–2019.
+:::
+
+::: {.card-module}
+### 2010 — présent · Mathematics, Statistics, AI, ML, DL Teacher
+*ISTMT, ISI, INSAT, ESB*
+
+Plus de **15 ans d'enseignement** en mathématiques appliquées et
+data science dans les établissements supérieurs tunisiens.
+:::
+
+## Enseignement à ESB (2016 — présent)
+
+::: {.card-module}
+### 2016 — présent · Mathematics and Data Science Teacher
+*Esprit School of Business*
+
+| Année | Modules nouveaux/dispensés |
 |---|---|
-| Langages | Python, R, MATLAB |
-| Données / IA | NumPy, SciPy, Pandas, scikit-learn, Matplotlib |
-| Optimisation | PuLP, SciPy.optimize, Gurobi, NetworkX |
-| Documents | LaTeX (Beamer Metropolis, KOMA-script), Markdown, Quarto |
-| Versioning | Git, GitHub |
+| 2016–2017 | Mathematics for Business 1 & 2, Descriptive Statistics, Probability |
+| 2017–2018 | Inferential Statistics, Graph Theory & Operation Research, Mathematic's Logic, Marketing Data Analysis |
+| 2018–2019 | Time Series, Fundamentals of Mathematics |
+| 2019–2020 | Algebra 1 & 2 for Data Science, R Programming, Statistics with R |
+| 2020–2021 | Linear Algebra 3, Analysis 2 & 4 |
+| 2021–2022 | Machine Learning, Generalized Linear Models, Advanced Probability, Integration |
+| 2022–2023 | Deep Learning, NLP, Python Programming, Advanced Python Programming |
+| 2024–2025 | Generative Computer Vision, Tools for Machine Learning |
+| 2025–2026 | **Portfolio Optimization** |
+:::
 
-## Langues
+## Enseignement antérieur
 
-- **Arabe** : langue maternelle
-- **Français** : courant
-- **Anglais** : à compléter
+::: {.card-module}
+### 2013 — 2016 · Mathematic and Data Analysis Teacher
+*Institut National des Sciences Appliquées et Technologiques (INSAT)*
+
+Probability, Statistics, Numerical Analysis, Data Analysis, Analysis 1 & 2, Algebra 1 & 2.
+:::
+
+::: {.card-module}
+### 2011 — 2013 · Mathematic and Statistic Teacher
+*Institut Supérieur Informatique (ISI)*
+
+Mathematics 1 & 2, Statistics, Probability, Operation Research,
+Numeric Analysis, Stochastic Calculus, Statistic Analysis with Matlab.
+:::
+
+::: {.card-module}
+### 2010 — 2011 · Mathematic Teacher
+*Institut Supérieur des Technologies Médicales de Tunis (ISTMT)*
+
+Analysis 1 & Analysis 2.
+:::
+
+## Cursus académique
+
+::: {.card-module}
+### 2015 – 2016 · MSc Applied Mathematics — Actuarial Science Track
+*Paris Dauphine Tunis*
+
+Main courses: Actuarial Science, Data Analysis, Stochastic Processes
+and Markov Processes, Poisson Processes, Time Series, Nonparametric
+Statistics, Brownian Motion, Portfolio Management, C++, Monte Carlo
+Methods, Linear Models.
+:::
+
+::: {.card-module}
+### 2010 · Master's Degree in Fundamental Mathematics — Number Theory
+*Faculty of Sciences of Tunis · Honors: Very Good*
+
+Memoir : *Equidistribution of Eigenvalues of Hecke Operators
+Applied to Modular Forms*.
+:::
+
+::: {.card-module}
+### 2005 – 2006 · MSc Year 1 — Arithmetic and Discrete Mathematics
+*Faculty of Sciences of Tunis*
+:::
+
+::: {.card-module}
+### 2003 – 2005 · Bachelor's Degree in Fundamental Mathematics (MM3, MM4)
+*Faculty of Sciences of Tunis*
+:::
+
+::: {.card-module}
+### 2001 – 2003 · Undergraduate Cycle: Mathematics and Computer Science (MI1, MI2)
+*Faculty of Sciences of Tunis*
+:::
+
+## Personal Skills
+
+| Compétence | Niveau |
+|---|---|
+| Mathematics | ★★★★★ |
+| Statistics | ★★★★★ |
+| Machine Learning | ★★★★★ |
+| Deep Learning | ★★★★★ |
+| Actuarial Science | ★★★★★ |
+| Programming | ★★★★☆ |
+
+## Programming Languages
+
+Python · R · Tableau · Matlab/Scilab/Octave · **TensorFlow** · C++ · **Julia**
+
+| Langage | Niveau |
+|---|---|
+| Python | ★★★★★ |
+| R | ★★★★★ |
+| Tableau | ★★★★★ |
+| Matlab/Scilab/Octave | ★★★★★ |
+| TensorFlow | ★★★★★ |
+| C++ | ★★★★★ |
+| Julia | ★★★★★ |
+
+## Languages
+
+- **Arabic** ★★★★★ — native
+- **French** ★★★★★ — fluent
+- **English** ★★★★★ — fluent
+- **Italian** ★★★★☆ — intermediate
+
+## Activités associatives
+
+- **2020 — présent** : Tutor and **Founder of the MAD University Club**
+- **2018 — présent** : Tutor, Founder and Organizer of the **University B-Movie Film Club**
+- **2013 — 2014** : Member of the Tunisian Federation of Film Clubs (FTCC Tunis)
+
+## Hobbies
+
+Cinéma · Rock, Jazz, Blues · Sport · Philosophie · Histoire / Géographie
 
 ## Téléchargements
 

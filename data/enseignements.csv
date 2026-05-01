@@ -1,11 +1,42 @@
 module,code,annee_universitaire,semestre,filiere,heures,ects,role
-Algèbre 2,ECUE211,2024-2025,S2,LMAD,84,7,Coordinateur
-Algèbre 3,ECUE311,2024-2025,S2,LMAD,75,7,Coordinateur
-Probabilités,ECUE411,2024-2025,S4,LMAD,84,7,Coordinateur
-Analyse 4,ECUE421,2024-2025,S4,LMAD,84,7,Coordinateur
-Recherche Opérationnelle,ECUEO412,2024-2025,S2,MDSI,42,3,Coordinateur
-Algèbre 2,ECUE211,2025-2026,S2,LMAD,84,7,Coordinateur
-Algèbre 3,ECUE311,2025-2026,S2,LMAD,75,7,Coordinateur
-Probabilités,ECUE411,2025-2026,S4,LMAD,84,7,Coordinateur
-Analyse 4,ECUE421,2025-2026,S4,LMAD,84,7,Coordinateur
-Recherche Opérationnelle,ECUEO412,2025-2026,S2,MDSI,42,3,Coordinateur
+Mathematics for Business 1,MATH1,2016-2017,S1,1LFG/1LFIG,42,,Responsable
+Mathematics for Business 2,MATH2,2016-2017,S2,1LFG/1LFIG,42,,Responsable
+Descriptive Statistics,SDP,2016-2017,S2,1LFG/1LFIG,52.5,,Responsable
+Probability,PROBA,2016-2017,S2,1LFG/1LFIG,52.5,,Responsable
+Cours soutien Math 1,SOUTIEN1,2016-2017,S1,1LFG/1LFIG,15,,Animateur
+Cours soutien Math 2 + Probas,SOUTIEN2,2016-2017,S2,1LFG/1LFIG,15,,Animateur
+Inferential Statistics,SI,2017-2018,S1,2LFG/2LFIG,42,,Responsable
+Graph Theory and Operation Research,RO,2017-2018,S1,2LFIG,21,,Responsable
+Mathematic's Logic,LOGIQUE,2017-2018,S1,2LFIG,21,,Responsable
+Marketing Data Analysis (SPSS),ADD-SPSS,2017-2018,S1,1MKD,42,,Responsable
+Time Series,SERIES,2018-2019,S2,1BA,42,,Responsable
+Fundamentals of Mathematics,FONDAMENTAUX,2018-2019,S1,1BA,21,,Responsable
+Algebra 1 for Data Science,ALGEBRE1,2019-2020,S1,1M(AD)²,84,,Responsable
+Algebra 2 for Data Science,ALGEBRE2,2019-2020,S2,1M(AD)²,84,,Responsable
+R Programming,PROG-R,2019-2020,S1,1MKD/1MDSI A.,30,,Responsable
+Statistics with R,STAT-R,2019-2020,S1,1BA,42,,Responsable
+Linear Algebra 3,ALGEBRE3,2020-2021,S2,LMAD,75,7,Coordinateur
+Analysis 2,ANALYSE2,2020-2021,S2,LMAD,84,7,Coordinateur
+Analysis 4,ANALYSE4,2020-2021,S4,LMAD,84,7,Coordinateur
+Machine Learning,ML,2021-2022,S5,LMAD/MDSI,42,,Coordinateur
+Generalized Linear Models,GLM,2021-2022,S5,LMAD,42,,Coordinateur
+Advanced Probability,PROBAA,2021-2022,S5,LMAD,42,,Coordinateur
+Integration,INTEGRATION,2021-2022,S5,LMAD,42,,Coordinateur
+Deep Learning,DL,2022-2023,S5,LMAD/MDSI,42,,Coordinateur
+NLP - Natural Language Processing,NLP,2022-2023,S6,MDSI,42,,Coordinateur
+Python Programming,PYTHON,2022-2023,S1,LMAD/MDSI,42,,Coordinateur
+Advanced Python Programming,PYTHONADV,2022-2023,S2,LMAD/MDSI,42,,Coordinateur
+Algèbre 2 (ECUE211),ECUE211,2024-2025,S2,LMAD,84,7,Coordinateur
+Algèbre 3 (ECUE311),ECUE311,2024-2025,S2,LMAD,75,7,Coordinateur
+Probabilités (ECUE411),ECUE411,2024-2025,S4,LMAD,84,7,Coordinateur
+Analyse 4 (ECUE421),ECUE421,2024-2025,S4,LMAD,84,7,Coordinateur
+Recherche Opérationnelle (ECUEO412),ECUEO412,2024-2025,S2,MDSI,42,3,Coordinateur
+Generative Computer Vision,GENCV,2024-2025,S5,MDSI,42,,Coordinateur
+Tools for Machine Learning,TOOLSML,2024-2025,S5,LMAD/MDSI,42,,Coordinateur
+Algèbre 2 (ECUE211),ECUE211,2025-2026,S2,LMAD,84,7,Coordinateur
+Algèbre 3 (ECUE311),ECUE311,2025-2026,S2,LMAD,75,7,Coordinateur
+Probabilités (ECUE411),ECUE411,2025-2026,S4,LMAD,84,7,Coordinateur
+Analyse 4 (ECUE421),ECUE421,2025-2026,S4,LMAD,84,7,Coordinateur
+Recherche Opérationnelle (ECUEO412),ECUEO412,2025-2026,S2,MDSI,42,3,Coordinateur
+Statistiques descriptives avec R (ECUET112),ECUET112,2025-2026,S1,LMAD,42,,Coordinateur
+Portfolio Optimization,PORTFOLIO,2025-2026,S5,GAMMA/Alternance BA,42,,Coordinateur
