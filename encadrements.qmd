@@ -1,0 +1,54 @@
+---
+title: "Encadrements"
+subtitle: "PFE, projets intégrés, mémoires, projets d'été"
+toc: true
+---
+
+## Vue d'ensemble
+
+```{python}
+#| echo: false
+#| fig-cap: "Encadrements par année et par type"
+import pandas as pd
+import plotly.express as px
+
+try:
+    df = pd.read_csv("data/encadrements.csv")
+    agg = df.groupby(["annee", "type"]).size().reset_index(name="count")
+    fig = px.bar(
+        agg, x="annee", y="count", color="type",
+        labels={"count": "Nombre d'encadrements", "annee": "Année"},
+        color_discrete_sequence=["#C8102E", "#4A4A4A", "#0277BD", "#2E7D32"],
+    )
+    fig.update_layout(template="plotly_white", height=400, margin=dict(l=10, r=10, t=10, b=10))
+    fig.show()
+except Exception as e:
+    print(f"Données encadrements à compléter ({e})")
+```
+
+## Liste des encadrements
+
+```{python}
+#| echo: false
+import pandas as pd
+from itables import init_notebook_mode, show
+init_notebook_mode(all_interactive=True)
+
+try:
+    df = pd.read_csv("data/encadrements.csv")
+    show(df, lengthMenu=[10, 25, 50], classes="display compact")
+except Exception:
+    print("À compléter — voir data/encadrements.csv")
+```
+
+## PFE en cours
+
+À compléter dans `data/encadrements.csv` (avec colonne `statut = "en cours"`).
+
+## PFE soutenus
+
+À compléter.
+
+## Projets intégrés
+
+À compléter — projets de fin de module, hackathons, compétitions.

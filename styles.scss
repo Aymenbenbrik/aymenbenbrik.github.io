@@ -1,0 +1,117 @@
+/*-- scss:defaults --*/
+
+// Couleurs Esprit
+$primary: #C8102E;
+$secondary: #4A4A4A;
+$success: #2E7D32;
+$info: #0277BD;
+$warning: #F57C00;
+$danger: #C62828;
+
+$body-color: #2C2C2C;
+$link-color: $primary;
+$link-hover-color: darken($primary, 10%);
+
+$navbar-bg: $primary;
+$navbar-fg: white;
+
+// Typographie
+$font-family-sans-serif: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+$font-family-serif: "Source Serif Pro", Georgia, serif;
+$headings-font-weight: 600;
+
+/*-- scss:rules --*/
+
+.navbar-brand img {
+  max-height: 36px;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+}
+
+// Cartes pour modules / activités
+.card-module {
+  border-left: 4px solid $primary;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  background-color: #FAFAFA;
+  border-radius: 4px;
+  transition: box-shadow 0.2s ease;
+}
+
+.card-module:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-module h3 {
+  color: $primary;
+  margin-top: 0;
+}
+
+// Badge pour rubrique de grille
+.bareme {
+  display: inline-block;
+  background-color: $primary;
+  color: white;
+  padding: 0.15em 0.6em;
+  border-radius: 3px;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+// Tableaux
+table {
+  font-size: 0.95em;
+}
+
+th {
+  background-color: lighten($primary, 50%);
+  color: $primary;
+  font-weight: 600;
+}
+
+// KPI cards
+.kpi {
+  display: inline-block;
+  background: linear-gradient(135deg, $primary, darken($primary, 10%));
+  color: white;
+  padding: 1.2rem 1.6rem;
+  border-radius: 8px;
+  margin: 0.4rem;
+  min-width: 160px;
+  text-align: center;
+}
+
+.kpi .value {
+  font-size: 2.2rem;
+  font-weight: 700;
+  display: block;
+  line-height: 1.1;
+}
+
+.kpi .label {
+  font-size: 0.85rem;
+  opacity: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+// Hero section
+.hero {
+  background: linear-gradient(135deg, $primary 0%, darken($primary, 15%) 100%);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  color: white;
+  margin-top: 0;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  opacity: 0.95;
+}

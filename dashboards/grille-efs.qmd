@@ -1,0 +1,100 @@
+---
+title: "Grille EFS — Score actuel"
+subtitle: "Décomposition par rubrique de la grille de passage de grade"
+toc: true
+---
+
+## Score global
+
+Le score total du dossier EFS est calculé sur **340 points**, répartis
+sur 6 grilles d'évaluation. Cette page calcule automatiquement
+l'avancement à partir des données saisies.
+
+```{python}
+#| echo: false
+import plotly.graph_objects as go
+
+# Saisie manuelle du score auto-évalué — à mettre à jour au fur et à mesure
+SCORES = {
+    "Livrable 1 — RDI (/90)":              {"obtenu": 0, "max": 90},
+    "Livrable 2 — Pédagogique (/65)":      {"obtenu": 0, "max": 65},
+    "Grille 3.1 — RDI/Socio (/20)":        {"obtenu": 0, "max": 20},
+    "Grille 3.2 — Pédagogique (/35)":      {"obtenu": 0, "max": 35},
+    "Grille 3.3 — Rayonnement (/60)":      {"obtenu": 0, "max": 60},
+    "Grille 4 — Présentation (/70)":       {"obtenu": 0, "max": 70},
+}
+
+total_obtenu = sum(s["obtenu"] for s in SCORES.values())
+total_max = sum(s["max"] for s in SCORES.values())
+pct = round(100 * total_obtenu / total_max, 1) if total_max else 0
+
+fig = go.Figure(go.Indicator(
+    mode="gauge+number+delta",
+    value=total_obtenu,
+    domain={"x": [0, 1], "y": [0, 1]},
+    title={"text": f"Score auto-évalué / {total_max}"},
+    gauge={
+        "axis": {"range": [0, total_max]},
+        "bar": {"color": "#C8102E"},
+        "steps": [
+            {"range": [0, total_max * 0.5],  "color": "#FFEBEE"},
+            {"range": [total_max * 0.5, total_max * 0.75], "color": "#FFCDD2"},
+            {"range": [total_max * 0.75, total_max], "color": "#EF9A9A"},
+        ],
+        "threshold": {"line": {"color": "black", "width": 3}, "thickness": 0.85,
+                       "value": total_max * 0.7},
+    },
+))
+fig.update_layout(height=320, margin=dict(l=20, r=20, t=40, b=10))
+fig.show()
+
+print(f"\nProgression globale : {pct} %")
+```
+
+## Décomposition par grille
+
+```{python}
+#| echo: false
+import plotly.graph_objects as go
+
+labels = list(SCORES.keys())
+obtenus = [SCORES[k]["obtenu"] for k in labels]
+maxs    = [SCORES[k]["max"] - SCORES[k]["obtenu"] for k in labels]
+
+fig = go.Figure(data=[
+    go.Bar(name="Obtenu", x=obtenus, y=labels, orientation="h", marker_color="#C8102E"),
+    go.Bar(name="Reste",   x=maxs,    y=labels, orientation="h", marker_color="#E0E0E0"),
+])
+fig.update_layout(
+    barmode="stack", template="plotly_white", height=380,
+    margin=dict(l=10, r=10, t=10, b=10),
+    xaxis_title="Points", legend=dict(orientation="h", y=-0.15),
+)
+fig.show()
+```
+
+## Détail par sous-rubrique
+
+| Grille | Sous-rubrique | Barème | Auto-éval. |
+|---|---|---:|---:|
+| **3.1 RDI/Socio** | Activités socio-éco/socio-culturel | /4 | 0 |
+|  | Encadrements RDI/Socio | /5 | 0 |
+|  | Contribution équipes RDI | /3 | 0 |
+|  | Coaching clubs/assos | /4 | 0 |
+|  | Produits grand public | /4 | 0 |
+| **3.2 Pédagogique** | Accompagnement Moniteurs/AT/EF | /10 | 0 |
+|  | Développement professionnel | /10 | 0 |
+|  | Enseignements (nouveaux modules) | /7.5 | 0 |
+|  | Encadrement étudiants (PFE, projets) | /7.5 | 0 |
+| **3.3 Rayonnement** | Animation de formations | /10 | 0 |
+|  | Organisation manifestations | /10 | 0 |
+|  | Responsabilités péda/admin | /20 | 0 |
+|  | Pilotage événements | /5 | 0 |
+|  | Contrats-projets entreprises | /10 | 0 |
+|  | Jurys recrutement/grade | /5 | 0 |
+
+::: {.callout-note}
+Cette table est saisie manuellement pour le moment. Une fois les CSVs
+remplis (encadrements, certifications, événements, etc.), elle pourra
+être calculée automatiquement à partir de règles de comptabilisation.
+:::

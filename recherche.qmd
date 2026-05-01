@@ -1,0 +1,44 @@
+---
+title: "Recherche"
+subtitle: "Publications, communications, projets RDI"
+toc: true
+bibliography: data/publications.bib
+---
+
+## Domaines de recherche
+
+À compléter — résumer les axes de recherche actuels et passés.
+
+## Publications
+
+### Articles dans des revues à comité de lecture
+
+À compléter — voir `data/publications.bib`.
+
+### Chapitres d'ouvrages
+
+À compléter.
+
+### Communications dans des conférences
+
+À compléter.
+
+## Projets RDI
+
+::: {.card-module}
+### [Titre du projet] (Année–Année)
+**Rôle** · **Partenaires** · **Financement**
+
+Résumé du projet à compléter.
+:::
+
+## Reviewing
+
+À compléter — revues / conférences pour lesquelles vous avez été reviewer.
+
+## Projets RDI à venir (2 ans)
+
+Section requise par le Livrable 1 du dossier EFS.
+
+À compléter — projets de recherche, développement et innovation
+prévus pour les deux prochaines années.

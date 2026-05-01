@@ -1,0 +1,53 @@
+---
+title: "Responsabilités"
+subtitle: "Pédagogiques, administratives et institutionnelles"
+toc: true
+---
+
+## Responsabilités pédagogiques
+
+::: {.card-module}
+### Coordination de modules
+Coordinateur des modules ECUE211, ECUE311, ECUE411, ECUE421, ECUEO412
+au sein des filières LMAD, MDSI, MKD, MBA, GAMMA.
+
+**Périmètre** : conception des supports, harmonisation des évaluations,
+encadrement de l'équipe enseignante.
+:::
+
+## Responsabilités administratives
+
+À compléter.
+
+## Comités et instances
+
+À compléter — comité pédagogique, conseil scientifique, etc.
+
+## Jurys
+
+### Jurys de soutenance
+
+À compléter.
+
+### Jurys de recrutement
+
+À compléter.
+
+### Jurys de passage de grade
+
+À compléter.
+
+## Tableau récapitulatif
+
+```{python}
+#| echo: false
+import pandas as pd
+from itables import init_notebook_mode, show
+init_notebook_mode(all_interactive=True)
+
+try:
+    df = pd.read_csv("data/responsabilites.csv")
+    show(df, lengthMenu=[10, 25, 50], classes="display compact")
+except Exception:
+    print("À compléter — voir data/responsabilites.csv")
+```

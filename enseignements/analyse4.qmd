@@ -1,0 +1,45 @@
+---
+title: "Analyse 4 — ECUE421"
+subtitle: "Fonctions à plusieurs variables · S4 LMAD · 84h · 7 ECTS"
+toc: true
+---
+
+## Présentation
+
+Module d'analyse à plusieurs variables, ouvrant sur le calcul
+différentiel multidimensionnel et les algorithmes d'optimisation
+(descente de gradient).
+
+Volume : 84h = 36C + 36TD + 6TP + 6 projet.
+
+## Acquis d'apprentissage
+
+- **AA1** — Maîtriser la topologie de $\mathbb{R}^n$
+- **AA2** — Étudier la continuité et la limite des fonctions de plusieurs variables
+- **AA3** — Calculer dérivées partielles et différentielles
+- **AA4** — Appliquer le théorème des fonctions implicites
+- **AA5** — Étudier les extrema libres et liés
+- **AA6** — Implémenter la descente de gradient en Python
+- **AA7** — Appliquer à un problème de régression / classification
+
+## Supports pédagogiques
+
+| Type | Description | Lien |
+|---|---|---|
+| Polycopié | Cours *book* | [PDF](#) |
+| Slides | Beamer Metropolis 16:9 | [PDF](#) |
+| TDs | Énoncés + corrections | [PDF](#) |
+| TPs Python | NumPy, SciPy, descente de gradient | [PDF + code](#) |
+| Projet | Application ML | [Sujet](#) |
+| Repository | Code source | [GitHub](https://github.com/aymen-benbrik/Analyse4) |
+
+## Plan détaillé
+
+1. Topologie de $\mathbb{R}^n$ : ouverts, fermés, compacts, connexes
+2. Limites et continuité des fonctions de plusieurs variables
+3. Dérivées partielles, différentiabilité, gradient
+4. Différentielles d'ordre supérieur, formule de Taylor
+5. Théorème des fonctions implicites et inversion locale
+6. Extrema libres et liés (multiplicateurs de Lagrange)
+7. Algorithmes d'optimisation : descente de gradient, méthode de Newton
+8. Application : régression linéaire, logistique

@@ -1,0 +1,43 @@
+---
+title: "Probabilités — ECUE411"
+subtitle: "S4 LMAD · 84h · 7 ECTS"
+toc: true
+---
+
+## Présentation
+
+Module de probabilités pour les étudiants de S4 LMAD,
+84 heures réparties en cours (36h), TD (36h), TP Python (9h)
+et projet (3h).
+
+## Acquis d'apprentissage
+
+- **AA1** — Construire et manipuler des espaces probabilisés
+- **AA2** — Calculer des probabilités conditionnelles, indépendance
+- **AA3** — Étudier des variables aléatoires discrètes et continues
+- **AA4** — Connaître et utiliser les lois usuelles
+- **AA5** — Calculer espérance, variance, covariance, moments
+- **AA6** — Maîtriser les théorèmes limites (LGN, TCL)
+- **AA7** — Implémenter des simulations Monte Carlo en Python
+
+## Supports pédagogiques
+
+| Type | Description | Lien |
+|---|---|---|
+| Polycopié | Cours *book* avec exercices corrigés | [PDF](#) |
+| Slides | Beamer Metropolis 16:9 | [PDF](#) |
+| TDs | Énoncés + corrections | [PDF](#) |
+| TPs Python | NumPy, SciPy.stats, simulations | [PDF + code](#) |
+| Projet | Application en data science | [Sujet](#) |
+| Repository | Code source | [GitHub](https://github.com/aymen-benbrik/Probabilites) |
+
+## Plan détaillé
+
+1. Dénombrement et combinatoire
+2. Espaces probabilisés, axiomes, probabilité conditionnelle
+3. Variables aléatoires discrètes, lois usuelles (Bernoulli, binomiale, Poisson, géométrique)
+4. Variables aléatoires continues, lois usuelles (uniforme, exponentielle, normale)
+5. Couples et vecteurs aléatoires, indépendance
+6. Espérance, variance, covariance, fonctions caractéristiques
+7. Convergences, loi des grands nombres, théorème central limite
+8. Introduction aux chaînes de Markov

@@ -1,0 +1,40 @@
+---
+title: "Algèbre 2 — ECUE211"
+subtitle: "Algèbre linéaire · S2 LMAD/SD · 84h · 7 ECTS"
+toc: true
+---
+
+## Présentation
+
+Module de fondamentaux en algèbre linéaire pour les étudiants de S2 LMAD/SD,
+avec 84 heures réparties en cours magistraux (42h) et travaux dirigés (42h).
+
+## Acquis d'apprentissage
+
+- **AA1** — Manipuler les espaces vectoriels et leurs sous-espaces
+- **AA2** — Identifier et calculer avec des applications linéaires
+- **AA3** — Maîtriser le calcul matriciel
+- **AA4** — Résoudre des systèmes linéaires
+- **AA5** — Calculer et utiliser les déterminants
+- **AA6** — Diagonaliser les matrices simples
+
+## Supports pédagogiques
+
+| Type | Description | Lien |
+|---|---|---|
+| Polycopié | Cours complet *book* avec exercices corrigés | [PDF](#) |
+| Slides | Beamer Metropolis 16:9, 28 séances | [PDF](#) |
+| TDs | Énoncés + corrections | [PDF](#) |
+| Plan de module | Fiche pédagogique AA1–AA6 | [PDF](#) |
+| Repository | Code source LaTeX + Python | [GitHub](https://github.com/aymen-benbrik/Algebre2) |
+
+## Plan détaillé
+
+1. Espaces vectoriels et sous-espaces
+2. Familles libres, génératrices, bases
+3. Applications linéaires, noyau, image
+4. Matrices et calcul matriciel
+5. Changement de base
+6. Systèmes linéaires et méthode de Gauss
+7. Déterminants
+8. Valeurs propres, vecteurs propres, diagonalisation

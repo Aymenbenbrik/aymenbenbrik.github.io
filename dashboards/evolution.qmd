@@ -1,0 +1,107 @@
+---
+title: "Évolution annuelle"
+subtitle: "Activités année par année"
+toc: true
+---
+
+## Heures enseignées
+
+```{python}
+#| echo: false
+import pandas as pd
+import plotly.express as px
+
+try:
+    df = pd.read_csv("../data/enseignements.csv")
+    agg = df.groupby(["annee_universitaire", "module"])["heures"].sum().reset_index()
+    fig = px.bar(
+        agg, x="annee_universitaire", y="heures", color="module",
+        labels={"heures": "Heures", "annee_universitaire": "Année universitaire"},
+        color_discrete_sequence=px.colors.qualitative.Set2,
+    )
+    fig.update_layout(template="plotly_white", height=420, barmode="stack",
+                       margin=dict(l=10, r=10, t=10, b=10))
+    fig.show()
+except Exception as e:
+    print(f"Données à compléter ({e})")
+```
+
+## Encadrements
+
+```{python}
+#| echo: false
+import pandas as pd
+import plotly.express as px
+
+try:
+    df = pd.read_csv("../data/encadrements.csv")
+    agg = df.groupby(["annee", "type"]).size().reset_index(name="count")
+    fig = px.line(
+        agg, x="annee", y="count", color="type", markers=True,
+        labels={"count": "Nombre d'encadrements", "annee": "Année"},
+        color_discrete_sequence=["#C8102E", "#4A4A4A", "#0277BD"],
+    )
+    fig.update_layout(template="plotly_white", height=380,
+                       margin=dict(l=10, r=10, t=10, b=10))
+    fig.show()
+except Exception as e:
+    print(f"Données à compléter ({e})")
+```
+
+## Certifications obtenues
+
+```{python}
+#| echo: false
+import pandas as pd
+import plotly.express as px
+
+try:
+    df = pd.read_csv("../data/certifications.csv")
+    df["annee"] = pd.to_datetime(df["date"]).dt.year
+    agg = df.groupby("annee").size().reset_index(name="count")
+    fig = px.bar(
+        agg, x="annee", y="count",
+        labels={"count": "Certifications obtenues", "annee": "Année"},
+        color_discrete_sequence=["#C8102E"],
+    )
+    fig.update_layout(template="plotly_white", height=320,
+                       margin=dict(l=10, r=10, t=10, b=10))
+    fig.show()
+except Exception as e:
+    print(f"Données à compléter ({e})")
+```
+
+## Timeline globale
+
+```{python}
+#| echo: false
+import pandas as pd
+import plotly.express as px
+
+try:
+    enseignements = pd.read_csv("../data/enseignements.csv")
+    enseignements["categorie"] = "Enseignement"
+    enseignements["intitule"] = enseignements["module"]
+
+    encadrements = pd.read_csv("../data/encadrements.csv")
+    encadrements["categorie"] = "Encadrement"
+    encadrements["annee_universitaire"] = encadrements["annee"]
+
+    df = pd.concat([
+        enseignements[["annee_universitaire", "categorie", "intitule"]],
+        encadrements[["annee_universitaire", "categorie"]].assign(
+            intitule=encadrements["sujet"] if "sujet" in encadrements else "Encadrement"
+        ),
+    ])
+    agg = df.groupby(["annee_universitaire", "categorie"]).size().reset_index(name="count")
+    fig = px.area(
+        agg, x="annee_universitaire", y="count", color="categorie",
+        labels={"count": "Volume d'activité", "annee_universitaire": "Année"},
+        color_discrete_sequence=["#C8102E", "#4A4A4A", "#0277BD", "#2E7D32"],
+    )
+    fig.update_layout(template="plotly_white", height=380,
+                       margin=dict(l=10, r=10, t=10, b=10))
+    fig.show()
+except Exception as e:
+    print(f"Timeline à compléter ({e})")
+```

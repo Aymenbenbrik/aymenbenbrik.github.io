@@ -1,0 +1,8 @@
+jupyter>=1.0
+pandas>=2.0
+plotly>=5.0
+itables>=2.0
+matplotlib>=3.7
+numpy>=1.26
+nbformat>=5.9
+nbclient>=0.9

@@ -1,0 +1,33 @@
+---
+title: "Certifications & Formations"
+subtitle: "Développement professionnel continu"
+toc: true
+---
+
+## Vue d'ensemble
+
+```{python}
+#| echo: false
+import pandas as pd
+from itables import init_notebook_mode, show
+init_notebook_mode(all_interactive=True)
+
+try:
+    df = pd.read_csv("data/certifications.csv")
+    df = df.sort_values("date", ascending=False)
+    show(df, lengthMenu=[10, 25, 50], classes="display compact")
+except Exception:
+    print("À compléter — voir data/certifications.csv")
+```
+
+## Certifications
+
+À compléter — chaque certification avec organisme, date, thème.
+
+## Formations suivies
+
+À compléter — MOOCs, ateliers, formations continues.
+
+## Conférences et séminaires assistés
+
+À compléter.

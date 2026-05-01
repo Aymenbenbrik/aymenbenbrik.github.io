@@ -1,0 +1,98 @@
+---
+title: "Enseignements"
+subtitle: "Modules coordonnés et dispensés à Esprit School of Business"
+toc: true
+---
+
+## Vue d'ensemble
+
+Cinq modules de mathématiques appliquées et de recherche opérationnelle,
+totalisant **369 heures par année académique**, dispensés sur les
+filières LMAD, MDSI, MKD, MBA et GAMMA.
+
+```{python}
+#| echo: false
+#| fig-cap: "Volume horaire et ECTS par module"
+import pandas as pd
+import plotly.express as px
+
+df = pd.read_csv("../data/enseignements.csv")
+agg = df.groupby("module").agg(
+    heures=("heures", "sum"),
+    ects=("ects", "first"),
+    semestre=("semestre", "first"),
+).reset_index()
+
+fig = px.bar(
+    agg,
+    x="module", y="heures",
+    color="semestre",
+    text="heures",
+    labels={"heures": "Volume horaire", "module": "Module"},
+    color_discrete_sequence=["#C8102E", "#4A4A4A", "#0277BD", "#2E7D32", "#F57C00"],
+)
+fig.update_traces(textposition="outside")
+fig.update_layout(
+    template="plotly_white",
+    height=400,
+    showlegend=True,
+    margin=dict(l=10, r=10, t=10, b=10),
+)
+fig.show()
+```
+
+## Modules
+
+::: {.card-module}
+### [Algèbre linéaire — Algèbre 2 (ECUE211)](algebre2.qmd)
+**S2 LMAD/SD** · 84h (42C + 42TD) · 7 ECTS
+
+Espaces vectoriels, applications linéaires, matrices, déterminants,
+systèmes linéaires. Acquis d'apprentissage AA1–AA6.
+:::
+
+::: {.card-module}
+### [Réduction des endomorphismes — Algèbre 3 (ECUE311)](algebre3.qmd)
+**S2** · 75h (42C + 27TD + 9TP + 6 projet) · 7 ECTS
+
+Réduction, normes, espaces euclidiens, formes quadratiques, ACP.
+Acquis d'apprentissage AA1–AA4.
+:::
+
+::: {.card-module}
+### [Probabilités (ECUE411)](probabilites.qmd)
+**S4 LMAD** · 84h (36C + 36TD + 9TP + 3 projet) · 7 ECTS
+
+Espaces probabilisés, variables aléatoires, lois usuelles,
+convergence et théorèmes limites. Acquis d'apprentissage AA1–AA7.
+:::
+
+::: {.card-module}
+### [Analyse 4 — Fonctions à plusieurs variables (ECUE421)](analyse4.qmd)
+**S4 LMAD** · 84h (36C + 36TD + 6TP + 6 projet) · 7 ECTS
+
+Topologie de $\mathbb{R}^n$, calcul différentiel, descente de gradient.
+Acquis d'apprentissage AA1–AA7.
+:::
+
+::: {.card-module}
+### [Recherche Opérationnelle (ECUEO412)](recherche-operationnelle.qmd)
+42h (PL 28h + Graphes 14h)
+
+Programmation linéaire (méthode du simplexe, dualité)
+et théorie des graphes (plus court chemin, flots, ordonnancement).
+Acquis d'apprentissage AA1–AA7.
+:::
+
+## Dispositifs pédagogiques
+
+Chaque module est livré avec un écosystème complet :
+
+- **Polycopié** — document type *book* en LaTeX, exercices corrigés
+- **Slides Beamer Metropolis** — format 16:9, séances de 1h30
+- **TPs Python** — énoncés + corrections + seeds reproductibles
+- **Examens et corrigés** — barème détaillé, grille de correction
+- **Plan de module** — fiche pédagogique alignée sur les acquis d'apprentissage
+
+Tous les supports sont versionnés sur GitHub et compilés selon
+des conventions reproductibles.

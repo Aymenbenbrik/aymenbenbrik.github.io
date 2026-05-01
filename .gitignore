@@ -1,0 +1,28 @@
+# Quarto build output
+_site/
+.quarto/
+*.html
+!index.html
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Secrets
+.env
+.env.local

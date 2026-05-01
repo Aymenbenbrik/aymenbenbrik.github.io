@@ -1,0 +1,65 @@
+---
+title: "Curriculum Vitae"
+subtitle: "Aymen Ben Brik"
+toc: true
+---
+
+## État civil
+
+| | |
+|---|---|
+| **Nom** | Ben Brik |
+| **Prénom** | Aymen |
+| **Email pro** | [aymen.benbrik@esprit.tn](mailto:aymen.benbrik@esprit.tn) |
+| **Établissement** | Esprit School of Business |
+| **Fonction** | Enseignant Formateur |
+
+## Cursus universitaire
+
+::: {.card-module}
+### [Année–Année] · Diplôme
+*Établissement, mention*
+
+À compléter
+:::
+
+## Parcours professionnel
+
+::: {.card-module}
+### [Année–Présent] · Enseignant Formateur
+*Esprit School of Business*
+
+Coordination et enseignement des modules de mathématiques appliquées
+et de recherche opérationnelle pour les filières LMAD, MDSI, MKD,
+MBA et GAMMA.
+:::
+
+## Domaines d'expertise
+
+- Algèbre linéaire et bilinéaire
+- Analyse à plusieurs variables, calcul différentiel, optimisation
+- Probabilités et statistiques
+- Recherche opérationnelle (programmation linéaire, théorie des graphes)
+- Data science et apprentissage automatique
+- Pédagogie numérique (Python, LaTeX, Beamer, plateformes SPOC)
+
+## Compétences techniques
+
+| Catégorie | Outils |
+|---|---|
+| Langages | Python, R, MATLAB |
+| Données / IA | NumPy, SciPy, Pandas, scikit-learn, Matplotlib |
+| Optimisation | PuLP, SciPy.optimize, Gurobi, NetworkX |
+| Documents | LaTeX (Beamer Metropolis, KOMA-script), Markdown, Quarto |
+| Versioning | Git, GitHub |
+
+## Langues
+
+- **Arabe** : langue maternelle
+- **Français** : courant
+- **Anglais** : à compléter
+
+## Téléchargements
+
+- [CV (PDF)](cv.pdf) — *à générer*
+- [Dossier de candidature EFS (PDF)](dossier-efs.pdf) — *à générer*

@@ -1,0 +1,42 @@
+---
+title: "Algèbre 3 — ECUE311"
+subtitle: "Réduction des endomorphismes · S2 · 75h · 7 ECTS"
+toc: true
+---
+
+## Présentation
+
+Module avancé d'algèbre linéaire et bilinéaire couvrant la réduction
+des endomorphismes, les normes, les espaces euclidiens, les formes
+quadratiques et l'analyse en composantes principales.
+
+Volume : 75h = 42C + 27TD + 9TP + 6 projet.
+
+## Acquis d'apprentissage
+
+- **AA1** — Réduire les endomorphismes (diagonalisation, trigonalisation)
+- **AA2** — Maîtriser les normes et la convergence en dimension finie
+- **AA3** — Utiliser les espaces euclidiens et leurs propriétés
+- **AA4** — Étudier les formes quadratiques et appliquer l'ACP
+
+## Supports pédagogiques
+
+| Type | Description | Lien |
+|---|---|---|
+| Polycopié | Cours complet *book* | [PDF](#) |
+| Slides | Beamer Metropolis 16:9 | [PDF](#) |
+| TDs | Énoncés + corrections | [PDF](#) |
+| TPs Python | NumPy, SciPy, scikit-learn (ACP) | [PDF + code](#) |
+| Projet | Mini-projet noté | [Sujet](#) |
+| Repository | Code source | [GitHub](https://github.com/aymen-benbrik/Algebre3) |
+
+## Plan détaillé
+
+1. Polynômes d'endomorphismes, polynôme minimal
+2. Diagonalisation, trigonalisation, décomposition de Dunford
+3. Normes vectorielles et matricielles
+4. Produit scalaire, espaces euclidiens
+5. Orthogonalité, projection orthogonale, Gram-Schmidt
+6. Endomorphismes orthogonaux et symétriques
+7. Formes quadratiques, signature, théorème spectral
+8. Application : Analyse en Composantes Principales

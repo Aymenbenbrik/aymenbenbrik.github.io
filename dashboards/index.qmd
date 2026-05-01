@@ -1,0 +1,36 @@
+---
+title: "Dashboards"
+subtitle: "Indicateurs et évolution des activités"
+toc: true
+---
+
+Cette section regroupe les visualisations interactives sur l'ensemble
+de mes activités à Esprit School of Business.
+
+## Tableaux de bord disponibles
+
+::: {.card-module}
+### [Évolution annuelle](evolution.qmd)
+Timeline des heures enseignées, encadrements, publications et
+formations animées année par année.
+:::
+
+::: {.card-module}
+### [Grille EFS](grille-efs.qmd)
+Score temps-réel sur la grille de passage au Grade EFS-ELCCS
+(Total /340), avec décomposition par rubrique.
+:::
+
+## Sources de données
+
+Tous les dashboards sont alimentés par les CSVs du dossier `data/` :
+
+- `enseignements.csv`
+- `encadrements.csv`
+- `certifications.csv`
+- `publications.bib`
+- `responsabilites.csv`
+- `evenements.csv`
+
+Mettre à jour les CSVs déclenche la régénération du site
+(GitHub Action) et la mise à jour automatique des dashboards.

@@ -1,0 +1,99 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Aymen Ben Brik"
+  description: "Enseignant Formateur — Esprit School of Business"
+  site-url: https://aymen-benbrik.github.io
+  repo-url: https://github.com/aymen-benbrik/aymen-benbrik.github.io
+  favicon: images/favicon.png
+  reader-mode: false
+  page-navigation: true
+  back-to-top-navigation: true
+
+  navbar:
+    background: primary
+    pinned: true
+    logo: images/logo.png
+    left:
+      - href: index.qmd
+        text: Accueil
+      - text: Enseignements
+        menu:
+          - href: enseignements/index.qmd
+            text: Vue d'ensemble
+          - href: enseignements/algebre2.qmd
+            text: Algèbre 2 (ECUE211)
+          - href: enseignements/algebre3.qmd
+            text: Algèbre 3 (ECUE311)
+          - href: enseignements/probabilites.qmd
+            text: Probabilités (ECUE411)
+          - href: enseignements/analyse4.qmd
+            text: Analyse 4 (ECUE421)
+          - href: enseignements/recherche-operationnelle.qmd
+            text: Recherche Opérationnelle (ECUEO412)
+      - href: encadrements.qmd
+        text: Encadrements
+      - href: recherche.qmd
+        text: Recherche
+      - href: certifications.qmd
+        text: Certifications
+      - href: responsabilites.qmd
+        text: Responsabilités
+      - href: evenements.qmd
+        text: Événements
+      - text: Dashboards
+        menu:
+          - href: dashboards/index.qmd
+            text: Vue d'ensemble
+          - href: dashboards/evolution.qmd
+            text: Évolution annuelle
+          - href: dashboards/grille-efs.qmd
+            text: Grille EFS
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: envelope
+        href: "mailto:aymen.benbrik@esprit.tn"
+        aria-label: Email
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/aymen-ben-brik"
+        aria-label: LinkedIn
+      - icon: github
+        href: "https://github.com/aymen-benbrik"
+        aria-label: GitHub
+
+  page-footer:
+    left: |
+      © 2026 Aymen Ben Brik · Esprit School of Business
+    center: |
+      [aymen.benbrik@esprit.tn](mailto:aymen.benbrik@esprit.tn)
+    right: |
+      Construit avec [Quarto](https://quarto.org)
+
+  search:
+    location: navbar
+    type: overlay
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [darkly, styles.scss]
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    code-copy: true
+    code-overflow: wrap
+    smooth-scroll: true
+    fig-align: center
+    fig-cap-location: bottom
+
+execute:
+  freeze: auto
+  warning: false
+  message: false
+
+lang: fr

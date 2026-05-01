@@ -1,0 +1,11 @@
+module,code,annee_universitaire,semestre,filiere,heures,ects,role
+Algèbre 2,ECUE211,2024-2025,S2,LMAD,84,7,Coordinateur
+Algèbre 3,ECUE311,2024-2025,S2,LMAD,75,7,Coordinateur
+Probabilités,ECUE411,2024-2025,S4,LMAD,84,7,Coordinateur
+Analyse 4,ECUE421,2024-2025,S4,LMAD,84,7,Coordinateur
+Recherche Opérationnelle,ECUEO412,2024-2025,S2,MDSI,42,3,Coordinateur
+Algèbre 2,ECUE211,2025-2026,S2,LMAD,84,7,Coordinateur
+Algèbre 3,ECUE311,2025-2026,S2,LMAD,75,7,Coordinateur
+Probabilités,ECUE411,2025-2026,S4,LMAD,84,7,Coordinateur
+Analyse 4,ECUE421,2025-2026,S4,LMAD,84,7,Coordinateur
+Recherche Opérationnelle,ECUEO412,2025-2026,S2,MDSI,42,3,Coordinateur

@@ -1,0 +1,53 @@
+---
+title: "Recherche Opérationnelle — ECUEO412"
+subtitle: "Programmation linéaire & Théorie des graphes · 42h"
+toc: true
+---
+
+## Présentation
+
+Module de recherche opérationnelle structuré en deux parties :
+
+- **Partie 1** : Programmation linéaire (28h)
+- **Partie 2** : Théorie des graphes (14h)
+
+## Acquis d'apprentissage
+
+- **AA1** — Modéliser un problème en programme linéaire
+- **AA2** — Résoudre par la méthode du simplexe
+- **AA3** — Comprendre la dualité et l'analyse de sensibilité
+- **AA4** — Modéliser et résoudre avec des solveurs (PuLP, Gurobi)
+- **AA5** — Maîtriser les algorithmes de plus court chemin (Dijkstra, Bellman-Ford)
+- **AA6** — Étudier les flots, le couplage, les arbres couvrants
+- **AA7** — Appliquer à l'ordonnancement de projet (PERT, MPM)
+
+## Supports pédagogiques
+
+| Type | Description | Lien |
+|---|---|---|
+| Polycopié | Cours *book* avec exercices | [PDF](#) |
+| Slides | Beamer Metropolis 16:9 | [PDF](#) |
+| TDs | Énoncés + corrections | [PDF](#) |
+| TPs Python | PuLP, NetworkX, simplexe maison | [PDF + code](#) |
+| Repository | Code source | [GitHub](https://github.com/aymen-benbrik/RechercheOperationnelle) |
+
+## Plan détaillé
+
+### Partie 1 — Programmation linéaire (28h)
+
+1. Modélisation des problèmes d'optimisation linéaire
+2. Méthode graphique
+3. Méthode du simplexe primal
+4. Méthode des deux phases, méthode du grand M
+5. Dualité et théorèmes fondamentaux
+6. Analyse de sensibilité
+7. Programmation en nombres entiers (introduction)
+
+### Partie 2 — Théorie des graphes (14h)
+
+1. Notions de base, représentations
+2. Parcours de graphes (BFS, DFS)
+3. Arbres couvrants minimaux (Kruskal, Prim)
+4. Plus court chemin (Dijkstra, Bellman-Ford, Floyd-Warshall)
+5. Flots maximaux (Ford-Fulkerson)
+6. Ordonnancement : PERT, MPM
