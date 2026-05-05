@@ -1,0 +1,63 @@
+---
+title: "🤖 Apprentissage Statistique"
+subtitle: "Intelligence Artificielle · 2 année(s) · 84 h cumulées"
+toc: true
+---
+
+<span class="badge bg-danger">Coordinateur</span> <span class="badge bg-success">Nouveau module</span>
+
+## Synthèse
+
+::: {.grid}
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**84 h**<br>
+<small>Charge cumulée</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**2**<br>
+<small>Année(s) dispensée(s)</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**2**<br>
+<small>Groupes cumulés</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**Master**<br>
+<small>Niveau(x)</small>
+:::
+:::
+
+:::
+
+**Domaine** : Intelligence Artificielle
+**Formations couvertes** : GAMMA
+**Période** : 2022-2023 → 2023-2024
+
+## Historique de dispense
+
+| Année | Niveau | Classe | Groupes | Charge | Coord. | Langue | Statut |
+|---|---|---|---|---|---|---|---|
+| 2022-2023 | Master | GAMMA | 1 | 42 h | ✓ | FR | NOUVEAU |
+| 2023-2024 | Master | GAMMA | 1 | 42 h | ✓ | FR |  |
+
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/DeepLearningCourse](https://github.com/Aymenbenbrik/DeepLearningCourse)
+
+---
+
+::: {.callout-note}
+Page générée automatiquement à partir de `data/enseignements_detailed.csv`
+(source : `Passage de grade/Enseignement.xlsx`).
+:::

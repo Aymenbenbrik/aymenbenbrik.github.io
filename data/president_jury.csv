@@ -1,0 +1,256 @@
+annee,nom,prenom,niveau,formation,perimetre,domaine,type_jury,ecole
+2019-2020,Ben Salem ,Khouloud,Master,MDSI,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2020-2021,Khalfalli,Mohamed,Master,MDSI,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2021-2022,Ben Abdesselem,Chedy,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2021-2022,Yahyaoui,Wiem,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2021-2022,Ayadi,Eya,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2021-2022,Mnasri,Sarra,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2021-2022,Tej,Youssef Kacem,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2021-2022,Zaafrani,Maram,LBC-BIS,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2021-2022,Laaroussi,Mohamed ,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2021-2022,Belghith,Mohamed Hosni,Licence ,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2021-2022,Daoud,Ghassen,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2021-2022,Daly,Zied,Licence ,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2021-2022,Aouini,Sabrine,Licence ,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2021-2022,Obay,Hajer,BA,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2022-2023,Gara,Mouna,Master,GAMMA,DD,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,El Housseini,Mariem,Master,GAMMA,DD,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Ndong,Emmanuel,Master,GAMMA,DD,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Ben Amor,Rania,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Akrout,Yosr,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Khelifi,Hela,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Mansour,Chiraz,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Ferchichi,Siwar,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Baffoun,Kenza,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Mrabet,Mohamed Amine,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Saidi,Nada,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Lachheb,Mehdi,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Zgolli,Dorra,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Aouadi,Chedi,Licence,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2022-2023,Chargui,Mohamed Wassef,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2022-2023,Sebai,Dorra,Master,GAMMA,DD,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Bouazizi,Rania,Master,GAMMA,DD,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Ben Khaled,Eya,Master,GAMMA,DD,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Khouja,Dhia Mansour,Master,GAMMA,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Chaibi,Oussema,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Zalleg,Mohamed Adem,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Haddouk,Donia,Master,GAMMA,DD,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Guesmi,Oumayma,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2022-2023,Yahyaoui,Nadia,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2022-2023,Mhiri ,Ghalia,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2022-2023,Mouidy,Kress,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Ayari,Marwen,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2022-2023,Bouraoui,Rami,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2022-2023,Stambouli,Skander,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2022-2023,Barketi,Khaled,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2022-2023,Belhoudi,Khalil,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2022-2023,Ben Amara,Rahma,Licence,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2022-2023,Miladi,Hadil,Licence,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2022-2023,Chiba,Aziz,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2022-2023,Zighni,Eya,Master ,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2022-2023,Ziadi ,Sondes,Master,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2022-2023,Wannen,Mohamed Mehdi,Master,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2022-2023,Dah,Sid Ahmed,Master,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2022-2023,Aissaoui ,Bechir,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2022-2023,Nsiri ,Ahmed Anis,Master,MDSI,Vermeg,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2022-2023,Danguir,Omar,Master,MDSI,Vermeg,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2022-2023,Wasli,Maha,Master,MDSI,Vermeg,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,ESSID,Fatma,Licence ,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,FRIGUI,Emna,Licence ,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,PANGA MANGOUAGNA,Christia-Dally,Master ,GAMMA,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,WORA NGUEMA,Jude,Master ,GAMMA,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,Farhat ,Anas ,Licence ,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,BEN AMOR,Baha-Eddine,Licence ,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,MATMATTI,Mohamed Amine,Licence ,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,BEN ARFA,Arij,Licence ,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,NAHEDH,Mahdi,Licence ,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,GAIED                              ,Yassine                            ,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,JELASSI,Fatma,Licence ,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,ABDENNEBI,Youssef,Licence ,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,TOUATI,Salma,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,CHEBBI,Nour,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,BOUSLAMA,Houssem,Licence ,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,HJIRI,INES,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,FADHEL                             ,Mohtada,Master ,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,NACIB,Rached,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,FENNIRA,Hamza,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,BAALOUCH,Chiheb,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,SAIDI,Ghassen,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,KAMOUN,Mohamed Seddik,Master ,BA,Internationale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,HMILA,Amina,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,GRASSI,Rahma,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,BEN MAAMMER,Rania,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,TAMARZIST,Sarra,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,JLASSI,Soumaya,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,DEKHIL ,Mohamed Dhia,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,BEN HADJ YAHYA,Zaineb,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,SADKAOUI,Hamdi,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,JOUILI                             ,Molka                              ,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,SAADAOUI,Ranim,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,KHEDHER,Mouna,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,NAFFETI,Nozha,Master ,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,SAMMOUD,Nour,Licence ,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,MRABET,Sarah,Licence ,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,METOUI,Sirine,Licence ,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,BEN RAYANA,Sarra,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,NOURI,Cyrine,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,SOUISSI,Ahmed,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,TARCHELLA,Mohamed Mehdi,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,BEN HMIDA,Yassmine,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,JALLOULI,Mohamed,Master ,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,KAMMOUN,Malek,Licence ,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,BAKRI,Yosra,Licence ,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,BELHAY,Amira,Licence ,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,HAMMEDI,Abir,Master ,GAMMA,DD,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,FATNASSI,Zeineb,Master ,GAMMA,DD,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,ABOULKACEM,Emna,Master ,GAMMA,DD,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,NGONGA NGONGA,Stevy-Djef,Master ,GAMMA,DD,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,HAMMAMI,Nour,Master ,GAMMA,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,KALLEL,Mohamed Amine ,Master ,GAMMA,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,MOKADDEM,Wael,Licence ,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,ENNAIFER ,Mohamed Cherif ,Master ,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,BOUTHLIJA,Mariem,Master ,GAMMA,DD,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,CHKIOUA ,Nada ,Master ,GAMMA,DD,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,HAMDI,Mohamed Chedly,Licence ,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,HENTATI,Farah,Licence ,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,Jaziri,Ines,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,Balti,Youssef,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,Grati,Alaeddine,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,Samet,Mohamed,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,Jemai,Rawen,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,Dardari ,Oussema,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,ABDESSELEM,Khalil,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,FRIOUI,Refka,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,FARHAT,Hazem,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,AMDOUNI,Feres,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,ETOUGUE MENGOME,Patrick,Master,GAMMA,DD,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,LONTE MENGOME,Florian,Master,GAMMA,DD,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,BRIGUI,Iheb,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,HICHRI,Maissa,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,BOUZID,Ala Eddine,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,CHAIRI,Jafra,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,EL ABED,Khaled,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,JAZA,Hamdi,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,MEDDEB,Wafa,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,TIR,Asma,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2023-2024,NEFZI,Iheb,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,BEN AROUS,Anis,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2023-2024,BOUSLAMA,Mohamed Sadok,Licence ,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2023-2024,BEN SALEM,Rana,Licence ,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Jaffel,Farah,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Toumi,Mohamed Taha,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Rahmouni,Khalil,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Hamdena,Chaima,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Ben Rejeb ,Chaima,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Baouab,Racha,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Nasri,Arij,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Abidi,Razen,Master,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Jbili,Salma,Master,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Bani,Sara,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Ben Jebara,Mariem,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Bahrouni,Eya, Licence,LBC-BI,Internationale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Kechini,Sarra,Licence,LBC-BI,Internationale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Dammak,Ahmed,Licence,LBC-BI,Internationale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Touaibi,Iheb,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Bessaies,Ons,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Khelif,Roua,Licence,LBC-BI,Internationale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Mrabet,Fatima Ezzahra,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Mechergui,Wissa,Licence,LBC-BI,Internationale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Chourabi,Borhen,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Charfeddine,Kenza,Licence,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Messaoud,Linda,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Lahmedi,Amine,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Jannene,Amenallah,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2024-2025,Ochi,Molk,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Zouaoui,Wiem,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Molka,Dabboussi,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,cherni,mariem,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Dadi,Mohamed Taha,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Saif eddine,SIFAOU,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,laifia,emna,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,abdesslem,ons,Licence,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Khemiri,Faouzi,Licence,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Abdennebi,Elissa,Licence,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Zayeti,Ghada,Licence,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Ftini,Wiem,Licence,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Hajlaoui,Heya,Licence,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,JARBOUI,Yasmine,Master,BA,Internationale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,akrout,iyed,Licence,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Azaiez,Sina,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2024-2025,Sadfi,Selima,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2024-2025,Abdelmoumen,Mohamed Aziz,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2024-2025,Ben Zakour,Ghalia,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2024-2025,Gaaloul,Yassine,Licence,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Mokhtar,Ranim,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Bouamaied,Ayoub,Master,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Hamza,sabrine,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Bazine,Dina,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Rouahi,Nourhene,Master,GAMMA,DD,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2024-2025,BAHRI,Yosra,Master,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Missaoui,Chayma,Master,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Ben Brik,Nourallah,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,barred,raslen,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Kadri,Malek,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,KHEMIRI,NOUR,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Dhokkar,Mohamed Amine,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,BOUZAIDI,SEIF EDDINE,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Amal,Rebai,Master,BA,Internationale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Ouenniche,Arij,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Yosra,Zaheg,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Dabbabi,Hamza,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2024-2025,Ayadi,Fares,Master,GAMMA,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2024-2025,THIAW IMOUELA ,Nathanaël ,Master,GAMMA,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2024-2025,benachour,ranime,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Mansour,Mahmoud,Licence,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Ben Dhafer,Sarra,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Zaltni,Loua,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Youssef,Ben farhat,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Aouadhi,Ghofrane,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Ben Mnaouer,Mohamed Amine,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Mahmoudi,Athar,Master,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,hbiri,eya ,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,sediri,aicha,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Ben Bouyahia ,Ayoub ,Master,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Jemli,Safa,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,MECHERGUI,MANEL,Master,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Telli,Eya,Master,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Naceur,Mohamed Aziz,Licence,LMAD,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2024-2025,Sliti,Selim,Licence,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,ZAOUALI,Sirine,Master,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Bilel,Riahi,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,jouini,oumaima,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Zitouni,Samar,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Yasmine,Kamel,Master,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Ben Khelifa,Chahine,Master,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Miadi,Sirine,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Bouattour,Farouk,Master,BA,Internationale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Ben Mohamed,Talel,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,LASMAR,Mohamed Rayen,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Ben hariz,Abderahmen,Licence,LBC-BI,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Bairam,Nour,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Zid,Mohamed Iheb,Master,BA,Internationale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Zarbout,Meriem,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,MOUIDY,Kress-Andy Durell,Master,GAMMA,Initiale,Math / Actuariat,Soutenance PFE/Mémoire,ESB
+2024-2025,Achour,Ahmed Souleymen,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Ben Moussa ,Mohamed Habib ,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,SDIRI,Amir ,Master,BA,Exécutif,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,BEN ALI ,MENYAR,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Ben Helal,Mohamed Ali ,Master,BA,Initiale,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Ghariani,Yasmine,Licence,LBC-BIS,Internationale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Charbti,Samar,Licence,LBC-BIS,Internationale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,ATTIA ,Oumaima ,Master,MDSI,Vermeg,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,KHIARI,Alya,Master,MDSI,Vermeg,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,OUJI,Mohamed Salah,Master,MDSI,Vermeg,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,SOUISSI,Rym,Master,MDSI,Vermeg,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,MELLITI,Asma,Master,MDSI,Vermeg,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,CHAOUACHI,Omar,Master,MDSI,Vermeg,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,LAOUANI ,Marouen  ,Master,MDSI,Vermeg,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,MZOUGHI,Marwene ,Master,MDSI,Vermeg,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2024-2025,Ayechi,Rym,Licence,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,Dhouibi,Ines,Licence,LBC-BIS,Initiale,Autre,Soutenance PFE/Mémoire,ESB
+2024-2025,KHEMIRI,Mohamed,Master,MDSI,Vermeg,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2025-2026,BELAZI,Rania,Master,MDSI,Vermeg,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2025-2026,BEN OTHMAN,Ons,Master,MDSI,Vermeg,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2025-2026,BOUBAKER,Hamza,Master,MDSI,Vermeg,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2025-2026,SAMAALI,Imen,Master,MDSI,Vermeg,Data Science / IA,Soutenance PFE/Mémoire,ESB
+2025-2026,BEJAOUI,Mohamed Firas,Master,MDSI,Vermeg,Data Science / IA,Soutenance PFE/Mémoire,ESB

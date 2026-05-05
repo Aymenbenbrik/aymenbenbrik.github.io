@@ -1,0 +1,416 @@
+---
+title: "Encadrement des projets"
+subtitle: "Vision · AI4U · Académique · Président du Jury"
+toc: false
+page-layout: full
+---
+
+```{python}
+#| echo: false
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+from html import escape
+
+ESPRIT = ["#C8102E", "#4A4A4A", "#0277BD", "#2E7D32", "#F57C00",
+          "#6A1B9A", "#00838F", "#5D4037", "#AD1457", "#1565C0"]
+
+def base_layout(fig, height=320):
+    fig.update_layout(
+        template="plotly_white",
+        height=height,
+        margin=dict(l=10, r=10, t=30, b=10),
+        font=dict(family="Inter, sans-serif", size=11),
+        legend=dict(orientation="h", y=-0.2, x=0.5, xanchor="center"),
+    )
+    return fig
+
+ai4u = pd.read_csv("data/ai4u_projects.csv")
+acad = pd.read_csv("data/encadrement_academique.csv")
+pj = pd.read_csv("data/president_jury.csv")
+
+# Nettoyage espaces
+for d in (ai4u, acad, pj):
+    for c in d.select_dtypes(include="object").columns:
+        d[c] = d[c].astype(str).str.strip()
+
+# Année de début
+def annee_int(s):
+    try:
+        return int(str(s).split("-")[0])
+    except Exception:
+        return None
+
+ai4u["annee_int"] = ai4u["annee"].apply(annee_int)
+acad["annee_int"] = acad["annee"].apply(annee_int)
+pj["annee_int"] = pj["annee"].apply(annee_int)
+```
+
+::: {.panel-tabset}
+
+## Ma vision de l'encadrement
+
+### Tableau de bord des principes
+
+::: {.grid}
+::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
+::: {.kpi style="background: linear-gradient(135deg,#C8102E,#8B0017); width:100%; min-width:0;"}
+[Autonomie]{.label}
+[🎯]{.value style="font-size:2rem"}
+:::
+:::
+::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
+::: {.kpi style="background: linear-gradient(135deg,#0277BD,#01579B); width:100%; min-width:0;"}
+[Rigueur]{.label}
+[📐]{.value style="font-size:2rem"}
+:::
+:::
+::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
+::: {.kpi style="background: linear-gradient(135deg,#2E7D32,#1B5E20); width:100%; min-width:0;"}
+[Suivi régulier]{.label}
+[🔄]{.value style="font-size:2rem"}
+:::
+:::
+::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
+::: {.kpi style="background: linear-gradient(135deg,#F57C00,#E65100); width:100%; min-width:0;"}
+[Valorisation]{.label}
+[🏆]{.value style="font-size:2rem"}
+:::
+:::
+:::
+
+```{python}
+#| echo: false
+#| layout-ncol: 2
+#| fig-cap: ["Mes axes d'accompagnement", "Workflow d'encadrement"]
+
+# Radar chart
+axes = ["Suivi", "Méthodologie", "Technique", "Communication", "Autonomie", "Professionnalisation"]
+values = [9, 9, 8.5, 8, 9, 8]
+fig = go.Figure(go.Scatterpolar(r=values + [values[0]], theta=axes + [axes[0]],
+                                  fill="toself", line_color="#C8102E", fillcolor="rgba(200,16,46,0.25)",
+                                  name="Niveau d'accompagnement"))
+fig.update_layout(
+    polar=dict(radialaxis=dict(visible=True, range=[0, 10], tickfont=dict(size=10))),
+    showlegend=False, height=350, margin=dict(l=20, r=20, t=20, b=20),
+    font=dict(family="Inter, sans-serif"),
+)
+fig.show()
+
+# Workflow horizontal
+steps = ["Choix du sujet", "Cadrage", "État de l'art", "Développement / Expérimentation",
+         "Analyse des résultats", "Rapport", "Soutenance"]
+fig2 = go.Figure()
+for i, s in enumerate(steps):
+    fig2.add_shape(type="rect", x0=i, y0=0, x1=i + 0.85, y1=1,
+                    fillcolor=ESPRIT[i % len(ESPRIT)], line=dict(color="white", width=2))
+    fig2.add_annotation(x=i + 0.42, y=0.5, text=f"<b>{i+1}</b><br>{s}",
+                          showarrow=False, font=dict(color="white", size=11))
+fig2.update_xaxes(visible=False, range=[-0.2, len(steps) + 0.2])
+fig2.update_yaxes(visible=False, range=[-0.2, 1.2])
+fig2.update_layout(height=350, margin=dict(l=10, r=10, t=20, b=10),
+                    plot_bgcolor="white", paper_bgcolor="white")
+fig2.show()
+```
+
+### Ma méthodologie d'accompagnement
+
+::: {.vision-card}
+Mon approche d'encadrement repose sur une **progression structurée en sept étapes**,
+adaptée au profil et au niveau de chaque étudiant. Je commence par un **cadrage**
+rigoureux du sujet et un **état de l'art** complet pour garantir la solidité
+scientifique du travail. La phase de **développement** ou d'**expérimentation**
+est ponctuée de points de suivi hebdomadaires permettant un ajustement continu.
+L'**analyse des résultats** est conduite avec une exigence de reproductibilité
+(Python, R, notebooks versionnés). La **rédaction du rapport** et la
+**préparation de la soutenance** sont accompagnées de relectures multiples et
+de simulations orales. Mon objectif final : que chaque étudiant développe son
+**autonomie scientifique** tout en livrant un travail valorisable.
+:::
+
+## Mes projets dans AI4U
+
+::: {.callout-note appearance="simple"}
+**Maître de stage · Product Owner · Stage d'été** — Direction d'équipes étudiantes
+au sein de l'équipe de recherche AI4U (Artificial Intelligence 4 University) à Esprit Tech.
+:::
+
+```{python}
+#| echo: false
+#| output: asis
+
+# KPIs
+n_total = len(ai4u)
+n_stagiaires = ai4u["nom"].nunique()
+n_po = (ai4u["role"].str.contains("Product Owner", na=False)).sum()
+n_se = (ai4u["role"] == "Stage d'été").sum()
+n_termines = (ai4u["statut"] == "Terminé").sum()
+n_encours = (ai4u["statut"] == "En cours").sum()
+
+print(f'''
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.8rem;margin:1rem 0;">
+  <div class="kpi"><span class="value">{n_total}</span><span class="label">Total projets AI4U</span></div>
+  <div class="kpi"><span class="value">{n_stagiaires}</span><span class="label">Stagiaires encadrés</span></div>
+  <div class="kpi" style="background:linear-gradient(135deg,#0277BD,#01579B)"><span class="value">{n_po}</span><span class="label">Product Owner</span></div>
+  <div class="kpi" style="background:linear-gradient(135deg,#F57C00,#E65100)"><span class="value">{n_se}</span><span class="label">Stage d'été</span></div>
+  <div class="kpi" style="background:linear-gradient(135deg,#2E7D32,#1B5E20)"><span class="value">{n_termines}</span><span class="label">Terminés</span></div>
+  <div class="kpi" style="background:linear-gradient(135deg,#6A1B9A,#4A148C)"><span class="value">{n_encours}</span><span class="label">En cours</span></div>
+</div>
+''')
+```
+
+```{python}
+#| echo: false
+#| layout-ncol: 2
+
+# Donut par role
+role_counts = ai4u["role"].value_counts().reset_index()
+role_counts.columns = ["role", "count"]
+fig = px.pie(role_counts, names="role", values="count", hole=0.55,
+              color_discrete_sequence=ESPRIT, title="Répartition par rôle")
+fig.update_traces(textposition="outside", textinfo="label+percent")
+base_layout(fig)
+fig.show()
+
+# Bar par annee
+year_counts = ai4u.groupby("annee").size().reset_index(name="count").sort_values("annee")
+fig = px.bar(year_counts, x="annee", y="count", text="count",
+              title="Projets AI4U par année",
+              color_discrete_sequence=[ESPRIT[0]])
+fig.update_traces(textposition="outside")
+base_layout(fig)
+fig.show()
+```
+
+```{python}
+#| echo: false
+#| layout-ncol: 2
+
+# Bar horizontal par domaine
+dom_counts = ai4u["domaine"].value_counts().reset_index()
+dom_counts.columns = ["domaine", "count"]
+fig = px.bar(dom_counts, x="count", y="domaine", orientation="h", text="count",
+              title="Projets par domaine",
+              color="count", color_continuous_scale=[[0, "#FFEBEE"], [1, "#C8102E"]])
+fig.update_traces(textposition="outside")
+fig.update_layout(coloraxis_showscale=False)
+base_layout(fig)
+fig.show()
+
+# Donut par statut
+stat = ai4u["statut"].value_counts().reset_index()
+stat.columns = ["statut", "count"]
+fig = px.pie(stat, names="statut", values="count", hole=0.55,
+              color_discrete_sequence=["#2E7D32", "#F57C00", "#9E9E9E"],
+              title="Statut des projets")
+fig.update_traces(textposition="outside", textinfo="label+percent")
+base_layout(fig)
+fig.show()
+```
+
+### Liste des projets AI4U
+
+```{python}
+#| echo: false
+from itables import init_notebook_mode, show
+init_notebook_mode(all_interactive=True)
+table = ai4u.sort_values("annee", ascending=False)[["annee", "nom", "prenom", "niveau", "formation", "role", "domaine", "statut"]]
+table.columns = ["Année", "Nom", "Prénom", "Niveau", "Formation", "Rôle", "Domaine", "Statut"]
+show(table, lengthMenu=[10, 25, 50], classes="display compact")
+```
+
+## Encadrement académique
+
+::: {.callout-note appearance="simple"}
+**Encadrement de PFE, mémoires, stages et projets de fin d'études** —
+en tant qu'**Encadrant principal** ou **Rapporteur**.
+:::
+
+```{python}
+#| echo: false
+#| output: asis
+
+n_total = len(acad)
+n_etudiants = acad[["nom", "prenom"]].drop_duplicates().shape[0]
+n_pfe = (acad["niveau"].str.contains("Master|Licence", na=False)).sum()
+n_formations = acad["formation"].nunique()
+n_annees = acad["annee"].nunique()
+n_encadrants = (acad["role"] == "Encadrant").sum()
+n_rapporteurs = (acad["role"] == "Rapporteur").sum()
+
+print(f'''
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.8rem;margin:1rem 0;">
+  <div class="kpi"><span class="value">{n_total}</span><span class="label">Total encadrements</span></div>
+  <div class="kpi" style="background:linear-gradient(135deg,#0277BD,#01579B)"><span class="value">{n_encadrants}</span><span class="label">Encadrant</span></div>
+  <div class="kpi" style="background:linear-gradient(135deg,#6A1B9A,#4A148C)"><span class="value">{n_rapporteurs}</span><span class="label">Rapporteur</span></div>
+  <div class="kpi" style="background:linear-gradient(135deg,#2E7D32,#1B5E20)"><span class="value">{n_etudiants}</span><span class="label">Étudiants</span></div>
+  <div class="kpi" style="background:linear-gradient(135deg,#F57C00,#E65100)"><span class="value">{n_formations}</span><span class="label">Formations</span></div>
+  <div class="kpi" style="background:linear-gradient(135deg,#5D4037,#3E2723)"><span class="value">{n_annees}</span><span class="label">Années</span></div>
+</div>
+''')
+```
+
+```{python}
+#| echo: false
+#| layout-ncol: 2
+
+# Bar par annee + role
+ag = acad.groupby(["annee", "role"]).size().reset_index(name="count").sort_values("annee")
+fig = px.bar(ag, x="annee", y="count", color="role", text="count",
+              title="Encadrements par année et rôle",
+              color_discrete_sequence=ESPRIT, barmode="stack")
+fig.update_traces(textposition="inside")
+base_layout(fig)
+fig.show()
+
+# Donut par role
+rc = acad["role"].value_counts().reset_index()
+rc.columns = ["role", "count"]
+fig = px.pie(rc, names="role", values="count", hole=0.55,
+              color_discrete_sequence=[ESPRIT[2], ESPRIT[5]],
+              title="Répartition par type d'encadrement")
+fig.update_traces(textposition="outside", textinfo="label+percent+value")
+base_layout(fig)
+fig.show()
+```
+
+```{python}
+#| echo: false
+#| layout-ncol: 2
+
+# Bar horizontal par domaine
+dc = acad["domaine"].value_counts().reset_index()
+dc.columns = ["domaine", "count"]
+fig = px.bar(dc, x="count", y="domaine", orientation="h", text="count",
+              title="Encadrements par domaine",
+              color="count", color_continuous_scale=[[0, "#FFEBEE"], [1, "#C8102E"]])
+fig.update_traces(textposition="outside")
+fig.update_layout(coloraxis_showscale=False)
+base_layout(fig)
+fig.show()
+
+# Donut par niveau
+nc = acad["niveau"].str.strip().value_counts().reset_index()
+nc.columns = ["niveau", "count"]
+fig = px.pie(nc, names="niveau", values="count", hole=0.55,
+              color_discrete_sequence=[ESPRIT[3], ESPRIT[4], ESPRIT[1]],
+              title="Répartition par niveau")
+fig.update_traces(textposition="outside", textinfo="label+percent+value")
+base_layout(fig)
+fig.show()
+```
+
+### Liste détaillée des encadrements
+
+```{python}
+#| echo: false
+table = acad.sort_values(["annee", "role"], ascending=[False, True])[["annee", "nom", "prenom", "niveau", "formation", "role", "domaine", "perimetre", "statut"]]
+table.columns = ["Année", "Nom", "Prénom", "Niveau", "Formation", "Rôle", "Domaine", "Périmètre", "Statut"]
+show(table, lengthMenu=[15, 30, 50, 100], classes="display compact")
+```
+
+## Président du Jury
+
+::: {.callout-note appearance="simple"}
+**Présidence des jurys de soutenance** PFE, mémoires et projets — Esprit School of Business.
+:::
+
+```{python}
+#| echo: false
+#| output: asis
+
+n_pj = len(pj)
+n_etudiants = pj[["nom", "prenom"]].drop_duplicates().shape[0]
+n_sessions = pj["annee"].nunique()
+n_formations = pj["formation"].nunique()
+n_annees = pj["annee"].nunique()
+
+print(f'''
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.8rem;margin:1rem 0;">
+  <div class="kpi"><span class="value">{n_pj}</span><span class="label">Jurys présidés</span></div>
+  <div class="kpi" style="background:linear-gradient(135deg,#0277BD,#01579B)"><span class="value">{n_etudiants}</span><span class="label">Étudiants évalués</span></div>
+  <div class="kpi" style="background:linear-gradient(135deg,#2E7D32,#1B5E20)"><span class="value">{n_sessions}</span><span class="label">Sessions</span></div>
+  <div class="kpi" style="background:linear-gradient(135deg,#F57C00,#E65100)"><span class="value">{n_formations}</span><span class="label">Formations</span></div>
+  <div class="kpi" style="background:linear-gradient(135deg,#6A1B9A,#4A148C)"><span class="value">{n_annees}</span><span class="label">Années</span></div>
+</div>
+''')
+```
+
+```{python}
+#| echo: false
+#| layout-ncol: 2
+
+# Bar par annee
+ag = pj.groupby("annee").size().reset_index(name="count").sort_values("annee")
+fig = px.bar(ag, x="annee", y="count", text="count",
+              title="Jurys par année",
+              color_discrete_sequence=[ESPRIT[0]])
+fig.update_traces(textposition="outside")
+base_layout(fig)
+fig.show()
+
+# Donut par niveau
+nc = pj["niveau"].str.strip().value_counts().reset_index()
+nc.columns = ["niveau", "count"]
+fig = px.pie(nc, names="niveau", values="count", hole=0.55,
+              color_discrete_sequence=[ESPRIT[3], ESPRIT[4]],
+              title="Répartition par niveau")
+fig.update_traces(textposition="outside", textinfo="label+percent+value")
+base_layout(fig)
+fig.show()
+```
+
+```{python}
+#| echo: false
+#| layout-ncol: 2
+
+# Bar horizontal par formation
+fc = pj["formation"].value_counts().head(10).reset_index()
+fc.columns = ["formation", "count"]
+fig = px.bar(fc.sort_values("count"), x="count", y="formation", orientation="h", text="count",
+              title="Top 10 formations (jurys)",
+              color="count", color_continuous_scale=[[0, "#FFEBEE"], [1, "#C8102E"]])
+fig.update_traces(textposition="outside")
+fig.update_layout(coloraxis_showscale=False)
+base_layout(fig, height=400)
+fig.show()
+
+# Donut perimetre
+pc = pj["perimetre"].value_counts().head(8).reset_index()
+pc.columns = ["perimetre", "count"]
+fig = px.pie(pc, names="perimetre", values="count", hole=0.55,
+              color_discrete_sequence=ESPRIT,
+              title="Répartition par périmètre")
+fig.update_traces(textposition="outside", textinfo="label+percent")
+base_layout(fig, height=400)
+fig.show()
+```
+
+### Liste détaillée des jurys présidés
+
+```{python}
+#| echo: false
+table = pj.sort_values("annee", ascending=False)[["annee", "nom", "prenom", "niveau", "formation", "domaine", "perimetre", "type_jury", "ecole"]]
+table.columns = ["Année", "Nom", "Prénom", "Niveau", "Formation", "Domaine", "Périmètre", "Type jury", "École"]
+show(table, lengthMenu=[15, 30, 50, 100], classes="display compact")
+```
+
+:::
+
+---
+
+## Maintenir ces données
+
+```
+data/
+├── ai4u_projects.csv             46 projets AI4U (Maître stage / PO / Stage d'été)
+├── encadrement_academique.csv    319 encadrements (Encadrant + Rapporteur)
+└── president_jury.csv            255 jurys présidés
+```
+
+Pour rafraîchir depuis le fichier Excel maître :
+
+```bash
+python scripts/extract_encadrements.py
+quarto render encadrement-projets.qmd
+```

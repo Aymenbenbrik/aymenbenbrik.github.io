@@ -1,0 +1,58 @@
+---
+title: "🎯 Cours de soutien Mathématiques"
+subtitle: "Encadrement et soutien · 1 année(s) · 9 h cumulées"
+toc: true
+---
+
+<span class="badge bg-danger">Coordinateur</span>
+
+## Synthèse
+
+::: {.grid}
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**9 h**<br>
+<small>Charge cumulée</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**1**<br>
+<small>Année(s) dispensée(s)</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**1**<br>
+<small>Groupes cumulés</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**Licence**<br>
+<small>Niveau(x)</small>
+:::
+:::
+
+:::
+
+**Domaine** : Encadrement et soutien
+**Formations couvertes** : —
+**Période** : 2017-2018 → 2017-2018
+
+## Historique de dispense
+
+| Année | Niveau | Classe | Groupes | Charge | Coord. | Langue | Statut |
+|---|---|---|---|---|---|---|---|
+| 2017-2018 | Licence | — | 1 | 9 h | ✓ | FR |  |
+
+---
+
+::: {.callout-note}
+Page générée automatiquement à partir de `data/enseignements_detailed.csv`
+(source : `Passage de grade/Enseignement.xlsx`).
+:::

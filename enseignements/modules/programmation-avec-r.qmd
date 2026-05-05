@@ -1,0 +1,63 @@
+---
+title: "📊 Programmation avec R"
+subtitle: "Sciences des données · 1 année(s) · 102 h cumulées"
+toc: true
+---
+
+<span class="badge bg-danger">Coordinateur</span> <span class="badge bg-success">Nouveau module</span>
+
+## Synthèse
+
+::: {.grid}
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**102 h**<br>
+<small>Charge cumulée</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**1**<br>
+<small>Année(s) dispensée(s)</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**4**<br>
+<small>Groupes cumulés</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**Master**<br>
+<small>Niveau(x)</small>
+:::
+:::
+
+:::
+
+**Domaine** : Sciences des données
+**Formations couvertes** : MDSI, MKD
+**Période** : 2019-2020 → 2019-2020
+
+## Historique de dispense
+
+| Année | Niveau | Classe | Groupes | Charge | Coord. | Langue | Statut |
+|---|---|---|---|---|---|---|---|
+| 2019-2020 | Master | MDSI | 2 | 60 h | ✓ | FR | NOUVEAU |
+| 2019-2020 | Master | MKD | 2 | 42 h | ✓ | FR | NOUVEAU |
+
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/ProgrammationR](https://github.com/Aymenbenbrik/ProgrammationR)
+
+---
+
+::: {.callout-note}
+Page générée automatiquement à partir de `data/enseignements_detailed.csv`
+(source : `Passage de grade/Enseignement.xlsx`).
+:::

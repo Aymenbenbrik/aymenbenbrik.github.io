@@ -1,0 +1,71 @@
+---
+title: "∫ Algèbre 2"
+subtitle: "Mathématiques et Statistiques · 3 année(s) · 210 h cumulées"
+toc: true
+---
+
+<span class="badge bg-danger">Coordinateur</span> <span class="badge bg-success">Nouveau module</span>
+
+## Synthèse
+
+::: {.grid}
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**210 h**<br>
+<small>Charge cumulée</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**3**<br>
+<small>Année(s) dispensée(s)</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**3**<br>
+<small>Groupes cumulés</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**Licence**<br>
+<small>Niveau(x)</small>
+:::
+:::
+
+:::
+
+**Domaine** : Mathématiques et Statistiques
+**Formations couvertes** : LMAD
+**Période** : 2019-2020 → 2022-2023
+
+## Historique de dispense
+
+| Année | Niveau | Classe | Groupes | Charge | Coord. | Langue | Statut |
+|---|---|---|---|---|---|---|---|
+| 2019-2020 | Licence | LMAD | 1 | 84 h | ✓ | FR | NOUVEAU |
+| 2020-2021 | Licence | LMAD | 1 | 84 h | ✓ | FR |  |
+| 2022-2023 | Licence | LMAD | 1 | 42 h | ✓ | FR |  |
+
+## Page pédagogique détaillée
+
+Pour le programme complet, les objectifs d'apprentissage, le découpage par
+chapitre et les ressources annexes, consulter la fiche détaillée :
+
+→ [Voir la fiche pédagogique de Algèbre 2](../algebre2.qmd)
+
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/Algebre2](https://github.com/Aymenbenbrik/Algebre2)
+
+---
+
+::: {.callout-note}
+Page générée automatiquement à partir de `data/enseignements_detailed.csv`
+(source : `Passage de grade/Enseignement.xlsx`).
+:::

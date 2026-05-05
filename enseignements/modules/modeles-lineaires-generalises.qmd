@@ -1,0 +1,63 @@
+---
+title: "📊 Modèles linéaires généralisés"
+subtitle: "Sciences des données · 2 année(s) · 25 h cumulées"
+toc: true
+---
+
+<span class="badge bg-danger">Coordinateur</span> <span class="badge bg-success">Nouveau module</span>
+
+## Synthèse
+
+::: {.grid}
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**25 h**<br>
+<small>Charge cumulée</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**2**<br>
+<small>Année(s) dispensée(s)</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**2**<br>
+<small>Groupes cumulés</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**Master**<br>
+<small>Niveau(x)</small>
+:::
+:::
+
+:::
+
+**Domaine** : Sciences des données
+**Formations couvertes** : GAMMA
+**Période** : 2021-2022 → 2022-2023
+
+## Historique de dispense
+
+| Année | Niveau | Classe | Groupes | Charge | Coord. | Langue | Statut |
+|---|---|---|---|---|---|---|---|
+| 2021-2022 | Master | GAMMA | 1 | 15 h | ✓ | FR | NOUVEAU |
+| 2022-2023 | Master | GAMMA | 1 | 10 h | ✓ | FR |  |
+
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/Unsupervised-Learning](https://github.com/Aymenbenbrik/Unsupervised-Learning)
+
+---
+
+::: {.callout-note}
+Page générée automatiquement à partir de `data/enseignements_detailed.csv`
+(source : `Passage de grade/Enseignement.xlsx`).
+:::

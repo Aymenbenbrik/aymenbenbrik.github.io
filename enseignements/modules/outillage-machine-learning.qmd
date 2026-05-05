@@ -1,0 +1,70 @@
+---
+title: "🤖 Outillage Machine Learning"
+subtitle: "Intelligence Artificielle · 2 année(s) · 63 h cumulées"
+toc: true
+---
+
+<span class="badge bg-danger">Coordinateur</span> <span class="badge bg-success">Nouveau module</span>
+
+## Synthèse
+
+::: {.grid}
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**63 h**<br>
+<small>Charge cumulée</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**2**<br>
+<small>Année(s) dispensée(s)</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**3**<br>
+<small>Groupes cumulés</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**Master**<br>
+<small>Niveau(x)</small>
+:::
+:::
+
+:::
+
+**Domaine** : Intelligence Artificielle
+**Formations couvertes** : MDSI
+**Période** : 2023-2024 → 2024-2025
+
+## Historique de dispense
+
+| Année | Niveau | Classe | Groupes | Charge | Coord. | Langue | Statut |
+|---|---|---|---|---|---|---|---|
+| 2023-2024 | Master | MDSI | 1 | 21 h | ✓ | FR | NOUVEAU |
+| 2024-2025 | Master | MDSI | 2 | 42 h | ✓ | FR |  |
+
+## Page pédagogique détaillée
+
+Pour le programme complet, les objectifs d'apprentissage, le découpage par
+chapitre et les ressources annexes, consulter la fiche détaillée :
+
+→ [Voir la fiche pédagogique de Outillage Machine Learning](../tools-for-ml.qmd)
+
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/Supervised-Learning](https://github.com/Aymenbenbrik/Supervised-Learning)
+
+---
+
+::: {.callout-note}
+Page générée automatiquement à partir de `data/enseignements_detailed.csv`
+(source : `Passage de grade/Enseignement.xlsx`).
+:::

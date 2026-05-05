@@ -1,0 +1,62 @@
+---
+title: "🤖 Gestion de projet"
+subtitle: "Intelligence Artificielle · 1 année(s) · 30 h cumulées"
+toc: true
+---
+
+<span class="badge bg-danger">Coordinateur</span>
+
+## Synthèse
+
+::: {.grid}
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**30 h**<br>
+<small>Charge cumulée</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**1**<br>
+<small>Année(s) dispensée(s)</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**1**<br>
+<small>Groupes cumulés</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**Licence**<br>
+<small>Niveau(x)</small>
+:::
+:::
+
+:::
+
+**Domaine** : Intelligence Artificielle
+**Formations couvertes** : LBC-SIAD
+**Période** : 2024-2025 → 2024-2025
+
+## Historique de dispense
+
+| Année | Niveau | Classe | Groupes | Charge | Coord. | Langue | Statut |
+|---|---|---|---|---|---|---|---|
+| 2024-2025 | Licence | LBC-SIAD | 1 | 30 h | ✓ | FR |  |
+
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/DeepLearningCourse](https://github.com/Aymenbenbrik/DeepLearningCourse)
+
+---
+
+::: {.callout-note}
+Page générée automatiquement à partir de `data/enseignements_detailed.csv`
+(source : `Passage de grade/Enseignement.xlsx`).
+:::

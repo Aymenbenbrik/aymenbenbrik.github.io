@@ -1,0 +1,66 @@
+---
+title: "∫ Statistiques descriptives et Probabilités"
+subtitle: "Mathématiques et Statistiques · 3 année(s) · 511 h cumulées"
+toc: true
+---
+
+<span class="badge bg-danger">Coordinateur</span> <span class="badge bg-success">Nouveau module</span>
+
+## Synthèse
+
+::: {.grid}
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**511 h**<br>
+<small>Charge cumulée</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**3**<br>
+<small>Année(s) dispensée(s)</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**11**<br>
+<small>Groupes cumulés</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**Licence**<br>
+<small>Niveau(x)</small>
+:::
+:::
+
+:::
+
+**Domaine** : Mathématiques et Statistiques
+**Formations couvertes** : LFG, LFIG
+**Période** : 2016-2017 → 2018-2019
+
+## Historique de dispense
+
+| Année | Niveau | Classe | Groupes | Charge | Coord. | Langue | Statut |
+|---|---|---|---|---|---|---|---|
+| 2016-2017 | Licence | LFG | 2 | 105 h | ✓ | FR | NOUVEAU |
+| 2016-2017 | Licence | LFIG | 1 | 52 h | ✓ | FR | NOUVEAU |
+| 2017-2018 | Licence | LFG | 4 | 210 h |  | FR |  |
+| 2018-2019 | Licence | LFIG | 2 | 60 h | ✓ | FR |  |
+| 2018-2019 | Licence | LFG | 2 | 84 h | ✓ | FR |  |
+
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/StatistiquesDescriptivesProbabilites](https://github.com/Aymenbenbrik/StatistiquesDescriptivesProbabilites)
+
+---
+
+::: {.callout-note}
+Page générée automatiquement à partir de `data/enseignements_detailed.csv`
+(source : `Passage de grade/Enseignement.xlsx`).
+:::

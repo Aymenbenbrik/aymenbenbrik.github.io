@@ -1,0 +1,62 @@
+---
+title: "🤖 Intelligence Artificielle"
+subtitle: "Intelligence Artificielle · 1 année(s) · 56 h cumulées"
+toc: true
+---
+
+<span class="badge bg-danger">Coordinateur</span> <span class="badge bg-success">Nouveau module</span>
+
+## Synthèse
+
+::: {.grid}
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**56 h**<br>
+<small>Charge cumulée</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**1**<br>
+<small>Année(s) dispensée(s)</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**1**<br>
+<small>Groupes cumulés</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**Licence**<br>
+<small>Niveau(x)</small>
+:::
+:::
+
+:::
+
+**Domaine** : Intelligence Artificielle
+**Formations couvertes** : LMAD
+**Période** : 2023-2024 → 2023-2024
+
+## Historique de dispense
+
+| Année | Niveau | Classe | Groupes | Charge | Coord. | Langue | Statut |
+|---|---|---|---|---|---|---|---|
+| 2023-2024 | Licence | LMAD | 1 | 56 h | ✓ | FR | NOUVEAU |
+
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/Supervised-Learning](https://github.com/Aymenbenbrik/Supervised-Learning)
+
+---
+
+::: {.callout-note}
+Page générée automatiquement à partir de `data/enseignements_detailed.csv`
+(source : `Passage de grade/Enseignement.xlsx`).
+:::

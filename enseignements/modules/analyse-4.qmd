@@ -1,0 +1,72 @@
+---
+title: "∫ Analyse 4"
+subtitle: "Mathématiques et Statistiques · 4 année(s) · 294 h cumulées"
+toc: true
+---
+
+<span class="badge bg-danger">Coordinateur</span> <span class="badge bg-success">Nouveau module</span>
+
+## Synthèse
+
+::: {.grid}
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**294 h**<br>
+<small>Charge cumulée</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**4**<br>
+<small>Année(s) dispensée(s)</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**4**<br>
+<small>Groupes cumulés</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**Licence**<br>
+<small>Niveau(x)</small>
+:::
+:::
+
+:::
+
+**Domaine** : Mathématiques et Statistiques
+**Formations couvertes** : LMAD
+**Période** : 2020-2021 → 2023-2024
+
+## Historique de dispense
+
+| Année | Niveau | Classe | Groupes | Charge | Coord. | Langue | Statut |
+|---|---|---|---|---|---|---|---|
+| 2020-2021 | Licence | LMAD | 1 | 84 h | ✓ | FR | NOUVEAU |
+| 2021-2022 | Licence | LMAD | 1 | 84 h | ✓ | FR |  |
+| 2022-2023 | Licence | LMAD | 1 | 42 h | ✓ | FR |  |
+| 2023-2024 | Licence | LMAD | 1 | 84 h | ✓ | FR |  |
+
+## Page pédagogique détaillée
+
+Pour le programme complet, les objectifs d'apprentissage, le découpage par
+chapitre et les ressources annexes, consulter la fiche détaillée :
+
+→ [Voir la fiche pédagogique de Analyse 4](../analyse4.qmd)
+
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/Analyse4](https://github.com/Aymenbenbrik/Analyse4)
+
+---
+
+::: {.callout-note}
+Page générée automatiquement à partir de `data/enseignements_detailed.csv`
+(source : `Passage de grade/Enseignement.xlsx`).
+:::

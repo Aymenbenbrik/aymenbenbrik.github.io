@@ -1,133 +1,525 @@
 ---
-title: "Enseignements"
-subtitle: "10 ans à ESB · 12+ modules · 4 catégories"
-toc: true
+title: "Enseignement"
+subtitle: "Vision pédagogique · Domaines · Récapitulatif · Supports"
+toc: false
+page-layout: full
 ---
-
-## Synthèse
 
 ```{python}
 #| echo: false
 import pandas as pd
-import plotly.express as px
+from pathlib import Path
+from html import escape
 
-df = pd.read_csv("../data/enseignements.csv")
-df["annee_debut"] = df["annee_universitaire"].str.split("-").str[0].astype(int)
+ROOT = Path("..").resolve()
+df_ens = pd.read_csv("../data/enseignements_detailed.csv")
+df_sup = pd.read_csv("../data/supports.csv")
 
-agg = df.groupby(["annee_universitaire", "module"])["heures"].sum().reset_index()
-fig = px.bar(
-    agg.sort_values("annee_universitaire"),
-    x="annee_universitaire", y="heures", color="module",
-    labels={"heures": "Heures", "annee_universitaire": "Année", "module": ""},
-    color_discrete_sequence=px.colors.qualitative.Set2 + px.colors.qualitative.Pastel,
-)
-fig.update_layout(
-    template="plotly_white", height=420, barmode="stack",
-    margin=dict(l=10, r=10, t=10, b=10),
-    legend=dict(orientation="h", y=-0.3, x=0.5, xanchor="center"),
-)
-fig.show()
+# Nettoyage
+df_ens["anglais"] = df_ens["anglais"].astype(str).str.lower().map(
+    {"true": True, "false": False, "yes": True, "no": False}
+).fillna(False)
+df_ens["coordinateur"] = df_ens["coordinateur"].astype(str).str.lower().map(
+    {"true": True, "false": False, "yes": True, "no": False}
+).fillna(False)
+df_ens["nouveau_module"] = df_ens["nouveau_module"].astype(str).str.lower().map(
+    {"true": True, "false": False, "yes": True, "no": False}
+).fillna(False)
+
+DOMAINS = [
+    ("Mathématiques et Statistiques", "∫", "Algèbre, Analyse, Probabilités, Statistiques inférentielles, GLM, Logique, Recherche Opérationnelle"),
+    ("Intelligence Artificielle", "🤖", "Machine Learning, Deep Learning, NLP, Generative Computer Vision, Outillage ML"),
+    ("Sciences des données", "📊", "Analyse des données, Data Mining, Programmation R/Python, Séries temporelles"),
+    ("Encadrement et soutien", "🎯", "Cours de soutien, Atelier Python, Gestion de projet"),
+]
 ```
 
-## Mathématiques fondamentales et appliquées
+::: {.panel-tabset}
 
-::: {.card-module}
-### [Algèbre 2 — ECUE211](algebre2.qmd) · LMAD/SD · 84h
-Espaces vectoriels, applications linéaires, matrices, déterminants.
+## Présentation générale
+
+### Ma vision
+
+::: {.vision-card}
+Mon enseignement s'appuie sur une articulation entre **rigueur scientifique**,
+**applications concrètes** et **apprentissage progressif par la pratique**.
+J'accorde une importance particulière à la compréhension des concepts
+fondamentaux, à leur mise en œuvre sur des cas réels et au développement
+de l'autonomie des étudiants.
 :::
 
-::: {.card-module}
-### [Algèbre 3 — ECUE311](algebre3.qmd) · LMAD · 75h
-Réduction des endomorphismes, normes, espaces euclidiens, formes quadratiques, ACP.
+### Domaines d'enseignement
+
+```{python}
+#| echo: false
+#| output: asis
+
+cards = ['<div class="domain-grid">']
+for d, icon, _ in DOMAINS:
+    n_modules = df_ens[df_ens["domaine"] == d]["nom_module"].nunique()
+    cards.append(f'''
+    <div class="domain-card" data-domain="{d}">
+      <div class="domain-icon">{icon}</div>
+      <div class="domain-name">{d}</div>
+      <div class="domain-count">{n_modules} module{'s' if n_modules > 1 else ''}</div>
+    </div>''')
+cards.append('</div>')
+print('\n'.join(cards))
+```
+
+### Récapitulatif des enseignements
+
+```{python}
+#| echo: false
+#| output: asis
+
+# Pour chaque domaine : un accordéon avec un tableau filtrable
+
+YES_NO = lambda b: "Oui" if b else "Non"
+
+def render_table(d_df, table_id):
+    """Génère un tableau HTML avec filtres JavaScript natif."""
+    annees = sorted(d_df["annee"].dropna().unique().tolist(), reverse=True)
+    niveaux = sorted(d_df["niveau"].dropna().unique().tolist())
+    ecoles = sorted(d_df["ecole"].dropna().unique().tolist())
+
+    # Filtres
+    filters = f'''
+<div class="teaching-filters">
+  <label>Recherche :</label>
+  <input type="text" id="{table_id}-search" placeholder="nom du module..." oninput="filterTeaching('{table_id}')">
+  <label>Année :</label>
+  <select id="{table_id}-annee" onchange="filterTeaching('{table_id}')">
+    <option value="">Toutes</option>
+    {''.join(f'<option value="{a}">{a}</option>' for a in annees)}
+  </select>
+  <label>Niveau :</label>
+  <select id="{table_id}-niveau" onchange="filterTeaching('{table_id}')">
+    <option value="">Tous</option>
+    {''.join(f'<option value="{n}">{n}</option>' for n in niveaux)}
+  </select>
+  <label>École :</label>
+  <select id="{table_id}-ecole" onchange="filterTeaching('{table_id}')">
+    <option value="">Toutes</option>
+    {''.join(f'<option value="{e}">{e}</option>' for e in ecoles)}
+  </select>
+  <label>Langue :</label>
+  <select id="{table_id}-langue" onchange="filterTeaching('{table_id}')">
+    <option value="">Toutes</option>
+    <option value="EN">Anglais</option>
+    <option value="FR">Français</option>
+  </select>
+</div>'''
+
+    rows = []
+    for _, r in d_df.iterrows():
+        lang = "EN" if r["anglais"] else "FR"
+        new_badge = ' <span class="status-badge status-disponible" style="font-size:0.7rem">NOUVEAU</span>' if r["nouveau_module"] else ''
+        coord_check = "✓" if r["coordinateur"] else ""
+        nouveau_check = "✓" if r["nouveau_module"] else ""
+        # Icône GitHub si lien dispo (peut contenir plusieurs URLs séparées par |)
+        liens = str(r.get("lien_github") or "").strip()
+        gh_icons = ""
+        if liens and liens.lower() != "nan":
+            urls = [u.strip() for u in liens.split("|") if u.strip()]
+            for u in urls:
+                gh_icons += f' <a href="{escape(u)}" target="_blank" title="{escape(u)}" style="color:#24292f;text-decoration:none;font-weight:600">⚙</a>'
+        rows.append(f'''
+<tr data-annee="{escape(str(r["annee"]))}" data-niveau="{escape(str(r["niveau"]))}" data-ecole="{escape(str(r["ecole"]))}" data-langue="{lang}" data-module="{escape(str(r["nom_module"]).lower())}">
+  <td>{escape(str(r["annee"]))}</td>
+  <td><strong>{escape(str(r["nom_module"]))}</strong>{new_badge}{gh_icons}</td>
+  <td>{escape(str(r["niveau"]))}</td>
+  <td>{escape(str(r["classe"]))}</td>
+  <td style="text-align:center">{escape(str(r["nb_groupes"]))}</td>
+  <td style="text-align:center">{lang}</td>
+  <td style="text-align:center">{escape(str(r["charge_horaire"]))} h</td>
+  <td style="text-align:center">{coord_check}</td>
+  <td style="text-align:center">{nouveau_check}</td>
+  <td>{escape(str(r["ecole"]))}</td>
+</tr>''')
+
+    table = f'''
+<div class="table-responsive">
+<table id="{table_id}" class="table table-sm table-hover">
+  <thead>
+    <tr>
+      <th>Année</th><th>Module</th><th>Niveau</th><th>Classe</th>
+      <th>Groupes</th><th>EN</th><th>Charge</th><th>Coord.</th><th>Nouveau</th><th>École</th>
+    </tr>
+  </thead>
+  <tbody>{''.join(rows)}</tbody>
+</table>
+</div>'''
+    return filters + table
+
+
+parts = []
+for d, icon, desc in DOMAINS:
+    d_df = df_ens[df_ens["domaine"] == d]
+    if d_df.empty:
+        continue
+    table_id = f"tbl-{d.lower().replace(' ', '-').replace('&', 'et').replace('é', 'e').replace('è', 'e')}"
+    n_lignes = len(d_df)
+    n_modules = d_df["nom_module"].nunique()
+
+    table_html = render_table(d_df, table_id)
+    parts.append(f'''
+<details class="callout callout-style-default callout-titled" style="margin: 1rem 0;">
+  <summary class="callout-header" style="cursor:pointer; padding: 0.8rem 1rem; background:#FAFAFA; border-left: 4px solid #C8102E; font-weight:600;">
+    {icon}&nbsp; <strong>{d}</strong>&nbsp; <span style="color:#666; font-weight:400; font-size:0.9em">— {n_modules} module(s) · {n_lignes} ligne(s) · {desc}</span>
+  </summary>
+  <div class="callout-body" style="padding: 0.8rem 1rem 1.2rem;">
+    {table_html}
+  </div>
+</details>''')
+
+print('\n'.join(parts))
+```
+
+```{=html}
+<script>
+function filterTeaching(tableId) {
+  const search = document.getElementById(tableId + '-search').value.toLowerCase();
+  const annee = document.getElementById(tableId + '-annee').value;
+  const niveau = document.getElementById(tableId + '-niveau').value;
+  const ecole = document.getElementById(tableId + '-ecole').value;
+  const langue = document.getElementById(tableId + '-langue').value;
+  const rows = document.querySelectorAll('#' + tableId + ' tbody tr');
+  rows.forEach(r => {
+    const m = r.dataset.module || '';
+    const a = r.dataset.annee || '';
+    const n = r.dataset.niveau || '';
+    const e = r.dataset.ecole || '';
+    const l = r.dataset.langue || '';
+    const matchSearch = !search || m.includes(search);
+    const matchAnnee = !annee || a === annee;
+    const matchNiveau = !niveau || n === niveau;
+    const matchEcole = !ecole || e === ecole;
+    const matchLangue = !langue || l === langue;
+    r.style.display = (matchSearch && matchAnnee && matchNiveau && matchEcole && matchLangue) ? '' : 'none';
+  });
+}
+</script>
+```
+
+## Évolution des modules
+
+```{python}
+#| echo: false
+#| output: asis
+import plotly.express as px
+import plotly.graph_objects as go
+from plotly.io import to_html
+
+# --- Données dérivées ---
+df_evo = df_ens.copy()
+
+# Année de fin = "2025-2026" -> 2026 (numérique pour les axes)
+def annee_fin(s):
+    s = str(s)
+    if "-" in s:
+        try:
+            return int(s.split("-")[1])
+        except Exception:
+            return None
+    return None
+
+df_evo["annee_num"] = df_evo["annee"].apply(annee_fin)
+
+# KPIs
+n_lignes = len(df_evo)
+n_modules = df_evo["nom_module"].nunique()
+n_annees = df_evo["annee"].nunique()
+n_heures = int(df_evo["charge_horaire"].sum())
+n_nouveaux = int(df_evo["nouveau_module"].sum())
+n_anglais = int(df_evo["anglais"].sum())
+
+kpi_html = f'''
+<div class="domain-grid" style="margin: 1rem 0;">
+  <div class="domain-card"><div class="domain-icon">⏱️</div><div class="domain-name">{n_heures:,}</div><div class="domain-count">Heures cumulées</div></div>
+  <div class="domain-card"><div class="domain-icon">📚</div><div class="domain-name">{n_modules}</div><div class="domain-count">Modules distincts</div></div>
+  <div class="domain-card"><div class="domain-icon">📅</div><div class="domain-name">{n_annees}</div><div class="domain-count">Années actives</div></div>
+  <div class="domain-card"><div class="domain-icon">🆕</div><div class="domain-name">{n_nouveaux}</div><div class="domain-count">Nouveau module (lignes)</div></div>
+  <div class="domain-card"><div class="domain-icon">🇬🇧</div><div class="domain-name">{n_anglais}</div><div class="domain-count">Cours en anglais</div></div>
+</div>
+'''.replace(",", " ")
+print(kpi_html)
+```
+
+### Heures par année et par domaine
+
+```{python}
+#| echo: false
+
+# Bar chart empilé : charge horaire par année par domaine
+agg = df_evo.groupby(["annee", "domaine"], as_index=False)["charge_horaire"].sum()
+fig1 = px.bar(
+    agg.sort_values("annee"),
+    x="annee", y="charge_horaire", color="domaine",
+    labels={"annee": "Année universitaire", "charge_horaire": "Heures", "domaine": "Domaine"},
+    color_discrete_sequence=px.colors.qualitative.Set2,
+    height=420,
+)
+fig1.update_layout(
+    barmode="stack",
+    legend=dict(orientation="h", yanchor="bottom", y=-0.45, xanchor="center", x=0.5),
+    margin=dict(l=10, r=10, t=20, b=10),
+    plot_bgcolor="white",
+)
+fig1.update_xaxes(tickangle=-30)
+fig1.show()
+```
+
+### Évolution du nombre de modules dispensés
+
+```{python}
+#| echo: false
+
+# Lignes : nombre de modules différents par année + cumul des nouveaux modules
+per_year = (df_evo.groupby("annee", as_index=False)
+                  .agg(modules_differents=("nom_module", "nunique"),
+                       nouveaux=("nouveau_module", "sum"))
+                  .sort_values("annee"))
+per_year["cumul_nouveaux"] = per_year["nouveaux"].cumsum()
+
+fig2 = go.Figure()
+fig2.add_trace(go.Bar(
+    x=per_year["annee"], y=per_year["nouveaux"],
+    name="Nouveaux modules (année)", marker_color="#C8102E",
+))
+fig2.add_trace(go.Scatter(
+    x=per_year["annee"], y=per_year["modules_differents"],
+    mode="lines+markers", name="Modules différents (année)",
+    line=dict(color="#2C3E50", width=3),
+))
+fig2.add_trace(go.Scatter(
+    x=per_year["annee"], y=per_year["cumul_nouveaux"],
+    mode="lines+markers", name="Cumul des nouveaux modules",
+    line=dict(color="#F39C12", width=2, dash="dash"),
+))
+fig2.update_layout(
+    height=420,
+    xaxis_title="Année universitaire",
+    yaxis_title="Nombre de modules",
+    legend=dict(orientation="h", yanchor="bottom", y=-0.30, xanchor="center", x=0.5),
+    margin=dict(l=10, r=10, t=20, b=10),
+    plot_bgcolor="white",
+)
+fig2.update_xaxes(tickangle=-30)
+fig2.show()
+```
+
+### Heatmap module × année (charge horaire)
+
+```{python}
+#| echo: false
+
+# Pivot : modules en lignes, années en colonnes, valeurs = somme des heures
+pivot = (df_evo.pivot_table(
+    index="nom_module", columns="annee",
+    values="charge_horaire", aggfunc="sum", fill_value=0,
+))
+
+# Trier les modules par année de première apparition (chronologique)
+def first_year(row):
+    nz = row[row > 0]
+    return nz.index.min() if len(nz) else "9999"
+pivot["_first"] = pivot.apply(first_year, axis=1)
+pivot = pivot.sort_values("_first").drop(columns="_first")
+
+fig3 = px.imshow(
+    pivot.values,
+    x=list(pivot.columns),
+    y=list(pivot.index),
+    color_continuous_scale=[(0, "#FFFFFF"), (0.01, "#FDE2E4"), (1, "#C8102E")],
+    aspect="auto",
+    labels=dict(x="Année universitaire", y="Module", color="Heures"),
+    height=max(420, 18 * len(pivot)),
+)
+fig3.update_layout(
+    margin=dict(l=10, r=10, t=20, b=10),
+    coloraxis_colorbar=dict(title="Heures"),
+)
+fig3.update_xaxes(side="top", tickangle=-30)
+fig3.show()
+```
+
+### Timeline d'enseignement par module
+
+```{python}
+#| echo: false
+
+# Pour chaque module : année de début et fin (en année calendaire de fin d'année univ.)
+def to_period(s):
+    s = str(s)
+    if "-" in s:
+        a, b = s.split("-")
+        try:
+            return int(a), int(b)
+        except Exception:
+            return None, None
+    return None, None
+
+mod_span = []
+for mod, g in df_evo.groupby("nom_module"):
+    starts = [to_period(a)[0] for a in g["annee"]]
+    ends = [to_period(a)[1] for a in g["annee"]]
+    starts = [s for s in starts if s is not None]
+    ends = [e for e in ends if e is not None]
+    if not starts or not ends:
+        continue
+    mod_span.append({
+        "module": mod,
+        "domaine": g["domaine"].iloc[0],
+        "debut": f"{min(starts)}-09-01",
+        "fin": f"{max(ends)}-06-30",
+        "nb_annees": g["annee"].nunique(),
+        "heures_total": int(g["charge_horaire"].sum()),
+        "niveau": ", ".join(sorted(g["niveau"].dropna().unique())),
+    })
+mod_span = pd.DataFrame(mod_span).sort_values("debut")
+
+fig4 = px.timeline(
+    mod_span,
+    x_start="debut", x_end="fin", y="module",
+    color="domaine",
+    color_discrete_sequence=px.colors.qualitative.Set2,
+    hover_data={"nb_annees": True, "heures_total": True, "niveau": True,
+                "debut": False, "fin": False},
+    height=max(420, 22 * len(mod_span)),
+)
+fig4.update_yaxes(autorange="reversed", title=None)
+fig4.update_layout(
+    xaxis_title="Période d'enseignement",
+    legend=dict(orientation="h", yanchor="bottom", y=-0.10, xanchor="center", x=0.5),
+    margin=dict(l=10, r=10, t=20, b=10),
+    plot_bgcolor="white",
+)
+fig4.show()
+```
+
+### Nouveaux modules par année universitaire
+
+```{python}
+#| echo: false
+#| output: asis
+
+# Pour chaque année : liste des modules marqués "Nouveau Module"
+nouveaux = (df_evo[df_evo["nouveau_module"]]
+            .groupby("annee")
+            .apply(lambda g: ", ".join(sorted(g["nom_module"].unique())))
+            .reset_index(name="modules"))
+
+rows = []
+for _, r in nouveaux.iterrows():
+    rows.append(f'''
+<tr>
+  <td><strong>{escape(str(r["annee"]))}</strong></td>
+  <td>{escape(str(r["modules"]))}</td>
+</tr>''')
+
+print(f'''
+<div class="table-responsive">
+<table class="table table-sm table-hover">
+  <thead>
+    <tr><th style="width:140px">Année</th><th>Modules nouveaux ou refondus</th></tr>
+  </thead>
+  <tbody>{''.join(rows)}</tbody>
+</table>
+</div>
+''')
+```
+
+## Supports des cours
+
+```{python}
+#| echo: false
+#| output: asis
+
+def status_class(s):
+    s = (s or "").lower()
+    if "disponible" in s and "réservé" not in s:
+        return "status-disponible"
+    if "à venir" in s or "venir" in s:
+        return "status-a-venir"
+    return "status-reserve"
+
+def render_resource_button(name, status, link):
+    s = (status or "").lower()
+    if "à venir" in s or not link or link == "":
+        return '<span class="resource-btn btn-disabled">Indisponible</span>'
+    if "réservé" in s:
+        return '<span class="resource-btn btn-disabled">Accès restreint</span>'
+    if name.lower() == "slides":
+        return f'<a href="{escape(link)}" class="resource-btn btn-view">Voir</a>'
+    return f'<a href="{escape(link)}" class="resource-btn btn-download">Télécharger</a>'
+
+parts = []
+for d, icon, desc in DOMAINS:
+    d_df = df_sup[df_sup["domaine"] == d]
+    if d_df.empty:
+        parts.append(f'''
+<details class="callout" style="margin: 1rem 0;">
+  <summary style="cursor:pointer; padding: 0.8rem 1rem; background:#FAFAFA; border-left: 4px solid #C8102E; font-weight:600;">
+    {icon}&nbsp; <strong>{d}</strong>&nbsp; <span style="color:#999; font-weight:400; font-size:0.9em">— pas encore de supports en ligne</span>
+  </summary>
+</details>''')
+        continue
+
+    n_modules = d_df["nom_module"].nunique()
+    cards = []
+    for (mod, niv, classe, ecole), g in d_df.groupby(
+        ["nom_module", "niveau", "classe", "ecole"], sort=False
+    ):
+        rows_html = []
+        for _, r in g.iterrows():
+            badge = status_class(r["ressource_statut"])
+            btn = render_resource_button(r["ressource_nom"], r["ressource_statut"], r.get("ressource_lien", ""))
+            rows_html.append(f'''
+<div class="resource-row">
+  <span class="resource-name">{escape(r["ressource_nom"])}</span>
+  <span class="status-badge {badge}">{escape(r["ressource_statut"])}</span>
+  {btn}
+</div>''')
+
+        cards.append(f'''
+<div class="module-card">
+  <h4 class="module-title">{escape(mod)}</h4>
+  <div class="module-meta">
+    <span>{escape(niv)}</span>
+    <span>{escape(classe)}</span>
+    <span>{escape(ecole)}</span>
+  </div>
+  <div class="resources">
+    {''.join(rows_html)}
+  </div>
+</div>''')
+
+    parts.append(f'''
+<details class="callout" open style="margin: 1rem 0;">
+  <summary style="cursor:pointer; padding: 0.8rem 1rem; background:#FAFAFA; border-left: 4px solid #C8102E; font-weight:600;">
+    {icon}&nbsp; <strong>{d}</strong>&nbsp; <span style="color:#666; font-weight:400; font-size:0.9em">— {n_modules} module(s) avec supports</span>
+  </summary>
+  <div style="padding: 1rem;">
+    {''.join(cards)}
+  </div>
+</details>''')
+
+print('\n'.join(parts))
+```
+
 :::
 
-::: {.card-module}
-### [Analyse 4 — ECUE421](analyse4.qmd) · LMAD · 84h
-Topologie de $\mathbb{R}^n$, calcul différentiel, descente de gradient.
-:::
+---
 
-::: {.card-module}
-### [Probabilités — ECUE411](probabilites.qmd) · LMAD · 84h
-Variables aléatoires, lois usuelles, théorèmes limites.
-:::
+## Maintenir ces données
 
-::: {.card-module}
-### [Recherche Opérationnelle — ECUEO412](recherche-operationnelle.qmd) · MDSI · 42h
-Programmation linéaire, théorie des graphes.
-:::
+Les enseignements et supports sont alimentés par 2 fichiers CSV :
 
-## Data Science & Intelligence Artificielle
+| Fichier | Schéma |
+|---|---|
+| `data/enseignements_detailed.csv` | `domaine, annee, nom_module, niveau, classe, nb_groupes, anglais, charge_horaire, coordinateur, nouveau_module, ecole` |
+| `data/supports.csv` | `domaine, nom_module, niveau, classe, ecole, ressource_nom, ressource_statut, ressource_lien` |
 
-::: {.card-module}
-### [Machine Learning](machine-learning.qmd) · LMAD/MDSI · 42h · *créé en 2021*
-Apprentissage supervisé, non supervisé, scikit-learn, projets datasets réels.
-:::
-
-::: {.card-module}
-### [Deep Learning](deep-learning.qmd) · LMAD/MDSI · 42h · *créé en 2022*
-DNN, CNN, RNN, LSTM, intro Transformers — TensorFlow, Keras, PyTorch.
-:::
-
-::: {.card-module}
-### [NLP](nlp.qmd) · MDSI · 42h · *créé en 2022*
-Embeddings, attention, Transformers, BERT, GPT, fine-tuning, LLM.
-:::
-
-::: {.card-module}
-### [Generative Computer Vision](generative-computer-vision.qmd) · MDSI · 42h · *créé en 2024*
-GANs, VAE, diffusion models, Stable Diffusion, vision-language models.
-:::
-
-::: {.card-module}
-### [Python Programming · Advanced Python](python-programming.qmd) · LMAD/MDSI · 84h · *créés en 2022*
-Du fondamental au niveau avancé — décorateurs, async, performance, packaging.
-:::
-
-::: {.card-module}
-### [Tools for Machine Learning](tools-for-ml.qmd) · LMAD/MDSI · 42h · *créé en 2024*
-MLOps, versioning, déploiement, monitoring — Docker, MLflow, FastAPI.
-:::
-
-## Finance & Actuariat
-
-::: {.card-module}
-### [Portfolio Optimization](portfolio-optimization.qmd) · GAMMA / Alternance BA · 42h · *créé en 2025*
-Markowitz, CAPM, Black-Litterman, Risk Parity, Monte Carlo, ML allocation.
-:::
-
-## Modules historiques (avant 2020)
-
-| Module | Période | Filière |
-|---|---|---|
-| Mathematics for Business 1 & 2 | 2016–2017 | 1LFG/1LFIG |
-| Descriptive Statistics & Probability | 2016–2017 | 1LFG/1LFIG |
-| Inferential Statistics | 2017–2019 | 2LFG/2LFIG |
-| Mathematic's Logic | 2017–2018 | 2LFIG |
-| Marketing Data Analysis (SPSS) | 2017–2018 | 1MKD |
-| Time Series | 2018–2019 | 1BA |
-| Fundamentals of Mathematics | 2018–2019 | 1BA |
-| Algebra 1 & 2 for Data Science | 2019–2020 | 1M(AD)² |
-| R Programming | 2019–2020 | 1MKD/1MDSI A. |
-| Statistics with R | 2019–2020 | 1BA |
-
-## Modules récents (2020–2024)
-
-| Module | Année | Filière |
-|---|---|---|
-| Linear Algebra 3, Analysis 2 & 4 | 2020–2021 | LMAD |
-| Generalized Linear Models | 2021–2022 | LMAD |
-| Advanced Probability | 2021–2022 | LMAD |
-| Integration | 2021–2022 | LMAD |
-
-## Dispositifs pédagogiques
-
-Chaque module est livré avec un **écosystème complet** :
-
-- **Polycopié** — document type *book* en LaTeX, exercices corrigés
-- **Slides Beamer Metropolis** — format 16:9, séances de 1h30
-- **TPs Python** — énoncés + corrections + seeds reproductibles
-- **Examens et corrigés** — barème détaillé, grille de correction
-- **Plan de module** — fiche pédagogique alignée sur les acquis d'apprentissage
-
-Tous les supports sont versionnés sur GitHub et compilés selon des
-conventions reproductibles.
+Pour ajouter ou modifier un enseignement / support : éditer le CSV (Excel,
+VS Code...), `quarto render`, et la page se met à jour automatiquement.

@@ -1,42 +1,99 @@
 module,code,annee_universitaire,semestre,filiere,heures,ects,role
-Mathematics for Business 1,MATH1,2016-2017,S1,1LFG/1LFIG,42,,Responsable
-Mathematics for Business 2,MATH2,2016-2017,S2,1LFG/1LFIG,42,,Responsable
-Descriptive Statistics,SDP,2016-2017,S2,1LFG/1LFIG,52.5,,Responsable
-Probability,PROBA,2016-2017,S2,1LFG/1LFIG,52.5,,Responsable
-Cours soutien Math 1,SOUTIEN1,2016-2017,S1,1LFG/1LFIG,15,,Animateur
-Cours soutien Math 2 + Probas,SOUTIEN2,2016-2017,S2,1LFG/1LFIG,15,,Animateur
-Inferential Statistics,SI,2017-2018,S1,2LFG/2LFIG,42,,Responsable
-Graph Theory and Operation Research,RO,2017-2018,S1,2LFIG,21,,Responsable
-Mathematic's Logic,LOGIQUE,2017-2018,S1,2LFIG,21,,Responsable
-Marketing Data Analysis (SPSS),ADD-SPSS,2017-2018,S1,1MKD,42,,Responsable
-Time Series,SERIES,2018-2019,S2,1BA,42,,Responsable
-Fundamentals of Mathematics,FONDAMENTAUX,2018-2019,S1,1BA,21,,Responsable
-Algebra 1 for Data Science,ALGEBRE1,2019-2020,S1,1M(AD)²,84,,Responsable
-Algebra 2 for Data Science,ALGEBRE2,2019-2020,S2,1M(AD)²,84,,Responsable
-R Programming,PROG-R,2019-2020,S1,1MKD/1MDSI A.,30,,Responsable
-Statistics with R,STAT-R,2019-2020,S1,1BA,42,,Responsable
-Linear Algebra 3,ALGEBRE3,2020-2021,S2,LMAD,75,7,Coordinateur
-Analysis 2,ANALYSE2,2020-2021,S2,LMAD,84,7,Coordinateur
-Analysis 4,ANALYSE4,2020-2021,S4,LMAD,84,7,Coordinateur
-Machine Learning,ML,2021-2022,S5,LMAD/MDSI,42,,Coordinateur
-Generalized Linear Models,GLM,2021-2022,S5,LMAD,42,,Coordinateur
-Advanced Probability,PROBAA,2021-2022,S5,LMAD,42,,Coordinateur
-Integration,INTEGRATION,2021-2022,S5,LMAD,42,,Coordinateur
-Deep Learning,DL,2022-2023,S5,LMAD/MDSI,42,,Coordinateur
-NLP - Natural Language Processing,NLP,2022-2023,S6,MDSI,42,,Coordinateur
-Python Programming,PYTHON,2022-2023,S1,LMAD/MDSI,42,,Coordinateur
-Advanced Python Programming,PYTHONADV,2022-2023,S2,LMAD/MDSI,42,,Coordinateur
-Algèbre 2 (ECUE211),ECUE211,2024-2025,S2,LMAD,84,7,Coordinateur
-Algèbre 3 (ECUE311),ECUE311,2024-2025,S2,LMAD,75,7,Coordinateur
-Probabilités (ECUE411),ECUE411,2024-2025,S4,LMAD,84,7,Coordinateur
-Analyse 4 (ECUE421),ECUE421,2024-2025,S4,LMAD,84,7,Coordinateur
-Recherche Opérationnelle (ECUEO412),ECUEO412,2024-2025,S2,MDSI,42,3,Coordinateur
-Generative Computer Vision,GENCV,2024-2025,S5,MDSI,42,,Coordinateur
-Tools for Machine Learning,TOOLSML,2024-2025,S5,LMAD/MDSI,42,,Coordinateur
-Algèbre 2 (ECUE211),ECUE211,2025-2026,S2,LMAD,84,7,Coordinateur
-Algèbre 3 (ECUE311),ECUE311,2025-2026,S2,LMAD,75,7,Coordinateur
-Probabilités (ECUE411),ECUE411,2025-2026,S4,LMAD,84,7,Coordinateur
-Analyse 4 (ECUE421),ECUE421,2025-2026,S4,LMAD,84,7,Coordinateur
-Recherche Opérationnelle (ECUEO412),ECUEO412,2025-2026,S2,MDSI,42,3,Coordinateur
-Statistiques descriptives avec R (ECUET112),ECUET112,2025-2026,S1,LMAD,42,,Coordinateur
-Portfolio Optimization,PORTFOLIO,2025-2026,S5,GAMMA/Alternance BA,42,,Coordinateur
+Mathématiques 1,,2016-2017,S1,LFG,42,,Responsable
+Cours de soutien,,2016-2017,nan,,15,,Responsable
+Mathématiques 1,,2016-2017,nan,LFIG,84,,Responsable
+Mathématiques 2,,2016-2017,S2,LFG,42,,Responsable
+Mathématiques 2,,2016-2017,nan,LFIG,84,,Responsable
+Cours de soutien,,2016-2017,nan,,15,,Responsable
+Statistiques descriptives et Probabilités,,2016-2017,nan,LFG,105,,Responsable
+Statistiques descriptives et Probabilités,,2016-2017,nan,LFIG,52,,Responsable
+Mathématiques 1,,2017-2018,S1,LFG,42,,Responsable
+Statistiques inférentielles,,2017-2018,nan,LFG,84,,Responsable
+Recherche Opérationnelle,,2017-2018,nan,LFIG,42,,Responsable
+Logique Mathématique,,2017-2018,nan,LFIG,42,,Responsable
+Analyse des données avec SPSS,,2017-2018,nan,MKD,42,,Responsable
+Cours de soutien Mathématiques,,2017-2018,nan,,9,,Responsable
+Cours de soutien Statistiques inférentielles,,2017-2018,nan,,9,,Responsable
+Statistiques descriptives et Probabilités,,2017-2018,S2,LFG,210,,Enseignant
+Mathématiques 1,,2018-2019,S1,LFG,42,,Responsable
+Les fondamentaux des mathématiques,,2018-2019,nan,BA,21,,Responsable
+Statistiques inférentielles,,2018-2019,nan,LFG,42,,Responsable
+Satistiques inférentielles,,2018-2019,nan,LFIG,84,,Responsable
+Cours de soutien Statistiques inférentielles,,2018-2019,nan,,15,,Responsable
+Statistiques descriptives et Probabilités,,2018-2019,S2,LFIG,60,,Responsable
+Statistiques descriptives et Probabilités,,2018-2019,nan,LFG,84,,Responsable
+Séries Temporelles,,2018-2019,nan,BA,42,,Responsable
+Algèbre 1,,2019-2020,S1,LMAD,84,,Responsable
+Probabilités et Statistiques,,2019-2020,nan,BA,42,,Responsable
+Programmation avec R,,2019-2020,nan,MDSI,60,,Responsable
+Probabilités et Statistiques,,2019-2020,nan,MDSI,84,,Responsable
+Programmation avec R,,2019-2020,nan,MKD,42,,Responsable
+Algèbre 2,,2019-2020,S2,LMAD,84,,Responsable
+Séries Temporelles,,2019-2020,nan,BA,84,,Responsable
+Analyse 2,,2019-2020,nan,LMAD,30,,Enseignant
+Analyse statistique avec R,,2019-2020,nan,LMAD,21,,Responsable
+Algèbre 3,,2020-2021,S1,LMAD,84,,Responsable
+Algèbre 1,,2020-2021,nan,LMAD,84,,Responsable
+Statistiques inférentielles,,2020-2021,nan,LBC,63,,Responsable
+Algèbre 2,,2020-2021,S2,LMAD,84,,Responsable
+Analyse 4,,2020-2021,nan,LMAD,84,,Responsable
+Analyse statistique avec R,,2020-2021,nan,LMAD,21,,Responsable
+Mathématiques appliquées à la gestion,,2020-2021,nan,CCA,10,,Responsable
+Algèbre 1,,2021-2022,S1,LMAD,84,,Responsable
+Algèbre 3,,2021-2022,nan,LMAD,84,,Responsable
+Probabilités,,2021-2022,nan,LMAD,84,,Responsable
+Intégration et Probabilités,,2021-2022,nan,GAMMA,50,,Responsable
+Statistiques inférentielles,,2021-2022,nan,GAMMA,15,,Responsable
+Probabilités et Statistiques,,2021-2022,nan,MKD/MDSI,20,,Responsable
+Analyse 4,,2021-2022,S2,LMAD,84,,Responsable
+Séries Temporelles,,2021-2022,nan,GAMMA,10,,Responsable
+Statistiques,,2021-2022,nan,LMAD,15,,Responsable
+Modèles linéaires généralisés,,2021-2022,nan,GAMMA,15,,Responsable
+Optimisation numérique,,2021-2022,nan,GAMMA,21,,Responsable
+Algèbre 1,,2022-2023,S1,LMAD,84,,Responsable
+Analyse des données,,2022-2023,nan,LMAD,42,,Responsable
+Introduction Data Science,,2022-2023,nan,LMAD,21,,Responsable
+Deep Learning,,2022-2023,nan,BA,42,,Responsable
+Apprentissage Statistique,,2022-2023,nan,GAMMA,42,,Responsable
+Fondements de la théorie de la décision,,2022-2023,nan,LBC-BI,21,,Responsable
+Statistiques inférentielles,,2022-2023,nan,GAMMA,10,,Responsable
+Programmation Python 2,,2022-2023,nan,LMAD,21,,Responsable
+Algèbre 2,,2022-2023,S2,LMAD,42,,Responsable
+Analyse 4,,2022-2023,nan,LMAD,42,,Responsable
+Optimisation numérique,,2022-2023,nan,GAMMA,21,,Responsable
+Programmation Python 3,,2022-2023,nan,LMAD,21,,Responsable
+Statistiques,,2022-2023,nan,LMAD,21,,Responsable
+Analyse statistique avec R,,2022-2023,nan,LMAD,21,,Responsable
+Séries Temporelles,,2022-2023,nan,GAMMA,21,,Responsable
+Modèles linéaires généralisés,,2022-2023,nan,GAMMA,10,,Responsable
+Apprentissage Statistique,,2023-2024,S1,GAMMA,42,,Responsable
+Statistiques inférentielles,,2023-2024,nan,GAMMA,21,,Responsable
+Programmation Python 2,,2023-2024,nan,LMAD,21,,Responsable
+Intelligence Artificielle,,2023-2024,nan,LMAD,56,,Responsable
+Fondements de la théorie de la décision,,2023-2024,nan,LBC-BI,42,,Responsable
+Deep Learning,,2023-2024,nan,BA,42,,Responsable
+Analyse 4,,2023-2024,S2,LMAD,84,,Responsable
+Statistiques,,2023-2024,nan,LMAD,21,,Responsable
+Programmation Python 3,,2023-2024,nan,LMAD,21,,Responsable
+Optimisation numérique,,2023-2024,nan,GAMMA,21,,Responsable
+Outillage Machine Learning,,2023-2024,nan,MDSI,21,,Responsable
+Fondements de la théorie de la décision,,2024-2025,S1,LBC-BI,63,,Responsable
+Gestion de projet,,2024-2025,nan,LBC-SIAD,30,,Responsable
+Deep Learning,,2024-2025,nan,BA,168,,Responsable
+Machine Learning (supervisé),,2024-2025,nan,BA,42,,Responsable
+Machine Learning (non supervisé),,2024-2025,nan,BA,42,,Responsable
+Deep Learning,,2024-2025,S2,BA,42,,Responsable
+Machine Learning,,2024-2025,nan,BA,84,,Enseignant
+Generative Computer Vision,,2024-2025,nan,BA,21,,Responsable
+Outillage Machine Learning,,2024-2025,nan,MDSI,42,,Responsable
+Algèbre 1,,2025-2026,S1,LMAD,84,,Responsable
+Deep Learning,,2025-2026,nan,BA,126,,Responsable
+Fondements de la théorie de la décision,,2025-2026,nan,LBC-BI,105,,Responsable
+Intégration et Probabilités,,2025-2026,nan,GAMMA,42,,Responsable
+Statistiques inférentielles,,2025-2026,nan,GAMMA,10,,Responsable
+Atelier de programmation,,2025-2026,nan,GAMMA,42,,Responsable
+Data Mining,,2025-2026,nan,FIND,21,,Responsable
+Séries Temporelles,,2025-2026,S2,GAMMA,21,,Responsable
+Optimisation numérique,,2025-2026,nan,GAMMA,21,,Responsable
+Machine Learning,,2025-2026,nan,BA,42,,Responsable
+Séries Temporelles,,2025-2026,nan,BA,42,,Responsable

@@ -1,0 +1,69 @@
+---
+title: "∫ Probabilités"
+subtitle: "Mathématiques et Statistiques · 1 année(s) · 84 h cumulées"
+toc: true
+---
+
+<span class="badge bg-danger">Coordinateur</span> <span class="badge bg-success">Nouveau module</span>
+
+## Synthèse
+
+::: {.grid}
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**84 h**<br>
+<small>Charge cumulée</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**1**<br>
+<small>Année(s) dispensée(s)</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**1**<br>
+<small>Groupes cumulés</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**Licence**<br>
+<small>Niveau(x)</small>
+:::
+:::
+
+:::
+
+**Domaine** : Mathématiques et Statistiques
+**Formations couvertes** : LMAD
+**Période** : 2021-2022 → 2021-2022
+
+## Historique de dispense
+
+| Année | Niveau | Classe | Groupes | Charge | Coord. | Langue | Statut |
+|---|---|---|---|---|---|---|---|
+| 2021-2022 | Licence | LMAD | 1 | 84 h | ✓ | FR | NOUVEAU |
+
+## Page pédagogique détaillée
+
+Pour le programme complet, les objectifs d'apprentissage, le découpage par
+chapitre et les ressources annexes, consulter la fiche détaillée :
+
+→ [Voir la fiche pédagogique de Probabilités](../probabilites.qmd)
+
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/Probabilites](https://github.com/Aymenbenbrik/Probabilites)
+
+---
+
+::: {.callout-note}
+Page générée automatiquement à partir de `data/enseignements_detailed.csv`
+(source : `Passage de grade/Enseignement.xlsx`).
+:::

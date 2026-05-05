@@ -23,6 +23,8 @@ website:
         menu:
           - href: enseignements/index.qmd
             text: "Vue d'ensemble"
+          - href: enseignements/modules/index.qmd
+            text: "📚 Catalogue des 43 modules"
           - text: "── Mathématiques ──"
           - href: enseignements/algebre2.qmd
             text: "Algèbre 2 (ECUE211)"
@@ -50,8 +52,8 @@ website:
           - text: "── Finance & Actuariat ──"
           - href: enseignements/portfolio-optimization.qmd
             text: "Portfolio Optimization"
-      - href: encadrements.qmd
-        text: Encadrements
+      - href: encadrement-projets.qmd
+        text: Encadrement des projets
       - href: recherche.qmd
         text: Recherche
       - href: certifications.qmd

@@ -1,0 +1,64 @@
+---
+title: "∫ Probabilités et Statistiques"
+subtitle: "Mathématiques et Statistiques · 2 année(s) · 146 h cumulées"
+toc: true
+---
+
+<span class="badge bg-danger">Coordinateur</span> <span class="badge bg-success">Nouveau module</span>
+
+## Synthèse
+
+::: {.grid}
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**146 h**<br>
+<small>Charge cumulée</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**2**<br>
+<small>Année(s) dispensée(s)</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**5**<br>
+<small>Groupes cumulés</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**Master**<br>
+<small>Niveau(x)</small>
+:::
+:::
+
+:::
+
+**Domaine** : Mathématiques et Statistiques
+**Formations couvertes** : BA, MDSI, MKD/MDSI
+**Période** : 2019-2020 → 2021-2022
+
+## Historique de dispense
+
+| Année | Niveau | Classe | Groupes | Charge | Coord. | Langue | Statut |
+|---|---|---|---|---|---|---|---|
+| 2019-2020 | Master | BA | 2 | 42 h | ✓ | FR | NOUVEAU |
+| 2019-2020 | Master | MDSI | 2 | 84 h | ✓ | FR | NOUVEAU |
+| 2021-2022 | Master | MKD/MDSI | 1 | 20 h | ✓ | FR |  |
+
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/AnalyseStatistiqueR](https://github.com/Aymenbenbrik/AnalyseStatistiqueR)
+
+---
+
+::: {.callout-note}
+Page générée automatiquement à partir de `data/enseignements_detailed.csv`
+(source : `Passage de grade/Enseignement.xlsx`).
+:::

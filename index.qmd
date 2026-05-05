@@ -46,17 +46,21 @@ import pandas as pd
 from IPython.display import HTML
 
 try:
-    enseignements = pd.read_csv("data/enseignements.csv")
-    encadrements = pd.read_csv("data/encadrements.csv")
+    # Source : enseignements_detailed.csv (genere depuis Enseignement.xlsx)
+    enseignements = pd.read_csv("data/enseignements_detailed.csv")
+    # Sources encadrement : 3 CSVs generes depuis encadrement.xlsx
+    ai4u = pd.read_csv("data/ai4u_projects.csv")
+    acad = pd.read_csv("data/encadrement_academique.csv")
+    pj = pd.read_csv("data/president_jury.csv")
     certifications = pd.read_csv("data/certifications.csv")
     responsabilites = pd.read_csv("data/responsabilites.csv")
 
-    n_modules = enseignements["module"].nunique()
-    n_heures_total = int(enseignements["heures"].sum())
-    n_etudiants = int(encadrements.shape[0])
+    n_modules = enseignements["nom_module"].nunique()
+    n_heures_total = int(enseignements["charge_horaire"].sum())
+    n_etudiants = int(len(ai4u) + len(acad) + len(pj))
     n_certifs = int(certifications.shape[0])
     n_resp = int(responsabilites.shape[0])
-    n_annees = enseignements["annee_universitaire"].nunique()
+    n_annees = enseignements["annee"].nunique()
 except Exception:
     n_modules, n_heures_total, n_etudiants, n_certifs, n_resp, n_annees = 0, 0, 0, 0, 0, 0
 
@@ -65,7 +69,7 @@ html = f"""
   <div class="kpi"><span class="value">{n_annees}</span><span class="label">Années d'enseignement ESB</span></div>
   <div class="kpi"><span class="value">{n_modules}</span><span class="label">Modules différents</span></div>
   <div class="kpi"><span class="value">{n_heures_total}</span><span class="label">Heures cumulées</span></div>
-  <div class="kpi"><span class="value">{n_etudiants}</span><span class="label">Encadrements</span></div>
+  <div class="kpi"><span class="value">{n_etudiants}</span><span class="label">Encadrements &amp; jurys</span></div>
   <div class="kpi"><span class="value">{n_certifs}</span><span class="label">Certifications</span></div>
   <div class="kpi"><span class="value">{n_resp}</span><span class="label">Responsabilités</span></div>
 </div>

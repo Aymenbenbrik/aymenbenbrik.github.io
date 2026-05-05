@@ -1,0 +1,76 @@
+---
+title: "Modules — Vue d'ensemble"
+subtitle: "Catalogue complet des modules dispensés"
+toc: true
+---
+
+Catalogue des **43 modules** dispensés à ESB (2016–2026).
+Cliquez sur un module pour accéder à sa fiche.
+
+
+
+## ∫ Mathématiques et Statistiques
+
+| Module | Charge cumulée | Années |
+|---|---|---|
+| [Algèbre 1](algebre-1.qmd) | 420 h | 5 |
+| [Algèbre 2](algebre-2.qmd) | 210 h | 3 |
+| [Algèbre 3](algebre-3.qmd) | 168 h | 2 |
+| [Analyse 2](analyse-2.qmd) | 30 h | 1 |
+| [Analyse 4](analyse-4.qmd) | 294 h | 4 |
+| [Analyse statistique avec R](analyse-statistique-avec-r.qmd) | 63 h | 3 |
+| [Intégration et Probabilités](integration-et-probabilites.qmd) | 92 h | 2 |
+| [Les fondamentaux des mathématiques](les-fondamentaux-des-mathematiques.qmd) | 21 h | 1 |
+| [Logique Mathématique](logique-mathematique.qmd) | 42 h | 1 |
+| [Mathématiques 1](mathematiques-1.qmd) | 210 h | 3 |
+| [Mathématiques 2](mathematiques-2.qmd) | 126 h | 1 |
+| [Mathématiques appliquées à la gestion](mathematiques-appliquees-a-la-gestion.qmd) | 10 h | 1 |
+| [Probabilités](probabilites.qmd) | 84 h | 1 |
+| [Probabilités et Statistiques](probabilites-et-statistiques.qmd) | 146 h | 2 |
+| [Satistiques inférentielles](satistiques-inferentielles.qmd) | 84 h | 1 |
+| [Statistiques](statistiques.qmd) | 57 h | 3 |
+| [Statistiques descriptives et Probabilités](statistiques-descriptives-et-probabilites.qmd) | 511 h | 3 |
+| [Statistiques inférentielles](statistiques-inferentielles.qmd) | 245 h | 7 |
+
+
+## 🤖 Intelligence Artificielle
+
+| Module | Charge cumulée | Années |
+|---|---|---|
+| [Apprentissage Statistique](apprentissage-statistique.qmd) | 84 h | 2 |
+| [Atelier de programmation](atelier-de-programmation.qmd) | 42 h | 1 |
+| [Data Mining](data-mining.qmd) | 21 h | 1 |
+| [Deep Learning](deep-learning.qmd) | 420 h | 4 |
+| [Fondements de la théorie de la décision](fondements-de-la-theorie-de-la-decision.qmd) | 231 h | 4 |
+| [Generative Computer Vision](generative-computer-vision.qmd) | 21 h | 1 |
+| [Gestion de projet](gestion-de-projet.qmd) | 30 h | 1 |
+| [Intelligence Artificielle](intelligence-artificielle.qmd) | 56 h | 1 |
+| [Introduction Data Science](introduction-data-science.qmd) | 21 h | 1 |
+| [Machine Learning](machine-learning.qmd) | 126 h | 2 |
+| [Machine Learning (non supervisé)](machine-learning-non-supervise.qmd) | 42 h | 1 |
+| [Machine Learning (supervisé)](machine-learning-supervise.qmd) | 42 h | 1 |
+| [Optimisation numérique](optimisation-numerique.qmd) | 84 h | 4 |
+| [Outillage Machine Learning](outillage-machine-learning.qmd) | 63 h | 2 |
+| [Programmation Python 2](programmation-python-2.qmd) | 42 h | 2 |
+| [Programmation Python 3](programmation-python-3.qmd) | 42 h | 2 |
+
+
+## 📊 Sciences des données
+
+| Module | Charge cumulée | Années |
+|---|---|---|
+| [Analyse des données](analyse-des-donnees.qmd) | 42 h | 1 |
+| [Analyse des données avec SPSS](analyse-des-donnees-avec-spss.qmd) | 42 h | 1 |
+| [Modèles linéaires généralisés](modeles-lineaires-generalises.qmd) | 25 h | 2 |
+| [Programmation avec R](programmation-avec-r.qmd) | 102 h | 1 |
+| [Recherche Opérationnelle](recherche-operationnelle.qmd) | 42 h | 1 |
+| [Séries Temporelles](series-temporelles.qmd) | 220 h | 5 |
+
+
+## 🎯 Encadrement et soutien
+
+| Module | Charge cumulée | Années |
+|---|---|---|
+| [Cours de soutien](cours-de-soutien.qmd) | 30 h | 1 |
+| [Cours de soutien Mathématiques](cours-de-soutien-mathematiques.qmd) | 9 h | 1 |
+| [Cours de soutien Statistiques inférentielles](cours-de-soutien-statistiques-inferentielles.qmd) | 24 h | 2 |

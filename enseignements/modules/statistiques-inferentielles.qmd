@@ -1,0 +1,69 @@
+---
+title: "∫ Statistiques inférentielles"
+subtitle: "Mathématiques et Statistiques · 7 année(s) · 245 h cumulées"
+toc: true
+---
+
+<span class="badge bg-danger">Coordinateur</span> <span class="badge bg-success">Nouveau module</span>
+
+## Synthèse
+
+::: {.grid}
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**245 h**<br>
+<small>Charge cumulée</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**7**<br>
+<small>Année(s) dispensée(s)</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**10**<br>
+<small>Groupes cumulés</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**Licence, Master**<br>
+<small>Niveau(x)</small>
+:::
+:::
+
+:::
+
+**Domaine** : Mathématiques et Statistiques
+**Formations couvertes** : GAMMA, LBC, LFG
+**Période** : 2017-2018 → 2025-2026
+
+## Historique de dispense
+
+| Année | Niveau | Classe | Groupes | Charge | Coord. | Langue | Statut |
+|---|---|---|---|---|---|---|---|
+| 2017-2018 | Licence | LFG | 2 | 84 h | ✓ | FR | NOUVEAU |
+| 2018-2019 | Licence | LFG | 1 | 42 h | ✓ | FR |  |
+| 2020-2021 | Licence | LBC | 3 | 63 h | ✓ | FR |  |
+| 2021-2022 | Master | GAMMA | 1 | 15 h | ✓ | FR | NOUVEAU |
+| 2022-2023 | Master | GAMMA | 1 | 10 h | ✓ | FR |  |
+| 2023-2024 | Master | GAMMA | 1 | 21 h | ✓ | FR |  |
+| 2025-2026 | Master | GAMMA | 1 | 10 h | ✓ | FR |  |
+
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/StatistiquesInferentiellesLicence](https://github.com/Aymenbenbrik/StatistiquesInferentiellesLicence)
+- [https://github.com/Aymenbenbrik/StatistiquesInf-rentielles](https://github.com/Aymenbenbrik/StatistiquesInf-rentielles)
+
+---
+
+::: {.callout-note}
+Page générée automatiquement à partir de `data/enseignements_detailed.csv`
+(source : `Passage de grade/Enseignement.xlsx`).
+:::

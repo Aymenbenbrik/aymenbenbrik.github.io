@@ -97,6 +97,253 @@ th {
   letter-spacing: 0.05em;
 }
 
+// =====================================================
+// Page Enseignement
+// =====================================================
+
+// Bloc "Vision"
+.vision-card {
+  background: linear-gradient(135deg, #FAFAFA 0%, #F0F0F0 100%);
+  border-left: 5px solid $primary;
+  padding: 1.8rem 2rem;
+  margin: 1.5rem 0 2rem;
+  border-radius: 6px;
+  font-size: 1.08rem;
+  line-height: 1.7;
+  color: #333;
+  font-style: italic;
+  position: relative;
+
+  &::before {
+    content: "\201C";
+    font-size: 4rem;
+    color: $primary;
+    opacity: 0.3;
+    position: absolute;
+    top: -0.5rem;
+    left: 0.8rem;
+    font-family: Georgia, serif;
+    line-height: 1;
+  }
+
+  p { margin: 0; padding-left: 1.5rem; }
+}
+
+// Cartes des domaines d'enseignement
+.domain-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.domain-card {
+  background: white;
+  border: 1px solid #E0E0E0;
+  border-top: 4px solid $primary;
+  padding: 1.4rem 1.2rem;
+  border-radius: 6px;
+  text-align: center;
+  transition: all 0.2s ease;
+  cursor: default;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-top-width: 6px;
+  }
+
+  .domain-icon {
+    font-size: 2.2rem;
+    margin-bottom: 0.6rem;
+    color: $primary;
+  }
+
+  .domain-name {
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: #2C2C2C;
+    margin-bottom: 0.3rem;
+  }
+
+  .domain-count {
+    font-size: 0.85rem;
+    color: #666;
+  }
+}
+
+// Couleurs spécifiques par domaine
+.domain-card[data-domain="Intelligence artificielle"] { border-top-color: #6A1B9A; .domain-icon { color: #6A1B9A; } }
+.domain-card[data-domain="Mathématiques"] { border-top-color: #1565C0; .domain-icon { color: #1565C0; } }
+.domain-card[data-domain="Probabilités & Statistiques"] { border-top-color: #2E7D32; .domain-icon { color: #2E7D32; } }
+.domain-card[data-domain="Analyse des données"] { border-top-color: #F57C00; .domain-icon { color: #F57C00; } }
+.domain-card[data-domain="Programmation"] { border-top-color: #C8102E; .domain-icon { color: #C8102E; } }
+.domain-card[data-domain="Mathématiques financières"] { border-top-color: #00838F; .domain-icon { color: #00838F; } }
+
+// Section domaine (titre coloré)
+.domain-section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #E0E0E0;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 1.4rem;
+    background-color: $primary;
+    border-radius: 3px;
+  }
+}
+
+// Carte module (page Supports)
+.module-card {
+  background: white;
+  border: 1px solid #E0E0E0;
+  border-radius: 6px;
+  padding: 1.2rem 1.4rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+
+  .module-title {
+    margin: 0 0 0.4rem;
+    color: $primary;
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
+
+  .module-meta {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .module-meta span {
+    background: #F5F5F5;
+    padding: 0.15em 0.6em;
+    border-radius: 3px;
+    font-size: 0.85em;
+  }
+
+  .resources {
+    border-top: 1px solid #EEE;
+    padding-top: 0.8rem;
+  }
+
+  .resource-row {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px dashed #F0F0F0;
+    font-size: 0.95rem;
+
+    &:last-child { border-bottom: none; }
+  }
+
+  .resource-name { font-weight: 500; }
+
+  @media (max-width: 600px) {
+    .resource-row {
+      grid-template-columns: 1fr;
+      gap: 0.3rem;
+      padding: 0.6rem 0;
+    }
+  }
+}
+
+// Badges de statut (resources)
+.status-badge {
+  display: inline-block;
+  padding: 0.2em 0.7em;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.status-disponible {
+  background-color: #E8F5E9;
+  color: #2E7D32;
+  border: 1px solid #2E7D32;
+}
+
+.status-a-venir {
+  background-color: #FFF3E0;
+  color: #E65100;
+  border: 1px solid #F57C00;
+}
+
+.status-reserve {
+  background-color: #ECEFF1;
+  color: #455A64;
+  border: 1px solid #607D8B;
+}
+
+// Boutons de ressource
+.resource-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.35em 0.9em;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  border: 1px solid transparent;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+
+  &.btn-download {
+    background-color: $primary;
+    color: white;
+    &:hover { background-color: darken($primary, 10%); color: white; }
+  }
+
+  &.btn-view {
+    background-color: white;
+    color: $primary;
+    border-color: $primary;
+    &:hover { background-color: $primary; color: white; }
+  }
+
+  &.btn-disabled {
+    background-color: #F5F5F5;
+    color: #999;
+    border-color: #E0E0E0;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
+
+// Filtres au-dessus du tableau
+.teaching-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+  margin: 1rem 0 0.8rem;
+  padding: 0.8rem 1rem;
+  background: #FAFAFA;
+  border-radius: 6px;
+  border: 1px solid #EEE;
+
+  label { font-size: 0.85rem; color: #555; margin: 0 0.3rem 0 0; font-weight: 500; }
+  select, input[type=text] {
+    border: 1px solid #DDD; border-radius: 4px; padding: 0.35em 0.6em; font-size: 0.9rem;
+    background: white;
+  }
+  select:focus, input:focus { outline: none; border-color: $primary; box-shadow: 0 0 0 2px rgba(200, 16, 46, 0.1); }
+}
+
 // Hero section
 .hero {
   background: linear-gradient(135deg, $primary 0%, darken($primary, 15%) 100%);

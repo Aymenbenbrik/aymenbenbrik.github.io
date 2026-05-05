@@ -1,0 +1,91 @@
+domaine,nom_module,niveau,classe,ecole,ressource_nom,ressource_statut,ressource_lien
+Intelligence artificielle,Machine Learning,Master,LMAD/MDSI,ESB,Fiche module,Disponible,#
+Intelligence artificielle,Machine Learning,Master,LMAD/MDSI,ESB,Polycopié,Disponible,#
+Intelligence artificielle,Machine Learning,Master,LMAD/MDSI,ESB,Slides,Disponible,#
+Intelligence artificielle,Machine Learning,Master,LMAD/MDSI,ESB,TP,Disponible,#
+Intelligence artificielle,Machine Learning,Master,LMAD/MDSI,ESB,TD,Réservé aux étudiants,#
+Intelligence artificielle,Deep Learning,Master,LMAD/MDSI,ESB,Fiche module,Disponible,#
+Intelligence artificielle,Deep Learning,Master,LMAD/MDSI,ESB,Polycopié,Disponible,#
+Intelligence artificielle,Deep Learning,Master,LMAD/MDSI,ESB,Slides,Disponible,#
+Intelligence artificielle,Deep Learning,Master,LMAD/MDSI,ESB,TP,Disponible,#
+Intelligence artificielle,Deep Learning,Master,LMAD/MDSI,ESB,TD,Réservé aux étudiants,#
+Intelligence artificielle,NLP - Natural Language Processing,Master,MDSI,ESB,Fiche module,Disponible,#
+Intelligence artificielle,NLP - Natural Language Processing,Master,MDSI,ESB,Polycopié,À venir,
+Intelligence artificielle,NLP - Natural Language Processing,Master,MDSI,ESB,Slides,Disponible,#
+Intelligence artificielle,NLP - Natural Language Processing,Master,MDSI,ESB,TP,Disponible,#
+Intelligence artificielle,NLP - Natural Language Processing,Master,MDSI,ESB,TD,Réservé aux étudiants,#
+Intelligence artificielle,Generative Computer Vision,Master,MDSI / Alternance BA,ESB,Fiche module,Disponible,#
+Intelligence artificielle,Generative Computer Vision,Master,MDSI / Alternance BA,ESB,Polycopié,À venir,
+Intelligence artificielle,Generative Computer Vision,Master,MDSI / Alternance BA,ESB,Slides,Disponible,#
+Intelligence artificielle,Generative Computer Vision,Master,MDSI / Alternance BA,ESB,TP,Disponible,#
+Intelligence artificielle,Generative Computer Vision,Master,MDSI / Alternance BA,ESB,TD,Réservé aux étudiants,#
+Intelligence artificielle,Tools for Machine Learning,Master,LMAD/MDSI,ESB,Fiche module,Disponible,#
+Intelligence artificielle,Tools for Machine Learning,Master,LMAD/MDSI,ESB,Slides,Disponible,#
+Intelligence artificielle,Tools for Machine Learning,Master,LMAD/MDSI,ESB,TP,Disponible,#
+Intelligence artificielle,Tools for Machine Learning,Master,LMAD/MDSI,ESB,Polycopié,À venir,
+Intelligence artificielle,Tools for Machine Learning,Master,LMAD/MDSI,ESB,TD,Réservé aux étudiants,#
+Mathématiques,Algèbre 2 (ECUE211),Licence,LMAD/SD - S2,ESB,Fiche module,Disponible,#
+Mathématiques,Algèbre 2 (ECUE211),Licence,LMAD/SD - S2,ESB,Polycopié,Disponible,#
+Mathématiques,Algèbre 2 (ECUE211),Licence,LMAD/SD - S2,ESB,Slides,Disponible,#
+Mathématiques,Algèbre 2 (ECUE211),Licence,LMAD/SD - S2,ESB,TD,Disponible,#
+Mathématiques,Algèbre 2 (ECUE211),Licence,LMAD/SD - S2,ESB,TP,À venir,
+Mathématiques,Algèbre 3 (ECUE311),Licence,LMAD - S2,ESB,Fiche module,Disponible,#
+Mathématiques,Algèbre 3 (ECUE311),Licence,LMAD - S2,ESB,Polycopié,Disponible,#
+Mathématiques,Algèbre 3 (ECUE311),Licence,LMAD - S2,ESB,Slides,Disponible,#
+Mathématiques,Algèbre 3 (ECUE311),Licence,LMAD - S2,ESB,TD,Disponible,#
+Mathématiques,Algèbre 3 (ECUE311),Licence,LMAD - S2,ESB,TP,Disponible,#
+Mathématiques,Analyse 4 (ECUE421),Licence,LMAD - S4,ESB,Fiche module,Disponible,#
+Mathématiques,Analyse 4 (ECUE421),Licence,LMAD - S4,ESB,Polycopié,Disponible,#
+Mathématiques,Analyse 4 (ECUE421),Licence,LMAD - S4,ESB,Slides,Disponible,#
+Mathématiques,Analyse 4 (ECUE421),Licence,LMAD - S4,ESB,TD,Disponible,#
+Mathématiques,Analyse 4 (ECUE421),Licence,LMAD - S4,ESB,TP,Disponible,#
+Mathématiques,Linear Algebra 3,Licence,LMAD,ESB,Fiche module,Disponible,#
+Mathématiques,Linear Algebra 3,Licence,LMAD,ESB,Polycopié,Disponible,#
+Mathématiques,Linear Algebra 3,Licence,LMAD,ESB,Slides,Disponible,#
+Mathématiques,Linear Algebra 3,Licence,LMAD,ESB,TD,Disponible,#
+Mathématiques,Integration,Licence,LMAD,ESB,Fiche module,Disponible,#
+Mathématiques,Integration,Licence,LMAD,ESB,Polycopié,Disponible,#
+Mathématiques,Integration,Licence,LMAD,ESB,Slides,Disponible,#
+Mathématiques,Integration,Licence,LMAD,ESB,TD,Disponible,#
+Probabilités & Statistiques,Probabilités (ECUE411),Licence,LMAD - S4,ESB,Fiche module,Disponible,#
+Probabilités & Statistiques,Probabilités (ECUE411),Licence,LMAD - S4,ESB,Polycopié,Disponible,#
+Probabilités & Statistiques,Probabilités (ECUE411),Licence,LMAD - S4,ESB,Slides,Disponible,#
+Probabilités & Statistiques,Probabilités (ECUE411),Licence,LMAD - S4,ESB,TD,Disponible,#
+Probabilités & Statistiques,Probabilités (ECUE411),Licence,LMAD - S4,ESB,TP,Disponible,#
+Probabilités & Statistiques,Statistiques descriptives avec R (ECUET112),Licence,LMAD - S1,ESB,Fiche module,Disponible,#
+Probabilités & Statistiques,Statistiques descriptives avec R (ECUET112),Licence,LMAD - S1,ESB,Polycopié,Disponible,#
+Probabilités & Statistiques,Statistiques descriptives avec R (ECUET112),Licence,LMAD - S1,ESB,Slides,Disponible,#
+Probabilités & Statistiques,Statistiques descriptives avec R (ECUET112),Licence,LMAD - S1,ESB,TP,Disponible,#
+Probabilités & Statistiques,Advanced Probability,Master,LMAD,ESB,Fiche module,Disponible,#
+Probabilités & Statistiques,Advanced Probability,Master,LMAD,ESB,Polycopié,Disponible,#
+Probabilités & Statistiques,Advanced Probability,Master,LMAD,ESB,Slides,Disponible,#
+Probabilités & Statistiques,Advanced Probability,Master,LMAD,ESB,TD,Disponible,#
+Probabilités & Statistiques,Generalized Linear Models,Master,LMAD,ESB,Fiche module,Disponible,#
+Probabilités & Statistiques,Generalized Linear Models,Master,LMAD,ESB,Polycopié,Disponible,#
+Probabilités & Statistiques,Generalized Linear Models,Master,LMAD,ESB,Slides,Disponible,#
+Probabilités & Statistiques,Generalized Linear Models,Master,LMAD,ESB,TD,Disponible,#
+Programmation,Python Programming,Master,LMAD/MDSI,ESB,Fiche module,Disponible,#
+Programmation,Python Programming,Master,LMAD/MDSI,ESB,Polycopié,Disponible,#
+Programmation,Python Programming,Master,LMAD/MDSI,ESB,Slides,Disponible,#
+Programmation,Python Programming,Master,LMAD/MDSI,ESB,TP,Disponible,#
+Programmation,Python Programming,Master,LMAD/MDSI,ESB,TD,Réservé aux étudiants,#
+Programmation,Advanced Python Programming,Master,LMAD/MDSI,ESB,Fiche module,Disponible,#
+Programmation,Advanced Python Programming,Master,LMAD/MDSI,ESB,Polycopié,Disponible,#
+Programmation,Advanced Python Programming,Master,LMAD/MDSI,ESB,Slides,Disponible,#
+Programmation,Advanced Python Programming,Master,LMAD/MDSI,ESB,TP,Disponible,#
+Programmation,R Programming,Licence,1MKD/1MDSI A.,ESB,Fiche module,Disponible,#
+Programmation,R Programming,Licence,1MKD/1MDSI A.,ESB,Slides,Disponible,#
+Programmation,R Programming,Licence,1MKD/1MDSI A.,ESB,TP,Disponible,#
+Mathématiques financières,Recherche Opérationnelle (ECUEO412),Master,MDSI - S2,ESB,Fiche module,Disponible,#
+Mathématiques financières,Recherche Opérationnelle (ECUEO412),Master,MDSI - S2,ESB,Polycopié,Disponible,#
+Mathématiques financières,Recherche Opérationnelle (ECUEO412),Master,MDSI - S2,ESB,Slides,Disponible,#
+Mathématiques financières,Recherche Opérationnelle (ECUEO412),Master,MDSI - S2,ESB,TD,Disponible,#
+Mathématiques financières,Recherche Opérationnelle (ECUEO412),Master,MDSI - S2,ESB,TP,Disponible,#
+Mathématiques financières,Portfolio Optimization,Master,GAMMA / Alternance BA,ESB,Fiche module,Disponible,#
+Mathématiques financières,Portfolio Optimization,Master,GAMMA / Alternance BA,ESB,Polycopié,À venir,
+Mathématiques financières,Portfolio Optimization,Master,GAMMA / Alternance BA,ESB,Slides,Disponible,#
+Mathématiques financières,Portfolio Optimization,Master,GAMMA / Alternance BA,ESB,TP,Disponible,#
+Mathématiques financières,Portfolio Optimization,Master,GAMMA / Alternance BA,ESB,TD,Réservé aux étudiants,#
+Analyse des données,Marketing Data Analysis (SPSS),Master,1MKD,ESB,Fiche module,Disponible,#
+Analyse des données,Marketing Data Analysis (SPSS),Master,1MKD,ESB,Slides,Disponible,#
+Analyse des données,Marketing Data Analysis (SPSS),Master,1MKD,ESB,TP,Disponible,#
