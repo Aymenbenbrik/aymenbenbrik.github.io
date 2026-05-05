@@ -435,6 +435,30 @@ print(f'''
 ```{python}
 #| echo: false
 #| output: asis
+import re
+import unicodedata
+
+# Slugify pour lier vers enseignements/modules/<slug>.qmd
+def _slugify(s):
+    s = unicodedata.normalize("NFD", s)
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
+    s = s.lower()
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+# Pages détaillées existantes (dans enseignements/<slug>.qmd)
+DETAILED_PAGES = {
+    "Algèbre 2": "algebre2",
+    "Algèbre 3": "algebre3",
+    "Probabilités": "probabilites",
+    "Analyse 4": "analyse4",
+    "Recherche Opérationnelle": "recherche-operationnelle",
+    "Machine Learning": "machine-learning",
+    "Deep Learning": "deep-learning",
+    "Generative Computer Vision": "generative-computer-vision",
+    "Programmation Python 2": "python-programming",
+    "Programmation Python 3": "python-programming",
+    "Outillage Machine Learning": "tools-for-ml",
+}
 
 def status_class(s):
     s = (s or "").lower()
@@ -446,7 +470,7 @@ def status_class(s):
 
 def render_resource_button(name, status, link):
     s = (status or "").lower()
-    if "à venir" in s or not link or link == "":
+    if "à venir" in s or not link or link == "" or link == "#":
         return '<span class="resource-btn btn-disabled">Indisponible</span>'
     if "réservé" in s:
         return '<span class="resource-btn btn-disabled">Accès restreint</span>'
@@ -454,25 +478,73 @@ def render_resource_button(name, status, link):
         return f'<a href="{escape(link)}" class="resource-btn btn-view">Voir</a>'
     return f'<a href="{escape(link)}" class="resource-btn btn-download">Télécharger</a>'
 
+def parse_links(s):
+    if not s or str(s).lower() == "nan":
+        return []
+    return [u.strip() for u in str(s).split("|") if u.strip()]
+
+# Colonne lien_github depuis enseignements_detailed.csv
+df_ens["lien_github"] = df_ens.get("lien_github", "").astype(str).replace("nan", "")
+
 parts = []
 for d, icon, desc in DOMAINS:
-    d_df = df_sup[df_sup["domaine"] == d]
+    # Tous les modules du domaine, dédupliqués (un module peut être dispensé plusieurs années)
+    d_df = df_ens[df_ens["domaine"] == d]
     if d_df.empty:
-        parts.append(f'''
-<details class="callout" style="margin: 1rem 0;">
-  <summary style="cursor:pointer; padding: 0.8rem 1rem; background:#FAFAFA; border-left: 4px solid #C8102E; font-weight:600;">
-    {icon}&nbsp; <strong>{d}</strong>&nbsp; <span style="color:#999; font-weight:400; font-size:0.9em">— pas encore de supports en ligne</span>
-  </summary>
-</details>''')
         continue
 
-    n_modules = d_df["nom_module"].nunique()
+    # Agrégation par module
+    modules_in_domain = []
+    for mod, g in d_df.groupby("nom_module"):
+        niveaux = ", ".join(sorted(g["niveau"].dropna().unique()))
+        classes = ", ".join(sorted(c for c in g["classe"].dropna().unique() if c and c != "—"))
+        heures_total = int(g["charge_horaire"].sum())
+        nb_annees = g["annee"].nunique()
+        # Liens GitHub (peuvent être plusieurs séparés par |)
+        gh_set = []
+        for v in g["lien_github"].dropna().unique():
+            for u in parse_links(v):
+                if u and u not in gh_set:
+                    gh_set.append(u)
+        modules_in_domain.append({
+            "module": mod,
+            "niveaux": niveaux,
+            "classes": classes,
+            "heures": heures_total,
+            "nb_annees": nb_annees,
+            "github": gh_set,
+        })
+
+    # Tri : modules avec GitHub d'abord, puis par charge décroissante
+    modules_in_domain.sort(key=lambda m: (-len(m["github"]), -m["heures"], m["module"]))
+
+    n_modules = len(modules_in_domain)
+    n_with_gh = sum(1 for m in modules_in_domain if m["github"])
+
     cards = []
-    for (mod, niv, classe, ecole), g in d_df.groupby(
-        ["nom_module", "niveau", "classe", "ecole"], sort=False
-    ):
+    for m in modules_in_domain:
+        # Boutons d'action en haut de la carte
+        actions = []
+        slug_factsheet = _slugify(m["module"])
+        actions.append(
+            f'<a href="modules/{slug_factsheet}.html" class="resource-btn btn-view" title="Fiche module">📋 Fiche</a>'
+        )
+        # Page pédagogique détaillée si existante
+        if m["module"] in DETAILED_PAGES:
+            actions.append(
+                f'<a href="{DETAILED_PAGES[m["module"]]}.html" class="resource-btn btn-view" title="Page pédagogique détaillée">📖 Pédagogique</a>'
+            )
+        # GitHub repos
+        for url in m["github"]:
+            short = url.replace("https://github.com/", "").rstrip("/")
+            actions.append(
+                f'<a href="{escape(url)}" target="_blank" class="resource-btn btn-download" title="{escape(url)}">⚙ {escape(short)}</a>'
+            )
+
+        # Supports détaillés depuis supports.csv (match par nom_module insensible à la casse)
         rows_html = []
-        for _, r in g.iterrows():
+        sup_match = df_sup[df_sup["nom_module"].str.lower() == m["module"].lower()]
+        for _, r in sup_match.iterrows():
             badge = status_class(r["ressource_statut"])
             btn = render_resource_button(r["ressource_nom"], r["ressource_statut"], r.get("ressource_lien", ""))
             rows_html.append(f'''
@@ -482,23 +554,26 @@ for d, icon, desc in DOMAINS:
   {btn}
 </div>''')
 
+        actions_html = " ".join(actions)
+        meta_extra = f"{m['heures']} h · {m['nb_annees']} an(s)"
         cards.append(f'''
 <div class="module-card">
-  <h4 class="module-title">{escape(mod)}</h4>
+  <h4 class="module-title">{escape(m["module"])}</h4>
   <div class="module-meta">
-    <span>{escape(niv)}</span>
-    <span>{escape(classe)}</span>
-    <span>{escape(ecole)}</span>
+    <span>{escape(m["niveaux"]) or "—"}</span>
+    <span>{escape(m["classes"]) or "—"}</span>
+    <span>{meta_extra}</span>
   </div>
-  <div class="resources">
-    {''.join(rows_html)}
+  <div class="resources" style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:0.5rem">
+    {actions_html}
   </div>
+  {('<div class="resources">' + "".join(rows_html) + "</div>") if rows_html else ""}
 </div>''')
 
     parts.append(f'''
 <details class="callout" open style="margin: 1rem 0;">
   <summary style="cursor:pointer; padding: 0.8rem 1rem; background:#FAFAFA; border-left: 4px solid #C8102E; font-weight:600;">
-    {icon}&nbsp; <strong>{d}</strong>&nbsp; <span style="color:#666; font-weight:400; font-size:0.9em">— {n_modules} module(s) avec supports</span>
+    {icon}&nbsp; <strong>{d}</strong>&nbsp; <span style="color:#666; font-weight:400; font-size:0.9em">— {n_modules} module(s) · {n_with_gh} avec repository GitHub</span>
   </summary>
   <div style="padding: 1rem;">
     {''.join(cards)}
