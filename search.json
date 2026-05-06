@@ -490,585 +490,760 @@
     "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2021-2022\nMaster\nGAMMA\n1\n21 h\n✓\nFR\nNOUVEAU\n\n\n2022-2023\nMaster\nGAMMA\n1\n21 h\n✓\nFR\n\n\n\n2023-2024\nMaster\nGAMMA\n1\n21 h\n✓\nFR\n\n\n\n2025-2026\nMaster\nGAMMA\n1\n21 h\n✓\nFR\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/modules/mathematiques-appliquees-a-la-gestion.html",
-    "href": "enseignements/modules/mathematiques-appliquees-a-la-gestion.html",
-    "title": "∫ Mathématiques appliquées à la gestion",
+    "objectID": "enseignements/modules/modeles-lineaires-generalises.html",
+    "href": "enseignements/modules/modeles-lineaires-generalises.html",
+    "title": "📊 Modèles linéaires généralisés",
     "section": "",
     "text": "Coordinateur Nouveau module"
   },
   {
-    "objectID": "enseignements/modules/mathematiques-appliquees-a-la-gestion.html#synthèse",
-    "href": "enseignements/modules/mathematiques-appliquees-a-la-gestion.html#synthèse",
-    "title": "∫ Mathématiques appliquées à la gestion",
+    "objectID": "enseignements/modules/modeles-lineaires-generalises.html#synthèse",
+    "href": "enseignements/modules/modeles-lineaires-generalises.html#synthèse",
+    "title": "📊 Modèles linéaires généralisés",
     "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n10 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : CCA Période : 2020-2021 → 2020-2021"
+    "text": "Synthèse\n\n\n\n25 h Charge cumulée\n\n\n\n\n2 Année(s) dispensée(s)\n\n\n\n\n2 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Sciences des données Formations couvertes : GAMMA Période : 2021-2022 → 2022-2023"
   },
   {
-    "objectID": "enseignements/modules/mathematiques-appliquees-a-la-gestion.html#historique-de-dispense",
-    "href": "enseignements/modules/mathematiques-appliquees-a-la-gestion.html#historique-de-dispense",
-    "title": "∫ Mathématiques appliquées à la gestion",
+    "objectID": "enseignements/modules/modeles-lineaires-generalises.html#historique-de-dispense",
+    "href": "enseignements/modules/modeles-lineaires-generalises.html#historique-de-dispense",
+    "title": "📊 Modèles linéaires généralisés",
     "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2020-2021\nMaster\nCCA\n1\n10 h\n✓\nFR\nNOUVEAU\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2021-2022\nMaster\nGAMMA\n1\n15 h\n✓\nFR\nNOUVEAU\n\n\n2022-2023\nMaster\nGAMMA\n1\n10 h\n✓\nFR"
   },
   {
-    "objectID": "enseignements/modules/mathematiques-1.html",
-    "href": "enseignements/modules/mathematiques-1.html",
-    "title": "∫ Mathématiques 1",
-    "section": "",
-    "text": "Coordinateur Nouveau module"
-  },
-  {
-    "objectID": "enseignements/modules/mathematiques-1.html#synthèse",
-    "href": "enseignements/modules/mathematiques-1.html#synthèse",
-    "title": "∫ Mathématiques 1",
-    "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n210 h Charge cumulée\n\n\n\n\n3 Année(s) dispensée(s)\n\n\n\n\n5 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LFG, LFIG Période : 2016-2017 → 2018-2019"
-  },
-  {
-    "objectID": "enseignements/modules/mathematiques-1.html#historique-de-dispense",
-    "href": "enseignements/modules/mathematiques-1.html#historique-de-dispense",
-    "title": "∫ Mathématiques 1",
-    "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2016-2017\nLicence\nLFG\n1\n42 h\n✓\nFR\nNOUVEAU\n\n\n2016-2017\nLicence\nLFIG\n2\n84 h\n✓\nFR\nNOUVEAU\n\n\n2017-2018\nLicence\nLFG\n1\n42 h\n✓\nFR\n\n\n\n2018-2019\nLicence\nLFG\n1\n42 h\n✓\nFR"
-  },
-  {
-    "objectID": "enseignements/modules/mathematiques-1.html#code-supports-sur-github",
-    "href": "enseignements/modules/mathematiques-1.html#code-supports-sur-github",
-    "title": "∫ Mathématiques 1",
-    "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Mathematiques1\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
-  },
-  {
-    "objectID": "enseignements/modules/machine-learning-supervise.html",
-    "href": "enseignements/modules/machine-learning-supervise.html",
-    "title": "🤖 Machine Learning (supervisé)",
-    "section": "",
-    "text": "Coordinateur"
-  },
-  {
-    "objectID": "enseignements/modules/machine-learning-supervise.html#synthèse",
-    "href": "enseignements/modules/machine-learning-supervise.html#synthèse",
-    "title": "🤖 Machine Learning (supervisé)",
-    "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n42 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : BA Période : 2024-2025 → 2024-2025"
-  },
-  {
-    "objectID": "enseignements/modules/machine-learning-supervise.html#historique-de-dispense",
-    "href": "enseignements/modules/machine-learning-supervise.html#historique-de-dispense",
-    "title": "🤖 Machine Learning (supervisé)",
-    "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2024-2025\nMaster\nBA\n1\n42 h\n✓\nFR"
-  },
-  {
-    "objectID": "enseignements/modules/machine-learning-supervise.html#code-supports-sur-github",
-    "href": "enseignements/modules/machine-learning-supervise.html#code-supports-sur-github",
-    "title": "🤖 Machine Learning (supervisé)",
-    "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Supervised-Learning\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
-  },
-  {
-    "objectID": "enseignements/modules/logique-mathematique.html",
-    "href": "enseignements/modules/logique-mathematique.html",
-    "title": "∫ Logique Mathématique",
-    "section": "",
-    "text": "Coordinateur Nouveau module"
-  },
-  {
-    "objectID": "enseignements/modules/logique-mathematique.html#synthèse",
-    "href": "enseignements/modules/logique-mathematique.html#synthèse",
-    "title": "∫ Logique Mathématique",
-    "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n42 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n2 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LFIG Période : 2017-2018 → 2017-2018"
-  },
-  {
-    "objectID": "enseignements/modules/logique-mathematique.html#historique-de-dispense",
-    "href": "enseignements/modules/logique-mathematique.html#historique-de-dispense",
-    "title": "∫ Logique Mathématique",
-    "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2017-2018\nLicence\nLFIG\n2\n42 h\n✓\nFR\nNOUVEAU"
-  },
-  {
-    "objectID": "enseignements/modules/logique-mathematique.html#code-supports-sur-github",
-    "href": "enseignements/modules/logique-mathematique.html#code-supports-sur-github",
-    "title": "∫ Logique Mathématique",
-    "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/LogiqueMathematique\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
-  },
-  {
-    "objectID": "enseignements/modules/introduction-data-science.html",
-    "href": "enseignements/modules/introduction-data-science.html",
-    "title": "🤖 Introduction Data Science",
-    "section": "",
-    "text": "Coordinateur Nouveau module"
-  },
-  {
-    "objectID": "enseignements/modules/introduction-data-science.html#synthèse",
-    "href": "enseignements/modules/introduction-data-science.html#synthèse",
-    "title": "🤖 Introduction Data Science",
-    "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n21 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : LMAD Période : 2022-2023 → 2022-2023"
-  },
-  {
-    "objectID": "enseignements/modules/introduction-data-science.html#historique-de-dispense",
-    "href": "enseignements/modules/introduction-data-science.html#historique-de-dispense",
-    "title": "🤖 Introduction Data Science",
-    "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2022-2023\nLicence\nLMAD\n1\n21 h\n✓\nFR\nNOUVEAU\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
-  },
-  {
-    "objectID": "enseignements/modules/integration-et-probabilites.html",
-    "href": "enseignements/modules/integration-et-probabilites.html",
-    "title": "∫ Intégration et Probabilités",
-    "section": "",
-    "text": "Coordinateur Nouveau module"
-  },
-  {
-    "objectID": "enseignements/modules/integration-et-probabilites.html#synthèse",
-    "href": "enseignements/modules/integration-et-probabilites.html#synthèse",
-    "title": "∫ Intégration et Probabilités",
-    "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n92 h Charge cumulée\n\n\n\n\n2 Année(s) dispensée(s)\n\n\n\n\n2 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : GAMMA Période : 2021-2022 → 2025-2026"
-  },
-  {
-    "objectID": "enseignements/modules/integration-et-probabilites.html#historique-de-dispense",
-    "href": "enseignements/modules/integration-et-probabilites.html#historique-de-dispense",
-    "title": "∫ Intégration et Probabilités",
-    "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2021-2022\nMaster\nGAMMA\n1\n50 h\n✓\nFR\nNOUVEAU\n\n\n2025-2026\nMaster\nGAMMA\n1\n42 h\n✓\nFR"
-  },
-  {
-    "objectID": "enseignements/modules/integration-et-probabilites.html#code-supports-sur-github",
-    "href": "enseignements/modules/integration-et-probabilites.html#code-supports-sur-github",
-    "title": "∫ Intégration et Probabilités",
-    "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Probabilites\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
-  },
-  {
-    "objectID": "enseignements/modules/gestion-de-projet.html",
-    "href": "enseignements/modules/gestion-de-projet.html",
-    "title": "🤖 Gestion de projet",
-    "section": "",
-    "text": "Coordinateur"
-  },
-  {
-    "objectID": "enseignements/modules/gestion-de-projet.html#synthèse",
-    "href": "enseignements/modules/gestion-de-projet.html#synthèse",
-    "title": "🤖 Gestion de projet",
-    "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n30 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : LBC-SIAD Période : 2024-2025 → 2024-2025"
-  },
-  {
-    "objectID": "enseignements/modules/gestion-de-projet.html#historique-de-dispense",
-    "href": "enseignements/modules/gestion-de-projet.html#historique-de-dispense",
-    "title": "🤖 Gestion de projet",
-    "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2024-2025\nLicence\nLBC-SIAD\n1\n30 h\n✓\nFR"
-  },
-  {
-    "objectID": "enseignements/modules/gestion-de-projet.html#code-supports-sur-github",
-    "href": "enseignements/modules/gestion-de-projet.html#code-supports-sur-github",
-    "title": "🤖 Gestion de projet",
-    "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/DeepLearningCourse\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
-  },
-  {
-    "objectID": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html",
-    "href": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html",
-    "title": "🤖 Fondements de la théorie de la décision",
-    "section": "",
-    "text": "Coordinateur Anglais Nouveau module"
-  },
-  {
-    "objectID": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html#synthèse",
-    "href": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html#synthèse",
-    "title": "🤖 Fondements de la théorie de la décision",
-    "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n231 h Charge cumulée\n\n\n\n\n4 Année(s) dispensée(s)\n\n\n\n\n11 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : LBC-BI Période : 2022-2023 → 2025-2026"
-  },
-  {
-    "objectID": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html#historique-de-dispense",
-    "href": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html#historique-de-dispense",
-    "title": "🤖 Fondements de la théorie de la décision",
-    "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2022-2023\nLicence\nLBC-BI\n1\n21 h\n✓\nFR\nNOUVEAU\n\n\n2023-2024\nLicence\nLBC-BI\n2\n42 h\n✓\nFR\n\n\n\n2024-2025\nLicence\nLBC-BI\n3\n63 h\n✓\nEN\n\n\n\n2025-2026\nLicence\nLBC-BI\n5\n105 h\n✓\nEN"
-  },
-  {
-    "objectID": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html#code-supports-sur-github",
-    "href": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html#code-supports-sur-github",
-    "title": "🤖 Fondements de la théorie de la décision",
-    "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/DeepLearningCourse\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
-  },
-  {
-    "objectID": "enseignements/modules/data-mining.html",
-    "href": "enseignements/modules/data-mining.html",
-    "title": "🤖 Data Mining",
-    "section": "",
-    "text": "Coordinateur Nouveau module"
-  },
-  {
-    "objectID": "enseignements/modules/data-mining.html#synthèse",
-    "href": "enseignements/modules/data-mining.html#synthèse",
-    "title": "🤖 Data Mining",
-    "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n21 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : FIND Période : 2025-2026 → 2025-2026"
-  },
-  {
-    "objectID": "enseignements/modules/data-mining.html#historique-de-dispense",
-    "href": "enseignements/modules/data-mining.html#historique-de-dispense",
-    "title": "🤖 Data Mining",
-    "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2025-2026\nMaster\nFIND\n1\n21 h\n✓\nFR\nNOUVEAU"
-  },
-  {
-    "objectID": "enseignements/modules/data-mining.html#code-supports-sur-github",
-    "href": "enseignements/modules/data-mining.html#code-supports-sur-github",
-    "title": "🤖 Data Mining",
+    "objectID": "enseignements/modules/modeles-lineaires-generalises.html#code-supports-sur-github",
+    "href": "enseignements/modules/modeles-lineaires-generalises.html#code-supports-sur-github",
+    "title": "📊 Modèles linéaires généralisés",
     "section": "Code & supports sur GitHub",
     "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Unsupervised-Learning\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/modules/cours-de-soutien-statistiques-inferentielles.html",
-    "href": "enseignements/modules/cours-de-soutien-statistiques-inferentielles.html",
-    "title": "🎯 Cours de soutien Statistiques inférentielles",
+    "objectID": "enseignements/modules/mathematiques-2.html",
+    "href": "enseignements/modules/mathematiques-2.html",
+    "title": "∫ Mathématiques 2",
     "section": "",
     "text": "Coordinateur Nouveau module"
   },
   {
-    "objectID": "enseignements/modules/cours-de-soutien-statistiques-inferentielles.html#synthèse",
-    "href": "enseignements/modules/cours-de-soutien-statistiques-inferentielles.html#synthèse",
-    "title": "🎯 Cours de soutien Statistiques inférentielles",
+    "objectID": "enseignements/modules/mathematiques-2.html#synthèse",
+    "href": "enseignements/modules/mathematiques-2.html#synthèse",
+    "title": "∫ Mathématiques 2",
     "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n24 h Charge cumulée\n\n\n\n\n2 Année(s) dispensée(s)\n\n\n\n\n2 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Encadrement et soutien Formations couvertes : — Période : 2017-2018 → 2018-2019"
+    "text": "Synthèse\n\n\n\n126 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n3 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LFG, LFIG Période : 2016-2017 → 2016-2017"
   },
   {
-    "objectID": "enseignements/modules/cours-de-soutien-statistiques-inferentielles.html#historique-de-dispense",
-    "href": "enseignements/modules/cours-de-soutien-statistiques-inferentielles.html#historique-de-dispense",
-    "title": "🎯 Cours de soutien Statistiques inférentielles",
+    "objectID": "enseignements/modules/mathematiques-2.html#historique-de-dispense",
+    "href": "enseignements/modules/mathematiques-2.html#historique-de-dispense",
+    "title": "∫ Mathématiques 2",
     "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2017-2018\nLicence\n—\n1\n9 h\n✓\nFR\nNOUVEAU\n\n\n2018-2019\nLicence\n—\n1\n15 h\n✓\nFR\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2016-2017\nLicence\nLFG\n1\n42 h\n✓\nFR\nNOUVEAU\n\n\n2016-2017\nLicence\nLFIG\n2\n84 h\n✓\nFR\nNOUVEAU"
   },
   {
-    "objectID": "enseignements/modules/atelier-de-programmation.html",
-    "href": "enseignements/modules/atelier-de-programmation.html",
-    "title": "🤖 Atelier de programmation",
-    "section": "",
-    "text": "Coordinateur Nouveau module"
-  },
-  {
-    "objectID": "enseignements/modules/atelier-de-programmation.html#synthèse",
-    "href": "enseignements/modules/atelier-de-programmation.html#synthèse",
-    "title": "🤖 Atelier de programmation",
-    "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n42 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : GAMMA Période : 2025-2026 → 2025-2026"
-  },
-  {
-    "objectID": "enseignements/modules/atelier-de-programmation.html#historique-de-dispense",
-    "href": "enseignements/modules/atelier-de-programmation.html#historique-de-dispense",
-    "title": "🤖 Atelier de programmation",
-    "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2025-2026\nMaster\nGAMMA\n1\n42 h\n✓\nFR\nNOUVEAU"
-  },
-  {
-    "objectID": "enseignements/modules/atelier-de-programmation.html#code-supports-sur-github",
-    "href": "enseignements/modules/atelier-de-programmation.html#code-supports-sur-github",
-    "title": "🤖 Atelier de programmation",
+    "objectID": "enseignements/modules/mathematiques-2.html#code-supports-sur-github",
+    "href": "enseignements/modules/mathematiques-2.html#code-supports-sur-github",
+    "title": "∫ Mathématiques 2",
     "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/AtelierPython\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Mathematiques2\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/modules/analyse-statistique-avec-r.html",
-    "href": "enseignements/modules/analyse-statistique-avec-r.html",
-    "title": "∫ Analyse statistique avec R",
+    "objectID": "enseignements/modules/machine-learning.html",
+    "href": "enseignements/modules/machine-learning.html",
+    "title": "🤖 Machine Learning",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Coordinateur Anglais"
   },
   {
-    "objectID": "enseignements/modules/analyse-statistique-avec-r.html#synthèse",
-    "href": "enseignements/modules/analyse-statistique-avec-r.html#synthèse",
-    "title": "∫ Analyse statistique avec R",
+    "objectID": "enseignements/modules/machine-learning.html#synthèse",
+    "href": "enseignements/modules/machine-learning.html#synthèse",
+    "title": "🤖 Machine Learning",
     "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n63 h Charge cumulée\n\n\n\n\n3 Année(s) dispensée(s)\n\n\n\n\n3 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LMAD Période : 2019-2020 → 2022-2023"
+    "text": "Synthèse\n\n\n\n126 h Charge cumulée\n\n\n\n\n2 Année(s) dispensée(s)\n\n\n\n\n3 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : BA Période : 2024-2025 → 2025-2026"
   },
   {
-    "objectID": "enseignements/modules/analyse-statistique-avec-r.html#historique-de-dispense",
-    "href": "enseignements/modules/analyse-statistique-avec-r.html#historique-de-dispense",
-    "title": "∫ Analyse statistique avec R",
+    "objectID": "enseignements/modules/machine-learning.html#historique-de-dispense",
+    "href": "enseignements/modules/machine-learning.html#historique-de-dispense",
+    "title": "🤖 Machine Learning",
     "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2019-2020\nLicence\nLMAD\n1\n21 h\n✓\nFR\nNOUVEAU\n\n\n2020-2021\nLicence\nLMAD\n1\n21 h\n✓\nFR\n\n\n\n2022-2023\nLicence\nLMAD\n1\n21 h\n✓\nFR"
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2024-2025\nMaster\nBA\n2\n84 h\n\nEN\n\n\n\n2025-2026\nMaster\nBA\n1\n42 h\n✓\nFR"
   },
   {
-    "objectID": "enseignements/modules/analyse-statistique-avec-r.html#code-supports-sur-github",
-    "href": "enseignements/modules/analyse-statistique-avec-r.html#code-supports-sur-github",
-    "title": "∫ Analyse statistique avec R",
-    "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/AnalyseStatistiqueR\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
-  },
-  {
-    "objectID": "enseignements/modules/analyse-des-donnees-avec-spss.html",
-    "href": "enseignements/modules/analyse-des-donnees-avec-spss.html",
-    "title": "📊 Analyse des données avec SPSS",
-    "section": "",
-    "text": "Coordinateur Nouveau module"
-  },
-  {
-    "objectID": "enseignements/modules/analyse-des-donnees-avec-spss.html#synthèse",
-    "href": "enseignements/modules/analyse-des-donnees-avec-spss.html#synthèse",
-    "title": "📊 Analyse des données avec SPSS",
-    "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n42 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Sciences des données Formations couvertes : MKD Période : 2017-2018 → 2017-2018"
-  },
-  {
-    "objectID": "enseignements/modules/analyse-des-donnees-avec-spss.html#historique-de-dispense",
-    "href": "enseignements/modules/analyse-des-donnees-avec-spss.html#historique-de-dispense",
-    "title": "📊 Analyse des données avec SPSS",
-    "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2017-2018\nMaster\nMKD\n1\n42 h\n✓\nFR\nNOUVEAU"
-  },
-  {
-    "objectID": "enseignements/modules/analyse-des-donnees-avec-spss.html#code-supports-sur-github",
-    "href": "enseignements/modules/analyse-des-donnees-avec-spss.html#code-supports-sur-github",
-    "title": "📊 Analyse des données avec SPSS",
-    "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/MarketingDataAnalysis\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
-  },
-  {
-    "objectID": "enseignements/modules/analyse-2.html",
-    "href": "enseignements/modules/analyse-2.html",
-    "title": "∫ Analyse 2",
-    "section": "",
-    "text": "Nouveau module"
-  },
-  {
-    "objectID": "enseignements/modules/analyse-2.html#synthèse",
-    "href": "enseignements/modules/analyse-2.html#synthèse",
-    "title": "∫ Analyse 2",
-    "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n30 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LMAD Période : 2019-2020 → 2019-2020"
-  },
-  {
-    "objectID": "enseignements/modules/analyse-2.html#historique-de-dispense",
-    "href": "enseignements/modules/analyse-2.html#historique-de-dispense",
-    "title": "∫ Analyse 2",
-    "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2019-2020\nLicence\nLMAD\n1\n30 h\n\nFR\nNOUVEAU\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
-  },
-  {
-    "objectID": "enseignements/modules/algebre-2.html",
-    "href": "enseignements/modules/algebre-2.html",
-    "title": "∫ Algèbre 2",
-    "section": "",
-    "text": "Coordinateur Nouveau module"
-  },
-  {
-    "objectID": "enseignements/modules/algebre-2.html#synthèse",
-    "href": "enseignements/modules/algebre-2.html#synthèse",
-    "title": "∫ Algèbre 2",
-    "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n210 h Charge cumulée\n\n\n\n\n3 Année(s) dispensée(s)\n\n\n\n\n3 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LMAD Période : 2019-2020 → 2022-2023"
-  },
-  {
-    "objectID": "enseignements/modules/algebre-2.html#historique-de-dispense",
-    "href": "enseignements/modules/algebre-2.html#historique-de-dispense",
-    "title": "∫ Algèbre 2",
-    "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2019-2020\nLicence\nLMAD\n1\n84 h\n✓\nFR\nNOUVEAU\n\n\n2020-2021\nLicence\nLMAD\n1\n84 h\n✓\nFR\n\n\n\n2022-2023\nLicence\nLMAD\n1\n42 h\n✓\nFR"
-  },
-  {
-    "objectID": "enseignements/modules/algebre-2.html#page-pédagogique-détaillée",
-    "href": "enseignements/modules/algebre-2.html#page-pédagogique-détaillée",
-    "title": "∫ Algèbre 2",
+    "objectID": "enseignements/modules/machine-learning.html#page-pédagogique-détaillée",
+    "href": "enseignements/modules/machine-learning.html#page-pédagogique-détaillée",
+    "title": "🤖 Machine Learning",
     "section": "Page pédagogique détaillée",
-    "text": "Page pédagogique détaillée\nPour le programme complet, les objectifs d’apprentissage, le découpage par chapitre et les ressources annexes, consulter la fiche détaillée :\n→ Voir la fiche pédagogique de Algèbre 2"
+    "text": "Page pédagogique détaillée\nPour le programme complet, les objectifs d’apprentissage, le découpage par chapitre et les ressources annexes, consulter la fiche détaillée :\n→ Voir la fiche pédagogique de Machine Learning"
   },
   {
-    "objectID": "enseignements/modules/algebre-2.html#code-supports-sur-github",
-    "href": "enseignements/modules/algebre-2.html#code-supports-sur-github",
-    "title": "∫ Algèbre 2",
+    "objectID": "enseignements/modules/machine-learning.html#code-supports-sur-github",
+    "href": "enseignements/modules/machine-learning.html#code-supports-sur-github",
+    "title": "🤖 Machine Learning",
     "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Algebre2\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Supervised-Learning"
   },
   {
-    "objectID": "enseignements/machine-learning.html",
-    "href": "enseignements/machine-learning.html",
-    "title": "Machine Learning",
-    "section": "",
-    "text": "Module créé en 2021–2022 dans le cadre de l’évolution du curriculum data science d’ESB, puis maintenu et enrichi chaque année. Approche par projet avec datasets réels."
-  },
-  {
-    "objectID": "enseignements/machine-learning.html#présentation",
-    "href": "enseignements/machine-learning.html#présentation",
-    "title": "Machine Learning",
-    "section": "",
-    "text": "Module créé en 2021–2022 dans le cadre de l’évolution du curriculum data science d’ESB, puis maintenu et enrichi chaque année. Approche par projet avec datasets réels."
-  },
-  {
-    "objectID": "enseignements/machine-learning.html#acquis-dapprentissage",
-    "href": "enseignements/machine-learning.html#acquis-dapprentissage",
-    "title": "Machine Learning",
-    "section": "Acquis d’apprentissage",
-    "text": "Acquis d’apprentissage\n\nAA1 — Comprendre la dichotomie supervisé / non supervisé / renforcement\nAA2 — Maîtriser les algorithmes classiques (linéaires, arbres, ensembles)\nAA3 — Évaluer un modèle (validation croisée, métriques, biais-variance)\nAA4 — Pré-traiter les données (nettoyage, encodage, scaling, feature engineering)\nAA5 — Implémenter un pipeline ML complet en Python avec scikit-learn\nAA6 — Détecter et corriger l’overfitting\nAA7 — Communiquer les résultats via dashboards et rapports"
-  },
-  {
-    "objectID": "enseignements/machine-learning.html#supports-pédagogiques",
-    "href": "enseignements/machine-learning.html#supports-pédagogiques",
-    "title": "Machine Learning",
+    "objectID": "enseignements/modules/machine-learning.html#supports-pédagogiques",
+    "href": "enseignements/modules/machine-learning.html#supports-pédagogiques",
+    "title": "🤖 Machine Learning",
     "section": "Supports pédagogiques",
-    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours book avec exercices corrigés\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nTPs Python\nPipelines scikit-learn, projets datasets réels\nPDF + code\n\n\nProjet\nCompétition Kaggle interne\nSujet\n\n\nRepository\nCode source\nGitHub"
+    "text": "Supports pédagogiques\n\n\n\nRessource\nStatut\nLien\n\n\n\n\nFiche module\nDisponible\n—\n\n\nPolycopié\nDisponible\n—\n\n\nSlides\nDisponible\n—\n\n\nTP\nDisponible\n—\n\n\nTD\nRéservé aux étudiants\n—\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/machine-learning.html#plan-détaillé",
-    "href": "enseignements/machine-learning.html#plan-détaillé",
-    "title": "Machine Learning",
-    "section": "Plan détaillé",
-    "text": "Plan détaillé\n\nIntroduction : taxonomie ML, vocabulaire, vue d’ensemble du pipeline\nRégression linéaire et logistique : moindres carrés, descente de gradient, régularisation L1/L2\nArbres de décision et forêts aléatoires : gini, entropie, bagging, boosting\nSVM : marges, kernels, dualité\nK-NN, Naive Bayes : algorithmes paresseux et probabilistes\nApprentissage non supervisé : K-means, DBSCAN, hiérarchique, PCA\nÉvaluation : courbe ROC, matrice de confusion, validation croisée, GridSearchCV\nPipelines, sélection de features, déploiement"
-  },
-  {
-    "objectID": "enseignements/machine-learning.html#outils-mobilisés",
-    "href": "enseignements/machine-learning.html#outils-mobilisés",
-    "title": "Machine Learning",
-    "section": "Outils mobilisés",
-    "text": "Outils mobilisés\nscikit-learn · pandas · numpy · matplotlib · seaborn · plotly · xgboost · lightgbm"
-  },
-  {
-    "objectID": "enseignements/machine-learning.html#prolongements",
-    "href": "enseignements/machine-learning.html#prolongements",
-    "title": "Machine Learning",
-    "section": "Prolongements",
-    "text": "Prolongements\nModule précurseur de Deep Learning, NLP et Tools for Machine Learning."
-  },
-  {
-    "objectID": "enseignements/generative-computer-vision.html",
-    "href": "enseignements/generative-computer-vision.html",
-    "title": "Generative Computer Vision",
+    "objectID": "enseignements/modules/machine-learning-non-supervise.html",
+    "href": "enseignements/modules/machine-learning-non-supervise.html",
+    "title": "🤖 Machine Learning (non supervisé)",
     "section": "",
-    "text": "Module créé en 2024–2025, à la pointe des techniques de vision générative : GANs, diffusion models, vision-language models (CLIP, DALL-E, Stable Diffusion, Midjourney-like architectures).\nS’inscrit dans le programme stratégique Alternance BA — Business Analytics oriented to Generative AI (partenariat ESB / Jems Group) dont je suis Co-Responsable depuis 2024."
+    "text": "Coordinateur Nouveau module"
   },
   {
-    "objectID": "enseignements/generative-computer-vision.html#présentation",
-    "href": "enseignements/generative-computer-vision.html#présentation",
-    "title": "Generative Computer Vision",
-    "section": "",
-    "text": "Module créé en 2024–2025, à la pointe des techniques de vision générative : GANs, diffusion models, vision-language models (CLIP, DALL-E, Stable Diffusion, Midjourney-like architectures).\nS’inscrit dans le programme stratégique Alternance BA — Business Analytics oriented to Generative AI (partenariat ESB / Jems Group) dont je suis Co-Responsable depuis 2024."
+    "objectID": "enseignements/modules/machine-learning-non-supervise.html#synthèse",
+    "href": "enseignements/modules/machine-learning-non-supervise.html#synthèse",
+    "title": "🤖 Machine Learning (non supervisé)",
+    "section": "Synthèse",
+    "text": "Synthèse\n\n\n\n42 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : BA Période : 2024-2025 → 2024-2025"
   },
   {
-    "objectID": "enseignements/generative-computer-vision.html#acquis-dapprentissage",
-    "href": "enseignements/generative-computer-vision.html#acquis-dapprentissage",
-    "title": "Generative Computer Vision",
-    "section": "Acquis d’apprentissage",
-    "text": "Acquis d’apprentissage\n\nAA1 — Maîtriser les fondamentaux de la vision par ordinateur (CNN, segmentation, détection)\nAA2 — Comprendre les Autoencodeurs et Variational Autoencoders (VAE)\nAA3 — Implémenter des Generative Adversarial Networks (GAN, DCGAN, StyleGAN)\nAA4 — Comprendre les diffusion models (DDPM, Stable Diffusion)\nAA5 — Manipuler les modèles vision-language (CLIP, BLIP)\nAA6 — Générer des images à partir de texte (text-to-image)\nAA7 — Évaluer les modèles génératifs (FID, IS, perceptual metrics)\nAA8 — Considérations éthiques et deepfakes"
+    "objectID": "enseignements/modules/machine-learning-non-supervise.html#historique-de-dispense",
+    "href": "enseignements/modules/machine-learning-non-supervise.html#historique-de-dispense",
+    "title": "🤖 Machine Learning (non supervisé)",
+    "section": "Historique de dispense",
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2024-2025\nMaster\nBA\n1\n42 h\n✓\nFR\nNOUVEAU"
   },
   {
-    "objectID": "enseignements/generative-computer-vision.html#supports-pédagogiques",
-    "href": "enseignements/generative-computer-vision.html#supports-pédagogiques",
-    "title": "Generative Computer Vision",
+    "objectID": "enseignements/modules/machine-learning-non-supervise.html#code-supports-sur-github",
+    "href": "enseignements/modules/machine-learning-non-supervise.html#code-supports-sur-github",
+    "title": "🤖 Machine Learning (non supervisé)",
+    "section": "Code & supports sur GitHub",
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Unsupervised-Learning"
+  },
+  {
+    "objectID": "enseignements/modules/machine-learning-non-supervise.html#supports-pédagogiques",
+    "href": "enseignements/modules/machine-learning-non-supervise.html#supports-pédagogiques",
+    "title": "🤖 Machine Learning (non supervisé)",
     "section": "Supports pédagogiques",
-    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours book\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nTPs Python\nPyTorch, HuggingFace Diffusers, GANs from scratch\nPDF + code\n\n\nProjet\nPipeline complet text-to-image personnalisé\nSujet\n\n\nRepository\nCode source\nGitHub"
+    "text": "Supports pédagogiques\n\n\n\nRessource\nStatut\nLien\n\n\n\n\nFiche module\nDisponible\n—\n\n\nPolycopié\nDisponible\n—\n\n\nSlides\nDisponible\n—\n\n\nTP\nDisponible\n—\n\n\nTD\nRéservé aux étudiants\n—\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/generative-computer-vision.html#plan-détaillé",
-    "href": "enseignements/generative-computer-vision.html#plan-détaillé",
-    "title": "Generative Computer Vision",
-    "section": "Plan détaillé",
-    "text": "Plan détaillé\n\nRappels CV : CNN, ResNet, Vision Transformers (ViT)\nAutoencodeurs : encodage, décodage, débruitage\nVAE : reparametrization trick, KL divergence\nGANs : générateur, discriminateur, équilibre de Nash\nArchitectures avancées : DCGAN, Pix2Pix, CycleGAN, StyleGAN\nDiffusion models : forward/reverse process, DDPM, DDIM\nStable Diffusion : latent diffusion, U-Net conditionnel\nVision-Language Models : CLIP, BLIP, contrastive learning\nText-to-image : DALL-E, Imagen, Stable Diffusion\nApplications : transfer de style, super-résolution, inpainting"
-  },
-  {
-    "objectID": "enseignements/generative-computer-vision.html#outils-mobilisés",
-    "href": "enseignements/generative-computer-vision.html#outils-mobilisés",
-    "title": "Generative Computer Vision",
-    "section": "Outils mobilisés",
-    "text": "Outils mobilisés\ntorch · diffusers (HuggingFace) · transformers · clip · accelerate opencv · pillow · matplotlib · wandb"
-  },
-  {
-    "objectID": "enseignements/generative-computer-vision.html#liens-avec-mes-activités",
-    "href": "enseignements/generative-computer-vision.html#liens-avec-mes-activités",
-    "title": "Generative Computer Vision",
-    "section": "Liens avec mes activités",
-    "text": "Liens avec mes activités\n\nCo-Responsable Alternance BA-GenAI (ESB × Jems Group, depuis 2024)\nHead of Research Team AI4U (Esprit Tech, depuis 2023) — applications GenAI dans l’enseignement\nAI Instructor (Training of Trainers, depuis 2023) — sessions Generative AI"
-  },
-  {
-    "objectID": "enseignements/generative-computer-vision.html#prolongements",
-    "href": "enseignements/generative-computer-vision.html#prolongements",
-    "title": "Generative Computer Vision",
-    "section": "Prolongements",
-    "text": "Prolongements\nModule phare du virage Generative AI à ESB, complémentaire de NLP (générateurs de texte) et Deep Learning."
-  },
-  {
-    "objectID": "enseignements/analyse4.html",
-    "href": "enseignements/analyse4.html",
-    "title": "Analyse 4 — ECUE421",
+    "objectID": "enseignements/modules/les-fondamentaux-des-mathematiques.html",
+    "href": "enseignements/modules/les-fondamentaux-des-mathematiques.html",
+    "title": "∫ Les fondamentaux des mathématiques",
     "section": "",
-    "text": "Module d’analyse à plusieurs variables, ouvrant sur le calcul différentiel multidimensionnel et les algorithmes d’optimisation (descente de gradient).\nVolume : 84h = 36C + 36TD + 6TP + 6 projet."
+    "text": "Coordinateur Nouveau module"
   },
   {
-    "objectID": "enseignements/analyse4.html#présentation",
-    "href": "enseignements/analyse4.html#présentation",
-    "title": "Analyse 4 — ECUE421",
+    "objectID": "enseignements/modules/les-fondamentaux-des-mathematiques.html#synthèse",
+    "href": "enseignements/modules/les-fondamentaux-des-mathematiques.html#synthèse",
+    "title": "∫ Les fondamentaux des mathématiques",
+    "section": "Synthèse",
+    "text": "Synthèse\n\n\n\n21 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : BA Période : 2018-2019 → 2018-2019"
+  },
+  {
+    "objectID": "enseignements/modules/les-fondamentaux-des-mathematiques.html#historique-de-dispense",
+    "href": "enseignements/modules/les-fondamentaux-des-mathematiques.html#historique-de-dispense",
+    "title": "∫ Les fondamentaux des mathématiques",
+    "section": "Historique de dispense",
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2018-2019\nMaster\nBA\n1\n21 h\n✓\nFR\nNOUVEAU"
+  },
+  {
+    "objectID": "enseignements/modules/les-fondamentaux-des-mathematiques.html#code-supports-sur-github",
+    "href": "enseignements/modules/les-fondamentaux-des-mathematiques.html#code-supports-sur-github",
+    "title": "∫ Les fondamentaux des mathématiques",
+    "section": "Code & supports sur GitHub",
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/FondamentauxMathematiques\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+  },
+  {
+    "objectID": "enseignements/modules/intelligence-artificielle.html",
+    "href": "enseignements/modules/intelligence-artificielle.html",
+    "title": "🤖 Intelligence Artificielle",
     "section": "",
-    "text": "Module d’analyse à plusieurs variables, ouvrant sur le calcul différentiel multidimensionnel et les algorithmes d’optimisation (descente de gradient).\nVolume : 84h = 36C + 36TD + 6TP + 6 projet."
+    "text": "Coordinateur Nouveau module"
   },
   {
-    "objectID": "enseignements/analyse4.html#acquis-dapprentissage",
-    "href": "enseignements/analyse4.html#acquis-dapprentissage",
-    "title": "Analyse 4 — ECUE421",
-    "section": "Acquis d’apprentissage",
-    "text": "Acquis d’apprentissage\n\nAA1 — Maîtriser la topologie de \\(\\mathbb{R}^n\\)\nAA2 — Étudier la continuité et la limite des fonctions de plusieurs variables\nAA3 — Calculer dérivées partielles et différentielles\nAA4 — Appliquer le théorème des fonctions implicites\nAA5 — Étudier les extrema libres et liés\nAA6 — Implémenter la descente de gradient en Python\nAA7 — Appliquer à un problème de régression / classification"
+    "objectID": "enseignements/modules/intelligence-artificielle.html#synthèse",
+    "href": "enseignements/modules/intelligence-artificielle.html#synthèse",
+    "title": "🤖 Intelligence Artificielle",
+    "section": "Synthèse",
+    "text": "Synthèse\n\n\n\n56 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : LMAD Période : 2023-2024 → 2023-2024"
   },
   {
-    "objectID": "enseignements/analyse4.html#supports-pédagogiques",
-    "href": "enseignements/analyse4.html#supports-pédagogiques",
-    "title": "Analyse 4 — ECUE421",
+    "objectID": "enseignements/modules/intelligence-artificielle.html#historique-de-dispense",
+    "href": "enseignements/modules/intelligence-artificielle.html#historique-de-dispense",
+    "title": "🤖 Intelligence Artificielle",
+    "section": "Historique de dispense",
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2023-2024\nLicence\nLMAD\n1\n56 h\n✓\nFR\nNOUVEAU"
+  },
+  {
+    "objectID": "enseignements/modules/intelligence-artificielle.html#code-supports-sur-github",
+    "href": "enseignements/modules/intelligence-artificielle.html#code-supports-sur-github",
+    "title": "🤖 Intelligence Artificielle",
+    "section": "Code & supports sur GitHub",
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Supervised-Learning\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+  },
+  {
+    "objectID": "enseignements/modules/index.html",
+    "href": "enseignements/modules/index.html",
+    "title": "Modules — Vue d’ensemble",
+    "section": "",
+    "text": "Catalogue des 43 modules dispensés à ESB (2016–2026). Cliquez sur un module pour accéder à sa fiche."
+  },
+  {
+    "objectID": "enseignements/modules/index.html#mathématiques-et-statistiques",
+    "href": "enseignements/modules/index.html#mathématiques-et-statistiques",
+    "title": "Modules — Vue d’ensemble",
+    "section": "∫ Mathématiques et Statistiques",
+    "text": "∫ Mathématiques et Statistiques\n\n\n\nModule\nCharge cumulée\nAnnées\n\n\n\n\nAlgèbre 1\n420 h\n5\n\n\nAlgèbre 2\n210 h\n3\n\n\nAlgèbre 3\n168 h\n2\n\n\nAnalyse 2\n30 h\n1\n\n\nAnalyse 4\n294 h\n4\n\n\nAnalyse statistique avec R\n63 h\n3\n\n\nIntégration et Probabilités\n92 h\n2\n\n\nLes fondamentaux des mathématiques\n21 h\n1\n\n\nLogique Mathématique\n42 h\n1\n\n\nMathématiques 1\n210 h\n3\n\n\nMathématiques 2\n126 h\n1\n\n\nMathématiques appliquées à la gestion\n10 h\n1\n\n\nProbabilités\n84 h\n1\n\n\nProbabilités et Statistiques\n146 h\n2\n\n\nSatistiques inférentielles\n84 h\n1\n\n\nStatistiques\n57 h\n3\n\n\nStatistiques descriptives et Probabilités\n511 h\n3\n\n\nStatistiques inférentielles\n245 h\n7"
+  },
+  {
+    "objectID": "enseignements/modules/index.html#intelligence-artificielle",
+    "href": "enseignements/modules/index.html#intelligence-artificielle",
+    "title": "Modules — Vue d’ensemble",
+    "section": "🤖 Intelligence Artificielle",
+    "text": "🤖 Intelligence Artificielle\n\n\n\nModule\nCharge cumulée\nAnnées\n\n\n\n\nApprentissage Statistique\n84 h\n2\n\n\nAtelier de programmation\n42 h\n1\n\n\nData Mining\n21 h\n1\n\n\nDeep Learning\n420 h\n4\n\n\nFondements de la théorie de la décision\n231 h\n4\n\n\nGenerative Computer Vision\n21 h\n1\n\n\nGestion de projet\n30 h\n1\n\n\nIntelligence Artificielle\n56 h\n1\n\n\nIntroduction Data Science\n21 h\n1\n\n\nMachine Learning\n126 h\n2\n\n\nMachine Learning (non supervisé)\n42 h\n1\n\n\nMachine Learning (supervisé)\n42 h\n1\n\n\nNLP - Natural Language Processing\n168 h\n4\n\n\nOptimisation numérique\n84 h\n4\n\n\nOutillage Machine Learning\n63 h\n2\n\n\nProgrammation Python 2\n42 h\n2\n\n\nProgrammation Python 3\n42 h\n2"
+  },
+  {
+    "objectID": "enseignements/modules/index.html#sciences-des-données",
+    "href": "enseignements/modules/index.html#sciences-des-données",
+    "title": "Modules — Vue d’ensemble",
+    "section": "📊 Sciences des données",
+    "text": "📊 Sciences des données\n\n\n\nModule\nCharge cumulée\nAnnées\n\n\n\n\nAnalyse des données\n42 h\n1\n\n\nAnalyse des données avec SPSS\n42 h\n1\n\n\nModèles linéaires généralisés\n25 h\n2\n\n\nProgrammation avec R\n102 h\n1\n\n\nRecherche Opérationnelle\n42 h\n1\n\n\nSéries Temporelles\n220 h\n5"
+  },
+  {
+    "objectID": "enseignements/modules/index.html#encadrement-et-soutien",
+    "href": "enseignements/modules/index.html#encadrement-et-soutien",
+    "title": "Modules — Vue d’ensemble",
+    "section": "🎯 Encadrement et soutien",
+    "text": "🎯 Encadrement et soutien\n\n\n\nModule\nCharge cumulée\nAnnées\n\n\n\n\nCours de soutien\n30 h\n1\n\n\nCours de soutien Mathématiques\n9 h\n1\n\n\nCours de soutien Statistiques inférentielles\n24 h\n2"
+  },
+  {
+    "objectID": "enseignements/modules/generative-computer-vision.html",
+    "href": "enseignements/modules/generative-computer-vision.html",
+    "title": "🤖 Generative Computer Vision",
+    "section": "",
+    "text": "Coordinateur Nouveau module"
+  },
+  {
+    "objectID": "enseignements/modules/generative-computer-vision.html#synthèse",
+    "href": "enseignements/modules/generative-computer-vision.html#synthèse",
+    "title": "🤖 Generative Computer Vision",
+    "section": "Synthèse",
+    "text": "Synthèse\n\n\n\n21 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : BA Période : 2024-2025 → 2024-2025"
+  },
+  {
+    "objectID": "enseignements/modules/generative-computer-vision.html#historique-de-dispense",
+    "href": "enseignements/modules/generative-computer-vision.html#historique-de-dispense",
+    "title": "🤖 Generative Computer Vision",
+    "section": "Historique de dispense",
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2024-2025\nMaster\nBA\n1\n21 h\n✓\nFR\nNOUVEAU"
+  },
+  {
+    "objectID": "enseignements/modules/generative-computer-vision.html#page-pédagogique-détaillée",
+    "href": "enseignements/modules/generative-computer-vision.html#page-pédagogique-détaillée",
+    "title": "🤖 Generative Computer Vision",
+    "section": "Page pédagogique détaillée",
+    "text": "Page pédagogique détaillée\nPour le programme complet, les objectifs d’apprentissage, le découpage par chapitre et les ressources annexes, consulter la fiche détaillée :\n→ Voir la fiche pédagogique de Generative Computer Vision"
+  },
+  {
+    "objectID": "enseignements/modules/generative-computer-vision.html#code-supports-sur-github",
+    "href": "enseignements/modules/generative-computer-vision.html#code-supports-sur-github",
+    "title": "🤖 Generative Computer Vision",
+    "section": "Code & supports sur GitHub",
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/GenerativeComputerVision"
+  },
+  {
+    "objectID": "enseignements/modules/generative-computer-vision.html#supports-pédagogiques",
+    "href": "enseignements/modules/generative-computer-vision.html#supports-pédagogiques",
+    "title": "🤖 Generative Computer Vision",
     "section": "Supports pédagogiques",
-    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours book\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nTPs Python\nNumPy, SciPy, descente de gradient\nPDF + code\n\n\nProjet\nApplication ML\nSujet\n\n\nRepository\nCode source\nGitHub"
+    "text": "Supports pédagogiques\n\n\n\nRessource\nStatut\nLien\n\n\n\n\nFiche module\nDisponible\n—\n\n\nPolycopié\nÀ venir\n—\n\n\nSlides\nDisponible\n—\n\n\nTP\nDisponible\n—\n\n\nTD\nRéservé aux étudiants\n—\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/analyse4.html#plan-détaillé",
-    "href": "enseignements/analyse4.html#plan-détaillé",
-    "title": "Analyse 4 — ECUE421",
-    "section": "Plan détaillé",
-    "text": "Plan détaillé\n\nTopologie de \\(\\mathbb{R}^n\\) : ouverts, fermés, compacts, connexes\nLimites et continuité des fonctions de plusieurs variables\nDérivées partielles, différentiabilité, gradient\nDifférentielles d’ordre supérieur, formule de Taylor\nThéorème des fonctions implicites et inversion locale\nExtrema libres et liés (multiplicateurs de Lagrange)\nAlgorithmes d’optimisation : descente de gradient, méthode de Newton\nApplication : régression linéaire, logistique"
-  },
-  {
-    "objectID": "enseignements/algebre2.html",
-    "href": "enseignements/algebre2.html",
-    "title": "Algèbre 2 — ECUE211",
+    "objectID": "enseignements/modules/deep-learning.html",
+    "href": "enseignements/modules/deep-learning.html",
+    "title": "🤖 Deep Learning",
     "section": "",
-    "text": "Module de fondamentaux en algèbre linéaire pour les étudiants de S2 LMAD/SD, avec 84 heures réparties en cours magistraux (42h) et travaux dirigés (42h)."
+    "text": "Coordinateur Anglais Nouveau module"
   },
   {
-    "objectID": "enseignements/algebre2.html#présentation",
-    "href": "enseignements/algebre2.html#présentation",
-    "title": "Algèbre 2 — ECUE211",
-    "section": "",
-    "text": "Module de fondamentaux en algèbre linéaire pour les étudiants de S2 LMAD/SD, avec 84 heures réparties en cours magistraux (42h) et travaux dirigés (42h)."
+    "objectID": "enseignements/modules/deep-learning.html#synthèse",
+    "href": "enseignements/modules/deep-learning.html#synthèse",
+    "title": "🤖 Deep Learning",
+    "section": "Synthèse",
+    "text": "Synthèse\n\n\n\n420 h Charge cumulée\n\n\n\n\n4 Année(s) dispensée(s)\n\n\n\n\n10 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : BA Période : 2022-2023 → 2025-2026"
   },
   {
-    "objectID": "enseignements/algebre2.html#acquis-dapprentissage",
-    "href": "enseignements/algebre2.html#acquis-dapprentissage",
-    "title": "Algèbre 2 — ECUE211",
-    "section": "Acquis d’apprentissage",
-    "text": "Acquis d’apprentissage\n\nAA1 — Manipuler les espaces vectoriels et leurs sous-espaces\nAA2 — Identifier et calculer avec des applications linéaires\nAA3 — Maîtriser le calcul matriciel\nAA4 — Résoudre des systèmes linéaires\nAA5 — Calculer et utiliser les déterminants\nAA6 — Diagonaliser les matrices simples"
+    "objectID": "enseignements/modules/deep-learning.html#historique-de-dispense",
+    "href": "enseignements/modules/deep-learning.html#historique-de-dispense",
+    "title": "🤖 Deep Learning",
+    "section": "Historique de dispense",
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2022-2023\nMaster\nBA\n1\n42 h\n✓\nFR\nNOUVEAU\n\n\n2023-2024\nMaster\nBA\n1\n42 h\n✓\nFR\n\n\n\n2024-2025\nMaster\nBA\n4\n168 h\n✓\nEN\n\n\n\n2024-2025\nMaster\nBA\n1\n42 h\n✓\nFR\n\n\n\n2025-2026\nMaster\nBA\n3\n126 h\n✓\nEN"
   },
   {
-    "objectID": "enseignements/algebre2.html#supports-pédagogiques",
-    "href": "enseignements/algebre2.html#supports-pédagogiques",
-    "title": "Algèbre 2 — ECUE211",
+    "objectID": "enseignements/modules/deep-learning.html#page-pédagogique-détaillée",
+    "href": "enseignements/modules/deep-learning.html#page-pédagogique-détaillée",
+    "title": "🤖 Deep Learning",
+    "section": "Page pédagogique détaillée",
+    "text": "Page pédagogique détaillée\nPour le programme complet, les objectifs d’apprentissage, le découpage par chapitre et les ressources annexes, consulter la fiche détaillée :\n→ Voir la fiche pédagogique de Deep Learning"
+  },
+  {
+    "objectID": "enseignements/modules/deep-learning.html#code-supports-sur-github",
+    "href": "enseignements/modules/deep-learning.html#code-supports-sur-github",
+    "title": "🤖 Deep Learning",
+    "section": "Code & supports sur GitHub",
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/DeepLearningCourse"
+  },
+  {
+    "objectID": "enseignements/modules/deep-learning.html#supports-pédagogiques",
+    "href": "enseignements/modules/deep-learning.html#supports-pédagogiques",
+    "title": "🤖 Deep Learning",
     "section": "Supports pédagogiques",
-    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours complet book avec exercices corrigés\nPDF\n\n\nSlides\nBeamer Metropolis 16:9, 28 séances\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nPlan de module\nFiche pédagogique AA1–AA6\nPDF\n\n\nRepository\nCode source LaTeX + Python\nGitHub"
+    "text": "Supports pédagogiques\n\n\n\nRessource\nStatut\nLien\n\n\n\n\nFiche module\nDisponible\n—\n\n\nPolycopié\nDisponible\n—\n\n\nSlides\nDisponible\n—\n\n\nTP\nDisponible\n—\n\n\nTD\nRéservé aux étudiants\n—\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/algebre2.html#plan-détaillé",
-    "href": "enseignements/algebre2.html#plan-détaillé",
-    "title": "Algèbre 2 — ECUE211",
-    "section": "Plan détaillé",
-    "text": "Plan détaillé\n\nEspaces vectoriels et sous-espaces\nFamilles libres, génératrices, bases\nApplications linéaires, noyau, image\nMatrices et calcul matriciel\nChangement de base\nSystèmes linéaires et méthode de Gauss\nDéterminants\nValeurs propres, vecteurs propres, diagonalisation"
+    "objectID": "enseignements/modules/cours-de-soutien.html",
+    "href": "enseignements/modules/cours-de-soutien.html",
+    "title": "🎯 Cours de soutien",
+    "section": "",
+    "text": "Coordinateur"
   },
   {
-    "objectID": "encadrement-projets.html#maintenir-ces-données",
-    "href": "encadrement-projets.html#maintenir-ces-données",
-    "title": "Encadrement des projets",
+    "objectID": "enseignements/modules/cours-de-soutien.html#synthèse",
+    "href": "enseignements/modules/cours-de-soutien.html#synthèse",
+    "title": "🎯 Cours de soutien",
+    "section": "Synthèse",
+    "text": "Synthèse\n\n\n\n30 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n2 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Encadrement et soutien Formations couvertes : — Période : 2016-2017 → 2016-2017"
+  },
+  {
+    "objectID": "enseignements/modules/cours-de-soutien.html#historique-de-dispense",
+    "href": "enseignements/modules/cours-de-soutien.html#historique-de-dispense",
+    "title": "🎯 Cours de soutien",
+    "section": "Historique de dispense",
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2016-2017\nLicence\n—\n1\n15 h\n✓\nFR\n\n\n\n2016-2017\nLicence\n—\n1\n15 h\n✓\nFR\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+  },
+  {
+    "objectID": "enseignements/modules/cours-de-soutien-mathematiques.html",
+    "href": "enseignements/modules/cours-de-soutien-mathematiques.html",
+    "title": "🎯 Cours de soutien Mathématiques",
+    "section": "",
+    "text": "Coordinateur"
+  },
+  {
+    "objectID": "enseignements/modules/cours-de-soutien-mathematiques.html#synthèse",
+    "href": "enseignements/modules/cours-de-soutien-mathematiques.html#synthèse",
+    "title": "🎯 Cours de soutien Mathématiques",
+    "section": "Synthèse",
+    "text": "Synthèse\n\n\n\n9 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Encadrement et soutien Formations couvertes : — Période : 2017-2018 → 2017-2018"
+  },
+  {
+    "objectID": "enseignements/modules/cours-de-soutien-mathematiques.html#historique-de-dispense",
+    "href": "enseignements/modules/cours-de-soutien-mathematiques.html#historique-de-dispense",
+    "title": "🎯 Cours de soutien Mathématiques",
+    "section": "Historique de dispense",
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2017-2018\nLicence\n—\n1\n9 h\n✓\nFR\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+  },
+  {
+    "objectID": "enseignements/modules/apprentissage-statistique.html",
+    "href": "enseignements/modules/apprentissage-statistique.html",
+    "title": "🤖 Apprentissage Statistique",
+    "section": "",
+    "text": "Coordinateur Nouveau module"
+  },
+  {
+    "objectID": "enseignements/modules/apprentissage-statistique.html#synthèse",
+    "href": "enseignements/modules/apprentissage-statistique.html#synthèse",
+    "title": "🤖 Apprentissage Statistique",
+    "section": "Synthèse",
+    "text": "Synthèse\n\n\n\n84 h Charge cumulée\n\n\n\n\n2 Année(s) dispensée(s)\n\n\n\n\n2 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : GAMMA Période : 2022-2023 → 2023-2024"
+  },
+  {
+    "objectID": "enseignements/modules/apprentissage-statistique.html#historique-de-dispense",
+    "href": "enseignements/modules/apprentissage-statistique.html#historique-de-dispense",
+    "title": "🤖 Apprentissage Statistique",
+    "section": "Historique de dispense",
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2022-2023\nMaster\nGAMMA\n1\n42 h\n✓\nFR\nNOUVEAU\n\n\n2023-2024\nMaster\nGAMMA\n1\n42 h\n✓\nFR"
+  },
+  {
+    "objectID": "enseignements/modules/apprentissage-statistique.html#code-supports-sur-github",
+    "href": "enseignements/modules/apprentissage-statistique.html#code-supports-sur-github",
+    "title": "🤖 Apprentissage Statistique",
+    "section": "Code & supports sur GitHub",
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/DeepLearningCourse\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+  },
+  {
+    "objectID": "enseignements/modules/analyse-des-donnees.html",
+    "href": "enseignements/modules/analyse-des-donnees.html",
+    "title": "📊 Analyse des données",
+    "section": "",
+    "text": "Coordinateur Nouveau module"
+  },
+  {
+    "objectID": "enseignements/modules/analyse-des-donnees.html#synthèse",
+    "href": "enseignements/modules/analyse-des-donnees.html#synthèse",
+    "title": "📊 Analyse des données",
+    "section": "Synthèse",
+    "text": "Synthèse\n\n\n\n42 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Sciences des données Formations couvertes : LMAD Période : 2022-2023 → 2022-2023"
+  },
+  {
+    "objectID": "enseignements/modules/analyse-des-donnees.html#historique-de-dispense",
+    "href": "enseignements/modules/analyse-des-donnees.html#historique-de-dispense",
+    "title": "📊 Analyse des données",
+    "section": "Historique de dispense",
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2022-2023\nLicence\nLMAD\n1\n42 h\n✓\nFR\nNOUVEAU"
+  },
+  {
+    "objectID": "enseignements/modules/analyse-des-donnees.html#code-supports-sur-github",
+    "href": "enseignements/modules/analyse-des-donnees.html#code-supports-sur-github",
+    "title": "📊 Analyse des données",
+    "section": "Code & supports sur GitHub",
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Analyse-des-donn-es\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+  },
+  {
+    "objectID": "enseignements/modules/analyse-4.html",
+    "href": "enseignements/modules/analyse-4.html",
+    "title": "∫ Analyse 4",
+    "section": "",
+    "text": "Coordinateur Nouveau module"
+  },
+  {
+    "objectID": "enseignements/modules/analyse-4.html#synthèse",
+    "href": "enseignements/modules/analyse-4.html#synthèse",
+    "title": "∫ Analyse 4",
+    "section": "Synthèse",
+    "text": "Synthèse\n\n\n\n294 h Charge cumulée\n\n\n\n\n4 Année(s) dispensée(s)\n\n\n\n\n4 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LMAD Période : 2020-2021 → 2023-2024"
+  },
+  {
+    "objectID": "enseignements/modules/analyse-4.html#historique-de-dispense",
+    "href": "enseignements/modules/analyse-4.html#historique-de-dispense",
+    "title": "∫ Analyse 4",
+    "section": "Historique de dispense",
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2020-2021\nLicence\nLMAD\n1\n84 h\n✓\nFR\nNOUVEAU\n\n\n2021-2022\nLicence\nLMAD\n1\n84 h\n✓\nFR\n\n\n\n2022-2023\nLicence\nLMAD\n1\n42 h\n✓\nFR\n\n\n\n2023-2024\nLicence\nLMAD\n1\n84 h\n✓\nFR"
+  },
+  {
+    "objectID": "enseignements/modules/analyse-4.html#page-pédagogique-détaillée",
+    "href": "enseignements/modules/analyse-4.html#page-pédagogique-détaillée",
+    "title": "∫ Analyse 4",
+    "section": "Page pédagogique détaillée",
+    "text": "Page pédagogique détaillée\nPour le programme complet, les objectifs d’apprentissage, le découpage par chapitre et les ressources annexes, consulter la fiche détaillée :\n→ Voir la fiche pédagogique de Analyse 4"
+  },
+  {
+    "objectID": "enseignements/modules/analyse-4.html#code-supports-sur-github",
+    "href": "enseignements/modules/analyse-4.html#code-supports-sur-github",
+    "title": "∫ Analyse 4",
+    "section": "Code & supports sur GitHub",
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Analyse4"
+  },
+  {
+    "objectID": "enseignements/modules/analyse-4.html#supports-pédagogiques",
+    "href": "enseignements/modules/analyse-4.html#supports-pédagogiques",
+    "title": "∫ Analyse 4",
+    "section": "Supports pédagogiques",
+    "text": "Supports pédagogiques\n\n\n\nRessource\nStatut\nLien\n\n\n\n\nFiche module\nDisponible\n—\n\n\nPolycopié\nDisponible\n—\n\n\nSlides\nDisponible\n—\n\n\nTD\nDisponible\n—\n\n\nTP\nDisponible\n—\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+  },
+  {
+    "objectID": "enseignements/modules/algebre-3.html",
+    "href": "enseignements/modules/algebre-3.html",
+    "title": "∫ Algèbre 3",
+    "section": "",
+    "text": "Coordinateur Nouveau module"
+  },
+  {
+    "objectID": "enseignements/modules/algebre-3.html#synthèse",
+    "href": "enseignements/modules/algebre-3.html#synthèse",
+    "title": "∫ Algèbre 3",
+    "section": "Synthèse",
+    "text": "Synthèse\n\n\n\n168 h Charge cumulée\n\n\n\n\n2 Année(s) dispensée(s)\n\n\n\n\n2 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LMAD Période : 2020-2021 → 2021-2022"
+  },
+  {
+    "objectID": "enseignements/modules/algebre-3.html#historique-de-dispense",
+    "href": "enseignements/modules/algebre-3.html#historique-de-dispense",
+    "title": "∫ Algèbre 3",
+    "section": "Historique de dispense",
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2020-2021\nLicence\nLMAD\n1\n84 h\n✓\nFR\nNOUVEAU\n\n\n2021-2022\nLicence\nLMAD\n1\n84 h\n✓\nFR"
+  },
+  {
+    "objectID": "enseignements/modules/algebre-3.html#page-pédagogique-détaillée",
+    "href": "enseignements/modules/algebre-3.html#page-pédagogique-détaillée",
+    "title": "∫ Algèbre 3",
+    "section": "Page pédagogique détaillée",
+    "text": "Page pédagogique détaillée\nPour le programme complet, les objectifs d’apprentissage, le découpage par chapitre et les ressources annexes, consulter la fiche détaillée :\n→ Voir la fiche pédagogique de Algèbre 3"
+  },
+  {
+    "objectID": "enseignements/modules/algebre-3.html#code-supports-sur-github",
+    "href": "enseignements/modules/algebre-3.html#code-supports-sur-github",
+    "title": "∫ Algèbre 3",
+    "section": "Code & supports sur GitHub",
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Algebre3"
+  },
+  {
+    "objectID": "enseignements/modules/algebre-3.html#supports-pédagogiques",
+    "href": "enseignements/modules/algebre-3.html#supports-pédagogiques",
+    "title": "∫ Algèbre 3",
+    "section": "Supports pédagogiques",
+    "text": "Supports pédagogiques\n\n\n\nRessource\nStatut\nLien\n\n\n\n\nFiche module\nDisponible\n—\n\n\nPolycopié\nDisponible\n—\n\n\nSlides\nDisponible\n—\n\n\nTD\nDisponible\n—\n\n\nTP\nDisponible\n—\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+  },
+  {
+    "objectID": "enseignements/modules/algebre-1.html",
+    "href": "enseignements/modules/algebre-1.html",
+    "title": "∫ Algèbre 1",
+    "section": "",
+    "text": "Coordinateur Nouveau module"
+  },
+  {
+    "objectID": "enseignements/modules/algebre-1.html#synthèse",
+    "href": "enseignements/modules/algebre-1.html#synthèse",
+    "title": "∫ Algèbre 1",
+    "section": "Synthèse",
+    "text": "Synthèse\n\n\n\n420 h Charge cumulée\n\n\n\n\n5 Année(s) dispensée(s)\n\n\n\n\n5 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LMAD Période : 2019-2020 → 2025-2026"
+  },
+  {
+    "objectID": "enseignements/modules/algebre-1.html#historique-de-dispense",
+    "href": "enseignements/modules/algebre-1.html#historique-de-dispense",
+    "title": "∫ Algèbre 1",
+    "section": "Historique de dispense",
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2019-2020\nLicence\nLMAD\n1\n84 h\n✓\nFR\nNOUVEAU\n\n\n2020-2021\nLicence\nLMAD\n1\n84 h\n✓\nFR\n\n\n\n2021-2022\nLicence\nLMAD\n1\n84 h\n✓\nFR\n\n\n\n2022-2023\nLicence\nLMAD\n1\n84 h\n✓\nFR\n\n\n\n2025-2026\nLicence\nLMAD\n1\n84 h\n✓\nFR"
+  },
+  {
+    "objectID": "enseignements/modules/algebre-1.html#code-supports-sur-github",
+    "href": "enseignements/modules/algebre-1.html#code-supports-sur-github",
+    "title": "∫ Algèbre 1",
+    "section": "Code & supports sur GitHub",
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Algebre1-2026\nhttps://github.com/Aymenbenbrik/Algebre1-2022-"
+  },
+  {
+    "objectID": "enseignements/modules/algebre-1.html#supports-pédagogiques",
+    "href": "enseignements/modules/algebre-1.html#supports-pédagogiques",
+    "title": "∫ Algèbre 1",
+    "section": "Supports pédagogiques",
+    "text": "Supports pédagogiques\n\n\n\nRessource\nStatut\nLien\n\n\n\n\nFiche module\nDisponible\nVoir\n\n\nPolycopié\nDisponible\nVoir\n\n\nSlides\nÀ venir\n—\n\n\nTD\nDisponible\nVoir\n\n\nTP\nDisponible\nVoir\n\n\nSéances\nDisponible\nVoir\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+  },
+  {
+    "objectID": "enseignements/index.html#maintenir-ces-données",
+    "href": "enseignements/index.html#maintenir-ces-données",
+    "title": "Enseignement",
     "section": "Maintenir ces données",
-    "text": "Maintenir ces données\ndata/\n├── ai4u_projects.csv             46 projets AI4U (Maître stage / PO / Stage d'été)\n├── encadrement_academique.csv    319 encadrements (Encadrant + Rapporteur)\n└── president_jury.csv            255 jurys présidés\nPour rafraîchir depuis le fichier Excel maître :\npython scripts/extract_encadrements.py\nquarto render encadrement-projets.qmd"
+    "text": "Maintenir ces données\nLes enseignements et supports sont alimentés par 2 fichiers CSV :\n\n\n\n\n\n\n\nFichier\nSchéma\n\n\n\n\ndata/enseignements_detailed.csv\ndomaine, annee, nom_module, niveau, classe, nb_groupes, anglais, charge_horaire, coordinateur, nouveau_module, ecole\n\n\ndata/supports.csv\ndomaine, nom_module, niveau, classe, ecole, ressource_nom, ressource_statut, ressource_lien\n\n\n\nPour ajouter ou modifier un enseignement / support : éditer le CSV (Excel, VS Code…), quarto render, et la page se met à jour automatiquement."
+  },
+  {
+    "objectID": "enseignements/deep-learning.html",
+    "href": "enseignements/deep-learning.html",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "Module créé en 2022–2023, maintenu et enrichi avec les évolutions des architectures neuronales modernes. Approche pratique : construction de réseaux from scratch puis avec TensorFlow/PyTorch.\nModule conçu en cohérence avec ma Spécialisation Deep Learning de deeplearning.ai (Coursera, 5 cours certifiés en 2019)."
+  },
+  {
+    "objectID": "enseignements/deep-learning.html#présentation",
+    "href": "enseignements/deep-learning.html#présentation",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "Module créé en 2022–2023, maintenu et enrichi avec les évolutions des architectures neuronales modernes. Approche pratique : construction de réseaux from scratch puis avec TensorFlow/PyTorch.\nModule conçu en cohérence avec ma Spécialisation Deep Learning de deeplearning.ai (Coursera, 5 cours certifiés en 2019)."
+  },
+  {
+    "objectID": "enseignements/deep-learning.html#acquis-dapprentissage",
+    "href": "enseignements/deep-learning.html#acquis-dapprentissage",
+    "title": "Deep Learning",
+    "section": "Acquis d’apprentissage",
+    "text": "Acquis d’apprentissage\n\nAA1 — Comprendre la rétropropagation et la descente de gradient stochastique\nAA2 — Construire un réseau dense (DNN) from scratch\nAA3 — Entraîner un CNN sur des données images (vision)\nAA4 — Implémenter un RNN/LSTM/GRU pour du séquentiel\nAA5 — Utiliser TensorFlow et Keras de manière idiomatique\nAA6 — Diagnostiquer un entraînement (loss, accuracy, overfitting, vanishing gradient)\nAA7 — Optimiser avec dropout, batch norm, learning rate scheduling\nAA8 — Comprendre l’architecture Transformer (vers le module NLP)"
+  },
+  {
+    "objectID": "enseignements/deep-learning.html#supports-pédagogiques",
+    "href": "enseignements/deep-learning.html#supports-pédagogiques",
+    "title": "Deep Learning",
+    "section": "Supports pédagogiques",
+    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours book\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nTPs Python\nTensorFlow/Keras, projets vision et séquence\nPDF + code\n\n\nProjet\nApplication complète end-to-end\nSujet\n\n\nRepository\nCode source\nGitHub"
+  },
+  {
+    "objectID": "enseignements/deep-learning.html#plan-détaillé",
+    "href": "enseignements/deep-learning.html#plan-détaillé",
+    "title": "Deep Learning",
+    "section": "Plan détaillé",
+    "text": "Plan détaillé\n\nFondamentaux : neurone, perceptron, fonctions d’activation\nRéseaux denses (DNN) : architecture, rétropropagation, optimiseurs (SGD, Adam)\nRégularisation : dropout, batch normalization, early stopping\nCNN : convolutions, pooling, ResNet, VGG, transfer learning\nRNN, LSTM, GRU : séquences, gradient vanishing, attention basique\nAutoencodeurs et GANs : génération, débruitage\nIntroduction aux Transformers (préfigure le module NLP)\nDéploiement : TensorFlow Serving, ONNX"
+  },
+  {
+    "objectID": "enseignements/deep-learning.html#outils-mobilisés",
+    "href": "enseignements/deep-learning.html#outils-mobilisés",
+    "title": "Deep Learning",
+    "section": "Outils mobilisés",
+    "text": "Outils mobilisés\ntensorflow · keras · pytorch · numpy · matplotlib · tensorboard opencv · transformers (HuggingFace, intro)"
+  },
+  {
+    "objectID": "enseignements/deep-learning.html#prolongements",
+    "href": "enseignements/deep-learning.html#prolongements",
+    "title": "Deep Learning",
+    "section": "Prolongements",
+    "text": "Prolongements\nModule qui prépare NLP (Transformers, LLM) et Generative Computer Vision (GANs, diffusion)."
+  },
+  {
+    "objectID": "enseignements/algebre3.html",
+    "href": "enseignements/algebre3.html",
+    "title": "Algèbre 3 — ECUE311",
+    "section": "",
+    "text": "Module avancé d’algèbre linéaire et bilinéaire couvrant la réduction des endomorphismes, les normes, les espaces euclidiens, les formes quadratiques et l’analyse en composantes principales.\nVolume : 75h = 42C + 27TD + 9TP + 6 projet."
+  },
+  {
+    "objectID": "enseignements/algebre3.html#présentation",
+    "href": "enseignements/algebre3.html#présentation",
+    "title": "Algèbre 3 — ECUE311",
+    "section": "",
+    "text": "Module avancé d’algèbre linéaire et bilinéaire couvrant la réduction des endomorphismes, les normes, les espaces euclidiens, les formes quadratiques et l’analyse en composantes principales.\nVolume : 75h = 42C + 27TD + 9TP + 6 projet."
+  },
+  {
+    "objectID": "enseignements/algebre3.html#acquis-dapprentissage",
+    "href": "enseignements/algebre3.html#acquis-dapprentissage",
+    "title": "Algèbre 3 — ECUE311",
+    "section": "Acquis d’apprentissage",
+    "text": "Acquis d’apprentissage\n\nAA1 — Réduire les endomorphismes (diagonalisation, trigonalisation)\nAA2 — Maîtriser les normes et la convergence en dimension finie\nAA3 — Utiliser les espaces euclidiens et leurs propriétés\nAA4 — Étudier les formes quadratiques et appliquer l’ACP"
+  },
+  {
+    "objectID": "enseignements/algebre3.html#supports-pédagogiques",
+    "href": "enseignements/algebre3.html#supports-pédagogiques",
+    "title": "Algèbre 3 — ECUE311",
+    "section": "Supports pédagogiques",
+    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours complet book\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nTPs Python\nNumPy, SciPy, scikit-learn (ACP)\nPDF + code\n\n\nProjet\nMini-projet noté\nSujet\n\n\nRepository\nCode source\nGitHub"
+  },
+  {
+    "objectID": "enseignements/algebre3.html#plan-détaillé",
+    "href": "enseignements/algebre3.html#plan-détaillé",
+    "title": "Algèbre 3 — ECUE311",
+    "section": "Plan détaillé",
+    "text": "Plan détaillé\n\nPolynômes d’endomorphismes, polynôme minimal\nDiagonalisation, trigonalisation, décomposition de Dunford\nNormes vectorielles et matricielles\nProduit scalaire, espaces euclidiens\nOrthogonalité, projection orthogonale, Gram-Schmidt\nEndomorphismes orthogonaux et symétriques\nFormes quadratiques, signature, théorème spectral\nApplication : Analyse en Composantes Principales"
+  },
+  {
+    "objectID": "encadrements.html",
+    "href": "encadrements.html",
+    "title": "Encadrements",
+    "section": "",
+    "text": "Encadrements par année universitaire et par type"
+  },
+  {
+    "objectID": "encadrements.html#vue-densemble",
+    "href": "encadrements.html#vue-densemble",
+    "title": "Encadrements",
+    "section": "",
+    "text": "Encadrements par année universitaire et par type"
+  },
+  {
+    "objectID": "encadrements.html#pfe-encadrés-20182019",
+    "href": "encadrements.html#pfe-encadrés-20182019",
+    "title": "Encadrements",
+    "section": "PFE encadrés (2018–2019)",
+    "text": "PFE encadrés (2018–2019)\n\nAyoub Tarhouni · 3LFIG\nConception et réalisation d’une application de gestion des dossiers des ayants droit de rente ATMP\nPartenaire : CNAM · Statut : Soutenu · Rôle : Encadrant académique\n\n\nRania Ben Romdhane · 3LFIG-SID\nLutte contre le blanchiment d’argent et analyse technique des opérations à risque au sein d’une banque tunisienne\nPartenaire : ETTIJARI Bank · Statut : Soutenu · Rôle : Encadrant académique"
+  },
+  {
+    "objectID": "encadrements.html#pfe-co-encadrés-20182019",
+    "href": "encadrements.html#pfe-co-encadrés-20182019",
+    "title": "Encadrements",
+    "section": "PFE co-encadrés (2018–2019)",
+    "text": "PFE co-encadrés (2018–2019)\n\nTaher Belhadj Hassen (3LFIG) — Co-encadrement académique\nChaima Karoui (2MKD) — Co-encadrement académique"
+  },
+  {
+    "objectID": "encadrements.html#pfe-rapportés-20182019",
+    "href": "encadrements.html#pfe-rapportés-20182019",
+    "title": "Encadrements",
+    "section": "PFE rapportés (2018–2019)",
+    "text": "PFE rapportés (2018–2019)\n\n\n\n\n\n\n\n\nÉtudiant\nFilière\nSujet\n\n\n\n\nMalek Guemri\n3LFIG-SID\nAlgorithme de clustering R sous Power BI — segmentation clientèle\n\n\nGhassen Meddeb\n3LFIG-SID\nSolution BI (intégration, analyse, reporting) — vente, recouvrement, finances\n\n\nAhmed Abidi\n3LFIG-SID\nAnalyse prédictive et Dashboard interactif à partir d’un ETL\n\n\nMohamed Cherif Saied\n3LFIG-SID\nSolution BI autour de l’ERP SAGE X3 — laboratoire pharmaceutique"
+  },
+  {
+    "objectID": "encadrements.html#encadrement-de-stages-dété",
+    "href": "encadrements.html#encadrement-de-stages-dété",
+    "title": "Encadrements",
+    "section": "Encadrement de stages d’été",
+    "text": "Encadrement de stages d’été\n\nAhmed Anis Nsiri · Été 2018 (juillet–août, 2 mois à ESB)\nTraitement quotidien et suivi de l’évolution des candidats au concours d’admission ESB 2018\nFormation à la manipulation des données avec SPSS et à l’élaboration de visuels et rapports de suivi."
+  },
+  {
+    "objectID": "encadrements.html#accompagnement-de-nouveaux-enseignants",
+    "href": "encadrements.html#accompagnement-de-nouveaux-enseignants",
+    "title": "Encadrements",
+    "section": "Accompagnement de nouveaux enseignants",
+    "text": "Accompagnement de nouveaux enseignants\n\nM. Jamil Salhi — accompagnement durant période de stage : préparation et présentation de séances communes\nM. Harouna Soumaré — encadrement et suivi tout au long de sa période de stage : préparation et exposition de séances pendant les cours"
+  },
+  {
+    "objectID": "encadrements.html#projets-intégrés",
+    "href": "encadrements.html#projets-intégrés",
+    "title": "Encadrements",
+    "section": "Projets Intégrés",
+    "text": "Projets Intégrés\n\n\n\n\n\n\n\n\nAnnée\nFilière\nProjet\n\n\n\n\n2017–2018\n2LFIG\nGestion d’une société de produits laitiers — optimisation RO + théorie des graphes (avec S. Ben Meskina)\n\n\n2018–2019\n3LFG1\nAtelier de digitalisation — cahier des charges digital\n\n\n2018–2019\n1LFG2\nProjet Intégré — questionnaire + traitement SPSS\n\n\n2018–2019\nSFM\nAtelier de digitalisation entreprise (coordination)\n\n\n2019–2020\n2LFG5\nProjet Intégré"
+  },
+  {
+    "objectID": "encadrements.html#séminaires-encadrement-jury",
+    "href": "encadrements.html#séminaires-encadrement-jury",
+    "title": "Encadrements",
+    "section": "Séminaires (encadrement + jury)",
+    "text": "Séminaires (encadrement + jury)\n\n\n\n\n\n\n\n\nAnnée\nFilière\nRôle\n\n\n\n\n2016–2017\nLFG/LFIG\nJury\n\n\n2017–2018\nLFG/LFIG\nJury\n\n\n2018–2019 (S1)\n3LFG1\nEncadrant + correcteur des comptes-rendus + jury\n\n\n2018–2019 (S2)\n1LFG1\nEncadrant + correcteur + jury\n\n\n2019–2020 (S1)\n3LFG3\nEncadrant + correcteur + jury"
+  },
+  {
+    "objectID": "encadrements.html#tableau-interactif-complet",
+    "href": "encadrements.html#tableau-interactif-complet",
+    "title": "Encadrements",
+    "section": "Tableau interactif complet",
+    "text": "Tableau interactif complet\n\n\n\n\n\n\n\n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\nThis is the init_notebook_mode cell from ITables v2.7.3\n(you should not see this message - is your notebook trusted?)\n\n\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.7.3 from the init_notebook_mode cell...\n        (need help?)"
+  },
+  {
+    "objectID": "dashboards/index.html",
+    "href": "dashboards/index.html",
+    "title": "Dashboards",
+    "section": "",
+    "text": "10Années\n  43Modules\n  4716Heures cumulées\n  620Encadrements\n  16Certifications\n  26Responsabilités\n  36Événements"
+  },
+  {
+    "objectID": "dashboards/index.html#sources-de-données",
+    "href": "dashboards/index.html#sources-de-données",
+    "title": "Dashboards",
+    "section": "Sources de données",
+    "text": "Sources de données\nTous les dashboards sont alimentés par les CSVs du dossier data/ :\n\n\n\n\n\n\n\n\nFichier\nContenu\nLignes\n\n\n\n\nenseignements.csv\nModules / heures / années / filières\nr nrow(read.csv(\"../data/enseignements.csv\"))\n\n\nencadrements.csv\nPFE, projets, séminaires, stages\n–\n\n\ncertifications.csv\nCertifications + écoles d’été\n–\n\n\nresponsabilites.csv\nResponsabilités datées\n–\n\n\nevenements.csv\nConférences, formations, jurys\n–\n\n\n\nMettre à jour un CSV → push → site régénéré + dashboards recalculés automatiquement."
+  },
+  {
+    "objectID": "certifications.html",
+    "href": "certifications.html",
+    "title": "Certifications & Formations",
+    "section": "",
+    "text": "16 certifications obtenues depuis 2018, dont la Spécialisation Deep Learning de deeplearning.ai sur Coursera (5 cours), un panel de certifications Udemy en data science, et une certification pédagogique « Get Interactive: Practical Teaching with Technology »."
+  },
+  {
+    "objectID": "certifications.html#synthèse",
+    "href": "certifications.html#synthèse",
+    "title": "Certifications & Formations",
+    "section": "",
+    "text": "16 certifications obtenues depuis 2018, dont la Spécialisation Deep Learning de deeplearning.ai sur Coursera (5 cours), un panel de certifications Udemy en data science, et une certification pédagogique « Get Interactive: Practical Teaching with Technology »."
+  },
+  {
+    "objectID": "certifications.html#spécialisation-deep-learning-deeplearning.ai-coursera",
+    "href": "certifications.html#spécialisation-deep-learning-deeplearning.ai-coursera",
+    "title": "Certifications & Formations",
+    "section": "Spécialisation Deep Learning · deeplearning.ai · Coursera",
+    "text": "Spécialisation Deep Learning · deeplearning.ai · Coursera\n\n1. Neural Networks and Deep Learning · 09/2019\nFondamentaux des réseaux de neurones, propagation avant et arrière, construction d’un réseau profond.\n\n\n2. Improving Deep Neural Networks · 09/2019\nHyperparameter tuning, Regularization and Optimization — techniques avancées d’amélioration des modèles.\n\n\n3. Structuring Machine Learning Projects · 10/2019\nStratégies pour la conception et le débogage de projets ML.\n\n\n4. Convolutional Neural Networks · 10/2019\nArchitectures CNN (ResNet, Inception), object detection, segmentation, neural style transfer.\n\n\n5. Sequence Models · 10/2019\nRNN, LSTM, GRU, attention, modèles séquence-à-séquence, applications NLP."
+  },
+  {
+    "objectID": "certifications.html#certifications-udemy",
+    "href": "certifications.html#certifications-udemy",
+    "title": "Certifications & Formations",
+    "section": "Certifications Udemy",
+    "text": "Certifications Udemy\n\n\n\n\n\n\n\n\nDate\nCertification\nDescription\n\n\n\n\n06/2019\nSQL pour la Data Science de A à Z\nAnalyse de données réelles\n\n\n07/2019\nPython A-Z\nPython for Data Science With Real-Life Exercises\n\n\n07/2019\nData Science A-Z\nReal-Life Data Science Exercises\n\n\n07/2019\nDeep Learning A-Z\nHands-On Artificial Neural Networks\n\n\n07/2019\nMachine Learning A-Z\nHands-On Python & R in Data Science\n\n\n08/2019\nR Programming\nAdvanced Analytics In R For Data Science\n\n\n09/2019\nTime Series Analysis in Python 2019\nARIMA, SARIMA, modèles avancés\n\n\n09/2019\nTableau 10 de A à Z\nHands-On Tableau Training For Data Science"
+  },
+  {
+    "objectID": "certifications.html#certifications-pédagogiques",
+    "href": "certifications.html#certifications-pédagogiques",
+    "title": "Certifications & Formations",
+    "section": "Certifications pédagogiques",
+    "text": "Certifications pédagogiques\n\nGet Interactive: Practical Teaching with Technology · 12/2019\nCertification dédiée à l’enseignement augmenté par la technologie, suivie en complément de la spécialisation data science pour ancrer la dimension pédagogique du parcours."
+  },
+  {
+    "objectID": "certifications.html#écoles-dété-formation-à-la-recherche",
+    "href": "certifications.html#écoles-dété-formation-à-la-recherche",
+    "title": "Certifications & Formations",
+    "section": "Écoles d’été — formation à la recherche",
+    "text": "Écoles d’été — formation à la recherche\n\nCIMPA 2019 · Été 2019\nScience des données pour l’ingénierie et la technologie\nCentre International de Mathématiques Pures et Appliquées — école d’été internationale dédiée à la recherche en data science et IA.\n\n\nIHEC SUMMER SCHOOL · Été 2018\nData Science for Finance\nInstitut des Hautes Études Commerciales de Carthage — école d’été sur les applications de la data science en finance."
+  },
+  {
+    "objectID": "certifications.html#mobilité-enseignante",
+    "href": "certifications.html#mobilité-enseignante",
+    "title": "Certifications & Formations",
+    "section": "Mobilité enseignante",
+    "text": "Mobilité enseignante\n\nSUP’DE COM Lyon · Programme ERASMUS\nVisite des locaux de SUP’DE COM Lyon dans le cadre du programme d’échange des enseignants ERASMUS. La visite a permis :\n\nd’élargir le partenariat (extension de la coopération aux licences, alors qu’elle se limitait aux masters)\nde découvrir les outils digitaux utilisés pour assurer le bon déroulement des cours"
+  },
+  {
+    "objectID": "certifications.html#tableau-interactif",
+    "href": "certifications.html#tableau-interactif",
+    "title": "Certifications & Formations",
+    "section": "Tableau interactif",
+    "text": "Tableau interactif\n\n\n\n\n\n\n\n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\nThis is the init_notebook_mode cell from ITables v2.7.3\n(you should not see this message - is your notebook trusted?)\n\n\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.7.3 from the init_notebook_mode cell...\n        (need help?)"
   },
   {
     "objectID": "cv.html",
@@ -1155,725 +1330,634 @@
     "text": "Téléchargements\n\nCV (PDF) — à générer\nDossier de candidature EFS (PDF) — à générer"
   },
   {
-    "objectID": "certifications.html",
-    "href": "certifications.html",
-    "title": "Certifications & Formations",
-    "section": "",
-    "text": "16 certifications obtenues depuis 2018, dont la Spécialisation Deep Learning de deeplearning.ai sur Coursera (5 cours), un panel de certifications Udemy en data science, et une certification pédagogique « Get Interactive: Practical Teaching with Technology »."
-  },
-  {
-    "objectID": "certifications.html#synthèse",
-    "href": "certifications.html#synthèse",
-    "title": "Certifications & Formations",
-    "section": "",
-    "text": "16 certifications obtenues depuis 2018, dont la Spécialisation Deep Learning de deeplearning.ai sur Coursera (5 cours), un panel de certifications Udemy en data science, et une certification pédagogique « Get Interactive: Practical Teaching with Technology »."
-  },
-  {
-    "objectID": "certifications.html#spécialisation-deep-learning-deeplearning.ai-coursera",
-    "href": "certifications.html#spécialisation-deep-learning-deeplearning.ai-coursera",
-    "title": "Certifications & Formations",
-    "section": "Spécialisation Deep Learning · deeplearning.ai · Coursera",
-    "text": "Spécialisation Deep Learning · deeplearning.ai · Coursera\n\n1. Neural Networks and Deep Learning · 09/2019\nFondamentaux des réseaux de neurones, propagation avant et arrière, construction d’un réseau profond.\n\n\n2. Improving Deep Neural Networks · 09/2019\nHyperparameter tuning, Regularization and Optimization — techniques avancées d’amélioration des modèles.\n\n\n3. Structuring Machine Learning Projects · 10/2019\nStratégies pour la conception et le débogage de projets ML.\n\n\n4. Convolutional Neural Networks · 10/2019\nArchitectures CNN (ResNet, Inception), object detection, segmentation, neural style transfer.\n\n\n5. Sequence Models · 10/2019\nRNN, LSTM, GRU, attention, modèles séquence-à-séquence, applications NLP."
-  },
-  {
-    "objectID": "certifications.html#certifications-udemy",
-    "href": "certifications.html#certifications-udemy",
-    "title": "Certifications & Formations",
-    "section": "Certifications Udemy",
-    "text": "Certifications Udemy\n\n\n\n\n\n\n\n\nDate\nCertification\nDescription\n\n\n\n\n06/2019\nSQL pour la Data Science de A à Z\nAnalyse de données réelles\n\n\n07/2019\nPython A-Z\nPython for Data Science With Real-Life Exercises\n\n\n07/2019\nData Science A-Z\nReal-Life Data Science Exercises\n\n\n07/2019\nDeep Learning A-Z\nHands-On Artificial Neural Networks\n\n\n07/2019\nMachine Learning A-Z\nHands-On Python & R in Data Science\n\n\n08/2019\nR Programming\nAdvanced Analytics In R For Data Science\n\n\n09/2019\nTime Series Analysis in Python 2019\nARIMA, SARIMA, modèles avancés\n\n\n09/2019\nTableau 10 de A à Z\nHands-On Tableau Training For Data Science"
-  },
-  {
-    "objectID": "certifications.html#certifications-pédagogiques",
-    "href": "certifications.html#certifications-pédagogiques",
-    "title": "Certifications & Formations",
-    "section": "Certifications pédagogiques",
-    "text": "Certifications pédagogiques\n\nGet Interactive: Practical Teaching with Technology · 12/2019\nCertification dédiée à l’enseignement augmenté par la technologie, suivie en complément de la spécialisation data science pour ancrer la dimension pédagogique du parcours."
-  },
-  {
-    "objectID": "certifications.html#écoles-dété-formation-à-la-recherche",
-    "href": "certifications.html#écoles-dété-formation-à-la-recherche",
-    "title": "Certifications & Formations",
-    "section": "Écoles d’été — formation à la recherche",
-    "text": "Écoles d’été — formation à la recherche\n\nCIMPA 2019 · Été 2019\nScience des données pour l’ingénierie et la technologie\nCentre International de Mathématiques Pures et Appliquées — école d’été internationale dédiée à la recherche en data science et IA.\n\n\nIHEC SUMMER SCHOOL · Été 2018\nData Science for Finance\nInstitut des Hautes Études Commerciales de Carthage — école d’été sur les applications de la data science en finance."
-  },
-  {
-    "objectID": "certifications.html#mobilité-enseignante",
-    "href": "certifications.html#mobilité-enseignante",
-    "title": "Certifications & Formations",
-    "section": "Mobilité enseignante",
-    "text": "Mobilité enseignante\n\nSUP’DE COM Lyon · Programme ERASMUS\nVisite des locaux de SUP’DE COM Lyon dans le cadre du programme d’échange des enseignants ERASMUS. La visite a permis :\n\nd’élargir le partenariat (extension de la coopération aux licences, alors qu’elle se limitait aux masters)\nde découvrir les outils digitaux utilisés pour assurer le bon déroulement des cours"
-  },
-  {
-    "objectID": "certifications.html#tableau-interactif",
-    "href": "certifications.html#tableau-interactif",
-    "title": "Certifications & Formations",
-    "section": "Tableau interactif",
-    "text": "Tableau interactif\n\n\n\n\n\n\n\n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\nThis is the init_notebook_mode cell from ITables v2.7.3\n(you should not see this message - is your notebook trusted?)\n\n\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.7.3 from the init_notebook_mode cell...\n        (need help?)"
-  },
-  {
-    "objectID": "dashboards/index.html",
-    "href": "dashboards/index.html",
-    "title": "Dashboards",
-    "section": "",
-    "text": "10Années\n  43Modules\n  4716Heures cumulées\n  620Encadrements\n  16Certifications\n  26Responsabilités\n  36Événements"
-  },
-  {
-    "objectID": "dashboards/index.html#sources-de-données",
-    "href": "dashboards/index.html#sources-de-données",
-    "title": "Dashboards",
-    "section": "Sources de données",
-    "text": "Sources de données\nTous les dashboards sont alimentés par les CSVs du dossier data/ :\n\n\n\n\n\n\n\n\nFichier\nContenu\nLignes\n\n\n\n\nenseignements.csv\nModules / heures / années / filières\nr nrow(read.csv(\"../data/enseignements.csv\"))\n\n\nencadrements.csv\nPFE, projets, séminaires, stages\n–\n\n\ncertifications.csv\nCertifications + écoles d’été\n–\n\n\nresponsabilites.csv\nResponsabilités datées\n–\n\n\nevenements.csv\nConférences, formations, jurys\n–\n\n\n\nMettre à jour un CSV → push → site régénéré + dashboards recalculés automatiquement."
-  },
-  {
-    "objectID": "encadrements.html",
-    "href": "encadrements.html",
-    "title": "Encadrements",
-    "section": "",
-    "text": "Encadrements par année universitaire et par type"
-  },
-  {
-    "objectID": "encadrements.html#vue-densemble",
-    "href": "encadrements.html#vue-densemble",
-    "title": "Encadrements",
-    "section": "",
-    "text": "Encadrements par année universitaire et par type"
-  },
-  {
-    "objectID": "encadrements.html#pfe-encadrés-20182019",
-    "href": "encadrements.html#pfe-encadrés-20182019",
-    "title": "Encadrements",
-    "section": "PFE encadrés (2018–2019)",
-    "text": "PFE encadrés (2018–2019)\n\nAyoub Tarhouni · 3LFIG\nConception et réalisation d’une application de gestion des dossiers des ayants droit de rente ATMP\nPartenaire : CNAM · Statut : Soutenu · Rôle : Encadrant académique\n\n\nRania Ben Romdhane · 3LFIG-SID\nLutte contre le blanchiment d’argent et analyse technique des opérations à risque au sein d’une banque tunisienne\nPartenaire : ETTIJARI Bank · Statut : Soutenu · Rôle : Encadrant académique"
-  },
-  {
-    "objectID": "encadrements.html#pfe-co-encadrés-20182019",
-    "href": "encadrements.html#pfe-co-encadrés-20182019",
-    "title": "Encadrements",
-    "section": "PFE co-encadrés (2018–2019)",
-    "text": "PFE co-encadrés (2018–2019)\n\nTaher Belhadj Hassen (3LFIG) — Co-encadrement académique\nChaima Karoui (2MKD) — Co-encadrement académique"
-  },
-  {
-    "objectID": "encadrements.html#pfe-rapportés-20182019",
-    "href": "encadrements.html#pfe-rapportés-20182019",
-    "title": "Encadrements",
-    "section": "PFE rapportés (2018–2019)",
-    "text": "PFE rapportés (2018–2019)\n\n\n\n\n\n\n\n\nÉtudiant\nFilière\nSujet\n\n\n\n\nMalek Guemri\n3LFIG-SID\nAlgorithme de clustering R sous Power BI — segmentation clientèle\n\n\nGhassen Meddeb\n3LFIG-SID\nSolution BI (intégration, analyse, reporting) — vente, recouvrement, finances\n\n\nAhmed Abidi\n3LFIG-SID\nAnalyse prédictive et Dashboard interactif à partir d’un ETL\n\n\nMohamed Cherif Saied\n3LFIG-SID\nSolution BI autour de l’ERP SAGE X3 — laboratoire pharmaceutique"
-  },
-  {
-    "objectID": "encadrements.html#encadrement-de-stages-dété",
-    "href": "encadrements.html#encadrement-de-stages-dété",
-    "title": "Encadrements",
-    "section": "Encadrement de stages d’été",
-    "text": "Encadrement de stages d’été\n\nAhmed Anis Nsiri · Été 2018 (juillet–août, 2 mois à ESB)\nTraitement quotidien et suivi de l’évolution des candidats au concours d’admission ESB 2018\nFormation à la manipulation des données avec SPSS et à l’élaboration de visuels et rapports de suivi."
-  },
-  {
-    "objectID": "encadrements.html#accompagnement-de-nouveaux-enseignants",
-    "href": "encadrements.html#accompagnement-de-nouveaux-enseignants",
-    "title": "Encadrements",
-    "section": "Accompagnement de nouveaux enseignants",
-    "text": "Accompagnement de nouveaux enseignants\n\nM. Jamil Salhi — accompagnement durant période de stage : préparation et présentation de séances communes\nM. Harouna Soumaré — encadrement et suivi tout au long de sa période de stage : préparation et exposition de séances pendant les cours"
-  },
-  {
-    "objectID": "encadrements.html#projets-intégrés",
-    "href": "encadrements.html#projets-intégrés",
-    "title": "Encadrements",
-    "section": "Projets Intégrés",
-    "text": "Projets Intégrés\n\n\n\n\n\n\n\n\nAnnée\nFilière\nProjet\n\n\n\n\n2017–2018\n2LFIG\nGestion d’une société de produits laitiers — optimisation RO + théorie des graphes (avec S. Ben Meskina)\n\n\n2018–2019\n3LFG1\nAtelier de digitalisation — cahier des charges digital\n\n\n2018–2019\n1LFG2\nProjet Intégré — questionnaire + traitement SPSS\n\n\n2018–2019\nSFM\nAtelier de digitalisation entreprise (coordination)\n\n\n2019–2020\n2LFG5\nProjet Intégré"
-  },
-  {
-    "objectID": "encadrements.html#séminaires-encadrement-jury",
-    "href": "encadrements.html#séminaires-encadrement-jury",
-    "title": "Encadrements",
-    "section": "Séminaires (encadrement + jury)",
-    "text": "Séminaires (encadrement + jury)\n\n\n\n\n\n\n\n\nAnnée\nFilière\nRôle\n\n\n\n\n2016–2017\nLFG/LFIG\nJury\n\n\n2017–2018\nLFG/LFIG\nJury\n\n\n2018–2019 (S1)\n3LFG1\nEncadrant + correcteur des comptes-rendus + jury\n\n\n2018–2019 (S2)\n1LFG1\nEncadrant + correcteur + jury\n\n\n2019–2020 (S1)\n3LFG3\nEncadrant + correcteur + jury"
-  },
-  {
-    "objectID": "encadrements.html#tableau-interactif-complet",
-    "href": "encadrements.html#tableau-interactif-complet",
-    "title": "Encadrements",
-    "section": "Tableau interactif complet",
-    "text": "Tableau interactif complet\n\n\n\n\n\n\n\n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\nThis is the init_notebook_mode cell from ITables v2.7.3\n(you should not see this message - is your notebook trusted?)\n\n\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.7.3 from the init_notebook_mode cell...\n        (need help?)"
-  },
-  {
-    "objectID": "enseignements/algebre3.html",
-    "href": "enseignements/algebre3.html",
-    "title": "Algèbre 3 — ECUE311",
-    "section": "",
-    "text": "Module avancé d’algèbre linéaire et bilinéaire couvrant la réduction des endomorphismes, les normes, les espaces euclidiens, les formes quadratiques et l’analyse en composantes principales.\nVolume : 75h = 42C + 27TD + 9TP + 6 projet."
-  },
-  {
-    "objectID": "enseignements/algebre3.html#présentation",
-    "href": "enseignements/algebre3.html#présentation",
-    "title": "Algèbre 3 — ECUE311",
-    "section": "",
-    "text": "Module avancé d’algèbre linéaire et bilinéaire couvrant la réduction des endomorphismes, les normes, les espaces euclidiens, les formes quadratiques et l’analyse en composantes principales.\nVolume : 75h = 42C + 27TD + 9TP + 6 projet."
-  },
-  {
-    "objectID": "enseignements/algebre3.html#acquis-dapprentissage",
-    "href": "enseignements/algebre3.html#acquis-dapprentissage",
-    "title": "Algèbre 3 — ECUE311",
-    "section": "Acquis d’apprentissage",
-    "text": "Acquis d’apprentissage\n\nAA1 — Réduire les endomorphismes (diagonalisation, trigonalisation)\nAA2 — Maîtriser les normes et la convergence en dimension finie\nAA3 — Utiliser les espaces euclidiens et leurs propriétés\nAA4 — Étudier les formes quadratiques et appliquer l’ACP"
-  },
-  {
-    "objectID": "enseignements/algebre3.html#supports-pédagogiques",
-    "href": "enseignements/algebre3.html#supports-pédagogiques",
-    "title": "Algèbre 3 — ECUE311",
-    "section": "Supports pédagogiques",
-    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours complet book\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nTPs Python\nNumPy, SciPy, scikit-learn (ACP)\nPDF + code\n\n\nProjet\nMini-projet noté\nSujet\n\n\nRepository\nCode source\nGitHub"
-  },
-  {
-    "objectID": "enseignements/algebre3.html#plan-détaillé",
-    "href": "enseignements/algebre3.html#plan-détaillé",
-    "title": "Algèbre 3 — ECUE311",
-    "section": "Plan détaillé",
-    "text": "Plan détaillé\n\nPolynômes d’endomorphismes, polynôme minimal\nDiagonalisation, trigonalisation, décomposition de Dunford\nNormes vectorielles et matricielles\nProduit scalaire, espaces euclidiens\nOrthogonalité, projection orthogonale, Gram-Schmidt\nEndomorphismes orthogonaux et symétriques\nFormes quadratiques, signature, théorème spectral\nApplication : Analyse en Composantes Principales"
-  },
-  {
-    "objectID": "enseignements/deep-learning.html",
-    "href": "enseignements/deep-learning.html",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "Module créé en 2022–2023, maintenu et enrichi avec les évolutions des architectures neuronales modernes. Approche pratique : construction de réseaux from scratch puis avec TensorFlow/PyTorch.\nModule conçu en cohérence avec ma Spécialisation Deep Learning de deeplearning.ai (Coursera, 5 cours certifiés en 2019)."
-  },
-  {
-    "objectID": "enseignements/deep-learning.html#présentation",
-    "href": "enseignements/deep-learning.html#présentation",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "Module créé en 2022–2023, maintenu et enrichi avec les évolutions des architectures neuronales modernes. Approche pratique : construction de réseaux from scratch puis avec TensorFlow/PyTorch.\nModule conçu en cohérence avec ma Spécialisation Deep Learning de deeplearning.ai (Coursera, 5 cours certifiés en 2019)."
-  },
-  {
-    "objectID": "enseignements/deep-learning.html#acquis-dapprentissage",
-    "href": "enseignements/deep-learning.html#acquis-dapprentissage",
-    "title": "Deep Learning",
-    "section": "Acquis d’apprentissage",
-    "text": "Acquis d’apprentissage\n\nAA1 — Comprendre la rétropropagation et la descente de gradient stochastique\nAA2 — Construire un réseau dense (DNN) from scratch\nAA3 — Entraîner un CNN sur des données images (vision)\nAA4 — Implémenter un RNN/LSTM/GRU pour du séquentiel\nAA5 — Utiliser TensorFlow et Keras de manière idiomatique\nAA6 — Diagnostiquer un entraînement (loss, accuracy, overfitting, vanishing gradient)\nAA7 — Optimiser avec dropout, batch norm, learning rate scheduling\nAA8 — Comprendre l’architecture Transformer (vers le module NLP)"
-  },
-  {
-    "objectID": "enseignements/deep-learning.html#supports-pédagogiques",
-    "href": "enseignements/deep-learning.html#supports-pédagogiques",
-    "title": "Deep Learning",
-    "section": "Supports pédagogiques",
-    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours book\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nTPs Python\nTensorFlow/Keras, projets vision et séquence\nPDF + code\n\n\nProjet\nApplication complète end-to-end\nSujet\n\n\nRepository\nCode source\nGitHub"
-  },
-  {
-    "objectID": "enseignements/deep-learning.html#plan-détaillé",
-    "href": "enseignements/deep-learning.html#plan-détaillé",
-    "title": "Deep Learning",
-    "section": "Plan détaillé",
-    "text": "Plan détaillé\n\nFondamentaux : neurone, perceptron, fonctions d’activation\nRéseaux denses (DNN) : architecture, rétropropagation, optimiseurs (SGD, Adam)\nRégularisation : dropout, batch normalization, early stopping\nCNN : convolutions, pooling, ResNet, VGG, transfer learning\nRNN, LSTM, GRU : séquences, gradient vanishing, attention basique\nAutoencodeurs et GANs : génération, débruitage\nIntroduction aux Transformers (préfigure le module NLP)\nDéploiement : TensorFlow Serving, ONNX"
-  },
-  {
-    "objectID": "enseignements/deep-learning.html#outils-mobilisés",
-    "href": "enseignements/deep-learning.html#outils-mobilisés",
-    "title": "Deep Learning",
-    "section": "Outils mobilisés",
-    "text": "Outils mobilisés\ntensorflow · keras · pytorch · numpy · matplotlib · tensorboard opencv · transformers (HuggingFace, intro)"
-  },
-  {
-    "objectID": "enseignements/deep-learning.html#prolongements",
-    "href": "enseignements/deep-learning.html#prolongements",
-    "title": "Deep Learning",
-    "section": "Prolongements",
-    "text": "Prolongements\nModule qui prépare NLP (Transformers, LLM) et Generative Computer Vision (GANs, diffusion)."
-  },
-  {
-    "objectID": "enseignements/index.html#maintenir-ces-données",
-    "href": "enseignements/index.html#maintenir-ces-données",
-    "title": "Enseignement",
+    "objectID": "encadrement-projets.html#maintenir-ces-données",
+    "href": "encadrement-projets.html#maintenir-ces-données",
+    "title": "Encadrement des projets",
     "section": "Maintenir ces données",
-    "text": "Maintenir ces données\nLes enseignements et supports sont alimentés par 2 fichiers CSV :\n\n\n\n\n\n\n\nFichier\nSchéma\n\n\n\n\ndata/enseignements_detailed.csv\ndomaine, annee, nom_module, niveau, classe, nb_groupes, anglais, charge_horaire, coordinateur, nouveau_module, ecole\n\n\ndata/supports.csv\ndomaine, nom_module, niveau, classe, ecole, ressource_nom, ressource_statut, ressource_lien\n\n\n\nPour ajouter ou modifier un enseignement / support : éditer le CSV (Excel, VS Code…), quarto render, et la page se met à jour automatiquement."
+    "text": "Maintenir ces données\ndata/\n├── ai4u_projects.csv             46 projets AI4U (Maître stage / PO / Stage d'été)\n├── encadrement_academique.csv    319 encadrements (Encadrant + Rapporteur)\n└── president_jury.csv            255 jurys présidés\nPour rafraîchir depuis le fichier Excel maître :\npython scripts/extract_encadrements.py\nquarto render encadrement-projets.qmd"
   },
   {
-    "objectID": "enseignements/modules/algebre-1.html",
-    "href": "enseignements/modules/algebre-1.html",
-    "title": "∫ Algèbre 1",
+    "objectID": "enseignements/algebre2.html",
+    "href": "enseignements/algebre2.html",
+    "title": "Algèbre 2 — ECUE211",
+    "section": "",
+    "text": "Module de fondamentaux en algèbre linéaire pour les étudiants de S2 LMAD/SD, avec 84 heures réparties en cours magistraux (42h) et travaux dirigés (42h)."
+  },
+  {
+    "objectID": "enseignements/algebre2.html#présentation",
+    "href": "enseignements/algebre2.html#présentation",
+    "title": "Algèbre 2 — ECUE211",
+    "section": "",
+    "text": "Module de fondamentaux en algèbre linéaire pour les étudiants de S2 LMAD/SD, avec 84 heures réparties en cours magistraux (42h) et travaux dirigés (42h)."
+  },
+  {
+    "objectID": "enseignements/algebre2.html#acquis-dapprentissage",
+    "href": "enseignements/algebre2.html#acquis-dapprentissage",
+    "title": "Algèbre 2 — ECUE211",
+    "section": "Acquis d’apprentissage",
+    "text": "Acquis d’apprentissage\n\nAA1 — Manipuler les espaces vectoriels et leurs sous-espaces\nAA2 — Identifier et calculer avec des applications linéaires\nAA3 — Maîtriser le calcul matriciel\nAA4 — Résoudre des systèmes linéaires\nAA5 — Calculer et utiliser les déterminants\nAA6 — Diagonaliser les matrices simples"
+  },
+  {
+    "objectID": "enseignements/algebre2.html#supports-pédagogiques",
+    "href": "enseignements/algebre2.html#supports-pédagogiques",
+    "title": "Algèbre 2 — ECUE211",
+    "section": "Supports pédagogiques",
+    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours complet book avec exercices corrigés\nPDF\n\n\nSlides\nBeamer Metropolis 16:9, 28 séances\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nPlan de module\nFiche pédagogique AA1–AA6\nPDF\n\n\nRepository\nCode source LaTeX + Python\nGitHub"
+  },
+  {
+    "objectID": "enseignements/algebre2.html#plan-détaillé",
+    "href": "enseignements/algebre2.html#plan-détaillé",
+    "title": "Algèbre 2 — ECUE211",
+    "section": "Plan détaillé",
+    "text": "Plan détaillé\n\nEspaces vectoriels et sous-espaces\nFamilles libres, génératrices, bases\nApplications linéaires, noyau, image\nMatrices et calcul matriciel\nChangement de base\nSystèmes linéaires et méthode de Gauss\nDéterminants\nValeurs propres, vecteurs propres, diagonalisation"
+  },
+  {
+    "objectID": "enseignements/analyse4.html",
+    "href": "enseignements/analyse4.html",
+    "title": "Analyse 4 — ECUE421",
+    "section": "",
+    "text": "Module d’analyse à plusieurs variables, ouvrant sur le calcul différentiel multidimensionnel et les algorithmes d’optimisation (descente de gradient).\nVolume : 84h = 36C + 36TD + 6TP + 6 projet."
+  },
+  {
+    "objectID": "enseignements/analyse4.html#présentation",
+    "href": "enseignements/analyse4.html#présentation",
+    "title": "Analyse 4 — ECUE421",
+    "section": "",
+    "text": "Module d’analyse à plusieurs variables, ouvrant sur le calcul différentiel multidimensionnel et les algorithmes d’optimisation (descente de gradient).\nVolume : 84h = 36C + 36TD + 6TP + 6 projet."
+  },
+  {
+    "objectID": "enseignements/analyse4.html#acquis-dapprentissage",
+    "href": "enseignements/analyse4.html#acquis-dapprentissage",
+    "title": "Analyse 4 — ECUE421",
+    "section": "Acquis d’apprentissage",
+    "text": "Acquis d’apprentissage\n\nAA1 — Maîtriser la topologie de \\(\\mathbb{R}^n\\)\nAA2 — Étudier la continuité et la limite des fonctions de plusieurs variables\nAA3 — Calculer dérivées partielles et différentielles\nAA4 — Appliquer le théorème des fonctions implicites\nAA5 — Étudier les extrema libres et liés\nAA6 — Implémenter la descente de gradient en Python\nAA7 — Appliquer à un problème de régression / classification"
+  },
+  {
+    "objectID": "enseignements/analyse4.html#supports-pédagogiques",
+    "href": "enseignements/analyse4.html#supports-pédagogiques",
+    "title": "Analyse 4 — ECUE421",
+    "section": "Supports pédagogiques",
+    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours book\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nTPs Python\nNumPy, SciPy, descente de gradient\nPDF + code\n\n\nProjet\nApplication ML\nSujet\n\n\nRepository\nCode source\nGitHub"
+  },
+  {
+    "objectID": "enseignements/analyse4.html#plan-détaillé",
+    "href": "enseignements/analyse4.html#plan-détaillé",
+    "title": "Analyse 4 — ECUE421",
+    "section": "Plan détaillé",
+    "text": "Plan détaillé\n\nTopologie de \\(\\mathbb{R}^n\\) : ouverts, fermés, compacts, connexes\nLimites et continuité des fonctions de plusieurs variables\nDérivées partielles, différentiabilité, gradient\nDifférentielles d’ordre supérieur, formule de Taylor\nThéorème des fonctions implicites et inversion locale\nExtrema libres et liés (multiplicateurs de Lagrange)\nAlgorithmes d’optimisation : descente de gradient, méthode de Newton\nApplication : régression linéaire, logistique"
+  },
+  {
+    "objectID": "enseignements/generative-computer-vision.html",
+    "href": "enseignements/generative-computer-vision.html",
+    "title": "Generative Computer Vision",
+    "section": "",
+    "text": "Module créé en 2024–2025, à la pointe des techniques de vision générative : GANs, diffusion models, vision-language models (CLIP, DALL-E, Stable Diffusion, Midjourney-like architectures).\nS’inscrit dans le programme stratégique Alternance BA — Business Analytics oriented to Generative AI (partenariat ESB / Jems Group) dont je suis Co-Responsable depuis 2024."
+  },
+  {
+    "objectID": "enseignements/generative-computer-vision.html#présentation",
+    "href": "enseignements/generative-computer-vision.html#présentation",
+    "title": "Generative Computer Vision",
+    "section": "",
+    "text": "Module créé en 2024–2025, à la pointe des techniques de vision générative : GANs, diffusion models, vision-language models (CLIP, DALL-E, Stable Diffusion, Midjourney-like architectures).\nS’inscrit dans le programme stratégique Alternance BA — Business Analytics oriented to Generative AI (partenariat ESB / Jems Group) dont je suis Co-Responsable depuis 2024."
+  },
+  {
+    "objectID": "enseignements/generative-computer-vision.html#acquis-dapprentissage",
+    "href": "enseignements/generative-computer-vision.html#acquis-dapprentissage",
+    "title": "Generative Computer Vision",
+    "section": "Acquis d’apprentissage",
+    "text": "Acquis d’apprentissage\n\nAA1 — Maîtriser les fondamentaux de la vision par ordinateur (CNN, segmentation, détection)\nAA2 — Comprendre les Autoencodeurs et Variational Autoencoders (VAE)\nAA3 — Implémenter des Generative Adversarial Networks (GAN, DCGAN, StyleGAN)\nAA4 — Comprendre les diffusion models (DDPM, Stable Diffusion)\nAA5 — Manipuler les modèles vision-language (CLIP, BLIP)\nAA6 — Générer des images à partir de texte (text-to-image)\nAA7 — Évaluer les modèles génératifs (FID, IS, perceptual metrics)\nAA8 — Considérations éthiques et deepfakes"
+  },
+  {
+    "objectID": "enseignements/generative-computer-vision.html#supports-pédagogiques",
+    "href": "enseignements/generative-computer-vision.html#supports-pédagogiques",
+    "title": "Generative Computer Vision",
+    "section": "Supports pédagogiques",
+    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours book\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nTPs Python\nPyTorch, HuggingFace Diffusers, GANs from scratch\nPDF + code\n\n\nProjet\nPipeline complet text-to-image personnalisé\nSujet\n\n\nRepository\nCode source\nGitHub"
+  },
+  {
+    "objectID": "enseignements/generative-computer-vision.html#plan-détaillé",
+    "href": "enseignements/generative-computer-vision.html#plan-détaillé",
+    "title": "Generative Computer Vision",
+    "section": "Plan détaillé",
+    "text": "Plan détaillé\n\nRappels CV : CNN, ResNet, Vision Transformers (ViT)\nAutoencodeurs : encodage, décodage, débruitage\nVAE : reparametrization trick, KL divergence\nGANs : générateur, discriminateur, équilibre de Nash\nArchitectures avancées : DCGAN, Pix2Pix, CycleGAN, StyleGAN\nDiffusion models : forward/reverse process, DDPM, DDIM\nStable Diffusion : latent diffusion, U-Net conditionnel\nVision-Language Models : CLIP, BLIP, contrastive learning\nText-to-image : DALL-E, Imagen, Stable Diffusion\nApplications : transfer de style, super-résolution, inpainting"
+  },
+  {
+    "objectID": "enseignements/generative-computer-vision.html#outils-mobilisés",
+    "href": "enseignements/generative-computer-vision.html#outils-mobilisés",
+    "title": "Generative Computer Vision",
+    "section": "Outils mobilisés",
+    "text": "Outils mobilisés\ntorch · diffusers (HuggingFace) · transformers · clip · accelerate opencv · pillow · matplotlib · wandb"
+  },
+  {
+    "objectID": "enseignements/generative-computer-vision.html#liens-avec-mes-activités",
+    "href": "enseignements/generative-computer-vision.html#liens-avec-mes-activités",
+    "title": "Generative Computer Vision",
+    "section": "Liens avec mes activités",
+    "text": "Liens avec mes activités\n\nCo-Responsable Alternance BA-GenAI (ESB × Jems Group, depuis 2024)\nHead of Research Team AI4U (Esprit Tech, depuis 2023) — applications GenAI dans l’enseignement\nAI Instructor (Training of Trainers, depuis 2023) — sessions Generative AI"
+  },
+  {
+    "objectID": "enseignements/generative-computer-vision.html#prolongements",
+    "href": "enseignements/generative-computer-vision.html#prolongements",
+    "title": "Generative Computer Vision",
+    "section": "Prolongements",
+    "text": "Prolongements\nModule phare du virage Generative AI à ESB, complémentaire de NLP (générateurs de texte) et Deep Learning."
+  },
+  {
+    "objectID": "enseignements/machine-learning.html",
+    "href": "enseignements/machine-learning.html",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "Module créé en 2021–2022 dans le cadre de l’évolution du curriculum data science d’ESB, puis maintenu et enrichi chaque année. Approche par projet avec datasets réels."
+  },
+  {
+    "objectID": "enseignements/machine-learning.html#présentation",
+    "href": "enseignements/machine-learning.html#présentation",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "Module créé en 2021–2022 dans le cadre de l’évolution du curriculum data science d’ESB, puis maintenu et enrichi chaque année. Approche par projet avec datasets réels."
+  },
+  {
+    "objectID": "enseignements/machine-learning.html#acquis-dapprentissage",
+    "href": "enseignements/machine-learning.html#acquis-dapprentissage",
+    "title": "Machine Learning",
+    "section": "Acquis d’apprentissage",
+    "text": "Acquis d’apprentissage\n\nAA1 — Comprendre la dichotomie supervisé / non supervisé / renforcement\nAA2 — Maîtriser les algorithmes classiques (linéaires, arbres, ensembles)\nAA3 — Évaluer un modèle (validation croisée, métriques, biais-variance)\nAA4 — Pré-traiter les données (nettoyage, encodage, scaling, feature engineering)\nAA5 — Implémenter un pipeline ML complet en Python avec scikit-learn\nAA6 — Détecter et corriger l’overfitting\nAA7 — Communiquer les résultats via dashboards et rapports"
+  },
+  {
+    "objectID": "enseignements/machine-learning.html#supports-pédagogiques",
+    "href": "enseignements/machine-learning.html#supports-pédagogiques",
+    "title": "Machine Learning",
+    "section": "Supports pédagogiques",
+    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours book avec exercices corrigés\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nTPs Python\nPipelines scikit-learn, projets datasets réels\nPDF + code\n\n\nProjet\nCompétition Kaggle interne\nSujet\n\n\nRepository\nCode source\nGitHub"
+  },
+  {
+    "objectID": "enseignements/machine-learning.html#plan-détaillé",
+    "href": "enseignements/machine-learning.html#plan-détaillé",
+    "title": "Machine Learning",
+    "section": "Plan détaillé",
+    "text": "Plan détaillé\n\nIntroduction : taxonomie ML, vocabulaire, vue d’ensemble du pipeline\nRégression linéaire et logistique : moindres carrés, descente de gradient, régularisation L1/L2\nArbres de décision et forêts aléatoires : gini, entropie, bagging, boosting\nSVM : marges, kernels, dualité\nK-NN, Naive Bayes : algorithmes paresseux et probabilistes\nApprentissage non supervisé : K-means, DBSCAN, hiérarchique, PCA\nÉvaluation : courbe ROC, matrice de confusion, validation croisée, GridSearchCV\nPipelines, sélection de features, déploiement"
+  },
+  {
+    "objectID": "enseignements/machine-learning.html#outils-mobilisés",
+    "href": "enseignements/machine-learning.html#outils-mobilisés",
+    "title": "Machine Learning",
+    "section": "Outils mobilisés",
+    "text": "Outils mobilisés\nscikit-learn · pandas · numpy · matplotlib · seaborn · plotly · xgboost · lightgbm"
+  },
+  {
+    "objectID": "enseignements/machine-learning.html#prolongements",
+    "href": "enseignements/machine-learning.html#prolongements",
+    "title": "Machine Learning",
+    "section": "Prolongements",
+    "text": "Prolongements\nModule précurseur de Deep Learning, NLP et Tools for Machine Learning."
+  },
+  {
+    "objectID": "enseignements/modules/algebre-2.html",
+    "href": "enseignements/modules/algebre-2.html",
+    "title": "∫ Algèbre 2",
     "section": "",
     "text": "Coordinateur Nouveau module"
   },
   {
-    "objectID": "enseignements/modules/algebre-1.html#synthèse",
-    "href": "enseignements/modules/algebre-1.html#synthèse",
-    "title": "∫ Algèbre 1",
+    "objectID": "enseignements/modules/algebre-2.html#synthèse",
+    "href": "enseignements/modules/algebre-2.html#synthèse",
+    "title": "∫ Algèbre 2",
     "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n420 h Charge cumulée\n\n\n\n\n5 Année(s) dispensée(s)\n\n\n\n\n5 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LMAD Période : 2019-2020 → 2025-2026"
+    "text": "Synthèse\n\n\n\n210 h Charge cumulée\n\n\n\n\n3 Année(s) dispensée(s)\n\n\n\n\n3 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LMAD Période : 2019-2020 → 2022-2023"
   },
   {
-    "objectID": "enseignements/modules/algebre-1.html#historique-de-dispense",
-    "href": "enseignements/modules/algebre-1.html#historique-de-dispense",
-    "title": "∫ Algèbre 1",
+    "objectID": "enseignements/modules/algebre-2.html#historique-de-dispense",
+    "href": "enseignements/modules/algebre-2.html#historique-de-dispense",
+    "title": "∫ Algèbre 2",
     "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2019-2020\nLicence\nLMAD\n1\n84 h\n✓\nFR\nNOUVEAU\n\n\n2020-2021\nLicence\nLMAD\n1\n84 h\n✓\nFR\n\n\n\n2021-2022\nLicence\nLMAD\n1\n84 h\n✓\nFR\n\n\n\n2022-2023\nLicence\nLMAD\n1\n84 h\n✓\nFR\n\n\n\n2025-2026\nLicence\nLMAD\n1\n84 h\n✓\nFR\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2019-2020\nLicence\nLMAD\n1\n84 h\n✓\nFR\nNOUVEAU\n\n\n2020-2021\nLicence\nLMAD\n1\n84 h\n✓\nFR\n\n\n\n2022-2023\nLicence\nLMAD\n1\n42 h\n✓\nFR"
   },
   {
-    "objectID": "enseignements/modules/algebre-3.html",
-    "href": "enseignements/modules/algebre-3.html",
-    "title": "∫ Algèbre 3",
-    "section": "",
-    "text": "Coordinateur Nouveau module"
-  },
-  {
-    "objectID": "enseignements/modules/algebre-3.html#synthèse",
-    "href": "enseignements/modules/algebre-3.html#synthèse",
-    "title": "∫ Algèbre 3",
-    "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n168 h Charge cumulée\n\n\n\n\n2 Année(s) dispensée(s)\n\n\n\n\n2 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LMAD Période : 2020-2021 → 2021-2022"
-  },
-  {
-    "objectID": "enseignements/modules/algebre-3.html#historique-de-dispense",
-    "href": "enseignements/modules/algebre-3.html#historique-de-dispense",
-    "title": "∫ Algèbre 3",
-    "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2020-2021\nLicence\nLMAD\n1\n84 h\n✓\nFR\nNOUVEAU\n\n\n2021-2022\nLicence\nLMAD\n1\n84 h\n✓\nFR"
-  },
-  {
-    "objectID": "enseignements/modules/algebre-3.html#page-pédagogique-détaillée",
-    "href": "enseignements/modules/algebre-3.html#page-pédagogique-détaillée",
-    "title": "∫ Algèbre 3",
+    "objectID": "enseignements/modules/algebre-2.html#page-pédagogique-détaillée",
+    "href": "enseignements/modules/algebre-2.html#page-pédagogique-détaillée",
+    "title": "∫ Algèbre 2",
     "section": "Page pédagogique détaillée",
-    "text": "Page pédagogique détaillée\nPour le programme complet, les objectifs d’apprentissage, le découpage par chapitre et les ressources annexes, consulter la fiche détaillée :\n→ Voir la fiche pédagogique de Algèbre 3"
+    "text": "Page pédagogique détaillée\nPour le programme complet, les objectifs d’apprentissage, le découpage par chapitre et les ressources annexes, consulter la fiche détaillée :\n→ Voir la fiche pédagogique de Algèbre 2"
   },
   {
-    "objectID": "enseignements/modules/algebre-3.html#code-supports-sur-github",
-    "href": "enseignements/modules/algebre-3.html#code-supports-sur-github",
-    "title": "∫ Algèbre 3",
+    "objectID": "enseignements/modules/algebre-2.html#code-supports-sur-github",
+    "href": "enseignements/modules/algebre-2.html#code-supports-sur-github",
+    "title": "∫ Algèbre 2",
     "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Algebre3\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Algebre2"
   },
   {
-    "objectID": "enseignements/modules/analyse-4.html",
-    "href": "enseignements/modules/analyse-4.html",
-    "title": "∫ Analyse 4",
+    "objectID": "enseignements/modules/algebre-2.html#supports-pédagogiques",
+    "href": "enseignements/modules/algebre-2.html#supports-pédagogiques",
+    "title": "∫ Algèbre 2",
+    "section": "Supports pédagogiques",
+    "text": "Supports pédagogiques\n\n\n\nRessource\nStatut\nLien\n\n\n\n\nFiche module\nDisponible\n—\n\n\nPolycopié\nDisponible\n—\n\n\nSlides\nDisponible\n—\n\n\nTD\nDisponible\n—\n\n\nTP\nÀ venir\n—\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+  },
+  {
+    "objectID": "enseignements/modules/analyse-2.html",
+    "href": "enseignements/modules/analyse-2.html",
+    "title": "∫ Analyse 2",
+    "section": "",
+    "text": "Nouveau module"
+  },
+  {
+    "objectID": "enseignements/modules/analyse-2.html#synthèse",
+    "href": "enseignements/modules/analyse-2.html#synthèse",
+    "title": "∫ Analyse 2",
+    "section": "Synthèse",
+    "text": "Synthèse\n\n\n\n30 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LMAD Période : 2019-2020 → 2019-2020"
+  },
+  {
+    "objectID": "enseignements/modules/analyse-2.html#historique-de-dispense",
+    "href": "enseignements/modules/analyse-2.html#historique-de-dispense",
+    "title": "∫ Analyse 2",
+    "section": "Historique de dispense",
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2019-2020\nLicence\nLMAD\n1\n30 h\n\nFR\nNOUVEAU\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+  },
+  {
+    "objectID": "enseignements/modules/analyse-des-donnees-avec-spss.html",
+    "href": "enseignements/modules/analyse-des-donnees-avec-spss.html",
+    "title": "📊 Analyse des données avec SPSS",
     "section": "",
     "text": "Coordinateur Nouveau module"
   },
   {
-    "objectID": "enseignements/modules/analyse-4.html#synthèse",
-    "href": "enseignements/modules/analyse-4.html#synthèse",
-    "title": "∫ Analyse 4",
+    "objectID": "enseignements/modules/analyse-des-donnees-avec-spss.html#synthèse",
+    "href": "enseignements/modules/analyse-des-donnees-avec-spss.html#synthèse",
+    "title": "📊 Analyse des données avec SPSS",
     "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n294 h Charge cumulée\n\n\n\n\n4 Année(s) dispensée(s)\n\n\n\n\n4 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LMAD Période : 2020-2021 → 2023-2024"
+    "text": "Synthèse\n\n\n\n42 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Sciences des données Formations couvertes : MKD Période : 2017-2018 → 2017-2018"
   },
   {
-    "objectID": "enseignements/modules/analyse-4.html#historique-de-dispense",
-    "href": "enseignements/modules/analyse-4.html#historique-de-dispense",
-    "title": "∫ Analyse 4",
+    "objectID": "enseignements/modules/analyse-des-donnees-avec-spss.html#historique-de-dispense",
+    "href": "enseignements/modules/analyse-des-donnees-avec-spss.html#historique-de-dispense",
+    "title": "📊 Analyse des données avec SPSS",
     "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2020-2021\nLicence\nLMAD\n1\n84 h\n✓\nFR\nNOUVEAU\n\n\n2021-2022\nLicence\nLMAD\n1\n84 h\n✓\nFR\n\n\n\n2022-2023\nLicence\nLMAD\n1\n42 h\n✓\nFR\n\n\n\n2023-2024\nLicence\nLMAD\n1\n84 h\n✓\nFR"
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2017-2018\nMaster\nMKD\n1\n42 h\n✓\nFR\nNOUVEAU"
   },
   {
-    "objectID": "enseignements/modules/analyse-4.html#page-pédagogique-détaillée",
-    "href": "enseignements/modules/analyse-4.html#page-pédagogique-détaillée",
-    "title": "∫ Analyse 4",
-    "section": "Page pédagogique détaillée",
-    "text": "Page pédagogique détaillée\nPour le programme complet, les objectifs d’apprentissage, le découpage par chapitre et les ressources annexes, consulter la fiche détaillée :\n→ Voir la fiche pédagogique de Analyse 4"
-  },
-  {
-    "objectID": "enseignements/modules/analyse-4.html#code-supports-sur-github",
-    "href": "enseignements/modules/analyse-4.html#code-supports-sur-github",
-    "title": "∫ Analyse 4",
+    "objectID": "enseignements/modules/analyse-des-donnees-avec-spss.html#code-supports-sur-github",
+    "href": "enseignements/modules/analyse-des-donnees-avec-spss.html#code-supports-sur-github",
+    "title": "📊 Analyse des données avec SPSS",
     "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Analyse4\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/MarketingDataAnalysis\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/modules/analyse-des-donnees.html",
-    "href": "enseignements/modules/analyse-des-donnees.html",
-    "title": "📊 Analyse des données",
+    "objectID": "enseignements/modules/analyse-statistique-avec-r.html",
+    "href": "enseignements/modules/analyse-statistique-avec-r.html",
+    "title": "∫ Analyse statistique avec R",
     "section": "",
     "text": "Coordinateur Nouveau module"
   },
   {
-    "objectID": "enseignements/modules/analyse-des-donnees.html#synthèse",
-    "href": "enseignements/modules/analyse-des-donnees.html#synthèse",
-    "title": "📊 Analyse des données",
+    "objectID": "enseignements/modules/analyse-statistique-avec-r.html#synthèse",
+    "href": "enseignements/modules/analyse-statistique-avec-r.html#synthèse",
+    "title": "∫ Analyse statistique avec R",
     "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n42 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Sciences des données Formations couvertes : LMAD Période : 2022-2023 → 2022-2023"
+    "text": "Synthèse\n\n\n\n63 h Charge cumulée\n\n\n\n\n3 Année(s) dispensée(s)\n\n\n\n\n3 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LMAD Période : 2019-2020 → 2022-2023"
   },
   {
-    "objectID": "enseignements/modules/analyse-des-donnees.html#historique-de-dispense",
-    "href": "enseignements/modules/analyse-des-donnees.html#historique-de-dispense",
-    "title": "📊 Analyse des données",
+    "objectID": "enseignements/modules/analyse-statistique-avec-r.html#historique-de-dispense",
+    "href": "enseignements/modules/analyse-statistique-avec-r.html#historique-de-dispense",
+    "title": "∫ Analyse statistique avec R",
     "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2022-2023\nLicence\nLMAD\n1\n42 h\n✓\nFR\nNOUVEAU"
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2019-2020\nLicence\nLMAD\n1\n21 h\n✓\nFR\nNOUVEAU\n\n\n2020-2021\nLicence\nLMAD\n1\n21 h\n✓\nFR\n\n\n\n2022-2023\nLicence\nLMAD\n1\n21 h\n✓\nFR"
   },
   {
-    "objectID": "enseignements/modules/analyse-des-donnees.html#code-supports-sur-github",
-    "href": "enseignements/modules/analyse-des-donnees.html#code-supports-sur-github",
-    "title": "📊 Analyse des données",
+    "objectID": "enseignements/modules/analyse-statistique-avec-r.html#code-supports-sur-github",
+    "href": "enseignements/modules/analyse-statistique-avec-r.html#code-supports-sur-github",
+    "title": "∫ Analyse statistique avec R",
     "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Analyse-des-donn-es\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/AnalyseStatistiqueR\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/modules/apprentissage-statistique.html",
-    "href": "enseignements/modules/apprentissage-statistique.html",
-    "title": "🤖 Apprentissage Statistique",
+    "objectID": "enseignements/modules/atelier-de-programmation.html",
+    "href": "enseignements/modules/atelier-de-programmation.html",
+    "title": "🤖 Atelier de programmation",
     "section": "",
     "text": "Coordinateur Nouveau module"
   },
   {
-    "objectID": "enseignements/modules/apprentissage-statistique.html#synthèse",
-    "href": "enseignements/modules/apprentissage-statistique.html#synthèse",
-    "title": "🤖 Apprentissage Statistique",
+    "objectID": "enseignements/modules/atelier-de-programmation.html#synthèse",
+    "href": "enseignements/modules/atelier-de-programmation.html#synthèse",
+    "title": "🤖 Atelier de programmation",
     "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n84 h Charge cumulée\n\n\n\n\n2 Année(s) dispensée(s)\n\n\n\n\n2 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : GAMMA Période : 2022-2023 → 2023-2024"
+    "text": "Synthèse\n\n\n\n42 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : GAMMA Période : 2025-2026 → 2025-2026"
   },
   {
-    "objectID": "enseignements/modules/apprentissage-statistique.html#historique-de-dispense",
-    "href": "enseignements/modules/apprentissage-statistique.html#historique-de-dispense",
-    "title": "🤖 Apprentissage Statistique",
+    "objectID": "enseignements/modules/atelier-de-programmation.html#historique-de-dispense",
+    "href": "enseignements/modules/atelier-de-programmation.html#historique-de-dispense",
+    "title": "🤖 Atelier de programmation",
     "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2022-2023\nMaster\nGAMMA\n1\n42 h\n✓\nFR\nNOUVEAU\n\n\n2023-2024\nMaster\nGAMMA\n1\n42 h\n✓\nFR"
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2025-2026\nMaster\nGAMMA\n1\n42 h\n✓\nFR\nNOUVEAU"
   },
   {
-    "objectID": "enseignements/modules/apprentissage-statistique.html#code-supports-sur-github",
-    "href": "enseignements/modules/apprentissage-statistique.html#code-supports-sur-github",
-    "title": "🤖 Apprentissage Statistique",
+    "objectID": "enseignements/modules/atelier-de-programmation.html#code-supports-sur-github",
+    "href": "enseignements/modules/atelier-de-programmation.html#code-supports-sur-github",
+    "title": "🤖 Atelier de programmation",
     "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/DeepLearningCourse\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/AtelierPython\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/modules/cours-de-soutien-mathematiques.html",
-    "href": "enseignements/modules/cours-de-soutien-mathematiques.html",
-    "title": "🎯 Cours de soutien Mathématiques",
+    "objectID": "enseignements/modules/cours-de-soutien-statistiques-inferentielles.html",
+    "href": "enseignements/modules/cours-de-soutien-statistiques-inferentielles.html",
+    "title": "🎯 Cours de soutien Statistiques inférentielles",
     "section": "",
-    "text": "Coordinateur"
+    "text": "Coordinateur Nouveau module"
   },
   {
-    "objectID": "enseignements/modules/cours-de-soutien-mathematiques.html#synthèse",
-    "href": "enseignements/modules/cours-de-soutien-mathematiques.html#synthèse",
-    "title": "🎯 Cours de soutien Mathématiques",
+    "objectID": "enseignements/modules/cours-de-soutien-statistiques-inferentielles.html#synthèse",
+    "href": "enseignements/modules/cours-de-soutien-statistiques-inferentielles.html#synthèse",
+    "title": "🎯 Cours de soutien Statistiques inférentielles",
     "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n9 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Encadrement et soutien Formations couvertes : — Période : 2017-2018 → 2017-2018"
+    "text": "Synthèse\n\n\n\n24 h Charge cumulée\n\n\n\n\n2 Année(s) dispensée(s)\n\n\n\n\n2 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Encadrement et soutien Formations couvertes : — Période : 2017-2018 → 2018-2019"
   },
   {
-    "objectID": "enseignements/modules/cours-de-soutien-mathematiques.html#historique-de-dispense",
-    "href": "enseignements/modules/cours-de-soutien-mathematiques.html#historique-de-dispense",
-    "title": "🎯 Cours de soutien Mathématiques",
+    "objectID": "enseignements/modules/cours-de-soutien-statistiques-inferentielles.html#historique-de-dispense",
+    "href": "enseignements/modules/cours-de-soutien-statistiques-inferentielles.html#historique-de-dispense",
+    "title": "🎯 Cours de soutien Statistiques inférentielles",
     "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2017-2018\nLicence\n—\n1\n9 h\n✓\nFR\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2017-2018\nLicence\n—\n1\n9 h\n✓\nFR\nNOUVEAU\n\n\n2018-2019\nLicence\n—\n1\n15 h\n✓\nFR\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/modules/cours-de-soutien.html",
-    "href": "enseignements/modules/cours-de-soutien.html",
-    "title": "🎯 Cours de soutien",
+    "objectID": "enseignements/modules/data-mining.html",
+    "href": "enseignements/modules/data-mining.html",
+    "title": "🤖 Data Mining",
     "section": "",
-    "text": "Coordinateur"
+    "text": "Coordinateur Nouveau module"
   },
   {
-    "objectID": "enseignements/modules/cours-de-soutien.html#synthèse",
-    "href": "enseignements/modules/cours-de-soutien.html#synthèse",
-    "title": "🎯 Cours de soutien",
+    "objectID": "enseignements/modules/data-mining.html#synthèse",
+    "href": "enseignements/modules/data-mining.html#synthèse",
+    "title": "🤖 Data Mining",
     "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n30 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n2 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Encadrement et soutien Formations couvertes : — Période : 2016-2017 → 2016-2017"
+    "text": "Synthèse\n\n\n\n21 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : FIND Période : 2025-2026 → 2025-2026"
   },
   {
-    "objectID": "enseignements/modules/cours-de-soutien.html#historique-de-dispense",
-    "href": "enseignements/modules/cours-de-soutien.html#historique-de-dispense",
-    "title": "🎯 Cours de soutien",
+    "objectID": "enseignements/modules/data-mining.html#historique-de-dispense",
+    "href": "enseignements/modules/data-mining.html#historique-de-dispense",
+    "title": "🤖 Data Mining",
     "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2016-2017\nLicence\n—\n1\n15 h\n✓\nFR\n\n\n\n2016-2017\nLicence\n—\n1\n15 h\n✓\nFR\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2025-2026\nMaster\nFIND\n1\n21 h\n✓\nFR\nNOUVEAU"
   },
   {
-    "objectID": "enseignements/modules/deep-learning.html",
-    "href": "enseignements/modules/deep-learning.html",
-    "title": "🤖 Deep Learning",
+    "objectID": "enseignements/modules/data-mining.html#code-supports-sur-github",
+    "href": "enseignements/modules/data-mining.html#code-supports-sur-github",
+    "title": "🤖 Data Mining",
+    "section": "Code & supports sur GitHub",
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Unsupervised-Learning\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+  },
+  {
+    "objectID": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html",
+    "href": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html",
+    "title": "🤖 Fondements de la théorie de la décision",
     "section": "",
     "text": "Coordinateur Anglais Nouveau module"
   },
   {
-    "objectID": "enseignements/modules/deep-learning.html#synthèse",
-    "href": "enseignements/modules/deep-learning.html#synthèse",
-    "title": "🤖 Deep Learning",
+    "objectID": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html#synthèse",
+    "href": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html#synthèse",
+    "title": "🤖 Fondements de la théorie de la décision",
     "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n420 h Charge cumulée\n\n\n\n\n4 Année(s) dispensée(s)\n\n\n\n\n10 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : BA Période : 2022-2023 → 2025-2026"
+    "text": "Synthèse\n\n\n\n231 h Charge cumulée\n\n\n\n\n4 Année(s) dispensée(s)\n\n\n\n\n11 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : LBC-BI Période : 2022-2023 → 2025-2026"
   },
   {
-    "objectID": "enseignements/modules/deep-learning.html#historique-de-dispense",
-    "href": "enseignements/modules/deep-learning.html#historique-de-dispense",
-    "title": "🤖 Deep Learning",
+    "objectID": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html#historique-de-dispense",
+    "href": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html#historique-de-dispense",
+    "title": "🤖 Fondements de la théorie de la décision",
     "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2022-2023\nMaster\nBA\n1\n42 h\n✓\nFR\nNOUVEAU\n\n\n2023-2024\nMaster\nBA\n1\n42 h\n✓\nFR\n\n\n\n2024-2025\nMaster\nBA\n4\n168 h\n✓\nEN\n\n\n\n2024-2025\nMaster\nBA\n1\n42 h\n✓\nFR\n\n\n\n2025-2026\nMaster\nBA\n3\n126 h\n✓\nEN"
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2022-2023\nLicence\nLBC-BI\n1\n21 h\n✓\nFR\nNOUVEAU\n\n\n2023-2024\nLicence\nLBC-BI\n2\n42 h\n✓\nFR\n\n\n\n2024-2025\nLicence\nLBC-BI\n3\n63 h\n✓\nEN\n\n\n\n2025-2026\nLicence\nLBC-BI\n5\n105 h\n✓\nEN"
   },
   {
-    "objectID": "enseignements/modules/deep-learning.html#page-pédagogique-détaillée",
-    "href": "enseignements/modules/deep-learning.html#page-pédagogique-détaillée",
-    "title": "🤖 Deep Learning",
-    "section": "Page pédagogique détaillée",
-    "text": "Page pédagogique détaillée\nPour le programme complet, les objectifs d’apprentissage, le découpage par chapitre et les ressources annexes, consulter la fiche détaillée :\n→ Voir la fiche pédagogique de Deep Learning"
-  },
-  {
-    "objectID": "enseignements/modules/deep-learning.html#code-supports-sur-github",
-    "href": "enseignements/modules/deep-learning.html#code-supports-sur-github",
-    "title": "🤖 Deep Learning",
+    "objectID": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html#code-supports-sur-github",
+    "href": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html#code-supports-sur-github",
+    "title": "🤖 Fondements de la théorie de la décision",
     "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/DeepLearningCourse"
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/DeepLearningCourse\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/modules/deep-learning.html#supports-pédagogiques",
-    "href": "enseignements/modules/deep-learning.html#supports-pédagogiques",
-    "title": "🤖 Deep Learning",
-    "section": "Supports pédagogiques",
-    "text": "Supports pédagogiques\n\n\n\nRessource\nStatut\nLien\n\n\n\n\nFiche module\nDisponible\n—\n\n\nPolycopié\nDisponible\n—\n\n\nSlides\nDisponible\n—\n\n\nTP\nDisponible\n—\n\n\nTD\nRéservé aux étudiants\n—\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+    "objectID": "enseignements/modules/gestion-de-projet.html",
+    "href": "enseignements/modules/gestion-de-projet.html",
+    "title": "🤖 Gestion de projet",
+    "section": "",
+    "text": "Coordinateur"
   },
   {
-    "objectID": "enseignements/modules/generative-computer-vision.html",
-    "href": "enseignements/modules/generative-computer-vision.html",
-    "title": "🤖 Generative Computer Vision",
+    "objectID": "enseignements/modules/gestion-de-projet.html#synthèse",
+    "href": "enseignements/modules/gestion-de-projet.html#synthèse",
+    "title": "🤖 Gestion de projet",
+    "section": "Synthèse",
+    "text": "Synthèse\n\n\n\n30 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : LBC-SIAD Période : 2024-2025 → 2024-2025"
+  },
+  {
+    "objectID": "enseignements/modules/gestion-de-projet.html#historique-de-dispense",
+    "href": "enseignements/modules/gestion-de-projet.html#historique-de-dispense",
+    "title": "🤖 Gestion de projet",
+    "section": "Historique de dispense",
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2024-2025\nLicence\nLBC-SIAD\n1\n30 h\n✓\nFR"
+  },
+  {
+    "objectID": "enseignements/modules/gestion-de-projet.html#code-supports-sur-github",
+    "href": "enseignements/modules/gestion-de-projet.html#code-supports-sur-github",
+    "title": "🤖 Gestion de projet",
+    "section": "Code & supports sur GitHub",
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/DeepLearningCourse\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+  },
+  {
+    "objectID": "enseignements/modules/integration-et-probabilites.html",
+    "href": "enseignements/modules/integration-et-probabilites.html",
+    "title": "∫ Intégration et Probabilités",
     "section": "",
     "text": "Coordinateur Nouveau module"
   },
   {
-    "objectID": "enseignements/modules/generative-computer-vision.html#synthèse",
-    "href": "enseignements/modules/generative-computer-vision.html#synthèse",
-    "title": "🤖 Generative Computer Vision",
+    "objectID": "enseignements/modules/integration-et-probabilites.html#synthèse",
+    "href": "enseignements/modules/integration-et-probabilites.html#synthèse",
+    "title": "∫ Intégration et Probabilités",
     "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n21 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : BA Période : 2024-2025 → 2024-2025"
+    "text": "Synthèse\n\n\n\n92 h Charge cumulée\n\n\n\n\n2 Année(s) dispensée(s)\n\n\n\n\n2 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : GAMMA Période : 2021-2022 → 2025-2026"
   },
   {
-    "objectID": "enseignements/modules/generative-computer-vision.html#historique-de-dispense",
-    "href": "enseignements/modules/generative-computer-vision.html#historique-de-dispense",
-    "title": "🤖 Generative Computer Vision",
+    "objectID": "enseignements/modules/integration-et-probabilites.html#historique-de-dispense",
+    "href": "enseignements/modules/integration-et-probabilites.html#historique-de-dispense",
+    "title": "∫ Intégration et Probabilités",
     "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2024-2025\nMaster\nBA\n1\n21 h\n✓\nFR\nNOUVEAU"
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2021-2022\nMaster\nGAMMA\n1\n50 h\n✓\nFR\nNOUVEAU\n\n\n2025-2026\nMaster\nGAMMA\n1\n42 h\n✓\nFR"
   },
   {
-    "objectID": "enseignements/modules/generative-computer-vision.html#page-pédagogique-détaillée",
-    "href": "enseignements/modules/generative-computer-vision.html#page-pédagogique-détaillée",
-    "title": "🤖 Generative Computer Vision",
-    "section": "Page pédagogique détaillée",
-    "text": "Page pédagogique détaillée\nPour le programme complet, les objectifs d’apprentissage, le découpage par chapitre et les ressources annexes, consulter la fiche détaillée :\n→ Voir la fiche pédagogique de Generative Computer Vision"
-  },
-  {
-    "objectID": "enseignements/modules/generative-computer-vision.html#code-supports-sur-github",
-    "href": "enseignements/modules/generative-computer-vision.html#code-supports-sur-github",
-    "title": "🤖 Generative Computer Vision",
+    "objectID": "enseignements/modules/integration-et-probabilites.html#code-supports-sur-github",
+    "href": "enseignements/modules/integration-et-probabilites.html#code-supports-sur-github",
+    "title": "∫ Intégration et Probabilités",
     "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/GenerativeComputerVision"
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Probabilites\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/modules/generative-computer-vision.html#supports-pédagogiques",
-    "href": "enseignements/modules/generative-computer-vision.html#supports-pédagogiques",
-    "title": "🤖 Generative Computer Vision",
-    "section": "Supports pédagogiques",
-    "text": "Supports pédagogiques\n\n\n\nRessource\nStatut\nLien\n\n\n\n\nFiche module\nDisponible\n—\n\n\nPolycopié\nÀ venir\nVoir\n\n\nSlides\nDisponible\n—\n\n\nTP\nDisponible\n—\n\n\nTD\nRéservé aux étudiants\n—\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
-  },
-  {
-    "objectID": "enseignements/modules/index.html",
-    "href": "enseignements/modules/index.html",
-    "title": "Modules — Vue d’ensemble",
-    "section": "",
-    "text": "Catalogue des 43 modules dispensés à ESB (2016–2026). Cliquez sur un module pour accéder à sa fiche."
-  },
-  {
-    "objectID": "enseignements/modules/index.html#mathématiques-et-statistiques",
-    "href": "enseignements/modules/index.html#mathématiques-et-statistiques",
-    "title": "Modules — Vue d’ensemble",
-    "section": "∫ Mathématiques et Statistiques",
-    "text": "∫ Mathématiques et Statistiques\n\n\n\nModule\nCharge cumulée\nAnnées\n\n\n\n\nAlgèbre 1\n420 h\n5\n\n\nAlgèbre 2\n210 h\n3\n\n\nAlgèbre 3\n168 h\n2\n\n\nAnalyse 2\n30 h\n1\n\n\nAnalyse 4\n294 h\n4\n\n\nAnalyse statistique avec R\n63 h\n3\n\n\nIntégration et Probabilités\n92 h\n2\n\n\nLes fondamentaux des mathématiques\n21 h\n1\n\n\nLogique Mathématique\n42 h\n1\n\n\nMathématiques 1\n210 h\n3\n\n\nMathématiques 2\n126 h\n1\n\n\nMathématiques appliquées à la gestion\n10 h\n1\n\n\nProbabilités\n84 h\n1\n\n\nProbabilités et Statistiques\n146 h\n2\n\n\nSatistiques inférentielles\n84 h\n1\n\n\nStatistiques\n57 h\n3\n\n\nStatistiques descriptives et Probabilités\n511 h\n3\n\n\nStatistiques inférentielles\n245 h\n7"
-  },
-  {
-    "objectID": "enseignements/modules/index.html#intelligence-artificielle",
-    "href": "enseignements/modules/index.html#intelligence-artificielle",
-    "title": "Modules — Vue d’ensemble",
-    "section": "🤖 Intelligence Artificielle",
-    "text": "🤖 Intelligence Artificielle\n\n\n\nModule\nCharge cumulée\nAnnées\n\n\n\n\nApprentissage Statistique\n84 h\n2\n\n\nAtelier de programmation\n42 h\n1\n\n\nData Mining\n21 h\n1\n\n\nDeep Learning\n420 h\n4\n\n\nFondements de la théorie de la décision\n231 h\n4\n\n\nGenerative Computer Vision\n21 h\n1\n\n\nGestion de projet\n30 h\n1\n\n\nIntelligence Artificielle\n56 h\n1\n\n\nIntroduction Data Science\n21 h\n1\n\n\nMachine Learning\n126 h\n2\n\n\nMachine Learning (non supervisé)\n42 h\n1\n\n\nMachine Learning (supervisé)\n42 h\n1\n\n\nOptimisation numérique\n84 h\n4\n\n\nOutillage Machine Learning\n63 h\n2\n\n\nProgrammation Python 2\n42 h\n2\n\n\nProgrammation Python 3\n42 h\n2"
-  },
-  {
-    "objectID": "enseignements/modules/index.html#sciences-des-données",
-    "href": "enseignements/modules/index.html#sciences-des-données",
-    "title": "Modules — Vue d’ensemble",
-    "section": "📊 Sciences des données",
-    "text": "📊 Sciences des données\n\n\n\nModule\nCharge cumulée\nAnnées\n\n\n\n\nAnalyse des données\n42 h\n1\n\n\nAnalyse des données avec SPSS\n42 h\n1\n\n\nModèles linéaires généralisés\n25 h\n2\n\n\nProgrammation avec R\n102 h\n1\n\n\nRecherche Opérationnelle\n42 h\n1\n\n\nSéries Temporelles\n220 h\n5"
-  },
-  {
-    "objectID": "enseignements/modules/index.html#encadrement-et-soutien",
-    "href": "enseignements/modules/index.html#encadrement-et-soutien",
-    "title": "Modules — Vue d’ensemble",
-    "section": "🎯 Encadrement et soutien",
-    "text": "🎯 Encadrement et soutien\n\n\n\nModule\nCharge cumulée\nAnnées\n\n\n\n\nCours de soutien\n30 h\n1\n\n\nCours de soutien Mathématiques\n9 h\n1\n\n\nCours de soutien Statistiques inférentielles\n24 h\n2"
-  },
-  {
-    "objectID": "enseignements/modules/intelligence-artificielle.html",
-    "href": "enseignements/modules/intelligence-artificielle.html",
-    "title": "🤖 Intelligence Artificielle",
+    "objectID": "enseignements/modules/introduction-data-science.html",
+    "href": "enseignements/modules/introduction-data-science.html",
+    "title": "🤖 Introduction Data Science",
     "section": "",
     "text": "Coordinateur Nouveau module"
   },
   {
-    "objectID": "enseignements/modules/intelligence-artificielle.html#synthèse",
-    "href": "enseignements/modules/intelligence-artificielle.html#synthèse",
-    "title": "🤖 Intelligence Artificielle",
+    "objectID": "enseignements/modules/introduction-data-science.html#synthèse",
+    "href": "enseignements/modules/introduction-data-science.html#synthèse",
+    "title": "🤖 Introduction Data Science",
     "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n56 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : LMAD Période : 2023-2024 → 2023-2024"
+    "text": "Synthèse\n\n\n\n21 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : LMAD Période : 2022-2023 → 2022-2023"
   },
   {
-    "objectID": "enseignements/modules/intelligence-artificielle.html#historique-de-dispense",
-    "href": "enseignements/modules/intelligence-artificielle.html#historique-de-dispense",
-    "title": "🤖 Intelligence Artificielle",
+    "objectID": "enseignements/modules/introduction-data-science.html#historique-de-dispense",
+    "href": "enseignements/modules/introduction-data-science.html#historique-de-dispense",
+    "title": "🤖 Introduction Data Science",
     "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2023-2024\nLicence\nLMAD\n1\n56 h\n✓\nFR\nNOUVEAU"
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2022-2023\nLicence\nLMAD\n1\n21 h\n✓\nFR\nNOUVEAU\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/modules/intelligence-artificielle.html#code-supports-sur-github",
-    "href": "enseignements/modules/intelligence-artificielle.html#code-supports-sur-github",
-    "title": "🤖 Intelligence Artificielle",
-    "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Supervised-Learning\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
-  },
-  {
-    "objectID": "enseignements/modules/les-fondamentaux-des-mathematiques.html",
-    "href": "enseignements/modules/les-fondamentaux-des-mathematiques.html",
-    "title": "∫ Les fondamentaux des mathématiques",
+    "objectID": "enseignements/modules/logique-mathematique.html",
+    "href": "enseignements/modules/logique-mathematique.html",
+    "title": "∫ Logique Mathématique",
     "section": "",
     "text": "Coordinateur Nouveau module"
   },
   {
-    "objectID": "enseignements/modules/les-fondamentaux-des-mathematiques.html#synthèse",
-    "href": "enseignements/modules/les-fondamentaux-des-mathematiques.html#synthèse",
-    "title": "∫ Les fondamentaux des mathématiques",
+    "objectID": "enseignements/modules/logique-mathematique.html#synthèse",
+    "href": "enseignements/modules/logique-mathematique.html#synthèse",
+    "title": "∫ Logique Mathématique",
     "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n21 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : BA Période : 2018-2019 → 2018-2019"
+    "text": "Synthèse\n\n\n\n42 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n2 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LFIG Période : 2017-2018 → 2017-2018"
   },
   {
-    "objectID": "enseignements/modules/les-fondamentaux-des-mathematiques.html#historique-de-dispense",
-    "href": "enseignements/modules/les-fondamentaux-des-mathematiques.html#historique-de-dispense",
-    "title": "∫ Les fondamentaux des mathématiques",
+    "objectID": "enseignements/modules/logique-mathematique.html#historique-de-dispense",
+    "href": "enseignements/modules/logique-mathematique.html#historique-de-dispense",
+    "title": "∫ Logique Mathématique",
     "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2018-2019\nMaster\nBA\n1\n21 h\n✓\nFR\nNOUVEAU"
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2017-2018\nLicence\nLFIG\n2\n42 h\n✓\nFR\nNOUVEAU"
   },
   {
-    "objectID": "enseignements/modules/les-fondamentaux-des-mathematiques.html#code-supports-sur-github",
-    "href": "enseignements/modules/les-fondamentaux-des-mathematiques.html#code-supports-sur-github",
-    "title": "∫ Les fondamentaux des mathématiques",
+    "objectID": "enseignements/modules/logique-mathematique.html#code-supports-sur-github",
+    "href": "enseignements/modules/logique-mathematique.html#code-supports-sur-github",
+    "title": "∫ Logique Mathématique",
     "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/FondamentauxMathematiques\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/LogiqueMathematique\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/modules/machine-learning-non-supervise.html",
-    "href": "enseignements/modules/machine-learning-non-supervise.html",
-    "title": "🤖 Machine Learning (non supervisé)",
+    "objectID": "enseignements/modules/machine-learning-supervise.html",
+    "href": "enseignements/modules/machine-learning-supervise.html",
+    "title": "🤖 Machine Learning (supervisé)",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Coordinateur"
   },
   {
-    "objectID": "enseignements/modules/machine-learning-non-supervise.html#synthèse",
-    "href": "enseignements/modules/machine-learning-non-supervise.html#synthèse",
-    "title": "🤖 Machine Learning (non supervisé)",
+    "objectID": "enseignements/modules/machine-learning-supervise.html#synthèse",
+    "href": "enseignements/modules/machine-learning-supervise.html#synthèse",
+    "title": "🤖 Machine Learning (supervisé)",
     "section": "Synthèse",
     "text": "Synthèse\n\n\n\n42 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : BA Période : 2024-2025 → 2024-2025"
   },
   {
-    "objectID": "enseignements/modules/machine-learning-non-supervise.html#historique-de-dispense",
-    "href": "enseignements/modules/machine-learning-non-supervise.html#historique-de-dispense",
-    "title": "🤖 Machine Learning (non supervisé)",
+    "objectID": "enseignements/modules/machine-learning-supervise.html#historique-de-dispense",
+    "href": "enseignements/modules/machine-learning-supervise.html#historique-de-dispense",
+    "title": "🤖 Machine Learning (supervisé)",
     "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2024-2025\nMaster\nBA\n1\n42 h\n✓\nFR\nNOUVEAU"
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2024-2025\nMaster\nBA\n1\n42 h\n✓\nFR"
   },
   {
-    "objectID": "enseignements/modules/machine-learning-non-supervise.html#code-supports-sur-github",
-    "href": "enseignements/modules/machine-learning-non-supervise.html#code-supports-sur-github",
-    "title": "🤖 Machine Learning (non supervisé)",
-    "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Unsupervised-Learning\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
-  },
-  {
-    "objectID": "enseignements/modules/machine-learning.html",
-    "href": "enseignements/modules/machine-learning.html",
-    "title": "🤖 Machine Learning",
-    "section": "",
-    "text": "Coordinateur Anglais"
-  },
-  {
-    "objectID": "enseignements/modules/machine-learning.html#synthèse",
-    "href": "enseignements/modules/machine-learning.html#synthèse",
-    "title": "🤖 Machine Learning",
-    "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n126 h Charge cumulée\n\n\n\n\n2 Année(s) dispensée(s)\n\n\n\n\n3 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : BA Période : 2024-2025 → 2025-2026"
-  },
-  {
-    "objectID": "enseignements/modules/machine-learning.html#historique-de-dispense",
-    "href": "enseignements/modules/machine-learning.html#historique-de-dispense",
-    "title": "🤖 Machine Learning",
-    "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2024-2025\nMaster\nBA\n2\n84 h\n\nEN\n\n\n\n2025-2026\nMaster\nBA\n1\n42 h\n✓\nFR"
-  },
-  {
-    "objectID": "enseignements/modules/machine-learning.html#page-pédagogique-détaillée",
-    "href": "enseignements/modules/machine-learning.html#page-pédagogique-détaillée",
-    "title": "🤖 Machine Learning",
-    "section": "Page pédagogique détaillée",
-    "text": "Page pédagogique détaillée\nPour le programme complet, les objectifs d’apprentissage, le découpage par chapitre et les ressources annexes, consulter la fiche détaillée :\n→ Voir la fiche pédagogique de Machine Learning"
-  },
-  {
-    "objectID": "enseignements/modules/machine-learning.html#code-supports-sur-github",
-    "href": "enseignements/modules/machine-learning.html#code-supports-sur-github",
-    "title": "🤖 Machine Learning",
+    "objectID": "enseignements/modules/machine-learning-supervise.html#code-supports-sur-github",
+    "href": "enseignements/modules/machine-learning-supervise.html#code-supports-sur-github",
+    "title": "🤖 Machine Learning (supervisé)",
     "section": "Code & supports sur GitHub",
     "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Supervised-Learning"
   },
   {
-    "objectID": "enseignements/modules/machine-learning.html#supports-pédagogiques",
-    "href": "enseignements/modules/machine-learning.html#supports-pédagogiques",
-    "title": "🤖 Machine Learning",
+    "objectID": "enseignements/modules/machine-learning-supervise.html#supports-pédagogiques",
+    "href": "enseignements/modules/machine-learning-supervise.html#supports-pédagogiques",
+    "title": "🤖 Machine Learning (supervisé)",
     "section": "Supports pédagogiques",
     "text": "Supports pédagogiques\n\n\n\nRessource\nStatut\nLien\n\n\n\n\nFiche module\nDisponible\n—\n\n\nPolycopié\nDisponible\n—\n\n\nSlides\nDisponible\n—\n\n\nTP\nDisponible\n—\n\n\nTD\nRéservé aux étudiants\n—\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/modules/mathematiques-2.html",
-    "href": "enseignements/modules/mathematiques-2.html",
-    "title": "∫ Mathématiques 2",
+    "objectID": "enseignements/modules/mathematiques-1.html",
+    "href": "enseignements/modules/mathematiques-1.html",
+    "title": "∫ Mathématiques 1",
     "section": "",
     "text": "Coordinateur Nouveau module"
   },
   {
-    "objectID": "enseignements/modules/mathematiques-2.html#synthèse",
-    "href": "enseignements/modules/mathematiques-2.html#synthèse",
-    "title": "∫ Mathématiques 2",
+    "objectID": "enseignements/modules/mathematiques-1.html#synthèse",
+    "href": "enseignements/modules/mathematiques-1.html#synthèse",
+    "title": "∫ Mathématiques 1",
     "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n126 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n3 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LFG, LFIG Période : 2016-2017 → 2016-2017"
+    "text": "Synthèse\n\n\n\n210 h Charge cumulée\n\n\n\n\n3 Année(s) dispensée(s)\n\n\n\n\n5 Groupes cumulés\n\n\n\n\nLicence Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : LFG, LFIG Période : 2016-2017 → 2018-2019"
   },
   {
-    "objectID": "enseignements/modules/mathematiques-2.html#historique-de-dispense",
-    "href": "enseignements/modules/mathematiques-2.html#historique-de-dispense",
-    "title": "∫ Mathématiques 2",
+    "objectID": "enseignements/modules/mathematiques-1.html#historique-de-dispense",
+    "href": "enseignements/modules/mathematiques-1.html#historique-de-dispense",
+    "title": "∫ Mathématiques 1",
     "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2016-2017\nLicence\nLFG\n1\n42 h\n✓\nFR\nNOUVEAU\n\n\n2016-2017\nLicence\nLFIG\n2\n84 h\n✓\nFR\nNOUVEAU"
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2016-2017\nLicence\nLFG\n1\n42 h\n✓\nFR\nNOUVEAU\n\n\n2016-2017\nLicence\nLFIG\n2\n84 h\n✓\nFR\nNOUVEAU\n\n\n2017-2018\nLicence\nLFG\n1\n42 h\n✓\nFR\n\n\n\n2018-2019\nLicence\nLFG\n1\n42 h\n✓\nFR"
   },
   {
-    "objectID": "enseignements/modules/mathematiques-2.html#code-supports-sur-github",
-    "href": "enseignements/modules/mathematiques-2.html#code-supports-sur-github",
-    "title": "∫ Mathématiques 2",
+    "objectID": "enseignements/modules/mathematiques-1.html#code-supports-sur-github",
+    "href": "enseignements/modules/mathematiques-1.html#code-supports-sur-github",
+    "title": "∫ Mathématiques 1",
     "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Mathematiques2\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Mathematiques1\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/modules/modeles-lineaires-generalises.html",
-    "href": "enseignements/modules/modeles-lineaires-generalises.html",
-    "title": "📊 Modèles linéaires généralisés",
+    "objectID": "enseignements/modules/mathematiques-appliquees-a-la-gestion.html",
+    "href": "enseignements/modules/mathematiques-appliquees-a-la-gestion.html",
+    "title": "∫ Mathématiques appliquées à la gestion",
     "section": "",
     "text": "Coordinateur Nouveau module"
   },
   {
-    "objectID": "enseignements/modules/modeles-lineaires-generalises.html#synthèse",
-    "href": "enseignements/modules/modeles-lineaires-generalises.html#synthèse",
-    "title": "📊 Modèles linéaires généralisés",
+    "objectID": "enseignements/modules/mathematiques-appliquees-a-la-gestion.html#synthèse",
+    "href": "enseignements/modules/mathematiques-appliquees-a-la-gestion.html#synthèse",
+    "title": "∫ Mathématiques appliquées à la gestion",
     "section": "Synthèse",
-    "text": "Synthèse\n\n\n\n25 h Charge cumulée\n\n\n\n\n2 Année(s) dispensée(s)\n\n\n\n\n2 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Sciences des données Formations couvertes : GAMMA Période : 2021-2022 → 2022-2023"
+    "text": "Synthèse\n\n\n\n10 h Charge cumulée\n\n\n\n\n1 Année(s) dispensée(s)\n\n\n\n\n1 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Mathématiques et Statistiques Formations couvertes : CCA Période : 2020-2021 → 2020-2021"
   },
   {
-    "objectID": "enseignements/modules/modeles-lineaires-generalises.html#historique-de-dispense",
-    "href": "enseignements/modules/modeles-lineaires-generalises.html#historique-de-dispense",
-    "title": "📊 Modèles linéaires généralisés",
+    "objectID": "enseignements/modules/mathematiques-appliquees-a-la-gestion.html#historique-de-dispense",
+    "href": "enseignements/modules/mathematiques-appliquees-a-la-gestion.html#historique-de-dispense",
+    "title": "∫ Mathématiques appliquées à la gestion",
     "section": "Historique de dispense",
-    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2021-2022\nMaster\nGAMMA\n1\n15 h\n✓\nFR\nNOUVEAU\n\n\n2022-2023\nMaster\nGAMMA\n1\n10 h\n✓\nFR"
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2020-2021\nMaster\nCCA\n1\n10 h\n✓\nFR\nNOUVEAU\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/modules/modeles-lineaires-generalises.html#code-supports-sur-github",
-    "href": "enseignements/modules/modeles-lineaires-generalises.html#code-supports-sur-github",
-    "title": "📊 Modèles linéaires généralisés",
+    "objectID": "enseignements/modules/nlp-natural-language-processing.html",
+    "href": "enseignements/modules/nlp-natural-language-processing.html",
+    "title": "🤖 NLP - Natural Language Processing",
+    "section": "",
+    "text": "Coordinateur Nouveau module"
+  },
+  {
+    "objectID": "enseignements/modules/nlp-natural-language-processing.html#synthèse",
+    "href": "enseignements/modules/nlp-natural-language-processing.html#synthèse",
+    "title": "🤖 NLP - Natural Language Processing",
+    "section": "Synthèse",
+    "text": "Synthèse\n\n\n\n168 h Charge cumulée\n\n\n\n\n4 Année(s) dispensée(s)\n\n\n\n\n4 Groupes cumulés\n\n\n\n\nMaster Niveau(x)\n\n\n\nDomaine : Intelligence Artificielle Formations couvertes : MDSI Période : 2022-2023 → 2025-2026"
+  },
+  {
+    "objectID": "enseignements/modules/nlp-natural-language-processing.html#historique-de-dispense",
+    "href": "enseignements/modules/nlp-natural-language-processing.html#historique-de-dispense",
+    "title": "🤖 NLP - Natural Language Processing",
+    "section": "Historique de dispense",
+    "text": "Historique de dispense\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnée\nNiveau\nClasse\nGroupes\nCharge\nCoord.\nLangue\nStatut\n\n\n\n\n2022-2023\nMaster\nMDSI\n1\n42 h\n✓\nFR\nNOUVEAU\n\n\n2023-2024\nMaster\nMDSI\n1\n42 h\n✓\nFR\n\n\n\n2024-2025\nMaster\nMDSI\n1\n42 h\n✓\nFR\n\n\n\n2025-2026\nMaster\nMDSI\n1\n42 h\n✓\nFR"
+  },
+  {
+    "objectID": "enseignements/modules/nlp-natural-language-processing.html#code-supports-sur-github",
+    "href": "enseignements/modules/nlp-natural-language-processing.html#code-supports-sur-github",
+    "title": "🤖 NLP - Natural Language Processing",
     "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Unsupervised-Learning\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/FundamentalsNLP"
+  },
+  {
+    "objectID": "enseignements/modules/nlp-natural-language-processing.html#supports-pédagogiques",
+    "href": "enseignements/modules/nlp-natural-language-processing.html#supports-pédagogiques",
+    "title": "🤖 NLP - Natural Language Processing",
+    "section": "Supports pédagogiques",
+    "text": "Supports pédagogiques\n\n\n\nRessource\nStatut\nLien\n\n\n\n\nFiche module\nDisponible\nVoir\n\n\nPolycopié\nDisponible\nVoir\n\n\nSlides\nDisponible\nVoir\n\n\nTP\nDisponible\nVoir\n\n\nTD\nRéservé aux étudiants\n—\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
     "objectID": "enseignements/modules/outillage-machine-learning.html",
@@ -1943,7 +2027,14 @@
     "href": "enseignements/modules/probabilites.html#code-supports-sur-github",
     "title": "∫ Probabilités",
     "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Probabilites\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/Probabilites"
+  },
+  {
+    "objectID": "enseignements/modules/probabilites.html#supports-pédagogiques",
+    "href": "enseignements/modules/probabilites.html#supports-pédagogiques",
+    "title": "∫ Probabilités",
+    "section": "Supports pédagogiques",
+    "text": "Supports pédagogiques\n\n\n\nRessource\nStatut\nLien\n\n\n\n\nFiche module\nDisponible\n—\n\n\nPolycopié\nDisponible\n—\n\n\nSlides\nDisponible\n—\n\n\nTD\nDisponible\n—\n\n\nTP\nDisponible\n—\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
     "objectID": "enseignements/modules/programmation-python-2.html",
@@ -2006,7 +2097,14 @@
     "href": "enseignements/modules/recherche-operationnelle.html#code-supports-sur-github",
     "title": "📊 Recherche Opérationnelle",
     "section": "Code & supports sur GitHub",
-    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/RechercheOperationnelle\nhttps://github.com/Aymenbenbrik/RechercheOperationnelleLicence\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
+    "text": "Code & supports sur GitHub\n\nhttps://github.com/Aymenbenbrik/RechercheOperationnelle\nhttps://github.com/Aymenbenbrik/RechercheOperationnelleLicence"
+  },
+  {
+    "objectID": "enseignements/modules/recherche-operationnelle.html#supports-pédagogiques",
+    "href": "enseignements/modules/recherche-operationnelle.html#supports-pédagogiques",
+    "title": "📊 Recherche Opérationnelle",
+    "section": "Supports pédagogiques",
+    "text": "Supports pédagogiques\n\n\n\nRessource\nStatut\nLien\n\n\n\n\nFiche module\nDisponible\n—\n\n\nPolycopié\nDisponible\n—\n\n\nSlides\nDisponible\n—\n\n\nTD\nDisponible\n—\n\n\nTP\nDisponible\n—\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
     "objectID": "enseignements/modules/series-temporelles.html",
@@ -2083,7 +2181,7 @@
     "href": "enseignements/nlp.html#supports-pédagogiques",
     "title": "NLP — Natural Language Processing",
     "section": "Supports pédagogiques",
-    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours book\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nTPs Python\nHuggingFace Transformers, fine-tuning, prompts\nPDF + code\n\n\nProjet\nApplication NLP complète\nSujet\n\n\nRepository\nCode source\nGitHub"
+    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nFiche module\nECUE descriptive sheet (UEF210)\nPDF\n\n\nPolycopié\nUnified course (Chapter 1 + Chapter 2, 59 pages, ToC navigable)\nPDF\n\n\nSlides\nBeamer (39 frames, Madrid theme)\nPDF\n\n\nTPs Python\n4 Jupyter notebooks (tokenization, BoW/TF-IDF, Word2Vec, evaluation)\nFolder\n\n\nTDs\nExercises within each chapter (5 per section)\nRéservé aux étudiants\n\n\nRepository\nSource code + LaTeX\nGitHub"
   },
   {
     "objectID": "enseignements/nlp.html#plan-détaillé",
