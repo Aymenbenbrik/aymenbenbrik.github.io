@@ -54,6 +54,22 @@ toc: true
 | 2022-2023 | Licence | LMAD | 1 | 84 h | ✓ | FR |  |
 | 2025-2026 | Licence | LMAD | 1 | 84 h | ✓ | FR |  |
 
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/Algebre1-2026](https://github.com/Aymenbenbrik/Algebre1-2026)
+- [https://github.com/Aymenbenbrik/Algebre1-2022-](https://github.com/Aymenbenbrik/Algebre1-2022-)
+
+## Supports pédagogiques
+
+| Ressource | Statut | Lien |
+|---|---|---|
+| Fiche module | Disponible | [Voir](https://github.com/Aymenbenbrik/Algebre1-2026) |
+| Polycopié | Disponible | [Voir](https://github.com/Aymenbenbrik/Algebre1-2026/blob/main/Tout%20le%20cours/Algebre1-2026%20-%20Cours%20complet.pdf) |
+| Slides | À venir | — |
+| TD | Disponible | [Voir](https://github.com/Aymenbenbrik/Algebre1-2026/tree/main/Chapitres) |
+| TP | Disponible | [Voir](https://github.com/Aymenbenbrik/Algebre1-2026/tree/main/Chapitres) |
+| Séances | Disponible | [Voir](https://github.com/Aymenbenbrik/Algebre1-2026/tree/main/S%C3%A9ances) |
+
 ---
 
 ::: {.callout-note}

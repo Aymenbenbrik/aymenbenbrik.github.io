@@ -9,10 +9,10 @@ Intelligence artificielle,Deep Learning,Master,LMAD/MDSI,ESB,Polycopié,Disponib
 Intelligence artificielle,Deep Learning,Master,LMAD/MDSI,ESB,Slides,Disponible,#
 Intelligence artificielle,Deep Learning,Master,LMAD/MDSI,ESB,TP,Disponible,#
 Intelligence artificielle,Deep Learning,Master,LMAD/MDSI,ESB,TD,Réservé aux étudiants,#
-Intelligence artificielle,NLP - Natural Language Processing,Master,MDSI,ESB,Fiche module,Disponible,#
-Intelligence artificielle,NLP - Natural Language Processing,Master,MDSI,ESB,Polycopié,À venir,
-Intelligence artificielle,NLP - Natural Language Processing,Master,MDSI,ESB,Slides,Disponible,#
-Intelligence artificielle,NLP - Natural Language Processing,Master,MDSI,ESB,TP,Disponible,#
+Intelligence artificielle,NLP - Natural Language Processing,Master,MDSI,ESB,Fiche module,Disponible,https://github.com/Aymenbenbrik/FundamentalsNLP/blob/main/Module%20sheet/module-sheet.pdf
+Intelligence artificielle,NLP - Natural Language Processing,Master,MDSI,ESB,Polycopié,Disponible,https://github.com/Aymenbenbrik/FundamentalsNLP/blob/main/Full-course/FundamentalsNLP-Complete.pdf
+Intelligence artificielle,NLP - Natural Language Processing,Master,MDSI,ESB,Slides,Disponible,https://github.com/Aymenbenbrik/FundamentalsNLP/blob/main/Slides/slides.pdf
+Intelligence artificielle,NLP - Natural Language Processing,Master,MDSI,ESB,TP,Disponible,https://github.com/Aymenbenbrik/FundamentalsNLP/tree/main/Notebooks
 Intelligence artificielle,NLP - Natural Language Processing,Master,MDSI,ESB,TD,Réservé aux étudiants,#
 Intelligence artificielle,Generative Computer Vision,Master,MDSI / Alternance BA,ESB,Fiche module,Disponible,#
 Intelligence artificielle,Generative Computer Vision,Master,MDSI / Alternance BA,ESB,Polycopié,À venir,
@@ -24,6 +24,12 @@ Intelligence artificielle,Tools for Machine Learning,Master,LMAD/MDSI,ESB,Slides
 Intelligence artificielle,Tools for Machine Learning,Master,LMAD/MDSI,ESB,TP,Disponible,#
 Intelligence artificielle,Tools for Machine Learning,Master,LMAD/MDSI,ESB,Polycopié,À venir,
 Intelligence artificielle,Tools for Machine Learning,Master,LMAD/MDSI,ESB,TD,Réservé aux étudiants,#
+Mathématiques,Algèbre 1 (ECUE111),Licence,LMAD/SD - S1,ESB,Fiche module,Disponible,https://github.com/Aymenbenbrik/Algebre1-2026
+Mathématiques,Algèbre 1 (ECUE111),Licence,LMAD/SD - S1,ESB,Polycopié,Disponible,https://github.com/Aymenbenbrik/Algebre1-2026/blob/main/Tout%20le%20cours/Algebre1-2026%20-%20Cours%20complet.pdf
+Mathématiques,Algèbre 1 (ECUE111),Licence,LMAD/SD - S1,ESB,Slides,À venir,
+Mathématiques,Algèbre 1 (ECUE111),Licence,LMAD/SD - S1,ESB,TD,Disponible,https://github.com/Aymenbenbrik/Algebre1-2026/tree/main/Chapitres
+Mathématiques,Algèbre 1 (ECUE111),Licence,LMAD/SD - S1,ESB,TP,Disponible,https://github.com/Aymenbenbrik/Algebre1-2026/tree/main/Chapitres
+Mathématiques,Algèbre 1 (ECUE111),Licence,LMAD/SD - S1,ESB,Séances,Disponible,https://github.com/Aymenbenbrik/Algebre1-2026/tree/main/S%C3%A9ances
 Mathématiques,Algèbre 2 (ECUE211),Licence,LMAD/SD - S2,ESB,Fiche module,Disponible,#
 Mathématiques,Algèbre 2 (ECUE211),Licence,LMAD/SD - S2,ESB,Polycopié,Disponible,#
 Mathématiques,Algèbre 2 (ECUE211),Licence,LMAD/SD - S2,ESB,Slides,Disponible,#

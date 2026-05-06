@@ -63,6 +63,16 @@ chapitre et les ressources annexes, consulter la fiche détaillée :
 
 - [https://github.com/Aymenbenbrik/Algebre2](https://github.com/Aymenbenbrik/Algebre2)
 
+## Supports pédagogiques
+
+| Ressource | Statut | Lien |
+|---|---|---|
+| Fiche module | Disponible | — |
+| Polycopié | Disponible | — |
+| Slides | Disponible | — |
+| TD | Disponible | — |
+| TP | À venir | — |
+
 ---
 
 ::: {.callout-note}

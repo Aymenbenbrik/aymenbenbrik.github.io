@@ -114,14 +114,23 @@ chapitre et les ressources annexes, consulter la fiche détaillée :
 → [Voir la fiche pédagogique de {module}](../{detailed_slug}.qmd)
 """
 
-    # Bloc supports
-    sup_g = sup[sup["nom_module"].str.lower() == module.lower()]
+    # Bloc supports : matching tolerant aux suffixes "(ECUEXXX)" dans supports.csv
+    def _normalize(s: str) -> str:
+        s = re.sub(r"\s*\([^)]*\)\s*", " ", str(s)).strip().lower()
+        return re.sub(r"\s+", " ", s)
+
+    target = _normalize(module)
+    sup_g = sup[sup["nom_module"].apply(_normalize) == target]
     sup_section = ""
     if len(sup_g):
         sup_lines = ["| Ressource | Statut | Lien |", "|---|---|---|"]
         for _, r in sup_g.iterrows():
-            lien = r.get("ressource_lien") or ""
-            statut = r.get("ressource_statut") or ""
+            lien = str(r.get("ressource_lien") or "").strip()
+            if lien.lower() in ("nan", "none"):
+                lien = ""
+            statut = str(r.get("ressource_statut") or "").strip()
+            if statut.lower() == "nan":
+                statut = ""
             link_md = f"[Voir]({lien})" if lien and lien != "#" else "—"
             sup_lines.append(f"| {r['ressource_nom']} | {statut} | {link_md} |")
         sup_section = f"""

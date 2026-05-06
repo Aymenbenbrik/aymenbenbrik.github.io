@@ -54,6 +54,16 @@ toc: true
 
 - [https://github.com/Aymenbenbrik/Unsupervised-Learning](https://github.com/Aymenbenbrik/Unsupervised-Learning)
 
+## Supports pédagogiques
+
+| Ressource | Statut | Lien |
+|---|---|---|
+| Fiche module | Disponible | — |
+| Polycopié | Disponible | — |
+| Slides | Disponible | — |
+| TP | Disponible | — |
+| TD | Réservé aux étudiants | — |
+
 ---
 
 ::: {.callout-note}

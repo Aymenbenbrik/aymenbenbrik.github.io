@@ -62,6 +62,16 @@ chapitre et les ressources annexes, consulter la fiche détaillée :
 - [https://github.com/Aymenbenbrik/RechercheOperationnelle](https://github.com/Aymenbenbrik/RechercheOperationnelle)
 - [https://github.com/Aymenbenbrik/RechercheOperationnelleLicence](https://github.com/Aymenbenbrik/RechercheOperationnelleLicence)
 
+## Supports pédagogiques
+
+| Ressource | Statut | Lien |
+|---|---|---|
+| Fiche module | Disponible | — |
+| Polycopié | Disponible | — |
+| Slides | Disponible | — |
+| TD | Disponible | — |
+| TP | Disponible | — |
+
 ---
 
 ::: {.callout-note}

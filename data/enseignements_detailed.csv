@@ -23,7 +23,7 @@ Encadrement et soutien,2018-2019,Cours de soutien Statistiques inférentielles,L
 Mathématiques et Statistiques,2018-2019,Statistiques descriptives et Probabilités,Licence,LFIG,2,False,60,True,False,ESB,https://github.com/Aymenbenbrik/StatistiquesDescriptivesProbabilites
 Mathématiques et Statistiques,2018-2019,Statistiques descriptives et Probabilités,Licence,LFG,2,False,84,True,False,ESB,https://github.com/Aymenbenbrik/StatistiquesDescriptivesProbabilites
 Sciences des données,2018-2019,Séries Temporelles,Master,BA,1,False,42,True,True,ESB,
-Mathématiques et Statistiques,2019-2020,Algèbre 1,Licence,LMAD,1,False,84,True,True,ESB,
+Mathématiques et Statistiques,2019-2020,Algèbre 1,Licence,LMAD,1,False,84,True,True,ESB,https://github.com/Aymenbenbrik/Algebre1-2026
 Mathématiques et Statistiques,2019-2020,Probabilités et Statistiques,Master,BA,2,False,42,True,True,ESB,
 Sciences des données,2019-2020,Programmation avec R,Master,MDSI,2,False,60,True,True,ESB,https://github.com/Aymenbenbrik/ProgrammationR
 Mathématiques et Statistiques,2019-2020,Probabilités et Statistiques,Master,MDSI,2,False,84,True,True,ESB,https://github.com/Aymenbenbrik/AnalyseStatistiqueR
@@ -33,13 +33,13 @@ Sciences des données,2019-2020,Séries Temporelles,Master,BA,2,False,84,True,Fa
 Mathématiques et Statistiques,2019-2020,Analyse 2,Licence,LMAD,1,False,30,False,True,ESB,
 Mathématiques et Statistiques,2019-2020,Analyse statistique avec R,Licence,LMAD,1,False,21,True,True,ESB,https://github.com/Aymenbenbrik/AnalyseStatistiqueR
 Mathématiques et Statistiques,2020-2021,Algèbre 3,Licence,LMAD,1,False,84,True,True,ESB,https://github.com/Aymenbenbrik/Algebre3
-Mathématiques et Statistiques,2020-2021,Algèbre 1,Licence,LMAD,1,False,84,True,False,ESB,
+Mathématiques et Statistiques,2020-2021,Algèbre 1,Licence,LMAD,1,False,84,True,False,ESB,https://github.com/Aymenbenbrik/Algebre1-2026
 Mathématiques et Statistiques,2020-2021,Statistiques inférentielles,Licence,LBC,3,False,63,True,False,ESB,https://github.com/Aymenbenbrik/StatistiquesInferentiellesLicence
 Mathématiques et Statistiques,2020-2021,Algèbre 2,Licence,LMAD,1,False,84,True,False,ESB,https://github.com/Aymenbenbrik/Algebre2
 Mathématiques et Statistiques,2020-2021,Analyse 4,Licence,LMAD,1,False,84,True,True,ESB,https://github.com/Aymenbenbrik/Analyse4
 Mathématiques et Statistiques,2020-2021,Analyse statistique avec R,Licence,LMAD,1,False,21,True,False,ESB,https://github.com/Aymenbenbrik/AnalyseStatistiqueR
 Mathématiques et Statistiques,2020-2021,Mathématiques appliquées à la gestion,Master,CCA,1,False,10,True,True,ESB,
-Mathématiques et Statistiques,2021-2022,Algèbre 1,Licence,LMAD,1,False,84,True,False,ESB,
+Mathématiques et Statistiques,2021-2022,Algèbre 1,Licence,LMAD,1,False,84,True,False,ESB,https://github.com/Aymenbenbrik/Algebre1-2026
 Mathématiques et Statistiques,2021-2022,Algèbre 3,Licence,LMAD,1,False,84,True,False,ESB,https://github.com/Aymenbenbrik/Algebre3
 Mathématiques et Statistiques,2021-2022,Probabilités,Licence,LMAD,1,False,84,True,True,ESB,https://github.com/Aymenbenbrik/Probabilites
 Mathématiques et Statistiques,2021-2022,Intégration et Probabilités,Master,GAMMA,1,False,50,True,True,ESB,https://github.com/Aymenbenbrik/Probabilites
@@ -50,7 +50,7 @@ Sciences des données,2021-2022,Séries Temporelles,Master,GAMMA,1,False,10,True
 Mathématiques et Statistiques,2021-2022,Statistiques,Master,LMAD,1,False,15,True,True,ESB,https://github.com/Aymenbenbrik/StatistiquesInf-rentielles
 Sciences des données,2021-2022,Modèles linéaires généralisés,Master,GAMMA,1,False,15,True,True,ESB,https://github.com/Aymenbenbrik/Unsupervised-Learning
 Intelligence Artificielle,2021-2022,Optimisation numérique,Master,GAMMA,1,False,21,True,True,ESB,
-Mathématiques et Statistiques,2022-2023,Algèbre 1,Licence,LMAD,1,False,84,True,False,ESB,
+Mathématiques et Statistiques,2022-2023,Algèbre 1,Licence,LMAD,1,False,84,True,False,ESB,https://github.com/Aymenbenbrik/Algebre1-2022-
 Sciences des données,2022-2023,Analyse des données,Licence,LMAD,1,False,42,True,True,ESB,https://github.com/Aymenbenbrik/Analyse-des-donn-es
 Intelligence Artificielle,2022-2023,Introduction Data Science,Licence,LMAD,1,False,21,True,True,ESB,
 Intelligence Artificielle,2022-2023,Deep Learning,Master,BA,1,False,42,True,True,ESB,https://github.com/Aymenbenbrik/DeepLearningCourse
@@ -86,7 +86,7 @@ Intelligence Artificielle,2024-2025,Deep Learning,Master,BA,1,False,42,True,Fals
 Intelligence Artificielle,2024-2025,Machine Learning,Master,BA,2,True,84,False,False,ESB,https://github.com/Aymenbenbrik/Supervised-Learning
 Intelligence Artificielle,2024-2025,Generative Computer Vision,Master,BA,1,False,21,True,True,ESB,https://github.com/Aymenbenbrik/GenerativeComputerVision
 Intelligence Artificielle,2024-2025,Outillage Machine Learning,Master,MDSI,2,False,42,True,False,ESB,https://github.com/Aymenbenbrik/Supervised-Learning
-Mathématiques et Statistiques,2025-2026,Algèbre 1,Licence,LMAD,1,False,84,True,False,ESB,
+Mathématiques et Statistiques,2025-2026,Algèbre 1,Licence,LMAD,1,False,84,True,False,ESB,https://github.com/Aymenbenbrik/Algebre1-2026
 Intelligence Artificielle,2025-2026,Deep Learning,Master,BA,3,True,126,True,False,ESB,https://github.com/Aymenbenbrik/DeepLearningCourse
 Intelligence Artificielle,2025-2026,Fondements de la théorie de la décision,Licence,LBC-BI,5,True,105,True,False,ESB,https://github.com/Aymenbenbrik/DeepLearningCourse
 Mathématiques et Statistiques,2025-2026,Intégration et Probabilités,Master,GAMMA,1,False,42,True,False,ESB,https://github.com/Aymenbenbrik/Probabilites
@@ -97,3 +97,7 @@ Sciences des données,2025-2026,Séries Temporelles,Master,GAMMA,1,False,21,True
 Intelligence Artificielle,2025-2026,Optimisation numérique,Master,GAMMA,1,False,21,True,False,ESB,
 Intelligence Artificielle,2025-2026,Machine Learning,Master,BA,1,False,42,True,False,ESB,https://github.com/Aymenbenbrik/Supervised-Learning
 Sciences des données,2025-2026,Séries Temporelles,Master,BA,1,False,42,True,False,ESB,
+Intelligence Artificielle,2022-2023,NLP - Natural Language Processing,Master,MDSI,1,False,42,True,True,ESB,https://github.com/Aymenbenbrik/FundamentalsNLP
+Intelligence Artificielle,2023-2024,NLP - Natural Language Processing,Master,MDSI,1,False,42,True,False,ESB,https://github.com/Aymenbenbrik/FundamentalsNLP
+Intelligence Artificielle,2024-2025,NLP - Natural Language Processing,Master,MDSI,1,False,42,True,False,ESB,https://github.com/Aymenbenbrik/FundamentalsNLP
+Intelligence Artificielle,2025-2026,NLP - Natural Language Processing,Master,MDSI,1,False,42,True,False,ESB,https://github.com/Aymenbenbrik/FundamentalsNLP

@@ -62,6 +62,16 @@ chapitre et les ressources annexes, consulter la fiche détaillée :
 
 - [https://github.com/Aymenbenbrik/Algebre3](https://github.com/Aymenbenbrik/Algebre3)
 
+## Supports pédagogiques
+
+| Ressource | Statut | Lien |
+|---|---|---|
+| Fiche module | Disponible | — |
+| Polycopié | Disponible | — |
+| Slides | Disponible | — |
+| TD | Disponible | — |
+| TP | Disponible | — |
+
 ---
 
 ::: {.callout-note}

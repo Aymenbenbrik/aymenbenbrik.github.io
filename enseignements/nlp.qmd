@@ -28,12 +28,12 @@ Departement) où j'anime des sessions sur **NLP, Transformers et LLM**.
 
 | Type | Description | Lien |
 |---|---|---|
-| Polycopié | Cours *book* | [PDF](#) |
-| Slides | Beamer Metropolis 16:9 | [PDF](#) |
-| TDs | Énoncés + corrections | [PDF](#) |
-| TPs Python | HuggingFace Transformers, fine-tuning, prompts | [PDF + code](#) |
-| Projet | Application NLP complète | [Sujet](#) |
-| Repository | Code source | [GitHub](https://github.com/Aymenbenbrik) |
+| Fiche module | ECUE descriptive sheet (UEF210) | [PDF](https://github.com/Aymenbenbrik/FundamentalsNLP/blob/main/Module%20sheet/module-sheet.pdf) |
+| Polycopié | Unified course (Chapter 1 + Chapter 2, 59 pages, ToC navigable) | [PDF](https://github.com/Aymenbenbrik/FundamentalsNLP/blob/main/Full-course/FundamentalsNLP-Complete.pdf) |
+| Slides | Beamer (39 frames, Madrid theme) | [PDF](https://github.com/Aymenbenbrik/FundamentalsNLP/blob/main/Slides/slides.pdf) |
+| TPs Python | 4 Jupyter notebooks (tokenization, BoW/TF-IDF, Word2Vec, evaluation) | [Folder](https://github.com/Aymenbenbrik/FundamentalsNLP/tree/main/Notebooks) |
+| TDs | Exercises within each chapter (5 per section) | Réservé aux étudiants |
+| Repository | Source code + LaTeX | [GitHub](https://github.com/Aymenbenbrik/FundamentalsNLP) |
 
 ## Plan détaillé
 

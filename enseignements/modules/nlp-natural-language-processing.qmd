@@ -1,0 +1,75 @@
+---
+title: "🤖 NLP - Natural Language Processing"
+subtitle: "Intelligence Artificielle · 4 année(s) · 168 h cumulées"
+toc: true
+---
+
+<span class="badge bg-danger">Coordinateur</span> <span class="badge bg-success">Nouveau module</span>
+
+## Synthèse
+
+::: {.grid}
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**168 h**<br>
+<small>Charge cumulée</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**4**<br>
+<small>Année(s) dispensée(s)</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**4**<br>
+<small>Groupes cumulés</small>
+:::
+:::
+
+::: {.g-col-6 .g-col-md-3}
+::: {.card-module}
+**Master**<br>
+<small>Niveau(x)</small>
+:::
+:::
+
+:::
+
+**Domaine** : Intelligence Artificielle
+**Formations couvertes** : MDSI
+**Période** : 2022-2023 → 2025-2026
+
+## Historique de dispense
+
+| Année | Niveau | Classe | Groupes | Charge | Coord. | Langue | Statut |
+|---|---|---|---|---|---|---|---|
+| 2022-2023 | Master | MDSI | 1 | 42 h | ✓ | FR | NOUVEAU |
+| 2023-2024 | Master | MDSI | 1 | 42 h | ✓ | FR |  |
+| 2024-2025 | Master | MDSI | 1 | 42 h | ✓ | FR |  |
+| 2025-2026 | Master | MDSI | 1 | 42 h | ✓ | FR |  |
+
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/FundamentalsNLP](https://github.com/Aymenbenbrik/FundamentalsNLP)
+
+## Supports pédagogiques
+
+| Ressource | Statut | Lien |
+|---|---|---|
+| Fiche module | Disponible | [Voir](https://github.com/Aymenbenbrik/FundamentalsNLP/blob/main/Module%20sheet/module-sheet.pdf) |
+| Polycopié | Disponible | [Voir](https://github.com/Aymenbenbrik/FundamentalsNLP/blob/main/Full-course/FundamentalsNLP-Complete.pdf) |
+| Slides | Disponible | [Voir](https://github.com/Aymenbenbrik/FundamentalsNLP/blob/main/Slides/slides.pdf) |
+| TP | Disponible | [Voir](https://github.com/Aymenbenbrik/FundamentalsNLP/tree/main/Notebooks) |
+| TD | Réservé aux étudiants | — |
+
+---
+
+::: {.callout-note}
+Page générée automatiquement à partir de `data/enseignements_detailed.csv`
+(source : `Passage de grade/Enseignement.xlsx`).
+:::

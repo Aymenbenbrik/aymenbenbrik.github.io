@@ -66,7 +66,7 @@ chapitre et les ressources annexes, consulter la fiche détaillée :
 | Ressource | Statut | Lien |
 |---|---|---|
 | Fiche module | Disponible | — |
-| Polycopié | À venir | [Voir](nan) |
+| Polycopié | À venir | — |
 | Slides | Disponible | — |
 | TP | Disponible | — |
 | TD | Réservé aux étudiants | — |

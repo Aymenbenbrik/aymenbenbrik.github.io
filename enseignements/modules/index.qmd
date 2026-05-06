@@ -49,6 +49,7 @@ Cliquez sur un module pour accéder à sa fiche.
 | [Machine Learning](machine-learning.qmd) | 126 h | 2 |
 | [Machine Learning (non supervisé)](machine-learning-non-supervise.qmd) | 42 h | 1 |
 | [Machine Learning (supervisé)](machine-learning-supervise.qmd) | 42 h | 1 |
+| [NLP - Natural Language Processing](nlp-natural-language-processing.qmd) | 168 h | 4 |
 | [Optimisation numérique](optimisation-numerique.qmd) | 84 h | 4 |
 | [Outillage Machine Learning](outillage-machine-learning.qmd) | 63 h | 2 |
 | [Programmation Python 2](programmation-python-2.qmd) | 42 h | 2 |
