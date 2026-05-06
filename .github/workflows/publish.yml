@@ -6,13 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  contents: write   # required to push to gh-pages branch
 
 jobs:
   build-deploy:
@@ -35,21 +29,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Render Quarto site
-        run: quarto render
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      # Pages is configured to "Deploy from branch: gh-pages",
+      # so we use quarto-actions/publish which pushes the rendered
+      # site to gh-pages and lets GitHub auto-build Pages from it.
+      - name: Render and publish to gh-pages
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
-          path: _site
-
-  deploy:
-    needs: build-deploy
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
