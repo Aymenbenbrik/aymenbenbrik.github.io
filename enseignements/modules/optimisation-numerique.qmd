@@ -53,6 +53,14 @@ toc: true
 | 2023-2024 | Master | GAMMA | 1 | 21 h | ✓ | FR |  |
 | 2025-2026 | Master | GAMMA | 1 | 21 h | ✓ | FR |  |
 
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/OptimisationNumerique](https://github.com/Aymenbenbrik/OptimisationNumerique)
+
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_2974_1/outline)
+
 ---
 
 ::: {.callout-note}

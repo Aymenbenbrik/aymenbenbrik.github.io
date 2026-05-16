@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Aymen Ben Brik"
-  description: "Head of Department CSAM · Esprit School of Business · AI4U Lead"
+  description: "Chef département Informatique et mathématiques appliquées · Esprit School of Business · AI4U Lead"
   site-url: https://aymen-benbrik.github.io
   repo-url: https://github.com/Aymenbenbrik/aymen-benbrik.github.io
   favicon: images/favicon.png
@@ -24,15 +24,17 @@ website:
           - href: enseignements/index.qmd
             text: "Vue d'ensemble"
           - href: enseignements/modules/index.qmd
-            text: "📚 Catalogue des 43 modules"
+            text: "📚 Catalogue des 42 modules"
+          - href: capsules-video.qmd
+            text: "🎬 Capsules vidéo (YouTube)"
           - text: "── Mathématiques ──"
-          - href: enseignements/algebre2.qmd
+          - href: enseignements/algebre-2.qmd
             text: "Algèbre 2 (ECUE211)"
-          - href: enseignements/algebre3.qmd
+          - href: enseignements/algebre-3.qmd
             text: "Algèbre 3 (ECUE311)"
           - href: enseignements/probabilites.qmd
             text: "Probabilités (ECUE411)"
-          - href: enseignements/analyse4.qmd
+          - href: enseignements/analyse-4.qmd
             text: "Analyse 4 (ECUE421)"
           - href: enseignements/recherche-operationnelle.qmd
             text: "Recherche Opérationnelle (ECUEO412)"
@@ -41,14 +43,14 @@ website:
             text: "Machine Learning"
           - href: enseignements/deep-learning.qmd
             text: "Deep Learning"
-          - href: enseignements/nlp.qmd
+          - href: enseignements/nlp-natural-language-processing.qmd
             text: "NLP"
           - href: enseignements/generative-computer-vision.qmd
             text: "Generative Computer Vision"
           - href: enseignements/python-programming.qmd
             text: "Python Programming"
-          - href: enseignements/tools-for-ml.qmd
-            text: "Tools for ML"
+          - href: enseignements/outillage-machine-learning.qmd
+            text: "Outillage Machine Learning"
           - text: "── Finance & Actuariat ──"
           - href: enseignements/portfolio-optimization.qmd
             text: "Portfolio Optimization"

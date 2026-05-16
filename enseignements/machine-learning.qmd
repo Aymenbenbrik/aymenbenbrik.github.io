@@ -10,6 +10,16 @@ Module créé en **2021–2022** dans le cadre de l'évolution du curriculum
 data science d'ESB, puis maintenu et enrichi chaque année.
 Approche par projet avec datasets réels.
 
+<!-- BB-LINKS:START -->
+## Espace Blackboard
+
+::: {.callout-tip appearance="simple"}
+**Espace(s) cours sur Blackboard ESB :**
+
+- **BA M1** : [https://esprit.blackboard.com/ultra/courses/_3030_1/outline](https://esprit.blackboard.com/ultra/courses/_3030_1/outline)
+:::
+<!-- BB-LINKS:END -->
+
 ## Acquis d'apprentissage
 
 - **AA1** — Comprendre la dichotomie supervisé / non supervisé / renforcement
@@ -49,4 +59,4 @@ Approche par projet avec datasets réels.
 ## Prolongements
 
 Module précurseur de **[Deep Learning](deep-learning.qmd)**,
-**[NLP](nlp.qmd)** et **[Tools for Machine Learning](tools-for-ml.qmd)**.
+**[NLP](nlp-natural-language-processing.qmd)** et **[Outillage Machine Learning](outillage-machine-learning.qmd)**.

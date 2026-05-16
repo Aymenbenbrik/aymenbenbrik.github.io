@@ -14,16 +14,16 @@ toc: true
 | **Téléphone · Skype** | +216 94 937 226 · aymenbenbrik.skype |
 | **Adresse** | Résidence El Mesk, Appart. A12, Cité des palmeraies, Aouina 2045 Tunis |
 | **Établissement** | Esprit School of Business · Esprit Tech |
-| **Fonction** | Head of Department CSAM · Head of Research Team AI4U |
+| **Fonction** | Chef département Informatique et mathématiques appliquées · Head of Research Team AI4U |
 
 ## Expériences professionnelles
 
 ::: {.card-module}
-### 2019 — présent · Head of Department CSAM
+### 2019 — présent · Chef département Informatique et mathématiques appliquées
 *Esprit School of Business*
 
-**CSAM Departement** : Computer Science & Applied Mathematics.
-Direction du département (passé de Co-Chef en 2019 à Head of Department),
+**Département Informatique et mathématiques appliquées**.
+Direction du département (passé de Co-Chef en 2019 à Chef du département),
 supervision des enseignants permanents et vacataires, coordination pédagogique
 des modules de mathématiques, statistiques, RO, ML, DL.
 :::
@@ -42,6 +42,16 @@ Artificial Intelligence program for Jems Group.
 
 **AI4U** : Artificial Intelligence 4 University. Direction d'une équipe
 de recherche dédiée aux applications de l'IA dans l'enseignement supérieur.
+:::
+
+::: {.card-module}
+### 09/2024 — présent · Membre permanent du Steering Committee BGA
+*Business Graduates Association — ESB*
+
+Porteur du dossier d'accréditation IMA : 5 matrices PLO-CLO,
+**72 syllabi BGA-format**, **16 CARs**, **6 PLAR trajectoires**,
+co-développement **Metric 3.1** avec Ghada Makni, workshop interne
+facilité (24–28 mars 2025, 30 enseignants).
 :::
 
 ::: {.card-module}

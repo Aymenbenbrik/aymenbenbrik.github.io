@@ -54,6 +54,10 @@ toc: true
 
 - [https://github.com/Aymenbenbrik/Supervised-Learning](https://github.com/Aymenbenbrik/Supervised-Learning)
 
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_26557_1/outline)
+
 ---
 
 ::: {.callout-note}

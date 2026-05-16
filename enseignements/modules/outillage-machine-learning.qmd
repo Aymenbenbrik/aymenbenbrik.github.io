@@ -56,11 +56,15 @@ toc: true
 Pour le programme complet, les objectifs d'apprentissage, le découpage par
 chapitre et les ressources annexes, consulter la fiche détaillée :
 
-→ [Voir la fiche pédagogique de Outillage Machine Learning](../tools-for-ml.qmd)
+→ [Voir la fiche pédagogique de Outillage Machine Learning](../outillage-machine-learning.qmd)
 
 ## Code & supports sur GitHub
 
 - [https://github.com/Aymenbenbrik/Supervised-Learning](https://github.com/Aymenbenbrik/Supervised-Learning)
+
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_2962_1/outline)
 
 ---
 

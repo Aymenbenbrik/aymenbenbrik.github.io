@@ -50,6 +50,10 @@ toc: true
 |---|---|---|---|---|---|---|---|
 | 2020-2021 | Master | CCA | 1 | 10 h | ✓ | FR | NOUVEAU |
 
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_3002_1/outline)
+
 ---
 
 ::: {.callout-note}

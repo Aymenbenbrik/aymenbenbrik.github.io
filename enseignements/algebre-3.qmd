@@ -12,6 +12,16 @@ quadratiques et l'analyse en composantes principales.
 
 Volume : 75h = 42C + 27TD + 9TP + 6 projet.
 
+<!-- BB-LINKS:START -->
+## Espace Blackboard
+
+::: {.callout-tip appearance="simple"}
+**Espace(s) cours sur Blackboard ESB :**
+
+- **LMAD L2** : [https://esprit.blackboard.com/ultra/courses/_26548_1/outline](https://esprit.blackboard.com/ultra/courses/_26548_1/outline)
+:::
+<!-- BB-LINKS:END -->
+
 ## Acquis d'apprentissage
 
 - **AA1** — Réduire les endomorphismes (diagonalisation, trigonalisation)

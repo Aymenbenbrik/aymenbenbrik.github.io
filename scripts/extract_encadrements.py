@@ -56,15 +56,17 @@ def detect_type_projet(formation):
 
 def to_status(remarque, mention):
     """Determine le statut en fonction des annotations."""
-    r = str(remarque or "").lower()
-    m = str(mention or "").lower()
+    r = str(remarque or "").lower().strip()
+    m = str(mention or "").lower().strip()
+    if "en cours" in r:
+        return "En cours"
     if "redouble" in r or "abandon" in r:
         return "Archivé"
     if "co-encadrement" in r:
         return "Soutenu (co-encadrement)"
-    if any(x in m for x in ["tres bien", "très bien", "bien", "passable", "assez bien"]):
+    if any(x in m for x in ["tres bien", "très bien", "bien", "passable", "assez bien", "excellent"]):
         return "Soutenu"
-    return "Soutenu" if remarque or mention else "Terminé"
+    return "Soutenu" if (r and r != "nan") or (m and m != "nan") else "Terminé"
 
 
 # === 1. AI4U Projects (Maitre de stage + Product Owner + Stage d'ete) ===
@@ -92,6 +94,8 @@ for _, r in ms.iterrows():
         role = "Co-encadrant"
     else:
         role = role_str or "Maître de stage"
+    annee_str = str(r["Année"]).strip()
+    statut = "En cours" if annee_str.startswith("2025") else "Terminé"
     ai4u_rows.append({
         "annee": r["Année"],
         "nom": r["Nom"],
@@ -102,7 +106,7 @@ for _, r in ms.iterrows():
         "domaine": detect_type_projet(r.get("Formation", "")),
         "cooperation": str(r.get("Cooperation") or "Non"),
         "type": "AI4U",
-        "statut": "Terminé",
+        "statut": statut,
         "sujet": "",
     })
 for _, r in se.iterrows():
@@ -146,6 +150,8 @@ for _, r in enc.iterrows():
         "statut": to_status(r.get("Remarque"), r.get("Mention")),
     })
 for _, r in rap.iterrows():
+    annee_str = str(r["Année"]).strip()
+    statut = "En cours" if annee_str.startswith("2025") else "Soutenu"
     acad_rows.append({
         "annee": r["Année"],
         "nom": r["Nom"],
@@ -157,7 +163,7 @@ for _, r in rap.iterrows():
         "domaine": detect_type_projet(r.get("Formation", "")),
         "remarque": "",
         "mention": "",
-        "statut": "Soutenu",
+        "statut": statut,
     })
 acad_df = pd.DataFrame(acad_rows)
 acad_df.to_csv(OUT / "encadrement_academique.csv", index=False)
@@ -216,28 +222,30 @@ for _, r in enc.iterrows():
 
 # Rapporteur
 for _, r in rap.iterrows():
+    annee_str = str(r["Année"]).strip()
     legacy_rows.append({
         "annee": _annee_int(r["Année"]),
-        "annee_universitaire": str(r["Année"]).strip(),
+        "annee_universitaire": annee_str,
         "etudiant": f"{str(r.get('Prénom') or '').strip()} {str(r['Nom']).strip()}".strip(),
         "sujet": "",
         "type": "Rapporteur",
         "filiere": str(r.get("Formation") or "").strip(),
-        "statut": "Soutenu",
+        "statut": "En cours" if annee_str.startswith("2025") else "Soutenu",
         "co_encadrant": "",
     })
 
 # Maitre de stage / Product Owner AI4U
 for _, r in ms.iterrows():
     role_str = str(r.get("Rôle") or "").strip()
+    annee_str = str(r["Année"]).strip()
     legacy_rows.append({
         "annee": _annee_int(r["Année"]),
-        "annee_universitaire": str(r["Année"]).strip(),
+        "annee_universitaire": annee_str,
         "etudiant": f"{str(r.get('Prénom') or '').strip()} {str(r['Nom']).strip()}".strip(),
         "sujet": "",
         "type": f"AI4U ({role_str})" if role_str else "AI4U",
         "filiere": str(r.get("Formation") or "").strip(),
-        "statut": "Terminé",
+        "statut": "En cours" if annee_str.startswith("2025") else "Terminé",
         "co_encadrant": "",
     })
 
@@ -256,14 +264,15 @@ for _, r in se.iterrows():
 
 # President de jury (en tant que jury, non encadrement)
 for _, r in pj.iterrows():
+    annee_str = str(r["Année"]).strip()
     legacy_rows.append({
         "annee": _annee_int(r["Année"]),
-        "annee_universitaire": str(r["Année"]).strip(),
+        "annee_universitaire": annee_str,
         "etudiant": f"{str(r.get('Prénom') or '').strip()} {str(r['Nom']).strip()}".strip(),
         "sujet": "",
         "type": "Président de jury",
         "filiere": str(r.get("Formation") or "").strip(),
-        "statut": "Soutenu",
+        "statut": "En cours" if annee_str.startswith("2025") else "Soutenu",
         "co_encadrant": "",
     })
 

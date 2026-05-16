@@ -54,6 +54,10 @@ toc: true
 
 - [https://github.com/Aymenbenbrik/MarketingDataAnalysis](https://github.com/Aymenbenbrik/MarketingDataAnalysis)
 
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_26552_1/outline)
+
 ---
 
 ::: {.callout-note}

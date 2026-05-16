@@ -10,6 +10,16 @@ Module de probabilités pour les étudiants de S4 LMAD,
 84 heures réparties en cours (36h), TD (36h), TP Python (9h)
 et projet (3h).
 
+<!-- BB-LINKS:START -->
+## Espace Blackboard
+
+::: {.callout-tip appearance="simple"}
+**Espace(s) cours sur Blackboard ESB :**
+
+- **LMAD L3** : [https://esprit.blackboard.com/ultra/courses/_26563_1/outline](https://esprit.blackboard.com/ultra/courses/_26563_1/outline)
+:::
+<!-- BB-LINKS:END -->
+
 ## Acquis d'apprentissage
 
 - **AA1** — Construire et manipuler des espaces probabilisés

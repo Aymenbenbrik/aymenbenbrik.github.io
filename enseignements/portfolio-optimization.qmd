@@ -14,6 +14,16 @@ S'inscrit dans la continuité de mon **MSc Applied Mathematics — Actuarial
 Science Track** (Paris Dauphine Tunis) et de mon expertise actuariat
 établie depuis 2016.
 
+<!-- BB-LINKS:START -->
+## Espace Blackboard
+
+::: {.callout-note appearance="simple"}
+**Espace Blackboard ESB** — création en cours pour ce module nouveau
+2025–2026 (Master GAMMA / Alternance BA). Une fois ouvert, le lien
+direct sera ajouté ici.
+:::
+<!-- BB-LINKS:END -->
+
 ## Acquis d'apprentissage
 
 - **AA1** — Théorie moderne du portefeuille (Markowitz)

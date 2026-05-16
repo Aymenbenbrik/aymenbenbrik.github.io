@@ -119,7 +119,20 @@ sessions sur :
 
 ## Reviewing & expertise
 
-À compléter (selon participations à comités de relecture).
+::: {.card-module}
+### Reviewer · WEITA 2026 — *Workshop on Education, ICT and AI*
+**17 avril 2026, ESPRIT (Tunis).** Évaluation d'**oral presentations** et de
+**posters** soumis au workshop (4 dimensions : pertinence, originalité,
+rigueur, impact). Distinctions personnelles obtenues : **1er prix oral
+(OP-06, équipe Kammoun/Abidi/Ben Brik)** et **2e prix oral (OP-09, Ben
+Brik solo, ESB-Learning)**.
+:::
+
+::: {.card-module}
+### Jurys de PFE / Masters / Mémoires · depuis 2017
+**621 encadrements et participations à jurys cumulés** à ESB (PFE LMAD,
+masters MDSI/MKD/MBA/GAMMA, séminaires). Voir page [Encadrements](encadrements.qmd).
+:::
 
 ## Veille technologique
 
@@ -128,19 +141,251 @@ Voir [Certifications](certifications.qmd) — 16 certifications obtenues
 
 ## Publications
 
-À compléter — voir `data/publications.bib`.
-
-## Projet RDI 2026–2028
-
-Section requise par le **Livrable 1** du dossier de passage de grade EFS.
+### Article de revue scientifique — en proof (2026)
 
 ::: {.card-module}
-### Axes
-1. **Pédagogie augmentée par GenAI** — capsules génératives, simulateurs LLM, évaluation automatisée
-2. **AI4U — outils de personnalisation de l'apprentissage** dans l'enseignement supérieur
-3. **Computer Vision générative** appliquée à l'analyse de productions étudiantes
-4. **NLP / LLM** pour l'aide à l'apprentissage
+### IJQSS 2026 — *What Makes a University Sustainable in the Eyes of its Core Community? Sustainability Expectation–Perception Gap*
+**Auteurs** : S. Tebessi, I. Dimassi, **A. Ben Brik**.
+
+**Revue** : *International Journal of Quality and Service Sciences*
+([IJQSS](https://www.emerald.com/insight/publication/issn/1756-669X)),
+Emerald Publishing — indexé **Scopus** et **Web of Science**. Manuscript ID :
+`IJQSS-02-2026-0065`. **Statut** : Proof revision (acceptée, en production).
+
+Premier livrable du **Working Group #2 — University Sustainability
+Performance Index (USPI)** (cycle 09/2025 – 03/2027, cible 8 publications).
 :::
 
-À détailler avec objectifs scientifiques, plan de travail trimestriel,
-productions attendues, partenariats Jems Group / HUU / Esprit Tech.
+### Communications dans des conférences internationales
+
+::: {.card-module}
+### AfricaTek 2025 — *Best Paper Award*
+*Evaluation of Large Language Models in Simulating Real-world Engineering
+Scenarios and Decision Making: A Comparative Study of ChatGPT-4o, Gemini,
+and Perplexity*
+
+**Auteurs** : F. Kamoun (ESPRIT, ORCID 0000-0002-3740-1452), F. Iqbal
+(Zayed University, UAE, ORCID 0000-0001-9081-3598), H. Abidi,
+**A. Ben Brik**. Données suppl. : `figshare` DOI
+[10.6084/m9.figshare.28735043.v1](https://doi.org/10.6084/m9.figshare.28735043.v1).
+:::
+
+::: {.card-module}
+### CDIO 2024 — 20<sup>th</sup> International CDIO Conference (ESPRIT, 10-13/06/2024)
+*ChatGPT as a Co-pilot for Assessment Design Refinement: An Exploratory Study*
+
+**Auteurs** : F. Kamoun, **A. Ben Brik**, I. Rebhi, S. Besbes, H. Abidi,
+A. Baghdadi, R. Ammar (ESPRIT School of Engineering + ESPRIT School of Business).
+:::
+
+### WEITA 2026 — *Workshop on Education, ICT and AI* (ESPRIT, 17/04/2026)
+
+::: {.card-module}
+- **Oral OP-06 (1<sup>er</sup> prix)** — *Designing AI-Augmented Assessment Ecosystems* — F. Kammoun, H. Abidi, **A. Ben Brik**
+- **Oral OP-09 (2<sup>e</sup> prix)** — *Intelligent Learning and Assessment Ecosystems (ESB-Learning)* — **A. Ben Brik** (solo)
+- **Poster POS-17** — *RecruScore : Multi-Agent AI Pipeline*
+- **Poster POS-28** — *Breaking Language Barriers with Inclusive AI*
+- **Reviewer** au comité de relecture scientifique
+:::
+
+### Communications soumises — IEEE CIFEr 2026
+
+::: {.card-module}
+### IEEE CIFEr 2026 (Paper #166) — *Reproducibility-First Multi-Component Forecasting for Illiquid Equity Markets: Baselines, Ablations, and a Documented Discrepancy on the Tunisian Stock Exchange*
+**Auteur** : **A. Ben Brik**.
+
+**Conférence** : *IEEE Computational Intelligence in Financial Engineering and Economics 2026* (CIFEr 2026 track),
+IEEE Computational Intelligence Society. **Statut** : *Submission created* (mai 2026).
+
+Pipeline *reproducibility-first* combinant **Temporal Fusion Transformer (TFT)**,
+XGBoost (fondamentaux), sentiment NLP financier, **Graph Attention Networks**
+et interprétation SHAP — appliqué à la **Bourse de Tunis (BVMT)** : 68 titres,
+2016–2025, 116 626 enregistrements. Résultat clé : TFT v3 atteint **51.79 %**
+*directional accuracy* (IC 95 % [50.43, 53.08]) et révèle une discordance
+documentée vs baselines classiques.
+:::
+
+::: {.card-module}
+### IEEE CIFEr 2026 (Paper #130) — *Unsupervised Behavioral Anomaly Detection on Prepaid-Card Transactions: A Six-Detector Two-Family Ensemble with Domain-Informed Features*
+**Auteurs** : R. Ayed (primary), **A. Ben Brik**.
+
+**Conférence** : *IEEE CIFEr 2026* (track CIFEr2026). **Statut** : *Submission created* (mai 2026).
+
+Framework non supervisé combinant **Family A** (Isolation Forest, FeedForward
+Autoencoder) et **Family B** (LSTM Autoencoder, TranAD, Anomaly Transformer,
+TFT-residual). Évaluation sur **1 590 251 transactions** réelles, 3.27 % de
+*user-days* suspects détectés, **94 % d'analyst-load reduction**. Déployé comme
+outil Flask decision-support.
+:::
+
+### Mémoires académiques
+
+::: {.card-module}
+### Master's Thesis — *Equidistribution of Eigenvalues of Hecke Operators Applied to Modular Forms* (2010)
+**Faculty of Sciences of Tunis** — Master's Degree in Fundamental Mathematics,
+Number Theory. **Honors : Very Good**. Théorie des nombres, formes modulaires,
+conjectures de Sato-Tate.
+:::
+
+### Axes de recherche actifs (papiers en préparation 2026–2028)
+
+- ~~**Détection de fraude — cartes prépayées Pluxee**~~ → **soumis à IEEE CIFEr 2026 (Paper #130)**
+- ~~**Modélisation BVMT — Bourse de Tunis**~~ → **soumis à IEEE CIFEr 2026 (Paper #166)**
+- **Centipede Game** — théorie des jeux comportementaux
+- **Mean Field Games** appliqués aux LLMs pédagogiques (extension ESB-Learning)
+- **Indice de durabilité universitaire hybride** SEM + AHP + IA (avec Ichraf et Sana)
+
+### Bibliographie BibTeX
+
+Source : [`data/publications.bib`](data/publications.bib).
+
+## Projet phare : ESB-Learning — Plateforme Agentic AI
+
+::: {.card-module}
+### ESB-Learning — Apprentissage adaptatif augmenté par l'IA
+
+Plateforme d'apprentissage adaptatif de nouvelle génération, conçue,
+développée et déployée pour Esprit School of Business. Elle se distingue
+des LMS classiques (Moodle, Blackboard) par une architecture **nativement
+Agentic AI** : cinq agents autonomes raisonnent, planifient, appellent
+des outils et s'auto-corrigent pour piloter l'expérience pédagogique
+de bout en bout.
+
+**Chiffres-clés**
+
+| Composants IA | Agents autonomes | Outils MCP | Langages code | Lignes (Py+TS) |
+|:---:|:---:|:---:|:---:|:---:|
+| **37** | **5** | **30+** | **6** | **~50 000** |
+
+**Stack technique**
+
+- **LLMs** : Google Gemini 2.5-Flash / 2.5-Pro / 2.0+ Vision (multimodal)
+- **Framework agents** : LangGraph (StateGraph, ReAct), LangChain
+- **NLP local** : TunBERT (BERT-base 768 dim, dialecte tunisien)
+- **RAG hybride** : SentenceTransformer + ChromaDB + BM25 + indexation YouTube native
+- **Sandbox code** : Piston (Python, SQL, R, Java, C, C++)
+- **Outils structurés** : protocole MCP (Model Context Protocol, Anthropic, fin 2024)
+- **Backend / Frontend** : Flask + SQLAlchemy / Next.js 14 + TypeScript + shadcn/ui
+:::
+
+### Les cinq agents autonomes
+
+::: {.card-module}
+| Agent | Pattern | Capacités | Rôle pédagogique |
+|---|---|---|---|
+| **Assistant** | ReAct | 9 outils + skills modulaires | Chatbot pédagogique trilingue (FR / EN / dialecte tunisien), entrée et sortie vocales. |
+| **Coach** | StateGraph 4 nœuds | Bloom, lacunes, plan d'étude | Analyse de performance, détection des lacunes, plan d'étude personnalisé. |
+| **Exam Analyzer** | StateGraph async 10 étapes | 11 outils MCP, Gemini Flash + Pro | Analyse pédagogique d'examen : classification AA + Bloom, génération LaTeX, feedback, méta-évaluation. |
+| **TP Création** | StateGraph 5 nœuds | 8 outils MCP | Génération automatique d'énoncés de TP alignés AA, solution de référence, critères. |
+| **TP Correction** | StateGraph 2 nœuds | Sandbox Piston + LLM | Correction automatique sémantique des soumissions, note + justification. |
+:::
+
+### Apports R&D différenciants
+
+- **Architecture nativement Agentic AI** (vs IA-augmentée) : les agents
+  décident eux-mêmes des outils à enchaîner ; l'humain valide en bout
+  de chaîne.
+- **Pipeline d'analyse d'examen en 10 étapes** orchestrées par un
+  StateGraph asynchrone — pratique encore rare en production dans les
+  outils éducatifs.
+- **Triple-LLM coordonné** (Gemini 2.5-Flash pour le débit, 2.5-Pro pour
+  le raisonnement profond, 2.0+ Vision pour vidéo/image) avec stratégie
+  de sélection adaptée à chaque tâche.
+- **RAG hybride quadruple** : CAG sur résumés + ChromaDB vectoriel + BM25
+  lexical + YouTube natif.
+- **TunBERT** intégré comme agent de pré-traitement pour le dialecte
+  tunisien : NLP en langue sous-dotée, problématique de recherche peu
+  explorée dans les LMS commerciaux.
+- **Protocole MCP** adopté précocement (standard ouvert publié par
+  Anthropic fin 2024) — interopérabilité native avec l'écosystème IA moderne.
+- **Méta-cognition** : l'Exam Analyzer évalue lui-même la qualité de la
+  proposition d'examen qu'il a générée.
+
+### Contributions personnelles
+
+ESB-Learning est conçu et développé par **un développeur unique** (le porteur).
+
+- Conception architecturale globale (patterns, SkillManager central, stratégie multi-LLM, stratégie RAG hybride).
+- Développement des cinq agents autonomes (~3 700 lignes de Python).
+- Conception des **plus de 30 outils MCP** avec schémas JSON et tests unitaires.
+- Intégration TunBERT (lazy-loading, embeddings d'ancrage, singleton thread-safe).
+- Frontend Next.js 14 : espaces Étudiant / Enseignant / Administrateur, widget assistant vocal.
+- Audit interne du système Agentic AI (rapport d'avril 2026, score B+ 7/10).
+
+### Calendrier de déploiement
+
+::: {.card-module}
+| Phase | Description |
+|---|---|
+| **Juin 2026** — Pilote | Déploiement hébergé avec **CI/CD** (DevOps) et **MLOps** pour les modèles IA. Test sur la classe **Master Business Analytics** (~50 étudiants). Recueil systématique de feedbacks via *surveys*. |
+| **Septembre 2026** — Lancement officiel | Déploiement progressif par formation, validation à chaque palier. |
+| **Cible finale** | Charge supportée : **3 000 étudiants** et **300 enseignants**. |
+:::
+
+### Gouvernance, modération et conformité
+
+- **Pilotage technique** : assuré par le porteur ; **rapports d'utilisation et de performances** transmis régulièrement à un comité institutionnel formé par la Direction Générale, la Direction des Études et la Direction Administrative et Financière.
+- **Modération humaine** : assurée par le porteur. Aucune production des agents IA n'est diffusée sans validation pédagogique.
+- **Feedback utilisateurs** : enquêtes prêtes dès la phase de test, communication régulière des résultats au comité.
+- **Conformité légale** : respect des règles applicables (protection des données, sécurité, droit du numérique).
+- **Propriété intellectuelle** : 100 % au porteur. Déploiement strictement limité à ESB à ce stade ; toute commercialisation éventuelle relèvera des règles fixées par la direction.
+- **Production scientifique envisagée** : plusieurs articles, **auteur unique** à ce stade.
+- **Modèle économique** : rapport détaillé des coûts (API LLM, hébergement, maintenance) en cours de préparation.
+
+::: {.callout-note}
+La description détaillée — pipelines complets de chaque agent, couche de
+prompt engineering par strate, besoins fonctionnels par acteur — est
+fournie dans le **Livrable 1 Production RDI** (annexe ESB-Learning).
+:::
+
+## Projet RDI 2026–2028 — Continuité d'ESB-Learning
+
+Le projet RDI 2026–2028 prolonge directement les travaux engagés sur
+ESB-Learning et l'inscrit dans une trajectoire scientifique cohérente
+articulée autour de trois axes complémentaires.
+
+::: {.card-module}
+### Axe 1 — Consolidation et valorisation scientifique d'ESB-Learning
+Renforcement de l'autonomie des agents (*self-reflection*, mémoire
+longue, planification multi-tours), industrialisation de la plateforme
+(montée en charge à 3 000 étudiants et 300 enseignants), publication
+des résultats scientifiques.
+:::
+
+::: {.card-module}
+### Axe 2 — NLP en langue sous-dotée et inclusivité linguistique
+Extension du modèle TunBERT à l'arabe standard et aux dialectes
+maghrébins ; expérimentation de modèles ouverts (Llama 3, Mistral) en
+complément de Gemini, pour des raisons de souveraineté et de coûts.
+:::
+
+::: {.card-module}
+### Axe 3 — Pédagogie augmentée par l'IA générative
+Capsules génératives, simulateurs LLM pour les enseignements
+quantitatifs (statistique, optimisation, séries temporelles), évaluation
+automatisée à l'échelle, instrumentation des Acquis d'Apprentissage.
+:::
+
+### Plan de travail (résumé)
+
+| Période | Étape clé |
+|---|---|
+| **T1 2026** (juin–août) | Pilote Master BA + CI/CD + MLOps + premiers surveys |
+| **T2 2026** (sept–nov) | Lancement officiel + rapport de coûts |
+| **T3 2026** (déc–fév 2027) | Renforcement autonomie agents + protocole évaluation comparative |
+| **T4 2026** (mars–mai 2027) | 1er article scientifique + rapport d'impact intermédiaire |
+| **T1 2027** (juin–août) | Extension TunBERT arabe + benchmark Llama/Mistral |
+| **T2 2027** (sept–nov) | Montée en charge cible + cadre de conformité |
+| **T3 2027** (déc–fév 2028) | Capsules génératives + simulateurs LLM |
+| **T4 2027** (mars–mai 2028) | 2e article scientifique + bilan général |
+
+### Productions attendues
+
+- **2 à 3 articles scientifiques** (auteur unique à ce stade) — Agentic AI multi-agents en éducation, intégration TunBERT, méta-cognition d'agent évaluateur.
+- **Versions successives d'ESB-Learning** + bibliothèque de capsules génératives.
+- **Encadrements RDI** : sujets de PFE et de Mémoires de Master adossés au projet.
+- **Rapports institutionnels** réguliers transmis au comité de la direction.
+
+À ce stade, le projet est conduit **sans partenariat externe formalisé** ;
+des collaborations académiques ou industrielles pourront être envisagées
+en 2026–2028, selon les règles fixées par la direction de l'établissement.

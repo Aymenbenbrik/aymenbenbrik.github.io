@@ -61,6 +61,10 @@ chapitre et les ressources annexes, consulter la fiche détaillée :
 
 - [https://github.com/Aymenbenbrik/GenerativeComputerVision](https://github.com/Aymenbenbrik/GenerativeComputerVision)
 
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_26556_1/outline)
+
 ## Supports pédagogiques
 
 | Ressource | Statut | Lien |

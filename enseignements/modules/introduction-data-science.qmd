@@ -50,6 +50,14 @@ toc: true
 |---|---|---|---|---|---|---|---|
 | 2022-2023 | Licence | LMAD | 1 | 21 h | ✓ | FR | NOUVEAU |
 
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/FundamentalsNLP](https://github.com/Aymenbenbrik/FundamentalsNLP)
+
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_26558_1/outline)
+
 ---
 
 ::: {.callout-note}

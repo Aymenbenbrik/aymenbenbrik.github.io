@@ -14,6 +14,17 @@ Deux modules complémentaires créés en **2022–2023** :
 Couverture orientée **data science** et **IA**, avec focus sur la
 reproductibilité (seeds, environnements, packaging).
 
+<!-- BB-LINKS:START -->
+## Espace Blackboard
+
+::: {.callout-tip appearance="simple"}
+**Espace(s) cours sur Blackboard ESB :**
+
+- **LMAD L2 — Python 2** : [https://esprit.blackboard.com/ultra/courses/_26567_1/outline](https://esprit.blackboard.com/ultra/courses/_26567_1/outline)
+- **LMAD L2 — Python 3** : [https://esprit.blackboard.com/ultra/courses/_26568_1/outline](https://esprit.blackboard.com/ultra/courses/_26568_1/outline)
+:::
+<!-- BB-LINKS:END -->
+
 ## Acquis d'apprentissage
 
 ### Python Programming (initiation)
@@ -81,6 +92,6 @@ facilite le debugging, l'évaluation et la collaboration.
 ## Prolongements
 
 Modules transverses qui sous-tendent **[Machine Learning](machine-learning.qmd)**,
-**[Deep Learning](deep-learning.qmd)**, **[NLP](nlp.qmd)**,
+**[Deep Learning](deep-learning.qmd)**, **[NLP](nlp-natural-language-processing.qmd)**,
 **[Generative Computer Vision](generative-computer-vision.qmd)**
-et **[Tools for Machine Learning](tools-for-ml.qmd)**.
+et **[Outillage Machine Learning](outillage-machine-learning.qmd)**.

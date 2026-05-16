@@ -101,6 +101,125 @@ Animation d'un atelier de jeux de logique. Participation également avec
 le club B-Movie.
 :::
 
+## Lancements de partenariats récents
+
+::: {.card-module}
+### Parcours MDSI–Vermeg · 2024
+Lancement du parcours MDSI en partenariat avec **Vermeg** : 8 mémoires
+masters suivis en 2025–2026 (encadrement, rapport, présidence de jury).
+:::
+
+::: {.card-module}
+### Partenariat ODDO-BHF · 2023–2025
+Conception, encadrement et jury de **Projet Intégré M2 BA** (depuis 2023).
+:::
+
+::: {.card-module}
+### Partenariat Metavoria · 2024–2025
+**4 PFE** menés comme **Product Owner** (Master BA + Licence LBC-BI).
+:::
+
+::: {.card-module}
+### Partenariat Vistasy Start-up · 2025–2026
+**Maître de stage** d'un PFE Master BA.
+:::
+
+## Campagne Wajahni — Workshops d'orientation régionaux (GAFSA)
+
+::: {.card-module}
+### Wajahni GAFSA 2025 — « L'importance de l'IA dans les métiers futurs »
+**Intervention** *(10:50–11:35, 45 min)* dans le panel inter-universitaire
+(GFI University, APBS, North American University, Université Centrale, Esprit).
+Représentation officielle d'Esprit avec un thème **technologique/IA** distinctif
+parmi un panel à dominante carrière/management.
+:::
+
+::: {.card-module}
+### Wajahni GAFSA 2026 — « Métiers de 2030 : Choisir l'IA et la Data dès aujourd'hui »
+**2ᵉ année consécutive d'intervention** à GAFSA, dans la continuité de 2025.
+Cohérence directe avec la trajectoire de réhabilitation **LM(AD)² → LSD**
+*(Sciences des Données)* + pivot **AI4U Research Unit** depuis 2023.
+:::
+
+## Journées d'Opportunités Internationales (JOI) à ESB
+
+::: {.card-module}
+### JOI 2024 — couplée Forum des Masters · 06/03/2024
+Participation et représentation département IMA — préparation vidéo courte
+de présentation de la formation IMA.
+:::
+
+::: {.card-module}
+### JOI 2026 — 12/02/2026 (ESB)
+Participation + **production d'un retour stratégique** (25/02/2026) avec
+**5 pistes de double diplôme international identifiées** : Master GAMMA Parcours
+Assurances avec FIGS · Master GAMMA Management des risques avec PSTB ·
+Master BA Parcours 9+6 avec FIGS-EPSI · Licence LMAD avec Le Mans Université ·
+Master GAMMA Avenant DD Le Mans à partir du M1.
+:::
+
+## Strategic Plan ESB *(Comité Interne de Planification Stratégique)*
+
+::: {.card-module}
+### Strategic Plan 2022–2025 · Février 2022
+Membre du Comité Interne de Planification Stratégique d'ESB (ESB-SPC).
+Participation à la session SWOT *(07/02/2022)* + First Draft *(22/02/2022)* +
+**COS 22** *(Conseil d'Orientation Stratégique du 02/12/2022 à la Fondation Tunisie
+pour le Développement)*.
+:::
+
+::: {.card-module}
+### Strategic Plan 2026–2029 · Février 2026
+2ᵉ cycle stratégique consécutif. Workshop de planification stratégique
+*(8h00–13h30)* — alignement sur les standards d'accréditations
+**AMBA / BGA / AACSB**. Apports : vision LSD 2026, trajectoire AI4U,
+Honoris AI Task Force, partenariats industriels (iCompass, Jems, ATA, Vistasy, SAP),
+modèle de mentorat structurant (5 axes).
+:::
+
+## Knowledge Sharing — dispositif inspiré d'Elya Data
+
+::: {.card-module}
+### Knowledge Sharing IMA · depuis Septembre 2022
+**Initiateur** du dispositif à ESB *(proposition Direction)*, inspiré d'une bonne
+pratique observée chez la start-up Elya Data lors d'une visite Club MAD.
+**1ʳᵉ session animée le 21/09/2022** sur les méthodologies Agiles / SCRUM.
+Format hebdomadaire mercredi 14h + KS interdépartemental mensuel
+*(1ʳᵉ inter-dept 05/10/2022 amphi animée par IMA)*.
+:::
+
+::: {.card-module}
+### Knowledge Sharing AI4U · depuis Juillet 2024
+**1ʳᵉ session AI4U animée le 09/07/2024 sur « Architectures Deep Learning »**.
+4 sessions personnellement animées au total *(SCRUM, Tekouin, IA/ML, Architectures DL + Backward Propagation)*.
+:::
+
+## Collaboration B2B avec entreprises
+
+::: {.card-module}
+### Orange Tunisie — Formation Scrum Master · 2022
+Co-conception avec **Hanen Ben Hariz** *(responsable dossier ESB)* d'un
+programme de formation **compétences digitales** pour Orange — 2 axes :
+**Parcours Hybride** *(Coursera + présentiel, 6 mois)* + **PI MDSI 3 groupes M2**.
+**Aboutissement : 25 collaborateurs Orange formés Scrum Master**.
+:::
+
+## Ateliers stratégiques inter-institutionnels
+
+::: {.card-module}
+### Atelier ELIFE — Référentiel compétences numériques · 09/11/2021
+Participation au workshop + design des maquettes. Programme inter-institutionnel
+**Fondation Tunisie Développement + AFD + CNAM + ESPRIT** pour valider les
+référentiels de compétences sur 4 spécialités (dev logiciels, systèmes embarqués,
+business intelligence, community management).
+:::
+
+::: {.card-module}
+### CC4E — Comité d'organisation · 10/02/2022
+Membre de l'équipe d'organisation du programme **CC4E**, atelier stratégique de
+co-conception de parcours de formation adaptés aux besoins de l'emploi.
+:::
+
 ## Tableau interactif complet
 
 ```{python}

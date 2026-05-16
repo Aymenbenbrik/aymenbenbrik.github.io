@@ -56,6 +56,10 @@ toc: true
 
 - [https://github.com/Aymenbenbrik/AnalyseStatistiqueR](https://github.com/Aymenbenbrik/AnalyseStatistiqueR)
 
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_26553_1/outline|https://esprit.blackboard.com/ultra/courses/_26554_1/outline)
+
 ---
 
 ::: {.callout-note}

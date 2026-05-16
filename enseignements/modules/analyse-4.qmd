@@ -58,11 +58,15 @@ toc: true
 Pour le programme complet, les objectifs d'apprentissage, le découpage par
 chapitre et les ressources annexes, consulter la fiche détaillée :
 
-→ [Voir la fiche pédagogique de Analyse 4](../analyse4.qmd)
+→ [Voir la fiche pédagogique de Analyse 4](../analyse-4.qmd)
 
 ## Code & supports sur GitHub
 
 - [https://github.com/Aymenbenbrik/Analyse4](https://github.com/Aymenbenbrik/Analyse4)
+
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_26550_1/outline)
 
 ## Supports pédagogiques
 

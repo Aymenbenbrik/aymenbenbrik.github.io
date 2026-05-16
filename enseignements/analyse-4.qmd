@@ -12,6 +12,16 @@ différentiel multidimensionnel et les algorithmes d'optimisation
 
 Volume : 84h = 36C + 36TD + 6TP + 6 projet.
 
+<!-- BB-LINKS:START -->
+## Espace Blackboard
+
+::: {.callout-tip appearance="simple"}
+**Espace(s) cours sur Blackboard ESB :**
+
+- **LMAD L2** : [https://esprit.blackboard.com/ultra/courses/_26550_1/outline](https://esprit.blackboard.com/ultra/courses/_26550_1/outline)
+:::
+<!-- BB-LINKS:END -->
+
 ## Acquis d'apprentissage
 
 - **AA1** — Maîtriser la topologie de $\mathbb{R}^n$

@@ -158,6 +158,9 @@ def main():
     col_anglais = find_col("Anglais")
     col_domaine_xlsx = find_col("Domaine")
     col_lien = find_col("Lien")
+    col_youtube = find_col("Youtube")
+    col_blackboard = find_col("Blackboard")
+    col_remarque = find_col("Particularit")
 
     print(f"  Total module-rows lues : {len(df)}")
 
@@ -199,6 +202,15 @@ def main():
         else:
             domaine = detect_domain(module)
 
+        def _str_link(col):
+            if not col:
+                return ""
+            v = r.get(col)
+            if pd.isna(v):
+                return ""
+            s = str(v).strip()
+            return s if s and s.lower() != "nan" else ""
+
         rows.append({
             "domaine": domaine,
             "annee": str(r[annee_col]).strip(),
@@ -212,6 +224,9 @@ def main():
             "nouveau_module": to_bool(r.get(col_nouveau)),
             "ecole": "ESB",
             "lien_github": parse_liens(r.get(col_lien)) if col_lien else "",
+            "lien_youtube": _str_link(col_youtube),
+            "lien_blackboard": _str_link(col_blackboard),
+            "remarque": _str_link(col_remarque),
         })
 
     out_df = pd.DataFrame(rows)

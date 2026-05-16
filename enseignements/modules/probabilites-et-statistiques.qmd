@@ -54,7 +54,12 @@ toc: true
 
 ## Code & supports sur GitHub
 
+- [https://github.com/Aymenbenbrik/StatistiquesDescriptivesProbabilites](https://github.com/Aymenbenbrik/StatistiquesDescriptivesProbabilites)
 - [https://github.com/Aymenbenbrik/AnalyseStatistiqueR](https://github.com/Aymenbenbrik/AnalyseStatistiqueR)
+
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_26564_1/outline)
 
 ---
 

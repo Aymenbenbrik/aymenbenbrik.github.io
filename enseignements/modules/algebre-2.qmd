@@ -52,16 +52,29 @@ toc: true
 | 2020-2021 | Licence | LMAD | 1 | 84 h | ✓ | FR |  |
 | 2022-2023 | Licence | LMAD | 1 | 42 h | ✓ | FR |  |
 
+## Playlist YouTube du cours
+
+::: {.callout-tip appearance="simple"}
+**Toutes les capsules vidéo du cours sont disponibles en ligne :**
+[https://www.youtube.com/playlist?list=PLTuHP93TC8cyiFERpbYQ_0ss9rH7VICS0](https://www.youtube.com/playlist?list=PLTuHP93TC8cyiFERpbYQ_0ss9rH7VICS0)
+
+[![Voir sur YouTube](https://img.shields.io/badge/YouTube-Playlist-red?logo=youtube&logoColor=white&style=for-the-badge)](https://www.youtube.com/playlist?list=PLTuHP93TC8cyiFERpbYQ_0ss9rH7VICS0)
+:::
+
 ## Page pédagogique détaillée
 
 Pour le programme complet, les objectifs d'apprentissage, le découpage par
 chapitre et les ressources annexes, consulter la fiche détaillée :
 
-→ [Voir la fiche pédagogique de Algèbre 2](../algebre2.qmd)
+→ [Voir la fiche pédagogique de Algèbre 2](../algebre-2.qmd)
 
 ## Code & supports sur GitHub
 
 - [https://github.com/Aymenbenbrik/Algebre2](https://github.com/Aymenbenbrik/Algebre2)
+
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_26547_1/outline)
 
 ## Supports pédagogiques
 

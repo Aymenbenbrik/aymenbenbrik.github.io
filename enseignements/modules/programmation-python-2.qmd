@@ -51,12 +51,29 @@ toc: true
 | 2022-2023 | Licence | LMAD | 1 | 21 h | ✓ | FR | NOUVEAU |
 | 2023-2024 | Licence | LMAD | 1 | 21 h | ✓ | FR |  |
 
+## Playlist YouTube du cours
+
+::: {.callout-tip appearance="simple"}
+**Toutes les capsules vidéo du cours sont disponibles en ligne :**
+[https://www.youtube.com/playlist?list=PLTuHP93TC8cwcfvRb7T3O3izAmt_OzwyF](https://www.youtube.com/playlist?list=PLTuHP93TC8cwcfvRb7T3O3izAmt_OzwyF)
+
+[![Voir sur YouTube](https://img.shields.io/badge/YouTube-Playlist-red?logo=youtube&logoColor=white&style=for-the-badge)](https://www.youtube.com/playlist?list=PLTuHP93TC8cwcfvRb7T3O3izAmt_OzwyF)
+:::
+
 ## Page pédagogique détaillée
 
 Pour le programme complet, les objectifs d'apprentissage, le découpage par
 chapitre et les ressources annexes, consulter la fiche détaillée :
 
 → [Voir la fiche pédagogique de Programmation Python 2](../python-programming.qmd)
+
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/TimeSeriesR](https://github.com/Aymenbenbrik/TimeSeriesR)
+
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_26567_1/outline)
 
 ---
 

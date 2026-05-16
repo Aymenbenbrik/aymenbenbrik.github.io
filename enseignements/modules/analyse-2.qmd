@@ -50,6 +50,10 @@ toc: true
 |---|---|---|---|---|---|---|---|
 | 2019-2020 | Licence | LMAD | 1 | 30 h |  | FR | NOUVEAU |
 
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_26549_1/outline)
+
 ---
 
 ::: {.callout-note}

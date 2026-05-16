@@ -9,6 +9,16 @@ toc: true
 Module de fondamentaux en algèbre linéaire pour les étudiants de S2 LMAD/SD,
 avec 84 heures réparties en cours magistraux (42h) et travaux dirigés (42h).
 
+<!-- BB-LINKS:START -->
+## Espace Blackboard
+
+::: {.callout-tip appearance="simple"}
+**Espace(s) cours sur Blackboard ESB :**
+
+- **LMAD L1** : [https://esprit.blackboard.com/ultra/courses/_26547_1/outline](https://esprit.blackboard.com/ultra/courses/_26547_1/outline)
+:::
+<!-- BB-LINKS:END -->
+
 ## Acquis d'apprentissage
 
 - **AA1** — Manipuler les espaces vectoriels et leurs sous-espaces

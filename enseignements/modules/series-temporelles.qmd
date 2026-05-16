@@ -55,6 +55,23 @@ toc: true
 | 2025-2026 | Master | GAMMA | 1 | 21 h | ✓ | FR |  |
 | 2025-2026 | Master | BA | 1 | 42 h | ✓ | FR |  |
 
+## Playlist YouTube du cours
+
+::: {.callout-tip appearance="simple"}
+**Toutes les capsules vidéo du cours sont disponibles en ligne :**
+[https://www.youtube.com/playlist?list=PLTuHP93TC8cwcfvRb7T3O3izAmt_OzwyF](https://www.youtube.com/playlist?list=PLTuHP93TC8cwcfvRb7T3O3izAmt_OzwyF)
+
+[![Voir sur YouTube](https://img.shields.io/badge/YouTube-Playlist-red?logo=youtube&logoColor=white&style=for-the-badge)](https://www.youtube.com/playlist?list=PLTuHP93TC8cwcfvRb7T3O3izAmt_OzwyF)
+:::
+
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/TimeSeriesR](https://github.com/Aymenbenbrik/TimeSeriesR)
+
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_14137_1/outline)
+
 ---
 
 ::: {.callout-note}

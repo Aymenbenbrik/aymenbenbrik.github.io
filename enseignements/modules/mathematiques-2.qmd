@@ -55,6 +55,10 @@ toc: true
 
 - [https://github.com/Aymenbenbrik/Mathematiques2](https://github.com/Aymenbenbrik/Mathematiques2)
 
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_26570_1/outline)
+
 ---
 
 ::: {.callout-note}

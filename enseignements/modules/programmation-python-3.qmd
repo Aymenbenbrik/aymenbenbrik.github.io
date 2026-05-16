@@ -58,6 +58,14 @@ chapitre et les ressources annexes, consulter la fiche détaillée :
 
 → [Voir la fiche pédagogique de Programmation Python 3](../python-programming.qmd)
 
+## Code & supports sur GitHub
+
+- [https://github.com/Aymenbenbrik/FundamentalsNLP](https://github.com/Aymenbenbrik/FundamentalsNLP)
+
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_26568_1/outline)
+
 ---
 
 ::: {.callout-note}

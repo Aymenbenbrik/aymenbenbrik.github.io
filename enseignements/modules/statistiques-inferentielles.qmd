@@ -1,6 +1,6 @@
 ---
 title: "∫ Statistiques inférentielles"
-subtitle: "Mathématiques et Statistiques · 7 année(s) · 245 h cumulées"
+subtitle: "Mathématiques et Statistiques · 7 année(s) · 329 h cumulées"
 toc: true
 ---
 
@@ -12,7 +12,7 @@ toc: true
 
 ::: {.g-col-6 .g-col-md-3}
 ::: {.card-module}
-**245 h**<br>
+**329 h**<br>
 <small>Charge cumulée</small>
 :::
 :::
@@ -26,7 +26,7 @@ toc: true
 
 ::: {.g-col-6 .g-col-md-3}
 ::: {.card-module}
-**10**<br>
+**12**<br>
 <small>Groupes cumulés</small>
 :::
 :::
@@ -41,7 +41,7 @@ toc: true
 :::
 
 **Domaine** : Mathématiques et Statistiques
-**Formations couvertes** : GAMMA, LBC, LFG
+**Formations couvertes** : GAMMA, LBC, LFG, LFIG
 **Période** : 2017-2018 → 2025-2026
 
 ## Historique de dispense
@@ -50,6 +50,7 @@ toc: true
 |---|---|---|---|---|---|---|---|
 | 2017-2018 | Licence | LFG | 2 | 84 h | ✓ | FR | NOUVEAU |
 | 2018-2019 | Licence | LFG | 1 | 42 h | ✓ | FR |  |
+| 2018-2019 | Licence | LFIG | 2 | 84 h | ✓ | FR |  |
 | 2020-2021 | Licence | LBC | 3 | 63 h | ✓ | FR |  |
 | 2021-2022 | Master | GAMMA | 1 | 15 h | ✓ | FR | NOUVEAU |
 | 2022-2023 | Master | GAMMA | 1 | 10 h | ✓ | FR |  |
@@ -60,6 +61,10 @@ toc: true
 
 - [https://github.com/Aymenbenbrik/StatistiquesInferentiellesLicence](https://github.com/Aymenbenbrik/StatistiquesInferentiellesLicence)
 - [https://github.com/Aymenbenbrik/StatistiquesInf-rentielles](https://github.com/Aymenbenbrik/StatistiquesInf-rentielles)
+
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_3724_1/outline)
 
 ---
 

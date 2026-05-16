@@ -54,6 +54,10 @@ toc: true
 
 - [https://github.com/Aymenbenbrik/LogiqueMathematique](https://github.com/Aymenbenbrik/LogiqueMathematique)
 
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_26560_1/outline)
+
 ---
 
 ::: {.callout-note}

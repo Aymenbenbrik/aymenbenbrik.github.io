@@ -446,18 +446,19 @@ def _slugify(s):
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
 # Pages détaillées existantes (dans enseignements/<slug>.qmd)
+# Slugs alignés sur ceux du catalogue
 DETAILED_PAGES = {
-    "Algèbre 2": "algebre2",
-    "Algèbre 3": "algebre3",
+    "Algèbre 2": "algebre-2",
+    "Algèbre 3": "algebre-3",
     "Probabilités": "probabilites",
-    "Analyse 4": "analyse4",
+    "Analyse 4": "analyse-4",
     "Recherche Opérationnelle": "recherche-operationnelle",
     "Machine Learning": "machine-learning",
     "Deep Learning": "deep-learning",
     "Generative Computer Vision": "generative-computer-vision",
     "Programmation Python 2": "python-programming",
     "Programmation Python 3": "python-programming",
-    "Outillage Machine Learning": "tools-for-ml",
+    "Outillage Machine Learning": "outillage-machine-learning",
 }
 
 def status_class(s):

@@ -33,7 +33,7 @@ toc: true
 
 ::: {.g-col-6 .g-col-md-3}
 ::: {.card-module}
-**Licence, Master**<br>
+**Licence**<br>
 <small>Niveau(x)</small>
 :::
 :::
@@ -48,13 +48,17 @@ toc: true
 
 | Année | Niveau | Classe | Groupes | Charge | Coord. | Langue | Statut |
 |---|---|---|---|---|---|---|---|
-| 2021-2022 | Master | LMAD | 1 | 15 h | ✓ | FR | NOUVEAU |
+| 2021-2022 | Licence | LMAD | 1 | 15 h | ✓ | FR | NOUVEAU |
 | 2022-2023 | Licence | LMAD | 1 | 21 h | ✓ | FR |  |
 | 2023-2024 | Licence | LMAD | 1 | 21 h | ✓ | FR |  |
 
 ## Code & supports sur GitHub
 
 - [https://github.com/Aymenbenbrik/StatistiquesInf-rentielles](https://github.com/Aymenbenbrik/StatistiquesInf-rentielles)
+
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_26569_1/outline)
 
 ---
 

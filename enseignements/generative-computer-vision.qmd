@@ -14,6 +14,16 @@ S'inscrit dans le programme stratégique **Alternance BA — Business
 Analytics oriented to Generative AI** (partenariat ESB / **Jems Group**)
 dont je suis Co-Responsable depuis 2024.
 
+<!-- BB-LINKS:START -->
+## Espace Blackboard
+
+::: {.callout-tip appearance="simple"}
+**Espace(s) cours sur Blackboard ESB :**
+
+- **BA M1** : [https://esprit.blackboard.com/ultra/courses/_26556_1/outline](https://esprit.blackboard.com/ultra/courses/_26556_1/outline)
+:::
+<!-- BB-LINKS:END -->
+
 ## Acquis d'apprentissage
 
 - **AA1** — Maîtriser les fondamentaux de la vision par ordinateur (CNN, segmentation, détection)
@@ -63,4 +73,4 @@ dont je suis Co-Responsable depuis 2024.
 ## Prolongements
 
 Module phare du virage Generative AI à ESB, complémentaire de
-**[NLP](nlp.qmd)** (générateurs de texte) et **[Deep Learning](deep-learning.qmd)**.
+**[NLP](nlp-natural-language-processing.qmd)** (générateurs de texte) et **[Deep Learning](deep-learning.qmd)**.

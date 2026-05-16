@@ -57,6 +57,10 @@ toc: true
 
 - [https://github.com/Aymenbenbrik/DeepLearningCourse](https://github.com/Aymenbenbrik/DeepLearningCourse)
 
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_3901_1/outline)
+
 ---
 
 ::: {.callout-note}

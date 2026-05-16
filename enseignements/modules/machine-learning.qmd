@@ -62,6 +62,10 @@ chapitre et les ressources annexes, consulter la fiche détaillée :
 
 - [https://github.com/Aymenbenbrik/Supervised-Learning](https://github.com/Aymenbenbrik/Supervised-Learning)
 
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_3030_1/outline)
+
 ## Supports pédagogiques
 
 | Ressource | Statut | Lien |

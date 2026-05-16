@@ -19,18 +19,19 @@ OUT_DIR = ROOT / "enseignements" / "modules"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Pages detaillees deja presentes dans enseignements/<slug>.qmd
+# Slugs alignes sur ceux du catalogue (enseignements/modules/<slug>.qmd)
 DETAILED = {
-    "Algèbre 2": "algebre2",
-    "Algèbre 3": "algebre3",
+    "Algèbre 2": "algebre-2",
+    "Algèbre 3": "algebre-3",
     "Probabilités": "probabilites",
-    "Analyse 4": "analyse4",
+    "Analyse 4": "analyse-4",
     "Recherche Opérationnelle": "recherche-operationnelle",
     "Machine Learning": "machine-learning",
     "Deep Learning": "deep-learning",
     "Generative Computer Vision": "generative-computer-vision",
     "Programmation Python 2": "python-programming",
     "Programmation Python 3": "python-programming",
-    "Outillage Machine Learning": "tools-for-ml",
+    "Outillage Machine Learning": "outillage-machine-learning",
 }
 
 DOMAIN_ICON = {
@@ -76,6 +77,22 @@ def render_page(module: str, g: pd.DataFrame, sup: pd.DataFrame) -> str:
             if u not in liens:
                 liens.append(u)
 
+    # YouTube playlist (lien le plus recent, par annee max)
+    youtube_url = ""
+    if "lien_youtube" in g.columns:
+        yt_rows = g[g["lien_youtube"].astype(str).str.startswith("http", na=False)]
+        if len(yt_rows):
+            # Prendre la playlist de l'annee la plus recente
+            yt_rows = yt_rows.sort_values("annee")
+            youtube_url = str(yt_rows["lien_youtube"].iloc[-1]).strip()
+
+    # Blackboard / Particularite (optionnels)
+    blackboard_url = ""
+    if "lien_blackboard" in g.columns:
+        bb_rows = g[g["lien_blackboard"].astype(str).str.startswith("http", na=False)]
+        if len(bb_rows):
+            blackboard_url = str(bb_rows["lien_blackboard"].iloc[-1]).strip()
+
     detailed_slug = DETAILED.get(module)
 
     # Tableau historique
@@ -101,6 +118,31 @@ def render_page(module: str, g: pd.DataFrame, sup: pd.DataFrame) -> str:
 """
     else:
         gh_section = ""
+
+    # Bloc YouTube
+    if youtube_url:
+        youtube_section = f"""
+## Playlist YouTube du cours
+
+::: {{.callout-tip appearance="simple"}}
+**Toutes les capsules vidéo du cours sont disponibles en ligne :**
+[{youtube_url}]({youtube_url})
+
+[![Voir sur YouTube](https://img.shields.io/badge/YouTube-Playlist-red?logo=youtube&logoColor=white&style=for-the-badge)]({youtube_url})
+:::
+"""
+    else:
+        youtube_section = ""
+
+    # Bloc Blackboard
+    if blackboard_url:
+        blackboard_section = f"""
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard]({blackboard_url})
+"""
+    else:
+        blackboard_section = ""
 
     # Bloc page detaillee
     detailed_section = ""
@@ -200,7 +242,7 @@ toc: true
 | Année | Niveau | Classe | Groupes | Charge | Coord. | Langue | Statut |
 |---|---|---|---|---|---|---|---|
 {chr(10).join(rows_html)}
-{detailed_section}{gh_section}{sup_section}
+{youtube_section}{detailed_section}{gh_section}{blackboard_section}{sup_section}
 ---
 
 ::: {{.callout-note}}
@@ -244,14 +286,22 @@ def main():
     for d, m, s, h, n in index_lines:
         by_dom.setdefault(d, []).append((m, s, h, n))
 
-    parts = ["""---
+    n_detailed = sum(1 for m in df['nom_module'].unique() if m in DETAILED)
+    parts = [f"""---
 title: "Modules — Vue d'ensemble"
 subtitle: "Catalogue complet des modules dispensés"
 toc: true
 ---
 
-Catalogue des **43 modules** dispensés à ESB (2016–2026).
+Catalogue des **{n_written} modules** dispensés à ESB (2016–2026), dont
+**{n_detailed} avec fiche pédagogique détaillée** (★).
 Cliquez sur un module pour accéder à sa fiche.
+
+::: {{.callout-tip appearance="simple"}}
+**Légende** : ★ = fiche pédagogique enrichie (programme détaillé, objectifs
+d'apprentissage, ressources). Les autres modules disposent de leur fiche
+historique (charge, groupes, années, langue, lien GitHub).
+:::
 
 """]
     for dom in ["Mathématiques et Statistiques", "Intelligence Artificielle",
@@ -260,9 +310,10 @@ Cliquez sur un module pour accéder à sa fiche.
             continue
         icon = DOMAIN_ICON.get(dom, "📘")
         parts.append(f"\n## {icon} {dom}\n")
-        parts.append("| Module | Charge cumulée | Années |\n|---|---|---|")
+        parts.append("| Module | Charge cumulée | Années | Fiche |\n|---|---|---|---|")
         for m, s, h, n in sorted(by_dom[dom]):
-            parts.append(f"| [{m}]({s}.qmd) | {h} h | {n} |")
+            star = "★" if m in DETAILED else ""
+            parts.append(f"| [{m}]({s}.qmd) | {h} h | {n} | {star} |")
         parts.append("")
     idx.write_text("\n".join(parts), encoding="utf-8")
 

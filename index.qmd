@@ -24,7 +24,7 @@ toc: false
 
 ## Bienvenue
 
-**Head of Department CSAM** (Computer Science & Applied Mathematics)
+**Chef département Informatique et mathématiques appliquées**
 à **Esprit School of Business** depuis 2019,
 **Head of Research Team AI4U** chez **Esprit Tech** depuis 2023,
 et **AI Instructor** au Training of Trainers Departement.
@@ -80,10 +80,10 @@ HTML(html)
 ## Postes actuels
 
 ::: {.card-module}
-### Head of Department CSAM · ESB · depuis 2019
-**Computer Science & Applied Mathematics**
+### Chef département Informatique et mathématiques appliquées · ESB · depuis 2019
+**Département Informatique et mathématiques appliquées**
 
-Direction du département CSAM, supervision des enseignants, coordination
+Direction du département, supervision des enseignants, coordination
 pédagogique, jurys de recrutement, partenariats académiques.
 :::
 
@@ -117,6 +117,16 @@ University, réseau de 11 institutions d'enseignement supérieur sur 10 pays.
 ### Tekouin Administrator · ESB · depuis 2020
 Administration de la plateforme **Tekouin** — e-learning de coding
 pour les étudiants ESB.
+:::
+
+::: {.card-module}
+### Architecte & développeur — ESB-Learning · depuis 2024
+Conception et développement d'une plateforme **d'apprentissage adaptatif
+à architecture nativement Agentic AI** pour ESB : 5 agents autonomes
+(LangGraph ReAct + StateGraph), 37 composants IA, RAG hybride
+(ChromaDB + BM25 + YouTube), intégration **TunBERT** pour le dialecte
+tunisien, sandbox Piston multi-langage. Détails en
+[Recherche](recherche.qmd#projet-phare-esb-learning-plateforme-agentic-ai).
 :::
 
 ## Domaines d'expertise
@@ -162,12 +172,12 @@ pour les étudiants ESB.
 ## Modules actuels
 
 ::: {.card-module}
-### [Algèbre 2 (ECUE211)](enseignements/algebre2.qmd)
+### [Algèbre 2 (ECUE211)](enseignements/algebre-2.qmd)
 Espaces vectoriels · Matrices · Déterminants — S2 LMAD/SD · 84h · 7 ECTS
 :::
 
 ::: {.card-module}
-### [Algèbre 3 (ECUE311)](enseignements/algebre3.qmd)
+### [Algèbre 3 (ECUE311)](enseignements/algebre-3.qmd)
 Réduction · Normes · Espaces euclidiens · Formes quadratiques · ACP — S2 · 75h · 7 ECTS
 :::
 
@@ -177,7 +187,7 @@ Variables aléatoires · Lois usuelles · Théorèmes limites — S4 LMAD · 84h
 :::
 
 ::: {.card-module}
-### [Analyse 4 (ECUE421)](enseignements/analyse4.qmd)
+### [Analyse 4 (ECUE421)](enseignements/analyse-4.qmd)
 Topologie · Calcul différentiel · Descente de gradient — S4 LMAD · 84h · 7 ECTS
 :::
 

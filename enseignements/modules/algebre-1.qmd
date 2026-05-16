@@ -56,8 +56,11 @@ toc: true
 
 ## Code & supports sur GitHub
 
-- [https://github.com/Aymenbenbrik/Algebre1-2026](https://github.com/Aymenbenbrik/Algebre1-2026)
 - [https://github.com/Aymenbenbrik/Algebre1-2022-](https://github.com/Aymenbenbrik/Algebre1-2022-)
+
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_26545_1/outline)
 
 ## Supports pédagogiques
 

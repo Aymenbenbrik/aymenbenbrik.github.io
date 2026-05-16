@@ -54,6 +54,10 @@ toc: true
 
 - [https://github.com/Aymenbenbrik/FondamentauxMathematiques](https://github.com/Aymenbenbrik/FondamentauxMathematiques)
 
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_26559_1/outline)
+
 ---
 
 ::: {.callout-note}

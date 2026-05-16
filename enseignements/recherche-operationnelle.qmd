@@ -11,6 +11,16 @@ Module de recherche opérationnelle structuré en deux parties :
 - **Partie 1** : Programmation linéaire (28h)
 - **Partie 2** : Théorie des graphes (14h)
 
+<!-- BB-LINKS:START -->
+## Espace Blackboard
+
+::: {.callout-tip appearance="simple"}
+**Espace(s) cours sur Blackboard ESB :**
+
+- **LFIG L2** : [https://esprit.blackboard.com/ultra/courses/_2178_1/outline](https://esprit.blackboard.com/ultra/courses/_2178_1/outline)
+:::
+<!-- BB-LINKS:END -->
+
 ## Acquis d'apprentissage
 
 - **AA1** — Modéliser un problème en programme linéaire

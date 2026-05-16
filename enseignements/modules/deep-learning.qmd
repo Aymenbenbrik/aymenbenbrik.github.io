@@ -65,6 +65,10 @@ chapitre et les ressources annexes, consulter la fiche détaillée :
 
 - [https://github.com/Aymenbenbrik/DeepLearningCourse](https://github.com/Aymenbenbrik/DeepLearningCourse)
 
+## Ressources Blackboard
+
+- [Espace cours sur Blackboard](https://esprit.blackboard.com/ultra/courses/_26555_1/outline|https://esprit.blackboard.com/ultra/courses/_3785_1/outline)
+
 ## Supports pédagogiques
 
 | Ressource | Statut | Lien |

@@ -13,6 +13,17 @@ construction de réseaux from scratch puis avec TensorFlow/PyTorch.
 Module conçu en cohérence avec ma **Spécialisation Deep Learning de
 deeplearning.ai** (Coursera, 5 cours certifiés en 2019).
 
+<!-- BB-LINKS:START -->
+## Espace Blackboard
+
+::: {.callout-tip appearance="simple"}
+**Espace(s) cours sur Blackboard ESB :**
+
+- **BA M1** : [https://esprit.blackboard.com/ultra/courses/_26555_1/outline](https://esprit.blackboard.com/ultra/courses/_26555_1/outline)
+- **BA M2** : [https://esprit.blackboard.com/ultra/courses/_3785_1/outline](https://esprit.blackboard.com/ultra/courses/_3785_1/outline)
+:::
+<!-- BB-LINKS:END -->
+
 ## Acquis d'apprentissage
 
 - **AA1** — Comprendre la rétropropagation et la descente de gradient stochastique
@@ -53,5 +64,5 @@ deeplearning.ai** (Coursera, 5 cours certifiés en 2019).
 
 ## Prolongements
 
-Module qui prépare **[NLP](nlp.qmd)** (Transformers, LLM)
+Module qui prépare **[NLP](nlp-natural-language-processing.qmd)** (Transformers, LLM)
 et **[Generative Computer Vision](generative-computer-vision.qmd)** (GANs, diffusion).

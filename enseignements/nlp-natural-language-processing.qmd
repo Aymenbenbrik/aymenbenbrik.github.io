@@ -13,6 +13,17 @@ classiques (tokenization, embeddings, modèles séquence-à-séquence).
 Lié directement à mes activités d'**AI Instructor** (Training of Trainers
 Departement) où j'anime des sessions sur **NLP, Transformers et LLM**.
 
+<!-- BB-LINKS:START -->
+## Espace Blackboard
+
+::: {.callout-note appearance="simple"}
+**Espace Blackboard ESB** — création en cours pour ce module récent
+(intégration à la session 2026–2027). En attendant, les supports sont
+diffusés via le repository GitHub et les capsules YouTube référencées
+ci-dessous.
+:::
+<!-- BB-LINKS:END -->
+
 ## Acquis d'apprentissage
 
 - **AA1** — Tokenization, BPE, WordPiece

@@ -1,0 +1,166 @@
+---
+title: "Capsules vidéo"
+subtitle: "Playlists YouTube pédagogiques — support asynchrone des cours"
+toc: true
+---
+
+::: {.callout-note appearance="simple"}
+**Pourquoi des capsules vidéo ?** L'asynchrone libère du temps de présence
+pour la discussion, le projet et la résolution de problèmes complexes.
+Les capsules ci-dessous servent de support de **révision** (Algèbre 2)
+ou de **démarche pas-à-pas** sur un cas réel (SARIMA).
+:::
+
+```{python}
+#| echo: false
+#| output: asis
+import pandas as pd
+
+df = pd.read_csv("data/playlists.csv")
+
+# KPIs globaux
+n_playlists = len(df)
+n_videos = int(df["video_count"].sum())
+n_vues = int(df["vues"].sum())
+n_modules = df["modules_associes"].str.split(r"\s*·\s*").explode().nunique()
+
+print(f'''
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.8rem;margin:1rem 0 2rem 0;">
+  <div class="kpi"><span class="value">{n_playlists}</span><span class="label">Playlists publiées</span></div>
+  <div class="kpi" style="background:linear-gradient(135deg,#0277BD,#01579B)"><span class="value">{n_videos}</span><span class="label">Capsules vidéo</span></div>
+  <div class="kpi" style="background:linear-gradient(135deg,#F57C00,#E65100)"><span class="value">{n_vues}</span><span class="label">Vues cumulées</span></div>
+  <div class="kpi" style="background:linear-gradient(135deg,#2E7D32,#1B5E20)"><span class="value">{n_modules}</span><span class="label">Modules concernés</span></div>
+</div>
+''')
+```
+
+## Catalogue des playlists
+
+```{python}
+#| echo: false
+#| output: asis
+import pandas as pd
+from html import escape
+
+df = pd.read_csv("data/playlists.csv")
+
+for _, r in df.iterrows():
+    pid = r["id"]
+    title = r["title"]
+    url = r["url"]
+    desc = r["description"]
+    n_videos = int(r["video_count"])
+    duree = r["duree_totale"]
+    modules = r["modules_associes"]
+    last_mod = r["last_modified"]
+    vues = int(r["vues"])
+    langue = r["langue"]
+    annee = r["year_started"]
+
+    badges = (
+        f'<span class="badge bg-danger">{n_videos} vidéos</span> '
+        f'<span class="badge bg-info">{duree}</span> '
+        f'<span class="badge bg-secondary">{langue}</span> '
+        f'<span class="badge bg-dark">{vues} vues</span>'
+    )
+
+    print(f'''
+::: {{.card-module style="border-left: 4px solid #C8102E; padding: 1.2rem 1.4rem; margin-bottom: 1.5rem;"}}
+
+### [{escape(title)}]({url})
+
+{badges}
+
+<div style="display:grid;grid-template-columns: 1fr 1.4fr;gap:1.2rem;margin-top:0.8rem;align-items:start;">
+  <div>
+    <iframe
+      width="100%" height="220"
+      src="https://www.youtube.com/embed/videoseries?list={pid}"
+      title="{escape(title)}"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      style="border-radius:6px;"></iframe>
+  </div>
+  <div>
+    <p style="margin:0 0 0.7rem 0;font-size:0.95rem;">{escape(desc)}</p>
+    <table style="width:100%;font-size:0.85rem;border-collapse:collapse;">
+      <tr><td style="padding:2px 6px;color:#666;">Modules associés</td><td style="padding:2px 6px;"><strong>{escape(modules)}</strong></td></tr>
+      <tr><td style="padding:2px 6px;color:#666;">Lancée en</td><td style="padding:2px 6px;">{annee}</td></tr>
+      <tr><td style="padding:2px 6px;color:#666;">Dernière mise à jour</td><td style="padding:2px 6px;">{last_mod}</td></tr>
+    </table>
+    <p style="margin-top:0.8rem;">
+      <a href="{url}" target="_blank" class="btn btn-sm" style="background:#C8102E;color:white;">
+        ▶ Voir la playlist complète sur YouTube
+      </a>
+    </p>
+  </div>
+</div>
+
+:::
+''')
+```
+
+## Détail des vidéos
+
+```{python}
+#| echo: false
+#| output: asis
+
+# Détail des vidéos (issues du scraping ytInitialData)
+videos = {
+    "PLTuHP93TC8cyiFERpbYQ_0ss9rH7VICS0": [
+        ("Exercice 3 énoncés", "1:40"),
+        ("Exercice 1 (Question 1)", "7:49"),
+        ("Exercice 3 : Question 2", "7:44"),
+        ("Exercice 3 question 3", "5:51"),
+        ("Correction Exercice 4", "8:30"),
+        ("Exercice 5 Révision (Systèmes d'équations linéaires)", "0:24"),
+        ("Exercice 5 correction (Système d'équations linéaires avec paramètres)", "7:09"),
+    ],
+    "PLTuHP93TC8cwcfvRb7T3O3izAmt_OzwyF": [
+        ("Vidéo 4 : Recherche des modèles", "7:05"),
+        ("Vidéo 5 : Validation des modèles", "10:11"),
+        ("Vidéo 6 : Analyse des résidus", "5:14"),
+        ("Vidéo 7 : Prédiction", "3:25"),
+        ("Vidéo 8 : Écriture du modèle", "13:28"),
+    ],
+}
+
+import pandas as pd
+df = pd.read_csv("data/playlists.csv")
+
+for _, r in df.iterrows():
+    pid = r["id"]
+    title = r["title"]
+    if pid not in videos:
+        continue
+    vids = videos[pid]
+    print(f"\n### {title}\n")
+    print("| # | Titre de la capsule | Durée |")
+    print("|---|---|---|")
+    for i, (vt, vd) in enumerate(vids, 1):
+        print(f"| {i} | {vt} | {vd} |")
+```
+
+## Évolution et perspectives
+
+Les playlists ont été publiées **en 2020** dans un contexte de transition
+vers l'enseignement à distance. Le format court (5 à 10 minutes) a été
+retenu pour s'intégrer facilement dans un parcours de révision en
+autonomie ou en complément d'un cours présentiel.
+
+**Perspectives** :
+
+- **Refonte 2026** : refilmer les playlists actuelles avec le matériel mis à jour
+  (notamment Algèbre 2 → version 2026 avec NumPy/Matplotlib)
+- **Nouvelles playlists prévues** : Algèbre 1, Recherche Opérationnelle (PuLP),
+  Deep Learning (PyTorch from scratch), Optimisation (Lagrange + projet)
+- **Capsules courtes 90 s** : pour des notions élémentaires (rappels, formules)
+- **Intégration Tekouin** : capsules embarquées dans les exercices auto-correctifs
+
+::: {.callout-tip}
+**Source des données** : la liste des playlists est centralisée dans
+`data/playlists.csv`. Pour en ajouter, modifier ce fichier puis
+re-render la page.
+:::
