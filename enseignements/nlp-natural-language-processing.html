@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Tools for Machine Learning – Aymen Ben Brik</title>
+<title>NLP — Natural Language Processing – Aymen Ben Brik</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -44,9 +44,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3838232edcaed64241f607f49d0f6cff.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-c8ff80b03e32997db1e0f51f0fd167b4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-3838232edcaed64241f607f49d0f6cff.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ef73c92b673ff26a7f064247302f7baf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-b13ccd6cd8c37f072d026ddfb4e28faa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ef73c92b673ff26a7f064247302f7baf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -277,15 +277,19 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="../enseignements/modules/index.html">
- <span class="dropdown-text">📚 Catalogue des 43 modules</span></a>
+ <span class="dropdown-text">📚 Catalogue des 42 modules</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../capsules-video.html">
+ <span class="dropdown-text">🎬 Capsules vidéo (YouTube)</span></a>
   </li>  
         <li class="dropdown-header">── Mathématiques ──</li>
         <li>
-    <a class="dropdown-item" href="../enseignements/algebre2.html">
+    <a class="dropdown-item" href="../enseignements/algebre-2.html">
  <span class="dropdown-text">Algèbre 2 (ECUE211)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../enseignements/algebre3.html">
+    <a class="dropdown-item" href="../enseignements/algebre-3.html">
  <span class="dropdown-text">Algèbre 3 (ECUE311)</span></a>
   </li>  
         <li>
@@ -293,7 +297,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Probabilités (ECUE411)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../enseignements/analyse4.html">
+    <a class="dropdown-item" href="../enseignements/analyse-4.html">
  <span class="dropdown-text">Analyse 4 (ECUE421)</span></a>
   </li>  
         <li>
@@ -310,7 +314,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Deep Learning</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../enseignements/nlp.html">
+    <a class="dropdown-item" href="../enseignements/nlp-natural-language-processing.html">
  <span class="dropdown-text">NLP</span></a>
   </li>  
         <li>
@@ -322,8 +326,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Python Programming</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../enseignements/tools-for-ml.html">
- <span class="dropdown-text">Tools for ML</span></a>
+    <a class="dropdown-item" href="../enseignements/outillage-machine-learning.html">
+ <span class="dropdown-text">Outillage Machine Learning</span></a>
   </li>  
         <li class="dropdown-header">── Finance &amp; Actuariat ──</li>
         <li>
@@ -410,11 +414,12 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#présentation" id="toc-présentation" class="nav-link active" data-scroll-target="#présentation">Présentation</a></li>
+  <li><a href="#espace-blackboard" id="toc-espace-blackboard" class="nav-link" data-scroll-target="#espace-blackboard">Espace Blackboard</a></li>
   <li><a href="#acquis-dapprentissage" id="toc-acquis-dapprentissage" class="nav-link" data-scroll-target="#acquis-dapprentissage">Acquis d’apprentissage</a></li>
   <li><a href="#supports-pédagogiques" id="toc-supports-pédagogiques" class="nav-link" data-scroll-target="#supports-pédagogiques">Supports pédagogiques</a></li>
   <li><a href="#plan-détaillé" id="toc-plan-détaillé" class="nav-link" data-scroll-target="#plan-détaillé">Plan détaillé</a></li>
   <li><a href="#outils-mobilisés" id="toc-outils-mobilisés" class="nav-link" data-scroll-target="#outils-mobilisés">Outils mobilisés</a></li>
-  <li><a href="#liens-avec-mes-activités" id="toc-liens-avec-mes-activités" class="nav-link" data-scroll-target="#liens-avec-mes-activités">Liens avec mes activités</a></li>
+  <li><a href="#liens-avec-mes-activités-de-recherche" id="toc-liens-avec-mes-activités-de-recherche" class="nav-link" data-scroll-target="#liens-avec-mes-activités-de-recherche">Liens avec mes activités de recherche</a></li>
   <li><a href="#prolongements" id="toc-prolongements" class="nav-link" data-scroll-target="#prolongements">Prolongements</a></li>
   </ul>
 </nav>
@@ -425,8 +430,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Tools for Machine Learning</h1>
-<p class="subtitle lead">Outils et écosystème · LMAD / MDSI · 42h</p>
+<h1 class="title">NLP — Natural Language Processing</h1>
+<p class="subtitle lead">Traitement du langage naturel · MDSI · 42h</p>
 </div>
 
 
@@ -445,19 +450,35 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="présentation" class="level2">
 <h2 class="anchored" data-anchor-id="présentation">Présentation</h2>
-<p>Module créé en <strong>2024–2025</strong>, axé sur l’<strong>écosystème opérationnel</strong> du ML : versioning, expérimentation, déploiement, MLOps. Approche ingénieur — savoir choisir les bons outils et les intégrer dans un pipeline reproductible.</p>
+<p>Module créé en <strong>2022–2023</strong>, axé sur les techniques modernes de NLP (Transformers, attention, LLMs) tout en couvrant les fondamentaux classiques (tokenization, embeddings, modèles séquence-à-séquence).</p>
+<p>Lié directement à mes activités d’<strong>AI Instructor</strong> (Training of Trainers Departement) où j’anime des sessions sur <strong>NLP, Transformers et LLM</strong>.</p>
+<!-- BB-LINKS:START -->
+</section>
+<section id="espace-blackboard" class="level2">
+<h2 class="anchored" data-anchor-id="espace-blackboard">Espace Blackboard</h2>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Espace Blackboard ESB</strong> — création en cours pour ce module récent (intégration à la session 2026–2027). En attendant, les supports sont diffusés via le repository GitHub et les capsules YouTube référencées ci-dessous.</p>
+</div>
+</div>
+</div>
+<!-- BB-LINKS:END -->
 </section>
 <section id="acquis-dapprentissage" class="level2">
 <h2 class="anchored" data-anchor-id="acquis-dapprentissage">Acquis d’apprentissage</h2>
 <ul>
-<li><strong>AA1</strong> — Versionner code, données et modèles (Git, DVC, MLflow)</li>
-<li><strong>AA2</strong> — Tracker les expériences ML (MLflow, Weights &amp; Biases)</li>
-<li><strong>AA3</strong> — Containeriser un modèle (Docker)</li>
-<li><strong>AA4</strong> — Déployer une API d’inférence (FastAPI, Flask)</li>
-<li><strong>AA5</strong> — Construire un pipeline CI/CD ML (GitHub Actions)</li>
-<li><strong>AA6</strong> — Surveiller un modèle en production (drift, performance)</li>
-<li><strong>AA7</strong> — Automatiser le tuning d’hyperparamètres (Optuna, Ray Tune)</li>
-<li><strong>AA8</strong> — Visualiser et communiquer les résultats (Streamlit, Gradio, Plotly)</li>
+<li><strong>AA1</strong> — Tokenization, BPE, WordPiece</li>
+<li><strong>AA2</strong> — Embeddings : Word2Vec, GloVe, FastText, contextualisés</li>
+<li><strong>AA3</strong> — Modèles séquentiels classiques (RNN, LSTM, GRU pour texte)</li>
+<li><strong>AA4</strong> — Mécanisme d’attention et architecture Transformer</li>
+<li><strong>AA5</strong> — Modèles pré-entraînés : BERT, GPT, T5</li>
+<li><strong>AA6</strong> — Fine-tuning et prompt engineering</li>
+<li><strong>AA7</strong> — Tâches NLP : classification, NER, QA, résumé, traduction</li>
+<li><strong>AA8</strong> — Introduction aux Large Language Models (LLM)</li>
 </ul>
 </section>
 <section id="supports-pédagogiques" class="level2">
@@ -472,29 +493,34 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
+<td>Fiche module</td>
+<td>ECUE descriptive sheet (UEF210)</td>
+<td><a href="https://github.com/Aymenbenbrik/FundamentalsNLP/blob/main/Module%20sheet/module-sheet.pdf">PDF</a></td>
+</tr>
+<tr class="even">
 <td>Polycopié</td>
-<td>Cours <em>book</em></td>
-<td><a href="#">PDF</a></td>
+<td>Unified course (Chapter 1 + Chapter 2, 59 pages, ToC navigable)</td>
+<td><a href="https://github.com/Aymenbenbrik/FundamentalsNLP/blob/main/Full-course/FundamentalsNLP-Complete.pdf">PDF</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Slides</td>
-<td>Beamer Metropolis 16:9</td>
-<td><a href="#">PDF</a></td>
-</tr>
-<tr class="odd">
-<td>TPs hands-on</td>
-<td>Pipeline complet end-to-end</td>
-<td><a href="#">PDF + code</a></td>
+<td>Beamer (39 frames, Madrid theme)</td>
+<td><a href="https://github.com/Aymenbenbrik/FundamentalsNLP/blob/main/Slides/slides.pdf">PDF</a></td>
 </tr>
 <tr class="even">
-<td>Projet</td>
-<td>Déployer un modèle ML en production</td>
-<td><a href="#">Sujet</a></td>
+<td>TPs Python</td>
+<td>4 Jupyter notebooks (tokenization, BoW/TF-IDF, Word2Vec, evaluation)</td>
+<td><a href="https://github.com/Aymenbenbrik/FundamentalsNLP/tree/main/Notebooks">Folder</a></td>
 </tr>
 <tr class="odd">
+<td>TDs</td>
+<td>Exercises within each chapter (5 per section)</td>
+<td>Réservé aux étudiants</td>
+</tr>
+<tr class="even">
 <td>Repository</td>
-<td>Code source</td>
-<td><a href="https://github.com/Aymenbenbrik">GitHub</a></td>
+<td>Source code + LaTeX</td>
+<td><a href="https://github.com/Aymenbenbrik/FundamentalsNLP">GitHub</a></td>
 </tr>
 </tbody>
 </table>
@@ -502,33 +528,34 @@ ul.task-list li input[type="checkbox"] {
 <section id="plan-détaillé" class="level2">
 <h2 class="anchored" data-anchor-id="plan-détaillé">Plan détaillé</h2>
 <ol type="1">
-<li><strong>Versioning</strong> : Git avancé, branches, GitHub workflows</li>
-<li><strong>Data versioning</strong> : DVC, LakeFS, alternatives</li>
-<li><strong>Expérimentation</strong> : MLflow tracking, W&amp;B, comparaison de runs</li>
-<li><strong>Tuning d’hyperparamètres</strong> : Optuna, Ray Tune, Bayesian Optimization</li>
-<li><strong>Containerisation</strong> : Docker pour ML, multi-stage builds</li>
-<li><strong>API d’inférence</strong> : FastAPI, validation Pydantic, sécurité</li>
-<li><strong>Déploiement</strong> : cloud (AWS SageMaker, GCP Vertex, Azure ML), on-prem</li>
-<li><strong>MLOps</strong> : CI/CD pipelines, tests, monitoring</li>
-<li><strong>Drift detection</strong> : Evidently, Alibi Detect</li>
-<li><strong>Interfaces utilisateur</strong> : Streamlit, Gradio, Dash</li>
+<li><strong>Fondamentaux du langage</strong> : morphologie, syntaxe, sémantique</li>
+<li><strong>Pré-traitement</strong> : tokenization, lemmatization, stop words</li>
+<li><strong>Embeddings</strong> : one-hot, Word2Vec, GloVe, FastText</li>
+<li><strong>Modèles séquentiels</strong> : RNN, LSTM, GRU pour texte</li>
+<li><strong>Mécanisme d’attention</strong> : self-attention, multi-head attention</li>
+<li><strong>Architecture Transformer</strong> : encodeur, décodeur, positional encoding</li>
+<li><strong>Modèles pré-entraînés</strong> : BERT (encodeur), GPT (décodeur), T5 (seq2seq)</li>
+<li><strong>Fine-tuning et adaptation</strong> : LoRA, PEFT</li>
+<li><strong>Large Language Models (LLM)</strong> : prompting, RAG, alignement</li>
+<li><strong>Applications</strong> : chatbots, résumé, traduction, recherche sémantique</li>
 </ol>
 </section>
 <section id="outils-mobilisés" class="level2">
 <h2 class="anchored" data-anchor-id="outils-mobilisés">Outils mobilisés</h2>
-<p><code>git</code> · <code>dvc</code> · <code>mlflow</code> · <code>wandb</code> · <code>docker</code> · <code>fastapi</code> · <code>streamlit</code> <code>gradio</code> · <code>optuna</code> · <code>ray</code> · <code>evidently</code> · <code>prefect</code> · <code>airflow</code> <code>github-actions</code> · <code>pre-commit</code></p>
+<p><code>transformers</code> (HuggingFace) · <code>torch</code> · <code>tensorflow</code> · <code>spacy</code> · <code>nltk</code> <code>gensim</code> · <code>langchain</code> · <code>openai</code> · <code>tiktoken</code> · <code>sentencepiece</code></p>
 </section>
-<section id="liens-avec-mes-activités" class="level2">
-<h2 class="anchored" data-anchor-id="liens-avec-mes-activités">Liens avec mes activités</h2>
+<section id="liens-avec-mes-activités-de-recherche" class="level2">
+<h2 class="anchored" data-anchor-id="liens-avec-mes-activités-de-recherche">Liens avec mes activités de recherche</h2>
+<p>Recherche menée au sein de l’équipe <strong>AI4U (Artificial Intelligence 4 University)</strong>, notamment :</p>
 <ul>
-<li><strong>Tekouin Administrator</strong> (depuis 2020) — plateforme e-Learning de coding</li>
-<li><strong>AI Instructor</strong> (depuis 2023) — sessions outils ML pour formateurs</li>
-<li><strong>Head of Research Team AI4U</strong> — outils intégrés dans les workflows recherche</li>
+<li>Génération automatique de contenus pédagogiques via LLM</li>
+<li>Évaluation augmentée par NLP</li>
+<li>Personnalisation de l’apprentissage par modèles séquentiels</li>
 </ul>
 </section>
 <section id="prolongements" class="level2">
 <h2 class="anchored" data-anchor-id="prolongements">Prolongements</h2>
-<p>Module pratique qui consolide <strong><a href="../enseignements/machine-learning.html">Machine Learning</a></strong>, <strong><a href="../enseignements/deep-learning.html">Deep Learning</a></strong>, <strong><a href="../enseignements/nlp.html">NLP</a></strong> et <strong><a href="../enseignements/python-programming.html">Python Programming</a></strong> dans une perspective opérationnelle.</p>
+<p>Module qui s’articule avec <strong><a href="../enseignements/deep-learning.html">Deep Learning</a></strong> (architectures) et <strong><a href="../enseignements/generative-computer-vision.html">Generative Computer Vision</a></strong> (Generative AI).</p>
 
 
 </section>
