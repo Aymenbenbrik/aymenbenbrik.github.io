@@ -1,48 +1,101 @@
 ---
 title: "Certifications & Formations"
-subtitle: "Développement professionnel continu — Data Science, Deep Learning, Pédagogie"
+subtitle: "Développement professionnel continu — Data Science, Deep Learning, IA générative, Pédagogie"
 toc: true
 ---
 
 ## Synthèse
 
-**16 certifications** obtenues depuis 2018, dont la **Spécialisation Deep Learning
-de deeplearning.ai** sur Coursera (5 cours), un panel de certifications Udemy en
-data science, et une certification pédagogique « Get Interactive: Practical
-Teaching with Technology ».
+**40+ certifications et formations** cumulées de 2018 à 2026, couvrant trois grands axes :
 
-## Spécialisation Deep Learning · deeplearning.ai · Coursera
+- **Coursera** — **26 cours individuels** + **3 certifications de spécialisation** (Deep Learning, TensorFlow Developer, Reasoning/Data Analysis/Writing), couvrant Deep Learning, NLP, Computer Vision, Time Series, Tableau, Python, Mathématiques pour ML, Statistique inférentielle, IA générative et Scrum.
+- **Udemy** — **8 certifications** en data science (Python, R, SQL, ML, DL, Time Series, Tableau).
+- **Formations institutionnelles et pédagogiques** — Power BI (IT LAND), Prompt Engineering (D2F), Reviewer WEITA 2026, écoles d'été CIMPA + IHEC, mobilité ERASMUS.
+
+## Coursera — Deep Learning Specialization (DeepLearning.AI, Andrew Ng)
+
+**Spécialisation complète (5 cours) — finalisée le 17/03/2020** · [Certificate](https://coursera.org/verify/544VX2JYTUTZ)
 
 ::: {.card-module}
-### 1. Neural Networks and Deep Learning · 09/2019
-Fondamentaux des réseaux de neurones, propagation avant et arrière,
-construction d'un réseau profond.
+### 1. Neural Networks and Deep Learning · 21/09/2019
+Fondamentaux des réseaux de neurones, propagation avant et arrière, construction d'un réseau profond.
+[Verify](https://coursera.org/verify/YDGM7NR7VXZQ)
 :::
 
 ::: {.card-module}
-### 2. Improving Deep Neural Networks · 09/2019
-*Hyperparameter tuning, Regularization and Optimization* — techniques avancées
-d'amélioration des modèles.
+### 2. Improving Deep Neural Networks · 30/09/2019
+*Hyperparameter Tuning, Regularization and Optimization*. [Verify](https://coursera.org/verify/MWEPTGZYBRC2)
 :::
 
 ::: {.card-module}
-### 3. Structuring Machine Learning Projects · 10/2019
-Stratégies pour la conception et le débogage de projets ML.
+### 3. Structuring Machine Learning Projects · 19/10/2019
+Stratégies pour la conception et le débogage de projets ML. [Verify](https://coursera.org/verify/E6MC4GSE7U7K)
 :::
 
 ::: {.card-module}
-### 4. Convolutional Neural Networks · 10/2019
-Architectures CNN (ResNet, Inception), object detection, segmentation,
-neural style transfer.
+### 4. Convolutional Neural Networks · 12/11/2019
+ResNet, Inception, object detection, segmentation, neural style transfer. [Verify](https://coursera.org/verify/YKU567ZCDWHD)
 :::
 
 ::: {.card-module}
-### 5. Sequence Models · 10/2019
-RNN, LSTM, GRU, attention, modèles séquence-à-séquence,
-applications NLP.
+### 5. Sequence Models · 17/03/2020
+RNN, LSTM, GRU, attention, modèles séquence-à-séquence, applications NLP. [Verify](https://coursera.org/verify/GLXKEB27FDAF)
 :::
 
-## Certifications Udemy
+## Coursera — TensorFlow Developer Professional Certificate (DeepLearning.AI)
+
+**Professional Certificate (4 cours) — finalisé le 07/05/2020** · [Certificate](https://coursera.org/verify/RJB25F85UWYT)
+
+::: {.card-module}
+### 1. Introduction to TensorFlow for AI, ML and DL · 03/05/2020
+[Verify](https://coursera.org/verify/QTUVEK6LV5EL)
+:::
+
+::: {.card-module}
+### 2. Convolutional Neural Networks in TensorFlow · 06/05/2020
+[Verify](https://coursera.org/verify/4UD4A9QVBUTS)
+:::
+
+::: {.card-module}
+### 3. Natural Language Processing in TensorFlow · 07/05/2020
+[Verify](https://coursera.org/verify/BHTVCDQJCNL9)
+:::
+
+::: {.card-module}
+### 4. Sequences, Time Series and Prediction · 07/05/2020
+[Verify](https://coursera.org/verify/UF3MU582MLJM)
+:::
+
+## Coursera — autres cours individuels
+
+| Date | Cours | Institution | Verify |
+|---|---|---|---|
+| 12/03/2020 | Using Python to Access Web Data | University of Michigan | [link](https://coursera.org/verify/UFQ362D3K66X) |
+| 19/03/2020 | Programming for Everybody (Getting Started with Python) | University of Michigan | [link](https://coursera.org/verify/Z5V4YL3CS595) |
+| 12/04/2020 | Fundamentals of Visualization with Tableau | UC Davis | [link](https://coursera.org/verify/JHR4LS8YV6FD) |
+| 03/05/2020 | Data Visualization with Tableau Project | UC Davis | [link](https://coursera.org/verify/ZXC9LS3THCG8) |
+| 04/05/2020 | Data Visualization and Communication with Tableau | Duke University | [link](https://coursera.org/verify/HAJUC2ZPN4BF) |
+| 04/05/2020 | Creating Dashboards and Storytelling with Tableau | UC Davis | [link](https://coursera.org/verify/MJMWT9Y779BL) |
+| 14/04/2020 | Practical Time Series Analysis | SUNY | [link](https://coursera.org/verify/K4D6SCMFRU9C) |
+| 05/09/2023 | Practical Time Series Analysis (reprise) | SUNY | [link](https://coursera.org/verify/MFVVSFFYKX5V) |
+| 03/05/2020 | Developing Data Products | Johns Hopkins University | [link](https://coursera.org/verify/P5T5RQ5B3PZ6) |
+| 03/06/2020 | Statistical Inference | Johns Hopkins University | [link](https://coursera.org/verify/UJG26PFPT7T4) |
+| 20/07/2020 | What is Data Science? | IBM | [link](https://coursera.org/verify/UAZD4BUUSS5K) |
+| 14/11/2020 | Mathematics for Machine Learning: Linear Algebra | Imperial College London | [link](https://coursera.org/verify/BUMHAYXNW7RA) |
+| 02/05/2021 | Natural Language Processing with Classification and Vector Spaces | DeepLearning.AI | [link](https://coursera.org/verify/KGMQR8YHJKYE) |
+| 29/03/2024 | Introduction to Generative AI | Duke University | [link](https://coursera.org/verify/J2QS4ZBWHARD) |
+| 05/04/2024 | Introduction to Scrum Master Training | LearnQuest | [link](https://coursera.org/verify/KP5DX8BPNJJJ) |
+
+## Coursera — Reasoning, Data Analysis & Writing Specialization (Duke University)
+
+::: {.card-module}
+### Spécialisation 4 cours · Duke University
+*Think Again: How to Reason and Argue · English Composition I · Data Analysis and Statistical Inference · Reasoning, Data Analysis, & Writing Final Project*
+
+Spécialisation transversale combinant raisonnement critique, analyse statistique et expression écrite académique.
+:::
+
+## Certifications Udemy — Data Science
 
 | Date | Certification | Description |
 |---|---|---|
@@ -55,44 +108,52 @@ applications NLP.
 | 09/2019 | **Time Series Analysis in Python 2019** | ARIMA, SARIMA, modèles avancés |
 | 09/2019 | **Tableau 10 de A à Z** | Hands-On Tableau Training For Data Science |
 
-## Certifications pédagogiques
+## Certifications & formations pédagogiques
 
 ::: {.card-module}
 ### Get Interactive: Practical Teaching with Technology · 12/2019
-Certification dédiée à l'enseignement augmenté par la technologie,
-suivie en complément de la spécialisation data science pour ancrer la
-dimension pédagogique du parcours.
+Enseignement augmenté par la technologie — pendant pédagogique du parcours data science.
+:::
+
+::: {.card-module}
+### Prompt Engineering · D2F (ESB) · 2025
+Techniques avancées pour LLMs : few-shot, chain-of-thought, role prompting, structured outputs, function calling.
+:::
+
+::: {.card-module}
+### Advanced Prompt Engineering Workshop · ESB / AI4U · 2025–2026
+Approfondissement : *agentic patterns*, *tool calling*, RAG avancé, évaluation et garde-fous LLM. Réinvesti dans la conception des plateformes **ESB-Learning** et **RecruScore**.
+:::
+
+## Certification technique
+
+::: {.card-module}
+### DA-100 Microsoft Power BI Data Analyst · IT LAND · 2021–2022
+Formation technique data analytics dans le cadre du partenariat ESB / IT LAND (Convention 23/09/2021).
 :::
 
 ## Écoles d'été — formation à la recherche
 
 ::: {.card-module}
 ### CIMPA 2019 · Été 2019
-**Science des données pour l'ingénierie et la technologie**
-
-Centre International de Mathématiques Pures et Appliquées — école d'été
-internationale dédiée à la recherche en data science et IA.
+**Science des données pour l'ingénierie et la technologie** — Centre International de Mathématiques Pures et Appliquées.
 :::
 
 ::: {.card-module}
-### IHEC SUMMER SCHOOL · Été 2018
-**Data Science for Finance**
-
-Institut des Hautes Études Commerciales de Carthage — école d'été
-sur les applications de la data science en finance.
+### IHEC Summer School · Été 2018
+**Data Science for Finance** — Institut des Hautes Études Commerciales de Carthage.
 :::
 
-## Mobilité enseignante
+## Mobilité enseignante & comités scientifiques
 
 ::: {.card-module}
-### SUP'DE COM Lyon · Programme ERASMUS
-Visite des locaux de SUP'DE COM Lyon dans le cadre du programme d'échange
-des enseignants ERASMUS. La visite a permis :
+### SUP'DE COM Lyon · ERASMUS · 04/2019
+Mobilité enseignante : intervention *Introduction au logiciel R* (4 h) + extension du partenariat aux licences.
+:::
 
-- d'élargir le partenariat (extension de la coopération aux licences,
-  alors qu'elle se limitait aux masters)
-- de découvrir les outils digitaux utilisés pour assurer le bon
-  déroulement des cours
+::: {.card-module}
+### Reviewer scientifique — WEITA 2026 · ESPRIT · 04/2026
+*Ethical and Responsible Integration of AI* — comité de relecture (Workshop Submissions WS06 et WS08 + Oral Presentations, équipe de 4 reviewers).
 :::
 
 ## Tableau interactif
@@ -104,6 +165,6 @@ from itables import init_notebook_mode, show
 init_notebook_mode(all_interactive=True)
 
 df = pd.read_csv("data/certifications.csv")
-df = df.sort_values("date", ascending=False)
+df = df.sort_values("date", ascending=False, na_position="last")
 show(df, lengthMenu=[10, 25, 50], classes="display compact")
 ```

@@ -1,17 +1,44 @@
 date,intitule,organisme,type,lien
-2019-09-15,Neural Networks and Deep Learning,Coursera (deeplearning.ai),Certification — Spécialisation DL,
-2019-09-25,Improving Deep Neural Networks: Hyperparameter tuning Regularization and Optimization,Coursera (deeplearning.ai),Certification — Spécialisation DL,
-2019-10-05,Structuring Machine Learning Projects,Coursera (deeplearning.ai),Certification — Spécialisation DL,
-2019-10-15,Convolutional Neural Networks,Coursera (deeplearning.ai),Certification — Spécialisation DL,
-2019-10-25,Sequence Models,Coursera (deeplearning.ai),Certification — Spécialisation DL,
-2019-09-10,Times Series Analysis in Python 2019,Udemy,Certification — E-learning,
-2019-09-20,Tableau 10 de A à Z — Hands-On Tableau Training For Data Science,Udemy,Certification — E-learning,
-2019-07-10,Python A-Z — Python for Data Science With Real-Life Exercises,Udemy,Certification — E-learning,
-2019-07-15,Data Science A-Z — Real-Life Data Science Exercises,Udemy,Certification — E-learning,
-2019-06-20,SQL pour la Data Science de A à Z — analyse de data réelles,Udemy,Certification — E-learning,
-2019-07-20,Deep Learning A-Z — Hands-On Artificial Neural Networks,Udemy,Certification — E-learning,
-2019-07-25,Machine Learning A-Z — Hands-On Python & R in Data Science,Udemy,Certification — E-learning,
-2019-08-01,R Programming — Advanced Analytics In R For Data Science,Udemy,Certification — E-learning,
+2019-09-21,Neural Networks and Deep Learning,Coursera (DeepLearning.AI),Coursera — Deep Learning Specialization,https://coursera.org/verify/YDGM7NR7VXZQ
+2019-09-30,"Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",Coursera (DeepLearning.AI),Coursera — Deep Learning Specialization,https://coursera.org/verify/MWEPTGZYBRC2
+2019-10-19,Structuring Machine Learning Projects,Coursera (DeepLearning.AI),Coursera — Deep Learning Specialization,https://coursera.org/verify/E6MC4GSE7U7K
+2019-11-12,Convolutional Neural Networks,Coursera (DeepLearning.AI),Coursera — Deep Learning Specialization,https://coursera.org/verify/YKU567ZCDWHD
+2020-03-17,Sequence Models,Coursera (DeepLearning.AI),Coursera — Deep Learning Specialization,https://coursera.org/verify/GLXKEB27FDAF
+2020-03-17,"Deep Learning Specialization (5 courses — completion)",Coursera (DeepLearning.AI / Andrew Ng),Coursera — Specialization Certificate,https://coursera.org/verify/544VX2JYTUTZ
+2020-05-03,"Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",Coursera (DeepLearning.AI),Coursera — TensorFlow Developer Pro Certificate,https://coursera.org/verify/QTUVEK6LV5EL
+2020-05-06,Convolutional Neural Networks in TensorFlow,Coursera (DeepLearning.AI),Coursera — TensorFlow Developer Pro Certificate,https://coursera.org/verify/4UD4A9QVBUTS
+2020-05-07,Natural Language Processing in TensorFlow,Coursera (DeepLearning.AI),Coursera — TensorFlow Developer Pro Certificate,https://coursera.org/verify/BHTVCDQJCNL9
+2020-05-07,"Sequences, Time Series and Prediction",Coursera (DeepLearning.AI),Coursera — TensorFlow Developer Pro Certificate,https://coursera.org/verify/UF3MU582MLJM
+2020-05-07,DeepLearning.AI TensorFlow Developer Professional Certificate (4 courses),Coursera (DeepLearning.AI),Coursera — Professional Certificate,https://coursera.org/verify/RJB25F85UWYT
+2021-05-02,Natural Language Processing with Classification and Vector Spaces,Coursera (DeepLearning.AI),Coursera — NLP Specialization,https://coursera.org/verify/KGMQR8YHJKYE
+2020-03-12,Using Python to Access Web Data,Coursera (University of Michigan),Coursera — Python for Everybody,https://coursera.org/verify/UFQ362D3K66X
+2020-03-19,Programming for Everybody (Getting Started with Python),Coursera (University of Michigan),Coursera — Python for Everybody,https://coursera.org/verify/Z5V4YL3CS595
+2020-04-12,Fundamentals of Visualization with Tableau,Coursera (UC Davis),Coursera — Tableau Specialization,https://coursera.org/verify/JHR4LS8YV6FD
+2020-05-03,Data Visualization with Tableau Project,Coursera (UC Davis),Coursera — Tableau Specialization,https://coursera.org/verify/ZXC9LS3THCG8
+2020-05-04,Data Visualization and Communication with Tableau,Coursera (Duke University),Coursera — Tableau,https://coursera.org/verify/HAJUC2ZPN4BF
+2020-05-04,Creating Dashboards and Storytelling with Tableau,Coursera (UC Davis),Coursera — Tableau,https://coursera.org/verify/MJMWT9Y779BL
+2020-04-14,Practical Time Series Analysis,Coursera (SUNY),Coursera — Time Series,https://coursera.org/verify/K4D6SCMFRU9C
+2023-09-05,Practical Time Series Analysis (reprise),Coursera (SUNY),Coursera — Time Series,https://coursera.org/verify/MFVVSFFYKX5V
+2020-05-03,Developing Data Products,Coursera (Johns Hopkins University),Coursera — Data Science Specialization,https://coursera.org/verify/P5T5RQ5B3PZ6
+2020-06-03,Statistical Inference,Coursera (Johns Hopkins University),Coursera — Data Science Specialization,https://coursera.org/verify/UJG26PFPT7T4
+2020-07-20,What is Data Science?,Coursera (IBM),Coursera — IBM Data Science Pro Certificate,https://coursera.org/verify/UAZD4BUUSS5K
+2020-11-14,Mathematics for Machine Learning: Linear Algebra,Coursera (Imperial College London),Coursera — Mathematics for ML Specialization,https://coursera.org/verify/BUMHAYXNW7RA
+2024-03-29,Introduction to Generative AI,Coursera (Duke University),Coursera — Generative AI,https://coursera.org/verify/J2QS4ZBWHARD
+2024-04-05,Introduction to Scrum Master Training,Coursera (LearnQuest),Coursera — Agile / Scrum,https://coursera.org/verify/KP5DX8BPNJJJ
+2014-06-15,"Reasoning, Data Analysis, & Writing Specialization (4 courses)",Coursera (Duke University),Coursera — Specialization Certificate,
+2019-06-20,SQL pour la Data Science de A à Z — analyse de data réelles,Udemy,Udemy — E-learning,
+2019-07-10,Python A-Z — Python for Data Science With Real-Life Exercises,Udemy,Udemy — E-learning,
+2019-07-15,Data Science A-Z — Real-Life Data Science Exercises,Udemy,Udemy — E-learning,
+2019-07-20,Deep Learning A-Z — Hands-On Artificial Neural Networks,Udemy,Udemy — E-learning,
+2019-07-25,Machine Learning A-Z — Hands-On Python & R in Data Science,Udemy,Udemy — E-learning,
+2019-08-01,R Programming — Advanced Analytics In R For Data Science,Udemy,Udemy — E-learning,
+2019-09-10,Time Series Analysis in Python 2019,Udemy,Udemy — E-learning,
+2019-09-20,Tableau 10 de A à Z — Hands-On Tableau Training For Data Science,Udemy,Udemy — E-learning,
 2019-12-01,Get Interactive: Practical Teaching with Technology,—,Certification pédagogique,
+2018-08-15,IHEC Summer School — Data Science for Finance,IHEC,École d'été recherche,
 2019-08-15,CIMPA 2019 — Science des données pour l'ingénierie et la technologie,CIMPA,École d'été recherche,
-2018-08-15,IHEC SUMMER SCHOOL — Data Science for Finance,IHEC,École d'été recherche,
+2019-04-15,ERASMUS — Sup'De Com Lyon (Introduction à R),ERASMUS,Mobilité enseignante,
+2021-12-15,DA-100 Microsoft Power BI Data Analyst,IT LAND (partenariat ESB),Certification technique,
+2025-06-15,Prompt Engineering — techniques avancées pour LLMs,D2F (ESB),Formation pédagogique,
+2025-09-15,Advanced Prompt Engineering Workshop (agentic / RAG / évaluation LLM),ESB / AI4U,Formation pédagogique,
+2026-04-15,Reviewer scientifique — WEITA 2026,ESPRIT (Tunis),Comité scientifique,
