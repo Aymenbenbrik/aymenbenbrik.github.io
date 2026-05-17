@@ -4,7 +4,7 @@ Portfolio académique d'Aymen Ben Brik, Enseignant Formateur à
 **Esprit School of Business**, construit avec [Quarto](https://quarto.org)
 et publié sur GitHub Pages.
 
-**URL prévue** : `https://aymen-benbrik.github.io`
+**URL prévue** : `https://aymenbenbrik.github.io`
 
 ## Contenu
 
@@ -70,11 +70,11 @@ via GitHub Actions.
 
 ### Premier setup (à faire une fois)
 
-1. Créer le repo `aymen-benbrik.github.io` sur GitHub (public)
+1. Créer le repo `aymenbenbrik.github.io` sur GitHub (public)
 2. Lier le dossier local :
    ```bash
    git init
-   git remote add origin git@github.com:aymen-benbrik/aymen-benbrik.github.io.git
+   git remote add origin git@github.com:Aymenbenbrik/aymenbenbrik.github.io.git
    git add .
    git commit -m "Initial site"
    git branch -M main

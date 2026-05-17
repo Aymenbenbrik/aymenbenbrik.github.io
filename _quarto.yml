@@ -5,8 +5,8 @@ project:
 website:
   title: "Aymen Ben Brik"
   description: "Chef département Informatique et mathématiques appliquées · Esprit School of Business · AI4U Lead"
-  site-url: https://aymen-benbrik.github.io
-  repo-url: https://github.com/Aymenbenbrik/aymen-benbrik.github.io
+  site-url: https://aymenbenbrik.github.io
+  repo-url: https://github.com/Aymenbenbrik/aymenbenbrik.github.io
   favicon: images/favicon.png
   reader-mode: false
   page-navigation: true
