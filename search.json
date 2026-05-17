@@ -11,49 +11,77 @@
     "href": "certifications.html",
     "title": "Certifications & Formations",
     "section": "",
-    "text": "16 certifications obtenues depuis 2018, dont la Spécialisation Deep Learning de deeplearning.ai sur Coursera (5 cours), un panel de certifications Udemy en data science, et une certification pédagogique « Get Interactive: Practical Teaching with Technology »."
+    "text": "40+ certifications et formations cumulées de 2018 à 2026, couvrant trois grands axes :\n\nCoursera — 26 cours individuels + 3 certifications de spécialisation (Deep Learning, TensorFlow Developer, Reasoning/Data Analysis/Writing), couvrant Deep Learning, NLP, Computer Vision, Time Series, Tableau, Python, Mathématiques pour ML, Statistique inférentielle, IA générative et Scrum.\nUdemy — 8 certifications en data science (Python, R, SQL, ML, DL, Time Series, Tableau).\nFormations institutionnelles et pédagogiques — Power BI (IT LAND), Prompt Engineering (D2F), Reviewer WEITA 2026, écoles d’été CIMPA + IHEC, mobilité ERASMUS."
   },
   {
     "objectID": "certifications.html#synthèse",
     "href": "certifications.html#synthèse",
     "title": "Certifications & Formations",
     "section": "",
-    "text": "16 certifications obtenues depuis 2018, dont la Spécialisation Deep Learning de deeplearning.ai sur Coursera (5 cours), un panel de certifications Udemy en data science, et une certification pédagogique « Get Interactive: Practical Teaching with Technology »."
+    "text": "40+ certifications et formations cumulées de 2018 à 2026, couvrant trois grands axes :\n\nCoursera — 26 cours individuels + 3 certifications de spécialisation (Deep Learning, TensorFlow Developer, Reasoning/Data Analysis/Writing), couvrant Deep Learning, NLP, Computer Vision, Time Series, Tableau, Python, Mathématiques pour ML, Statistique inférentielle, IA générative et Scrum.\nUdemy — 8 certifications en data science (Python, R, SQL, ML, DL, Time Series, Tableau).\nFormations institutionnelles et pédagogiques — Power BI (IT LAND), Prompt Engineering (D2F), Reviewer WEITA 2026, écoles d’été CIMPA + IHEC, mobilité ERASMUS."
   },
   {
-    "objectID": "certifications.html#spécialisation-deep-learning-deeplearning.ai-coursera",
-    "href": "certifications.html#spécialisation-deep-learning-deeplearning.ai-coursera",
+    "objectID": "certifications.html#coursera-deep-learning-specialization-deeplearning.ai-andrew-ng",
+    "href": "certifications.html#coursera-deep-learning-specialization-deeplearning.ai-andrew-ng",
     "title": "Certifications & Formations",
-    "section": "Spécialisation Deep Learning · deeplearning.ai · Coursera",
-    "text": "Spécialisation Deep Learning · deeplearning.ai · Coursera\n\n1. Neural Networks and Deep Learning · 09/2019\nFondamentaux des réseaux de neurones, propagation avant et arrière, construction d’un réseau profond.\n\n\n2. Improving Deep Neural Networks · 09/2019\nHyperparameter tuning, Regularization and Optimization — techniques avancées d’amélioration des modèles.\n\n\n3. Structuring Machine Learning Projects · 10/2019\nStratégies pour la conception et le débogage de projets ML.\n\n\n4. Convolutional Neural Networks · 10/2019\nArchitectures CNN (ResNet, Inception), object detection, segmentation, neural style transfer.\n\n\n5. Sequence Models · 10/2019\nRNN, LSTM, GRU, attention, modèles séquence-à-séquence, applications NLP."
+    "section": "Coursera — Deep Learning Specialization (DeepLearning.AI, Andrew Ng)",
+    "text": "Coursera — Deep Learning Specialization (DeepLearning.AI, Andrew Ng)\nSpécialisation complète (5 cours) — finalisée le 17/03/2020 · Certificate\n\n1. Neural Networks and Deep Learning · 21/09/2019\nFondamentaux des réseaux de neurones, propagation avant et arrière, construction d’un réseau profond. Verify\n\n\n2. Improving Deep Neural Networks · 30/09/2019\nHyperparameter Tuning, Regularization and Optimization. Verify\n\n\n3. Structuring Machine Learning Projects · 19/10/2019\nStratégies pour la conception et le débogage de projets ML. Verify\n\n\n4. Convolutional Neural Networks · 12/11/2019\nResNet, Inception, object detection, segmentation, neural style transfer. Verify\n\n\n5. Sequence Models · 17/03/2020\nRNN, LSTM, GRU, attention, modèles séquence-à-séquence, applications NLP. Verify"
   },
   {
-    "objectID": "certifications.html#certifications-udemy",
-    "href": "certifications.html#certifications-udemy",
+    "objectID": "certifications.html#coursera-tensorflow-developer-professional-certificate-deeplearning.ai",
+    "href": "certifications.html#coursera-tensorflow-developer-professional-certificate-deeplearning.ai",
     "title": "Certifications & Formations",
-    "section": "Certifications Udemy",
-    "text": "Certifications Udemy\n\n\n\n\n\n\n\n\nDate\nCertification\nDescription\n\n\n\n\n06/2019\nSQL pour la Data Science de A à Z\nAnalyse de données réelles\n\n\n07/2019\nPython A-Z\nPython for Data Science With Real-Life Exercises\n\n\n07/2019\nData Science A-Z\nReal-Life Data Science Exercises\n\n\n07/2019\nDeep Learning A-Z\nHands-On Artificial Neural Networks\n\n\n07/2019\nMachine Learning A-Z\nHands-On Python & R in Data Science\n\n\n08/2019\nR Programming\nAdvanced Analytics In R For Data Science\n\n\n09/2019\nTime Series Analysis in Python 2019\nARIMA, SARIMA, modèles avancés\n\n\n09/2019\nTableau 10 de A à Z\nHands-On Tableau Training For Data Science"
+    "section": "Coursera — TensorFlow Developer Professional Certificate (DeepLearning.AI)",
+    "text": "Coursera — TensorFlow Developer Professional Certificate (DeepLearning.AI)\nProfessional Certificate (4 cours) — finalisé le 07/05/2020 · Certificate\n\n1. Introduction to TensorFlow for AI, ML and DL · 03/05/2020\nVerify\n\n\n2. Convolutional Neural Networks in TensorFlow · 06/05/2020\nVerify\n\n\n3. Natural Language Processing in TensorFlow · 07/05/2020\nVerify\n\n\n4. Sequences, Time Series and Prediction · 07/05/2020\nVerify"
   },
   {
-    "objectID": "certifications.html#certifications-pédagogiques",
-    "href": "certifications.html#certifications-pédagogiques",
+    "objectID": "certifications.html#coursera-autres-cours-individuels",
+    "href": "certifications.html#coursera-autres-cours-individuels",
     "title": "Certifications & Formations",
-    "section": "Certifications pédagogiques",
-    "text": "Certifications pédagogiques\n\nGet Interactive: Practical Teaching with Technology · 12/2019\nCertification dédiée à l’enseignement augmenté par la technologie, suivie en complément de la spécialisation data science pour ancrer la dimension pédagogique du parcours."
+    "section": "Coursera — autres cours individuels",
+    "text": "Coursera — autres cours individuels\n\n\n\nDate\nCours\nInstitution\nVerify\n\n\n\n\n12/03/2020\nUsing Python to Access Web Data\nUniversity of Michigan\nlink\n\n\n19/03/2020\nProgramming for Everybody (Getting Started with Python)\nUniversity of Michigan\nlink\n\n\n12/04/2020\nFundamentals of Visualization with Tableau\nUC Davis\nlink\n\n\n03/05/2020\nData Visualization with Tableau Project\nUC Davis\nlink\n\n\n04/05/2020\nData Visualization and Communication with Tableau\nDuke University\nlink\n\n\n04/05/2020\nCreating Dashboards and Storytelling with Tableau\nUC Davis\nlink\n\n\n14/04/2020\nPractical Time Series Analysis\nSUNY\nlink\n\n\n05/09/2023\nPractical Time Series Analysis (reprise)\nSUNY\nlink\n\n\n03/05/2020\nDeveloping Data Products\nJohns Hopkins University\nlink\n\n\n03/06/2020\nStatistical Inference\nJohns Hopkins University\nlink\n\n\n20/07/2020\nWhat is Data Science?\nIBM\nlink\n\n\n14/11/2020\nMathematics for Machine Learning: Linear Algebra\nImperial College London\nlink\n\n\n02/05/2021\nNatural Language Processing with Classification and Vector Spaces\nDeepLearning.AI\nlink\n\n\n29/03/2024\nIntroduction to Generative AI\nDuke University\nlink\n\n\n05/04/2024\nIntroduction to Scrum Master Training\nLearnQuest\nlink"
+  },
+  {
+    "objectID": "certifications.html#coursera-reasoning-data-analysis-writing-specialization-duke-university",
+    "href": "certifications.html#coursera-reasoning-data-analysis-writing-specialization-duke-university",
+    "title": "Certifications & Formations",
+    "section": "Coursera — Reasoning, Data Analysis & Writing Specialization (Duke University)",
+    "text": "Coursera — Reasoning, Data Analysis & Writing Specialization (Duke University)\n\nSpécialisation 4 cours · Duke University\nThink Again: How to Reason and Argue · English Composition I · Data Analysis and Statistical Inference · Reasoning, Data Analysis, & Writing Final Project\nSpécialisation transversale combinant raisonnement critique, analyse statistique et expression écrite académique."
+  },
+  {
+    "objectID": "certifications.html#certifications-udemy-data-science",
+    "href": "certifications.html#certifications-udemy-data-science",
+    "title": "Certifications & Formations",
+    "section": "Certifications Udemy — Data Science",
+    "text": "Certifications Udemy — Data Science\n\n\n\n\n\n\n\n\nDate\nCertification\nDescription\n\n\n\n\n06/2019\nSQL pour la Data Science de A à Z\nAnalyse de données réelles\n\n\n07/2019\nPython A-Z\nPython for Data Science With Real-Life Exercises\n\n\n07/2019\nData Science A-Z\nReal-Life Data Science Exercises\n\n\n07/2019\nDeep Learning A-Z\nHands-On Artificial Neural Networks\n\n\n07/2019\nMachine Learning A-Z\nHands-On Python & R in Data Science\n\n\n08/2019\nR Programming\nAdvanced Analytics In R For Data Science\n\n\n09/2019\nTime Series Analysis in Python 2019\nARIMA, SARIMA, modèles avancés\n\n\n09/2019\nTableau 10 de A à Z\nHands-On Tableau Training For Data Science"
+  },
+  {
+    "objectID": "certifications.html#certifications-formations-pédagogiques",
+    "href": "certifications.html#certifications-formations-pédagogiques",
+    "title": "Certifications & Formations",
+    "section": "Certifications & formations pédagogiques",
+    "text": "Certifications & formations pédagogiques\n\nGet Interactive: Practical Teaching with Technology · 12/2019\nEnseignement augmenté par la technologie — pendant pédagogique du parcours data science.\n\n\nPrompt Engineering · D2F (ESB) · 2025\nTechniques avancées pour LLMs : few-shot, chain-of-thought, role prompting, structured outputs, function calling.\n\n\nAdvanced Prompt Engineering Workshop · ESB / AI4U · 2025–2026\nApprofondissement : agentic patterns, tool calling, RAG avancé, évaluation et garde-fous LLM. Réinvesti dans la conception des plateformes ESB-Learning et RecruScore."
+  },
+  {
+    "objectID": "certifications.html#certification-technique",
+    "href": "certifications.html#certification-technique",
+    "title": "Certifications & Formations",
+    "section": "Certification technique",
+    "text": "Certification technique\n\nDA-100 Microsoft Power BI Data Analyst · IT LAND · 2021–2022\nFormation technique data analytics dans le cadre du partenariat ESB / IT LAND (Convention 23/09/2021)."
   },
   {
     "objectID": "certifications.html#écoles-dété-formation-à-la-recherche",
     "href": "certifications.html#écoles-dété-formation-à-la-recherche",
     "title": "Certifications & Formations",
     "section": "Écoles d’été — formation à la recherche",
-    "text": "Écoles d’été — formation à la recherche\n\nCIMPA 2019 · Été 2019\nScience des données pour l’ingénierie et la technologie\nCentre International de Mathématiques Pures et Appliquées — école d’été internationale dédiée à la recherche en data science et IA.\n\n\nIHEC SUMMER SCHOOL · Été 2018\nData Science for Finance\nInstitut des Hautes Études Commerciales de Carthage — école d’été sur les applications de la data science en finance."
+    "text": "Écoles d’été — formation à la recherche\n\nCIMPA 2019 · Été 2019\nScience des données pour l’ingénierie et la technologie — Centre International de Mathématiques Pures et Appliquées.\n\n\nIHEC Summer School · Été 2018\nData Science for Finance — Institut des Hautes Études Commerciales de Carthage."
   },
   {
-    "objectID": "certifications.html#mobilité-enseignante",
-    "href": "certifications.html#mobilité-enseignante",
+    "objectID": "certifications.html#mobilité-enseignante-comités-scientifiques",
+    "href": "certifications.html#mobilité-enseignante-comités-scientifiques",
     "title": "Certifications & Formations",
-    "section": "Mobilité enseignante",
-    "text": "Mobilité enseignante\n\nSUP’DE COM Lyon · Programme ERASMUS\nVisite des locaux de SUP’DE COM Lyon dans le cadre du programme d’échange des enseignants ERASMUS. La visite a permis :\n\nd’élargir le partenariat (extension de la coopération aux licences, alors qu’elle se limitait aux masters)\nde découvrir les outils digitaux utilisés pour assurer le bon déroulement des cours"
+    "section": "Mobilité enseignante & comités scientifiques",
+    "text": "Mobilité enseignante & comités scientifiques\n\nSUP’DE COM Lyon · ERASMUS · 04/2019\nMobilité enseignante : intervention Introduction au logiciel R (4 h) + extension du partenariat aux licences.\n\n\nReviewer scientifique — WEITA 2026 · ESPRIT · 04/2026\nEthical and Responsible Integration of AI — comité de relecture (Workshop Submissions WS06 et WS08 + Oral Presentations, équipe de 4 reviewers)."
   },
   {
     "objectID": "certifications.html#tableau-interactif",
@@ -1264,7 +1292,7 @@
     "href": "index.html#indicateurs-clés",
     "title": "Aymen Ben Brik",
     "section": "Indicateurs clés",
-    "text": "Indicateurs clés\n\n\n\n  10Années d'enseignement ESB\n  42Modules différents\n  4716Heures cumulées\n  621Encadrements & jurys\n  16Certifications\n  27Responsabilités"
+    "text": "Indicateurs clés\n\n\n\n  10Années d'enseignement ESB\n  42Modules différents\n  4716Heures cumulées\n  621Encadrements & jurys\n  43Certifications\n  27Responsabilités"
   },
   {
     "objectID": "index.html#postes-actuels",
