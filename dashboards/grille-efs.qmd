@@ -1,6 +1,8 @@
 ---
 title: "Grille EFS — Score auto-évalué /340"
 subtitle: "Tracker du dossier de passage de grade · Aymen Ben Brik · Session 2026-2027"
+aliases:
+  - /dashboards/index.html
 format:
   dashboard:
     orientation: rows

@@ -34,3 +34,30 @@ def base_layout(fig, height=320):
         legend=dict(orientation="h", y=-0.2, x=0.5, xanchor="center"),
     )
     return fig
+
+
+def evolution_bar(df, titre, palette):
+    """Barres empilées par année et niveau (évolution temporelle)."""
+    import plotly.express as px
+    ag = df.groupby(["annee", "niveau"]).size().reset_index(name="count").sort_values("annee")
+    fig = px.bar(ag, x="annee", y="count", color="niveau", text="count",
+                 title=titre, barmode="stack", color_discrete_sequence=palette)
+    fig.update_traces(textposition="inside")
+    fig.update_xaxes(categoryorder="category ascending", tickangle=-45)
+    return base_layout(fig, height=380)
+
+
+def evolution_cumul(df, titre, couleur, fond):
+    """Courbe cumulée au fil des années (évolution temporelle)."""
+    import plotly.graph_objects as go
+    ag = df.groupby("annee").size().sort_index().cumsum()
+    fig = go.Figure(go.Scatter(x=list(ag.index), y=list(ag.values),
+                               mode="lines+markers+text", text=list(ag.values),
+                               textposition="top center", textfont=dict(size=10),
+                               line=dict(color=couleur, width=3),
+                               marker=dict(size=7),
+                               fill="tozeroy", fillcolor=fond))
+    fig.update_layout(title=titre)
+    fig.update_xaxes(tickangle=-45)
+    fig.update_yaxes(rangemode="tozero")
+    return base_layout(fig, height=380)

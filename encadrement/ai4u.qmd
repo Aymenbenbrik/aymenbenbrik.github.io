@@ -1,0 +1,108 @@
+---
+title: "Projets AI4U"
+subtitle: "Maître de stage · Product Owner · Stage d'été — équipe de recherche AI4U, Esprit Tech"
+toc: false
+page-layout: full
+---
+
+```{python}
+#| echo: false
+import pandas as pd
+import plotly.express as px
+
+import sys
+sys.path.insert(0, "../scripts")
+from theme import ESPRIT, base_layout
+
+from itables import init_notebook_mode, show
+init_notebook_mode(all_interactive=True)
+
+ai4u = pd.read_csv("../data/ai4u_projects.csv")
+for c in ai4u.select_dtypes(include="object").columns:
+    ai4u[c] = ai4u[c].astype(str).str.strip()
+```
+
+::: {.callout-note appearance="simple"}
+**Maître de stage · Product Owner · Stage d'été** — Direction d'équipes étudiantes
+au sein de l'équipe de recherche AI4U (Artificial Intelligence 4 University) à Esprit Tech.
+:::
+
+```{python}
+#| echo: false
+#| output: asis
+
+n_total = len(ai4u)
+n_po = (ai4u["role"].str.contains("Product Owner", na=False)).sum()
+n_termines = (ai4u["statut"] == "Terminé").sum()
+n_encours = (ai4u["statut"] == "En cours").sum()
+
+print(f'''
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.8rem;margin:1rem 0;">
+  <div class="kpi"><span class="value">{n_total}</span><span class="label">Projets AI4U</span></div>
+  <div class="kpi"><span class="value">{n_po}</span><span class="label">Product Owner</span></div>
+  <div class="kpi"><span class="value">{n_termines}</span><span class="label">Terminés</span></div>
+  <div class="kpi"><span class="value">{n_encours}</span><span class="label">En cours</span></div>
+</div>
+''')
+```
+
+## Évolution et répartitions
+
+```{python}
+#| echo: false
+#| layout-ncol: 2
+
+# Bar par annee
+year_counts = ai4u.groupby("annee").size().reset_index(name="count").sort_values("annee")
+fig = px.bar(year_counts, x="annee", y="count", text="count",
+              title="Projets AI4U par année",
+              color_discrete_sequence=[ESPRIT[0]])
+fig.update_traces(textposition="outside")
+fig.update_xaxes(tickangle=-45)
+base_layout(fig)
+fig.show()
+
+# Donut par role
+role_counts = ai4u["role"].value_counts().reset_index()
+role_counts.columns = ["role", "count"]
+fig = px.pie(role_counts, names="role", values="count", hole=0.55,
+              color_discrete_sequence=ESPRIT, title="Répartition par rôle")
+fig.update_traces(textposition="outside", textinfo="label+percent")
+base_layout(fig)
+fig.show()
+```
+
+```{python}
+#| echo: false
+#| layout-ncol: 2
+
+# Bar horizontal par domaine
+dom_counts = ai4u["domaine"].value_counts().reset_index()
+dom_counts.columns = ["domaine", "count"]
+fig = px.bar(dom_counts, x="count", y="domaine", orientation="h", text="count",
+              title="Projets par domaine",
+              color="count", color_continuous_scale=[[0, "#FFEBEE"], [1, "#C8102E"]])
+fig.update_traces(textposition="outside")
+fig.update_layout(coloraxis_showscale=False)
+base_layout(fig)
+fig.show()
+
+# Donut par statut
+stat = ai4u["statut"].value_counts().reset_index()
+stat.columns = ["statut", "count"]
+fig = px.pie(stat, names="statut", values="count", hole=0.55,
+              color_discrete_sequence=["#2E7D32", "#F57C00", "#9E9E9E"],
+              title="Statut des projets")
+fig.update_traces(textposition="outside", textinfo="label+percent")
+base_layout(fig)
+fig.show()
+```
+
+## Liste des projets AI4U
+
+```{python}
+#| echo: false
+table = ai4u.sort_values("annee", ascending=False)[["annee", "nom", "prenom", "niveau", "formation", "role", "domaine", "statut"]]
+table.columns = ["Année", "Nom", "Prénom", "Niveau", "Formation", "Rôle", "Domaine", "Statut"]
+show(table, lengthMenu=[10, 25, 50], classes="display compact")
+```

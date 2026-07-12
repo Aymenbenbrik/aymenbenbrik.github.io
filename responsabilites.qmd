@@ -195,7 +195,7 @@ mathématiques et statistiques** à ESB.
 
 ::: {.card-module}
 ### Jury de soutenance — séminaires, projets, PFE
-Voir [Encadrements](encadrements.qmd) pour la liste détaillée.
+Voir [Encadrement](encadrement/index.qmd) pour la liste détaillée.
 :::
 
 ## Animation de clubs

@@ -1,0 +1,216 @@
+---
+title: "Feedback continu"
+subtitle: "Diagnostic · Ajustement · Optimisation — piloter le semestre par les données"
+toc: true
+---
+
+## Ma vision du feedback continu
+
+::: {.vision-card}
+Je considère le feedback non pas comme une évaluation ponctuelle de fin de
+semestre, mais comme un **instrument de pilotage pédagogique en temps réel**.
+Mon système de feedback continu repose sur **trois mesures structurées** —
+**FB1 Diagnostic** (semaine 1), **FB2 Ajustement** (semaine 4) et
+**FB3 Optimisation** (semaine 10) — couplées à des **seuils déclencheurs
+quantifiés** et à des **actions correctives rapides** tracées dans une fiche
+dédiée (fiche ARC). L'objectif : détecter tôt les difficultés de
+compréhension, d'engagement ou de rythme, agir dans les deux semaines, et
+capitaliser chaque semestre dans le syllabus et la fiche module.
+:::
+
+::: {.grid}
+::: {.g-col-md-4 .g-col-12}
+::: {.kpi style="width:100%; min-width:0;"}
+[FB1 · Diagnostic — Semaine 1]{.label}
+[[]{.bi .bi-search}]{.value style="font-size:2rem"}
+[Prérequis · Motivation · Objectifs clairs]{.label}
+:::
+:::
+::: {.g-col-md-4 .g-col-12}
+::: {.kpi style="width:100%; min-width:0;"}
+[FB2 · Ajustement — Semaine 4]{.label}
+[[]{.bi .bi-sliders}]{.value style="font-size:2rem"}
+[Compréhension · Rythme · Charge · Pédagogie]{.label}
+:::
+:::
+::: {.g-col-md-4 .g-col-12}
+::: {.kpi style="width:100%; min-width:0;"}
+[FB3 · Optimisation — Semaine 10]{.label}
+[[]{.bi .bi-rocket-takeoff}]{.value style="font-size:2rem"}
+[Impact · Préparation finale · Capitalisation]{.label}
+:::
+:::
+:::
+
+![Les trois temps du feedback continu et la boucle d'action corrective](../images/feedback/schema_feedback_clair.png){fig-align="center" width="85%"}
+
+## Le dispositif sur un semestre (12 semaines)
+
+![Ancrage des feedbacks dans le déroulé du semestre](../images/feedback/timeline_semestre_feedback.png){fig-align="center"}
+
+| Moment | Outil | Action possible |
+|:---|:---|:---|
+| **Semaine 1** | Observation de l'enseignant · **Feedback 1** (prérequis et motivations) | Ajuster le rythme |
+| **Semaine 4** | Mini audit pédagogique · **Feedback 2** sur Blackboard | Coaching enseignant · Fiche ARC |
+| **Semaine 6** | Analyse des résultats intermédiaires (DS, mini-projet, taux d'engagement) avec le coordinateur du module | Séance de renforcement |
+| **Semaine 8** | Réunion départementale | Adapter le contenu · Ajuster la méthode |
+| **Semaine 10** | **Feedback 3** · Discussion avec les étudiants · LMS analytics | Corrections finales · Fiche ARC |
+| **Semaine 12** | Pré-bilan | Mise à jour du syllabus / fiche module |
+
+: {tbl-colwidths="[15,55,30]"}
+
+## Boucles d'action correctives
+
+Chaque problème détecté déclenche une réponse type dans les deux semaines :
+
+| Problème détecté | Déclencheurs | Actions immédiates |
+|:---|:---|:---|
+| **Compréhension** | < 60 % de réussite aux quiz · feedback « cours difficile » · baisse de participation | Capsule vidéo résumé · séance Q&A supplémentaire · exercices guidés · peer tutoring étudiants forts/faibles |
+| **Engagement** | Absences en hausse · faible activité Blackboard · peu d'interaction en classe | Activité interactive dès la séance suivante · quiz live · mini-projet court · gamification simple |
+| **Rythme / surcharge** | Feedback « charge élevée » · retards de remise des devoirs | Re-planifier les deadlines · fractionner le projet · fournir un template / exemple |
+| **Pédagogie enseignant** | Feedback répété des étudiants · score d'observation pédagogique faible | Coaching pédagogique rapide · co-animation de séance · partage de bonnes pratiques |
+
+: {tbl-colwidths="[20,38,42]"}
+
+## Résultats de l'enquête pédagogie active (mars 2026)
+
+::: {.callout-note appearance="simple"}
+**Questionnaire anonyme sur les méthodes d'apprentissage** — 10 questions,
+**19 répondants**, mars 2026. Cette enquête ferme la boucle du feedback
+continu : elle mesure la perception des méthodes actives par les étudiants
+et oriente les actions correctives du semestre suivant.
+Rapport complet : **[[]{.bi .bi-file-earmark-pdf} Enquête Pédagogie Active (PDF)](../documents/enquete-pedagogie-active.pdf)**
+:::
+
+::: {.grid}
+::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
+::: {.kpi style="width:100%; min-width:0;"}
+[3,5 / 5]{.value}
+[Satisfaction globale (aucune note ≤ 2)]{.label}
+:::
+:::
+::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
+::: {.kpi style="width:100%; min-width:0;"}
+[95 %]{.value}
+[souhaitent plus d'activités interactives]{.label}
+:::
+:::
+::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
+::: {.kpi style="width:100%; min-width:0;"}
+[89 %]{.value}
+[se sentent impliqués dans leur apprentissage]{.label}
+:::
+:::
+::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
+::: {.kpi style="width:100%; min-width:0;"}
+[100 %]{.value}
+[exposés aux travaux de groupe]{.label}
+:::
+:::
+:::
+
+![Tableau de bord de synthèse de l'enquête (N = 19)](../images/feedback/enquete_dashboard.png){fig-align="center"}
+
+::: {.grid}
+::: {.g-col-md-6 .g-col-12}
+::: {.callout-tip title="Points forts" appearance="simple"}
+- Méthodes actives déjà bien installées (travaux de groupe : **100 %**)
+- Participation encouragée par la majorité des enseignants (**79 %** « toujours » ou « souvent »)
+- **89 %** des étudiants se sentent impliqués dans leur apprentissage
+- Liaison théorie → pratique présente pour **85 %** des répondants
+:::
+:::
+::: {.g-col-md-6 .g-col-12}
+::: {.callout-warning title="Axes d'amélioration retenus" appearance="simple"}
+- **95 %** demandent plus d'interactivité → priorité n°1
+- Renforcer projets pratiques et études de cas réels (≥ 60 % le souhaitent)
+- Réduire le nombre de présentations étudiantes (saturation signalée)
+- Orienter les examens vers la réflexion plutôt que la mémorisation
+- Renforcer les outils professionnels (Python, Power BI, Oracle…)
+:::
+:::
+:::
+
+::: {.callout-tip collapse="true" title="Détail des résultats question par question"}
+| # | Question | Résultat clé |
+|:--|:---|:---|
+| Q1 | Qualité globale de l'enseignement | 3,5/5 en moyenne — notes 3 et 4 uniquement, aucun extrême |
+| Q2 | Encouragement à la participation | 79 % « toujours » ou « souvent » |
+| Q3 | Méthodes utilisées | Travaux de groupe 100 % · présentations 68 % · études de cas 63 % · cours magistraux 32 % |
+| Q4 | Méthodes jugées les plus efficaces | Travaux pratiques 74 % · études de cas 58 % · cours magistraux derniers (21 %) |
+| Q5 | Application théorie → pratique | 85 % « souvent » ou « toujours » |
+| Q6 | Encouragement à la réflexion | 89 % « assez » ou « beaucoup » — marge de progrès sur la pensée critique |
+| Q7 | Implication active en cours | 89 % impliqués · aucun « pas du tout impliqué » |
+| Q8 | Souhait de plus d'interactivité | **Oui : 95 %** — variable la plus consensuelle |
+| Q9 | Méthodes souhaitées davantage | Projets pratiques 63 % · études de cas 58 % · présentations 16 % |
+| Q10 | Amélioration prioritaire (question ouverte) | Pratique & cas réels (11 rép.) · qualité > quantité · alignement marché du travail |
+
+: {tbl-colwidths="[8,40,52]"}
+:::
+
+## Mes annexes de feedback
+
+::: {.callout-note appearance="simple"}
+Les quatre annexes ci-dessous constituent l'outillage opérationnel du
+système. Le document complet est téléchargeable :
+**[[]{.bi .bi-file-earmark-pdf} Système de feedback continu — document intégral avec annexes (PDF)](../documents/systeme-feedback-continu.pdf)**
+:::
+
+::: {.callout-tip collapse="true" title="Annexe 1 — Fiche Action Corrective Rapide (fiche ARC)"}
+Template de traçabilité de chaque action corrective, garantissant le suivi
+et la mesure d'impact :
+
+- **Module** / **Enseignant** / **Semaine**
+- **Problème détecté** et **source** (feedback, quiz, observation)
+- **Action décidée** et **date de mise en place**
+- **Résultat après 2 semaines**
+- **Responsable du suivi**
+:::
+
+::: {.callout-tip collapse="true" title="Annexe 2 — Feedback 1 · Diagnostic (semaine 1)"}
+Questionnaire de 8–10 questions rempli par l'étudiant, accès réservé aux
+présents de la première séance.
+
+**Objectifs** : vérifier les prérequis réels · mesurer la motivation
+initiale · vérifier la compréhension des objectifs du module.
+
+**Structure** : Bloc A — prérequis académiques (auto-évaluation, difficultés,
+besoin de rappels) · Bloc B — motivation et engagement (échelles 1→5) ·
+Bloc C — clarté des objectifs et des attentes · Bloc D — projection
+(confiance de réussite, « ce qui pourrait m'aider le plus »).
+
+**Déclencheurs d'action** : prérequis faibles > 25 % · motivation < 3,5 ·
+objectifs clairs < 3.
+:::
+
+::: {.callout-tip collapse="true" title="Annexe 3 — Feedback 2 · Ajustement (semaine 4)"}
+Questionnaire de 8–10 questions sur Blackboard, accès réservé aux étudiants
+avec un taux de présence > 50 %.
+
+**Objectifs** : vérifier la compréhension réelle · ajuster le rythme et la
+pédagogie · confirmer ou corriger le diagnostic des prérequis.
+
+**Structure** : Bloc A — compréhension du contenu et principal obstacle ·
+Bloc B — rythme et charge de travail · Bloc C — pédagogie (clarté des
+explications, utilité des supports) · Bloc D — suivi de l'évolution des
+prérequis · Bloc E — « quelle amélioration immédiate aiderait le plus ? ».
+
+**Déclencheurs d'action** : compréhension < 3,5 · rythme « trop rapide »
+> 30 % · problème de prérequis persistant.
+:::
+
+::: {.callout-tip collapse="true" title="Annexe 4 — Feedback 3 · Optimisation (semaine 10)"}
+Questionnaire de 10–12 questions, accès réservé aux étudiants avec un taux
+de présence > 50 %.
+
+**Objectifs** : mesurer l'impact pédagogique réel · vérifier la préparation
+à l'évaluation finale · capitaliser pour l'amélioration future.
+
+**Structure** : Bloc A — acquisition des compétences et sentiment de
+préparation · Bloc B — méthodes pédagogiques (activité la plus utile :
+cours, TD/TP, projet, études de cas, quiz) · Bloc C — engagement et
+motivation à approfondir.
+
+Les résultats alimentent les **corrections finales**, la **fiche ARC** et le
+**pré-bilan de semaine 12** (mise à jour du syllabus et de la fiche module).
+:::

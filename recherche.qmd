@@ -131,7 +131,7 @@ Brik solo, ESB-Learning)**.
 ::: {.card-module}
 ### Jurys de PFE / Masters / Mémoires · depuis 2017
 **621 encadrements et participations à jurys cumulés** à ESB (PFE LMAD,
-masters MDSI/MKD/MBA/GAMMA, séminaires). Voir page [Encadrements](encadrements.qmd).
+masters MDSI/MKD/MBA/GAMMA, séminaires). Voir page [Encadrement](encadrement/index.qmd).
 :::
 
 ## Veille technologique

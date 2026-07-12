@@ -91,7 +91,7 @@ print(f'''
     <div class="entry-desc">Vision pédagogique, feedback continu, récapitulatif et supports de cours.</div>
     <span class="entry-count">{n_modules} modules · {n_heures:,} h</span>
   </a>
-  <a class="entry-card" href="encadrement-projets.html">
+  <a class="entry-card" href="encadrement/index.html">
     <div class="entry-title">Encadrement</div>
     <div class="entry-desc">PFE et mémoires encadrés, rapports évalués, jurys présidés, projets AI4U.</div>
     <span class="entry-count">{n_encadrements} encadrements &amp; jurys</span>

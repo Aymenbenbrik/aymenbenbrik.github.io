@@ -23,12 +23,14 @@ website:
       - text: Enseignement
         menu:
           - href: enseignements/index.qmd
-            text: "Vue d'ensemble & feedback continu"
+            text: "Vue d'ensemble"
+          - href: enseignements/feedback-continu.qmd
+            text: "Feedback continu"
           - href: enseignements/modules/index.qmd
             text: "Catalogue des modules"
           - href: capsules-video.qmd
             text: "Capsules vidéo"
-      - href: encadrement-projets.qmd
+      - href: encadrement/index.qmd
         text: Encadrement
       - href: recherche.qmd
         text: Recherche
@@ -44,12 +46,10 @@ website:
             text: "Événements"
       - text: Dashboards
         menu:
-          - href: dashboards/index.qmd
-            text: "Vue d'ensemble"
-          - href: dashboards/evolution.qmd
-            text: "Évolution & activités"
           - href: dashboards/grille-efs.qmd
             text: "Grille EFS — Score /340"
+          - href: dashboards/evolution.qmd
+            text: "Évolution & activités"
     right:
       - icon: envelope
         href: "mailto:aymen.benbrik@esprit.tn"
@@ -60,6 +60,34 @@ website:
       - icon: github
         href: "https://github.com/Aymenbenbrik"
         aria-label: GitHub
+
+  sidebar:
+    - id: encadrement
+      title: "Encadrement"
+      style: floating
+      contents:
+        - href: encadrement/index.qmd
+          text: "Vue d'ensemble"
+        - href: encadrement/encadrements.qmd
+          text: "Encadrements académiques"
+        - href: encadrement/rapporteur.qmd
+          text: "Rapporteur"
+        - href: encadrement/president-jury.qmd
+          text: "Président de jury"
+        - href: encadrement/ai4u.qmd
+          text: "Projets AI4U"
+    - id: enseignement
+      title: "Enseignement"
+      style: floating
+      contents:
+        - href: enseignements/index.qmd
+          text: "Vue d'ensemble"
+        - href: enseignements/feedback-continu.qmd
+          text: "Feedback continu"
+        - href: enseignements/modules/index.qmd
+          text: "Catalogue des modules"
+        - href: capsules-video.qmd
+          text: "Capsules vidéo"
 
   page-footer:
     left: |

@@ -1,0 +1,93 @@
+---
+title: "Encadrements académiques"
+subtitle: "PFE, mémoires, stages et projets de fin d'études — encadrant principal"
+toc: false
+page-layout: full
+aliases:
+  - /encadrements.html
+---
+
+```{python}
+#| echo: false
+import pandas as pd
+import plotly.express as px
+
+import sys
+sys.path.insert(0, "../scripts")
+from theme import ESPRIT, base_layout, evolution_bar, evolution_cumul
+
+from itables import init_notebook_mode, show
+init_notebook_mode(all_interactive=True)
+
+enc = pd.read_csv("../data/encadrants.csv")
+for c in enc.select_dtypes(include="object").columns:
+    enc[c] = enc[c].astype(str).str.strip()
+```
+
+```{python}
+#| echo: false
+#| output: asis
+
+n_total = len(enc)
+n_etudiants = enc[["nom", "prenom"]].drop_duplicates().shape[0]
+n_soutenus = enc["statut"].str.contains("Soutenu|Terminé", na=False).sum()
+n_encours = (enc["statut"] == "En cours").sum()
+
+print(f'''
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.8rem;margin:1rem 0;">
+  <div class="kpi"><span class="value">{n_total}</span><span class="label">Encadrements</span></div>
+  <div class="kpi"><span class="value">{n_etudiants}</span><span class="label">Étudiants</span></div>
+  <div class="kpi"><span class="value">{n_soutenus}</span><span class="label">Soutenus / Terminés</span></div>
+  <div class="kpi"><span class="value">{n_encours}</span><span class="label">En cours</span></div>
+</div>
+''')
+```
+
+## Évolution temporelle
+
+```{python}
+#| echo: false
+#| layout-ncol: 2
+
+evolution_bar(enc, "Encadrements par année et niveau",
+              [ESPRIT[2], ESPRIT[0], ESPRIT[4]]).show()
+evolution_cumul(enc, "Encadrements cumulés au fil des années",
+                "#0277BD", "rgba(2,119,189,0.08)").show()
+```
+
+## Répartitions
+
+```{python}
+#| echo: false
+#| layout-ncol: 2
+
+# Bar horizontal par domaine
+dc = enc["domaine"].value_counts().reset_index()
+dc.columns = ["domaine", "count"]
+fig = px.bar(dc, x="count", y="domaine", orientation="h", text="count",
+              title="Encadrements par domaine",
+              color="count", color_continuous_scale=[[0, "#E1F5FE"], [1, "#0277BD"]])
+fig.update_traces(textposition="outside")
+fig.update_layout(coloraxis_showscale=False)
+base_layout(fig)
+fig.show()
+
+# Donut par niveau
+nc = enc["niveau"].str.strip().value_counts().reset_index()
+nc.columns = ["niveau", "count"]
+fig = px.pie(nc, names="niveau", values="count", hole=0.55,
+              color_discrete_sequence=[ESPRIT[3], ESPRIT[4], ESPRIT[1]],
+              title="Répartition par niveau")
+fig.update_traces(textposition="outside", textinfo="label+percent+value")
+base_layout(fig)
+fig.show()
+```
+
+## Liste des encadrements
+
+```{python}
+#| echo: false
+table = enc.sort_values("annee", ascending=False)[["annee", "nom", "prenom", "niveau", "formation", "domaine", "perimetre", "statut"]]
+table.columns = ["Année", "Nom", "Prénom", "Niveau", "Formation", "Domaine", "Périmètre", "Statut"]
+show(table, lengthMenu=[15, 30, 50, 100], classes="display compact")
+```
