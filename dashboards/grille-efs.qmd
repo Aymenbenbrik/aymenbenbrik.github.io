@@ -119,7 +119,7 @@ def gauge(value, max_val, title, color=COLOR_PRIMARY, height=180):
 
 # Score global
 
-## Row {height=15%}
+## Row {height="120px"}
 
 ```{python}
 #| content: valuebox
@@ -172,7 +172,7 @@ dict(
 )
 ```
 
-## Row {height=42%}
+## Row {height="440px"}
 
 ### Column {width=55%}
 
@@ -234,7 +234,7 @@ fig.update_layout(
 fig.show()
 ```
 
-## Row {height=43%}
+## Row {height="400px"}
 
 ### Column
 

@@ -1,6 +1,6 @@
 ---
-title: "Évolution & Activités"
-subtitle: "Aymen Ben Brik · Esprit School of Business · 2016–2026"
+title: "Évolution & activités"
+subtitle: "Vue transversale 2016–2026 · Aymen Ben Brik"
 format:
   dashboard:
     orientation: rows
@@ -17,21 +17,19 @@ format:
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 
-# Couleur charte Esprit
-ESPRIT_COLORS = ["#C8102E", "#4A4A4A", "#0277BD", "#2E7D32", "#F57C00",
-                 "#6A1B9A", "#00838F", "#5D4037", "#AD1457", "#1565C0"]
-COLOR_PRIMARY = "#C8102E"
+import sys
+sys.path.insert(0, "../scripts")
+from theme import ESPRIT, ESB_RED, INK, FONT
 
-# Layout commun
-def base_layout(fig, height=380):
+def dash(fig):
+    """Layout dashboard : pas de hauteur forcée, la carte dimensionne."""
     fig.update_layout(
         template="plotly_white",
-        height=height,
-        margin=dict(l=10, r=10, t=40, b=10),
-        font=dict(family="Inter, sans-serif", size=12),
-        legend=dict(orientation="h", y=-0.2, x=0.5, xanchor="center"),
+        autosize=True,
+        margin=dict(l=10, r=10, t=10, b=10),
+        font=dict(family=FONT, size=12, color=INK),
+        legend=dict(orientation="h", y=-0.18, x=0.5, xanchor="center"),
     )
     return fig
 
@@ -42,17 +40,30 @@ certifications = pd.read_csv("../data/certifications.csv")
 responsabilites = pd.read_csv("../data/responsabilites.csv")
 evenements = pd.read_csv("../data/evenements.csv")
 
-# Année de début (premier chiffre de annee_universitaire)
+# Année de début
 enseignements["annee_debut"] = enseignements["annee_universitaire"].str.split("-").str[0].astype(int)
 certifications["annee_debut"] = pd.to_datetime(certifications["date"], errors="coerce").dt.year
 encadrements["annee_debut"] = pd.to_numeric(encadrements["annee"], errors="coerce")
 responsabilites["annee_debut"] = pd.to_datetime(responsabilites["debut"], errors="coerce").dt.year
 evenements["annee_debut"] = pd.to_datetime(evenements["date"], errors="coerce").dt.year
+
+# Table longue commune : une ligne par activité et par an
+def par_an(df, categorie):
+    out = df.dropna(subset=["annee_debut"]).groupby("annee_debut").size().reset_index(name="count")
+    out["categorie"] = categorie
+    return out
+
+timeline = pd.concat([
+    par_an(enseignements, "Enseignements (cours)"),
+    par_an(encadrements, "Encadrements & jurys"),
+    par_an(certifications, "Certifications"),
+    par_an(evenements, "Événements"),
+    par_an(responsabilites, "Responsabilités"),
+], ignore_index=True)
+timeline["annee_debut"] = timeline["annee_debut"].astype(int)
 ```
 
-# Vue d'ensemble
-
-## Row {height=15%}
+## Row {height="120px"}
 
 ```{python}
 #| content: valuebox
@@ -86,7 +97,7 @@ dict(
 
 ```{python}
 #| content: valuebox
-#| title: "Encadrements"
+#| title: "Encadrements & jurys"
 dict(
     icon="people",
     color="success",
@@ -114,31 +125,19 @@ dict(
 )
 ```
 
-## Row {height=42%}
+## Row {height="430px"}
 
 ### Column {width=60%}
 
 ```{python}
-#| title: "Timeline globale — toutes activités par année"
-ens = enseignements.groupby("annee_debut").size().reset_index(name="count")
-ens["categorie"] = "Enseignements (cours)"
-enc = encadrements.dropna(subset=["annee_debut"]).groupby("annee_debut").size().reset_index(name="count")
-enc["categorie"] = "Encadrements"
-cer = certifications.dropna(subset=["annee_debut"]).groupby("annee_debut").size().reset_index(name="count")
-cer["categorie"] = "Certifications"
-evt = evenements.dropna(subset=["annee_debut"]).groupby("annee_debut").size().reset_index(name="count")
-evt["categorie"] = "Événements"
-
-timeline = pd.concat([ens, enc, cer, evt], ignore_index=True)
-timeline["annee_debut"] = timeline["annee_debut"].astype(int)
-
+#| title: "Timeline globale — volume d'activités par année et par catégorie"
 fig = px.area(
     timeline.sort_values("annee_debut"),
     x="annee_debut", y="count", color="categorie",
     labels={"annee_debut": "Année", "count": "Volume", "categorie": ""},
-    color_discrete_sequence=ESPRIT_COLORS,
+    color_discrete_sequence=ESPRIT,
 )
-base_layout(fig, height=400)
+dash(fig)
 fig.show()
 ```
 
@@ -146,367 +145,67 @@ fig.show()
 
 ```{python}
 #| title: "Heatmap année × type d'activité"
-import numpy as np
-ens_pivot = enseignements.groupby("annee_debut").size().rename("Enseignements")
-enc_pivot = encadrements.dropna(subset=["annee_debut"]).groupby("annee_debut").size().rename("Encadrements")
-cer_pivot = certifications.dropna(subset=["annee_debut"]).groupby("annee_debut").size().rename("Certifications")
-evt_pivot = evenements.dropna(subset=["annee_debut"]).groupby("annee_debut").size().rename("Événements")
-resp_pivot = responsabilites.dropna(subset=["annee_debut"]).groupby("annee_debut").size().rename("Responsabilités")
-
-heatmap_df = pd.concat([ens_pivot, enc_pivot, cer_pivot, evt_pivot, resp_pivot], axis=1).fillna(0).astype(int)
-heatmap_df.index = heatmap_df.index.astype(int)
+heatmap_df = (timeline.pivot_table(index="categorie", columns="annee_debut",
+                                   values="count", aggfunc="sum")
+              .fillna(0).astype(int))
 
 fig = px.imshow(
-    heatmap_df.T.values,
-    x=heatmap_df.index.astype(str),
-    y=heatmap_df.columns,
-    color_continuous_scale=[[0, "#FFFFFF"], [0.3, "#FCE4EC"], [0.7, "#EF9A9A"], [1, "#C8102E"]],
+    heatmap_df.values,
+    x=heatmap_df.columns.astype(str),
+    y=heatmap_df.index,
+    color_continuous_scale=[[0, "#FFFFFF"], [0.3, "#FCE4EC"], [0.7, "#EF9A9A"], [1, ESB_RED]],
     text_auto=True,
     aspect="auto",
-    labels={"x": "Année", "y": "Type d'activité", "color": "Volume"},
+    labels={"x": "Année", "y": "", "color": "Volume"},
 )
-base_layout(fig, height=400)
+dash(fig)
 fig.update_layout(coloraxis_showscale=False)
 fig.show()
 ```
 
-## Row {height=43%}
+## Row {height="380px"}
 
-### Column
+### Column {width=45%}
 
 ```{python}
-#| title: "Distribution cumulée des activités par catégorie"
-totals = pd.DataFrame({
-    "Catégorie": ["Enseignements", "Encadrements", "Certifications", "Événements", "Responsabilités"],
-    "Volume": [enseignements.shape[0], encadrements.shape[0], certifications.shape[0],
-                evenements.shape[0], responsabilites.shape[0]]
-}).sort_values("Volume", ascending=True)
+#| title: "Volume total par catégorie"
+totals = (timeline.groupby("categorie")["count"].sum()
+          .sort_values().reset_index())
 
 fig = go.Figure(go.Bar(
-    x=totals["Volume"], y=totals["Catégorie"], orientation="h",
-    text=totals["Volume"], textposition="outside",
-    marker=dict(color=totals["Volume"], colorscale=[[0, "#F5F5F5"], [1, COLOR_PRIMARY]],
-                 showscale=False, line=dict(color="white", width=1)),
+    x=totals["count"], y=totals["categorie"], orientation="h",
+    text=totals["count"], textposition="outside",
+    marker=dict(color=ESB_RED),
 ))
-base_layout(fig, height=350)
+fig.update_xaxes(range=[0, totals["count"].max() * 1.15])
+dash(fig)
 fig.show()
 ```
 
-### Column
+### Column {width=55%}
 
 ```{python}
-#| title: "Top 10 modules par heures cumulées"
-top_modules = enseignements.groupby("module")["heures"].sum().sort_values(ascending=False).head(10).reset_index()
-top_modules = top_modules.sort_values("heures", ascending=True)
+#| title: "Cumul de toutes les activités au fil des années"
+cumul = (timeline.groupby("annee_debut")["count"].sum()
+         .sort_index().cumsum())
 
-fig = go.Figure(go.Bar(
-    x=top_modules["heures"], y=top_modules["module"], orientation="h",
-    text=top_modules["heures"], textposition="outside",
-    marker=dict(color=top_modules["heures"], colorscale=[[0, "#FFEBEE"], [1, COLOR_PRIMARY]], showscale=False),
+fig = go.Figure(go.Scatter(
+    x=list(cumul.index), y=list(cumul.values),
+    mode="lines+markers+text", text=list(cumul.values),
+    textposition="top center", textfont=dict(size=10),
+    line=dict(color=ESB_RED, width=3),
+    marker=dict(size=7),
+    fill="tozeroy", fillcolor="rgba(200,16,46,0.08)",
 ))
-base_layout(fig, height=350)
+fig.update_yaxes(rangemode="tozero")
+dash(fig)
 fig.show()
 ```
 
-# Enseignements
-
-## Row {height=12%}
+## Row {height="620px"}
 
 ```{python}
-#| content: valuebox
-#| title: "Modules concus"
-dict(icon="book-half", color="primary", value=int(enseignements["module"].nunique()))
-```
-
-```{python}
-#| content: valuebox
-#| title: "Heures totales"
-dict(icon="clock", color="info", value=int(enseignements["heures"].sum()))
-```
-
-```{python}
-#| content: valuebox
-#| title: "Annees ESB"
-dict(icon="calendar-range", color="secondary", value=int(enseignements["annee_debut"].nunique()))
-```
-
-```{python}
-#| content: valuebox
-#| title: "Filieres differentes"
-dict(icon="diagram-3", color="success", value=int(enseignements["filiere"].nunique()))
-```
-
-## Row {height=44%}
-
-### Column {width=50%}
-
-```{python}
-#| title: "Heures par année universitaire (filtre par module — légende cliquable)"
-heures_an_module = enseignements.groupby(["annee_universitaire", "module"])["heures"].sum().reset_index()
-
-fig = px.bar(
-    heures_an_module.sort_values("annee_universitaire"),
-    x="annee_universitaire", y="heures", color="module",
-    labels={"annee_universitaire": "Année", "heures": "Heures", "module": ""},
-    color_discrete_sequence=ESPRIT_COLORS * 4,
-    hover_data=["module", "heures"],
-)
-base_layout(fig, height=420)
-fig.update_layout(barmode="stack", xaxis={'categoryorder': 'category ascending'})
-fig.show()
-```
-
-### Column {width=50%}
-
-```{python}
-#| title: "Sunburst : Filière → Module"
-sunburst_df = enseignements.groupby(["filiere", "module"])["heures"].sum().reset_index()
-fig = px.sunburst(
-    sunburst_df, path=["filiere", "module"], values="heures",
-    color="heures", color_continuous_scale=[[0, "#FFEBEE"], [1, COLOR_PRIMARY]],
-)
-base_layout(fig, height=420)
-fig.update_layout(coloraxis_showscale=False)
-fig.show()
-```
-
-## Row {height=44%}
-
-### Column
-
-```{python}
-#| title: "Évolution du volume horaire par année (slider année)"
-heures_per_year = enseignements.groupby(["annee_universitaire", "module"])["heures"].sum().reset_index()
-heures_per_year["annee_debut"] = heures_per_year["annee_universitaire"].str.split("-").str[0].astype(int)
-
-fig = px.bar(
-    heures_per_year.sort_values("annee_debut"),
-    x="module", y="heures",
-    animation_frame="annee_universitaire",
-    color="module",
-    range_y=[0, heures_per_year["heures"].max() * 1.15],
-    color_discrete_sequence=ESPRIT_COLORS * 4,
-    labels={"module": "Module", "heures": "Heures", "annee_universitaire": "Année"},
-)
-base_layout(fig, height=420)
-fig.update_layout(showlegend=False, xaxis_tickangle=-45)
-fig.show()
-```
-
-### Column
-
-```{python}
-#| title: "Treemap des heures par module"
-treemap_df = enseignements.groupby("module")["heures"].sum().reset_index()
-treemap_df = treemap_df[treemap_df["heures"] > 0]
-
-fig = px.treemap(
-    treemap_df, path=["module"], values="heures",
-    color="heures", color_continuous_scale=[[0, "#FFEBEE"], [1, COLOR_PRIMARY]],
-)
-base_layout(fig, height=420)
-fig.update_layout(coloraxis_showscale=False)
-fig.show()
-```
-
-# Encadrements
-
-## Row {height=12%}
-
-```{python}
-#| content: valuebox
-#| title: "Total encadrements"
-dict(icon="people-fill", color="primary", value=int(encadrements.shape[0]))
-```
-
-```{python}
-#| content: valuebox
-#| title: "PFE encadres"
-n_pfe = int(encadrements["type"].str.contains("PFE", case=False, na=False).sum())
-dict(icon="mortarboard", color="success", value=n_pfe)
-```
-
-```{python}
-#| content: valuebox
-#| title: "Projets integres"
-n_pi = int(encadrements["type"].str.contains("Projet", case=False, na=False).sum())
-dict(icon="diagram-2", color="info", value=n_pi)
-```
-
-```{python}
-#| content: valuebox
-#| title: "Seminaires"
-n_sem = int(encadrements["type"].str.contains("Séminaire|Seminaire", case=False, na=False).sum())
-dict(icon="chat-square-text", color="warning", value=n_sem)
-```
-
-## Row {height=44%}
-
-### Column
-
-```{python}
-#| title: "Encadrements par année et par type"
-df_enc = encadrements.dropna(subset=["annee"]).copy()
-df_enc["annee"] = df_enc["annee"].astype(int).astype(str)
-agg = df_enc.groupby(["annee", "type"]).size().reset_index(name="count")
-
-fig = px.bar(
-    agg.sort_values("annee"),
-    x="annee", y="count", color="type",
-    text="count",
-    labels={"annee": "Année", "count": "Encadrements", "type": ""},
-    color_discrete_sequence=ESPRIT_COLORS,
-)
-base_layout(fig, height=420)
-fig.update_layout(barmode="stack")
-fig.update_traces(textposition="inside")
-fig.show()
-```
-
-### Column
-
-```{python}
-#| title: "Sunburst : Année → Type → Filière"
-sb = encadrements.dropna(subset=["annee"]).copy()
-sb["annee"] = sb["annee"].astype(int).astype(str)
-sb["filiere"] = sb["filiere"].fillna("—")
-fig = px.sunburst(
-    sb, path=["annee", "type", "filiere"],
-    color_discrete_sequence=ESPRIT_COLORS,
-)
-base_layout(fig, height=420)
-fig.show()
-```
-
-## Row {height=44%}
-
-```{python}
-#| title: "Liste detaillee des encadrements"
-from itables import init_notebook_mode, show
-init_notebook_mode(all_interactive=True, connected=True)
-show(
-    encadrements.sort_values(["annee", "type"], ascending=[False, True]),
-    lengthMenu=[10, 25, 50],
-    classes="display compact",
-    columnDefs=[{"className": "dt-left", "targets": "_all"}],
-)
-```
-
-# Certifications
-
-## Row {height=12%}
-
-```{python}
-#| content: valuebox
-#| title: "Total certifications"
-dict(icon="award-fill", color="primary", value=int(certifications.shape[0]))
-```
-
-```{python}
-#| content: valuebox
-#| title: "Coursera (DL Spec.)"
-n_cou = int(certifications["organisme"].str.contains("Coursera", case=False, na=False).sum())
-dict(icon="cloud-check", color="info", value=n_cou)
-```
-
-```{python}
-#| content: valuebox
-#| title: "Udemy"
-n_ud = int(certifications["organisme"].str.contains("Udemy", case=False, na=False).sum())
-dict(icon="laptop", color="success", value=n_ud)
-```
-
-```{python}
-#| content: valuebox
-#| title: "Ecoles d'ete"
-n_ee = int(certifications["type"].str.contains("ecole|école|summer", case=False, na=False).sum())
-dict(icon="building", color="warning", value=n_ee)
-```
-
-## Row {height=44%}
-
-### Column
-
-```{python}
-#| title: "Certifications par année"
-cer_year = certifications.dropna(subset=["annee_debut"]).copy()
-cer_year["annee_debut"] = cer_year["annee_debut"].astype(int).astype(str)
-agg = cer_year.groupby(["annee_debut", "organisme"]).size().reset_index(name="count")
-
-fig = px.bar(
-    agg.sort_values("annee_debut"),
-    x="annee_debut", y="count", color="organisme",
-    text="count",
-    labels={"annee_debut": "Année", "count": "Certifications", "organisme": ""},
-    color_discrete_sequence=ESPRIT_COLORS,
-)
-base_layout(fig, height=400)
-fig.update_traces(textposition="inside")
-fig.show()
-```
-
-### Column
-
-```{python}
-#| title: "Treemap des certifications par organisme et type"
-treemap = certifications.copy()
-treemap["organisme"] = treemap["organisme"].fillna("—")
-treemap["type"] = treemap["type"].fillna("—")
-fig = px.treemap(
-    treemap, path=["organisme", "type", "intitule"],
-    color_discrete_sequence=ESPRIT_COLORS,
-)
-base_layout(fig, height=400)
-fig.show()
-```
-
-## Row {height=44%}
-
-```{python}
-#| title: "Liste complete des certifications"
-show(
-    certifications.sort_values("date", ascending=False),
-    lengthMenu=[10, 25, 50],
-    classes="display compact",
-)
-```
-
-# Responsabilités
-
-## Row {height=12%}
-
-```{python}
-#| content: valuebox
-#| title: "Total responsabilites"
-dict(icon="briefcase-fill", color="primary", value=int(responsabilites.shape[0]))
-```
-
-```{python}
-#| content: valuebox
-#| title: "En cours"
-en_cours = int(responsabilites["fin"].isna().sum())
-dict(icon="play-circle", color="success", value=en_cours)
-```
-
-```{python}
-#| content: valuebox
-#| title: "Pedagogiques"
-n_p = int(responsabilites["type"].str.contains("Péda|Peda", case=False, na=False).sum())
-dict(icon="book", color="info", value=n_p)
-```
-
-```{python}
-#| content: valuebox
-#| title: "Administratives"
-n_a = int(responsabilites["type"].str.contains("Admin", case=False, na=False).sum())
-dict(icon="building", color="secondary", value=n_a)
-```
-
-## Row {height=55%}
-
-```{python}
-#| title: "Gantt — chronologie des responsabilités"
-import datetime as dt
+#| title: "Chronologie des responsabilités (Gantt)"
 gantt = responsabilites.copy()
 gantt["debut_dt"] = pd.to_datetime(gantt["debut"], errors="coerce")
 gantt["fin_dt"] = pd.to_datetime(gantt["fin"], errors="coerce").fillna(pd.Timestamp("2026-09-01"))
@@ -514,120 +213,26 @@ gantt = gantt.dropna(subset=["debut_dt"]).sort_values("debut_dt")
 
 fig = px.timeline(
     gantt, x_start="debut_dt", x_end="fin_dt", y="responsabilite", color="type",
-    color_discrete_sequence=ESPRIT_COLORS,
-    labels={"responsabilite": "Responsabilité", "type": ""},
+    color_discrete_sequence=ESPRIT,
+    labels={"responsabilite": "", "type": ""},
     hover_data=["perimetre"],
 )
 fig.update_yaxes(autorange="reversed", tickfont=dict(size=10))
-base_layout(fig, height=620)
-fig.update_layout(legend=dict(orientation="h", y=1.05))
+dash(fig)
+fig.update_layout(legend=dict(orientation="h", y=1.06, x=0, xanchor="left"))
 fig.show()
 ```
 
-## Row {height=33%}
+## Row
 
-### Column
+::: {.card title="Explorer chaque activité en détail"}
+Ce tableau de bord donne la vue transversale ; chaque activité a sa page
+dédiée avec ses propres graphiques et sa liste complète :
 
-```{python}
-#| title: "Répartition par type de responsabilité"
-type_count = responsabilites["type"].value_counts().reset_index()
-type_count.columns = ["type", "count"]
-
-fig = px.pie(
-    type_count, names="type", values="count",
-    color_discrete_sequence=ESPRIT_COLORS,
-    hole=0.5,
-)
-base_layout(fig, height=320)
-fig.update_traces(textposition="outside", textinfo="label+percent")
-fig.show()
-```
-
-### Column
-
-```{python}
-#| title: "Liste interactive"
-show(
-    responsabilites.sort_values("debut", ascending=False),
-    lengthMenu=[10, 25, 50],
-    classes="display compact",
-)
-```
-
-# Événements
-
-## Row {height=12%}
-
-```{python}
-#| content: valuebox
-#| title: "Total evenements"
-dict(icon="calendar-event-fill", color="primary", value=int(evenements.shape[0]))
-```
-
-```{python}
-#| content: valuebox
-#| title: "Concours"
-n_c = int(evenements["type"].str.contains("Concours", case=False, na=False).sum())
-dict(icon="trophy", color="warning", value=n_c)
-```
-
-```{python}
-#| content: valuebox
-#| title: "Animations / Formations"
-n_a = int(evenements["type"].str.contains("Animation|Formation", case=False, na=False).sum())
-dict(icon="megaphone", color="success", value=n_a)
-```
-
-```{python}
-#| content: valuebox
-#| title: "Ecoles d'ete + mobilites"
-n_e = int(evenements["type"].str.contains("École|école|Mobilité", case=False, na=False).sum())
-dict(icon="airplane", color="info", value=n_e)
-```
-
-## Row {height=44%}
-
-### Column
-
-```{python}
-#| title: "Évolution annuelle des événements par type"
-ev = evenements.dropna(subset=["annee_debut"]).copy()
-ev["annee_debut"] = ev["annee_debut"].astype(int).astype(str)
-agg = ev.groupby(["annee_debut", "type"]).size().reset_index(name="count")
-
-fig = px.bar(
-    agg.sort_values("annee_debut"),
-    x="annee_debut", y="count", color="type",
-    labels={"annee_debut": "Année", "count": "Événements", "type": ""},
-    color_discrete_sequence=ESPRIT_COLORS,
-)
-base_layout(fig, height=420)
-fig.update_layout(barmode="stack")
-fig.show()
-```
-
-### Column
-
-```{python}
-#| title: "Sunburst : Type → Lieu → Événement"
-sb = evenements.copy()
-sb["lieu"] = sb["lieu"].fillna("—")
-sb["type"] = sb["type"].fillna("—")
-fig = px.sunburst(
-    sb.head(40), path=["type", "lieu"],
-    color_discrete_sequence=ESPRIT_COLORS,
-)
-base_layout(fig, height=420)
-fig.show()
-```
-
-## Row {height=44%}
-
-```{python}
-#| title: "Liste detaillee filtrable des evenements"
-show(
-    evenements.sort_values("date", ascending=False),
-    lengthMenu=[10, 25, 50],
-    classes="display compact",
-)
-```
+- **[Enseignement](../enseignements/index.html)** — vision pédagogique, récapitulatif des modules, supports
+- **[Encadrement](../encadrement/index.html)** — encadrements académiques, rapporteur, président de jury, projets AI4U
+- **[Certifications](../certifications.html)** — formations et certifications par organisme
+- **[Responsabilités](../responsabilites.html)** — responsabilités pédagogiques et administratives
+- **[Événements](../evenements.html)** — concours, animations, écoles d'été, mobilités
+- **[Grille EFS — Score /340](grille-efs.html)** — tracker du dossier de passage de grade
+:::
