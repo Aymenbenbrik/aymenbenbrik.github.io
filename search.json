@@ -347,35 +347,50 @@
     "href": "enseignements/modules/index.html",
     "title": "Modules — Vue d’ensemble",
     "section": "",
-    "text": "Catalogue des 42 modules dispensés à ESB (2016–2026), dont 11 avec fiche pédagogique détaillée (★). Cliquez sur un module pour accéder à sa fiche."
+    "text": "Catalogue des 42 modules dispensés à ESB (2016–2026), dont 11 avec fiche pédagogique détaillée (★). Cliquez sur un module pour accéder à sa fiche.",
+    "crumbs": [
+      "Catalogue des modules"
+    ]
   },
   {
     "objectID": "enseignements/modules/index.html#mathématiques-et-statistiques",
     "href": "enseignements/modules/index.html#mathématiques-et-statistiques",
     "title": "Modules — Vue d’ensemble",
     "section": "∫ Mathématiques et Statistiques",
-    "text": "∫ Mathématiques et Statistiques\n\n\n\nModule\nCharge cumulée\nAnnées\nFiche\n\n\n\n\nAlgèbre 1\n420 h\n5\n\n\n\nAlgèbre 2\n210 h\n3\n★\n\n\nAlgèbre 3\n168 h\n2\n★\n\n\nAnalyse 2\n30 h\n1\n\n\n\nAnalyse 4\n294 h\n4\n★\n\n\nAnalyse statistique avec R\n63 h\n3\n\n\n\nIntégration et Probabilités\n92 h\n2\n\n\n\nLes fondamentaux des mathématiques\n21 h\n1\n\n\n\nLogique Mathématique\n42 h\n1\n\n\n\nMathématiques 1\n210 h\n3\n\n\n\nMathématiques 2\n126 h\n1\n\n\n\nMathématiques appliquées à la gestion\n10 h\n1\n\n\n\nProbabilités\n84 h\n1\n★\n\n\nProbabilités et Statistiques\n146 h\n2\n\n\n\nStatistiques\n57 h\n3\n\n\n\nStatistiques descriptives et Probabilités\n511 h\n3\n\n\n\nStatistiques inférentielles\n329 h\n7"
+    "text": "∫ Mathématiques et Statistiques\n\n\n\nModule\nCharge cumulée\nAnnées\nFiche\n\n\n\n\nAlgèbre 1\n420 h\n5\n\n\n\nAlgèbre 2\n210 h\n3\n★\n\n\nAlgèbre 3\n168 h\n2\n★\n\n\nAnalyse 2\n30 h\n1\n\n\n\nAnalyse 4\n294 h\n4\n★\n\n\nAnalyse statistique avec R\n63 h\n3\n\n\n\nIntégration et Probabilités\n92 h\n2\n\n\n\nLes fondamentaux des mathématiques\n21 h\n1\n\n\n\nLogique Mathématique\n42 h\n1\n\n\n\nMathématiques 1\n210 h\n3\n\n\n\nMathématiques 2\n126 h\n1\n\n\n\nMathématiques appliquées à la gestion\n10 h\n1\n\n\n\nProbabilités\n84 h\n1\n★\n\n\nProbabilités et Statistiques\n146 h\n2\n\n\n\nStatistiques\n57 h\n3\n\n\n\nStatistiques descriptives et Probabilités\n511 h\n3\n\n\n\nStatistiques inférentielles\n329 h\n7",
+    "crumbs": [
+      "Catalogue des modules"
+    ]
   },
   {
     "objectID": "enseignements/modules/index.html#intelligence-artificielle",
     "href": "enseignements/modules/index.html#intelligence-artificielle",
     "title": "Modules — Vue d’ensemble",
     "section": "🤖 Intelligence Artificielle",
-    "text": "🤖 Intelligence Artificielle\n\n\n\nModule\nCharge cumulée\nAnnées\nFiche\n\n\n\n\nApprentissage Statistique\n84 h\n2\n\n\n\nAtelier de programmation\n42 h\n1\n\n\n\nData Mining\n21 h\n1\n\n\n\nDeep Learning\n420 h\n4\n★\n\n\nFondements de la théorie de la décision\n231 h\n4\n\n\n\nGenerative Computer Vision\n21 h\n1\n★\n\n\nGestion de projet\n30 h\n1\n\n\n\nIntelligence Artificielle\n56 h\n1\n\n\n\nIntroduction Data Science\n21 h\n1\n\n\n\nMachine Learning\n126 h\n2\n★\n\n\nMachine Learning (non supervisé)\n42 h\n1\n\n\n\nMachine Learning (supervisé)\n42 h\n1\n\n\n\nOptimisation numérique\n84 h\n4\n\n\n\nOutillage Machine Learning\n63 h\n2\n★\n\n\nProgrammation Python 2\n42 h\n2\n★\n\n\nProgrammation Python 3\n42 h\n2\n★"
+    "text": "🤖 Intelligence Artificielle\n\n\n\nModule\nCharge cumulée\nAnnées\nFiche\n\n\n\n\nApprentissage Statistique\n84 h\n2\n\n\n\nAtelier de programmation\n42 h\n1\n\n\n\nData Mining\n21 h\n1\n\n\n\nDeep Learning\n420 h\n4\n★\n\n\nFondements de la théorie de la décision\n231 h\n4\n\n\n\nGenerative Computer Vision\n21 h\n1\n★\n\n\nGestion de projet\n30 h\n1\n\n\n\nIntelligence Artificielle\n56 h\n1\n\n\n\nIntroduction Data Science\n21 h\n1\n\n\n\nMachine Learning\n126 h\n2\n★\n\n\nMachine Learning (non supervisé)\n42 h\n1\n\n\n\nMachine Learning (supervisé)\n42 h\n1\n\n\n\nOptimisation numérique\n84 h\n4\n\n\n\nOutillage Machine Learning\n63 h\n2\n★\n\n\nProgrammation Python 2\n42 h\n2\n★\n\n\nProgrammation Python 3\n42 h\n2\n★",
+    "crumbs": [
+      "Catalogue des modules"
+    ]
   },
   {
     "objectID": "enseignements/modules/index.html#sciences-des-données",
     "href": "enseignements/modules/index.html#sciences-des-données",
     "title": "Modules — Vue d’ensemble",
     "section": "📊 Sciences des données",
-    "text": "📊 Sciences des données\n\n\n\nModule\nCharge cumulée\nAnnées\nFiche\n\n\n\n\nAnalyse des données\n42 h\n1\n\n\n\nAnalyse des données avec SPSS\n42 h\n1\n\n\n\nModèles linéaires généralisés\n25 h\n2\n\n\n\nProgrammation avec R\n102 h\n1\n\n\n\nRecherche Opérationnelle\n42 h\n1\n★\n\n\nSéries Temporelles\n220 h\n5"
+    "text": "📊 Sciences des données\n\n\n\nModule\nCharge cumulée\nAnnées\nFiche\n\n\n\n\nAnalyse des données\n42 h\n1\n\n\n\nAnalyse des données avec SPSS\n42 h\n1\n\n\n\nModèles linéaires généralisés\n25 h\n2\n\n\n\nProgrammation avec R\n102 h\n1\n\n\n\nRecherche Opérationnelle\n42 h\n1\n★\n\n\nSéries Temporelles\n220 h\n5",
+    "crumbs": [
+      "Catalogue des modules"
+    ]
   },
   {
     "objectID": "enseignements/modules/index.html#encadrement-et-soutien",
     "href": "enseignements/modules/index.html#encadrement-et-soutien",
     "title": "Modules — Vue d’ensemble",
     "section": "🎯 Encadrement et soutien",
-    "text": "🎯 Encadrement et soutien\n\n\n\nModule\nCharge cumulée\nAnnées\nFiche\n\n\n\n\nCours de soutien\n30 h\n1\n\n\n\nCours de soutien Mathématiques\n9 h\n1\n\n\n\nCours de soutien Statistiques inférentielles\n24 h\n2"
+    "text": "🎯 Encadrement et soutien\n\n\n\nModule\nCharge cumulée\nAnnées\nFiche\n\n\n\n\nCours de soutien\n30 h\n1\n\n\n\nCours de soutien Mathématiques\n9 h\n1\n\n\n\nCours de soutien Statistiques inférentielles\n24 h\n2",
+    "crumbs": [
+      "Catalogue des modules"
+    ]
   },
   {
     "objectID": "enseignements/modules/mathematiques-1.html",
@@ -1085,242 +1100,211 @@
     "text": "Ressources Blackboard\n\nEspace cours sur Blackboard\n\n\n\n\n\n\n\n\nNote\n\n\n\nPage générée automatiquement à partir de data/enseignements_detailed.csv (source : Passage de grade/Enseignement.xlsx)."
   },
   {
-    "objectID": "enseignements/recherche-operationnelle.html",
-    "href": "enseignements/recherche-operationnelle.html",
-    "title": "Recherche Opérationnelle — ECUEO412",
+    "objectID": "enseignements/feedback-continu.html",
+    "href": "enseignements/feedback-continu.html",
+    "title": "Feedback continu",
     "section": "",
-    "text": "Module de recherche opérationnelle structuré en deux parties :\n\nPartie 1 : Programmation linéaire (28h)\nPartie 2 : Théorie des graphes (14h)"
+    "text": "Je considère le feedback non pas comme une évaluation ponctuelle de fin de semestre, mais comme un instrument de pilotage pédagogique en temps réel. Mon système de feedback continu repose sur trois mesures structurées — FB1 Diagnostic (semaine 1), FB2 Ajustement (semaine 4) et FB3 Optimisation (semaine 10) — couplées à des seuils déclencheurs quantifiés et à des actions correctives rapides tracées dans une fiche dédiée (fiche ARC). L’objectif : détecter tôt les difficultés de compréhension, d’engagement ou de rythme, agir dans les deux semaines, et capitaliser chaque semestre dans le syllabus et la fiche module.\n\n\n\n\nFB1 · Diagnostic — Semaine 1  Prérequis · Motivation · Objectifs clairs\n\n\n\n\nFB2 · Ajustement — Semaine 4  Compréhension · Rythme · Charge · Pédagogie\n\n\n\n\nFB3 · Optimisation — Semaine 10  Impact · Préparation finale · Capitalisation\n\n\n\n\n\n\nLes trois temps du feedback continu et la boucle d’action corrective",
+    "crumbs": [
+      "Feedback continu"
+    ]
   },
   {
-    "objectID": "enseignements/recherche-operationnelle.html#présentation",
-    "href": "enseignements/recherche-operationnelle.html#présentation",
-    "title": "Recherche Opérationnelle — ECUEO412",
+    "objectID": "enseignements/feedback-continu.html#ma-vision-du-feedback-continu",
+    "href": "enseignements/feedback-continu.html#ma-vision-du-feedback-continu",
+    "title": "Feedback continu",
     "section": "",
-    "text": "Module de recherche opérationnelle structuré en deux parties :\n\nPartie 1 : Programmation linéaire (28h)\nPartie 2 : Théorie des graphes (14h)"
+    "text": "Je considère le feedback non pas comme une évaluation ponctuelle de fin de semestre, mais comme un instrument de pilotage pédagogique en temps réel. Mon système de feedback continu repose sur trois mesures structurées — FB1 Diagnostic (semaine 1), FB2 Ajustement (semaine 4) et FB3 Optimisation (semaine 10) — couplées à des seuils déclencheurs quantifiés et à des actions correctives rapides tracées dans une fiche dédiée (fiche ARC). L’objectif : détecter tôt les difficultés de compréhension, d’engagement ou de rythme, agir dans les deux semaines, et capitaliser chaque semestre dans le syllabus et la fiche module.\n\n\n\n\nFB1 · Diagnostic — Semaine 1  Prérequis · Motivation · Objectifs clairs\n\n\n\n\nFB2 · Ajustement — Semaine 4  Compréhension · Rythme · Charge · Pédagogie\n\n\n\n\nFB3 · Optimisation — Semaine 10  Impact · Préparation finale · Capitalisation\n\n\n\n\n\n\nLes trois temps du feedback continu et la boucle d’action corrective",
+    "crumbs": [
+      "Feedback continu"
+    ]
   },
   {
-    "objectID": "enseignements/recherche-operationnelle.html#espace-blackboard",
-    "href": "enseignements/recherche-operationnelle.html#espace-blackboard",
-    "title": "Recherche Opérationnelle — ECUEO412",
+    "objectID": "enseignements/feedback-continu.html#le-dispositif-sur-un-semestre-12-semaines",
+    "href": "enseignements/feedback-continu.html#le-dispositif-sur-un-semestre-12-semaines",
+    "title": "Feedback continu",
+    "section": "Le dispositif sur un semestre (12 semaines)",
+    "text": "Le dispositif sur un semestre (12 semaines)\n\n\n\nAncrage des feedbacks dans le déroulé du semestre\n\n\n\n\n\n\n\n\n\n\nMoment\nOutil\nAction possible\n\n\n\n\nSemaine 1\nObservation de l’enseignant · Feedback 1 (prérequis et motivations)\nAjuster le rythme\n\n\nSemaine 4\nMini audit pédagogique · Feedback 2 sur Blackboard\nCoaching enseignant · Fiche ARC\n\n\nSemaine 6\nAnalyse des résultats intermédiaires (DS, mini-projet, taux d’engagement) avec le coordinateur du module\nSéance de renforcement\n\n\nSemaine 8\nRéunion départementale\nAdapter le contenu · Ajuster la méthode\n\n\nSemaine 10\nFeedback 3 · Discussion avec les étudiants · LMS analytics\nCorrections finales · Fiche ARC\n\n\nSemaine 12\nPré-bilan\nMise à jour du syllabus / fiche module",
+    "crumbs": [
+      "Feedback continu"
+    ]
+  },
+  {
+    "objectID": "enseignements/feedback-continu.html#boucles-daction-correctives",
+    "href": "enseignements/feedback-continu.html#boucles-daction-correctives",
+    "title": "Feedback continu",
+    "section": "Boucles d’action correctives",
+    "text": "Boucles d’action correctives\nChaque problème détecté déclenche une réponse type dans les deux semaines :\n\n\n\n\n\n\n\n\nProblème détecté\nDéclencheurs\nActions immédiates\n\n\n\n\nCompréhension\n&lt; 60 % de réussite aux quiz · feedback « cours difficile » · baisse de participation\nCapsule vidéo résumé · séance Q&A supplémentaire · exercices guidés · peer tutoring étudiants forts/faibles\n\n\nEngagement\nAbsences en hausse · faible activité Blackboard · peu d’interaction en classe\nActivité interactive dès la séance suivante · quiz live · mini-projet court · gamification simple\n\n\nRythme / surcharge\nFeedback « charge élevée » · retards de remise des devoirs\nRe-planifier les deadlines · fractionner le projet · fournir un template / exemple\n\n\nPédagogie enseignant\nFeedback répété des étudiants · score d’observation pédagogique faible\nCoaching pédagogique rapide · co-animation de séance · partage de bonnes pratiques",
+    "crumbs": [
+      "Feedback continu"
+    ]
+  },
+  {
+    "objectID": "enseignements/feedback-continu.html#résultats-de-lenquête-pédagogie-active-mars-2026",
+    "href": "enseignements/feedback-continu.html#résultats-de-lenquête-pédagogie-active-mars-2026",
+    "title": "Feedback continu",
+    "section": "Résultats de l’enquête pédagogie active (mars 2026)",
+    "text": "Résultats de l’enquête pédagogie active (mars 2026)\n\n\n\n\n\n\nQuestionnaire anonyme sur les méthodes d’apprentissage — 10 questions, 19 répondants, mars 2026. Cette enquête ferme la boucle du feedback continu : elle mesure la perception des méthodes actives par les étudiants et oriente les actions correctives du semestre suivant. Rapport complet :  Enquête Pédagogie Active (PDF)\n\n\n\n\n\n\n3,5 / 5 Satisfaction globale (aucune note ≤ 2)\n\n\n\n\n95 % souhaitent plus d’activités interactives\n\n\n\n\n89 % se sentent impliqués dans leur apprentissage\n\n\n\n\n100 % exposés aux travaux de groupe\n\n\n\n\n\n\nTableau de bord de synthèse de l’enquête (N = 19)\n\n\n\n\n\n\n\n\n\n\nAstucePoints forts\n\n\n\n\nMéthodes actives déjà bien installées (travaux de groupe : 100 %)\nParticipation encouragée par la majorité des enseignants (79 % « toujours » ou « souvent »)\n89 % des étudiants se sentent impliqués dans leur apprentissage\nLiaison théorie → pratique présente pour 85 % des répondants\n\n\n\n\n\n\n\n\n\n\n\nAvertissementAxes d’amélioration retenus\n\n\n\n\n95 % demandent plus d’interactivité → priorité n°1\nRenforcer projets pratiques et études de cas réels (≥ 60 % le souhaitent)\nRéduire le nombre de présentations étudiantes (saturation signalée)\nOrienter les examens vers la réflexion plutôt que la mémorisation\nRenforcer les outils professionnels (Python, Power BI, Oracle…)\n\n\n\n\n\n\n\n\n\n\n\nAstuceDétail des résultats question par question\n\n\n\n\n\n\n\n\n\n\n\n\n\n#\nQuestion\nRésultat clé\n\n\n\n\nQ1\nQualité globale de l’enseignement\n3,5/5 en moyenne — notes 3 et 4 uniquement, aucun extrême\n\n\nQ2\nEncouragement à la participation\n79 % « toujours » ou « souvent »\n\n\nQ3\nMéthodes utilisées\nTravaux de groupe 100 % · présentations 68 % · études de cas 63 % · cours magistraux 32 %\n\n\nQ4\nMéthodes jugées les plus efficaces\nTravaux pratiques 74 % · études de cas 58 % · cours magistraux derniers (21 %)\n\n\nQ5\nApplication théorie → pratique\n85 % « souvent » ou « toujours »\n\n\nQ6\nEncouragement à la réflexion\n89 % « assez » ou « beaucoup » — marge de progrès sur la pensée critique\n\n\nQ7\nImplication active en cours\n89 % impliqués · aucun « pas du tout impliqué »\n\n\nQ8\nSouhait de plus d’interactivité\nOui : 95 % — variable la plus consensuelle\n\n\nQ9\nMéthodes souhaitées davantage\nProjets pratiques 63 % · études de cas 58 % · présentations 16 %\n\n\nQ10\nAmélioration prioritaire (question ouverte)\nPratique & cas réels (11 rép.) · qualité &gt; quantité · alignement marché du travail",
+    "crumbs": [
+      "Feedback continu"
+    ]
+  },
+  {
+    "objectID": "enseignements/feedback-continu.html#mes-annexes-de-feedback",
+    "href": "enseignements/feedback-continu.html#mes-annexes-de-feedback",
+    "title": "Feedback continu",
+    "section": "Mes annexes de feedback",
+    "text": "Mes annexes de feedback\n\n\n\n\n\n\nLes quatre annexes ci-dessous constituent l’outillage opérationnel du système. Le document complet est téléchargeable :  Système de feedback continu — document intégral avec annexes (PDF)\n\n\n\n\n\n\n\n\n\nAstuceAnnexe 1 — Fiche Action Corrective Rapide (fiche ARC)\n\n\n\n\n\nTemplate de traçabilité de chaque action corrective, garantissant le suivi et la mesure d’impact :\n\nModule / Enseignant / Semaine\nProblème détecté et source (feedback, quiz, observation)\nAction décidée et date de mise en place\nRésultat après 2 semaines\nResponsable du suivi\n\n\n\n\n\n\n\n\n\n\nAstuceAnnexe 2 — Feedback 1 · Diagnostic (semaine 1)\n\n\n\n\n\nQuestionnaire de 8–10 questions rempli par l’étudiant, accès réservé aux présents de la première séance.\nObjectifs : vérifier les prérequis réels · mesurer la motivation initiale · vérifier la compréhension des objectifs du module.\nStructure : Bloc A — prérequis académiques (auto-évaluation, difficultés, besoin de rappels) · Bloc B — motivation et engagement (échelles 1→5) · Bloc C — clarté des objectifs et des attentes · Bloc D — projection (confiance de réussite, « ce qui pourrait m’aider le plus »).\nDéclencheurs d’action : prérequis faibles &gt; 25 % · motivation &lt; 3,5 · objectifs clairs &lt; 3.\n\n\n\n\n\n\n\n\n\nAstuceAnnexe 3 — Feedback 2 · Ajustement (semaine 4)\n\n\n\n\n\nQuestionnaire de 8–10 questions sur Blackboard, accès réservé aux étudiants avec un taux de présence &gt; 50 %.\nObjectifs : vérifier la compréhension réelle · ajuster le rythme et la pédagogie · confirmer ou corriger le diagnostic des prérequis.\nStructure : Bloc A — compréhension du contenu et principal obstacle · Bloc B — rythme et charge de travail · Bloc C — pédagogie (clarté des explications, utilité des supports) · Bloc D — suivi de l’évolution des prérequis · Bloc E — « quelle amélioration immédiate aiderait le plus ? ».\nDéclencheurs d’action : compréhension &lt; 3,5 · rythme « trop rapide » &gt; 30 % · problème de prérequis persistant.\n\n\n\n\n\n\n\n\n\nAstuceAnnexe 4 — Feedback 3 · Optimisation (semaine 10)\n\n\n\n\n\nQuestionnaire de 10–12 questions, accès réservé aux étudiants avec un taux de présence &gt; 50 %.\nObjectifs : mesurer l’impact pédagogique réel · vérifier la préparation à l’évaluation finale · capitaliser pour l’amélioration future.\nStructure : Bloc A — acquisition des compétences et sentiment de préparation · Bloc B — méthodes pédagogiques (activité la plus utile : cours, TD/TP, projet, études de cas, quiz) · Bloc C — engagement et motivation à approfondir.\nLes résultats alimentent les corrections finales, la fiche ARC et le pré-bilan de semaine 12 (mise à jour du syllabus et de la fiche module).",
+    "crumbs": [
+      "Feedback continu"
+    ]
+  },
+  {
+    "objectID": "enseignements/generative-computer-vision.html",
+    "href": "enseignements/generative-computer-vision.html",
+    "title": "Generative Computer Vision",
+    "section": "",
+    "text": "Module créé en 2024–2025, à la pointe des techniques de vision générative : GANs, diffusion models, vision-language models (CLIP, DALL-E, Stable Diffusion, Midjourney-like architectures).\nS’inscrit dans le programme stratégique Alternance BA — Business Analytics oriented to Generative AI (partenariat ESB / Jems Group) dont je suis Co-Responsable depuis 2024."
+  },
+  {
+    "objectID": "enseignements/generative-computer-vision.html#présentation",
+    "href": "enseignements/generative-computer-vision.html#présentation",
+    "title": "Generative Computer Vision",
+    "section": "",
+    "text": "Module créé en 2024–2025, à la pointe des techniques de vision générative : GANs, diffusion models, vision-language models (CLIP, DALL-E, Stable Diffusion, Midjourney-like architectures).\nS’inscrit dans le programme stratégique Alternance BA — Business Analytics oriented to Generative AI (partenariat ESB / Jems Group) dont je suis Co-Responsable depuis 2024."
+  },
+  {
+    "objectID": "enseignements/generative-computer-vision.html#espace-blackboard",
+    "href": "enseignements/generative-computer-vision.html#espace-blackboard",
+    "title": "Generative Computer Vision",
     "section": "Espace Blackboard",
-    "text": "Espace Blackboard\n\n\n\n\n\n\nEspace(s) cours sur Blackboard ESB :\n\nLFIG L2 : https://esprit.blackboard.com/ultra/courses/_2178_1/outline"
+    "text": "Espace Blackboard\n\n\n\n\n\n\nEspace(s) cours sur Blackboard ESB :\n\nBA M1 : https://esprit.blackboard.com/ultra/courses/_26556_1/outline"
   },
   {
-    "objectID": "enseignements/recherche-operationnelle.html#acquis-dapprentissage",
-    "href": "enseignements/recherche-operationnelle.html#acquis-dapprentissage",
-    "title": "Recherche Opérationnelle — ECUEO412",
+    "objectID": "enseignements/generative-computer-vision.html#acquis-dapprentissage",
+    "href": "enseignements/generative-computer-vision.html#acquis-dapprentissage",
+    "title": "Generative Computer Vision",
     "section": "Acquis d’apprentissage",
-    "text": "Acquis d’apprentissage\n\nAA1 — Modéliser un problème en programme linéaire\nAA2 — Résoudre par la méthode du simplexe\nAA3 — Comprendre la dualité et l’analyse de sensibilité\nAA4 — Modéliser et résoudre avec des solveurs (PuLP, Gurobi)\nAA5 — Maîtriser les algorithmes de plus court chemin (Dijkstra, Bellman-Ford)\nAA6 — Étudier les flots, le couplage, les arbres couvrants\nAA7 — Appliquer à l’ordonnancement de projet (PERT, MPM)"
+    "text": "Acquis d’apprentissage\n\nAA1 — Maîtriser les fondamentaux de la vision par ordinateur (CNN, segmentation, détection)\nAA2 — Comprendre les Autoencodeurs et Variational Autoencoders (VAE)\nAA3 — Implémenter des Generative Adversarial Networks (GAN, DCGAN, StyleGAN)\nAA4 — Comprendre les diffusion models (DDPM, Stable Diffusion)\nAA5 — Manipuler les modèles vision-language (CLIP, BLIP)\nAA6 — Générer des images à partir de texte (text-to-image)\nAA7 — Évaluer les modèles génératifs (FID, IS, perceptual metrics)\nAA8 — Considérations éthiques et deepfakes"
   },
   {
-    "objectID": "enseignements/recherche-operationnelle.html#supports-pédagogiques",
-    "href": "enseignements/recherche-operationnelle.html#supports-pédagogiques",
-    "title": "Recherche Opérationnelle — ECUEO412",
+    "objectID": "enseignements/generative-computer-vision.html#supports-pédagogiques",
+    "href": "enseignements/generative-computer-vision.html#supports-pédagogiques",
+    "title": "Generative Computer Vision",
     "section": "Supports pédagogiques",
-    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours book avec exercices\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nTPs Python\nPuLP, NetworkX, simplexe maison\nPDF + code\n\n\nRepository\nCode source\nGitHub"
+    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours book\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nTPs Python\nPyTorch, HuggingFace Diffusers, GANs from scratch\nPDF + code\n\n\nProjet\nPipeline complet text-to-image personnalisé\nSujet\n\n\nRepository\nCode source\nGitHub"
   },
   {
-    "objectID": "enseignements/recherche-operationnelle.html#plan-détaillé",
-    "href": "enseignements/recherche-operationnelle.html#plan-détaillé",
-    "title": "Recherche Opérationnelle — ECUEO412",
+    "objectID": "enseignements/generative-computer-vision.html#plan-détaillé",
+    "href": "enseignements/generative-computer-vision.html#plan-détaillé",
+    "title": "Generative Computer Vision",
     "section": "Plan détaillé",
-    "text": "Plan détaillé\n\nPartie 1 — Programmation linéaire (28h)\n\nModélisation des problèmes d’optimisation linéaire\nMéthode graphique\nMéthode du simplexe primal\nMéthode des deux phases, méthode du grand M\nDualité et théorèmes fondamentaux\nAnalyse de sensibilité\nProgrammation en nombres entiers (introduction)\n\n\n\nPartie 2 — Théorie des graphes (14h)\n\nNotions de base, représentations\nParcours de graphes (BFS, DFS)\nArbres couvrants minimaux (Kruskal, Prim)\nPlus court chemin (Dijkstra, Bellman-Ford, Floyd-Warshall)\nFlots maximaux (Ford-Fulkerson)\nOrdonnancement : PERT, MPM"
+    "text": "Plan détaillé\n\nRappels CV : CNN, ResNet, Vision Transformers (ViT)\nAutoencodeurs : encodage, décodage, débruitage\nVAE : reparametrization trick, KL divergence\nGANs : générateur, discriminateur, équilibre de Nash\nArchitectures avancées : DCGAN, Pix2Pix, CycleGAN, StyleGAN\nDiffusion models : forward/reverse process, DDPM, DDIM\nStable Diffusion : latent diffusion, U-Net conditionnel\nVision-Language Models : CLIP, BLIP, contrastive learning\nText-to-image : DALL-E, Imagen, Stable Diffusion\nApplications : transfer de style, super-résolution, inpainting"
   },
   {
-    "objectID": "enseignements/algebre-2.html",
-    "href": "enseignements/algebre-2.html",
-    "title": "Algèbre 2 — ECUE211",
-    "section": "",
-    "text": "Module de fondamentaux en algèbre linéaire pour les étudiants de S2 LMAD/SD, avec 84 heures réparties en cours magistraux (42h) et travaux dirigés (42h)."
-  },
-  {
-    "objectID": "enseignements/algebre-2.html#présentation",
-    "href": "enseignements/algebre-2.html#présentation",
-    "title": "Algèbre 2 — ECUE211",
-    "section": "",
-    "text": "Module de fondamentaux en algèbre linéaire pour les étudiants de S2 LMAD/SD, avec 84 heures réparties en cours magistraux (42h) et travaux dirigés (42h)."
-  },
-  {
-    "objectID": "enseignements/algebre-2.html#espace-blackboard",
-    "href": "enseignements/algebre-2.html#espace-blackboard",
-    "title": "Algèbre 2 — ECUE211",
-    "section": "Espace Blackboard",
-    "text": "Espace Blackboard\n\n\n\n\n\n\nEspace(s) cours sur Blackboard ESB :\n\nLMAD L1 : https://esprit.blackboard.com/ultra/courses/_26547_1/outline"
-  },
-  {
-    "objectID": "enseignements/algebre-2.html#acquis-dapprentissage",
-    "href": "enseignements/algebre-2.html#acquis-dapprentissage",
-    "title": "Algèbre 2 — ECUE211",
-    "section": "Acquis d’apprentissage",
-    "text": "Acquis d’apprentissage\n\nAA1 — Manipuler les espaces vectoriels et leurs sous-espaces\nAA2 — Identifier et calculer avec des applications linéaires\nAA3 — Maîtriser le calcul matriciel\nAA4 — Résoudre des systèmes linéaires\nAA5 — Calculer et utiliser les déterminants\nAA6 — Diagonaliser les matrices simples"
-  },
-  {
-    "objectID": "enseignements/algebre-2.html#supports-pédagogiques",
-    "href": "enseignements/algebre-2.html#supports-pédagogiques",
-    "title": "Algèbre 2 — ECUE211",
-    "section": "Supports pédagogiques",
-    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours complet book avec exercices corrigés\nPDF\n\n\nSlides\nBeamer Metropolis 16:9, 28 séances\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nPlan de module\nFiche pédagogique AA1–AA6\nPDF\n\n\nRepository\nCode source LaTeX + Python\nGitHub"
-  },
-  {
-    "objectID": "enseignements/algebre-2.html#plan-détaillé",
-    "href": "enseignements/algebre-2.html#plan-détaillé",
-    "title": "Algèbre 2 — ECUE211",
-    "section": "Plan détaillé",
-    "text": "Plan détaillé\n\nEspaces vectoriels et sous-espaces\nFamilles libres, génératrices, bases\nApplications linéaires, noyau, image\nMatrices et calcul matriciel\nChangement de base\nSystèmes linéaires et méthode de Gauss\nDéterminants\nValeurs propres, vecteurs propres, diagonalisation"
-  },
-  {
-    "objectID": "enseignements/outillage-machine-learning.html",
-    "href": "enseignements/outillage-machine-learning.html",
-    "title": "Tools for Machine Learning",
-    "section": "",
-    "text": "Module créé en 2024–2025, axé sur l’écosystème opérationnel du ML : versioning, expérimentation, déploiement, MLOps. Approche ingénieur — savoir choisir les bons outils et les intégrer dans un pipeline reproductible."
-  },
-  {
-    "objectID": "enseignements/outillage-machine-learning.html#présentation",
-    "href": "enseignements/outillage-machine-learning.html#présentation",
-    "title": "Tools for Machine Learning",
-    "section": "",
-    "text": "Module créé en 2024–2025, axé sur l’écosystème opérationnel du ML : versioning, expérimentation, déploiement, MLOps. Approche ingénieur — savoir choisir les bons outils et les intégrer dans un pipeline reproductible."
-  },
-  {
-    "objectID": "enseignements/outillage-machine-learning.html#espace-blackboard",
-    "href": "enseignements/outillage-machine-learning.html#espace-blackboard",
-    "title": "Tools for Machine Learning",
-    "section": "Espace Blackboard",
-    "text": "Espace Blackboard\n\n\n\n\n\n\nEspace(s) cours sur Blackboard ESB :\n\nMDSI M1 : https://esprit.blackboard.com/ultra/courses/_2962_1/outline"
-  },
-  {
-    "objectID": "enseignements/outillage-machine-learning.html#acquis-dapprentissage",
-    "href": "enseignements/outillage-machine-learning.html#acquis-dapprentissage",
-    "title": "Tools for Machine Learning",
-    "section": "Acquis d’apprentissage",
-    "text": "Acquis d’apprentissage\n\nAA1 — Versionner code, données et modèles (Git, DVC, MLflow)\nAA2 — Tracker les expériences ML (MLflow, Weights & Biases)\nAA3 — Containeriser un modèle (Docker)\nAA4 — Déployer une API d’inférence (FastAPI, Flask)\nAA5 — Construire un pipeline CI/CD ML (GitHub Actions)\nAA6 — Surveiller un modèle en production (drift, performance)\nAA7 — Automatiser le tuning d’hyperparamètres (Optuna, Ray Tune)\nAA8 — Visualiser et communiquer les résultats (Streamlit, Gradio, Plotly)"
-  },
-  {
-    "objectID": "enseignements/outillage-machine-learning.html#supports-pédagogiques",
-    "href": "enseignements/outillage-machine-learning.html#supports-pédagogiques",
-    "title": "Tools for Machine Learning",
-    "section": "Supports pédagogiques",
-    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours book\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTPs hands-on\nPipeline complet end-to-end\nPDF + code\n\n\nProjet\nDéployer un modèle ML en production\nSujet\n\n\nRepository\nCode source\nGitHub"
-  },
-  {
-    "objectID": "enseignements/outillage-machine-learning.html#plan-détaillé",
-    "href": "enseignements/outillage-machine-learning.html#plan-détaillé",
-    "title": "Tools for Machine Learning",
-    "section": "Plan détaillé",
-    "text": "Plan détaillé\n\nVersioning : Git avancé, branches, GitHub workflows\nData versioning : DVC, LakeFS, alternatives\nExpérimentation : MLflow tracking, W&B, comparaison de runs\nTuning d’hyperparamètres : Optuna, Ray Tune, Bayesian Optimization\nContainerisation : Docker pour ML, multi-stage builds\nAPI d’inférence : FastAPI, validation Pydantic, sécurité\nDéploiement : cloud (AWS SageMaker, GCP Vertex, Azure ML), on-prem\nMLOps : CI/CD pipelines, tests, monitoring\nDrift detection : Evidently, Alibi Detect\nInterfaces utilisateur : Streamlit, Gradio, Dash"
-  },
-  {
-    "objectID": "enseignements/outillage-machine-learning.html#outils-mobilisés",
-    "href": "enseignements/outillage-machine-learning.html#outils-mobilisés",
-    "title": "Tools for Machine Learning",
+    "objectID": "enseignements/generative-computer-vision.html#outils-mobilisés",
+    "href": "enseignements/generative-computer-vision.html#outils-mobilisés",
+    "title": "Generative Computer Vision",
     "section": "Outils mobilisés",
-    "text": "Outils mobilisés\ngit · dvc · mlflow · wandb · docker · fastapi · streamlit gradio · optuna · ray · evidently · prefect · airflow github-actions · pre-commit"
+    "text": "Outils mobilisés\ntorch · diffusers (HuggingFace) · transformers · clip · accelerate opencv · pillow · matplotlib · wandb"
   },
   {
-    "objectID": "enseignements/outillage-machine-learning.html#liens-avec-mes-activités",
-    "href": "enseignements/outillage-machine-learning.html#liens-avec-mes-activités",
-    "title": "Tools for Machine Learning",
+    "objectID": "enseignements/generative-computer-vision.html#liens-avec-mes-activités",
+    "href": "enseignements/generative-computer-vision.html#liens-avec-mes-activités",
+    "title": "Generative Computer Vision",
     "section": "Liens avec mes activités",
-    "text": "Liens avec mes activités\n\nTekouin Administrator (depuis 2020) — plateforme e-Learning de coding\nAI Instructor (depuis 2023) — sessions outils ML pour formateurs\nHead of Research Team AI4U — outils intégrés dans les workflows recherche"
+    "text": "Liens avec mes activités\n\nCo-Responsable Alternance BA-GenAI (ESB × Jems Group, depuis 2024)\nHead of Research Team AI4U (Esprit Tech, depuis 2023) — applications GenAI dans l’enseignement\nAI Instructor (Training of Trainers, depuis 2023) — sessions Generative AI"
   },
   {
-    "objectID": "enseignements/outillage-machine-learning.html#prolongements",
-    "href": "enseignements/outillage-machine-learning.html#prolongements",
-    "title": "Tools for Machine Learning",
+    "objectID": "enseignements/generative-computer-vision.html#prolongements",
+    "href": "enseignements/generative-computer-vision.html#prolongements",
+    "title": "Generative Computer Vision",
     "section": "Prolongements",
-    "text": "Prolongements\nModule pratique qui consolide Machine Learning, Deep Learning, NLP et Python Programming dans une perspective opérationnelle."
+    "text": "Prolongements\nModule phare du virage Generative AI à ESB, complémentaire de NLP (générateurs de texte) et Deep Learning."
   },
   {
-    "objectID": "responsabilites.html",
-    "href": "responsabilites.html",
-    "title": "Responsabilités",
+    "objectID": "enseignements/machine-learning.html",
+    "href": "enseignements/machine-learning.html",
+    "title": "Machine Learning",
     "section": "",
-    "text": "Département Informatique et mathématiques appliquées\nDirection complète du département (passage de Co-Chef en 2019 à Chef du département). Supervision de l’équipe enseignante (permanents et vacataires), coordination pédagogique de l’ensemble des modules math/stats/RO/ML/DL, participation aux comités stratégiques d’ESB.\n\n\n\nRepresentative of ESB at Honoris Task Force AI\nReprésentation d’Esprit School of Business au sein de la Task Force AI de Honoris United University, réseau d’enseignement supérieur réunissant 11 institutions sur 10 pays.\n\n\n\nPrésidence des conseils de classe pour les formations IMA + participation transverse aux autres formations en qualité de Chef de département\nAnimation systématique en 3 temps : (1) analyse des résultats académiques par cohorte / module / niveau, (2) recueil des retours des enseignants et des représentants étudiants, (3) brainstorming + concrétisation de solutions pour les itérations suivantes. Périmètre IMA : LSD, LBC-BI/BIS, BA, GAMMA, MDSI, FIND, etc.\n\n\n\nStrategic Plan ESB — 2 cycles successifs\nParticipation à 2 cycles stratégiques d’ESB :\n\nStrategic Plan 2022–2025 : session SWOT du 07/02/2022, First Draft du 22/02/2022, COS 22 (Conseil d’Orientation Stratégique) du 02/12/2022 à la Fondation Tunisie pour le Développement\nStrategic Plan 2026–2029 : workshop de planification stratégique Février 2026 (8 années cumulées de présence au Comité), alignement sur les standards d’accréditations AMBA / BGA / AACSB\n\nApports : vision LSD 2026, trajectoire AI4U, partenariats industriels (iCompass, Jems, ATA, Vistasy, SAP), modèle de mentorat structurant (5 axes).\n\n\n\nBusiness Graduates Association — Accréditation institutionnelle ESB\nComité de pilotage : F. Kammoun, M. Trimeche (lead), M. Chichti, W. El Ayeb, N. Cheikhrouhou, A. Ben Brik.\nPorteur du dossier d’accréditation IMA (9 workstreams) :\n\n5 matrices PLO-CLO validées pour les 5 programmes IMA (LMAD, LBC-BI, LBC-BIS, MA Business Analytics, MA GAMMA) — transmission et validation avec M. Trimeche (email du 24/07/2023)\n72 syllabi BGA-format délivrés (69 uniques après dédoublonnage FR/EN) avec positionnement Introduced/Reinforced/Emphasized (I/R/E)\n16 CAR (Course Assessment Review) produits — 14 avec nouveau calcul par CLO + 2 conservés avec valeurs originales, sur 6 programmes (LBC-BI, BA, MDSI, LMAD, GAMMA, FIND) ; 8 CAR différenciés par groupe\n6 PLAR (Program Learning Assessment Review) trajectoires consolidées sur 3 programmes (BA, LBC-BI, LBC-BIS) — tous au-dessus du benchmark 60 % (range 62.25 %–72.06 %)\n3 rapports annuels Tekouin (22-23, 23-24, 24-25) et 3 rapports annuels MASSAI (NVIDIA partnership)\nCo-développement du Metric 3.1 (Standard 3 — Faculty) avec Ghada Makni : méthodologie + collecte de données + template de reporting\nWorkshop interne facilité sur Syllabi BGA + Calcul des CAR — 24–28 mars 2025, salle D22 ESB, 5 jours, 30 enseignants du département IMA, animateur unique"
+    "text": "Module créé en 2021–2022 dans le cadre de l’évolution du curriculum data science d’ESB, puis maintenu et enrichi chaque année. Approche par projet avec datasets réels."
   },
   {
-    "objectID": "responsabilites.html#direction-départementale-et-stratégique",
-    "href": "responsabilites.html#direction-départementale-et-stratégique",
-    "title": "Responsabilités",
+    "objectID": "enseignements/machine-learning.html#présentation",
+    "href": "enseignements/machine-learning.html#présentation",
+    "title": "Machine Learning",
     "section": "",
-    "text": "Département Informatique et mathématiques appliquées\nDirection complète du département (passage de Co-Chef en 2019 à Chef du département). Supervision de l’équipe enseignante (permanents et vacataires), coordination pédagogique de l’ensemble des modules math/stats/RO/ML/DL, participation aux comités stratégiques d’ESB.\n\n\n\nRepresentative of ESB at Honoris Task Force AI\nReprésentation d’Esprit School of Business au sein de la Task Force AI de Honoris United University, réseau d’enseignement supérieur réunissant 11 institutions sur 10 pays.\n\n\n\nPrésidence des conseils de classe pour les formations IMA + participation transverse aux autres formations en qualité de Chef de département\nAnimation systématique en 3 temps : (1) analyse des résultats académiques par cohorte / module / niveau, (2) recueil des retours des enseignants et des représentants étudiants, (3) brainstorming + concrétisation de solutions pour les itérations suivantes. Périmètre IMA : LSD, LBC-BI/BIS, BA, GAMMA, MDSI, FIND, etc.\n\n\n\nStrategic Plan ESB — 2 cycles successifs\nParticipation à 2 cycles stratégiques d’ESB :\n\nStrategic Plan 2022–2025 : session SWOT du 07/02/2022, First Draft du 22/02/2022, COS 22 (Conseil d’Orientation Stratégique) du 02/12/2022 à la Fondation Tunisie pour le Développement\nStrategic Plan 2026–2029 : workshop de planification stratégique Février 2026 (8 années cumulées de présence au Comité), alignement sur les standards d’accréditations AMBA / BGA / AACSB\n\nApports : vision LSD 2026, trajectoire AI4U, partenariats industriels (iCompass, Jems, ATA, Vistasy, SAP), modèle de mentorat structurant (5 axes).\n\n\n\nBusiness Graduates Association — Accréditation institutionnelle ESB\nComité de pilotage : F. Kammoun, M. Trimeche (lead), M. Chichti, W. El Ayeb, N. Cheikhrouhou, A. Ben Brik.\nPorteur du dossier d’accréditation IMA (9 workstreams) :\n\n5 matrices PLO-CLO validées pour les 5 programmes IMA (LMAD, LBC-BI, LBC-BIS, MA Business Analytics, MA GAMMA) — transmission et validation avec M. Trimeche (email du 24/07/2023)\n72 syllabi BGA-format délivrés (69 uniques après dédoublonnage FR/EN) avec positionnement Introduced/Reinforced/Emphasized (I/R/E)\n16 CAR (Course Assessment Review) produits — 14 avec nouveau calcul par CLO + 2 conservés avec valeurs originales, sur 6 programmes (LBC-BI, BA, MDSI, LMAD, GAMMA, FIND) ; 8 CAR différenciés par groupe\n6 PLAR (Program Learning Assessment Review) trajectoires consolidées sur 3 programmes (BA, LBC-BI, LBC-BIS) — tous au-dessus du benchmark 60 % (range 62.25 %–72.06 %)\n3 rapports annuels Tekouin (22-23, 23-24, 24-25) et 3 rapports annuels MASSAI (NVIDIA partnership)\nCo-développement du Metric 3.1 (Standard 3 — Faculty) avec Ghada Makni : méthodologie + collecte de données + template de reporting\nWorkshop interne facilité sur Syllabi BGA + Calcul des CAR — 24–28 mars 2025, salle D22 ESB, 5 jours, 30 enseignants du département IMA, animateur unique"
+    "text": "Module créé en 2021–2022 dans le cadre de l’évolution du curriculum data science d’ESB, puis maintenu et enrichi chaque année. Approche par projet avec datasets réels."
   },
   {
-    "objectID": "responsabilites.html#recherche",
-    "href": "responsabilites.html#recherche",
-    "title": "Responsabilités",
-    "section": "Recherche",
-    "text": "Recherche\n\nHead of Research Team AI4U · Esprit Tech · depuis 2023\nArtificial Intelligence 4 University\nDirection d’une équipe de recherche dédiée aux applications de l’intelligence artificielle dans l’enseignement supérieur : pédagogie augmentée par l’IA, outils de génération automatique de contenus, évaluation augmentée, etc."
+    "objectID": "enseignements/machine-learning.html#espace-blackboard",
+    "href": "enseignements/machine-learning.html#espace-blackboard",
+    "title": "Machine Learning",
+    "section": "Espace Blackboard",
+    "text": "Espace Blackboard\n\n\n\n\n\n\nEspace(s) cours sur Blackboard ESB :\n\nBA M1 : https://esprit.blackboard.com/ultra/courses/_3030_1/outline"
   },
   {
-    "objectID": "responsabilites.html#pédagogie-programmes-et-formations-ia",
-    "href": "responsabilites.html#pédagogie-programmes-et-formations-ia",
-    "title": "Responsabilités",
-    "section": "Pédagogie — Programmes et formations IA",
-    "text": "Pédagogie — Programmes et formations IA\n\nCo-Responsible Alternance Program · ESB × Jems Group · depuis 2024\nBusiness Analytics oriented to Generative Artificial Intelligence\nCo-direction d’un programme d’alternance en partenariat avec Jems Group, axé sur la Generative AI appliquée au business analytics.\n\n\nCo-Responsible parcours MDSI–Vermeg · ESB × Vermeg · depuis 2024\nMémoires masters MDSI réalisés en partenariat avec Vermeg.\nSuivi pédagogique et académique des stagiaires Vermeg : 8 mémoires actifs en 2025–2026 (encadrement, rapporteur, présidence de jury).\n\n\nAI Instructor · Training of Trainers Departement · ESB · depuis 2023\nSessions de formation spécialisées délivrées aux formateurs ESB :\n\nArtificial Intelligence — fondamentaux\nMachine Learning — algorithmes supervisés/non supervisés\nDeep Learning — réseaux de neurones, CNN, RNN\nData Analysis — pipelines complets\nNLP — Natural Language Processing\nTransformers — architectures attention\nLLM — Large Language Models\n\n\n\nTekouin Administrator · ESB · depuis 2020\nAdministration de la plateforme Tekouin — e-Learning Plateform for coding. Maintenance, support utilisateurs, développement de contenus de coding pour les étudiants ESB."
+    "objectID": "enseignements/machine-learning.html#acquis-dapprentissage",
+    "href": "enseignements/machine-learning.html#acquis-dapprentissage",
+    "title": "Machine Learning",
+    "section": "Acquis d’apprentissage",
+    "text": "Acquis d’apprentissage\n\nAA1 — Comprendre la dichotomie supervisé / non supervisé / renforcement\nAA2 — Maîtriser les algorithmes classiques (linéaires, arbres, ensembles)\nAA3 — Évaluer un modèle (validation croisée, métriques, biais-variance)\nAA4 — Pré-traiter les données (nettoyage, encodage, scaling, feature engineering)\nAA5 — Implémenter un pipeline ML complet en Python avec scikit-learn\nAA6 — Détecter et corriger l’overfitting\nAA7 — Communiquer les résultats via dashboards et rapports"
   },
   {
-    "objectID": "responsabilites.html#programmes-pédagogiques-mandats",
-    "href": "responsabilites.html#programmes-pédagogiques-mandats",
-    "title": "Responsabilités",
-    "section": "Programmes pédagogiques (mandats)",
-    "text": "Programmes pédagogiques (mandats)\n\nResponsible Master Degree GAMMA · 2021 – 2024\nMaster GAMMA : Gestion Actuarielle et Modélisation MAthématique.\n\n\nResponsible Bachelor Degree M(AD)² · 2019 – 2024\nLicence M(AD)² : Mathématiques Appliquées à l’Analyse des Données et Aide à la Décision.\nJ’ai conçu le plan d’études et préparé le dossier d’habilitation de cette nouvelle licence ESB en 2018–2019.\n\n\nResponsable de l’unité de Statistiques d’ESB · 09/2017 – 04/2018"
+    "objectID": "enseignements/machine-learning.html#supports-pédagogiques",
+    "href": "enseignements/machine-learning.html#supports-pédagogiques",
+    "title": "Machine Learning",
+    "section": "Supports pédagogiques",
+    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours book avec exercices corrigés\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nTPs Python\nPipelines scikit-learn, projets datasets réels\nPDF + code\n\n\nProjet\nCompétition Kaggle interne\nSujet\n\n\nRepository\nCode source\nGitHub"
   },
   {
-    "objectID": "responsabilites.html#coordination-de-modules-depuis-2017",
-    "href": "responsabilites.html#coordination-de-modules-depuis-2017",
-    "title": "Responsabilités",
-    "section": "Coordination de modules (depuis 2017)",
-    "text": "Coordination de modules (depuis 2017)\n\nECUE211 — Algèbre 2 (linéaire) · LMAD/SD\nECUE311 — Algèbre 3 (réduction) · LMAD\nECUE411 — Probabilités · LMAD\nECUE421 — Analyse 4 (plusieurs variables) · LMAD\nECUEO412 — Recherche Opérationnelle · MDSI\nECUET112 — Statistiques descriptives avec R · S1\nModules récents : Linear Algebra 3, Analysis 2, Machine Learning, Deep Learning, NLP, Python, GLM, Advanced Probability, Integration, Generative Computer Vision, Tools for ML, Portfolio Optimization"
+    "objectID": "enseignements/machine-learning.html#plan-détaillé",
+    "href": "enseignements/machine-learning.html#plan-détaillé",
+    "title": "Machine Learning",
+    "section": "Plan détaillé",
+    "text": "Plan détaillé\n\nIntroduction : taxonomie ML, vocabulaire, vue d’ensemble du pipeline\nRégression linéaire et logistique : moindres carrés, descente de gradient, régularisation L1/L2\nArbres de décision et forêts aléatoires : gini, entropie, bagging, boosting\nSVM : marges, kernels, dualité\nK-NN, Naive Bayes : algorithmes paresseux et probabilistes\nApprentissage non supervisé : K-means, DBSCAN, hiérarchique, PCA\nÉvaluation : courbe ROC, matrice de confusion, validation croisée, GridSearchCV\nPipelines, sélection de features, déploiement"
   },
   {
-    "objectID": "responsabilites.html#concours-dadmission-esb",
-    "href": "responsabilites.html#concours-dadmission-esb",
-    "title": "Responsabilités",
-    "section": "Concours d’admission ESB",
-    "text": "Concours d’admission ESB\n\nResponsable de l’épreuve Logique du concours d’admission · depuis 2017\nCréation et enrichissement de la banque de questions Logique — environ 120 questions opérationnelles.\n\n\nJury entretiens oraux · depuis 2017\n\n\nResponsable concours d’admission au Cameroun · 2018, 2019\nConception et déroulement des épreuves Calcul, Logique, Culture Générale."
+    "objectID": "enseignements/machine-learning.html#outils-mobilisés",
+    "href": "enseignements/machine-learning.html#outils-mobilisés",
+    "title": "Machine Learning",
+    "section": "Outils mobilisés",
+    "text": "Outils mobilisés\nscikit-learn · pandas · numpy · matplotlib · seaborn · plotly · xgboost · lightgbm"
   },
   {
-    "objectID": "responsabilites.html#comités-de-conception-de-parcours",
-    "href": "responsabilites.html#comités-de-conception-de-parcours",
-    "title": "Responsabilités",
-    "section": "Comités de conception de parcours",
-    "text": "Comités de conception de parcours\n\nLicence M(AD)² · 2018–2019\nConception du plan d’études + dossier d’habilitation.\n\n\nMaster Université de Montpellier · 2019–2020\nProposition d’un nouveau master suite au partenariat avec l’Université de Montpellier (master MIND et licence Mathématique-Informatique). Réunion avec M. Ali Ganoun.\n\n\nParcours SID — Système d’Informations Décisionnel · 2017–2018\nMembre du comité de conception sous la direction de Mme Syrine Ben Meskina.\n\n\nMaster Business Analytics · 2017–2018\nMembre du comité de conception sous la direction de Mme Kaouther Bouzouita."
+    "objectID": "enseignements/machine-learning.html#prolongements",
+    "href": "enseignements/machine-learning.html#prolongements",
+    "title": "Machine Learning",
+    "section": "Prolongements",
+    "text": "Prolongements\nModule précurseur de Deep Learning, NLP et Outillage Machine Learning."
   },
   {
-    "objectID": "responsabilites.html#jurys",
-    "href": "responsabilites.html#jurys",
-    "title": "Responsabilités",
-    "section": "Jurys",
-    "text": "Jurys\n\nJury de recrutement · depuis 2017\nMembre des jurys des sessions de recrutement des enseignants des mathématiques et statistiques à ESB.\n\n\nJury de soutenance — séminaires, projets, PFE\nVoir Encadrements pour la liste détaillée."
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Aymen Ben Brik",
+    "section": "",
+    "text": "J’enseigne les mathématiques et l’intelligence artificielle — et je pilote chaque semestre par les données.\n\n\n  Boucle pédagogique : mesurer, analyser, agir\n  \n    \n      \n    \n  \n  \n    \n    \n    \n  \n  \n    Mesurer\n    Analyser\n    Agir\nChef du département Informatique et mathématiques appliquées à Esprit School of Business, je dirige l’équipe de recherche AI4U (Esprit Tech) et représente ESB à la Task Force IA de Honoris United Universities. Mon terrain : la pédagogie augmentée par l’IA — du cours d’algèbre au déploiement d’agents intelligents."
   },
   {
-    "objectID": "responsabilites.html#animation-de-clubs",
-    "href": "responsabilites.html#animation-de-clubs",
-    "title": "Responsabilités",
-    "section": "Animation de clubs",
-    "text": "Animation de clubs\n\nMAD University Club · Tutor and Founder · depuis 2020\nClub universitaire créé en 2020 lié à la licence M(AD)².\n\n\nB-Movie Film Club · Tutor, Founder and Organizer · depuis 2018\nCiné-club universitaire ESB. Projections thématiques + débats.\nÉvénements organisés : - Partenariat festival Fespaco — hommage cinéma Burkinabais (présence ambassadeur du Burkina Faso) - Co-organisation festival Fest-In avec ambassade du Brésil — couvert par La Presse\n\n\nClub Horizon ESB · Tuteur · 2017–2018\nMagazine étudiants (projet en pause)."
+    "objectID": "index.html#parcours",
+    "href": "index.html#parcours",
+    "title": "Aymen Ben Brik",
+    "section": "Parcours",
+    "text": "Parcours\n\n  2024 — Architecte & développeur de la plateforme ESB-Learning (apprentissage adaptatif, architecture Agentic AI)\n  2024 — Co-responsable du programme Alternance Business Analytics × Generative AI, ESB × Jems Group\n  2024 — Représentant ESB, Task Force AI, Honoris United Universities (11 institutions, 10 pays)\n  2023 — Head of Research Team AI4U, Esprit Tech\n  2023 — AI Instructor, Training of Trainers, ESB (ML, DL, NLP, Transformers, LLM)\n  2020 — Administrateur Tekouin, plateforme e-learning de coding, ESB\n  2019 — Chef du département Informatique et mathématiques appliquées, ESB"
   },
   {
-    "objectID": "responsabilites.html#ateliers-préparation-au-tage-mage-depuis-2017",
-    "href": "responsabilites.html#ateliers-préparation-au-tage-mage-depuis-2017",
-    "title": "Responsabilités",
-    "section": "Ateliers Préparation au Tage Mage · depuis 2017",
-    "text": "Ateliers Préparation au Tage Mage · depuis 2017\n3 ateliers : Aptitudes linguistiques (I. Kaouech), Calcul (M. Jaoua), Raisonnement logique (Aymen Ben Brik) — édition 2017–2018 : 30 étudiants."
+    "objectID": "index.html#domaines-dexpertise",
+    "href": "index.html#domaines-dexpertise",
+    "title": "Aymen Ben Brik",
+    "section": "Domaines d’expertise",
+    "text": "Domaines d’expertise\n\n\nMathématiques appliquées\n\nAlgèbre linéaire et bilinéaire\nAnalyse à plusieurs variables\nProbabilités et statistiques avancées\nRéduction des endomorphismes, ACP\nIntégration, théorie de la mesure\n\n\n\nAide à la décision\n\nRecherche opérationnelle\nProgrammation linéaire, simplexe\nThéorie des graphes, ordonnancement\nOptimisation de portefeuille\nGeneralized Linear Models\n\n\n\nIA & Data Science\n\nMachine Learning (Python, R)\nDeep Learning (DNN, CNN, RNN, Transformers)\nNLP, LLM, Generative AI\nGenerative Computer Vision\nTableau, Power BI, Plotly\n\n\n\nActuariat & Finance\n\nProcessus stochastiques, Markov, Poisson\nMouvement Brownien, Monte Carlo\nGestion de portefeuille\nStatistiques non paramétriques\nModèles linéaires généralisés"
   },
   {
-    "objectID": "responsabilites.html#école-dété-pédagogique-improve-your-maths-2018",
-    "href": "responsabilites.html#école-dété-pédagogique-improve-your-maths-2018",
-    "title": "Responsabilités",
-    "section": "École d’été pédagogique « Improve your Maths » · 2018",
-    "text": "École d’été pédagogique « Improve your Maths » · 2018\nCours intensif de mathématiques pour les nouveaux étudiants ESB."
-  },
-  {
-    "objectID": "responsabilites.html#tableau-récapitulatif",
-    "href": "responsabilites.html#tableau-récapitulatif",
-    "title": "Responsabilités",
-    "section": "Tableau récapitulatif",
-    "text": "Tableau récapitulatif\n\n\n\n\n\n\n\n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\nThis is the init_notebook_mode cell from ITables v2.7.3\n(you should not see this message - is your notebook trusted?)\n\n\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.7.3 from the init_notebook_mode cell...\n        (need help?)"
+    "objectID": "index.html#modules-de-lannée",
+    "href": "index.html#modules-de-lannée",
+    "title": "Aymen Ben Brik",
+    "section": "Modules de l’année",
+    "text": "Modules de l’année\n\nAlgèbre 2 (ECUE211) — Espaces vectoriels, matrices, déterminants · S2 LMAD/SD · 84 h\nAlgèbre 3 (ECUE311) — Réduction, espaces euclidiens, formes quadratiques, ACP · 75 h\nProbabilités (ECUE411) — Variables aléatoires, lois usuelles, théorèmes limites · S4 LMAD · 84 h\nAnalyse 4 (ECUE421) — Topologie, calcul différentiel, descente de gradient · S4 LMAD · 84 h\nRecherche Opérationnelle (ECUEO412) — Programmation linéaire, théorie des graphes · 42 h\nPortfolio Optimization — Master GAMMA / Alternance BA · 42 h · nouveau module\n\nCatalogue complet des modules →"
   },
   {
     "objectID": "certifications.html",
@@ -1484,6 +1468,284 @@
     "text": "Hobbies\nCinéma · Rock, Jazz, Blues · Sport · Philosophie · Histoire / Géographie"
   },
   {
+    "objectID": "recherche.html",
+    "href": "recherche.html",
+    "title": "Recherche & Production scientifique",
+    "section": "",
+    "text": "Direction d’une équipe de recherche dédiée aux applications de l’intelligence artificielle dans l’enseignement supérieur.\nAxes de recherche :\n\nPédagogie augmentée par l’IA et la GenAI\nGénération automatique de contenus pédagogiques\nÉvaluation augmentée par l’IA\nLLMs, Transformers et NLP appliqués à l’enseignement\nComputer Vision pour l’analyse de productions étudiantes\nOutils de personnalisation de l’apprentissage"
+  },
+  {
+    "objectID": "recherche.html#head-of-research-team-ai4u-esprit-tech-depuis-2023",
+    "href": "recherche.html#head-of-research-team-ai4u-esprit-tech-depuis-2023",
+    "title": "Recherche & Production scientifique",
+    "section": "",
+    "text": "Direction d’une équipe de recherche dédiée aux applications de l’intelligence artificielle dans l’enseignement supérieur.\nAxes de recherche :\n\nPédagogie augmentée par l’IA et la GenAI\nGénération automatique de contenus pédagogiques\nÉvaluation augmentée par l’IA\nLLMs, Transformers et NLP appliqués à l’enseignement\nComputer Vision pour l’analyse de productions étudiantes\nOutils de personnalisation de l’apprentissage"
+  },
+  {
+    "objectID": "recherche.html#huu-task-force-ai-team-honoris-united-university-depuis-2024",
+    "href": "recherche.html#huu-task-force-ai-team-honoris-united-university-depuis-2024",
+    "title": "Recherche & Production scientifique",
+    "section": "HUU Task Force AI Team · Honoris United University · depuis 2024",
+    "text": "HUU Task Force AI Team · Honoris United University · depuis 2024\n\nRepresentative of ESB\nReprésentation d’ESB au sein de la Task Force AI du réseau Honoris United University (11 institutions, 10 pays). Coordination inter-institutions sur les enjeux IA stratégiques."
+  },
+  {
+    "objectID": "recherche.html#mémoire-de-master-2010",
+    "href": "recherche.html#mémoire-de-master-2010",
+    "title": "Recherche & Production scientifique",
+    "section": "Mémoire de Master (2010)",
+    "text": "Mémoire de Master (2010)\n\nEquidistribution of Eigenvalues of Hecke Operators Applied to Modular Forms\nFaculty of Sciences of Tunis — Master’s Degree in Fundamental Mathematics, Number Theory. Honors: Very Good.\nÉtude asymptotique des valeurs propres des opérateurs de Hecke agissant sur les formes modulaires, dans la lignée des travaux sur les conjectures de Sato-Tate."
+  },
+  {
+    "objectID": "recherche.html#domaines-de-recherche",
+    "href": "recherche.html#domaines-de-recherche",
+    "title": "Recherche & Production scientifique",
+    "section": "Domaines de recherche",
+    "text": "Domaines de recherche\n\n\nMathématiques pures\n\nThéorie des nombres\nFormes modulaires, opérateurs de Hecke\nArithmétique et mathématiques discrètes\n\n\n\nMathématiques appliquées & Data Science\n\nRecherche opérationnelle, optimisation\nModélisation stochastique\nMachine Learning, Deep Learning\nNLP, Transformers, LLM\nGenerative AI, Computer Vision\nSéries temporelles, ARIMA/SARIMA\nActuariat, mouvement Brownien, Monte Carlo\nPortfolio Optimization"
+  },
+  {
+    "objectID": "recherche.html#écoles-dété-et-formation-continue-à-la-recherche",
+    "href": "recherche.html#écoles-dété-et-formation-continue-à-la-recherche",
+    "title": "Recherche & Production scientifique",
+    "section": "Écoles d’été et formation continue à la recherche",
+    "text": "Écoles d’été et formation continue à la recherche\n\nCIMPA 2019 · Été 2019\nScience des données pour l’ingénierie et la technologie\nCentre International de Mathématiques Pures et Appliquées.\n\n\nIHEC SUMMER SCHOOL · Été 2018\nData Science for Finance — IHEC Carthage."
+  },
+  {
+    "objectID": "recherche.html#partenariats-internationaux",
+    "href": "recherche.html#partenariats-internationaux",
+    "title": "Recherche & Production scientifique",
+    "section": "Partenariats internationaux",
+    "text": "Partenariats internationaux\n\nJems Group · 2024 — présent\nPartenariat industriel pour le programme Alternance Business Analytics oriented Generative AI. Co-Responsable du programme.\n\n\nUniversité de Montpellier · 2019–2020\nAccord de partenariat (master MIND, licence Mathématique-Informatique). Réunion avec M. Ali Ganoun.\n\n\nSUP’DE COM Lyon · Programme ERASMUS\nExtension du partenariat aux licences (auparavant limité aux masters).\n\n\nHonoris United University (HUU) · depuis 2024\nRéseau de 11 institutions d’enseignement supérieur sur 10 pays — Task Force AI."
+  },
+  {
+    "objectID": "recherche.html#formations-dispensées-ai-instructor",
+    "href": "recherche.html#formations-dispensées-ai-instructor",
+    "title": "Recherche & Production scientifique",
+    "section": "Formations dispensées (AI Instructor)",
+    "text": "Formations dispensées (AI Instructor)\nEn tant qu’AI Instructor au Training of Trainers Departement (depuis 2023), sessions sur :\n\nArtificial Intelligence — fondamentaux\nMachine Learning — algorithmes supervisés / non supervisés\nDeep Learning — DNN, CNN, RNN, attention\nData Analysis — pipelines complets\nNLP — Natural Language Processing\nTransformers — architectures attention\nLLM — Large Language Models"
+  },
+  {
+    "objectID": "recherche.html#reviewing-expertise",
+    "href": "recherche.html#reviewing-expertise",
+    "title": "Recherche & Production scientifique",
+    "section": "Reviewing & expertise",
+    "text": "Reviewing & expertise\n\nReviewer · WEITA 2026 — Workshop on Education, ICT and AI\n17 avril 2026, ESPRIT (Tunis). Évaluation d’oral presentations et de posters soumis au workshop (4 dimensions : pertinence, originalité, rigueur, impact). Distinctions personnelles obtenues : 1er prix oral (OP-06, équipe Kammoun/Abidi/Ben Brik) et 2e prix oral (OP-09, Ben Brik solo, ESB-Learning).\n\n\nJurys de PFE / Masters / Mémoires · depuis 2017\n621 encadrements et participations à jurys cumulés à ESB (PFE LMAD, masters MDSI/MKD/MBA/GAMMA, séminaires). Voir page Encadrement."
+  },
+  {
+    "objectID": "recherche.html#veille-technologique",
+    "href": "recherche.html#veille-technologique",
+    "title": "Recherche & Production scientifique",
+    "section": "Veille technologique",
+    "text": "Veille technologique\nVoir Certifications — 16 certifications obtenues (Spécialisation Deep Learning Coursera, Udemy data science, pédagogie)."
+  },
+  {
+    "objectID": "recherche.html#publications",
+    "href": "recherche.html#publications",
+    "title": "Recherche & Production scientifique",
+    "section": "Publications",
+    "text": "Publications\n\nArticle de revue scientifique — en proof (2026)\n\n\nIJQSS 2026 — What Makes a University Sustainable in the Eyes of its Core Community? Sustainability Expectation–Perception Gap\nAuteurs : S. Tebessi, I. Dimassi, A. Ben Brik.\nRevue : International Journal of Quality and Service Sciences (IJQSS), Emerald Publishing — indexé Scopus et Web of Science. Manuscript ID : IJQSS-02-2026-0065. Statut : Proof revision (acceptée, en production).\nPremier livrable du Working Group #2 — University Sustainability Performance Index (USPI) (cycle 09/2025 – 03/2027, cible 8 publications).\n\n\nCommunications dans des conférences internationales\n\n\nAfricaTek 2025 — Best Paper Award\nEvaluation of Large Language Models in Simulating Real-world Engineering Scenarios and Decision Making: A Comparative Study of ChatGPT-4o, Gemini, and Perplexity\nAuteurs : F. Kamoun (ESPRIT, ORCID 0000-0002-3740-1452), F. Iqbal (Zayed University, UAE, ORCID 0000-0001-9081-3598), H. Abidi, A. Ben Brik. Données suppl. : figshare DOI 10.6084/m9.figshare.28735043.v1.\n\n\nCDIO 2024 — 20th International CDIO Conference (ESPRIT, 10-13/06/2024)\nChatGPT as a Co-pilot for Assessment Design Refinement: An Exploratory Study\nAuteurs : F. Kamoun, A. Ben Brik, I. Rebhi, S. Besbes, H. Abidi, A. Baghdadi, R. Ammar (ESPRIT School of Engineering + ESPRIT School of Business).\n\n\nWEITA 2026 — Workshop on Education, ICT and AI (ESPRIT, 17/04/2026)\n\n\nOral OP-06 (1er prix) — Designing AI-Augmented Assessment Ecosystems — F. Kammoun, H. Abidi, A. Ben Brik\nOral OP-09 (2e prix) — Intelligent Learning and Assessment Ecosystems (ESB-Learning) — A. Ben Brik (solo)\nPoster POS-17 — RecruScore : Multi-Agent AI Pipeline\nPoster POS-28 — Breaking Language Barriers with Inclusive AI\nReviewer au comité de relecture scientifique\n\n\n\n\nCommunications soumises — IEEE CIFEr 2026\n\n\nIEEE CIFEr 2026 (Paper #166) — Reproducibility-First Multi-Component Forecasting for Illiquid Equity Markets: Baselines, Ablations, and a Documented Discrepancy on the Tunisian Stock Exchange\nAuteur : A. Ben Brik.\nConférence : IEEE Computational Intelligence in Financial Engineering and Economics 2026 (CIFEr 2026 track), IEEE Computational Intelligence Society. Statut : Submission created (mai 2026).\nPipeline reproducibility-first combinant Temporal Fusion Transformer (TFT), XGBoost (fondamentaux), sentiment NLP financier, Graph Attention Networks et interprétation SHAP — appliqué à la Bourse de Tunis (BVMT) : 68 titres, 2016–2025, 116 626 enregistrements. Résultat clé : TFT v3 atteint 51.79 % directional accuracy (IC 95 % [50.43, 53.08]) et révèle une discordance documentée vs baselines classiques.\n\n\nIEEE CIFEr 2026 (Paper #130) — Unsupervised Behavioral Anomaly Detection on Prepaid-Card Transactions: A Six-Detector Two-Family Ensemble with Domain-Informed Features\nAuteurs : R. Ayed (primary), A. Ben Brik.\nConférence : IEEE CIFEr 2026 (track CIFEr2026). Statut : Submission created (mai 2026).\nFramework non supervisé combinant Family A (Isolation Forest, FeedForward Autoencoder) et Family B (LSTM Autoencoder, TranAD, Anomaly Transformer, TFT-residual). Évaluation sur 1 590 251 transactions réelles, 3.27 % de user-days suspects détectés, 94 % d’analyst-load reduction. Déployé comme outil Flask decision-support.\n\n\nMémoires académiques\n\n\nMaster’s Thesis — Equidistribution of Eigenvalues of Hecke Operators Applied to Modular Forms (2010)\nFaculty of Sciences of Tunis — Master’s Degree in Fundamental Mathematics, Number Theory. Honors : Very Good. Théorie des nombres, formes modulaires, conjectures de Sato-Tate.\n\n\nAxes de recherche actifs (papiers en préparation 2026–2028)\n\nDétection de fraude — cartes prépayées Pluxee → soumis à IEEE CIFEr 2026 (Paper #130)\nModélisation BVMT — Bourse de Tunis → soumis à IEEE CIFEr 2026 (Paper #166)\nCentipede Game — théorie des jeux comportementaux\nMean Field Games appliqués aux LLMs pédagogiques (extension ESB-Learning)\nIndice de durabilité universitaire hybride SEM + AHP + IA (avec Ichraf et Sana)\n\n\n\nBibliographie BibTeX\nSource : data/publications.bib."
+  },
+  {
+    "objectID": "recherche.html#projet-phare-esb-learning-plateforme-agentic-ai",
+    "href": "recherche.html#projet-phare-esb-learning-plateforme-agentic-ai",
+    "title": "Recherche & Production scientifique",
+    "section": "Projet phare : ESB-Learning — Plateforme Agentic AI",
+    "text": "Projet phare : ESB-Learning — Plateforme Agentic AI\n\nESB-Learning — Apprentissage adaptatif augmenté par l’IA\nPlateforme d’apprentissage adaptatif de nouvelle génération, conçue, développée et déployée pour Esprit School of Business. Elle se distingue des LMS classiques (Moodle, Blackboard) par une architecture nativement Agentic AI : cinq agents autonomes raisonnent, planifient, appellent des outils et s’auto-corrigent pour piloter l’expérience pédagogique de bout en bout.\nChiffres-clés\n\n\n\n\n\n\n\n\n\n\nComposants IA\nAgents autonomes\nOutils MCP\nLangages code\nLignes (Py+TS)\n\n\n\n\n37\n5\n30+\n6\n~50 000\n\n\n\nStack technique\n\nLLMs : Google Gemini 2.5-Flash / 2.5-Pro / 2.0+ Vision (multimodal)\nFramework agents : LangGraph (StateGraph, ReAct), LangChain\nNLP local : TunBERT (BERT-base 768 dim, dialecte tunisien)\nRAG hybride : SentenceTransformer + ChromaDB + BM25 + indexation YouTube native\nSandbox code : Piston (Python, SQL, R, Java, C, C++)\nOutils structurés : protocole MCP (Model Context Protocol, Anthropic, fin 2024)\nBackend / Frontend : Flask + SQLAlchemy / Next.js 14 + TypeScript + shadcn/ui\n\n\n\nLes cinq agents autonomes\n\n\n\n\n\n\n\n\n\n\nAgent\nPattern\nCapacités\nRôle pédagogique\n\n\n\n\nAssistant\nReAct\n9 outils + skills modulaires\nChatbot pédagogique trilingue (FR / EN / dialecte tunisien), entrée et sortie vocales.\n\n\nCoach\nStateGraph 4 nœuds\nBloom, lacunes, plan d’étude\nAnalyse de performance, détection des lacunes, plan d’étude personnalisé.\n\n\nExam Analyzer\nStateGraph async 10 étapes\n11 outils MCP, Gemini Flash + Pro\nAnalyse pédagogique d’examen : classification AA + Bloom, génération LaTeX, feedback, méta-évaluation.\n\n\nTP Création\nStateGraph 5 nœuds\n8 outils MCP\nGénération automatique d’énoncés de TP alignés AA, solution de référence, critères.\n\n\nTP Correction\nStateGraph 2 nœuds\nSandbox Piston + LLM\nCorrection automatique sémantique des soumissions, note + justification.\n\n\n\n\n\n\nApports R&D différenciants\n\nArchitecture nativement Agentic AI (vs IA-augmentée) : les agents décident eux-mêmes des outils à enchaîner ; l’humain valide en bout de chaîne.\nPipeline d’analyse d’examen en 10 étapes orchestrées par un StateGraph asynchrone — pratique encore rare en production dans les outils éducatifs.\nTriple-LLM coordonné (Gemini 2.5-Flash pour le débit, 2.5-Pro pour le raisonnement profond, 2.0+ Vision pour vidéo/image) avec stratégie de sélection adaptée à chaque tâche.\nRAG hybride quadruple : CAG sur résumés + ChromaDB vectoriel + BM25 lexical + YouTube natif.\nTunBERT intégré comme agent de pré-traitement pour le dialecte tunisien : NLP en langue sous-dotée, problématique de recherche peu explorée dans les LMS commerciaux.\nProtocole MCP adopté précocement (standard ouvert publié par Anthropic fin 2024) — interopérabilité native avec l’écosystème IA moderne.\nMéta-cognition : l’Exam Analyzer évalue lui-même la qualité de la proposition d’examen qu’il a générée.\n\n\n\nContributions personnelles\nESB-Learning est conçu et développé par un développeur unique (le porteur).\n\nConception architecturale globale (patterns, SkillManager central, stratégie multi-LLM, stratégie RAG hybride).\nDéveloppement des cinq agents autonomes (~3 700 lignes de Python).\nConception des plus de 30 outils MCP avec schémas JSON et tests unitaires.\nIntégration TunBERT (lazy-loading, embeddings d’ancrage, singleton thread-safe).\nFrontend Next.js 14 : espaces Étudiant / Enseignant / Administrateur, widget assistant vocal.\nAudit interne du système Agentic AI (rapport d’avril 2026, score B+ 7/10).\n\n\n\nCalendrier de déploiement\n\n\n\n\n\n\n\n\nPhase\nDescription\n\n\n\n\nJuin 2026 — Pilote\nDéploiement hébergé avec CI/CD (DevOps) et MLOps pour les modèles IA. Test sur la classe Master Business Analytics (~50 étudiants). Recueil systématique de feedbacks via surveys.\n\n\nSeptembre 2026 — Lancement officiel\nDéploiement progressif par formation, validation à chaque palier.\n\n\nCible finale\nCharge supportée : 3 000 étudiants et 300 enseignants.\n\n\n\n\n\n\nGouvernance, modération et conformité\n\nPilotage technique : assuré par le porteur ; rapports d’utilisation et de performances transmis régulièrement à un comité institutionnel formé par la Direction Générale, la Direction des Études et la Direction Administrative et Financière.\nModération humaine : assurée par le porteur. Aucune production des agents IA n’est diffusée sans validation pédagogique.\nFeedback utilisateurs : enquêtes prêtes dès la phase de test, communication régulière des résultats au comité.\nConformité légale : respect des règles applicables (protection des données, sécurité, droit du numérique).\nPropriété intellectuelle : 100 % au porteur. Déploiement strictement limité à ESB à ce stade ; toute commercialisation éventuelle relèvera des règles fixées par la direction.\nProduction scientifique envisagée : plusieurs articles, auteur unique à ce stade.\nModèle économique : rapport détaillé des coûts (API LLM, hébergement, maintenance) en cours de préparation.\n\n\n\n\n\n\n\nNote\n\n\n\nLa description détaillée — pipelines complets de chaque agent, couche de prompt engineering par strate, besoins fonctionnels par acteur — est fournie dans le Livrable 1 Production RDI (annexe ESB-Learning)."
+  },
+  {
+    "objectID": "recherche.html#projet-rdi-20262028-continuité-desb-learning",
+    "href": "recherche.html#projet-rdi-20262028-continuité-desb-learning",
+    "title": "Recherche & Production scientifique",
+    "section": "Projet RDI 2026–2028 — Continuité d’ESB-Learning",
+    "text": "Projet RDI 2026–2028 — Continuité d’ESB-Learning\nLe projet RDI 2026–2028 prolonge directement les travaux engagés sur ESB-Learning et l’inscrit dans une trajectoire scientifique cohérente articulée autour de trois axes complémentaires.\n\nAxe 1 — Consolidation et valorisation scientifique d’ESB-Learning\nRenforcement de l’autonomie des agents (self-reflection, mémoire longue, planification multi-tours), industrialisation de la plateforme (montée en charge à 3 000 étudiants et 300 enseignants), publication des résultats scientifiques.\n\n\nAxe 2 — NLP en langue sous-dotée et inclusivité linguistique\nExtension du modèle TunBERT à l’arabe standard et aux dialectes maghrébins ; expérimentation de modèles ouverts (Llama 3, Mistral) en complément de Gemini, pour des raisons de souveraineté et de coûts.\n\n\nAxe 3 — Pédagogie augmentée par l’IA générative\nCapsules génératives, simulateurs LLM pour les enseignements quantitatifs (statistique, optimisation, séries temporelles), évaluation automatisée à l’échelle, instrumentation des Acquis d’Apprentissage.\n\n\nPlan de travail (résumé)\n\n\n\n\n\n\n\nPériode\nÉtape clé\n\n\n\n\nT1 2026 (juin–août)\nPilote Master BA + CI/CD + MLOps + premiers surveys\n\n\nT2 2026 (sept–nov)\nLancement officiel + rapport de coûts\n\n\nT3 2026 (déc–fév 2027)\nRenforcement autonomie agents + protocole évaluation comparative\n\n\nT4 2026 (mars–mai 2027)\n1er article scientifique + rapport d’impact intermédiaire\n\n\nT1 2027 (juin–août)\nExtension TunBERT arabe + benchmark Llama/Mistral\n\n\nT2 2027 (sept–nov)\nMontée en charge cible + cadre de conformité\n\n\nT3 2027 (déc–fév 2028)\nCapsules génératives + simulateurs LLM\n\n\nT4 2027 (mars–mai 2028)\n2e article scientifique + bilan général\n\n\n\n\n\nProductions attendues\n\n2 à 3 articles scientifiques (auteur unique à ce stade) — Agentic AI multi-agents en éducation, intégration TunBERT, méta-cognition d’agent évaluateur.\nVersions successives d’ESB-Learning + bibliothèque de capsules génératives.\nEncadrements RDI : sujets de PFE et de Mémoires de Master adossés au projet.\nRapports institutionnels réguliers transmis au comité de la direction.\n\nÀ ce stade, le projet est conduit sans partenariat externe formalisé ; des collaborations académiques ou industrielles pourront être envisagées en 2026–2028, selon les règles fixées par la direction de l’établissement."
+  },
+  {
+    "objectID": "encadrement/index.html",
+    "href": "encadrement/index.html",
+    "title": "Encadrement des projets",
+    "section": "",
+    "text": "Mon approche d’encadrement repose sur une progression structurée en sept étapes, adaptée au profil et au niveau de chaque étudiant. Je commence par un cadrage rigoureux du sujet et un état de l’art complet pour garantir la solidité scientifique du travail. La phase de développement ou d’expérimentation est ponctuée de points de suivi hebdomadaires permettant un ajustement continu. L’analyse des résultats est conduite avec une exigence de reproductibilité (Python, R, notebooks versionnés). La rédaction du rapport et la préparation de la soutenance sont accompagnées de relectures multiples et de simulations orales. Mon objectif final : que chaque étudiant développe son autonomie scientifique tout en livrant un travail valorisable.\n\n\n\n\nAutonomie \n\n\n\n\nRigueur \n\n\n\n\nSuivi régulier \n\n\n\n\nValorisation \n\n\n\n\n\n                            \n                                            \nWorkflow d’encadrement en sept étapes",
+    "crumbs": [
+      "Encadrement",
+      "Vue d'ensemble"
+    ]
+  },
+  {
+    "objectID": "encadrement/index.html#maintenir-ces-données",
+    "href": "encadrement/index.html#maintenir-ces-données",
+    "title": "Encadrement des projets",
+    "section": "Maintenir ces données",
+    "text": "Maintenir ces données\ndata/\n├── ai4u_projects.csv             48 projets AI4U (Maître stage / PO / Stage d'été)\n├── encadrants.csv                202 encadrements (liste séparée)\n├── rapporteurs.csv               150 rapports évalués (liste séparée)\n└── president_jury.csv            292 jurys présidés\nPour rafraîchir depuis le fichier Excel maître :\npython scripts/extract_encadrements.py\nquarto render encadrement/",
+    "crumbs": [
+      "Encadrement",
+      "Vue d'ensemble"
+    ]
+  },
+  {
+    "objectID": "encadrement/rapporteur.html",
+    "href": "encadrement/rapporteur.html",
+    "title": "Rapporteur",
+    "section": "",
+    "text": "This is the init_notebook_mode cell from ITables v2.8.1\n(you should not see this message - is your notebook trusted?)",
+    "crumbs": [
+      "Encadrement",
+      "Rapporteur"
+    ]
+  },
+  {
+    "objectID": "encadrement/rapporteur.html#évolution-temporelle",
+    "href": "encadrement/rapporteur.html#évolution-temporelle",
+    "title": "Rapporteur",
+    "section": "Évolution temporelle",
+    "text": "Évolution temporelle",
+    "crumbs": [
+      "Encadrement",
+      "Rapporteur"
+    ]
+  },
+  {
+    "objectID": "encadrement/rapporteur.html#répartitions",
+    "href": "encadrement/rapporteur.html#répartitions",
+    "title": "Rapporteur",
+    "section": "Répartitions",
+    "text": "Répartitions",
+    "crumbs": [
+      "Encadrement",
+      "Rapporteur"
+    ]
+  },
+  {
+    "objectID": "encadrement/rapporteur.html#liste-des-rapports-évalués",
+    "href": "encadrement/rapporteur.html#liste-des-rapports-évalués",
+    "title": "Rapporteur",
+    "section": "Liste des rapports évalués",
+    "text": "Liste des rapports évalués\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the init_notebook_mode cell...\n        (need help?)",
+    "crumbs": [
+      "Encadrement",
+      "Rapporteur"
+    ]
+  },
+  {
+    "objectID": "encadrement/encadrements.html",
+    "href": "encadrement/encadrements.html",
+    "title": "Encadrements académiques",
+    "section": "",
+    "text": "This is the init_notebook_mode cell from ITables v2.8.1\n(you should not see this message - is your notebook trusted?)",
+    "crumbs": [
+      "Encadrement",
+      "Encadrements académiques"
+    ]
+  },
+  {
+    "objectID": "encadrement/encadrements.html#évolution-temporelle",
+    "href": "encadrement/encadrements.html#évolution-temporelle",
+    "title": "Encadrements académiques",
+    "section": "Évolution temporelle",
+    "text": "Évolution temporelle",
+    "crumbs": [
+      "Encadrement",
+      "Encadrements académiques"
+    ]
+  },
+  {
+    "objectID": "encadrement/encadrements.html#répartitions",
+    "href": "encadrement/encadrements.html#répartitions",
+    "title": "Encadrements académiques",
+    "section": "Répartitions",
+    "text": "Répartitions",
+    "crumbs": [
+      "Encadrement",
+      "Encadrements académiques"
+    ]
+  },
+  {
+    "objectID": "encadrement/encadrements.html#liste-des-encadrements",
+    "href": "encadrement/encadrements.html#liste-des-encadrements",
+    "title": "Encadrements académiques",
+    "section": "Liste des encadrements",
+    "text": "Liste des encadrements\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the init_notebook_mode cell...\n        (need help?)",
+    "crumbs": [
+      "Encadrement",
+      "Encadrements académiques"
+    ]
+  },
+  {
+    "objectID": "encadrement/president-jury.html",
+    "href": "encadrement/president-jury.html",
+    "title": "Président de jury",
+    "section": "",
+    "text": "This is the init_notebook_mode cell from ITables v2.8.1\n(you should not see this message - is your notebook trusted?)",
+    "crumbs": [
+      "Encadrement",
+      "Président de jury"
+    ]
+  },
+  {
+    "objectID": "encadrement/president-jury.html#évolution-temporelle",
+    "href": "encadrement/president-jury.html#évolution-temporelle",
+    "title": "Président de jury",
+    "section": "Évolution temporelle",
+    "text": "Évolution temporelle",
+    "crumbs": [
+      "Encadrement",
+      "Président de jury"
+    ]
+  },
+  {
+    "objectID": "encadrement/president-jury.html#répartitions",
+    "href": "encadrement/president-jury.html#répartitions",
+    "title": "Président de jury",
+    "section": "Répartitions",
+    "text": "Répartitions",
+    "crumbs": [
+      "Encadrement",
+      "Président de jury"
+    ]
+  },
+  {
+    "objectID": "encadrement/president-jury.html#liste-détaillée-des-jurys-présidés",
+    "href": "encadrement/president-jury.html#liste-détaillée-des-jurys-présidés",
+    "title": "Président de jury",
+    "section": "Liste détaillée des jurys présidés",
+    "text": "Liste détaillée des jurys présidés\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the init_notebook_mode cell...\n        (need help?)",
+    "crumbs": [
+      "Encadrement",
+      "Président de jury"
+    ]
+  },
+  {
+    "objectID": "encadrement/ai4u.html",
+    "href": "encadrement/ai4u.html",
+    "title": "Projets AI4U",
+    "section": "",
+    "text": "This is the init_notebook_mode cell from ITables v2.8.1\n(you should not see this message - is your notebook trusted?)",
+    "crumbs": [
+      "Encadrement",
+      "Projets AI4U"
+    ]
+  },
+  {
+    "objectID": "encadrement/ai4u.html#évolution-et-répartitions",
+    "href": "encadrement/ai4u.html#évolution-et-répartitions",
+    "title": "Projets AI4U",
+    "section": "Évolution et répartitions",
+    "text": "Évolution et répartitions",
+    "crumbs": [
+      "Encadrement",
+      "Projets AI4U"
+    ]
+  },
+  {
+    "objectID": "encadrement/ai4u.html#liste-des-projets-ai4u",
+    "href": "encadrement/ai4u.html#liste-des-projets-ai4u",
+    "title": "Projets AI4U",
+    "section": "Liste des projets AI4U",
+    "text": "Liste des projets AI4U\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the init_notebook_mode cell...\n        (need help?)",
+    "crumbs": [
+      "Encadrement",
+      "Projets AI4U"
+    ]
+  },
+  {
     "objectID": "evenements.html",
     "href": "evenements.html",
     "title": "Événements",
@@ -1596,368 +1858,282 @@
     "text": "Tableau interactif complet\n\n\n\n\n\n\n\n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\nThis is the init_notebook_mode cell from ITables v2.8.1\n(you should not see this message - is your notebook trusted?)\n\n\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the init_notebook_mode cell...\n        (need help?)"
   },
   {
-    "objectID": "encadrement-projets.html#maintenir-ces-données",
-    "href": "encadrement-projets.html#maintenir-ces-données",
-    "title": "Encadrement des projets",
-    "section": "Maintenir ces données",
-    "text": "Maintenir ces données\ndata/\n├── ai4u_projects.csv             48 projets AI4U (Maître stage / PO / Stage d'été)\n├── encadrants.csv                202 encadrements (liste séparée)\n├── rapporteurs.csv               150 rapports évalués (liste séparée)\n└── president_jury.csv            292 jurys présidés\nPour rafraîchir depuis le fichier Excel maître :\npython scripts/extract_encadrements.py\nquarto render encadrement-projets.qmd"
-  },
-  {
-    "objectID": "recherche.html",
-    "href": "recherche.html",
-    "title": "Recherche & Production scientifique",
-    "section": "",
-    "text": "Direction d’une équipe de recherche dédiée aux applications de l’intelligence artificielle dans l’enseignement supérieur.\nAxes de recherche :\n\nPédagogie augmentée par l’IA et la GenAI\nGénération automatique de contenus pédagogiques\nÉvaluation augmentée par l’IA\nLLMs, Transformers et NLP appliqués à l’enseignement\nComputer Vision pour l’analyse de productions étudiantes\nOutils de personnalisation de l’apprentissage"
-  },
-  {
-    "objectID": "recherche.html#head-of-research-team-ai4u-esprit-tech-depuis-2023",
-    "href": "recherche.html#head-of-research-team-ai4u-esprit-tech-depuis-2023",
-    "title": "Recherche & Production scientifique",
-    "section": "",
-    "text": "Direction d’une équipe de recherche dédiée aux applications de l’intelligence artificielle dans l’enseignement supérieur.\nAxes de recherche :\n\nPédagogie augmentée par l’IA et la GenAI\nGénération automatique de contenus pédagogiques\nÉvaluation augmentée par l’IA\nLLMs, Transformers et NLP appliqués à l’enseignement\nComputer Vision pour l’analyse de productions étudiantes\nOutils de personnalisation de l’apprentissage"
-  },
-  {
-    "objectID": "recherche.html#huu-task-force-ai-team-honoris-united-university-depuis-2024",
-    "href": "recherche.html#huu-task-force-ai-team-honoris-united-university-depuis-2024",
-    "title": "Recherche & Production scientifique",
-    "section": "HUU Task Force AI Team · Honoris United University · depuis 2024",
-    "text": "HUU Task Force AI Team · Honoris United University · depuis 2024\n\nRepresentative of ESB\nReprésentation d’ESB au sein de la Task Force AI du réseau Honoris United University (11 institutions, 10 pays). Coordination inter-institutions sur les enjeux IA stratégiques."
-  },
-  {
-    "objectID": "recherche.html#mémoire-de-master-2010",
-    "href": "recherche.html#mémoire-de-master-2010",
-    "title": "Recherche & Production scientifique",
-    "section": "Mémoire de Master (2010)",
-    "text": "Mémoire de Master (2010)\n\nEquidistribution of Eigenvalues of Hecke Operators Applied to Modular Forms\nFaculty of Sciences of Tunis — Master’s Degree in Fundamental Mathematics, Number Theory. Honors: Very Good.\nÉtude asymptotique des valeurs propres des opérateurs de Hecke agissant sur les formes modulaires, dans la lignée des travaux sur les conjectures de Sato-Tate."
-  },
-  {
-    "objectID": "recherche.html#domaines-de-recherche",
-    "href": "recherche.html#domaines-de-recherche",
-    "title": "Recherche & Production scientifique",
-    "section": "Domaines de recherche",
-    "text": "Domaines de recherche\n\n\nMathématiques pures\n\nThéorie des nombres\nFormes modulaires, opérateurs de Hecke\nArithmétique et mathématiques discrètes\n\n\n\nMathématiques appliquées & Data Science\n\nRecherche opérationnelle, optimisation\nModélisation stochastique\nMachine Learning, Deep Learning\nNLP, Transformers, LLM\nGenerative AI, Computer Vision\nSéries temporelles, ARIMA/SARIMA\nActuariat, mouvement Brownien, Monte Carlo\nPortfolio Optimization"
-  },
-  {
-    "objectID": "recherche.html#écoles-dété-et-formation-continue-à-la-recherche",
-    "href": "recherche.html#écoles-dété-et-formation-continue-à-la-recherche",
-    "title": "Recherche & Production scientifique",
-    "section": "Écoles d’été et formation continue à la recherche",
-    "text": "Écoles d’été et formation continue à la recherche\n\nCIMPA 2019 · Été 2019\nScience des données pour l’ingénierie et la technologie\nCentre International de Mathématiques Pures et Appliquées.\n\n\nIHEC SUMMER SCHOOL · Été 2018\nData Science for Finance — IHEC Carthage."
-  },
-  {
-    "objectID": "recherche.html#partenariats-internationaux",
-    "href": "recherche.html#partenariats-internationaux",
-    "title": "Recherche & Production scientifique",
-    "section": "Partenariats internationaux",
-    "text": "Partenariats internationaux\n\nJems Group · 2024 — présent\nPartenariat industriel pour le programme Alternance Business Analytics oriented Generative AI. Co-Responsable du programme.\n\n\nUniversité de Montpellier · 2019–2020\nAccord de partenariat (master MIND, licence Mathématique-Informatique). Réunion avec M. Ali Ganoun.\n\n\nSUP’DE COM Lyon · Programme ERASMUS\nExtension du partenariat aux licences (auparavant limité aux masters).\n\n\nHonoris United University (HUU) · depuis 2024\nRéseau de 11 institutions d’enseignement supérieur sur 10 pays — Task Force AI."
-  },
-  {
-    "objectID": "recherche.html#formations-dispensées-ai-instructor",
-    "href": "recherche.html#formations-dispensées-ai-instructor",
-    "title": "Recherche & Production scientifique",
-    "section": "Formations dispensées (AI Instructor)",
-    "text": "Formations dispensées (AI Instructor)\nEn tant qu’AI Instructor au Training of Trainers Departement (depuis 2023), sessions sur :\n\nArtificial Intelligence — fondamentaux\nMachine Learning — algorithmes supervisés / non supervisés\nDeep Learning — DNN, CNN, RNN, attention\nData Analysis — pipelines complets\nNLP — Natural Language Processing\nTransformers — architectures attention\nLLM — Large Language Models"
-  },
-  {
-    "objectID": "recherche.html#reviewing-expertise",
-    "href": "recherche.html#reviewing-expertise",
-    "title": "Recherche & Production scientifique",
-    "section": "Reviewing & expertise",
-    "text": "Reviewing & expertise\n\nReviewer · WEITA 2026 — Workshop on Education, ICT and AI\n17 avril 2026, ESPRIT (Tunis). Évaluation d’oral presentations et de posters soumis au workshop (4 dimensions : pertinence, originalité, rigueur, impact). Distinctions personnelles obtenues : 1er prix oral (OP-06, équipe Kammoun/Abidi/Ben Brik) et 2e prix oral (OP-09, Ben Brik solo, ESB-Learning).\n\n\nJurys de PFE / Masters / Mémoires · depuis 2017\n621 encadrements et participations à jurys cumulés à ESB (PFE LMAD, masters MDSI/MKD/MBA/GAMMA, séminaires). Voir page Encadrements."
-  },
-  {
-    "objectID": "recherche.html#veille-technologique",
-    "href": "recherche.html#veille-technologique",
-    "title": "Recherche & Production scientifique",
-    "section": "Veille technologique",
-    "text": "Veille technologique\nVoir Certifications — 16 certifications obtenues (Spécialisation Deep Learning Coursera, Udemy data science, pédagogie)."
-  },
-  {
-    "objectID": "recherche.html#publications",
-    "href": "recherche.html#publications",
-    "title": "Recherche & Production scientifique",
-    "section": "Publications",
-    "text": "Publications\n\nArticle de revue scientifique — en proof (2026)\n\n\nIJQSS 2026 — What Makes a University Sustainable in the Eyes of its Core Community? Sustainability Expectation–Perception Gap\nAuteurs : S. Tebessi, I. Dimassi, A. Ben Brik.\nRevue : International Journal of Quality and Service Sciences (IJQSS), Emerald Publishing — indexé Scopus et Web of Science. Manuscript ID : IJQSS-02-2026-0065. Statut : Proof revision (acceptée, en production).\nPremier livrable du Working Group #2 — University Sustainability Performance Index (USPI) (cycle 09/2025 – 03/2027, cible 8 publications).\n\n\nCommunications dans des conférences internationales\n\n\nAfricaTek 2025 — Best Paper Award\nEvaluation of Large Language Models in Simulating Real-world Engineering Scenarios and Decision Making: A Comparative Study of ChatGPT-4o, Gemini, and Perplexity\nAuteurs : F. Kamoun (ESPRIT, ORCID 0000-0002-3740-1452), F. Iqbal (Zayed University, UAE, ORCID 0000-0001-9081-3598), H. Abidi, A. Ben Brik. Données suppl. : figshare DOI 10.6084/m9.figshare.28735043.v1.\n\n\nCDIO 2024 — 20th International CDIO Conference (ESPRIT, 10-13/06/2024)\nChatGPT as a Co-pilot for Assessment Design Refinement: An Exploratory Study\nAuteurs : F. Kamoun, A. Ben Brik, I. Rebhi, S. Besbes, H. Abidi, A. Baghdadi, R. Ammar (ESPRIT School of Engineering + ESPRIT School of Business).\n\n\nWEITA 2026 — Workshop on Education, ICT and AI (ESPRIT, 17/04/2026)\n\n\nOral OP-06 (1er prix) — Designing AI-Augmented Assessment Ecosystems — F. Kammoun, H. Abidi, A. Ben Brik\nOral OP-09 (2e prix) — Intelligent Learning and Assessment Ecosystems (ESB-Learning) — A. Ben Brik (solo)\nPoster POS-17 — RecruScore : Multi-Agent AI Pipeline\nPoster POS-28 — Breaking Language Barriers with Inclusive AI\nReviewer au comité de relecture scientifique\n\n\n\n\nCommunications soumises — IEEE CIFEr 2026\n\n\nIEEE CIFEr 2026 (Paper #166) — Reproducibility-First Multi-Component Forecasting for Illiquid Equity Markets: Baselines, Ablations, and a Documented Discrepancy on the Tunisian Stock Exchange\nAuteur : A. Ben Brik.\nConférence : IEEE Computational Intelligence in Financial Engineering and Economics 2026 (CIFEr 2026 track), IEEE Computational Intelligence Society. Statut : Submission created (mai 2026).\nPipeline reproducibility-first combinant Temporal Fusion Transformer (TFT), XGBoost (fondamentaux), sentiment NLP financier, Graph Attention Networks et interprétation SHAP — appliqué à la Bourse de Tunis (BVMT) : 68 titres, 2016–2025, 116 626 enregistrements. Résultat clé : TFT v3 atteint 51.79 % directional accuracy (IC 95 % [50.43, 53.08]) et révèle une discordance documentée vs baselines classiques.\n\n\nIEEE CIFEr 2026 (Paper #130) — Unsupervised Behavioral Anomaly Detection on Prepaid-Card Transactions: A Six-Detector Two-Family Ensemble with Domain-Informed Features\nAuteurs : R. Ayed (primary), A. Ben Brik.\nConférence : IEEE CIFEr 2026 (track CIFEr2026). Statut : Submission created (mai 2026).\nFramework non supervisé combinant Family A (Isolation Forest, FeedForward Autoencoder) et Family B (LSTM Autoencoder, TranAD, Anomaly Transformer, TFT-residual). Évaluation sur 1 590 251 transactions réelles, 3.27 % de user-days suspects détectés, 94 % d’analyst-load reduction. Déployé comme outil Flask decision-support.\n\n\nMémoires académiques\n\n\nMaster’s Thesis — Equidistribution of Eigenvalues of Hecke Operators Applied to Modular Forms (2010)\nFaculty of Sciences of Tunis — Master’s Degree in Fundamental Mathematics, Number Theory. Honors : Very Good. Théorie des nombres, formes modulaires, conjectures de Sato-Tate.\n\n\nAxes de recherche actifs (papiers en préparation 2026–2028)\n\nDétection de fraude — cartes prépayées Pluxee → soumis à IEEE CIFEr 2026 (Paper #130)\nModélisation BVMT — Bourse de Tunis → soumis à IEEE CIFEr 2026 (Paper #166)\nCentipede Game — théorie des jeux comportementaux\nMean Field Games appliqués aux LLMs pédagogiques (extension ESB-Learning)\nIndice de durabilité universitaire hybride SEM + AHP + IA (avec Ichraf et Sana)\n\n\n\nBibliographie BibTeX\nSource : data/publications.bib."
-  },
-  {
-    "objectID": "recherche.html#projet-phare-esb-learning-plateforme-agentic-ai",
-    "href": "recherche.html#projet-phare-esb-learning-plateforme-agentic-ai",
-    "title": "Recherche & Production scientifique",
-    "section": "Projet phare : ESB-Learning — Plateforme Agentic AI",
-    "text": "Projet phare : ESB-Learning — Plateforme Agentic AI\n\nESB-Learning — Apprentissage adaptatif augmenté par l’IA\nPlateforme d’apprentissage adaptatif de nouvelle génération, conçue, développée et déployée pour Esprit School of Business. Elle se distingue des LMS classiques (Moodle, Blackboard) par une architecture nativement Agentic AI : cinq agents autonomes raisonnent, planifient, appellent des outils et s’auto-corrigent pour piloter l’expérience pédagogique de bout en bout.\nChiffres-clés\n\n\n\n\n\n\n\n\n\n\nComposants IA\nAgents autonomes\nOutils MCP\nLangages code\nLignes (Py+TS)\n\n\n\n\n37\n5\n30+\n6\n~50 000\n\n\n\nStack technique\n\nLLMs : Google Gemini 2.5-Flash / 2.5-Pro / 2.0+ Vision (multimodal)\nFramework agents : LangGraph (StateGraph, ReAct), LangChain\nNLP local : TunBERT (BERT-base 768 dim, dialecte tunisien)\nRAG hybride : SentenceTransformer + ChromaDB + BM25 + indexation YouTube native\nSandbox code : Piston (Python, SQL, R, Java, C, C++)\nOutils structurés : protocole MCP (Model Context Protocol, Anthropic, fin 2024)\nBackend / Frontend : Flask + SQLAlchemy / Next.js 14 + TypeScript + shadcn/ui\n\n\n\nLes cinq agents autonomes\n\n\n\n\n\n\n\n\n\n\nAgent\nPattern\nCapacités\nRôle pédagogique\n\n\n\n\nAssistant\nReAct\n9 outils + skills modulaires\nChatbot pédagogique trilingue (FR / EN / dialecte tunisien), entrée et sortie vocales.\n\n\nCoach\nStateGraph 4 nœuds\nBloom, lacunes, plan d’étude\nAnalyse de performance, détection des lacunes, plan d’étude personnalisé.\n\n\nExam Analyzer\nStateGraph async 10 étapes\n11 outils MCP, Gemini Flash + Pro\nAnalyse pédagogique d’examen : classification AA + Bloom, génération LaTeX, feedback, méta-évaluation.\n\n\nTP Création\nStateGraph 5 nœuds\n8 outils MCP\nGénération automatique d’énoncés de TP alignés AA, solution de référence, critères.\n\n\nTP Correction\nStateGraph 2 nœuds\nSandbox Piston + LLM\nCorrection automatique sémantique des soumissions, note + justification.\n\n\n\n\n\n\nApports R&D différenciants\n\nArchitecture nativement Agentic AI (vs IA-augmentée) : les agents décident eux-mêmes des outils à enchaîner ; l’humain valide en bout de chaîne.\nPipeline d’analyse d’examen en 10 étapes orchestrées par un StateGraph asynchrone — pratique encore rare en production dans les outils éducatifs.\nTriple-LLM coordonné (Gemini 2.5-Flash pour le débit, 2.5-Pro pour le raisonnement profond, 2.0+ Vision pour vidéo/image) avec stratégie de sélection adaptée à chaque tâche.\nRAG hybride quadruple : CAG sur résumés + ChromaDB vectoriel + BM25 lexical + YouTube natif.\nTunBERT intégré comme agent de pré-traitement pour le dialecte tunisien : NLP en langue sous-dotée, problématique de recherche peu explorée dans les LMS commerciaux.\nProtocole MCP adopté précocement (standard ouvert publié par Anthropic fin 2024) — interopérabilité native avec l’écosystème IA moderne.\nMéta-cognition : l’Exam Analyzer évalue lui-même la qualité de la proposition d’examen qu’il a générée.\n\n\n\nContributions personnelles\nESB-Learning est conçu et développé par un développeur unique (le porteur).\n\nConception architecturale globale (patterns, SkillManager central, stratégie multi-LLM, stratégie RAG hybride).\nDéveloppement des cinq agents autonomes (~3 700 lignes de Python).\nConception des plus de 30 outils MCP avec schémas JSON et tests unitaires.\nIntégration TunBERT (lazy-loading, embeddings d’ancrage, singleton thread-safe).\nFrontend Next.js 14 : espaces Étudiant / Enseignant / Administrateur, widget assistant vocal.\nAudit interne du système Agentic AI (rapport d’avril 2026, score B+ 7/10).\n\n\n\nCalendrier de déploiement\n\n\n\n\n\n\n\n\nPhase\nDescription\n\n\n\n\nJuin 2026 — Pilote\nDéploiement hébergé avec CI/CD (DevOps) et MLOps pour les modèles IA. Test sur la classe Master Business Analytics (~50 étudiants). Recueil systématique de feedbacks via surveys.\n\n\nSeptembre 2026 — Lancement officiel\nDéploiement progressif par formation, validation à chaque palier.\n\n\nCible finale\nCharge supportée : 3 000 étudiants et 300 enseignants.\n\n\n\n\n\n\nGouvernance, modération et conformité\n\nPilotage technique : assuré par le porteur ; rapports d’utilisation et de performances transmis régulièrement à un comité institutionnel formé par la Direction Générale, la Direction des Études et la Direction Administrative et Financière.\nModération humaine : assurée par le porteur. Aucune production des agents IA n’est diffusée sans validation pédagogique.\nFeedback utilisateurs : enquêtes prêtes dès la phase de test, communication régulière des résultats au comité.\nConformité légale : respect des règles applicables (protection des données, sécurité, droit du numérique).\nPropriété intellectuelle : 100 % au porteur. Déploiement strictement limité à ESB à ce stade ; toute commercialisation éventuelle relèvera des règles fixées par la direction.\nProduction scientifique envisagée : plusieurs articles, auteur unique à ce stade.\nModèle économique : rapport détaillé des coûts (API LLM, hébergement, maintenance) en cours de préparation.\n\n\n\n\n\n\n\nNote\n\n\n\nLa description détaillée — pipelines complets de chaque agent, couche de prompt engineering par strate, besoins fonctionnels par acteur — est fournie dans le Livrable 1 Production RDI (annexe ESB-Learning)."
-  },
-  {
-    "objectID": "recherche.html#projet-rdi-20262028-continuité-desb-learning",
-    "href": "recherche.html#projet-rdi-20262028-continuité-desb-learning",
-    "title": "Recherche & Production scientifique",
-    "section": "Projet RDI 2026–2028 — Continuité d’ESB-Learning",
-    "text": "Projet RDI 2026–2028 — Continuité d’ESB-Learning\nLe projet RDI 2026–2028 prolonge directement les travaux engagés sur ESB-Learning et l’inscrit dans une trajectoire scientifique cohérente articulée autour de trois axes complémentaires.\n\nAxe 1 — Consolidation et valorisation scientifique d’ESB-Learning\nRenforcement de l’autonomie des agents (self-reflection, mémoire longue, planification multi-tours), industrialisation de la plateforme (montée en charge à 3 000 étudiants et 300 enseignants), publication des résultats scientifiques.\n\n\nAxe 2 — NLP en langue sous-dotée et inclusivité linguistique\nExtension du modèle TunBERT à l’arabe standard et aux dialectes maghrébins ; expérimentation de modèles ouverts (Llama 3, Mistral) en complément de Gemini, pour des raisons de souveraineté et de coûts.\n\n\nAxe 3 — Pédagogie augmentée par l’IA générative\nCapsules génératives, simulateurs LLM pour les enseignements quantitatifs (statistique, optimisation, séries temporelles), évaluation automatisée à l’échelle, instrumentation des Acquis d’Apprentissage.\n\n\nPlan de travail (résumé)\n\n\n\n\n\n\n\nPériode\nÉtape clé\n\n\n\n\nT1 2026 (juin–août)\nPilote Master BA + CI/CD + MLOps + premiers surveys\n\n\nT2 2026 (sept–nov)\nLancement officiel + rapport de coûts\n\n\nT3 2026 (déc–fév 2027)\nRenforcement autonomie agents + protocole évaluation comparative\n\n\nT4 2026 (mars–mai 2027)\n1er article scientifique + rapport d’impact intermédiaire\n\n\nT1 2027 (juin–août)\nExtension TunBERT arabe + benchmark Llama/Mistral\n\n\nT2 2027 (sept–nov)\nMontée en charge cible + cadre de conformité\n\n\nT3 2027 (déc–fév 2028)\nCapsules génératives + simulateurs LLM\n\n\nT4 2027 (mars–mai 2028)\n2e article scientifique + bilan général\n\n\n\n\n\nProductions attendues\n\n2 à 3 articles scientifiques (auteur unique à ce stade) — Agentic AI multi-agents en éducation, intégration TunBERT, méta-cognition d’agent évaluateur.\nVersions successives d’ESB-Learning + bibliothèque de capsules génératives.\nEncadrements RDI : sujets de PFE et de Mémoires de Master adossés au projet.\nRapports institutionnels réguliers transmis au comité de la direction.\n\nÀ ce stade, le projet est conduit sans partenariat externe formalisé ; des collaborations académiques ou industrielles pourront être envisagées en 2026–2028, selon les règles fixées par la direction de l’établissement."
-  },
-  {
-    "objectID": "encadrements.html",
-    "href": "encadrements.html",
-    "title": "Encadrements",
-    "section": "",
-    "text": "Encadrements par année universitaire et par type"
-  },
-  {
-    "objectID": "encadrements.html#vue-densemble",
-    "href": "encadrements.html#vue-densemble",
-    "title": "Encadrements",
-    "section": "",
-    "text": "Encadrements par année universitaire et par type"
-  },
-  {
-    "objectID": "encadrements.html#pfe-encadrés-20182019",
-    "href": "encadrements.html#pfe-encadrés-20182019",
-    "title": "Encadrements",
-    "section": "PFE encadrés (2018–2019)",
-    "text": "PFE encadrés (2018–2019)\n\nAyoub Tarhouni · 3LFIG\nConception et réalisation d’une application de gestion des dossiers des ayants droit de rente ATMP\nPartenaire : CNAM · Statut : Soutenu · Rôle : Encadrant académique\n\n\nRania Ben Romdhane · 3LFIG-SID\nLutte contre le blanchiment d’argent et analyse technique des opérations à risque au sein d’une banque tunisienne\nPartenaire : ETTIJARI Bank · Statut : Soutenu · Rôle : Encadrant académique"
-  },
-  {
-    "objectID": "encadrements.html#pfe-co-encadrés-20182019",
-    "href": "encadrements.html#pfe-co-encadrés-20182019",
-    "title": "Encadrements",
-    "section": "PFE co-encadrés (2018–2019)",
-    "text": "PFE co-encadrés (2018–2019)\n\nTaher Belhadj Hassen (3LFIG) — Co-encadrement académique\nChaima Karoui (2MKD) — Co-encadrement académique"
-  },
-  {
-    "objectID": "encadrements.html#pfe-rapportés-20182019",
-    "href": "encadrements.html#pfe-rapportés-20182019",
-    "title": "Encadrements",
-    "section": "PFE rapportés (2018–2019)",
-    "text": "PFE rapportés (2018–2019)\n\n\n\n\n\n\n\n\nÉtudiant\nFilière\nSujet\n\n\n\n\nMalek Guemri\n3LFIG-SID\nAlgorithme de clustering R sous Power BI — segmentation clientèle\n\n\nGhassen Meddeb\n3LFIG-SID\nSolution BI (intégration, analyse, reporting) — vente, recouvrement, finances\n\n\nAhmed Abidi\n3LFIG-SID\nAnalyse prédictive et Dashboard interactif à partir d’un ETL\n\n\nMohamed Cherif Saied\n3LFIG-SID\nSolution BI autour de l’ERP SAGE X3 — laboratoire pharmaceutique"
-  },
-  {
-    "objectID": "encadrements.html#encadrement-de-stages-dété",
-    "href": "encadrements.html#encadrement-de-stages-dété",
-    "title": "Encadrements",
-    "section": "Encadrement de stages d’été",
-    "text": "Encadrement de stages d’été\n\nRania Romdhane · Été 2018 (2LFIG)\nAnalyse des données du concours d’admission avec R — répartition géométrique, formation à la programmation statistique sous R.\n\n\nAhmed Anis Nsiri · Été 2018 (2LFG)\nTraitement quotidien et suivi de l’évolution des candidats au concours d’admission ESB 2018 — manipulation des données avec SPSS et élaboration de visuels et rapports de suivi.\n\n\nChedly Ghorbel · Été 2024 (4IA)\nESB Plateform — équipe AI4U.\n\n\nMalek Chtara · Été 2024 (4IA)\nGenerative AI for Adaptive Learning — équipe AI4U.\n\n\nRania Chaouali · Été 2024 (4IA)\nTraitement des feedbacks des étudiants — équipe AI4U.\n\n\nMohamed Darragi · Été 2024 (3LBC-BI)\nPlateforme de saisie des évaluations des enseignements — équipe AI4U."
-  },
-  {
-    "objectID": "encadrements.html#partenariats-industriels-ai4u-product-owner-maître-de-stage",
-    "href": "encadrements.html#partenariats-industriels-ai4u-product-owner-maître-de-stage",
-    "title": "Encadrements",
-    "section": "Partenariats industriels AI4U (Product Owner / Maître de stage)",
-    "text": "Partenariats industriels AI4U (Product Owner / Maître de stage)\n\n\n\n\n\n\n\n\nPartenaire\nPériode\nSujets / Étudiants\n\n\n\n\nVistasy Start-up\n2025–2026\nAws Ourari (Master BA)\n\n\nMetavoria\n2024–2025\n4 PFE (BA + LBC-BI) — Eya Allah Azzari, Amza Zakou, Mohamed Aziz Maghraoui, Syrine Zaouali\n\n\nDAF-ESB (interne)\n2023–2025\n2 PFE Master BA — Mohamed Amir Ounissi, Raoudha Tlich\n\n\nAl TAQA STRATEGY\n2023–2024\nHamdi Raissi (Master BA)\n\n\nOthmani Wadiia (Cloud)\n2023–2024\nNicolas Mbabu (Ingénieur Cloud)"
-  },
-  {
-    "objectID": "encadrements.html#accompagnement-de-nouveaux-enseignants",
-    "href": "encadrements.html#accompagnement-de-nouveaux-enseignants",
-    "title": "Encadrements",
-    "section": "Accompagnement de nouveaux enseignants",
-    "text": "Accompagnement de nouveaux enseignants\n\nM. Jamil Salhi — accompagnement durant période de stage : préparation et présentation de séances communes\nM. Harouna Soumaré — encadrement et suivi tout au long de sa période de stage : préparation et exposition de séances pendant les cours"
-  },
-  {
-    "objectID": "encadrements.html#projets-intégrés-25-missions-sur-9-ans",
-    "href": "encadrements.html#projets-intégrés-25-missions-sur-9-ans",
-    "title": "Encadrements",
-    "section": "Projets Intégrés (25 missions sur 9 ans)",
-    "text": "Projets Intégrés (25 missions sur 9 ans)\n\n\n\n\n\n\n\n\n\n\nAnnée\nSem.\nTitre / Description\nCible\nConception / Partenariat\n\n\n\n\n2017–2018\nS1\nOptimisation du flux de transport\n2LFIG (2 grps)\nConception intégrale\n\n\n2017–2018\nS2\nFormation SPSS\n1LFG (4 grps)\nConception intégrale\n\n\n2018–2019\nS1\nAtelier de digitalisation\n3LFG\nConception intégrale\n\n\n2018–2019\nS1\nEncadrement + Jury (partie Statistiques)\n1LFG\nConception statistiques\n\n\n2018–2019\nS1\nEncadrement + Jury (partie Statistiques)\n2LFG\nConception statistiques\n\n\n2018–2019\nS1\nJury PI (01/12/2019)\n1LSG\n—\n\n\n2018–2019\nS1\nEncadrement + Jury\n1LMAD\nPartenariat iCompass\n\n\n2018–2019\nS1\nEncadrement + Jury\n2LMAD\nPartenariat iCompass\n\n\n2018–2019\nS2\nAtelier de digitalisation\n3LFG\nPartenariat SFM\n\n\n2019–2020\nS1\nEncadrement Jury PI Statistiques\n2LFG / 1LSG\nConception\n\n\n2019–2020\nS1\nJury PI\nM1 BA (2 grps)\nConception\n\n\n2019–2020\nS1\nJury PI\n1LMAD\nConception\n\n\n2021–2022\nS2\nEncadrement + Jury\nM1 GAMMA\nConception\n\n\n2023–2024\nS1\nConception, encadrement et jury\nM2 BA\nPartenariat ODDO-BHF\n\n\n2024–2025\nS1\nConception PI\nM2 BA\nPartenariat ODDO-BHF\n\n\n2024–2025\nS1\nEncadrement + Jury\n3LBC-BI (3 grps)\nConception\n\n\n2024–2025\nS2\nEncadrement + Jury\nM1 BA (3 grps)\nConception\n\n\n2024–2025\nS2\nCo-encadrement\nM1 BA (2 grps)\nConception\n\n\n2025–2026\nS1\nEncadrement + Jury\nM1 GAMMA\nConception\n\n\n2025–2026\nS1\nEncadrement + Jury\nM2 BA\nPartenariat Jems\n\n\n2025–2026\nS1\nEncadrement + Jury\nM2 BA\nPartenariat Historiar\n\n\n2025–2026\nS1\nEncadrement + Jury\nM2 BA\nConception\n\n\n2025–2026\nS1\nEncadrement + Jury\n3LBC-BI (3 grps)\nConception\n\n\n2025–2026\nS2\nEncadrement + Jury\nM1 BA\nConception\n\n\n2025–2026\nS2\nEncadrement + Jury\nM1 GAMMA\nConception"
-  },
-  {
-    "objectID": "encadrements.html#séminaires-encadrement-jury-25-missions-sur-9-ans",
-    "href": "encadrements.html#séminaires-encadrement-jury-25-missions-sur-9-ans",
-    "title": "Encadrements",
-    "section": "Séminaires (encadrement + jury, 25 missions sur 9 ans)",
-    "text": "Séminaires (encadrement + jury, 25 missions sur 9 ans)\n\n\n\nAnnée\nSem.\nNiveau\nClasse\nGroupes\nNature\n\n\n\n\n2017–2018\nS1\nL1\nLFG\n1\nEncadrement + Jury\n\n\n2017–2018\nS2\nL1\nLFIG/LFG\n3\nJury (21/05/2018)\n\n\n2018–2019\nS1\nL2\nLFIG\n1\nJury (08–09/11/2018)\n\n\n2018–2019\nS1\nL3\nLFG\n1\nEncadrement + Jury\n\n\n2018–2019\nS1\nL2\nLFG\n1\nJury (11/12/2018)\n\n\n2018–2019\nS1\nL2\nLFIG\n1\nJury (19/11/2018)\n\n\n2018–2019\nS2\nL1\nLFG\n1\nEncadrement + Jury\n\n\n2018–2019\nS1\nL3\nLFG\n1\nEncadrement + Jury\n\n\n2019–2020\nS1\nL3\nLFG\n1\nEncadrement + Jury\n\n\n2019–2020\nS1\nL1\nLSG\n1\nJury (16/01/2020)\n\n\n2019–2020\nS2\nL1\nLSG\n1\nEncadrement + Jury\n\n\n2019–2020\nS2\nL3\nLFG\n1\nJury (03/06/2020)\n\n\n2020–2021\nS1\nL1\nLMAD\n1\nEncadrement + Jury\n\n\n2020–2021\nS1\nL2\nLMAD\n1\nEncadrement + Jury\n\n\n2020–2021\nS2\nL2\nLMAD\n1\nEncadrement + Jury\n\n\n2020–2021\nS2\nL1\nLMAD\n1\nEncadrement + Jury\n\n\n2021–2022\nS1\nL3\nLBC-BI\n2\nEncadrement + Jury\n\n\n2021–2022\nS1\nL3\nLMAD\n1\nEncadrement + Jury\n\n\n2021–2022\nS1\nL3\nLSC\n1\nEncadrement + Jury\n\n\n2021–2022\nS2\nL2\nLMAD\n1\nEncadrement + Jury\n\n\n2021–2022\nS2\nL3\nLSC\n1\nEncadrement + Jury\n\n\n2024–2025\nS1\nM1\nBA\n1\nEncadrement + Jury\n\n\n2025–2026\nS1\nM1\nBA\n1\nEncadrement + Jury\n\n\n2025–2026\nS1\nM2\nBA\n2\nEncadrement + Jury\n\n\n2025–2026\nS1\nL1\nLBC\n1\nEncadrement + Jury"
-  },
-  {
-    "objectID": "encadrements.html#tableau-interactif-complet",
-    "href": "encadrements.html#tableau-interactif-complet",
-    "title": "Encadrements",
-    "section": "Tableau interactif complet",
-    "text": "Tableau interactif complet\n\n\n\n\n\n\n\n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\nThis is the init_notebook_mode cell from ITables v2.8.1\n(you should not see this message - is your notebook trusted?)\n\n\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the init_notebook_mode cell...\n        (need help?)"
-  },
-  {
     "objectID": "capsules-video.html",
     "href": "capsules-video.html",
     "title": "Capsules vidéo",
     "section": "",
-    "text": "Pourquoi des capsules vidéo ? L’asynchrone libère du temps de présence pour la discussion, le projet et la résolution de problèmes complexes. Les capsules ci-dessous servent de support de révision (Algèbre 2) ou de démarche pas-à-pas sur un cas réel (SARIMA)."
+    "text": "Pourquoi des capsules vidéo ? L’asynchrone libère du temps de présence pour la discussion, le projet et la résolution de problèmes complexes. Les capsules ci-dessous servent de support de révision (Algèbre 2) ou de démarche pas-à-pas sur un cas réel (SARIMA).",
+    "crumbs": [
+      "Capsules vidéo"
+    ]
   },
   {
     "objectID": "capsules-video.html#catalogue-des-playlists",
     "href": "capsules-video.html#catalogue-des-playlists",
     "title": "Capsules vidéo",
     "section": "Catalogue des playlists",
-    "text": "Catalogue des playlists\n\nAlgèbre 2 — Révision\n7 vidéos ~39 min FR 81 vues\n\n\n&lt;iframe\n  width=\"100%\" height=\"220\"\n  src=\"https://www.youtube.com/embed/videoseries?list=PLTuHP93TC8cyiFERpbYQ_0ss9rH7VICS0\"\n  title=\"Algèbre 2 — Révision\"\n  frameborder=\"0\"\n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\n  allowfullscreen\n  style=\"border-radius:6px;\"&gt;&lt;/iframe&gt;\n\n\n&lt;p style=\"margin:0 0 0.7rem 0;font-size:0.95rem;\"&gt;Série de capsules de révision pour le module Algèbre 2 (LMAD, L1). Corrections détaillées de 5 exercices type-examen couvrant : applications linéaires, déterminants, systèmes d&#x27;équations linéaires avec paramètres. Les vidéos servent de support asynchrone aux séances de TD : l&#x27;étudiant peut revoir une correction à son rythme avant ou après la séance.&lt;/p&gt;\n&lt;table style=\"width:100%;font-size:0.85rem;border-collapse:collapse;\"&gt;\n  &lt;tr&gt;&lt;td style=\"padding:2px 6px;color:#666;\"&gt;Modules associés&lt;/td&gt;&lt;td style=\"padding:2px 6px;\"&gt;&lt;strong&gt;Algèbre 2&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;\n  &lt;tr&gt;&lt;td style=\"padding:2px 6px;color:#666;\"&gt;Lancée en&lt;/td&gt;&lt;td style=\"padding:2px 6px;\"&gt;2020&lt;/td&gt;&lt;/tr&gt;\n  &lt;tr&gt;&lt;td style=\"padding:2px 6px;color:#666;\"&gt;Dernière mise à jour&lt;/td&gt;&lt;td style=\"padding:2px 6px;\"&gt;2020-10-09&lt;/td&gt;&lt;/tr&gt;\n&lt;/table&gt;\n&lt;p style=\"margin-top:0.8rem;\"&gt;\n  &lt;a href=\"https://www.youtube.com/playlist?list=PLTuHP93TC8cyiFERpbYQ_0ss9rH7VICS0\" target=\"_blank\" class=\"btn btn-sm\" style=\"background:#C8102E;color:white;\"&gt;\n    ▶ Voir la playlist complète sur YouTube\n  &lt;/a&gt;\n&lt;/p&gt;\n\n\n\n\nSéries Temporelles — Méthodologie SARIMA (exemple complet)\n5 vidéos ~39 min FR 146 vues\n\n\n&lt;iframe\n  width=\"100%\" height=\"220\"\n  src=\"https://www.youtube.com/embed/videoseries?list=PLTuHP93TC8cwcfvRb7T3O3izAmt_OzwyF\"\n  title=\"Séries Temporelles — Méthodologie SARIMA (exemple complet)\"\n  frameborder=\"0\"\n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\n  allowfullscreen\n  style=\"border-radius:6px;\"&gt;&lt;/iframe&gt;\n\n\n&lt;p style=\"margin:0 0 0.7rem 0;font-size:0.95rem;\"&gt;Étude de cas SARIMA pas-à-pas (5 capsules de la vidéo 4 à la vidéo 8) : recherche du modèle, validation, analyse des résidus, prédiction, écriture finale du modèle. Référencée comme support en BA (cours Hands-on Machine), GAMMA et Programmation Python 2 — illustre la démarche complète sur un jeu de données réel sous R.&lt;/p&gt;\n&lt;table style=\"width:100%;font-size:0.85rem;border-collapse:collapse;\"&gt;\n  &lt;tr&gt;&lt;td style=\"padding:2px 6px;color:#666;\"&gt;Modules associés&lt;/td&gt;&lt;td style=\"padding:2px 6px;\"&gt;&lt;strong&gt;Séries Temporelles · Programmation Python 2&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;\n  &lt;tr&gt;&lt;td style=\"padding:2px 6px;color:#666;\"&gt;Lancée en&lt;/td&gt;&lt;td style=\"padding:2px 6px;\"&gt;2020&lt;/td&gt;&lt;/tr&gt;\n  &lt;tr&gt;&lt;td style=\"padding:2px 6px;color:#666;\"&gt;Dernière mise à jour&lt;/td&gt;&lt;td style=\"padding:2px 6px;\"&gt;2020-06-15&lt;/td&gt;&lt;/tr&gt;\n&lt;/table&gt;\n&lt;p style=\"margin-top:0.8rem;\"&gt;\n  &lt;a href=\"https://www.youtube.com/playlist?list=PLTuHP93TC8cwcfvRb7T3O3izAmt_OzwyF\" target=\"_blank\" class=\"btn btn-sm\" style=\"background:#C8102E;color:white;\"&gt;\n    ▶ Voir la playlist complète sur YouTube\n  &lt;/a&gt;\n&lt;/p&gt;"
+    "text": "Catalogue des playlists\n\nAlgèbre 2 — Révision\n7 vidéos ~39 min FR 81 vues\n\n\n&lt;iframe\n  width=\"100%\" height=\"220\"\n  src=\"https://www.youtube.com/embed/videoseries?list=PLTuHP93TC8cyiFERpbYQ_0ss9rH7VICS0\"\n  title=\"Algèbre 2 — Révision\"\n  frameborder=\"0\"\n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\n  allowfullscreen\n  style=\"border-radius:6px;\"&gt;&lt;/iframe&gt;\n\n\n&lt;p style=\"margin:0 0 0.7rem 0;font-size:0.95rem;\"&gt;Série de capsules de révision pour le module Algèbre 2 (LMAD, L1). Corrections détaillées de 5 exercices type-examen couvrant : applications linéaires, déterminants, systèmes d&#x27;équations linéaires avec paramètres. Les vidéos servent de support asynchrone aux séances de TD : l&#x27;étudiant peut revoir une correction à son rythme avant ou après la séance.&lt;/p&gt;\n&lt;table style=\"width:100%;font-size:0.85rem;border-collapse:collapse;\"&gt;\n  &lt;tr&gt;&lt;td style=\"padding:2px 6px;color:#666;\"&gt;Modules associés&lt;/td&gt;&lt;td style=\"padding:2px 6px;\"&gt;&lt;strong&gt;Algèbre 2&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;\n  &lt;tr&gt;&lt;td style=\"padding:2px 6px;color:#666;\"&gt;Lancée en&lt;/td&gt;&lt;td style=\"padding:2px 6px;\"&gt;2020&lt;/td&gt;&lt;/tr&gt;\n  &lt;tr&gt;&lt;td style=\"padding:2px 6px;color:#666;\"&gt;Dernière mise à jour&lt;/td&gt;&lt;td style=\"padding:2px 6px;\"&gt;2020-10-09&lt;/td&gt;&lt;/tr&gt;\n&lt;/table&gt;\n&lt;p style=\"margin-top:0.8rem;\"&gt;\n  &lt;a href=\"https://www.youtube.com/playlist?list=PLTuHP93TC8cyiFERpbYQ_0ss9rH7VICS0\" target=\"_blank\" class=\"btn btn-sm\" style=\"background:#C8102E;color:white;\"&gt;\n    ▶ Voir la playlist complète sur YouTube\n  &lt;/a&gt;\n&lt;/p&gt;\n\n\n\n\nSéries Temporelles — Méthodologie SARIMA (exemple complet)\n5 vidéos ~39 min FR 146 vues\n\n\n&lt;iframe\n  width=\"100%\" height=\"220\"\n  src=\"https://www.youtube.com/embed/videoseries?list=PLTuHP93TC8cwcfvRb7T3O3izAmt_OzwyF\"\n  title=\"Séries Temporelles — Méthodologie SARIMA (exemple complet)\"\n  frameborder=\"0\"\n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\n  allowfullscreen\n  style=\"border-radius:6px;\"&gt;&lt;/iframe&gt;\n\n\n&lt;p style=\"margin:0 0 0.7rem 0;font-size:0.95rem;\"&gt;Étude de cas SARIMA pas-à-pas (5 capsules de la vidéo 4 à la vidéo 8) : recherche du modèle, validation, analyse des résidus, prédiction, écriture finale du modèle. Référencée comme support en BA (cours Hands-on Machine), GAMMA et Programmation Python 2 — illustre la démarche complète sur un jeu de données réel sous R.&lt;/p&gt;\n&lt;table style=\"width:100%;font-size:0.85rem;border-collapse:collapse;\"&gt;\n  &lt;tr&gt;&lt;td style=\"padding:2px 6px;color:#666;\"&gt;Modules associés&lt;/td&gt;&lt;td style=\"padding:2px 6px;\"&gt;&lt;strong&gt;Séries Temporelles · Programmation Python 2&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;\n  &lt;tr&gt;&lt;td style=\"padding:2px 6px;color:#666;\"&gt;Lancée en&lt;/td&gt;&lt;td style=\"padding:2px 6px;\"&gt;2020&lt;/td&gt;&lt;/tr&gt;\n  &lt;tr&gt;&lt;td style=\"padding:2px 6px;color:#666;\"&gt;Dernière mise à jour&lt;/td&gt;&lt;td style=\"padding:2px 6px;\"&gt;2020-06-15&lt;/td&gt;&lt;/tr&gt;\n&lt;/table&gt;\n&lt;p style=\"margin-top:0.8rem;\"&gt;\n  &lt;a href=\"https://www.youtube.com/playlist?list=PLTuHP93TC8cwcfvRb7T3O3izAmt_OzwyF\" target=\"_blank\" class=\"btn btn-sm\" style=\"background:#C8102E;color:white;\"&gt;\n    ▶ Voir la playlist complète sur YouTube\n  &lt;/a&gt;\n&lt;/p&gt;",
+    "crumbs": [
+      "Capsules vidéo"
+    ]
   },
   {
     "objectID": "capsules-video.html#détail-des-vidéos",
     "href": "capsules-video.html#détail-des-vidéos",
     "title": "Capsules vidéo",
     "section": "Détail des vidéos",
-    "text": "Détail des vidéos\n\nAlgèbre 2 — Révision\n\n\n\n\n\n\n\n\n#\nTitre de la capsule\nDurée\n\n\n\n\n1\nExercice 3 énoncés\n1:40\n\n\n2\nExercice 1 (Question 1)\n7:49\n\n\n3\nExercice 3 : Question 2\n7:44\n\n\n4\nExercice 3 question 3\n5:51\n\n\n5\nCorrection Exercice 4\n8:30\n\n\n6\nExercice 5 Révision (Systèmes d’équations linéaires)\n0:24\n\n\n7\nExercice 5 correction (Système d’équations linéaires avec paramètres)\n7:09\n\n\n\n\n\nSéries Temporelles — Méthodologie SARIMA (exemple complet)\n\n\n\n#\nTitre de la capsule\nDurée\n\n\n\n\n1\nVidéo 4 : Recherche des modèles\n7:05\n\n\n2\nVidéo 5 : Validation des modèles\n10:11\n\n\n3\nVidéo 6 : Analyse des résidus\n5:14\n\n\n4\nVidéo 7 : Prédiction\n3:25\n\n\n5\nVidéo 8 : Écriture du modèle\n13:28"
+    "text": "Détail des vidéos\n\nAlgèbre 2 — Révision\n\n\n\n\n\n\n\n\n#\nTitre de la capsule\nDurée\n\n\n\n\n1\nExercice 3 énoncés\n1:40\n\n\n2\nExercice 1 (Question 1)\n7:49\n\n\n3\nExercice 3 : Question 2\n7:44\n\n\n4\nExercice 3 question 3\n5:51\n\n\n5\nCorrection Exercice 4\n8:30\n\n\n6\nExercice 5 Révision (Systèmes d’équations linéaires)\n0:24\n\n\n7\nExercice 5 correction (Système d’équations linéaires avec paramètres)\n7:09\n\n\n\n\n\nSéries Temporelles — Méthodologie SARIMA (exemple complet)\n\n\n\n#\nTitre de la capsule\nDurée\n\n\n\n\n1\nVidéo 4 : Recherche des modèles\n7:05\n\n\n2\nVidéo 5 : Validation des modèles\n10:11\n\n\n3\nVidéo 6 : Analyse des résidus\n5:14\n\n\n4\nVidéo 7 : Prédiction\n3:25\n\n\n5\nVidéo 8 : Écriture du modèle\n13:28",
+    "crumbs": [
+      "Capsules vidéo"
+    ]
   },
   {
     "objectID": "capsules-video.html#évolution-et-perspectives",
     "href": "capsules-video.html#évolution-et-perspectives",
     "title": "Capsules vidéo",
     "section": "Évolution et perspectives",
-    "text": "Évolution et perspectives\nLes playlists ont été publiées en 2020 dans un contexte de transition vers l’enseignement à distance. Le format court (5 à 10 minutes) a été retenu pour s’intégrer facilement dans un parcours de révision en autonomie ou en complément d’un cours présentiel.\nPerspectives :\n\nRefonte 2026 : refilmer les playlists actuelles avec le matériel mis à jour (notamment Algèbre 2 → version 2026 avec NumPy/Matplotlib)\nNouvelles playlists prévues : Algèbre 1, Recherche Opérationnelle (PuLP), Deep Learning (PyTorch from scratch), Optimisation (Lagrange + projet)\nCapsules courtes 90 s : pour des notions élémentaires (rappels, formules)\nIntégration Tekouin : capsules embarquées dans les exercices auto-correctifs\n\n\n\n\n\n\n\nAstuce\n\n\n\nSource des données : la liste des playlists est centralisée dans data/playlists.csv. Pour en ajouter, modifier ce fichier puis re-render la page."
+    "text": "Évolution et perspectives\nLes playlists ont été publiées en 2020 dans un contexte de transition vers l’enseignement à distance. Le format court (5 à 10 minutes) a été retenu pour s’intégrer facilement dans un parcours de révision en autonomie ou en complément d’un cours présentiel.\nPerspectives :\n\nRefonte 2026 : refilmer les playlists actuelles avec le matériel mis à jour (notamment Algèbre 2 → version 2026 avec NumPy/Matplotlib)\nNouvelles playlists prévues : Algèbre 1, Recherche Opérationnelle (PuLP), Deep Learning (PyTorch from scratch), Optimisation (Lagrange + projet)\nCapsules courtes 90 s : pour des notions élémentaires (rappels, formules)\nIntégration Tekouin : capsules embarquées dans les exercices auto-correctifs\n\n\n\n\n\n\n\nAstuce\n\n\n\nSource des données : la liste des playlists est centralisée dans data/playlists.csv. Pour en ajouter, modifier ce fichier puis re-render la page.",
+    "crumbs": [
+      "Capsules vidéo"
+    ]
   },
   {
-    "objectID": "dashboards/index.html",
-    "href": "dashboards/index.html",
-    "title": "Dashboards",
+    "objectID": "responsabilites.html",
+    "href": "responsabilites.html",
+    "title": "Responsabilités",
     "section": "",
-    "text": "10Années\n  43Modules\n  4716Heures cumulées\n  692Encadrements\n  43Certifications\n  27Responsabilités\n  41Événements"
+    "text": "Département Informatique et mathématiques appliquées\nDirection complète du département (passage de Co-Chef en 2019 à Chef du département). Supervision de l’équipe enseignante (permanents et vacataires), coordination pédagogique de l’ensemble des modules math/stats/RO/ML/DL, participation aux comités stratégiques d’ESB.\n\n\n\nRepresentative of ESB at Honoris Task Force AI\nReprésentation d’Esprit School of Business au sein de la Task Force AI de Honoris United University, réseau d’enseignement supérieur réunissant 11 institutions sur 10 pays.\n\n\n\nPrésidence des conseils de classe pour les formations IMA + participation transverse aux autres formations en qualité de Chef de département\nAnimation systématique en 3 temps : (1) analyse des résultats académiques par cohorte / module / niveau, (2) recueil des retours des enseignants et des représentants étudiants, (3) brainstorming + concrétisation de solutions pour les itérations suivantes. Périmètre IMA : LSD, LBC-BI/BIS, BA, GAMMA, MDSI, FIND, etc.\n\n\n\nStrategic Plan ESB — 2 cycles successifs\nParticipation à 2 cycles stratégiques d’ESB :\n\nStrategic Plan 2022–2025 : session SWOT du 07/02/2022, First Draft du 22/02/2022, COS 22 (Conseil d’Orientation Stratégique) du 02/12/2022 à la Fondation Tunisie pour le Développement\nStrategic Plan 2026–2029 : workshop de planification stratégique Février 2026 (8 années cumulées de présence au Comité), alignement sur les standards d’accréditations AMBA / BGA / AACSB\n\nApports : vision LSD 2026, trajectoire AI4U, partenariats industriels (iCompass, Jems, ATA, Vistasy, SAP), modèle de mentorat structurant (5 axes).\n\n\n\nBusiness Graduates Association — Accréditation institutionnelle ESB\nComité de pilotage : F. Kammoun, M. Trimeche (lead), M. Chichti, W. El Ayeb, N. Cheikhrouhou, A. Ben Brik.\nPorteur du dossier d’accréditation IMA (9 workstreams) :\n\n5 matrices PLO-CLO validées pour les 5 programmes IMA (LMAD, LBC-BI, LBC-BIS, MA Business Analytics, MA GAMMA) — transmission et validation avec M. Trimeche (email du 24/07/2023)\n72 syllabi BGA-format délivrés (69 uniques après dédoublonnage FR/EN) avec positionnement Introduced/Reinforced/Emphasized (I/R/E)\n16 CAR (Course Assessment Review) produits — 14 avec nouveau calcul par CLO + 2 conservés avec valeurs originales, sur 6 programmes (LBC-BI, BA, MDSI, LMAD, GAMMA, FIND) ; 8 CAR différenciés par groupe\n6 PLAR (Program Learning Assessment Review) trajectoires consolidées sur 3 programmes (BA, LBC-BI, LBC-BIS) — tous au-dessus du benchmark 60 % (range 62.25 %–72.06 %)\n3 rapports annuels Tekouin (22-23, 23-24, 24-25) et 3 rapports annuels MASSAI (NVIDIA partnership)\nCo-développement du Metric 3.1 (Standard 3 — Faculty) avec Ghada Makni : méthodologie + collecte de données + template de reporting\nWorkshop interne facilité sur Syllabi BGA + Calcul des CAR — 24–28 mars 2025, salle D22 ESB, 5 jours, 30 enseignants du département IMA, animateur unique"
   },
   {
-    "objectID": "dashboards/index.html#sources-de-données",
-    "href": "dashboards/index.html#sources-de-données",
-    "title": "Dashboards",
-    "section": "Sources de données",
-    "text": "Sources de données\nTous les dashboards sont alimentés par les CSVs du dossier data/ :\n\n\n\n\n\n\n\n\nFichier\nContenu\nLignes\n\n\n\n\nenseignements.csv\nModules / heures / années / filières\nr nrow(read.csv(\"../data/enseignements.csv\"))\n\n\nencadrements.csv\nPFE, projets, séminaires, stages\n–\n\n\ncertifications.csv\nCertifications + écoles d’été\n–\n\n\nresponsabilites.csv\nResponsabilités datées\n–\n\n\nevenements.csv\nConférences, formations, jurys\n–\n\n\n\nMettre à jour un CSV → push → site régénéré + dashboards recalculés automatiquement."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Aymen Ben Brik",
+    "objectID": "responsabilites.html#direction-départementale-et-stratégique",
+    "href": "responsabilites.html#direction-départementale-et-stratégique",
+    "title": "Responsabilités",
     "section": "",
-    "text": "J’enseigne les mathématiques et l’intelligence artificielle — et je pilote chaque semestre par les données.\n\n\n  Boucle pédagogique : mesurer, analyser, agir\n  \n    \n      \n    \n  \n  \n    \n    \n    \n  \n  \n    Mesurer\n    Analyser\n    Agir\nChef du département Informatique et mathématiques appliquées à Esprit School of Business, je dirige l’équipe de recherche AI4U (Esprit Tech) et représente ESB à la Task Force IA de Honoris United Universities. Mon terrain : la pédagogie augmentée par l’IA — du cours d’algèbre au déploiement d’agents intelligents."
+    "text": "Département Informatique et mathématiques appliquées\nDirection complète du département (passage de Co-Chef en 2019 à Chef du département). Supervision de l’équipe enseignante (permanents et vacataires), coordination pédagogique de l’ensemble des modules math/stats/RO/ML/DL, participation aux comités stratégiques d’ESB.\n\n\n\nRepresentative of ESB at Honoris Task Force AI\nReprésentation d’Esprit School of Business au sein de la Task Force AI de Honoris United University, réseau d’enseignement supérieur réunissant 11 institutions sur 10 pays.\n\n\n\nPrésidence des conseils de classe pour les formations IMA + participation transverse aux autres formations en qualité de Chef de département\nAnimation systématique en 3 temps : (1) analyse des résultats académiques par cohorte / module / niveau, (2) recueil des retours des enseignants et des représentants étudiants, (3) brainstorming + concrétisation de solutions pour les itérations suivantes. Périmètre IMA : LSD, LBC-BI/BIS, BA, GAMMA, MDSI, FIND, etc.\n\n\n\nStrategic Plan ESB — 2 cycles successifs\nParticipation à 2 cycles stratégiques d’ESB :\n\nStrategic Plan 2022–2025 : session SWOT du 07/02/2022, First Draft du 22/02/2022, COS 22 (Conseil d’Orientation Stratégique) du 02/12/2022 à la Fondation Tunisie pour le Développement\nStrategic Plan 2026–2029 : workshop de planification stratégique Février 2026 (8 années cumulées de présence au Comité), alignement sur les standards d’accréditations AMBA / BGA / AACSB\n\nApports : vision LSD 2026, trajectoire AI4U, partenariats industriels (iCompass, Jems, ATA, Vistasy, SAP), modèle de mentorat structurant (5 axes).\n\n\n\nBusiness Graduates Association — Accréditation institutionnelle ESB\nComité de pilotage : F. Kammoun, M. Trimeche (lead), M. Chichti, W. El Ayeb, N. Cheikhrouhou, A. Ben Brik.\nPorteur du dossier d’accréditation IMA (9 workstreams) :\n\n5 matrices PLO-CLO validées pour les 5 programmes IMA (LMAD, LBC-BI, LBC-BIS, MA Business Analytics, MA GAMMA) — transmission et validation avec M. Trimeche (email du 24/07/2023)\n72 syllabi BGA-format délivrés (69 uniques après dédoublonnage FR/EN) avec positionnement Introduced/Reinforced/Emphasized (I/R/E)\n16 CAR (Course Assessment Review) produits — 14 avec nouveau calcul par CLO + 2 conservés avec valeurs originales, sur 6 programmes (LBC-BI, BA, MDSI, LMAD, GAMMA, FIND) ; 8 CAR différenciés par groupe\n6 PLAR (Program Learning Assessment Review) trajectoires consolidées sur 3 programmes (BA, LBC-BI, LBC-BIS) — tous au-dessus du benchmark 60 % (range 62.25 %–72.06 %)\n3 rapports annuels Tekouin (22-23, 23-24, 24-25) et 3 rapports annuels MASSAI (NVIDIA partnership)\nCo-développement du Metric 3.1 (Standard 3 — Faculty) avec Ghada Makni : méthodologie + collecte de données + template de reporting\nWorkshop interne facilité sur Syllabi BGA + Calcul des CAR — 24–28 mars 2025, salle D22 ESB, 5 jours, 30 enseignants du département IMA, animateur unique"
   },
   {
-    "objectID": "index.html#parcours",
-    "href": "index.html#parcours",
-    "title": "Aymen Ben Brik",
-    "section": "Parcours",
-    "text": "Parcours\n\n  2024 — Architecte & développeur de la plateforme ESB-Learning (apprentissage adaptatif, architecture Agentic AI)\n  2024 — Co-responsable du programme Alternance Business Analytics × Generative AI, ESB × Jems Group\n  2024 — Représentant ESB, Task Force AI, Honoris United Universities (11 institutions, 10 pays)\n  2023 — Head of Research Team AI4U, Esprit Tech\n  2023 — AI Instructor, Training of Trainers, ESB (ML, DL, NLP, Transformers, LLM)\n  2020 — Administrateur Tekouin, plateforme e-learning de coding, ESB\n  2019 — Chef du département Informatique et mathématiques appliquées, ESB"
+    "objectID": "responsabilites.html#recherche",
+    "href": "responsabilites.html#recherche",
+    "title": "Responsabilités",
+    "section": "Recherche",
+    "text": "Recherche\n\nHead of Research Team AI4U · Esprit Tech · depuis 2023\nArtificial Intelligence 4 University\nDirection d’une équipe de recherche dédiée aux applications de l’intelligence artificielle dans l’enseignement supérieur : pédagogie augmentée par l’IA, outils de génération automatique de contenus, évaluation augmentée, etc."
   },
   {
-    "objectID": "index.html#domaines-dexpertise",
-    "href": "index.html#domaines-dexpertise",
-    "title": "Aymen Ben Brik",
-    "section": "Domaines d’expertise",
-    "text": "Domaines d’expertise\n\n\nMathématiques appliquées\n\nAlgèbre linéaire et bilinéaire\nAnalyse à plusieurs variables\nProbabilités et statistiques avancées\nRéduction des endomorphismes, ACP\nIntégration, théorie de la mesure\n\n\n\nAide à la décision\n\nRecherche opérationnelle\nProgrammation linéaire, simplexe\nThéorie des graphes, ordonnancement\nOptimisation de portefeuille\nGeneralized Linear Models\n\n\n\nIA & Data Science\n\nMachine Learning (Python, R)\nDeep Learning (DNN, CNN, RNN, Transformers)\nNLP, LLM, Generative AI\nGenerative Computer Vision\nTableau, Power BI, Plotly\n\n\n\nActuariat & Finance\n\nProcessus stochastiques, Markov, Poisson\nMouvement Brownien, Monte Carlo\nGestion de portefeuille\nStatistiques non paramétriques\nModèles linéaires généralisés"
+    "objectID": "responsabilites.html#pédagogie-programmes-et-formations-ia",
+    "href": "responsabilites.html#pédagogie-programmes-et-formations-ia",
+    "title": "Responsabilités",
+    "section": "Pédagogie — Programmes et formations IA",
+    "text": "Pédagogie — Programmes et formations IA\n\nCo-Responsible Alternance Program · ESB × Jems Group · depuis 2024\nBusiness Analytics oriented to Generative Artificial Intelligence\nCo-direction d’un programme d’alternance en partenariat avec Jems Group, axé sur la Generative AI appliquée au business analytics.\n\n\nCo-Responsible parcours MDSI–Vermeg · ESB × Vermeg · depuis 2024\nMémoires masters MDSI réalisés en partenariat avec Vermeg.\nSuivi pédagogique et académique des stagiaires Vermeg : 8 mémoires actifs en 2025–2026 (encadrement, rapporteur, présidence de jury).\n\n\nAI Instructor · Training of Trainers Departement · ESB · depuis 2023\nSessions de formation spécialisées délivrées aux formateurs ESB :\n\nArtificial Intelligence — fondamentaux\nMachine Learning — algorithmes supervisés/non supervisés\nDeep Learning — réseaux de neurones, CNN, RNN\nData Analysis — pipelines complets\nNLP — Natural Language Processing\nTransformers — architectures attention\nLLM — Large Language Models\n\n\n\nTekouin Administrator · ESB · depuis 2020\nAdministration de la plateforme Tekouin — e-Learning Plateform for coding. Maintenance, support utilisateurs, développement de contenus de coding pour les étudiants ESB."
   },
   {
-    "objectID": "index.html#modules-de-lannée",
-    "href": "index.html#modules-de-lannée",
-    "title": "Aymen Ben Brik",
-    "section": "Modules de l’année",
-    "text": "Modules de l’année\n\nAlgèbre 2 (ECUE211) — Espaces vectoriels, matrices, déterminants · S2 LMAD/SD · 84 h\nAlgèbre 3 (ECUE311) — Réduction, espaces euclidiens, formes quadratiques, ACP · 75 h\nProbabilités (ECUE411) — Variables aléatoires, lois usuelles, théorèmes limites · S4 LMAD · 84 h\nAnalyse 4 (ECUE421) — Topologie, calcul différentiel, descente de gradient · S4 LMAD · 84 h\nRecherche Opérationnelle (ECUEO412) — Programmation linéaire, théorie des graphes · 42 h\nPortfolio Optimization — Master GAMMA / Alternance BA · 42 h · nouveau module\n\nCatalogue complet des modules →"
+    "objectID": "responsabilites.html#programmes-pédagogiques-mandats",
+    "href": "responsabilites.html#programmes-pédagogiques-mandats",
+    "title": "Responsabilités",
+    "section": "Programmes pédagogiques (mandats)",
+    "text": "Programmes pédagogiques (mandats)\n\nResponsible Master Degree GAMMA · 2021 – 2024\nMaster GAMMA : Gestion Actuarielle et Modélisation MAthématique.\n\n\nResponsible Bachelor Degree M(AD)² · 2019 – 2024\nLicence M(AD)² : Mathématiques Appliquées à l’Analyse des Données et Aide à la Décision.\nJ’ai conçu le plan d’études et préparé le dossier d’habilitation de cette nouvelle licence ESB en 2018–2019.\n\n\nResponsable de l’unité de Statistiques d’ESB · 09/2017 – 04/2018"
   },
   {
-    "objectID": "enseignements/machine-learning.html",
-    "href": "enseignements/machine-learning.html",
-    "title": "Machine Learning",
+    "objectID": "responsabilites.html#coordination-de-modules-depuis-2017",
+    "href": "responsabilites.html#coordination-de-modules-depuis-2017",
+    "title": "Responsabilités",
+    "section": "Coordination de modules (depuis 2017)",
+    "text": "Coordination de modules (depuis 2017)\n\nECUE211 — Algèbre 2 (linéaire) · LMAD/SD\nECUE311 — Algèbre 3 (réduction) · LMAD\nECUE411 — Probabilités · LMAD\nECUE421 — Analyse 4 (plusieurs variables) · LMAD\nECUEO412 — Recherche Opérationnelle · MDSI\nECUET112 — Statistiques descriptives avec R · S1\nModules récents : Linear Algebra 3, Analysis 2, Machine Learning, Deep Learning, NLP, Python, GLM, Advanced Probability, Integration, Generative Computer Vision, Tools for ML, Portfolio Optimization"
+  },
+  {
+    "objectID": "responsabilites.html#concours-dadmission-esb",
+    "href": "responsabilites.html#concours-dadmission-esb",
+    "title": "Responsabilités",
+    "section": "Concours d’admission ESB",
+    "text": "Concours d’admission ESB\n\nResponsable de l’épreuve Logique du concours d’admission · depuis 2017\nCréation et enrichissement de la banque de questions Logique — environ 120 questions opérationnelles.\n\n\nJury entretiens oraux · depuis 2017\n\n\nResponsable concours d’admission au Cameroun · 2018, 2019\nConception et déroulement des épreuves Calcul, Logique, Culture Générale."
+  },
+  {
+    "objectID": "responsabilites.html#comités-de-conception-de-parcours",
+    "href": "responsabilites.html#comités-de-conception-de-parcours",
+    "title": "Responsabilités",
+    "section": "Comités de conception de parcours",
+    "text": "Comités de conception de parcours\n\nLicence M(AD)² · 2018–2019\nConception du plan d’études + dossier d’habilitation.\n\n\nMaster Université de Montpellier · 2019–2020\nProposition d’un nouveau master suite au partenariat avec l’Université de Montpellier (master MIND et licence Mathématique-Informatique). Réunion avec M. Ali Ganoun.\n\n\nParcours SID — Système d’Informations Décisionnel · 2017–2018\nMembre du comité de conception sous la direction de Mme Syrine Ben Meskina.\n\n\nMaster Business Analytics · 2017–2018\nMembre du comité de conception sous la direction de Mme Kaouther Bouzouita."
+  },
+  {
+    "objectID": "responsabilites.html#jurys",
+    "href": "responsabilites.html#jurys",
+    "title": "Responsabilités",
+    "section": "Jurys",
+    "text": "Jurys\n\nJury de recrutement · depuis 2017\nMembre des jurys des sessions de recrutement des enseignants des mathématiques et statistiques à ESB.\n\n\nJury de soutenance — séminaires, projets, PFE\nVoir Encadrement pour la liste détaillée."
+  },
+  {
+    "objectID": "responsabilites.html#animation-de-clubs",
+    "href": "responsabilites.html#animation-de-clubs",
+    "title": "Responsabilités",
+    "section": "Animation de clubs",
+    "text": "Animation de clubs\n\nMAD University Club · Tutor and Founder · depuis 2020\nClub universitaire créé en 2020 lié à la licence M(AD)².\n\n\nB-Movie Film Club · Tutor, Founder and Organizer · depuis 2018\nCiné-club universitaire ESB. Projections thématiques + débats.\nÉvénements organisés : - Partenariat festival Fespaco — hommage cinéma Burkinabais (présence ambassadeur du Burkina Faso) - Co-organisation festival Fest-In avec ambassade du Brésil — couvert par La Presse\n\n\nClub Horizon ESB · Tuteur · 2017–2018\nMagazine étudiants (projet en pause)."
+  },
+  {
+    "objectID": "responsabilites.html#ateliers-préparation-au-tage-mage-depuis-2017",
+    "href": "responsabilites.html#ateliers-préparation-au-tage-mage-depuis-2017",
+    "title": "Responsabilités",
+    "section": "Ateliers Préparation au Tage Mage · depuis 2017",
+    "text": "Ateliers Préparation au Tage Mage · depuis 2017\n3 ateliers : Aptitudes linguistiques (I. Kaouech), Calcul (M. Jaoua), Raisonnement logique (Aymen Ben Brik) — édition 2017–2018 : 30 étudiants."
+  },
+  {
+    "objectID": "responsabilites.html#école-dété-pédagogique-improve-your-maths-2018",
+    "href": "responsabilites.html#école-dété-pédagogique-improve-your-maths-2018",
+    "title": "Responsabilités",
+    "section": "École d’été pédagogique « Improve your Maths » · 2018",
+    "text": "École d’été pédagogique « Improve your Maths » · 2018\nCours intensif de mathématiques pour les nouveaux étudiants ESB."
+  },
+  {
+    "objectID": "responsabilites.html#tableau-récapitulatif",
+    "href": "responsabilites.html#tableau-récapitulatif",
+    "title": "Responsabilités",
+    "section": "Tableau récapitulatif",
+    "text": "Tableau récapitulatif\n\n\n\n\n\n\n\n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\nThis is the init_notebook_mode cell from ITables v2.8.1\n(you should not see this message - is your notebook trusted?)\n\n\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the init_notebook_mode cell...\n        (need help?)"
+  },
+  {
+    "objectID": "enseignements/outillage-machine-learning.html",
+    "href": "enseignements/outillage-machine-learning.html",
+    "title": "Tools for Machine Learning",
     "section": "",
-    "text": "Module créé en 2021–2022 dans le cadre de l’évolution du curriculum data science d’ESB, puis maintenu et enrichi chaque année. Approche par projet avec datasets réels."
+    "text": "Module créé en 2024–2025, axé sur l’écosystème opérationnel du ML : versioning, expérimentation, déploiement, MLOps. Approche ingénieur — savoir choisir les bons outils et les intégrer dans un pipeline reproductible."
   },
   {
-    "objectID": "enseignements/machine-learning.html#présentation",
-    "href": "enseignements/machine-learning.html#présentation",
-    "title": "Machine Learning",
+    "objectID": "enseignements/outillage-machine-learning.html#présentation",
+    "href": "enseignements/outillage-machine-learning.html#présentation",
+    "title": "Tools for Machine Learning",
     "section": "",
-    "text": "Module créé en 2021–2022 dans le cadre de l’évolution du curriculum data science d’ESB, puis maintenu et enrichi chaque année. Approche par projet avec datasets réels."
+    "text": "Module créé en 2024–2025, axé sur l’écosystème opérationnel du ML : versioning, expérimentation, déploiement, MLOps. Approche ingénieur — savoir choisir les bons outils et les intégrer dans un pipeline reproductible."
   },
   {
-    "objectID": "enseignements/machine-learning.html#espace-blackboard",
-    "href": "enseignements/machine-learning.html#espace-blackboard",
-    "title": "Machine Learning",
+    "objectID": "enseignements/outillage-machine-learning.html#espace-blackboard",
+    "href": "enseignements/outillage-machine-learning.html#espace-blackboard",
+    "title": "Tools for Machine Learning",
     "section": "Espace Blackboard",
-    "text": "Espace Blackboard\n\n\n\n\n\n\nEspace(s) cours sur Blackboard ESB :\n\nBA M1 : https://esprit.blackboard.com/ultra/courses/_3030_1/outline"
+    "text": "Espace Blackboard\n\n\n\n\n\n\nEspace(s) cours sur Blackboard ESB :\n\nMDSI M1 : https://esprit.blackboard.com/ultra/courses/_2962_1/outline"
   },
   {
-    "objectID": "enseignements/machine-learning.html#acquis-dapprentissage",
-    "href": "enseignements/machine-learning.html#acquis-dapprentissage",
-    "title": "Machine Learning",
+    "objectID": "enseignements/outillage-machine-learning.html#acquis-dapprentissage",
+    "href": "enseignements/outillage-machine-learning.html#acquis-dapprentissage",
+    "title": "Tools for Machine Learning",
     "section": "Acquis d’apprentissage",
-    "text": "Acquis d’apprentissage\n\nAA1 — Comprendre la dichotomie supervisé / non supervisé / renforcement\nAA2 — Maîtriser les algorithmes classiques (linéaires, arbres, ensembles)\nAA3 — Évaluer un modèle (validation croisée, métriques, biais-variance)\nAA4 — Pré-traiter les données (nettoyage, encodage, scaling, feature engineering)\nAA5 — Implémenter un pipeline ML complet en Python avec scikit-learn\nAA6 — Détecter et corriger l’overfitting\nAA7 — Communiquer les résultats via dashboards et rapports"
+    "text": "Acquis d’apprentissage\n\nAA1 — Versionner code, données et modèles (Git, DVC, MLflow)\nAA2 — Tracker les expériences ML (MLflow, Weights & Biases)\nAA3 — Containeriser un modèle (Docker)\nAA4 — Déployer une API d’inférence (FastAPI, Flask)\nAA5 — Construire un pipeline CI/CD ML (GitHub Actions)\nAA6 — Surveiller un modèle en production (drift, performance)\nAA7 — Automatiser le tuning d’hyperparamètres (Optuna, Ray Tune)\nAA8 — Visualiser et communiquer les résultats (Streamlit, Gradio, Plotly)"
   },
   {
-    "objectID": "enseignements/machine-learning.html#supports-pédagogiques",
-    "href": "enseignements/machine-learning.html#supports-pédagogiques",
-    "title": "Machine Learning",
+    "objectID": "enseignements/outillage-machine-learning.html#supports-pédagogiques",
+    "href": "enseignements/outillage-machine-learning.html#supports-pédagogiques",
+    "title": "Tools for Machine Learning",
     "section": "Supports pédagogiques",
-    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours book avec exercices corrigés\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nTPs Python\nPipelines scikit-learn, projets datasets réels\nPDF + code\n\n\nProjet\nCompétition Kaggle interne\nSujet\n\n\nRepository\nCode source\nGitHub"
+    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours book\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTPs hands-on\nPipeline complet end-to-end\nPDF + code\n\n\nProjet\nDéployer un modèle ML en production\nSujet\n\n\nRepository\nCode source\nGitHub"
   },
   {
-    "objectID": "enseignements/machine-learning.html#plan-détaillé",
-    "href": "enseignements/machine-learning.html#plan-détaillé",
-    "title": "Machine Learning",
+    "objectID": "enseignements/outillage-machine-learning.html#plan-détaillé",
+    "href": "enseignements/outillage-machine-learning.html#plan-détaillé",
+    "title": "Tools for Machine Learning",
     "section": "Plan détaillé",
-    "text": "Plan détaillé\n\nIntroduction : taxonomie ML, vocabulaire, vue d’ensemble du pipeline\nRégression linéaire et logistique : moindres carrés, descente de gradient, régularisation L1/L2\nArbres de décision et forêts aléatoires : gini, entropie, bagging, boosting\nSVM : marges, kernels, dualité\nK-NN, Naive Bayes : algorithmes paresseux et probabilistes\nApprentissage non supervisé : K-means, DBSCAN, hiérarchique, PCA\nÉvaluation : courbe ROC, matrice de confusion, validation croisée, GridSearchCV\nPipelines, sélection de features, déploiement"
+    "text": "Plan détaillé\n\nVersioning : Git avancé, branches, GitHub workflows\nData versioning : DVC, LakeFS, alternatives\nExpérimentation : MLflow tracking, W&B, comparaison de runs\nTuning d’hyperparamètres : Optuna, Ray Tune, Bayesian Optimization\nContainerisation : Docker pour ML, multi-stage builds\nAPI d’inférence : FastAPI, validation Pydantic, sécurité\nDéploiement : cloud (AWS SageMaker, GCP Vertex, Azure ML), on-prem\nMLOps : CI/CD pipelines, tests, monitoring\nDrift detection : Evidently, Alibi Detect\nInterfaces utilisateur : Streamlit, Gradio, Dash"
   },
   {
-    "objectID": "enseignements/machine-learning.html#outils-mobilisés",
-    "href": "enseignements/machine-learning.html#outils-mobilisés",
-    "title": "Machine Learning",
+    "objectID": "enseignements/outillage-machine-learning.html#outils-mobilisés",
+    "href": "enseignements/outillage-machine-learning.html#outils-mobilisés",
+    "title": "Tools for Machine Learning",
     "section": "Outils mobilisés",
-    "text": "Outils mobilisés\nscikit-learn · pandas · numpy · matplotlib · seaborn · plotly · xgboost · lightgbm"
+    "text": "Outils mobilisés\ngit · dvc · mlflow · wandb · docker · fastapi · streamlit gradio · optuna · ray · evidently · prefect · airflow github-actions · pre-commit"
   },
   {
-    "objectID": "enseignements/machine-learning.html#prolongements",
-    "href": "enseignements/machine-learning.html#prolongements",
-    "title": "Machine Learning",
-    "section": "Prolongements",
-    "text": "Prolongements\nModule précurseur de Deep Learning, NLP et Outillage Machine Learning."
-  },
-  {
-    "objectID": "enseignements/generative-computer-vision.html",
-    "href": "enseignements/generative-computer-vision.html",
-    "title": "Generative Computer Vision",
-    "section": "",
-    "text": "Module créé en 2024–2025, à la pointe des techniques de vision générative : GANs, diffusion models, vision-language models (CLIP, DALL-E, Stable Diffusion, Midjourney-like architectures).\nS’inscrit dans le programme stratégique Alternance BA — Business Analytics oriented to Generative AI (partenariat ESB / Jems Group) dont je suis Co-Responsable depuis 2024."
-  },
-  {
-    "objectID": "enseignements/generative-computer-vision.html#présentation",
-    "href": "enseignements/generative-computer-vision.html#présentation",
-    "title": "Generative Computer Vision",
-    "section": "",
-    "text": "Module créé en 2024–2025, à la pointe des techniques de vision générative : GANs, diffusion models, vision-language models (CLIP, DALL-E, Stable Diffusion, Midjourney-like architectures).\nS’inscrit dans le programme stratégique Alternance BA — Business Analytics oriented to Generative AI (partenariat ESB / Jems Group) dont je suis Co-Responsable depuis 2024."
-  },
-  {
-    "objectID": "enseignements/generative-computer-vision.html#espace-blackboard",
-    "href": "enseignements/generative-computer-vision.html#espace-blackboard",
-    "title": "Generative Computer Vision",
-    "section": "Espace Blackboard",
-    "text": "Espace Blackboard\n\n\n\n\n\n\nEspace(s) cours sur Blackboard ESB :\n\nBA M1 : https://esprit.blackboard.com/ultra/courses/_26556_1/outline"
-  },
-  {
-    "objectID": "enseignements/generative-computer-vision.html#acquis-dapprentissage",
-    "href": "enseignements/generative-computer-vision.html#acquis-dapprentissage",
-    "title": "Generative Computer Vision",
-    "section": "Acquis d’apprentissage",
-    "text": "Acquis d’apprentissage\n\nAA1 — Maîtriser les fondamentaux de la vision par ordinateur (CNN, segmentation, détection)\nAA2 — Comprendre les Autoencodeurs et Variational Autoencoders (VAE)\nAA3 — Implémenter des Generative Adversarial Networks (GAN, DCGAN, StyleGAN)\nAA4 — Comprendre les diffusion models (DDPM, Stable Diffusion)\nAA5 — Manipuler les modèles vision-language (CLIP, BLIP)\nAA6 — Générer des images à partir de texte (text-to-image)\nAA7 — Évaluer les modèles génératifs (FID, IS, perceptual metrics)\nAA8 — Considérations éthiques et deepfakes"
-  },
-  {
-    "objectID": "enseignements/generative-computer-vision.html#supports-pédagogiques",
-    "href": "enseignements/generative-computer-vision.html#supports-pédagogiques",
-    "title": "Generative Computer Vision",
-    "section": "Supports pédagogiques",
-    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours book\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nTPs Python\nPyTorch, HuggingFace Diffusers, GANs from scratch\nPDF + code\n\n\nProjet\nPipeline complet text-to-image personnalisé\nSujet\n\n\nRepository\nCode source\nGitHub"
-  },
-  {
-    "objectID": "enseignements/generative-computer-vision.html#plan-détaillé",
-    "href": "enseignements/generative-computer-vision.html#plan-détaillé",
-    "title": "Generative Computer Vision",
-    "section": "Plan détaillé",
-    "text": "Plan détaillé\n\nRappels CV : CNN, ResNet, Vision Transformers (ViT)\nAutoencodeurs : encodage, décodage, débruitage\nVAE : reparametrization trick, KL divergence\nGANs : générateur, discriminateur, équilibre de Nash\nArchitectures avancées : DCGAN, Pix2Pix, CycleGAN, StyleGAN\nDiffusion models : forward/reverse process, DDPM, DDIM\nStable Diffusion : latent diffusion, U-Net conditionnel\nVision-Language Models : CLIP, BLIP, contrastive learning\nText-to-image : DALL-E, Imagen, Stable Diffusion\nApplications : transfer de style, super-résolution, inpainting"
-  },
-  {
-    "objectID": "enseignements/generative-computer-vision.html#outils-mobilisés",
-    "href": "enseignements/generative-computer-vision.html#outils-mobilisés",
-    "title": "Generative Computer Vision",
-    "section": "Outils mobilisés",
-    "text": "Outils mobilisés\ntorch · diffusers (HuggingFace) · transformers · clip · accelerate opencv · pillow · matplotlib · wandb"
-  },
-  {
-    "objectID": "enseignements/generative-computer-vision.html#liens-avec-mes-activités",
-    "href": "enseignements/generative-computer-vision.html#liens-avec-mes-activités",
-    "title": "Generative Computer Vision",
+    "objectID": "enseignements/outillage-machine-learning.html#liens-avec-mes-activités",
+    "href": "enseignements/outillage-machine-learning.html#liens-avec-mes-activités",
+    "title": "Tools for Machine Learning",
     "section": "Liens avec mes activités",
-    "text": "Liens avec mes activités\n\nCo-Responsable Alternance BA-GenAI (ESB × Jems Group, depuis 2024)\nHead of Research Team AI4U (Esprit Tech, depuis 2023) — applications GenAI dans l’enseignement\nAI Instructor (Training of Trainers, depuis 2023) — sessions Generative AI"
+    "text": "Liens avec mes activités\n\nTekouin Administrator (depuis 2020) — plateforme e-Learning de coding\nAI Instructor (depuis 2023) — sessions outils ML pour formateurs\nHead of Research Team AI4U — outils intégrés dans les workflows recherche"
   },
   {
-    "objectID": "enseignements/generative-computer-vision.html#prolongements",
-    "href": "enseignements/generative-computer-vision.html#prolongements",
-    "title": "Generative Computer Vision",
+    "objectID": "enseignements/outillage-machine-learning.html#prolongements",
+    "href": "enseignements/outillage-machine-learning.html#prolongements",
+    "title": "Tools for Machine Learning",
     "section": "Prolongements",
-    "text": "Prolongements\nModule phare du virage Generative AI à ESB, complémentaire de NLP (générateurs de texte) et Deep Learning."
+    "text": "Prolongements\nModule pratique qui consolide Machine Learning, Deep Learning, NLP et Python Programming dans une perspective opérationnelle."
+  },
+  {
+    "objectID": "enseignements/algebre-2.html",
+    "href": "enseignements/algebre-2.html",
+    "title": "Algèbre 2 — ECUE211",
+    "section": "",
+    "text": "Module de fondamentaux en algèbre linéaire pour les étudiants de S2 LMAD/SD, avec 84 heures réparties en cours magistraux (42h) et travaux dirigés (42h)."
+  },
+  {
+    "objectID": "enseignements/algebre-2.html#présentation",
+    "href": "enseignements/algebre-2.html#présentation",
+    "title": "Algèbre 2 — ECUE211",
+    "section": "",
+    "text": "Module de fondamentaux en algèbre linéaire pour les étudiants de S2 LMAD/SD, avec 84 heures réparties en cours magistraux (42h) et travaux dirigés (42h)."
+  },
+  {
+    "objectID": "enseignements/algebre-2.html#espace-blackboard",
+    "href": "enseignements/algebre-2.html#espace-blackboard",
+    "title": "Algèbre 2 — ECUE211",
+    "section": "Espace Blackboard",
+    "text": "Espace Blackboard\n\n\n\n\n\n\nEspace(s) cours sur Blackboard ESB :\n\nLMAD L1 : https://esprit.blackboard.com/ultra/courses/_26547_1/outline"
+  },
+  {
+    "objectID": "enseignements/algebre-2.html#acquis-dapprentissage",
+    "href": "enseignements/algebre-2.html#acquis-dapprentissage",
+    "title": "Algèbre 2 — ECUE211",
+    "section": "Acquis d’apprentissage",
+    "text": "Acquis d’apprentissage\n\nAA1 — Manipuler les espaces vectoriels et leurs sous-espaces\nAA2 — Identifier et calculer avec des applications linéaires\nAA3 — Maîtriser le calcul matriciel\nAA4 — Résoudre des systèmes linéaires\nAA5 — Calculer et utiliser les déterminants\nAA6 — Diagonaliser les matrices simples"
+  },
+  {
+    "objectID": "enseignements/algebre-2.html#supports-pédagogiques",
+    "href": "enseignements/algebre-2.html#supports-pédagogiques",
+    "title": "Algèbre 2 — ECUE211",
+    "section": "Supports pédagogiques",
+    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours complet book avec exercices corrigés\nPDF\n\n\nSlides\nBeamer Metropolis 16:9, 28 séances\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nPlan de module\nFiche pédagogique AA1–AA6\nPDF\n\n\nRepository\nCode source LaTeX + Python\nGitHub"
+  },
+  {
+    "objectID": "enseignements/algebre-2.html#plan-détaillé",
+    "href": "enseignements/algebre-2.html#plan-détaillé",
+    "title": "Algèbre 2 — ECUE211",
+    "section": "Plan détaillé",
+    "text": "Plan détaillé\n\nEspaces vectoriels et sous-espaces\nFamilles libres, génératrices, bases\nApplications linéaires, noyau, image\nMatrices et calcul matriciel\nChangement de base\nSystèmes linéaires et méthode de Gauss\nDéterminants\nValeurs propres, vecteurs propres, diagonalisation"
+  },
+  {
+    "objectID": "enseignements/recherche-operationnelle.html",
+    "href": "enseignements/recherche-operationnelle.html",
+    "title": "Recherche Opérationnelle — ECUEO412",
+    "section": "",
+    "text": "Module de recherche opérationnelle structuré en deux parties :\n\nPartie 1 : Programmation linéaire (28h)\nPartie 2 : Théorie des graphes (14h)"
+  },
+  {
+    "objectID": "enseignements/recherche-operationnelle.html#présentation",
+    "href": "enseignements/recherche-operationnelle.html#présentation",
+    "title": "Recherche Opérationnelle — ECUEO412",
+    "section": "",
+    "text": "Module de recherche opérationnelle structuré en deux parties :\n\nPartie 1 : Programmation linéaire (28h)\nPartie 2 : Théorie des graphes (14h)"
+  },
+  {
+    "objectID": "enseignements/recherche-operationnelle.html#espace-blackboard",
+    "href": "enseignements/recherche-operationnelle.html#espace-blackboard",
+    "title": "Recherche Opérationnelle — ECUEO412",
+    "section": "Espace Blackboard",
+    "text": "Espace Blackboard\n\n\n\n\n\n\nEspace(s) cours sur Blackboard ESB :\n\nLFIG L2 : https://esprit.blackboard.com/ultra/courses/_2178_1/outline"
+  },
+  {
+    "objectID": "enseignements/recherche-operationnelle.html#acquis-dapprentissage",
+    "href": "enseignements/recherche-operationnelle.html#acquis-dapprentissage",
+    "title": "Recherche Opérationnelle — ECUEO412",
+    "section": "Acquis d’apprentissage",
+    "text": "Acquis d’apprentissage\n\nAA1 — Modéliser un problème en programme linéaire\nAA2 — Résoudre par la méthode du simplexe\nAA3 — Comprendre la dualité et l’analyse de sensibilité\nAA4 — Modéliser et résoudre avec des solveurs (PuLP, Gurobi)\nAA5 — Maîtriser les algorithmes de plus court chemin (Dijkstra, Bellman-Ford)\nAA6 — Étudier les flots, le couplage, les arbres couvrants\nAA7 — Appliquer à l’ordonnancement de projet (PERT, MPM)"
+  },
+  {
+    "objectID": "enseignements/recherche-operationnelle.html#supports-pédagogiques",
+    "href": "enseignements/recherche-operationnelle.html#supports-pédagogiques",
+    "title": "Recherche Opérationnelle — ECUEO412",
+    "section": "Supports pédagogiques",
+    "text": "Supports pédagogiques\n\n\n\nType\nDescription\nLien\n\n\n\n\nPolycopié\nCours book avec exercices\nPDF\n\n\nSlides\nBeamer Metropolis 16:9\nPDF\n\n\nTDs\nÉnoncés + corrections\nPDF\n\n\nTPs Python\nPuLP, NetworkX, simplexe maison\nPDF + code\n\n\nRepository\nCode source\nGitHub"
+  },
+  {
+    "objectID": "enseignements/recherche-operationnelle.html#plan-détaillé",
+    "href": "enseignements/recherche-operationnelle.html#plan-détaillé",
+    "title": "Recherche Opérationnelle — ECUEO412",
+    "section": "Plan détaillé",
+    "text": "Plan détaillé\n\nPartie 1 — Programmation linéaire (28h)\n\nModélisation des problèmes d’optimisation linéaire\nMéthode graphique\nMéthode du simplexe primal\nMéthode des deux phases, méthode du grand M\nDualité et théorèmes fondamentaux\nAnalyse de sensibilité\nProgrammation en nombres entiers (introduction)\n\n\n\nPartie 2 — Théorie des graphes (14h)\n\nNotions de base, représentations\nParcours de graphes (BFS, DFS)\nArbres couvrants minimaux (Kruskal, Prim)\nPlus court chemin (Dijkstra, Bellman-Ford, Floyd-Warshall)\nFlots maximaux (Ford-Fulkerson)\nOrdonnancement : PERT, MPM"
   },
   {
     "objectID": "enseignements/modules/cours-de-soutien-statistiques-inferentielles.html",
@@ -2909,6 +3085,9 @@
     "href": "enseignements/index.html#maintenir-ces-données",
     "title": "Enseignement",
     "section": "Maintenir ces données",
-    "text": "Maintenir ces données\nLes enseignements et supports sont alimentés par 2 fichiers CSV :\n\n\n\n\n\n\n\nFichier\nSchéma\n\n\n\n\ndata/enseignements_detailed.csv\ndomaine, annee, nom_module, niveau, classe, nb_groupes, anglais, charge_horaire, coordinateur, nouveau_module, ecole\n\n\ndata/supports.csv\ndomaine, nom_module, niveau, classe, ecole, ressource_nom, ressource_statut, ressource_lien\n\n\n\nPour ajouter ou modifier un enseignement / support : éditer le CSV (Excel, VS Code…), quarto render, et la page se met à jour automatiquement."
+    "text": "Maintenir ces données\nLes enseignements et supports sont alimentés par 2 fichiers CSV :\n\n\n\n\n\n\n\nFichier\nSchéma\n\n\n\n\ndata/enseignements_detailed.csv\ndomaine, annee, nom_module, niveau, classe, nb_groupes, anglais, charge_horaire, coordinateur, nouveau_module, ecole\n\n\ndata/supports.csv\ndomaine, nom_module, niveau, classe, ecole, ressource_nom, ressource_statut, ressource_lien\n\n\n\nPour ajouter ou modifier un enseignement / support : éditer le CSV (Excel, VS Code…), quarto render, et la page se met à jour automatiquement.",
+    "crumbs": [
+      "Vue d'ensemble"
+    ]
   }
 ]
