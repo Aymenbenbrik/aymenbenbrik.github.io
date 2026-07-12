@@ -1388,7 +1388,7 @@
     "href": "certifications.html#tableau-interactif",
     "title": "Certifications & Formations",
     "section": "Tableau interactif",
-    "text": "Tableau interactif\n\n\n\n\n\n\n\n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\nThis is the init_notebook_mode cell from ITables v2.7.3\n(you should not see this message - is your notebook trusted?)\n\n\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.7.3 from the init_notebook_mode cell...\n        (need help?)"
+    "text": "Tableau interactif\n\n\n\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the internet...\n        (need help?)"
   },
   {
     "objectID": "cv.html",
@@ -1563,7 +1563,7 @@
     "href": "encadrement/index.html",
     "title": "Encadrement des projets",
     "section": "",
-    "text": "Mon approche d’encadrement repose sur une progression structurée en sept étapes, adaptée au profil et au niveau de chaque étudiant. Je commence par un cadrage rigoureux du sujet et un état de l’art complet pour garantir la solidité scientifique du travail. La phase de développement ou d’expérimentation est ponctuée de points de suivi hebdomadaires permettant un ajustement continu. L’analyse des résultats est conduite avec une exigence de reproductibilité (Python, R, notebooks versionnés). La rédaction du rapport et la préparation de la soutenance sont accompagnées de relectures multiples et de simulations orales. Mon objectif final : que chaque étudiant développe son autonomie scientifique tout en livrant un travail valorisable.\n\n\n\n\nAutonomie \n\n\n\n\nRigueur \n\n\n\n\nSuivi régulier \n\n\n\n\nValorisation \n\n\n\n\n\n                            \n                                            \nWorkflow d’encadrement en sept étapes",
+    "text": "Mon approche d’encadrement repose sur une progression structurée en sept étapes, adaptée au profil et au niveau de chaque étudiant. Je commence par un cadrage rigoureux du sujet et un état de l’art complet pour garantir la solidité scientifique du travail. La phase de développement ou d’expérimentation est ponctuée de points de suivi hebdomadaires permettant un ajustement continu. L’analyse des résultats est conduite avec une exigence de reproductibilité (Python, R, notebooks versionnés). La rédaction du rapport et la préparation de la soutenance sont accompagnées de relectures multiples et de simulations orales. Mon objectif final : que chaque étudiant développe son autonomie scientifique tout en livrant un travail valorisable.\n\n\n\n\nAutonomie \n\n\n\n\nRigueur \n\n\n\n\nSuivi régulier \n\n\n\n\nValorisation \n\n\n\n\n\n1Choix du sujet\n\n\n2Cadrage\n\n\n3État de l’art\n\n\n4Développement / Expérimentation\n\n\n5Analyse des résultats\n\n\n6Rapport\n\n\n7Soutenance",
     "crumbs": [
       "Encadrement",
       "Vue d'ensemble"
@@ -1578,17 +1578,6 @@
     "crumbs": [
       "Encadrement",
       "Vue d'ensemble"
-    ]
-  },
-  {
-    "objectID": "encadrement/rapporteur.html",
-    "href": "encadrement/rapporteur.html",
-    "title": "Rapporteur",
-    "section": "",
-    "text": "This is the init_notebook_mode cell from ITables v2.8.1\n(you should not see this message - is your notebook trusted?)",
-    "crumbs": [
-      "Encadrement",
-      "Rapporteur"
     ]
   },
   {
@@ -1618,21 +1607,10 @@
     "href": "encadrement/rapporteur.html#liste-des-rapports-évalués",
     "title": "Rapporteur",
     "section": "Liste des rapports évalués",
-    "text": "Liste des rapports évalués\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the init_notebook_mode cell...\n        (need help?)",
+    "text": "Liste des rapports évalués\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the internet...\n        (need help?)",
     "crumbs": [
       "Encadrement",
       "Rapporteur"
-    ]
-  },
-  {
-    "objectID": "encadrement/encadrements.html",
-    "href": "encadrement/encadrements.html",
-    "title": "Encadrements académiques",
-    "section": "",
-    "text": "This is the init_notebook_mode cell from ITables v2.8.1\n(you should not see this message - is your notebook trusted?)",
-    "crumbs": [
-      "Encadrement",
-      "Encadrements académiques"
     ]
   },
   {
@@ -1662,21 +1640,10 @@
     "href": "encadrement/encadrements.html#liste-des-encadrements",
     "title": "Encadrements académiques",
     "section": "Liste des encadrements",
-    "text": "Liste des encadrements\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the init_notebook_mode cell...\n        (need help?)",
+    "text": "Liste des encadrements\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the internet...\n        (need help?)",
     "crumbs": [
       "Encadrement",
       "Encadrements académiques"
-    ]
-  },
-  {
-    "objectID": "encadrement/president-jury.html",
-    "href": "encadrement/president-jury.html",
-    "title": "Président de jury",
-    "section": "",
-    "text": "This is the init_notebook_mode cell from ITables v2.8.1\n(you should not see this message - is your notebook trusted?)",
-    "crumbs": [
-      "Encadrement",
-      "Président de jury"
     ]
   },
   {
@@ -1706,21 +1673,10 @@
     "href": "encadrement/president-jury.html#liste-détaillée-des-jurys-présidés",
     "title": "Président de jury",
     "section": "Liste détaillée des jurys présidés",
-    "text": "Liste détaillée des jurys présidés\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the init_notebook_mode cell...\n        (need help?)",
+    "text": "Liste détaillée des jurys présidés\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the internet...\n        (need help?)",
     "crumbs": [
       "Encadrement",
       "Président de jury"
-    ]
-  },
-  {
-    "objectID": "encadrement/ai4u.html",
-    "href": "encadrement/ai4u.html",
-    "title": "Projets AI4U",
-    "section": "",
-    "text": "This is the init_notebook_mode cell from ITables v2.8.1\n(you should not see this message - is your notebook trusted?)",
-    "crumbs": [
-      "Encadrement",
-      "Projets AI4U"
     ]
   },
   {
@@ -1739,7 +1695,7 @@
     "href": "encadrement/ai4u.html#liste-des-projets-ai4u",
     "title": "Projets AI4U",
     "section": "Liste des projets AI4U",
-    "text": "Liste des projets AI4U\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the init_notebook_mode cell...\n        (need help?)",
+    "text": "Liste des projets AI4U\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the internet...\n        (need help?)",
     "crumbs": [
       "Encadrement",
       "Projets AI4U"
@@ -1855,7 +1811,7 @@
     "href": "evenements.html#tableau-interactif-complet",
     "title": "Événements",
     "section": "Tableau interactif complet",
-    "text": "Tableau interactif complet\n\n\n\n\n\n\n\n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\nThis is the init_notebook_mode cell from ITables v2.8.1\n(you should not see this message - is your notebook trusted?)\n\n\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the init_notebook_mode cell...\n        (need help?)"
+    "text": "Tableau interactif complet\n\n\n\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the internet...\n        (need help?)"
   },
   {
     "objectID": "capsules-video.html",
@@ -1986,7 +1942,7 @@
     "href": "responsabilites.html#tableau-récapitulatif",
     "title": "Responsabilités",
     "section": "Tableau récapitulatif",
-    "text": "Tableau récapitulatif\n\n\n\n\n\n\n\n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\nThis is the init_notebook_mode cell from ITables v2.8.1\n(you should not see this message - is your notebook trusted?)\n\n\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the init_notebook_mode cell...\n        (need help?)"
+    "text": "Tableau récapitulatif\n\n\n\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.1 from the internet...\n        (need help?)"
   },
   {
     "objectID": "enseignements/outillage-machine-learning.html",
