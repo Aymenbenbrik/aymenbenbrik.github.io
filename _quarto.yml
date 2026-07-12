@@ -123,6 +123,9 @@ execute:
   warning: false
   message: false
 
+# Plotly depuis le CDN au lieu d'etre embarque (~4,7 Mo) dans chaque page
+plotly-connected: true
+
 jupyter: python3
 
 lang: fr

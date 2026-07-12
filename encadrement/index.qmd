@@ -10,11 +10,10 @@ aliases:
 ```{python}
 #| echo: false
 import pandas as pd
-import plotly.graph_objects as go
 
 import sys
 sys.path.insert(0, "../scripts")
-from theme import ESPRIT, base_layout
+from theme import ESPRIT
 
 ai4u = pd.read_csv("../data/ai4u_projects.csv")
 enc = pd.read_csv("../data/encadrants.csv")
@@ -66,21 +65,16 @@ de simulations orales. Mon objectif final : que chaque étudiant développe son
 
 ```{python}
 #| echo: false
-#| fig-cap: "Workflow d'encadrement en sept étapes"
+#| output: asis
 
 steps = ["Choix du sujet", "Cadrage", "État de l'art", "Développement / Expérimentation",
          "Analyse des résultats", "Rapport", "Soutenance"]
-fig2 = go.Figure()
-for i, s in enumerate(steps):
-    fig2.add_shape(type="rect", x0=i, y0=0, x1=i + 0.85, y1=1,
-                    fillcolor=ESPRIT[i % len(ESPRIT)], line=dict(color="white", width=2))
-    fig2.add_annotation(x=i + 0.42, y=0.5, text=f"<b>{i+1}</b><br>{s}",
-                          showarrow=False, font=dict(color="white", size=11))
-fig2.update_xaxes(visible=False, range=[-0.2, len(steps) + 0.2])
-fig2.update_yaxes(visible=False, range=[-0.2, 1.2])
-fig2.update_layout(height=320, margin=dict(l=10, r=10, t=20, b=10),
-                    plot_bgcolor="white", paper_bgcolor="white")
-fig2.show()
+items = "".join(
+    f'<div class="workflow-step" style="background:{ESPRIT[i % len(ESPRIT)]}"><b>{i+1}</b>{s}</div>'
+    for i, s in enumerate(steps)
+)
+label = "Workflow d'encadrement en sept étapes"
+print(f'<div class="workflow-strip" role="list" aria-label="{label}">{items}</div>')
 ```
 
 ### Quatre listes, quatre pages

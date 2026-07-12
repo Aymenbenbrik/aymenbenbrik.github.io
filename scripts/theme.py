@@ -47,6 +47,70 @@ def evolution_bar(df, titre, palette):
     return base_layout(fig, height=380)
 
 
+def mpl_style():
+    """Applique la typo et les couleurs du site a matplotlib."""
+    import matplotlib
+    matplotlib.rcParams.update({
+        "font.family": "sans-serif",
+        "font.sans-serif": ["Inter", "Segoe UI", "DejaVu Sans", "Arial"],
+        "text.color": INK,
+        "axes.edgecolor": LINE,
+        "axes.labelcolor": SLATE,
+        "xtick.color": SLATE,
+        "ytick.color": SLATE,
+        "axes.titlesize": 11,
+        "axes.titleweight": "bold",
+        "axes.titlecolor": INK,
+        "figure.facecolor": "white",
+        "axes.facecolor": "white",
+        "axes.spines.top": False,
+        "axes.spines.right": False,
+    })
+
+
+def mpl_donut(series, titre, colors=None):
+    """Donut statique (PNG) — pour les repartitions qui n'ont pas besoin d'interactivite."""
+    import matplotlib.pyplot as plt
+    mpl_style()
+    fig, ax = plt.subplots(figsize=(4.8, 3.5))
+    total = series.sum()
+    wedges, _, autotexts = ax.pie(
+        series.values,
+        labels=series.index,
+        colors=colors or ESPRIT,
+        autopct=lambda p: f"{p:.0f}%" if p >= 4 else "",
+        pctdistance=0.78,
+        startangle=90,
+        counterclock=False,
+        wedgeprops=dict(width=0.42, edgecolor="white", linewidth=1.5),
+        textprops=dict(fontsize=9),
+    )
+    for t in autotexts:
+        t.set_color("white")
+        t.set_fontsize(8)
+        t.set_fontweight("bold")
+    ax.text(0, 0, f"{total}", ha="center", va="center",
+            fontsize=16, fontweight="bold", color=INK)
+    ax.set_title(titre)
+    fig.tight_layout()
+    plt.show()
+
+
+def mpl_barh(series, titre, couleur=ESB_RED):
+    """Barres horizontales statiques (PNG) — pour les repartitions."""
+    import matplotlib.pyplot as plt
+    mpl_style()
+    s = series.sort_values()
+    fig, ax = plt.subplots(figsize=(4.8, 3.5))
+    bars = ax.barh(s.index.astype(str), s.values, color=couleur, height=0.62)
+    ax.bar_label(bars, padding=4, fontsize=9, color=INK)
+    ax.set_xlim(0, s.max() * 1.15)
+    ax.tick_params(axis="y", labelsize=9)
+    ax.set_title(titre)
+    fig.tight_layout()
+    plt.show()
+
+
 def evolution_cumul(df, titre, couleur, fond):
     """Courbe cumulée au fil des années (évolution temporelle)."""
     import plotly.graph_objects as go

@@ -10,14 +10,12 @@ aliases:
 ```{python}
 #| echo: false
 import pandas as pd
-import plotly.express as px
-
 import sys
 sys.path.insert(0, "../scripts")
-from theme import ESPRIT, base_layout, evolution_bar, evolution_cumul
+from theme import ESPRIT, evolution_bar, evolution_cumul, mpl_barh, mpl_donut
 
 from itables import init_notebook_mode, show
-init_notebook_mode(all_interactive=True)
+init_notebook_mode(all_interactive=True, connected=True)
 
 enc = pd.read_csv("../data/encadrants.csv")
 for c in enc.select_dtypes(include="object").columns:
@@ -61,26 +59,9 @@ evolution_cumul(enc, "Encadrements cumulés au fil des années",
 #| echo: false
 #| layout-ncol: 2
 
-# Bar horizontal par domaine
-dc = enc["domaine"].value_counts().reset_index()
-dc.columns = ["domaine", "count"]
-fig = px.bar(dc, x="count", y="domaine", orientation="h", text="count",
-              title="Encadrements par domaine",
-              color="count", color_continuous_scale=[[0, "#E1F5FE"], [1, "#0277BD"]])
-fig.update_traces(textposition="outside")
-fig.update_layout(coloraxis_showscale=False)
-base_layout(fig)
-fig.show()
-
-# Donut par niveau
-nc = enc["niveau"].str.strip().value_counts().reset_index()
-nc.columns = ["niveau", "count"]
-fig = px.pie(nc, names="niveau", values="count", hole=0.55,
-              color_discrete_sequence=[ESPRIT[3], ESPRIT[4], ESPRIT[1]],
-              title="Répartition par niveau")
-fig.update_traces(textposition="outside", textinfo="label+percent+value")
-base_layout(fig)
-fig.show()
+mpl_barh(enc["domaine"].value_counts(), "Encadrements par domaine", couleur="#0277BD")
+mpl_donut(enc["niveau"].str.strip().value_counts(), "Répartition par niveau",
+          colors=[ESPRIT[3], ESPRIT[4], ESPRIT[1]])
 ```
 
 ## Liste des encadrements

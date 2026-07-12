@@ -350,7 +350,7 @@ for liv, info in LIVRABLES.items():
 
 df_table = pd.DataFrame(rows_table)
 from itables import init_notebook_mode, show
-init_notebook_mode(all_interactive=True)
+init_notebook_mode(all_interactive=True, connected=True)
 show(df_table, lengthMenu=[10, 25], classes="display compact", paging=False)
 ```
 

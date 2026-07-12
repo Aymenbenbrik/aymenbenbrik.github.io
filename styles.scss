@@ -157,6 +157,31 @@ ul.timeline {
   }
 }
 
+// Workflow d'encadrement — bandes numérotées (séquence réelle en 7 étapes)
+.workflow-strip {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 1.2rem 0 1.8rem;
+}
+
+.workflow-step {
+  flex: 1 1 110px;
+  color: white;
+  border-radius: 8px;
+  padding: 0.7rem 0.5rem;
+  text-align: center;
+  font-size: 0.82rem;
+  line-height: 1.25;
+
+  b {
+    display: block;
+    font-family: $font-family-monospace;
+    font-size: 1.05rem;
+    margin-bottom: 0.15rem;
+  }
+}
+
 // =====================================================
 // Cartes et composants transverses
 // =====================================================

@@ -383,7 +383,7 @@ fig.show()
 ```{python}
 #| title: "Liste detaillee des encadrements"
 from itables import init_notebook_mode, show
-init_notebook_mode(all_interactive=True)
+init_notebook_mode(all_interactive=True, connected=True)
 show(
     encadrements.sort_values(["annee", "type"], ascending=[False, True]),
     lengthMenu=[10, 25, 50],

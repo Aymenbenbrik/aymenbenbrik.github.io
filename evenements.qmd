@@ -226,7 +226,7 @@ co-conception de parcours de formation adaptés aux besoins de l'emploi.
 #| echo: false
 import pandas as pd
 from itables import init_notebook_mode, show
-init_notebook_mode(all_interactive=True)
+init_notebook_mode(all_interactive=True, connected=True)
 
 df = pd.read_csv("data/evenements.csv")
 df = df.sort_values("date", ascending=False)

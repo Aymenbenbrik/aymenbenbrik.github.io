@@ -8,14 +8,12 @@ page-layout: full
 ```{python}
 #| echo: false
 import pandas as pd
-import plotly.express as px
-
 import sys
 sys.path.insert(0, "../scripts")
-from theme import ESPRIT, base_layout, evolution_bar, evolution_cumul
+from theme import ESPRIT, evolution_bar, evolution_cumul, mpl_barh, mpl_donut
 
 from itables import init_notebook_mode, show
-init_notebook_mode(all_interactive=True)
+init_notebook_mode(all_interactive=True, connected=True)
 
 rap = pd.read_csv("../data/rapporteurs.csv")
 for c in rap.select_dtypes(include="object").columns:
@@ -59,26 +57,9 @@ evolution_cumul(rap, "Rapports évalués cumulés au fil des années",
 #| echo: false
 #| layout-ncol: 2
 
-# Bar horizontal par formation
-fc = rap["formation"].value_counts().reset_index()
-fc.columns = ["formation", "count"]
-fig = px.bar(fc.sort_values("count"), x="count", y="formation", orientation="h", text="count",
-              title="Rapports évalués par formation",
-              color="count", color_continuous_scale=[[0, "#F3E5F5"], [1, "#6A1B9A"]])
-fig.update_traces(textposition="outside")
-fig.update_layout(coloraxis_showscale=False)
-base_layout(fig)
-fig.show()
-
-# Donut par niveau
-nc = rap["niveau"].str.strip().value_counts().reset_index()
-nc.columns = ["niveau", "count"]
-fig = px.pie(nc, names="niveau", values="count", hole=0.55,
-              color_discrete_sequence=[ESPRIT[3], ESPRIT[4], ESPRIT[1]],
-              title="Répartition par niveau")
-fig.update_traces(textposition="outside", textinfo="label+percent+value")
-base_layout(fig)
-fig.show()
+mpl_barh(rap["formation"].value_counts(), "Rapports évalués par formation", couleur="#6A1B9A")
+mpl_donut(rap["niveau"].str.strip().value_counts(), "Répartition par niveau",
+          colors=[ESPRIT[3], ESPRIT[4], ESPRIT[1]])
 ```
 
 ## Liste des rapports évalués

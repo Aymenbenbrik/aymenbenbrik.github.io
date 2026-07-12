@@ -12,10 +12,10 @@ import plotly.express as px
 
 import sys
 sys.path.insert(0, "../scripts")
-from theme import ESPRIT, base_layout
+from theme import ESPRIT, base_layout, mpl_barh, mpl_donut
 
 from itables import init_notebook_mode, show
-init_notebook_mode(all_interactive=True)
+init_notebook_mode(all_interactive=True, connected=True)
 
 ai4u = pd.read_csv("../data/ai4u_projects.csv")
 for c in ai4u.select_dtypes(include="object").columns:
@@ -62,40 +62,16 @@ fig.update_xaxes(tickangle=-45)
 base_layout(fig)
 fig.show()
 
-# Donut par role
-role_counts = ai4u["role"].value_counts().reset_index()
-role_counts.columns = ["role", "count"]
-fig = px.pie(role_counts, names="role", values="count", hole=0.55,
-              color_discrete_sequence=ESPRIT, title="Répartition par rôle")
-fig.update_traces(textposition="outside", textinfo="label+percent")
-base_layout(fig)
-fig.show()
+mpl_donut(ai4u["role"].value_counts(), "Répartition par rôle")
 ```
 
 ```{python}
 #| echo: false
 #| layout-ncol: 2
 
-# Bar horizontal par domaine
-dom_counts = ai4u["domaine"].value_counts().reset_index()
-dom_counts.columns = ["domaine", "count"]
-fig = px.bar(dom_counts, x="count", y="domaine", orientation="h", text="count",
-              title="Projets par domaine",
-              color="count", color_continuous_scale=[[0, "#FFEBEE"], [1, "#C8102E"]])
-fig.update_traces(textposition="outside")
-fig.update_layout(coloraxis_showscale=False)
-base_layout(fig)
-fig.show()
-
-# Donut par statut
-stat = ai4u["statut"].value_counts().reset_index()
-stat.columns = ["statut", "count"]
-fig = px.pie(stat, names="statut", values="count", hole=0.55,
-              color_discrete_sequence=["#2E7D32", "#F57C00", "#9E9E9E"],
-              title="Statut des projets")
-fig.update_traces(textposition="outside", textinfo="label+percent")
-base_layout(fig)
-fig.show()
+mpl_barh(ai4u["domaine"].value_counts(), "Projets par domaine")
+mpl_donut(ai4u["statut"].value_counts(), "Statut des projets",
+          colors=["#2E7D32", "#F57C00", "#9E9E9E"])
 ```
 
 ## Liste des projets AI4U

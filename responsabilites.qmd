@@ -234,7 +234,7 @@ Cours intensif de mathématiques pour les nouveaux étudiants ESB.
 #| echo: false
 import pandas as pd
 from itables import init_notebook_mode, show
-init_notebook_mode(all_interactive=True)
+init_notebook_mode(all_interactive=True, connected=True)
 
 df = pd.read_csv("data/responsabilites.csv")
 show(df, lengthMenu=[15, 30, 50], classes="display compact")

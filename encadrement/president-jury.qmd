@@ -8,14 +8,12 @@ page-layout: full
 ```{python}
 #| echo: false
 import pandas as pd
-import plotly.express as px
-
 import sys
 sys.path.insert(0, "../scripts")
-from theme import ESPRIT, base_layout, evolution_bar, evolution_cumul
+from theme import ESPRIT, evolution_bar, evolution_cumul, mpl_barh, mpl_donut
 
 from itables import init_notebook_mode, show
-init_notebook_mode(all_interactive=True)
+init_notebook_mode(all_interactive=True, connected=True)
 
 pj = pd.read_csv("../data/president_jury.csv")
 for c in pj.select_dtypes(include="object").columns:
@@ -59,26 +57,8 @@ evolution_cumul(pj, "Jurys présidés cumulés au fil des années",
 #| echo: false
 #| layout-ncol: 2
 
-# Bar horizontal par formation
-fc = pj["formation"].value_counts().head(10).reset_index()
-fc.columns = ["formation", "count"]
-fig = px.bar(fc.sort_values("count"), x="count", y="formation", orientation="h", text="count",
-              title="Top 10 formations (jurys)",
-              color="count", color_continuous_scale=[[0, "#FFEBEE"], [1, "#C8102E"]])
-fig.update_traces(textposition="outside")
-fig.update_layout(coloraxis_showscale=False)
-base_layout(fig, height=400)
-fig.show()
-
-# Donut perimetre
-pc = pj["perimetre"].value_counts().head(8).reset_index()
-pc.columns = ["perimetre", "count"]
-fig = px.pie(pc, names="perimetre", values="count", hole=0.55,
-              color_discrete_sequence=ESPRIT,
-              title="Répartition par périmètre")
-fig.update_traces(textposition="outside", textinfo="label+percent")
-base_layout(fig, height=400)
-fig.show()
+mpl_barh(pj["formation"].value_counts().head(10), "Top 10 formations (jurys)")
+mpl_donut(pj["perimetre"].value_counts().head(8), "Répartition par périmètre")
 ```
 
 ## Liste détaillée des jurys présidés
