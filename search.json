@@ -1607,7 +1607,7 @@
     "href": "encadrement-projets.html#maintenir-ces-données",
     "title": "Encadrement des projets",
     "section": "Maintenir ces données",
-    "text": "Maintenir ces données\ndata/\n├── ai4u_projects.csv             48 projets AI4U (Maître stage / PO / Stage d'été)\n├── encadrement_academique.csv    352 lignes (202 encadrements + 150 rapports évalués)\n└── president_jury.csv            292 jurys présidés\nPour rafraîchir depuis le fichier Excel maître :\npython scripts/extract_encadrements.py\nquarto render encadrement-projets.qmd"
+    "text": "Maintenir ces données\ndata/\n├── ai4u_projects.csv             48 projets AI4U (Maître stage / PO / Stage d'été)\n├── encadrants.csv                202 encadrements (liste séparée)\n├── rapporteurs.csv               150 rapports évalués (liste séparée)\n└── president_jury.csv            292 jurys présidés\nPour rafraîchir depuis le fichier Excel maître :\npython scripts/extract_encadrements.py\nquarto render encadrement-projets.qmd"
   },
   {
     "objectID": "recherche.html",
