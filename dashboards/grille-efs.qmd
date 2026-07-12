@@ -26,7 +26,6 @@ COLOR_OK = "#2E7D32"
 LIVRABLES = {
     "Livrable 1 — Production RDI": {
         "obtenu": 66, "max": 90,
-        "icon": "📄",
         "rubriques": [
             ("Publications scientifiques", 30, 50),
             ("Production technique", 18, 20),
@@ -35,7 +34,6 @@ LIVRABLES = {
     },
     "Livrable 2 — Production Pédagogique": {
         "obtenu": 56, "max": 65,
-        "icon": "🎓",
         "rubriques": [
             ("Supports pédagogiques (SPOC, capsules)", 26, 30),
             ("Intégration de technologies", 18, 20),
@@ -44,7 +42,6 @@ LIVRABLES = {
     },
     "Livrable 3 — Grille 3.1 RDI/Socio": {
         "obtenu": 17.5, "max": 20,
-        "icon": "🌍",
         "rubriques": [
             ("Activités socio-éco / socio-culturel", 3.5, 4),
             ("Encadrements RDI / Socio-culturels", 4.5, 5),
@@ -55,7 +52,6 @@ LIVRABLES = {
     },
     "Livrable 3 — Grille 3.2 Pédagogique": {
         "obtenu": 33, "max": 35,
-        "icon": "📚",
         "rubriques": [
             ("Accompagnement Moniteurs/AT/EF", 9, 10),
             ("Développement professionnel", 9, 10),
@@ -65,7 +61,6 @@ LIVRABLES = {
     },
     "Livrable 3 — Grille 3.3 Rayonnement": {
         "obtenu": 53, "max": 60,
-        "icon": "🏆",
         "rubriques": [
             ("Animation de formations", 9, 10),
             ("Organisation de manifestations", 9, 10),
@@ -77,7 +72,6 @@ LIVRABLES = {
     },
     "Grille 4 — Dossier & Entretien": {
         "obtenu": 0, "max": 70,
-        "icon": "💬",
         "rubriques": [
             ("Évaluation du Dossier", 0, 20),
             ("Évaluation de la Présentation", 0, 20),
@@ -89,6 +83,11 @@ LIVRABLES = {
 total_obtenu = sum(v["obtenu"] for v in LIVRABLES.values())
 total_max = sum(v["max"] for v in LIVRABLES.values())
 pct = round(100 * total_obtenu / total_max, 1) if total_max else 0
+JURY_MAX = LIVRABLES["Grille 4 — Dossier & Entretien"]["max"]
+auto_max = total_max - JURY_MAX                      # points auto-évaluables (/270)
+auto_pct = round(100 * total_obtenu / auto_max, 1) if auto_max else 0
+seuil = int(total_max * 0.70)
+manque_g4 = max(0, seuil - total_obtenu)             # à obtenir en Grille 4
 
 # Libellés courts pour les axes des barplots
 SHORT = {
@@ -127,32 +126,31 @@ dict(
 
 ```{python}
 #| content: valuebox
+#| title: "Points auto-evaluables (/270)"
+dict(
+    icon="clipboard-check",
+    color="success",
+    value=f"{auto_pct}%",
+)
+```
+
+```{python}
+#| content: valuebox
 #| title: "Seuil indicatif (70%)"
 dict(
     icon="bullseye",
     color="warning",
-    value=f"{int(total_max * 0.70)} pts",
+    value=f"{seuil} pts",
 )
 ```
 
 ```{python}
 #| content: valuebox
-#| title: "Reste a obtenir"
+#| title: "A obtenir en Grille 4 (jury, /70)"
 dict(
-    icon="hourglass-split",
+    icon="chat-square-text",
     color="secondary",
-    value=int(total_max - total_obtenu),
-)
-```
-
-```{python}
-#| content: valuebox
-#| title: "Livrables a finaliser"
-n_left = sum(1 for v in LIVRABLES.values() if v["obtenu"] < v["max"])
-dict(
-    icon="list-check",
-    color="danger",
-    value=n_left,
+    value=f"{manque_g4:g} pts",
 )
 ```
 
@@ -261,15 +259,17 @@ import pandas as pd
 rows_table = []
 for liv, info in LIVRABLES.items():
     for rub_name, rub_obtenu, rub_max in info["rubriques"]:
-        pct = round(100 * rub_obtenu / rub_max, 1) if rub_max else 0
-        bar = "█" * int(pct / 5) + "░" * (20 - int(pct / 5))
+        p = round(100 * rub_obtenu / rub_max, 1) if rub_max else 0
+        bar = (f'<div style="background:#E6E8EC;border-radius:5px;height:10px;'
+               f'width:130px;overflow:hidden">'
+               f'<div style="background:#C8102E;height:10px;width:{p}%"></div></div>')
         rows_table.append({
-            "Livrable": liv,
+            "Livrable": SHORT[liv],
             "Sous-rubrique": rub_name,
             "Barème": f"/{rub_max}",
             "Obtenu": rub_obtenu,
             "Avancement": bar,
-            "%": f"{pct}%",
+            "%": f"{p:g}%",
         })
 
 df_table = pd.DataFrame(rows_table)
@@ -277,6 +277,74 @@ from itables import init_notebook_mode, show
 init_notebook_mode(all_interactive=True, connected=True)
 show(df_table, lengthMenu=[10, 25], classes="display compact", paging=False)
 ```
+
+# Justifications
+
+## Row
+
+::: {.card title="Livrable 1 — Production RDI : 66/90"}
+
+| Rubrique | Note | Fondement factuel (références dans les livrables) |
+|---|---:|---|
+| Publications scientifiques | 22→**30**/50 | Article **IJQSS** accepté (Emerald, Scopus/WoS, `IJQSS-02-2026-0065`) · 8 communications dont **Best Paper AfricaTek 2025** et **1er + 2e prix WEITA 2026** (2e prix en auteur unique) · 2 soumissions IEEE CIFEr 2026 (#166 auteur unique, #130) |
+| Production technique | **18**/20 | 17 prototypes · **ESB-Learning** (5 agents, MCP, RAG hybride, TunBERT — **PI déposée**) · RecruScore (12 agents) · **FARDI : 1 projet financé** · Tekouin : 4 959 étudiants, 19 733 usages |
+| Projet RDI 2 ans | **18**/20 | Plan 2026-2028 en 4 axes, jalonné An1/An2 (50 → 3 000 étudiants) · **WG USPI** (concepteur + Management Team) : 1er livrable déjà accepté (IJQSS) · conformité RGPD + Loi 2004-63 |
+
+:::
+
+## Row
+
+::: {.card title="Livrable 2 — Production Pédagogique : 56/65"}
+
+| Rubrique | Note | Fondement factuel |
+|---|---:|---|
+| Supports pédagogiques | **26**/30 | **39 fiches modules** (contribution personnelle explicitée) · 32 dépôts GitHub · **72 syllabi BGA** · 28 modules scénarisés Blackboard (parcours adaptatifs à 3 niveaux) · capsules YouTube |
+| Intégration de technologies | **18**/20 | Chaîne **Tekouin → ESB-Learning (CAR) → BGA (PLAR)** · épreuves sur machine (22 cours-piliers) avec anti-triche · feedback continu FB1/FB2/FB3 + fiches ARC |
+| Apport de l'expérience professionnelle | **12**/15 | **SAP Academy : 40 étudiants certifiés** · Orange B2B (30 collaborateurs) · conventions IT LAND, iCompass · données réelles : Pluxee (380 Mo), Covéa, Vermeg · GAMMA reconnu **Master d'Actuariat** (ATA) |
+
+:::
+
+## Row
+
+::: {.card title="Grille 3.1 — RDI et Socio-culturelles : 17,5/20 · Grille 3.2 — Pédagogiques : 33/35"}
+
+| Rubrique | Note | Fondement factuel |
+|---|---:|---|
+| 3.1 · Socio-éco / socio-culturel | **3,5**/4 | B-Movie : festivals FESPACO / Fest-In avec les ambassades · hackathon inclusif AI Serving Deaf · JOI ×3 |
+| 3.1 · Encadrements RDI / Socio | **4,5**/5 | 47 encadrements RDI · **co-encadrement international AI4U × LMM** (2 mémoires, données Covéa) · 6 stages d'été |
+| 3.1 · Contribution équipes RDI | **3**/3 | **Head of Research Team AI4U** · 3 WG actifs · membre GRAFiCS depuis 2018 |
+| 3.1 · Coaching clubs | **3,5**/4 | 2 clubs fondés et actifs (B-Movie 2018, MAD 2020) · Bal de projets 2026 (formateur) |
+| 3.1 · Grand public | **3**/4 | **Couverture presse nationale** (B-Movie) · 3 capsules dirigées + vidéo promo Data & IA · webinaires 2020-2023 |
+| 3.2 · Accompagnement Moniteurs/AT/EF | **9**/10 | ToT : 6 sessions, **87 participations** · Knowledge Sharing IMA & AI4U · **mentor de 5 stagiaires dont 2 promus EF** · workshop BGA (5 j, 30 enseignants, animateur unique) |
+| 3.2 · Développement professionnel | **9**/10 | **40+ certifications** (15 en 2019 → 40+) : DL Spec., TensorFlow Dev., DA-100… · reviewer WEITA 2026 |
+| 3.2 · Création de modules | **7,5**/7,5 | **39 modules créés/refondus** sur 43 · parcours M(AD)² conçu · dossier LSD préparé seul · Master GAMMA construit |
+| 3.2 · Encadrement d'étudiants | **7,5**/7,5 | **642 interventions PFE** (202 encadrés · 150 rapportés · 290 présidés) · 36 PI (28 conçus) · 30 séminaires |
+
+:::
+
+## Row
+
+::: {.card title="Grille 3.3 — Rayonnement : 53/60"}
+
+| Rubrique | Note | Fondement factuel |
+|---|---:|---|
+| Animation de formations | **9**/10 | ToT (87 participations) · workshop BGA 5 jours · Orange B2B · 5 dispositifs de soutien (APP0, BALC'ON, Tage Mage, Refresh your Maths, école d'été) |
+| Organisation de manifestations | **9**/10 | WEITA 2022 & 2026 · **SDAI'24-25** (comité scientifique + organisateur) · hackathons AiXCyber & AI Serving Deaf · workshop Actuariat & IA (FR-TN) · **IMAOC 2026** (comités scientifique et d'organisation) |
+| Responsabilités péda/admin | **18**/20 | **Chef du département IMA depuis 2019** · 8 mandats simultanés · 3 responsabilités antérieures menées à terme · Steering Committee BGA (72 syllabi, 16 CAR, 6 PLAR ≥ 60 %) |
+| Pilotage d'événements scientifiques | **4**/5 | SDAI'24-25 (int.) · IMAOC (18 pays) · responsable du concours d'admission ESB Cameroun (int.) |
+| Contrats-projets entreprises | **8**/10 | Conventions initiées : Jems, iCompass, ATA, SAP, Orange, IT LAND · **FARDI financé** · collaborations Metavoria ×4, ODDO-BHF ×2, Vermeg, Pluxee, Al TAQA, Vistasy, Historiar, Covéa |
+| Jurys de recrutement / grade | **5**/5 | **14 PVs de recrutement dont 8 sessions présidées** · 8 jurys de passage de grade EFA/EF (23 candidats, 1 présidence) |
+
+:::
+
+## Row
+
+::: {.card title="Lecture"}
+Chaque note est adossée aux pièces des livrables (preuves numérotées,
+annexes thématiques, identifiants externes). La **Grille 4 (/70)** — dossier,
+présentation, entretien — appartient au jury : avec 225,5 points auto-évalués,
+le seuil indicatif de 238 est atteint dès **12,5/70**.
+:::
 
 # Aide
 

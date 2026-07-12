@@ -226,13 +226,34 @@ fig.show()
 ## Row
 
 ::: {.card title="Explorer chaque activité en détail"}
-Ce tableau de bord donne la vue transversale ; chaque activité a sa page
-dédiée avec ses propres graphiques et sa liste complète :
 
-- **[Enseignement](../enseignements/index.html)** — vision pédagogique, récapitulatif des modules, supports
-- **[Encadrement](../encadrement/index.html)** — encadrements académiques, rapporteur, président de jury, projets AI4U
-- **[Certifications](../certifications.html)** — formations et certifications par organisme
-- **[Responsabilités](../responsabilites.html)** — responsabilités pédagogiques et administratives
-- **[Événements](../evenements.html)** — concours, animations, écoles d'été, mobilités
-- **[Grille EFS — Score /340](grille-efs.html)** — tracker du dossier de passage de grade
+```{=html}
+<div class="entry-grid">
+  <a class="entry-card" href="../enseignements/index.html">
+    <div class="entry-title">Enseignement</div>
+    <div class="entry-desc">Vision pédagogique, récapitulatif des modules, supports de cours.</div>
+  </a>
+  <a class="entry-card" href="../encadrement/index.html">
+    <div class="entry-title">Encadrement</div>
+    <div class="entry-desc">Encadrements académiques, rapporteur, président de jury, projets AI4U.</div>
+  </a>
+  <a class="entry-card" href="../certifications.html">
+    <div class="entry-title">Certifications</div>
+    <div class="entry-desc">Formations et certifications par organisme, 2019 → 2026.</div>
+  </a>
+  <a class="entry-card" href="../responsabilites.html">
+    <div class="entry-title">Responsabilités</div>
+    <div class="entry-desc">Responsabilités pédagogiques et administratives.</div>
+  </a>
+  <a class="entry-card" href="../evenements.html">
+    <div class="entry-title">Événements</div>
+    <div class="entry-desc">Concours, animations, écoles d'été, mobilités.</div>
+  </a>
+  <a class="entry-card" href="grille-efs.html">
+    <div class="entry-title">Grille EFS — Score /340</div>
+    <div class="entry-desc">Auto-évaluation du dossier de passage de grade, justifications incluses.</div>
+  </a>
+</div>
+```
+
 :::
