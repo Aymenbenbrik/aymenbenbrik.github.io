@@ -338,59 +338,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div class="workflow-strip" role="list" aria-label="Workflow d'encadrement en sept étapes">
-<div class="workflow-step" role="listitem" style="background:#C8102E">
-<b>1</b>Choix du sujet
-</div>
-<div class="workflow-step" role="listitem" style="background:#B90E2A">
-<b>2</b>Cadrage
-</div>
-<div class="workflow-step" role="listitem" style="background:#AA0D27">
-<b>3</b>État de l’art
-</div>
-<div class="workflow-step" role="listitem" style="background:#9B0C23">
-<b>4</b>Développement / Expérimentation
-</div>
-<div class="workflow-step" role="listitem" style="background:#8C0B20">
-<b>5</b>Analyse des résultats
-</div>
-<div class="workflow-step" role="listitem" style="background:#7D091C">
-<b>6</b>Rapport
-</div>
-<div class="workflow-step" role="listitem" style="background:#6E0819">
-<b>7</b>Soutenance
-</div>
-</div>
+<div class="workflow-strip" role="list" aria-label="Workflow d'encadrement en sept étapes"><div class="workflow-step" role="listitem" style="background:#C8102E"><b>1</b>Choix du sujet</div><div class="workflow-step" role="listitem" style="background:#B90E2A"><b>2</b>Cadrage</div><div class="workflow-step" role="listitem" style="background:#AA0D27"><b>3</b>État de l'art</div><div class="workflow-step" role="listitem" style="background:#9B0C23"><b>4</b>Développement / Expérimentation</div><div class="workflow-step" role="listitem" style="background:#8C0B20"><b>5</b>Analyse des résultats</div><div class="workflow-step" role="listitem" style="background:#7D091C"><b>6</b>Rapport</div><div class="workflow-step" role="listitem" style="background:#6E0819"><b>7</b>Soutenance</div></div>
 </section>
 <section id="quatre-listes-quatre-pages" class="level3">
 <h3 class="anchored" data-anchor-id="quatre-listes-quatre-pages">Quatre listes, quatre pages</h3>
+
 <div class="entry-grid">
-<a class="entry-card" href="encadrements.html">
-<div class="entry-title">
-Encadrements académiques
+  <a class="entry-card" href="encadrements.html">
+    <div class="entry-title">Encadrements académiques</div>
+    <div class="entry-desc">PFE, mémoires et projets de fin d'études encadrés en tant qu'encadrant principal.</div>
+    <span class="entry-count">202 encadrements</span>
+  </a>
+  <a class="entry-card" href="rapporteur.html">
+    <div class="entry-title">Rapporteur</div>
+    <div class="entry-desc">Rapports de PFE et mémoires évalués au sein des jurys de soutenance.</div>
+    <span class="entry-count">150 rapports évalués</span>
+  </a>
+  <a class="entry-card" href="president-jury.html">
+    <div class="entry-title">Président de jury</div>
+    <div class="entry-desc">Jurys de soutenance présidés, toutes formations confondues.</div>
+    <span class="entry-count">292 jurys présidés</span>
+  </a>
+  <a class="entry-card" href="ai4u.html">
+    <div class="entry-title">Projets AI4U</div>
+    <div class="entry-desc">Maître de stage, Product Owner et stages d'été au sein de l'équipe de recherche AI4U.</div>
+    <span class="entry-count">48 projets</span>
+  </a>
 </div>
-<pre><code>&lt;div class="entry-desc"&gt;PFE, mémoires et projets de fin d'études encadrés en tant qu'encadrant principal.&lt;/div&gt;
-&lt;span class="entry-count"&gt;202 encadrements&lt;/span&gt;</code></pre>
-</a> <a class="entry-card" href="rapporteur.html">
-<div class="entry-title">
-Rapporteur
-</div>
-<pre><code>&lt;div class="entry-desc"&gt;Rapports de PFE et mémoires évalués au sein des jurys de soutenance.&lt;/div&gt;
-&lt;span class="entry-count"&gt;150 rapports évalués&lt;/span&gt;</code></pre>
-</a> <a class="entry-card" href="president-jury.html">
-<div class="entry-title">
-Président de jury
-</div>
-<pre><code>&lt;div class="entry-desc"&gt;Jurys de soutenance présidés, toutes formations confondues.&lt;/div&gt;
-&lt;span class="entry-count"&gt;292 jurys présidés&lt;/span&gt;</code></pre>
-</a> <a class="entry-card" href="ai4u.html">
-<div class="entry-title">
-Projets AI4U
-</div>
-<pre><code>&lt;div class="entry-desc"&gt;Maître de stage, Product Owner et stages d'été au sein de l'équipe de recherche AI4U.&lt;/div&gt;
-&lt;span class="entry-count"&gt;48 projets&lt;/span&gt;</code></pre>
-</a><p><a class="entry-card" href="ai4u.html"></a></p>
-</div>
+
 <hr>
 </section>
 <section id="maintenir-ces-données" class="level2">
@@ -401,8 +376,8 @@ Projets AI4U
 ├── rapporteurs.csv               150 rapports évalués (liste séparée)
 └── president_jury.csv            292 jurys présidés</code></pre>
 <p>Pour rafraîchir depuis le fichier Excel maître :</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> scripts/extract_encadrements.py</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render encadrement/</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> scripts/extract_encadrements.py</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render encadrement/</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
