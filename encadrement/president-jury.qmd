@@ -56,6 +56,9 @@ evolution_cumul(pj, "Jurys présidés cumulés au fil des années",
 ```{python}
 #| echo: false
 #| layout-ncol: 2
+#| fig-alt:
+#|   - "Barres horizontales des dix formations où le plus de jurys ont été présidés"
+#|   - "Donut de répartition des jurys présidés par périmètre de formation, total au centre"
 
 mpl_barh(pj["formation"].value_counts().head(10), "Top 10 formations (jurys)")
 mpl_donut(pj["perimetre"].value_counts().head(8), "Répartition par périmètre")

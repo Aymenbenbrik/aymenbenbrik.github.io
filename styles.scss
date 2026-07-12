@@ -34,6 +34,39 @@ $font-family-monospace: "JetBrains Mono", "Cascadia Code", Consolas, monospace;
 /*-- scss:rules --*/
 
 // =====================================================
+// Accessibilité
+// =====================================================
+
+// Lien d'évitement : invisible jusqu'au focus clavier
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 2000;
+  background: $ink;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0 0 8px 0;
+  font-weight: 600;
+
+  &:focus {
+    left: 0;
+    color: white;
+  }
+}
+
+// Respect de la préférence "réduire les animations"
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+  a.entry-card:hover, .domain-card:hover {
+    transform: none;
+  }
+}
+
+// =====================================================
 // Navigation
 // =====================================================
 

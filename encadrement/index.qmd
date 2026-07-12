@@ -69,8 +69,10 @@ de simulations orales. Mon objectif final : que chaque étudiant développe son
 
 steps = ["Choix du sujet", "Cadrage", "État de l'art", "Développement / Expérimentation",
          "Analyse des résultats", "Rapport", "Soutenance"]
+# dégradé du rouge ESB : encode la progression, contraste AA garanti (blanc sur fond)
+SHADES = ["#C8102E", "#B90E2A", "#AA0D27", "#9B0C23", "#8C0B20", "#7D091C", "#6E0819"]
 items = "".join(
-    f'<div class="workflow-step" style="background:{ESPRIT[i % len(ESPRIT)]}"><b>{i+1}</b>{s}</div>'
+    f'<div class="workflow-step" role="listitem" style="background:{SHADES[i]}"><b>{i+1}</b>{s}</div>'
     for i, s in enumerate(steps)
 )
 label = "Workflow d'encadrement en sept étapes"

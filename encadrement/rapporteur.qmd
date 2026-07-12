@@ -56,6 +56,9 @@ evolution_cumul(rap, "Rapports évalués cumulés au fil des années",
 ```{python}
 #| echo: false
 #| layout-ncol: 2
+#| fig-alt:
+#|   - "Barres horizontales du nombre de rapports évalués par formation"
+#|   - "Donut de répartition des rapports évalués par niveau (Licence / Master), total au centre"
 
 mpl_barh(rap["formation"].value_counts(), "Rapports évalués par formation", couleur="#6A1B9A")
 mpl_donut(rap["niveau"].str.strip().value_counts(), "Répartition par niveau",

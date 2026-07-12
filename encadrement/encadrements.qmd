@@ -58,6 +58,9 @@ evolution_cumul(enc, "Encadrements cumulés au fil des années",
 ```{python}
 #| echo: false
 #| layout-ncol: 2
+#| fig-alt:
+#|   - "Barres horizontales du nombre d'encadrements par domaine"
+#|   - "Donut de répartition des encadrements par niveau (Licence / Master), total au centre"
 
 mpl_barh(enc["domaine"].value_counts(), "Encadrements par domaine", couleur="#0277BD")
 mpl_donut(enc["niveau"].str.strip().value_counts(), "Répartition par niveau",

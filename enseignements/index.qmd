@@ -89,24 +89,24 @@ def render_table(d_df, table_id):
     # Filtres
     filters = f'''
 <div class="teaching-filters">
-  <label>Recherche :</label>
+  <label for="{table_id}-search">Recherche :</label>
   <input type="text" id="{table_id}-search" placeholder="nom du module..." oninput="filterTeaching('{table_id}')">
-  <label>Année :</label>
+  <label for="{table_id}-annee">Année :</label>
   <select id="{table_id}-annee" onchange="filterTeaching('{table_id}')">
     <option value="">Toutes</option>
     {''.join(f'<option value="{a}">{a}</option>' for a in annees)}
   </select>
-  <label>Niveau :</label>
+  <label for="{table_id}-niveau">Niveau :</label>
   <select id="{table_id}-niveau" onchange="filterTeaching('{table_id}')">
     <option value="">Tous</option>
     {''.join(f'<option value="{n}">{n}</option>' for n in niveaux)}
   </select>
-  <label>École :</label>
+  <label for="{table_id}-ecole">École :</label>
   <select id="{table_id}-ecole" onchange="filterTeaching('{table_id}')">
     <option value="">Toutes</option>
     {''.join(f'<option value="{e}">{e}</option>' for e in ecoles)}
   </select>
-  <label>Langue :</label>
+  <label for="{table_id}-langue">Langue :</label>
   <select id="{table_id}-langue" onchange="filterTeaching('{table_id}')">
     <option value="">Toutes</option>
     <option value="EN">Anglais</option>

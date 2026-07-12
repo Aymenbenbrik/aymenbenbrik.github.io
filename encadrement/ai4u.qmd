@@ -68,6 +68,9 @@ mpl_donut(ai4u["role"].value_counts(), "Répartition par rôle")
 ```{python}
 #| echo: false
 #| layout-ncol: 2
+#| fig-alt:
+#|   - "Barres horizontales du nombre de projets AI4U par domaine"
+#|   - "Donut de répartition des projets AI4U par statut (terminé, en cours), total au centre"
 
 mpl_barh(ai4u["domaine"].value_counts(), "Projets par domaine")
 mpl_donut(ai4u["statut"].value_counts(), "Statut des projets",
