@@ -1817,28 +1817,14 @@
     "href": "index.html",
     "title": "Aymen Ben Brik",
     "section": "",
-    "text": "Chef département Informatique et mathématiques appliquées à Esprit School of Business depuis 2019, Head of Research Team AI4U chez Esprit Tech depuis 2023, et AI Instructor au Training of Trainers Departement.\nReprésentant d’ESB à la Honoris Task Force AI Team (HUU) et Co-Responsable du programme Alternance Business Analytics oriented Generative AI en partenariat avec Jems Group.\nMon enseignement et ma recherche couvrent les mathématiques appliquées, les statistiques, la recherche opérationnelle, le machine learning, le deep learning et l’actuariat, avec une emphase sur la pédagogie augmentée par l’IA."
+    "text": "J’enseigne les mathématiques et l’intelligence artificielle — et je pilote chaque semestre par les données.\n\n\n  Boucle pédagogique : mesurer, analyser, agir\n  \n    \n      \n    \n  \n  \n    \n    \n    \n  \n  \n    Mesurer\n    Analyser\n    Agir\nChef du département Informatique et mathématiques appliquées à Esprit School of Business, je dirige l’équipe de recherche AI4U (Esprit Tech) et représente ESB à la Task Force IA de Honoris United Universities. Mon terrain : la pédagogie augmentée par l’IA — du cours d’algèbre au déploiement d’agents intelligents."
   },
   {
-    "objectID": "index.html#bienvenue",
-    "href": "index.html#bienvenue",
+    "objectID": "index.html#parcours",
+    "href": "index.html#parcours",
     "title": "Aymen Ben Brik",
-    "section": "",
-    "text": "Chef département Informatique et mathématiques appliquées à Esprit School of Business depuis 2019, Head of Research Team AI4U chez Esprit Tech depuis 2023, et AI Instructor au Training of Trainers Departement.\nReprésentant d’ESB à la Honoris Task Force AI Team (HUU) et Co-Responsable du programme Alternance Business Analytics oriented Generative AI en partenariat avec Jems Group.\nMon enseignement et ma recherche couvrent les mathématiques appliquées, les statistiques, la recherche opérationnelle, le machine learning, le deep learning et l’actuariat, avec une emphase sur la pédagogie augmentée par l’IA."
-  },
-  {
-    "objectID": "index.html#indicateurs-clés",
-    "href": "index.html#indicateurs-clés",
-    "title": "Aymen Ben Brik",
-    "section": "Indicateurs clés",
-    "text": "Indicateurs clés\n\n\n\n  10Années d'enseignement ESB\n  42Modules différents\n  4716Heures cumulées\n  692Encadrements & jurys\n  43Certifications\n  27Responsabilités"
-  },
-  {
-    "objectID": "index.html#postes-actuels",
-    "href": "index.html#postes-actuels",
-    "title": "Aymen Ben Brik",
-    "section": "Postes actuels",
-    "text": "Postes actuels\n\nChef département Informatique et mathématiques appliquées · ESB · depuis 2019\nDépartement Informatique et mathématiques appliquées\nDirection du département, supervision des enseignants, coordination pédagogique, jurys de recrutement, partenariats académiques.\n\n\nHead of Research Team AI4U · Esprit Tech · depuis 2023\nArtificial Intelligence 4 University\nDirection d’une équipe de recherche dédiée aux applications de l’intelligence artificielle dans l’enseignement supérieur.\n\n\nAI Instructor · Training of Trainers · ESB · depuis 2023\nSessions de formation spécialisées en AI, Machine Learning, Deep Learning, Data Analysis, NLP, Transformers et LLM pour les formateurs internes.\n\n\nCo-Responsible Alternance Program — Generative AI · ESB × Jems Group · depuis 2024\nProgramme Business Analytics oriented to Generative Artificial Intelligence en partenariat avec Jems Group.\n\n\nHUU Task Force AI Team · Honoris United University · depuis 2024\nRepresentative of ESB au sein de la Task Force AI de Honoris United University, réseau de 11 institutions d’enseignement supérieur sur 10 pays.\n\n\nTekouin Administrator · ESB · depuis 2020\nAdministration de la plateforme Tekouin — e-learning de coding pour les étudiants ESB.\n\n\nArchitecte & développeur — ESB-Learning · depuis 2024\nConception et développement d’une plateforme d’apprentissage adaptatif à architecture nativement Agentic AI pour ESB : 5 agents autonomes (LangGraph ReAct + StateGraph), 37 composants IA, RAG hybride (ChromaDB + BM25 + YouTube), intégration TunBERT pour le dialecte tunisien, sandbox Piston multi-langage. Détails en Recherche."
+    "section": "Parcours",
+    "text": "Parcours\n\n  2024 — Architecte & développeur de la plateforme ESB-Learning (apprentissage adaptatif, architecture Agentic AI)\n  2024 — Co-responsable du programme Alternance Business Analytics × Generative AI, ESB × Jems Group\n  2024 — Représentant ESB, Task Force AI, Honoris United Universities (11 institutions, 10 pays)\n  2023 — Head of Research Team AI4U, Esprit Tech\n  2023 — AI Instructor, Training of Trainers, ESB (ML, DL, NLP, Transformers, LLM)\n  2020 — Administrateur Tekouin, plateforme e-learning de coding, ESB\n  2019 — Chef du département Informatique et mathématiques appliquées, ESB"
   },
   {
     "objectID": "index.html#domaines-dexpertise",
@@ -1848,11 +1834,11 @@
     "text": "Domaines d’expertise\n\n\nMathématiques appliquées\n\nAlgèbre linéaire et bilinéaire\nAnalyse à plusieurs variables\nProbabilités et statistiques avancées\nRéduction des endomorphismes, ACP\nIntégration, théorie de la mesure\n\n\n\nAide à la décision\n\nRecherche opérationnelle\nProgrammation linéaire, simplexe\nThéorie des graphes, ordonnancement\nOptimisation de portefeuille\nGeneralized Linear Models\n\n\n\nIA & Data Science\n\nMachine Learning (Python, R)\nDeep Learning (DNN, CNN, RNN, Transformers)\nNLP, LLM, Generative AI\nGenerative Computer Vision\nTableau, Power BI, Plotly\n\n\n\nActuariat & Finance\n\nProcessus stochastiques, Markov, Poisson\nMouvement Brownien, Monte Carlo\nGestion de portefeuille\nStatistiques non paramétriques\nModèles linéaires généralisés"
   },
   {
-    "objectID": "index.html#modules-actuels",
-    "href": "index.html#modules-actuels",
+    "objectID": "index.html#modules-de-lannée",
+    "href": "index.html#modules-de-lannée",
     "title": "Aymen Ben Brik",
-    "section": "Modules actuels",
-    "text": "Modules actuels\n\nAlgèbre 2 (ECUE211)\nEspaces vectoriels · Matrices · Déterminants — S2 LMAD/SD · 84h · 7 ECTS\n\n\nAlgèbre 3 (ECUE311)\nRéduction · Normes · Espaces euclidiens · Formes quadratiques · ACP — S2 · 75h · 7 ECTS\n\n\nProbabilités (ECUE411)\nVariables aléatoires · Lois usuelles · Théorèmes limites — S4 LMAD · 84h · 7 ECTS\n\n\nAnalyse 4 (ECUE421)\nTopologie · Calcul différentiel · Descente de gradient — S4 LMAD · 84h · 7 ECTS\n\n\nRecherche Opérationnelle (ECUEO412)\nProgrammation linéaire · Théorie des graphes — 42h\n\n\nPortfolio Optimization · 2025–2026 · NEW\nOptimisation de portefeuille — Master GAMMA / Alternance BA · 42h"
+    "section": "Modules de l’année",
+    "text": "Modules de l’année\n\nAlgèbre 2 (ECUE211) — Espaces vectoriels, matrices, déterminants · S2 LMAD/SD · 84 h\nAlgèbre 3 (ECUE311) — Réduction, espaces euclidiens, formes quadratiques, ACP · 75 h\nProbabilités (ECUE411) — Variables aléatoires, lois usuelles, théorèmes limites · S4 LMAD · 84 h\nAnalyse 4 (ECUE421) — Topologie, calcul différentiel, descente de gradient · S4 LMAD · 84 h\nRecherche Opérationnelle (ECUEO412) — Programmation linéaire, théorie des graphes · 42 h\nPortfolio Optimization — Master GAMMA / Alternance BA · 42 h · nouveau module\n\nCatalogue complet des modules →"
   },
   {
     "objectID": "enseignements/machine-learning.html",
