@@ -1,10 +1,11 @@
 """
-Extrait et nettoie les donnees du fichier encadrement.xlsx vers 3 CSVs prets
-pour la page Encadrement des projets.
+Extrait et nettoie les donnees du fichier 'encadrement et activites.xlsx'
+vers 4 CSVs prets pour la page Encadrement des projets.
 
 Genere :
-  - data/ai4u_projects.csv         (Maitre de stage / PO / Stage d'ete)
-  - data/encadrement_academique.csv (Encadrant + Rapporteur consolides)
+  - data/ai4u_projects.csv   (Maitre de stage / PO / Stage d'ete)
+  - data/encadrants.csv      (Encadrant academique uniquement)
+  - data/rapporteurs.csv     (Rapporteur uniquement)
   - data/president_jury.csv
 
 Auteur : Aymen Ben Brik
@@ -127,16 +128,14 @@ ai4u_df = pd.DataFrame(ai4u_rows)
 ai4u_df.to_csv(OUT / "ai4u_projects.csv", index=False)
 print(f"  -> {OUT / 'ai4u_projects.csv'} ({len(ai4u_df)} lignes)")
 
-# === 2. Encadrement academique (Encadrant + Rapporteur) ===
-print("\n[2] Encadrement academique")
+# === 2a. Encadrants (liste separee) ===
+print("\n[2a] Encadrants")
 enc = load("Encadrant Académique")
 print(f"  Encadrant : {len(enc)} lignes")
-rap = load("Rapporteur")
-print(f"  Rapporteur : {len(rap)} lignes")
 
-acad_rows = []
+enc_rows = []
 for _, r in enc.iterrows():
-    acad_rows.append({
+    enc_rows.append({
         "annee": r["Année"],
         "nom": r["Nom"],
         "prenom": r.get("Prénom", ""),
@@ -149,10 +148,20 @@ for _, r in enc.iterrows():
         "mention": str(r.get("Mention") or ""),
         "statut": to_status(r.get("Remarque"), r.get("Mention")),
     })
+enc_df = pd.DataFrame(enc_rows)
+enc_df.to_csv(OUT / "encadrants.csv", index=False)
+print(f"  -> {OUT / 'encadrants.csv'} ({len(enc_df)} lignes)")
+
+# === 2b. Rapporteurs (liste separee) ===
+print("\n[2b] Rapporteurs")
+rap = load("Rapporteur")
+print(f"  Rapporteur : {len(rap)} lignes")
+
+rap_rows = []
 for _, r in rap.iterrows():
     annee_str = str(r["Année"]).strip()
     statut = "En cours" if annee_str.startswith("2025") else "Soutenu"
-    acad_rows.append({
+    rap_rows.append({
         "annee": r["Année"],
         "nom": r["Nom"],
         "prenom": r.get("Prénom", ""),
@@ -165,9 +174,11 @@ for _, r in rap.iterrows():
         "mention": "",
         "statut": statut,
     })
-acad_df = pd.DataFrame(acad_rows)
-acad_df.to_csv(OUT / "encadrement_academique.csv", index=False)
-print(f"  -> {OUT / 'encadrement_academique.csv'} ({len(acad_df)} lignes)")
+rap_df = pd.DataFrame(rap_rows)
+rap_df.to_csv(OUT / "rapporteurs.csv", index=False)
+print(f"  -> {OUT / 'rapporteurs.csv'} ({len(rap_df)} lignes)")
+
+acad_df = pd.concat([enc_df, rap_df], ignore_index=True)
 
 # === 3. President de jury ===
 print("\n[3] President de jury")

@@ -48,16 +48,17 @@ from IPython.display import HTML
 try:
     # Source : enseignements_detailed.csv (genere depuis Enseignement.xlsx)
     enseignements = pd.read_csv("data/enseignements_detailed.csv")
-    # Sources encadrement : 3 CSVs generes depuis encadrement.xlsx
+    # Sources encadrement : 4 CSVs generes depuis 'encadrement et activites.xlsx'
     ai4u = pd.read_csv("data/ai4u_projects.csv")
-    acad = pd.read_csv("data/encadrement_academique.csv")
+    enc = pd.read_csv("data/encadrants.csv")
+    rap = pd.read_csv("data/rapporteurs.csv")
     pj = pd.read_csv("data/president_jury.csv")
     certifications = pd.read_csv("data/certifications.csv")
     responsabilites = pd.read_csv("data/responsabilites.csv")
 
     n_modules = enseignements["nom_module"].nunique()
     n_heures_total = int(enseignements["charge_horaire"].sum())
-    n_etudiants = int(len(ai4u) + len(acad) + len(pj))
+    n_etudiants = int(len(ai4u) + len(enc) + len(rap) + len(pj))
     n_certifs = int(certifications.shape[0])
     n_resp = int(responsabilites.shape[0])
     n_annees = enseignements["annee"].nunique()

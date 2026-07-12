@@ -26,11 +26,12 @@ def base_layout(fig, height=320):
     return fig
 
 ai4u = pd.read_csv("data/ai4u_projects.csv")
-acad = pd.read_csv("data/encadrement_academique.csv")
+enc = pd.read_csv("data/encadrants.csv")
+rap = pd.read_csv("data/rapporteurs.csv")
 pj = pd.read_csv("data/president_jury.csv")
 
 # Nettoyage espaces
-for d in (ai4u, acad, pj):
+for d in (ai4u, enc, rap, pj):
     for c in d.select_dtypes(include="object").columns:
         d[c] = d[c].astype(str).str.strip()
 
@@ -42,12 +43,9 @@ def annee_int(s):
         return None
 
 ai4u["annee_int"] = ai4u["annee"].apply(annee_int)
-acad["annee_int"] = acad["annee"].apply(annee_int)
+enc["annee_int"] = enc["annee"].apply(annee_int)
+rap["annee_int"] = rap["annee"].apply(annee_int)
 pj["annee_int"] = pj["annee"].apply(annee_int)
-
-# Listes séparées : Encadrant / Rapporteur
-enc = acad[acad["role"] == "Encadrant"].copy()
-rap = acad[acad["role"] == "Rapporteur"].copy()
 
 # Visuels d'évolution temporelle réutilisables
 def evolution_bar(df, titre, palette):
@@ -488,7 +486,8 @@ show(table, lengthMenu=[15, 30, 50, 100], classes="display compact")
 ```
 data/
 ├── ai4u_projects.csv             48 projets AI4U (Maître stage / PO / Stage d'été)
-├── encadrement_academique.csv    352 lignes (202 encadrements + 150 rapports évalués)
+├── encadrants.csv                202 encadrements (liste séparée)
+├── rapporteurs.csv               150 rapports évalués (liste séparée)
 └── president_jury.csv            292 jurys présidés
 ```
 
