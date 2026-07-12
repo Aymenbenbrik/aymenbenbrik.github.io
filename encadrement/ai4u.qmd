@@ -12,7 +12,7 @@ import plotly.express as px
 
 import sys
 sys.path.insert(0, "../scripts")
-from theme import ESPRIT, base_layout, mpl_barh, mpl_donut
+from theme import ESPRIT, base_layout, mpl_barh
 
 from itables import init_notebook_mode, show
 init_notebook_mode(all_interactive=True, connected=True)
@@ -62,7 +62,7 @@ fig.update_xaxes(tickangle=-45)
 base_layout(fig)
 fig.show()
 
-mpl_donut(ai4u["role"].value_counts(), "Répartition par rôle")
+mpl_barh(ai4u["role"].value_counts(), "Répartition par rôle")
 ```
 
 ```{python}
@@ -70,11 +70,10 @@ mpl_donut(ai4u["role"].value_counts(), "Répartition par rôle")
 #| layout-ncol: 2
 #| fig-alt:
 #|   - "Barres horizontales du nombre de projets AI4U par domaine"
-#|   - "Donut de répartition des projets AI4U par statut (terminé, en cours), total au centre"
+#|   - "Barres horizontales de la répartition des projets AI4U par statut (terminé, en cours)"
 
 mpl_barh(ai4u["domaine"].value_counts(), "Projets par domaine")
-mpl_donut(ai4u["statut"].value_counts(), "Statut des projets",
-          colors=["#2E7D32", "#F57C00", "#9E9E9E"])
+mpl_barh(ai4u["statut"].value_counts(), "Statut des projets", couleur="#2E7D32")
 ```
 
 ## Liste des projets AI4U

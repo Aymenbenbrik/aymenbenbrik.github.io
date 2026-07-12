@@ -10,7 +10,7 @@ page-layout: full
 import pandas as pd
 import sys
 sys.path.insert(0, "../scripts")
-from theme import ESPRIT, evolution_bar, evolution_cumul, mpl_barh, mpl_donut
+from theme import ESPRIT, evolution_bar, evolution_cumul, mpl_barh
 
 from itables import init_notebook_mode, show
 init_notebook_mode(all_interactive=True, connected=True)
@@ -58,10 +58,10 @@ evolution_cumul(pj, "Jurys présidés cumulés au fil des années",
 #| layout-ncol: 2
 #| fig-alt:
 #|   - "Barres horizontales des dix formations où le plus de jurys ont été présidés"
-#|   - "Donut de répartition des jurys présidés par périmètre de formation, total au centre"
+#|   - "Barres horizontales de la répartition des jurys présidés par périmètre de formation"
 
 mpl_barh(pj["formation"].value_counts().head(10), "Top 10 formations (jurys)")
-mpl_donut(pj["perimetre"].value_counts().head(8), "Répartition par périmètre")
+mpl_barh(pj["perimetre"].value_counts().head(8), "Répartition par périmètre")
 ```
 
 ## Liste détaillée des jurys présidés

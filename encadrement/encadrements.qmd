@@ -12,7 +12,7 @@ aliases:
 import pandas as pd
 import sys
 sys.path.insert(0, "../scripts")
-from theme import ESPRIT, evolution_bar, evolution_cumul, mpl_barh, mpl_donut
+from theme import ESPRIT, evolution_bar, evolution_cumul, mpl_barh
 
 from itables import init_notebook_mode, show
 init_notebook_mode(all_interactive=True, connected=True)
@@ -60,11 +60,10 @@ evolution_cumul(enc, "Encadrements cumulés au fil des années",
 #| layout-ncol: 2
 #| fig-alt:
 #|   - "Barres horizontales du nombre d'encadrements par domaine"
-#|   - "Donut de répartition des encadrements par niveau (Licence / Master), total au centre"
+#|   - "Barres horizontales de la répartition des encadrements par niveau (Licence / Master)"
 
 mpl_barh(enc["domaine"].value_counts(), "Encadrements par domaine", couleur="#0277BD")
-mpl_donut(enc["niveau"].str.strip().value_counts(), "Répartition par niveau",
-          colors=[ESPRIT[3], ESPRIT[4], ESPRIT[1]])
+mpl_barh(enc["niveau"].str.strip().value_counts(), "Répartition par niveau", couleur="#0277BD")
 ```
 
 ## Liste des encadrements

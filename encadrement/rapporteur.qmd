@@ -10,7 +10,7 @@ page-layout: full
 import pandas as pd
 import sys
 sys.path.insert(0, "../scripts")
-from theme import ESPRIT, evolution_bar, evolution_cumul, mpl_barh, mpl_donut
+from theme import ESPRIT, evolution_bar, evolution_cumul, mpl_barh
 
 from itables import init_notebook_mode, show
 init_notebook_mode(all_interactive=True, connected=True)
@@ -58,11 +58,10 @@ evolution_cumul(rap, "Rapports évalués cumulés au fil des années",
 #| layout-ncol: 2
 #| fig-alt:
 #|   - "Barres horizontales du nombre de rapports évalués par formation"
-#|   - "Donut de répartition des rapports évalués par niveau (Licence / Master), total au centre"
+#|   - "Barres horizontales de la répartition des rapports évalués par niveau (Licence / Master)"
 
 mpl_barh(rap["formation"].value_counts(), "Rapports évalués par formation", couleur="#6A1B9A")
-mpl_donut(rap["niveau"].str.strip().value_counts(), "Répartition par niveau",
-          colors=[ESPRIT[3], ESPRIT[4], ESPRIT[1]])
+mpl_barh(rap["niveau"].str.strip().value_counts(), "Répartition par niveau", couleur="#6A1B9A")
 ```
 
 ## Liste des rapports évalués
