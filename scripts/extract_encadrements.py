@@ -13,7 +13,7 @@ from __future__ import annotations
 import pandas as pd
 from pathlib import Path
 
-XLSX = Path(r"C:\Users\aymen\OneDrive\Bureau\Passage de grade\encadrement.xlsx")
+XLSX = Path(r"C:\Users\aymen\OneDrive\Bureau\Passage de grade\encadrement et activités.xlsx")
 OUT = Path(__file__).resolve().parent.parent / "data"
 OUT.mkdir(exist_ok=True)
 

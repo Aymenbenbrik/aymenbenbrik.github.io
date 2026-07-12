@@ -117,4 +117,6 @@ execute:
   warning: false
   message: false
 
+jupyter: python3
+
 lang: fr

@@ -403,9 +403,9 @@ show(table, lengthMenu=[15, 30, 50, 100], classes="display compact")
 
 ```
 data/
-├── ai4u_projects.csv             46 projets AI4U (Maître stage / PO / Stage d'été)
-├── encadrement_academique.csv    319 encadrements (Encadrant + Rapporteur)
-└── president_jury.csv            255 jurys présidés
+├── ai4u_projects.csv             48 projets AI4U (Maître stage / PO / Stage d'été)
+├── encadrement_academique.csv    352 encadrements (Encadrant + Rapporteur)
+└── president_jury.csv            292 jurys présidés
 ```
 
 Pour rafraîchir depuis le fichier Excel maître :

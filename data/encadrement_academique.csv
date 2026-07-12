@@ -198,6 +198,9 @@ annee,nom,prenom,niveau,formation,perimetre,role,domaine,remarque,mention,statut
 2025-2026,TAJOURI,Dorra,Master,BA,Internationale,Encadrant,Data Science / IA,En cours,nan,En cours
 2025-2026,Tirari,Jamila,Master,MDSI,Vermeg,Encadrant,Data Science / IA,En cours,nan,En cours
 2025-2026,ZID,Houssem Eddine,Master,BA,Internationale,Encadrant,Data Science / IA,En cours,nan,En cours
+2025-2026,DLISSI,Syrine,Licence,LBC-BI,Initiale,Encadrant,Autre,En cours,nan,En cours
+2025-2026,EL BEZ,Youssef,Licence,LBC-BI,Initiale,Encadrant,Autre,En cours,nan,En cours
+2025-2026,GMIR,Selim,Licence,LBC-BI,Initiale,Encadrant,Autre,En cours,nan,En cours
 2018-2019,Saied,Mohamed Cherif,Licence,LFIG,DD,Rapporteur,Informatique,,,Soutenu
 2018-2019,Abidi,Ahmed,Licence,LFIG,DD,Rapporteur,Informatique,,,Soutenu
 2018-2019,Guemri,Malek,Licence,LFIG,Initiale,Rapporteur,Informatique,,,Soutenu
@@ -318,3 +321,33 @@ annee,nom,prenom,niveau,formation,perimetre,role,domaine,remarque,mention,statut
 2025-2026,OUAFI,Nourane,Master,MDSI,Vermeg,Rapporteur,Data Science / IA,,,En cours
 2025-2026,SOUMER ,Rania ,Master,MDSI,Vermeg,Rapporteur,Data Science / IA,,,En cours
 2025-2026,JEBALI,Ameni,Master,MDSI,Vermeg,Rapporteur,Data Science / IA,,,En cours
+2025-2026,JBARA,Mohamed Aziz,Licence,LBC-BIS,Initiale,Rapporteur,Autre,,,En cours
+2025-2026,MEJRI,Aya,Licence,LBC-BI,Initiale,Rapporteur,Autre,,,En cours
+2025-2026,BOUNHAS,Malek,Licence,LBC-BI,Initiale,Rapporteur,Autre,,,En cours
+2025-2026,SASSI,Sirine,Licence,LBC-BI,Initiale,Rapporteur,Autre,,,En cours
+2025-2026,JAZIRI,Fatma,Licence,LBC-BI,Initiale,Rapporteur,Autre,,,En cours
+2025-2026,BOUAOUAJA,Aya,Licence,LBC-BI,Initiale,Rapporteur,Autre,,,En cours
+2025-2026,GHARBI,Eya,Licence,LBC-BI,Internationale,Rapporteur,Autre,,,En cours
+2025-2026,LAZZEM,Zeineb,Licence,LBC-BI,Internationale,Rapporteur,Autre,,,En cours
+2025-2026,ZAYATI,Nour,Licence,LBC-BI,Internationale,Rapporteur,Autre,,,En cours
+2025-2026,CHEIKH AHMED,Meriem,Licence,LBC-BI,Initiale,Rapporteur,Autre,,,En cours
+2025-2026,DHOUIMIR,Dorsaf,Licence,LBC-BIS,Initiale,Rapporteur,Autre,,,En cours
+2025-2026,BEY,Rayen,Licence,LBC-BIS,Initiale,Rapporteur,Autre,,,En cours
+2025-2026,CHAGOUR,Ela,Licence,LBC-BIS,Initiale,Rapporteur,Autre,,,En cours
+2025-2026,YAAKOUBI,Adam,Licence,LBC-BIS,Initiale,Rapporteur,Autre,,,En cours
+2025-2026,MEJRI,Chahd,Licence,LBC-BI,Internationale,Rapporteur,Autre,,,En cours
+2025-2026,RIAHI,Bilel,Master,BA,Initiale,Rapporteur,Data Science / IA,,,En cours
+2025-2026,NOUICER,Obeidallah,Master,BA,Exécutif,Rapporteur,Data Science / IA,,,En cours
+2025-2026,HACHED,Mhamed Amine,Master,BA,Jems,Rapporteur,Data Science / IA,,,En cours
+2025-2026,ZOUAOUI,Zayneb,Master,BA,Jems,Rapporteur,Data Science / IA,,,En cours
+2025-2026,KHALDI,Mohamed Yassine,Master,BA,Jems,Rapporteur,Data Science / IA,,,En cours
+2025-2026,MAKNINE,Linda,Master,BA,Initiale,Rapporteur,Data Science / IA,,,En cours
+2025-2026,FRIGUI,Mayar,Master,BA,Initiale,Rapporteur,Data Science / IA,,,En cours
+2025-2026,CHAOUACHI,Rami,Licence,LBC-BI,Initiale,Rapporteur,Autre,,,En cours
+2025-2026,CHOUIKHA,Meriam,Master,BA,Initiale,Rapporteur,Data Science / IA,,,En cours
+2025-2026,RIAHI,Yassine,Licence,LBC-BIS,Initiale,Rapporteur,Autre,,,En cours
+2025-2026,SIALA,Yosr,Licence,LBC-BIS,Initiale,Rapporteur,Autre,,,En cours
+2025-2026,AZAZA,Hadil,Licence,LBC-BI,Initiale,Rapporteur,Autre,,,En cours
+2025-2026,EL KAROU,Linda Mariem,Licence,LBC-BI,Internationale,Rapporteur,Autre,,,En cours
+2025-2026,JAMMALI,Nour El Houda,Licence,LBC-BI,Internationale,Rapporteur,Autre,,,En cours
+2025-2026,CHARAABI,Wael,Master,BA,Initiale,Rapporteur,Data Science / IA,,,En cours
