@@ -1,0 +1,192 @@
+---
+title: "Assistant du dossier"
+subtitle: "Interrogez le dossier de candidature EFS — réponses fondées sur les livrables, sources citées"
+toc: false
+---
+
+::: {.callout-note appearance="simple"}
+Cet assistant répond **exclusivement** à partir des 3 livrables déposés et de
+la présentation de soutenance (1 556 extraits indexés). Chaque réponse cite
+ses sources (document, page). *Assistant expérimental — seuls les livrables
+font foi.*
+:::
+
+```{=html}
+<style>
+#chat-box { border: 1px solid #E6E8EC; border-radius: 10px; background: #fff;
+  height: 460px; overflow-y: auto; padding: 1rem; margin-bottom: .8rem; }
+.msg { max-width: 85%; padding: .6rem .9rem; border-radius: 10px;
+  margin: .35rem 0; line-height: 1.5; font-size: .95rem; white-space: normal; }
+.msg-user { background: #C8102E; color: #fff; margin-left: auto; }
+.msg-bot { background: #F6F7F9; color: #1F2430; margin-right: auto; }
+.msg-bot em.src { color: #5B6472; }
+#chat-row { display: flex; gap: .5rem; }
+#chat-input { flex: 1; border: 1px solid #E6E8EC; border-radius: 8px;
+  padding: .6rem .9rem; font-size: .95rem; }
+#chat-input:focus { outline: none; border-color: #C8102E;
+  box-shadow: 0 0 0 2px rgba(200,16,46,.1); }
+#chat-send { background: #C8102E; color: #fff; border: none; border-radius: 8px;
+  padding: .6rem 1.3rem; font-weight: 600; cursor: pointer; }
+#chat-send:disabled { opacity: .5; cursor: wait; }
+.chat-examples { display: flex; flex-wrap: wrap; gap: .5rem; margin: .8rem 0; }
+.chat-example { border: 1px solid #E6E8EC; border-radius: 999px; background: #fff;
+  padding: .35rem .9rem; font-size: .85rem; cursor: pointer; color: #1F2430; }
+.chat-example:hover { border-color: #C8102E; color: #C8102E; }
+.typing { color: #5B6472; font-style: italic; }
+</style>
+
+<div id="chat-box" aria-live="polite">
+  <div class="msg msg-bot">Bonjour — je suis l'assistant du dossier de
+  candidature d'Aymen Ben Brik au grade EFS. Posez-moi vos questions sur ses
+  activités : enseignement, encadrement, recherche, responsabilités,
+  rayonnement. <em class="src">Je réponds uniquement à partir du dossier, en
+  citant mes sources.</em></div>
+</div>
+
+<div class="chat-examples" id="chat-examples">
+  <button class="chat-example">Combien de PFE encadrés, et dans quels rôles ?</button>
+  <button class="chat-example">Quelles publications et distinctions scientifiques ?</button>
+  <button class="chat-example">Qu'est-ce que la plateforme ESB-Learning ?</button>
+  <button class="chat-example">Quel est le projet RDI des deux prochaines années ?</button>
+  <button class="chat-example">What are his contributions to the BGA accreditation?</button>
+</div>
+
+<div id="chat-row">
+  <input id="chat-input" type="text" placeholder="Votre question sur le dossier…"
+         aria-label="Votre question sur le dossier" />
+  <button id="chat-send">Envoyer</button>
+</div>
+
+<script src="assistant/config.js"></script>
+<script>
+(function () {
+  const TOP_K = 6, DIM = 768;
+
+  async function proxy(payload) {
+    const r = await fetch(PROXY_URL, { method: "POST", body: JSON.stringify(payload) });
+    if (!r.ok) throw new Error("proxy " + r.status);
+    const data = await r.json();
+    if (data.error) throw new Error(data.error);
+    return data;
+  }
+
+  const SYSTEM = `Tu es l'assistant officiel du dossier de candidature d'Aymen BEN BRIK
+au grade d'Enseignant Formateur Sénior (EFS), session 2026-2027, à Esprit School of
+Business. Tes interlocuteurs sont les membres du jury.
+Règles impératives :
+1. Tu réponds UNIQUEMENT à partir des extraits du dossier fournis ci-dessous, sans
+   jamais compléter avec des connaissances externes ni des suppositions.
+2. Chaque affirmation cite sa source entre parenthèses : (L1/L2/L3 ou Présentation, p. N).
+3. Si l'information n'est pas dans les extraits, réponds exactement : « Je ne trouve pas
+   cette information dans le dossier — je vous invite à consulter les livrables ou à poser
+   la question au candidat. »
+4. Tu réponds dans la langue de la question (français ou anglais).
+5. Tu restes factuel, concis et professionnel ; hors sujet, tu déclines poliment.
+6. Tu ne donnes jamais d'avis sur la valeur de la candidature.`;
+
+  let chunks = null, emb = null, nRows = 0, history = [];
+  const box = document.getElementById("chat-box");
+  const input = document.getElementById("chat-input");
+  const send = document.getElementById("chat-send");
+
+  function esc(s) { const d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
+  function md(s) {
+    return esc(s)
+      .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+      .replace(/^\s*[-*] (.+)$/gm, "• $1")
+      .replace(/\n/g, "<br>");
+  }
+  function bubble(cls, html) {
+    const div = document.createElement("div");
+    div.className = "msg " + cls;
+    div.innerHTML = html;
+    box.appendChild(div);
+    box.scrollTop = box.scrollHeight;
+    return div;
+  }
+
+  async function loadIndex() {
+    if (chunks) return;
+    const [cj, eb] = await Promise.all([
+      fetch("assistant/chunks.json").then(r => r.json()),
+      fetch("assistant/emb.bin").then(r => r.arrayBuffer()),
+    ]);
+    chunks = cj;
+    const head = new Uint32Array(eb, 0, 2);
+    nRows = head[0];
+    emb = new Int8Array(eb, 8);
+  }
+
+  async function embedQuery(q) {
+    const data = await proxy({ action: "embed", text: q });
+    const v = data.embedding.values;
+    const n = Math.sqrt(v.reduce((s, x) => s + x * x, 0)) || 1;
+    return v.map(x => x / n);
+  }
+
+  function topK(q) {
+    const scores = [];
+    for (let i = 0; i < nRows; i++) {
+      let dot = 0;
+      const off = i * DIM;
+      for (let j = 0; j < DIM; j++) dot += q[j] * emb[off + j];
+      scores.push([dot, i]);
+    }
+    scores.sort((a, b) => b[0] - a[0]);
+    return scores.slice(0, TOP_K).map(s => chunks[s[1]]);
+  }
+
+  async function generate(prompt) {
+    const data = await proxy({ action: "generate", prompt: prompt });
+    const parts = data.candidates?.[0]?.content?.parts || [];
+    const text = parts.map(p => p.text || "").join("");
+    if (!text) throw new Error("réponse vide");
+    return text;
+  }
+
+  async function ask(question) {
+    bubble("msg-user", esc(question));
+    input.value = "";
+    send.disabled = true;
+    const wait = bubble("msg-bot typing", "Je consulte le dossier…");
+    try {
+      await loadIndex();
+      const q = await embedQuery(question);
+      const ctx = topK(q)
+        .map(c => `[${c.s}, p. ${c.p}]\n${c.t}`).join("\n\n---\n\n");
+      const convo = history.slice(-4)
+        .map(h => (h.role === "user" ? "Jury : " : "Assistant : ") + h.content).join("\n");
+      const prompt = `${SYSTEM}\n\n=== EXTRAITS DU DOSSIER ===\n${ctx}\n\n=== CONVERSATION ===\n${convo}\nJury : ${question}\nAssistant :`;
+      const answer = await generate(prompt);
+      wait.classList.remove("typing");
+      wait.innerHTML = md(answer);
+      history.push({ role: "user", content: question },
+                   { role: "assistant", content: answer });
+    } catch (e) {
+      wait.classList.remove("typing");
+      wait.innerHTML = "Le service est momentanément indisponible (" + esc(String(e.message || e)) +
+        "). Merci de réessayer dans quelques instants.";
+    }
+    send.disabled = false;
+    input.focus();
+    box.scrollTop = box.scrollHeight;
+  }
+
+  send.addEventListener("click", () => { if (input.value.trim()) ask(input.value.trim()); });
+  input.addEventListener("keydown", e => {
+    if (e.key === "Enter" && input.value.trim()) ask(input.value.trim());
+  });
+  document.getElementById("chat-examples").addEventListener("click", e => {
+    if (e.target.classList.contains("chat-example")) ask(e.target.textContent);
+  });
+})();
+</script>
+```
+
+---
+
+*Corpus : Livrable 1 (Production RDI), Livrable 2 (Production Pédagogique),
+Livrable 3 (Rapport de Synthèse), Présentation de soutenance — session 2026-2027.
+Les réponses sont générées automatiquement (RAG + Gemini) : en cas de doute,
+la référence citée dans la réponse permet de vérifier directement dans le
+document source.*

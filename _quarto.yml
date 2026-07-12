@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - assistant/
 
 website:
   title: "Aymen Ben Brik"
@@ -51,6 +53,8 @@ website:
             text: "Grille EFS — Score /340"
           - href: dashboards/evolution.qmd
             text: "Évolution & activités"
+      - href: assistant.qmd
+        text: Assistant
     right:
       - icon: envelope
         href: "mailto:aymen.benbrik@esprit.tn"
