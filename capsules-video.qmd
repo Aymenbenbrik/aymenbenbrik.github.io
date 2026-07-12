@@ -14,8 +14,11 @@ ou de **démarche pas-à-pas** sur un cas réel (SARIMA).
 ```{python}
 #| echo: false
 #| output: asis
-print("```{=html}")
 import pandas as pd
+
+import sys
+sys.path.insert(0, "scripts")
+from theme import html_out
 
 df = pd.read_csv("data/playlists.csv")
 
@@ -25,7 +28,7 @@ n_videos = int(df["video_count"].sum())
 n_vues = int(df["vues"].sum())
 n_modules = df["modules_associes"].str.split(r"\s*·\s*").explode().nunique()
 
-print(f'''
+html_out(f'''
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.8rem;margin:1rem 0 2rem 0;">
   <div class="kpi"><span class="value">{n_playlists}</span><span class="label">Playlists publiées</span></div>
   <div class="kpi"><span class="value">{n_videos}</span><span class="label">Capsules vidéo</span></div>
@@ -33,7 +36,6 @@ print(f'''
   <div class="kpi"><span class="value">{n_modules}</span><span class="label">Modules concernés</span></div>
 </div>
 ''')
-print("```")
 ```
 
 ## Catalogue des playlists
@@ -41,7 +43,6 @@ print("```")
 ```{python}
 #| echo: false
 #| output: asis
-print("```{=html}")
 import pandas as pd
 from html import escape
 
@@ -67,7 +68,7 @@ for _, r in df.iterrows():
         f'<span class="badge bg-dark">{vues} vues</span>'
     )
 
-    print(f'''
+    html_out(f'''
 ::: {{.card-module style="border-left: 4px solid #C8102E; padding: 1.2rem 1.4rem; margin-bottom: 1.5rem;"}}
 
 ### [{escape(title)}]({url})
@@ -102,7 +103,6 @@ for _, r in df.iterrows():
 
 :::
 ''')
-print("```")
 ```
 
 ## Détail des vidéos
@@ -111,7 +111,6 @@ print("```")
 #| echo: false
 #| output: asis
 
-print("```{=html}")
 # Détail des vidéos (issues du scraping ytInitialData)
 videos = {
     "PLTuHP93TC8cyiFERpbYQ_0ss9rH7VICS0": [
@@ -141,12 +140,11 @@ for _, r in df.iterrows():
     if pid not in videos:
         continue
     vids = videos[pid]
-    print(f"\n### {title}\n")
-    print("| # | Titre de la capsule | Durée |")
-    print("|---|---|---|")
+    html_out(f"\n### {title}\n")
+    html_out("| # | Titre de la capsule | Durée |")
+    html_out("|---|---|---|")
     for i, (vt, vd) in enumerate(vids, 1):
-        print(f"| {i} | {vt} | {vd} |")
-print("```")
+        html_out(f"| {i} | {vt} | {vd} |")
 ```
 
 ## Évolution et perspectives

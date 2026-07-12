@@ -13,7 +13,7 @@ import pandas as pd
 
 import sys
 sys.path.insert(0, "../scripts")
-from theme import ESPRIT
+from theme import ESPRIT, html_out
 
 ai4u = pd.read_csv("../data/ai4u_projects.csv")
 enc = pd.read_csv("../data/encadrants.csv")
@@ -67,7 +67,6 @@ de simulations orales. Mon objectif final : que chaque étudiant développe son
 #| echo: false
 #| output: asis
 
-print("```{=html}")
 steps = ["Choix du sujet", "Cadrage", "État de l'art", "Développement / Expérimentation",
          "Analyse des résultats", "Rapport", "Soutenance"]
 # dégradé du rouge ESB : encode la progression, contraste AA garanti (blanc sur fond)
@@ -77,8 +76,7 @@ items = "".join(
     for i, s in enumerate(steps)
 )
 label = "Workflow d'encadrement en sept étapes"
-print(f'<div class="workflow-strip" role="list" aria-label="{label}">{items}</div>')
-print("```")
+html_out(f'<div class="workflow-strip" role="list" aria-label="{label}">{items}</div>')
 ```
 
 ### Quatre listes, quatre pages
@@ -87,8 +85,7 @@ print("```")
 #| echo: false
 #| output: asis
 
-print("```{=html}")
-print(f'''
+html_out(f'''
 <div class="entry-grid">
   <a class="entry-card" href="encadrements.html">
     <div class="entry-title">Encadrements académiques</div>
@@ -112,7 +109,6 @@ print(f'''
   </a>
 </div>
 ''')
-print("```")
 ```
 
 ---

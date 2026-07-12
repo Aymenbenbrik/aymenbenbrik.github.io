@@ -12,7 +12,7 @@ import plotly.express as px
 
 import sys
 sys.path.insert(0, "../scripts")
-from theme import ESPRIT, base_layout, mpl_barh
+from theme import ESPRIT, base_layout, mpl_barh, html_out
 
 from itables import init_notebook_mode, show
 init_notebook_mode(all_interactive=True, connected=True)
@@ -31,13 +31,12 @@ au sein de l'équipe de recherche AI4U (Artificial Intelligence 4 University) à
 #| echo: false
 #| output: asis
 
-print("```{=html}")
 n_total = len(ai4u)
 n_po = (ai4u["role"].str.contains("Product Owner", na=False)).sum()
 n_termines = (ai4u["statut"] == "Terminé").sum()
 n_encours = (ai4u["statut"] == "En cours").sum()
 
-print(f'''
+html_out(f'''
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.8rem;margin:1rem 0;">
   <div class="kpi"><span class="value">{n_total}</span><span class="label">Projets AI4U</span></div>
   <div class="kpi"><span class="value">{n_po}</span><span class="label">Product Owner</span></div>
@@ -45,7 +44,6 @@ print(f'''
   <div class="kpi"><span class="value">{n_encours}</span><span class="label">En cours</span></div>
 </div>
 ''')
-print("```")
 ```
 
 ## Évolution et répartitions

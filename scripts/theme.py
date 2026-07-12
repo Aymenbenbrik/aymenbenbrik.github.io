@@ -24,6 +24,19 @@ FONT = "Inter, sans-serif"
 FONT_MONO = "JetBrains Mono, Consolas, monospace"
 
 
+def html_out(html):
+    """Emet du HTML brut depuis une cellule `#| output: asis`.
+
+    Encadre la sortie d'un bloc {=html} : sans cela, Pandoc interprete
+    toute ligne HTML indentee a >= 4 espaces comme un bloc de code
+    (cartes affichees en texte brut). A utiliser pour TOUTE sortie HTML
+    generee en Python.
+    """
+    print("```{=html}")
+    print(html)
+    print("```")
+
+
 def base_layout(fig, height=320):
     """Layout plotly standard du site."""
     fig.update_layout(

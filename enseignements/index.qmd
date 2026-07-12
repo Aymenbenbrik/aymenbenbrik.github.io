@@ -11,6 +11,10 @@ import pandas as pd
 from pathlib import Path
 from html import escape
 
+import sys
+sys.path.insert(0, "../scripts")
+from theme import html_out
+
 ROOT = Path("..").resolve()
 df_ens = pd.read_csv("../data/enseignements_detailed.csv")
 df_sup = pd.read_csv("../data/supports.csv")
@@ -57,7 +61,6 @@ que d'en constater les limites à son terme *([voir la page Feedback continu](fe
 #| echo: false
 #| output: asis
 
-print("```{=html}")
 cards = ['<div class="domain-grid">']
 for d, icon, _ in DOMAINS:
     n_modules = df_ens[df_ens["domaine"] == d]["nom_module"].nunique()
@@ -68,8 +71,7 @@ for d, icon, _ in DOMAINS:
       <div class="domain-count">{n_modules} module{'s' if n_modules > 1 else ''}</div>
     </div>''')
 cards.append('</div>')
-print('\n'.join(cards))
-print("```")
+html_out('\n'.join(cards))
 ```
 
 ### Récapitulatif des enseignements
@@ -78,7 +80,6 @@ print("```")
 #| echo: false
 #| output: asis
 
-print("```{=html}")
 # Pour chaque domaine : un accordéon avec un tableau filtrable
 
 YES_NO = lambda b: "Oui" if b else "Non"
@@ -179,8 +180,7 @@ for d, icon, desc in DOMAINS:
   </div>
 </details>''')
 
-print('\n'.join(parts))
-print("```")
+html_out('\n'.join(parts))
 ```
 
 ```{=html}
@@ -214,7 +214,6 @@ function filterTeaching(tableId) {
 ```{python}
 #| echo: false
 #| output: asis
-print("```{=html}")
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.io import to_html
@@ -251,8 +250,7 @@ kpi_html = f'''
   <div class="domain-card"><div class="domain-icon"><i class="bi bi-globe2"></i></div><div class="domain-name">{n_anglais}</div><div class="domain-count">Cours en anglais</div></div>
 </div>
 '''.replace(",", " ")
-print(kpi_html)
-print("```")
+html_out(kpi_html)
 ```
 
 ### Heures par année et par domaine
@@ -413,7 +411,6 @@ fig4.show()
 #| echo: false
 #| output: asis
 
-print("```{=html}")
 # Pour chaque année : liste des modules marqués "Nouveau Module"
 nouveaux = (df_evo[df_evo["nouveau_module"]]
             .groupby("annee")
@@ -428,7 +425,7 @@ for _, r in nouveaux.iterrows():
   <td>{escape(str(r["modules"]))}</td>
 </tr>''')
 
-print(f'''
+html_out(f'''
 <div class="table-responsive">
 <table class="table table-sm table-hover">
   <thead>
@@ -438,7 +435,6 @@ print(f'''
 </table>
 </div>
 ''')
-print("```")
 ```
 
 ## Supports des cours
@@ -446,7 +442,6 @@ print("```")
 ```{python}
 #| echo: false
 #| output: asis
-print("```{=html}")
 import re
 import unicodedata
 
@@ -593,8 +588,7 @@ for d, icon, desc in DOMAINS:
   </div>
 </details>''')
 
-print('\n'.join(parts))
-print("```")
+html_out('\n'.join(parts))
 ```
 
 :::

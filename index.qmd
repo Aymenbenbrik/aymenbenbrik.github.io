@@ -63,8 +63,11 @@ cours d'algèbre au déploiement d'agents intelligents.
 ```{python}
 #| echo: false
 #| output: asis
-print("```{=html}")
 import pandas as pd
+
+import sys
+sys.path.insert(0, "scripts")
+from theme import html_out
 
 try:
     enseignements = pd.read_csv("data/enseignements_detailed.csv")
@@ -80,7 +83,7 @@ try:
 except Exception:
     n_annees = n_modules = n_heures = n_encadrements = 0
 
-print(f'''
+html_out(f'''
 <div style="text-align:center; margin: 1.6rem 0;">
   <div class="kpi"><span class="value">{n_annees}</span><span class="label">Années à ESB</span></div>
   <div class="kpi"><span class="value">{n_heures:,}</span><span class="label">Heures d'enseignement</span></div>
@@ -105,7 +108,6 @@ print(f'''
   </a>
 </div>
 ''')
-print("```")
 ```
 
 ## Parcours
