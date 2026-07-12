@@ -533,6 +533,118 @@ th {
   select:focus, input:focus { outline: none; border-color: $primary; box-shadow: 0 0 0 2px rgba(200, 16, 46, 0.1); }
 }
 
+// =====================================================
+// Bulle flottante — Assistant du dossier
+// =====================================================
+
+.efs-bubble {
+  position: fixed;
+  left: 1.2rem;
+  bottom: 1.2rem;
+  z-index: 1500;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: $primary;
+  color: white;
+  border: none;
+  font-size: 1.45rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(31, 36, 48, 0.28);
+  transition: transform 0.15s ease;
+
+  &:hover, &:focus-visible { transform: scale(1.07); }
+}
+
+.efs-panel {
+  position: fixed;
+  left: 1.2rem;
+  bottom: 5.6rem;
+  z-index: 1500;
+  width: min(92vw, 380px);
+  height: min(70vh, 520px);
+  background: white;
+  border: 1px solid $line;
+  border-radius: 12px;
+  box-shadow: 0 10px 32px rgba(31, 36, 48, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  &[hidden] { display: none; }
+}
+
+.efs-head {
+  background: $primary;
+  color: white;
+  padding: 0.55rem 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+
+  a { color: white; font-size: 0.75rem; text-decoration: underline; margin-right: 0.5rem; }
+}
+
+.efs-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.efs-msgs {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.8rem;
+}
+
+.efs-msg {
+  max-width: 88%;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+  margin: 0.3rem 0;
+  line-height: 1.45;
+  font-size: 0.88rem;
+}
+
+.efs-user { background: $primary; color: white; margin-left: auto; }
+.efs-bot { background: $mist; color: $ink; margin-right: auto; }
+.efs-typing { color: $slate; font-style: italic; }
+
+.efs-row {
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.55rem;
+  border-top: 1px solid $line;
+}
+
+.efs-input {
+  flex: 1;
+  border: 1px solid $line;
+  border-radius: 8px;
+  padding: 0.45rem 0.7rem;
+  font-size: 0.9rem;
+
+  &:focus { outline: none; border-color: $primary; box-shadow: 0 0 0 2px rgba(200, 16, 46, 0.1); }
+}
+
+.efs-send {
+  background: $primary;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.45rem 0.9rem;
+  cursor: pointer;
+
+  &:disabled { opacity: 0.5; cursor: wait; }
+}
+
 // Hero (bandeaux d'entête de page)
 .hero {
   background: $primary;

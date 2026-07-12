@@ -117,6 +117,11 @@ format:
     include-before-body:
       text: |
         <a class="skip-link" href="#quarto-document-content">Aller au contenu principal</a>
+    include-after-body:
+      text: |
+        <script src="/assistant/config.js"></script>
+        <script src="/assistant/rag.js"></script>
+        <script src="/assistant/widget.js"></script>
     toc: true
     toc-depth: 3
     toc-location: right
