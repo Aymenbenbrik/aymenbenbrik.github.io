@@ -57,6 +57,7 @@ que d'en constater les limites à son terme *([voir la page Feedback continu](fe
 #| echo: false
 #| output: asis
 
+print("```{=html}")
 cards = ['<div class="domain-grid">']
 for d, icon, _ in DOMAINS:
     n_modules = df_ens[df_ens["domaine"] == d]["nom_module"].nunique()
@@ -68,6 +69,7 @@ for d, icon, _ in DOMAINS:
     </div>''')
 cards.append('</div>')
 print('\n'.join(cards))
+print("```")
 ```
 
 ### Récapitulatif des enseignements
@@ -76,6 +78,7 @@ print('\n'.join(cards))
 #| echo: false
 #| output: asis
 
+print("```{=html}")
 # Pour chaque domaine : un accordéon avec un tableau filtrable
 
 YES_NO = lambda b: "Oui" if b else "Non"
@@ -177,6 +180,7 @@ for d, icon, desc in DOMAINS:
 </details>''')
 
 print('\n'.join(parts))
+print("```")
 ```
 
 ```{=html}
@@ -210,6 +214,7 @@ function filterTeaching(tableId) {
 ```{python}
 #| echo: false
 #| output: asis
+print("```{=html}")
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.io import to_html
@@ -242,11 +247,12 @@ kpi_html = f'''
   <div class="domain-card"><div class="domain-icon"><i class="bi bi-stopwatch"></i></div><div class="domain-name">{n_heures:,}</div><div class="domain-count">Heures cumulées</div></div>
   <div class="domain-card"><div class="domain-icon"><i class="bi bi-collection"></i></div><div class="domain-name">{n_modules}</div><div class="domain-count">Modules distincts</div></div>
   <div class="domain-card"><div class="domain-icon">📅</div><div class="domain-name">{n_annees}</div><div class="domain-count">Années actives</div></div>
-  <div class="domain-card"><div class="domain-icon">🆕</div><div class="domain-name">{n_nouveaux}</div><div class="domain-count">Nouveau module (lignes)</div></div>
-  <div class="domain-card"><div class="domain-icon">🇬🇧</div><div class="domain-name">{n_anglais}</div><div class="domain-count">Cours en anglais</div></div>
+  <div class="domain-card"><div class="domain-icon"><i class="bi bi-plus-square"></i></div><div class="domain-name">{n_nouveaux}</div><div class="domain-count">Nouveau module (lignes)</div></div>
+  <div class="domain-card"><div class="domain-icon"><i class="bi bi-globe2"></i></div><div class="domain-name">{n_anglais}</div><div class="domain-count">Cours en anglais</div></div>
 </div>
 '''.replace(",", " ")
 print(kpi_html)
+print("```")
 ```
 
 ### Heures par année et par domaine
@@ -407,6 +413,7 @@ fig4.show()
 #| echo: false
 #| output: asis
 
+print("```{=html}")
 # Pour chaque année : liste des modules marqués "Nouveau Module"
 nouveaux = (df_evo[df_evo["nouveau_module"]]
             .groupby("annee")
@@ -431,6 +438,7 @@ print(f'''
 </table>
 </div>
 ''')
+print("```")
 ```
 
 ## Supports des cours
@@ -438,6 +446,7 @@ print(f'''
 ```{python}
 #| echo: false
 #| output: asis
+print("```{=html}")
 import re
 import unicodedata
 
@@ -585,6 +594,7 @@ for d, icon, desc in DOMAINS:
 </details>''')
 
 print('\n'.join(parts))
+print("```")
 ```
 
 :::

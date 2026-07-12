@@ -31,6 +31,7 @@ au sein de l'équipe de recherche AI4U (Artificial Intelligence 4 University) à
 #| echo: false
 #| output: asis
 
+print("```{=html}")
 n_total = len(ai4u)
 n_po = (ai4u["role"].str.contains("Product Owner", na=False)).sum()
 n_termines = (ai4u["statut"] == "Terminé").sum()
@@ -44,6 +45,7 @@ print(f'''
   <div class="kpi"><span class="value">{n_encours}</span><span class="label">En cours</span></div>
 </div>
 ''')
+print("```")
 ```
 
 ## Évolution et répartitions

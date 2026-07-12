@@ -24,6 +24,7 @@ for c in pj.select_dtypes(include="object").columns:
 #| echo: false
 #| output: asis
 
+print("```{=html}")
 n_pj = len(pj)
 n_etudiants = pj[["nom", "prenom"]].drop_duplicates().shape[0]
 n_formations = pj["formation"].nunique()
@@ -37,6 +38,7 @@ print(f'''
   <div class="kpi"><span class="value">{n_annees}</span><span class="label">Années</span></div>
 </div>
 ''')
+print("```")
 ```
 
 ## Évolution temporelle

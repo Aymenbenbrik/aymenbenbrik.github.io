@@ -26,6 +26,7 @@ for c in enc.select_dtypes(include="object").columns:
 #| echo: false
 #| output: asis
 
+print("```{=html}")
 n_total = len(enc)
 n_etudiants = enc[["nom", "prenom"]].drop_duplicates().shape[0]
 n_soutenus = enc["statut"].str.contains("Soutenu|Terminé", na=False).sum()
@@ -39,6 +40,7 @@ print(f'''
   <div class="kpi"><span class="value">{n_encours}</span><span class="label">En cours</span></div>
 </div>
 ''')
+print("```")
 ```
 
 ## Évolution temporelle

@@ -63,6 +63,7 @@ cours d'algèbre au déploiement d'agents intelligents.
 ```{python}
 #| echo: false
 #| output: asis
+print("```{=html}")
 import pandas as pd
 
 try:
@@ -104,6 +105,7 @@ print(f'''
   </a>
 </div>
 ''')
+print("```")
 ```
 
 ## Parcours

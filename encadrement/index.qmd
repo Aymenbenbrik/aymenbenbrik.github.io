@@ -67,6 +67,7 @@ de simulations orales. Mon objectif final : que chaque étudiant développe son
 #| echo: false
 #| output: asis
 
+print("```{=html}")
 steps = ["Choix du sujet", "Cadrage", "État de l'art", "Développement / Expérimentation",
          "Analyse des résultats", "Rapport", "Soutenance"]
 # dégradé du rouge ESB : encode la progression, contraste AA garanti (blanc sur fond)
@@ -77,6 +78,7 @@ items = "".join(
 )
 label = "Workflow d'encadrement en sept étapes"
 print(f'<div class="workflow-strip" role="list" aria-label="{label}">{items}</div>')
+print("```")
 ```
 
 ### Quatre listes, quatre pages
@@ -85,6 +87,7 @@ print(f'<div class="workflow-strip" role="list" aria-label="{label}">{items}</di
 #| echo: false
 #| output: asis
 
+print("```{=html}")
 print(f'''
 <div class="entry-grid">
   <a class="entry-card" href="encadrements.html">
@@ -109,6 +112,7 @@ print(f'''
   </a>
 </div>
 ''')
+print("```")
 ```
 
 ---

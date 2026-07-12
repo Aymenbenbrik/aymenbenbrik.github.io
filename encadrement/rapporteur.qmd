@@ -24,6 +24,7 @@ for c in rap.select_dtypes(include="object").columns:
 #| echo: false
 #| output: asis
 
+print("```{=html}")
 n_total = len(rap)
 n_etudiants = rap[["nom", "prenom"]].drop_duplicates().shape[0]
 n_soutenus = rap["statut"].str.contains("Soutenu|Terminé", na=False).sum()
@@ -37,6 +38,7 @@ print(f'''
   <div class="kpi"><span class="value">{n_encours}</span><span class="label">En cours</span></div>
 </div>
 ''')
+print("```")
 ```
 
 ## Évolution temporelle
