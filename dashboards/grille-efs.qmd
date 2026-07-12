@@ -1,6 +1,6 @@
 ---
 title: "Grille EFS — Score auto-évalué /340"
-subtitle: "Tracker du dossier de passage de grade · Aymen Ben Brik · Session 2026-2027"
+subtitle: "Auto-évaluation du 12/07/2026 · Grille 4 (Dossier & Entretien /70) évaluée par le jury · Session 2026-2027"
 aliases:
   - /dashboards/index.html
 format:
@@ -26,54 +26,54 @@ COLOR_OK = "#2E7D32"
 # === SCORES AUTO-EVALUES (a mettre a jour) ===
 LIVRABLES = {
     "Livrable 1 — Production RDI": {
-        "obtenu": 0, "max": 90,
+        "obtenu": 54, "max": 90,
         "icon": "📄",
         "rubriques": [
-            ("Publications scientifiques", 0, 50),
-            ("Production technique", 0, 20),
-            ("Projet RDI 2 ans", 0, 20),
+            ("Publications scientifiques", 22, 50),
+            ("Production technique", 16, 20),
+            ("Projet RDI 2 ans", 16, 20),
         ],
     },
     "Livrable 2 — Production Pédagogique": {
-        "obtenu": 0, "max": 65,
+        "obtenu": 50, "max": 65,
         "icon": "🎓",
         "rubriques": [
-            ("Supports pédagogiques (SPOC, capsules)", 0, 30),
-            ("Intégration de technologies", 0, 20),
-            ("Apport de l'expérience professionnelle", 0, 15),
+            ("Supports pédagogiques (SPOC, capsules)", 24, 30),
+            ("Intégration de technologies", 16, 20),
+            ("Apport de l'expérience professionnelle", 10, 15),
         ],
     },
     "Livrable 3 — Grille 3.1 RDI/Socio": {
-        "obtenu": 0, "max": 20,
+        "obtenu": 15, "max": 20,
         "icon": "🌍",
         "rubriques": [
-            ("Activités socio-éco / socio-culturel", 0, 4),
-            ("Encadrements RDI / Socio-culturels", 0, 5),
-            ("Contribution équipes RDI", 0, 3),
-            ("Coaching clubs / associations", 0, 4),
-            ("Produits grand public", 0, 4),
+            ("Activités socio-éco / socio-culturel", 3, 4),
+            ("Encadrements RDI / Socio-culturels", 4, 5),
+            ("Contribution équipes RDI", 3, 3),
+            ("Coaching clubs / associations", 3, 4),
+            ("Produits grand public", 2, 4),
         ],
     },
     "Livrable 3 — Grille 3.2 Pédagogique": {
-        "obtenu": 0, "max": 35,
+        "obtenu": 31.5, "max": 35,
         "icon": "📚",
         "rubriques": [
-            ("Accompagnement Moniteurs/AT/EF", 0, 10),
-            ("Développement professionnel", 0, 10),
-            ("Enseignements (création modules)", 0, 7.5),
-            ("Encadrement étudiants (PFE, projets)", 0, 7.5),
+            ("Accompagnement Moniteurs/AT/EF", 8, 10),
+            ("Développement professionnel", 9, 10),
+            ("Enseignements (création modules)", 7, 7.5),
+            ("Encadrement étudiants (PFE, projets)", 7.5, 7.5),
         ],
     },
     "Livrable 3 — Grille 3.3 Rayonnement": {
-        "obtenu": 0, "max": 60,
+        "obtenu": 47, "max": 60,
         "icon": "🏆",
         "rubriques": [
-            ("Animation de formations", 0, 10),
-            ("Organisation de manifestations", 0, 10),
-            ("Responsabilités péda/admin", 0, 20),
-            ("Pilotage événements scientifiques", 0, 5),
-            ("Contrats-projets entreprises", 0, 10),
-            ("Jurys recrutement / passage de grade", 0, 5),
+            ("Animation de formations", 8, 10),
+            ("Organisation de manifestations", 8, 10),
+            ("Responsabilités péda/admin", 17, 20),
+            ("Pilotage événements scientifiques", 3, 5),
+            ("Contrats-projets entreprises", 7, 10),
+            ("Jurys recrutement / passage de grade", 4, 5),
         ],
     },
     "Grille 4 — Dossier & Entretien": {
@@ -359,6 +359,10 @@ show(df_table, lengthMenu=[10, 25], classes="display compact", paging=False)
 ## Row
 
 ::: {.card title="Comment mettre à jour les scores"}
+
+Les scores affichés sont une **auto-évaluation argumentée** (12/07/2026) fondée
+sur les activités documentées du dossier ; la **Grille 4 (/70) reste à 0 car
+elle est attribuée par le jury** (dossier, présentation, entretien).
 
 Le tableau de bord lit ses scores depuis le dictionnaire `LIVRABLES` défini en
 tête du fichier `dashboards/grille-efs.qmd`. Pour mettre à jour :
