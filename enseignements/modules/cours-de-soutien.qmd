@@ -1,5 +1,5 @@
 ---
-title: "🎯 Cours de soutien"
+title: "Cours de soutien"
 subtitle: "Encadrement et soutien · 1 année(s) · 30 h cumulées"
 toc: true
 ---

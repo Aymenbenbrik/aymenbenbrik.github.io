@@ -1,5 +1,5 @@
 ---
-title: "🤖 Intelligence Artificielle"
+title: "Intelligence Artificielle"
 subtitle: "Intelligence Artificielle · 1 année(s) · 56 h cumulées"
 toc: true
 ---

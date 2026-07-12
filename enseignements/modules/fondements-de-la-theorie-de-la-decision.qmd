@@ -1,5 +1,5 @@
 ---
-title: "🤖 Fondements de la théorie de la décision"
+title: "Fondements de la théorie de la décision"
 subtitle: "Intelligence Artificielle · 4 année(s) · 231 h cumulées"
 toc: true
 ---

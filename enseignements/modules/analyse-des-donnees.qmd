@@ -1,5 +1,5 @@
 ---
-title: "📊 Analyse des données"
+title: "Analyse des données"
 subtitle: "Sciences des données · 1 année(s) · 42 h cumulées"
 toc: true
 ---

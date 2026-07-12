@@ -1,5 +1,5 @@
 ---
-title: "🤖 Apprentissage Statistique"
+title: "Apprentissage Statistique"
 subtitle: "Intelligence Artificielle · 2 année(s) · 84 h cumulées"
 toc: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: "∫ Analyse 4"
+title: "Analyse 4"
 subtitle: "Mathématiques et Statistiques · 4 année(s) · 294 h cumulées"
 toc: true
 ---

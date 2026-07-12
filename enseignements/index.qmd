@@ -28,9 +28,9 @@ df_ens["nouveau_module"] = df_ens["nouveau_module"].astype(str).str.lower().map(
 
 DOMAINS = [
     ("Mathématiques et Statistiques", "∫", "Algèbre, Analyse, Probabilités, Statistiques inférentielles, GLM, Logique, Recherche Opérationnelle"),
-    ("Intelligence Artificielle", "🤖", "Machine Learning, Deep Learning, NLP, Generative Computer Vision, Outillage ML"),
-    ("Sciences des données", "📊", "Analyse des données, Data Mining, Programmation R/Python, Séries temporelles"),
-    ("Encadrement et soutien", "🎯", "Cours de soutien, Atelier Python, Gestion de projet"),
+    ("Intelligence Artificielle", '<i class="bi bi-robot"></i>', "Machine Learning, Deep Learning, NLP, Generative Computer Vision, Outillage ML"),
+    ("Sciences des données", '<i class="bi bi-bar-chart-line"></i>', "Analyse des données, Data Mining, Programmation R/Python, Séries temporelles"),
+    ("Encadrement et soutien", '<i class="bi bi-bullseye"></i>', "Cours de soutien, Atelier Python, Gestion de projet"),
 ]
 ```
 
@@ -126,7 +126,7 @@ def render_table(d_df, table_id):
         if liens and liens.lower() != "nan":
             urls = [u.strip() for u in liens.split("|") if u.strip()]
             for u in urls:
-                gh_icons += f' <a href="{escape(u)}" target="_blank" title="{escape(u)}" style="color:#24292f;text-decoration:none;font-weight:600">⚙</a>'
+                gh_icons += f' <a href="{escape(u)}" target="_blank" title="{escape(u)}" style="color:#24292f;text-decoration:none"><i class="bi bi-github"></i></a>'
         rows.append(f'''
 <tr data-annee="{escape(str(r["annee"]))}" data-niveau="{escape(str(r["niveau"]))}" data-ecole="{escape(str(r["ecole"]))}" data-langue="{lang}" data-module="{escape(str(r["nom_module"]).lower())}">
   <td>{escape(str(r["annee"]))}</td>
@@ -225,21 +225,21 @@ capitaliser chaque semestre dans le syllabus et la fiche module.
 ::: {.g-col-md-4 .g-col-12}
 ::: {.kpi style="background: linear-gradient(135deg,#0277BD,#01579B); width:100%; min-width:0;"}
 [FB1 · Diagnostic — Semaine 1]{.label}
-[🔍]{.value style="font-size:2rem"}
+[[]{.bi .bi-search}]{.value style="font-size:2rem"}
 [Prérequis · Motivation · Objectifs clairs]{.label}
 :::
 :::
 ::: {.g-col-md-4 .g-col-12}
 ::: {.kpi style="background: linear-gradient(135deg,#C8102E,#8B0017); width:100%; min-width:0;"}
 [FB2 · Ajustement — Semaine 4]{.label}
-[🎛️]{.value style="font-size:2rem"}
+[[]{.bi .bi-sliders}]{.value style="font-size:2rem"}
 [Compréhension · Rythme · Charge · Pédagogie]{.label}
 :::
 :::
 ::: {.g-col-md-4 .g-col-12}
 ::: {.kpi style="background: linear-gradient(135deg,#2E7D32,#1B5E20); width:100%; min-width:0;"}
 [FB3 · Optimisation — Semaine 10]{.label}
-[🚀]{.value style="font-size:2rem"}
+[[]{.bi .bi-rocket-takeoff}]{.value style="font-size:2rem"}
 [Impact · Préparation finale · Capitalisation]{.label}
 :::
 :::
@@ -282,7 +282,7 @@ Chaque problème détecté déclenche une réponse type dans les deux semaines :
 **19 répondants**, mars 2026. Cette enquête ferme la boucle du feedback
 continu : elle mesure la perception des méthodes actives par les étudiants
 et oriente les actions correctives du semestre suivant.
-Rapport complet : **[📄 Enquête Pédagogie Active (PDF)](../documents/enquete-pedagogie-active.pdf)**
+Rapport complet : **[[]{.bi .bi-file-earmark-pdf} Enquête Pédagogie Active (PDF)](../documents/enquete-pedagogie-active.pdf)**
 :::
 
 ::: {.grid}
@@ -316,7 +316,7 @@ Rapport complet : **[📄 Enquête Pédagogie Active (PDF)](../documents/enquete
 
 ::: {.grid}
 ::: {.g-col-md-6 .g-col-12}
-::: {.callout-tip title="✓ Points forts" appearance="simple"}
+::: {.callout-tip title="Points forts" appearance="simple"}
 - Méthodes actives déjà bien installées (travaux de groupe : **100 %**)
 - Participation encouragée par la majorité des enseignants (**79 %** « toujours » ou « souvent »)
 - **89 %** des étudiants se sentent impliqués dans leur apprentissage
@@ -324,7 +324,7 @@ Rapport complet : **[📄 Enquête Pédagogie Active (PDF)](../documents/enquete
 :::
 :::
 ::: {.g-col-md-6 .g-col-12}
-::: {.callout-warning title="⚠ Axes d'amélioration retenus" appearance="simple"}
+::: {.callout-warning title="Axes d'amélioration retenus" appearance="simple"}
 - **95 %** demandent plus d'interactivité → priorité n°1
 - Renforcer projets pratiques et études de cas réels (≥ 60 % le souhaitent)
 - Réduire le nombre de présentations étudiantes (saturation signalée)
@@ -356,7 +356,7 @@ Rapport complet : **[📄 Enquête Pédagogie Active (PDF)](../documents/enquete
 ::: {.callout-note appearance="simple"}
 Les quatre annexes ci-dessous constituent l'outillage opérationnel du
 système. Le document complet est téléchargeable :
-**[📄 Système de feedback continu — document intégral avec annexes (PDF)](../documents/systeme-feedback-continu.pdf)**
+**[[]{.bi .bi-file-earmark-pdf} Système de feedback continu — document intégral avec annexes (PDF)](../documents/systeme-feedback-continu.pdf)**
 :::
 
 ::: {.callout-tip collapse="true" title="Annexe 1 — Fiche Action Corrective Rapide (fiche ARC)"}
@@ -452,8 +452,8 @@ n_anglais = int(df_evo["anglais"].sum())
 
 kpi_html = f'''
 <div class="domain-grid" style="margin: 1rem 0;">
-  <div class="domain-card"><div class="domain-icon">⏱️</div><div class="domain-name">{n_heures:,}</div><div class="domain-count">Heures cumulées</div></div>
-  <div class="domain-card"><div class="domain-icon">📚</div><div class="domain-name">{n_modules}</div><div class="domain-count">Modules distincts</div></div>
+  <div class="domain-card"><div class="domain-icon"><i class="bi bi-stopwatch"></i></div><div class="domain-name">{n_heures:,}</div><div class="domain-count">Heures cumulées</div></div>
+  <div class="domain-card"><div class="domain-icon"><i class="bi bi-collection"></i></div><div class="domain-name">{n_modules}</div><div class="domain-count">Modules distincts</div></div>
   <div class="domain-card"><div class="domain-icon">📅</div><div class="domain-name">{n_annees}</div><div class="domain-count">Années actives</div></div>
   <div class="domain-card"><div class="domain-icon">🆕</div><div class="domain-name">{n_nouveaux}</div><div class="domain-count">Nouveau module (lignes)</div></div>
   <div class="domain-card"><div class="domain-icon">🇬🇧</div><div class="domain-name">{n_anglais}</div><div class="domain-count">Cours en anglais</div></div>
@@ -755,7 +755,7 @@ for d, icon, desc in DOMAINS:
         for url in m["github"]:
             short = url.replace("https://github.com/", "").rstrip("/")
             actions.append(
-                f'<a href="{escape(url)}" target="_blank" class="resource-btn btn-download" title="{escape(url)}">⚙ {escape(short)}</a>'
+                f'<a href="{escape(url)}" target="_blank" class="resource-btn btn-download" title="{escape(url)}"><i class="bi bi-github"></i> {escape(short)}</a>'
             )
 
         # Supports détaillés depuis supports.csv (match par nom_module insensible à la casse)

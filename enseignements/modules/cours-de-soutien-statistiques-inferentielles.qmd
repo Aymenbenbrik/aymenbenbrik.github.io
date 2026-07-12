@@ -1,5 +1,5 @@
 ---
-title: "🎯 Cours de soutien Statistiques inférentielles"
+title: "Cours de soutien Statistiques inférentielles"
 subtitle: "Encadrement et soutien · 2 année(s) · 24 h cumulées"
 toc: true
 ---

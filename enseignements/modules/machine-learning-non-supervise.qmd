@@ -1,5 +1,5 @@
 ---
-title: "🤖 Machine Learning (non supervisé)"
+title: "Machine Learning (non supervisé)"
 subtitle: "Intelligence Artificielle · 1 année(s) · 42 h cumulées"
 toc: true
 ---

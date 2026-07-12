@@ -80,25 +80,25 @@ def evolution_cumul(df, titre, couleur, fond):
 ::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
 ::: {.kpi style="background: linear-gradient(135deg,#C8102E,#8B0017); width:100%; min-width:0;"}
 [Autonomie]{.label}
-[🎯]{.value style="font-size:2rem"}
+[[]{.bi .bi-bullseye}]{.value style="font-size:2rem"}
 :::
 :::
 ::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
 ::: {.kpi style="background: linear-gradient(135deg,#0277BD,#01579B); width:100%; min-width:0;"}
 [Rigueur]{.label}
-[📐]{.value style="font-size:2rem"}
+[[]{.bi .bi-rulers}]{.value style="font-size:2rem"}
 :::
 :::
 ::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
 ::: {.kpi style="background: linear-gradient(135deg,#2E7D32,#1B5E20); width:100%; min-width:0;"}
 [Suivi régulier]{.label}
-[🔄]{.value style="font-size:2rem"}
+[[]{.bi .bi-arrow-repeat}]{.value style="font-size:2rem"}
 :::
 :::
 ::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
 ::: {.kpi style="background: linear-gradient(135deg,#F57C00,#E65100); width:100%; min-width:0;"}
 [Valorisation]{.label}
-[🏆]{.value style="font-size:2rem"}
+[[]{.bi .bi-trophy}]{.value style="font-size:2rem"}
 :::
 :::
 :::

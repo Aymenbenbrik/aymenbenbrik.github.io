@@ -1,5 +1,5 @@
 ---
-title: "📊 Analyse des données avec SPSS"
+title: "Analyse des données avec SPSS"
 subtitle: "Sciences des données · 1 année(s) · 42 h cumulées"
 toc: true
 ---

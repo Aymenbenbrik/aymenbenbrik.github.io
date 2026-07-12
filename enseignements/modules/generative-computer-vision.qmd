@@ -1,5 +1,5 @@
 ---
-title: "🤖 Generative Computer Vision"
+title: "Generative Computer Vision"
 subtitle: "Intelligence Artificielle · 1 année(s) · 21 h cumulées"
 toc: true
 ---

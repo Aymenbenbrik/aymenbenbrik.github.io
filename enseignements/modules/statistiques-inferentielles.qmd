@@ -1,5 +1,5 @@
 ---
-title: "∫ Statistiques inférentielles"
+title: "Statistiques inférentielles"
 subtitle: "Mathématiques et Statistiques · 7 année(s) · 329 h cumulées"
 toc: true
 ---

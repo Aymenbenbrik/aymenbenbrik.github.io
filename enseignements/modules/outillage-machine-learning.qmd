@@ -1,5 +1,5 @@
 ---
-title: "🤖 Outillage Machine Learning"
+title: "Outillage Machine Learning"
 subtitle: "Intelligence Artificielle · 2 année(s) · 63 h cumulées"
 toc: true
 ---

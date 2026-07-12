@@ -1,5 +1,5 @@
 ---
-title: "🎯 Cours de soutien Mathématiques"
+title: "Cours de soutien Mathématiques"
 subtitle: "Encadrement et soutien · 1 année(s) · 9 h cumulées"
 toc: true
 ---

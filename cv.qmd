@@ -222,7 +222,3 @@ Python · R · Tableau · Matlab/Scilab/Octave · **TensorFlow** · C++ · **Jul
 
 Cinéma · Rock, Jazz, Blues · Sport · Philosophie · Histoire / Géographie
 
-## Téléchargements
-
-- [CV (PDF)](cv.pdf) — *à générer*
-- [Dossier de candidature EFS (PDF)](dossier-efs.pdf) — *à générer*

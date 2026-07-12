@@ -1,5 +1,5 @@
 ---
-title: "∫ Intégration et Probabilités"
+title: "Intégration et Probabilités"
 subtitle: "Mathématiques et Statistiques · 2 année(s) · 92 h cumulées"
 toc: true
 ---

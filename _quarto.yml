@@ -11,69 +11,45 @@ website:
   reader-mode: false
   page-navigation: true
   back-to-top-navigation: true
+  open-graph: true
+  twitter-card: true
+  image: images/og-card.png
 
   navbar:
     background: primary
     pinned: true
     logo: images/logo.png
     left:
-      - href: index.qmd
-        text: Accueil
-      - text: Enseignements
+      - text: Enseignement
         menu:
           - href: enseignements/index.qmd
-            text: "Vue d'ensemble"
+            text: "Vue d'ensemble & feedback continu"
           - href: enseignements/modules/index.qmd
-            text: "📚 Catalogue des 42 modules"
+            text: "Catalogue des modules"
           - href: capsules-video.qmd
-            text: "🎬 Capsules vidéo (YouTube)"
-          - text: "── Mathématiques ──"
-          - href: enseignements/algebre-2.qmd
-            text: "Algèbre 2 (ECUE211)"
-          - href: enseignements/algebre-3.qmd
-            text: "Algèbre 3 (ECUE311)"
-          - href: enseignements/probabilites.qmd
-            text: "Probabilités (ECUE411)"
-          - href: enseignements/analyse-4.qmd
-            text: "Analyse 4 (ECUE421)"
-          - href: enseignements/recherche-operationnelle.qmd
-            text: "Recherche Opérationnelle (ECUEO412)"
-          - text: "── Data Science & IA ──"
-          - href: enseignements/machine-learning.qmd
-            text: "Machine Learning"
-          - href: enseignements/deep-learning.qmd
-            text: "Deep Learning"
-          - href: enseignements/nlp-natural-language-processing.qmd
-            text: "NLP"
-          - href: enseignements/generative-computer-vision.qmd
-            text: "Generative Computer Vision"
-          - href: enseignements/python-programming.qmd
-            text: "Python Programming"
-          - href: enseignements/outillage-machine-learning.qmd
-            text: "Outillage Machine Learning"
-          - text: "── Finance & Actuariat ──"
-          - href: enseignements/portfolio-optimization.qmd
-            text: "Portfolio Optimization"
+            text: "Capsules vidéo"
       - href: encadrement-projets.qmd
-        text: Encadrement des projets
+        text: Encadrement
       - href: recherche.qmd
         text: Recherche
-      - href: certifications.qmd
-        text: Certifications
-      - href: responsabilites.qmd
-        text: Responsabilités
-      - href: evenements.qmd
-        text: Événements
+      - text: Parcours
+        menu:
+          - href: cv.qmd
+            text: "CV"
+          - href: certifications.qmd
+            text: "Certifications"
+          - href: responsabilites.qmd
+            text: "Responsabilités"
+          - href: evenements.qmd
+            text: "Événements"
       - text: Dashboards
         menu:
           - href: dashboards/index.qmd
             text: "Vue d'ensemble"
           - href: dashboards/evolution.qmd
-            text: "Évolution & Activités"
+            text: "Évolution & activités"
           - href: dashboards/grille-efs.qmd
             text: "Grille EFS — Score /340"
-      - href: cv.qmd
-        text: CV
     right:
       - icon: envelope
         href: "mailto:aymen.benbrik@esprit.tn"
@@ -99,10 +75,12 @@ website:
 
 format:
   html:
-    theme:
-      light: [cosmo, styles.scss]
-      dark: [darkly, styles.scss]
-    css: styles.css
+    theme: [cosmo, styles.scss]
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     toc: true
     toc-depth: 3
     toc-location: right

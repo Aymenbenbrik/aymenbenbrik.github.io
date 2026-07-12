@@ -1,5 +1,5 @@
 ---
-title: "📊 Séries Temporelles"
+title: "Séries Temporelles"
 subtitle: "Sciences des données · 5 année(s) · 220 h cumulées"
 toc: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: "🤖 Data Mining"
+title: "Data Mining"
 subtitle: "Intelligence Artificielle · 1 année(s) · 21 h cumulées"
 toc: true
 ---

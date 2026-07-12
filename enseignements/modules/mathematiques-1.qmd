@@ -1,5 +1,5 @@
 ---
-title: "∫ Mathématiques 1"
+title: "Mathématiques 1"
 subtitle: "Mathématiques et Statistiques · 3 année(s) · 210 h cumulées"
 toc: true
 ---

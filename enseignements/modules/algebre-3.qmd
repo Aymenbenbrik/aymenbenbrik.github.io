@@ -1,5 +1,5 @@
 ---
-title: "∫ Algèbre 3"
+title: "Algèbre 3"
 subtitle: "Mathématiques et Statistiques · 2 année(s) · 168 h cumulées"
 toc: true
 ---

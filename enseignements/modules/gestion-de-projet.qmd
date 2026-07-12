@@ -1,5 +1,5 @@
 ---
-title: "🤖 Gestion de projet"
+title: "Gestion de projet"
 subtitle: "Intelligence Artificielle · 1 année(s) · 30 h cumulées"
 toc: true
 ---

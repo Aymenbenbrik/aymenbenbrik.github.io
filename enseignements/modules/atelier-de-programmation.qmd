@@ -1,5 +1,5 @@
 ---
-title: "🤖 Atelier de programmation"
+title: "Atelier de programmation"
 subtitle: "Intelligence Artificielle · 1 année(s) · 42 h cumulées"
 toc: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: "∫ Mathématiques appliquées à la gestion"
+title: "Mathématiques appliquées à la gestion"
 subtitle: "Mathématiques et Statistiques · 1 année(s) · 10 h cumulées"
 toc: true
 ---

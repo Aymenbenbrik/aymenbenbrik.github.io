@@ -1,5 +1,5 @@
 ---
-title: "∫ Algèbre 1"
+title: "Algèbre 1"
 subtitle: "Mathématiques et Statistiques · 5 année(s) · 420 h cumulées"
 toc: true
 ---

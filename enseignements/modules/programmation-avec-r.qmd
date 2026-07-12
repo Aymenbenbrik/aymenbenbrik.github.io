@@ -1,5 +1,5 @@
 ---
-title: "📊 Programmation avec R"
+title: "Programmation avec R"
 subtitle: "Sciences des données · 1 année(s) · 102 h cumulées"
 toc: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: "🤖 Deep Learning"
+title: "Deep Learning"
 subtitle: "Intelligence Artificielle · 4 année(s) · 420 h cumulées"
 toc: true
 ---

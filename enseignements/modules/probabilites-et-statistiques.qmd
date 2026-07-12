@@ -1,5 +1,5 @@
 ---
-title: "∫ Probabilités et Statistiques"
+title: "Probabilités et Statistiques"
 subtitle: "Mathématiques et Statistiques · 2 année(s) · 146 h cumulées"
 toc: true
 ---

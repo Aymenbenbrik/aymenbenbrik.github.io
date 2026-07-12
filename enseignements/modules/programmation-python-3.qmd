@@ -1,5 +1,5 @@
 ---
-title: "🤖 Programmation Python 3"
+title: "Programmation Python 3"
 subtitle: "Intelligence Artificielle · 2 année(s) · 42 h cumulées"
 toc: true
 ---

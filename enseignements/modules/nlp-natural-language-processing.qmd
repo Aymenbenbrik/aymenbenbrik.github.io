@@ -1,5 +1,5 @@
 ---
-title: "🤖 NLP - Natural Language Processing"
+title: "NLP - Natural Language Processing"
 subtitle: "Intelligence Artificielle · 4 année(s) · 168 h cumulées"
 toc: true
 ---

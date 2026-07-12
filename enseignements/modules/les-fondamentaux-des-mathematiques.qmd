@@ -1,5 +1,5 @@
 ---
-title: "∫ Les fondamentaux des mathématiques"
+title: "Les fondamentaux des mathématiques"
 subtitle: "Mathématiques et Statistiques · 1 année(s) · 21 h cumulées"
 toc: true
 ---

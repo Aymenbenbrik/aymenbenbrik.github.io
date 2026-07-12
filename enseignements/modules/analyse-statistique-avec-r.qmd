@@ -1,5 +1,5 @@
 ---
-title: "∫ Analyse statistique avec R"
+title: "Analyse statistique avec R"
 subtitle: "Mathématiques et Statistiques · 3 année(s) · 63 h cumulées"
 toc: true
 ---

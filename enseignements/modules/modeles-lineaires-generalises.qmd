@@ -1,5 +1,5 @@
 ---
-title: "📊 Modèles linéaires généralisés"
+title: "Modèles linéaires généralisés"
 subtitle: "Sciences des données · 2 année(s) · 25 h cumulées"
 toc: true
 ---

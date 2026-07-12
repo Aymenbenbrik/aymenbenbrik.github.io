@@ -1,5 +1,5 @@
 ---
-title: "∫ Analyse 2"
+title: "Analyse 2"
 subtitle: "Mathématiques et Statistiques · 1 année(s) · 30 h cumulées"
 toc: true
 ---

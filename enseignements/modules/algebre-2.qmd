@@ -1,5 +1,5 @@
 ---
-title: "∫ Algèbre 2"
+title: "Algèbre 2"
 subtitle: "Mathématiques et Statistiques · 3 année(s) · 210 h cumulées"
 toc: true
 ---
