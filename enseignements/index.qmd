@@ -275,6 +275,82 @@ Chaque problème détecté déclenche une réponse type dans les deux semaines :
 
 : {tbl-colwidths="[20,38,42]"}
 
+### Résultats de l'enquête pédagogie active (mars 2026)
+
+::: {.callout-note appearance="simple"}
+**Questionnaire anonyme sur les méthodes d'apprentissage** — 10 questions,
+**19 répondants**, mars 2026. Cette enquête ferme la boucle du feedback
+continu : elle mesure la perception des méthodes actives par les étudiants
+et oriente les actions correctives du semestre suivant.
+Rapport complet : **[📄 Enquête Pédagogie Active (PDF)](../documents/enquete-pedagogie-active.pdf)**
+:::
+
+::: {.grid}
+::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
+::: {.kpi style="background: linear-gradient(135deg,#0277BD,#01579B); width:100%; min-width:0;"}
+[3,5 / 5]{.value}
+[Satisfaction globale (aucune note ≤ 2)]{.label}
+:::
+:::
+::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
+::: {.kpi style="background: linear-gradient(135deg,#C8102E,#8B0017); width:100%; min-width:0;"}
+[95 %]{.value}
+[souhaitent plus d'activités interactives]{.label}
+:::
+:::
+::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
+::: {.kpi style="background: linear-gradient(135deg,#2E7D32,#1B5E20); width:100%; min-width:0;"}
+[89 %]{.value}
+[se sentent impliqués dans leur apprentissage]{.label}
+:::
+:::
+::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
+::: {.kpi style="background: linear-gradient(135deg,#F57C00,#E65100); width:100%; min-width:0;"}
+[100 %]{.value}
+[exposés aux travaux de groupe]{.label}
+:::
+:::
+:::
+
+![Tableau de bord de synthèse de l'enquête (N = 19)](../images/feedback/enquete_dashboard.png){fig-align="center"}
+
+::: {.grid}
+::: {.g-col-md-6 .g-col-12}
+::: {.callout-tip title="✓ Points forts" appearance="simple"}
+- Méthodes actives déjà bien installées (travaux de groupe : **100 %**)
+- Participation encouragée par la majorité des enseignants (**79 %** « toujours » ou « souvent »)
+- **89 %** des étudiants se sentent impliqués dans leur apprentissage
+- Liaison théorie → pratique présente pour **85 %** des répondants
+:::
+:::
+::: {.g-col-md-6 .g-col-12}
+::: {.callout-warning title="⚠ Axes d'amélioration retenus" appearance="simple"}
+- **95 %** demandent plus d'interactivité → priorité n°1
+- Renforcer projets pratiques et études de cas réels (≥ 60 % le souhaitent)
+- Réduire le nombre de présentations étudiantes (saturation signalée)
+- Orienter les examens vers la réflexion plutôt que la mémorisation
+- Renforcer les outils professionnels (Python, Power BI, Oracle…)
+:::
+:::
+:::
+
+::: {.callout-tip collapse="true" title="Détail des résultats question par question"}
+| # | Question | Résultat clé |
+|:--|:---|:---|
+| Q1 | Qualité globale de l'enseignement | 3,5/5 en moyenne — notes 3 et 4 uniquement, aucun extrême |
+| Q2 | Encouragement à la participation | 79 % « toujours » ou « souvent » |
+| Q3 | Méthodes utilisées | Travaux de groupe 100 % · présentations 68 % · études de cas 63 % · cours magistraux 32 % |
+| Q4 | Méthodes jugées les plus efficaces | Travaux pratiques 74 % · études de cas 58 % · cours magistraux derniers (21 %) |
+| Q5 | Application théorie → pratique | 85 % « souvent » ou « toujours » |
+| Q6 | Encouragement à la réflexion | 89 % « assez » ou « beaucoup » — marge de progrès sur la pensée critique |
+| Q7 | Implication active en cours | 89 % impliqués · aucun « pas du tout impliqué » |
+| Q8 | Souhait de plus d'interactivité | **Oui : 95 %** — variable la plus consensuelle |
+| Q9 | Méthodes souhaitées davantage | Projets pratiques 63 % · études de cas 58 % · présentations 16 % |
+| Q10 | Amélioration prioritaire (question ouverte) | Pratique & cas réels (11 rép.) · qualité > quantité · alignement marché du travail |
+
+: {tbl-colwidths="[8,40,52]"}
+:::
+
 ### Mes annexes de feedback
 
 ::: {.callout-note appearance="simple"}
