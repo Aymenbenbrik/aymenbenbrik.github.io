@@ -12,18 +12,9 @@ import plotly.express as px
 import plotly.graph_objects as go
 from html import escape
 
-ESPRIT = ["#C8102E", "#4A4A4A", "#0277BD", "#2E7D32", "#F57C00",
-          "#6A1B9A", "#00838F", "#5D4037", "#AD1457", "#1565C0"]
-
-def base_layout(fig, height=320):
-    fig.update_layout(
-        template="plotly_white",
-        height=height,
-        margin=dict(l=10, r=10, t=30, b=10),
-        font=dict(family="Inter, sans-serif", size=11),
-        legend=dict(orientation="h", y=-0.2, x=0.5, xanchor="center"),
-    )
-    return fig
+import sys
+sys.path.insert(0, "scripts")
+from theme import ESPRIT, base_layout
 
 ai4u = pd.read_csv("data/ai4u_projects.csv")
 enc = pd.read_csv("data/encadrants.csv")
@@ -78,25 +69,25 @@ def evolution_cumul(df, titre, couleur, fond):
 
 ::: {.grid}
 ::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
-::: {.kpi style="background: linear-gradient(135deg,#C8102E,#8B0017); width:100%; min-width:0;"}
+::: {.kpi style="width:100%; min-width:0;"}
 [Autonomie]{.label}
 [[]{.bi .bi-bullseye}]{.value style="font-size:2rem"}
 :::
 :::
 ::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
-::: {.kpi style="background: linear-gradient(135deg,#0277BD,#01579B); width:100%; min-width:0;"}
+::: {.kpi style="width:100%; min-width:0;"}
 [Rigueur]{.label}
 [[]{.bi .bi-rulers}]{.value style="font-size:2rem"}
 :::
 :::
 ::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
-::: {.kpi style="background: linear-gradient(135deg,#2E7D32,#1B5E20); width:100%; min-width:0;"}
+::: {.kpi style="width:100%; min-width:0;"}
 [Suivi régulier]{.label}
 [[]{.bi .bi-arrow-repeat}]{.value style="font-size:2rem"}
 :::
 :::
 ::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
-::: {.kpi style="background: linear-gradient(135deg,#F57C00,#E65100); width:100%; min-width:0;"}
+::: {.kpi style="width:100%; min-width:0;"}
 [Valorisation]{.label}
 [[]{.bi .bi-trophy}]{.value style="font-size:2rem"}
 :::
@@ -175,10 +166,10 @@ print(f'''
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.8rem;margin:1rem 0;">
   <div class="kpi"><span class="value">{n_total}</span><span class="label">Total projets AI4U</span></div>
   <div class="kpi"><span class="value">{n_stagiaires}</span><span class="label">Stagiaires encadrés</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#0277BD,#01579B)"><span class="value">{n_po}</span><span class="label">Product Owner</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#F57C00,#E65100)"><span class="value">{n_se}</span><span class="label">Stage d'été</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#2E7D32,#1B5E20)"><span class="value">{n_termines}</span><span class="label">Terminés</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#6A1B9A,#4A148C)"><span class="value">{n_encours}</span><span class="label">En cours</span></div>
+  <div class="kpi"><span class="value">{n_po}</span><span class="label">Product Owner</span></div>
+  <div class="kpi"><span class="value">{n_se}</span><span class="label">Stage d'été</span></div>
+  <div class="kpi"><span class="value">{n_termines}</span><span class="label">Terminés</span></div>
+  <div class="kpi"><span class="value">{n_encours}</span><span class="label">En cours</span></div>
 </div>
 ''')
 ```
@@ -264,11 +255,11 @@ n_annees = enc["annee"].nunique()
 print(f'''
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.8rem;margin:1rem 0;">
   <div class="kpi"><span class="value">{n_total}</span><span class="label">Encadrements</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#0277BD,#01579B)"><span class="value">{n_etudiants}</span><span class="label">Étudiants</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#2E7D32,#1B5E20)"><span class="value">{n_soutenus}</span><span class="label">Soutenus / Terminés</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#6A1B9A,#4A148C)"><span class="value">{n_encours}</span><span class="label">En cours</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#F57C00,#E65100)"><span class="value">{n_formations}</span><span class="label">Formations</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#5D4037,#3E2723)"><span class="value">{n_annees}</span><span class="label">Années</span></div>
+  <div class="kpi"><span class="value">{n_etudiants}</span><span class="label">Étudiants</span></div>
+  <div class="kpi"><span class="value">{n_soutenus}</span><span class="label">Soutenus / Terminés</span></div>
+  <div class="kpi"><span class="value">{n_encours}</span><span class="label">En cours</span></div>
+  <div class="kpi"><span class="value">{n_formations}</span><span class="label">Formations</span></div>
+  <div class="kpi"><span class="value">{n_annees}</span><span class="label">Années</span></div>
 </div>
 ''')
 ```
@@ -342,12 +333,12 @@ n_annees = rap["annee"].nunique()
 
 print(f'''
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.8rem;margin:1rem 0;">
-  <div class="kpi" style="background:linear-gradient(135deg,#6A1B9A,#4A148C)"><span class="value">{n_total}</span><span class="label">Rapports évalués</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#0277BD,#01579B)"><span class="value">{n_etudiants}</span><span class="label">Étudiants</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#2E7D32,#1B5E20)"><span class="value">{n_soutenus}</span><span class="label">Soutenus</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#C8102E,#8B0017)"><span class="value">{n_encours}</span><span class="label">En cours</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#F57C00,#E65100)"><span class="value">{n_formations}</span><span class="label">Formations</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#5D4037,#3E2723)"><span class="value">{n_annees}</span><span class="label">Années</span></div>
+  <div class="kpi"><span class="value">{n_total}</span><span class="label">Rapports évalués</span></div>
+  <div class="kpi"><span class="value">{n_etudiants}</span><span class="label">Étudiants</span></div>
+  <div class="kpi"><span class="value">{n_soutenus}</span><span class="label">Soutenus</span></div>
+  <div class="kpi"><span class="value">{n_encours}</span><span class="label">En cours</span></div>
+  <div class="kpi"><span class="value">{n_formations}</span><span class="label">Formations</span></div>
+  <div class="kpi"><span class="value">{n_annees}</span><span class="label">Années</span></div>
 </div>
 ''')
 ```
@@ -420,10 +411,10 @@ n_annees = pj["annee"].nunique()
 print(f'''
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.8rem;margin:1rem 0;">
   <div class="kpi"><span class="value">{n_pj}</span><span class="label">Jurys présidés</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#0277BD,#01579B)"><span class="value">{n_etudiants}</span><span class="label">Étudiants évalués</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#2E7D32,#1B5E20)"><span class="value">{n_sessions}</span><span class="label">Sessions</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#F57C00,#E65100)"><span class="value">{n_formations}</span><span class="label">Formations</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#6A1B9A,#4A148C)"><span class="value">{n_annees}</span><span class="label">Années</span></div>
+  <div class="kpi"><span class="value">{n_etudiants}</span><span class="label">Étudiants évalués</span></div>
+  <div class="kpi"><span class="value">{n_sessions}</span><span class="label">Sessions</span></div>
+  <div class="kpi"><span class="value">{n_formations}</span><span class="label">Formations</span></div>
+  <div class="kpi"><span class="value">{n_annees}</span><span class="label">Années</span></div>
 </div>
 ''')
 ```

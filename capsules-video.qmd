@@ -27,9 +27,9 @@ n_modules = df["modules_associes"].str.split(r"\s*·\s*").explode().nunique()
 print(f'''
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.8rem;margin:1rem 0 2rem 0;">
   <div class="kpi"><span class="value">{n_playlists}</span><span class="label">Playlists publiées</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#0277BD,#01579B)"><span class="value">{n_videos}</span><span class="label">Capsules vidéo</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#F57C00,#E65100)"><span class="value">{n_vues}</span><span class="label">Vues cumulées</span></div>
-  <div class="kpi" style="background:linear-gradient(135deg,#2E7D32,#1B5E20)"><span class="value">{n_modules}</span><span class="label">Modules concernés</span></div>
+  <div class="kpi"><span class="value">{n_videos}</span><span class="label">Capsules vidéo</span></div>
+  <div class="kpi"><span class="value">{n_vues}</span><span class="label">Vues cumulées</span></div>
+  <div class="kpi"><span class="value">{n_modules}</span><span class="label">Modules concernés</span></div>
 </div>
 ''')
 ```

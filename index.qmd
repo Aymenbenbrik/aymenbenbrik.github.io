@@ -1,6 +1,6 @@
 ---
 title: "Aymen Ben Brik"
-subtitle: "Mathematician · Statistician · Data Scientist"
+subtitle: "Mathématicien · Statisticien · Data Scientist"
 about:
   template: trestles
   image: images/photo.jpg
@@ -22,113 +22,102 @@ about:
 toc: false
 ---
 
-## Bienvenue
+:::: {.thesis-row}
 
-**Chef département Informatique et mathématiques appliquées**
-à **Esprit School of Business** depuis 2019,
-**Head of Research Team AI4U** chez **Esprit Tech** depuis 2023,
-et **AI Instructor** au Training of Trainers Departement.
+::: {.thesis}
+J'enseigne les **mathématiques** et l'**intelligence artificielle** — et je
+pilote chaque semestre par les **données**.
+:::
 
-Représentant d'ESB à la **Honoris Task Force AI Team (HUU)** et
-**Co-Responsable du programme Alternance Business Analytics oriented
-Generative AI** en partenariat avec **Jems Group**.
+```{=html}
+<svg class="loop-mark" viewBox="0 0 150 150" role="img" aria-label="Boucle pédagogique : mesurer, analyser, agir">
+  <title>Boucle pédagogique : mesurer, analyser, agir</title>
+  <defs>
+    <marker id="loop-arrow" viewBox="0 0 10 10" refX="7" refY="5"
+            markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#C8102E"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#C8102E" stroke-width="5" stroke-linecap="round">
+    <path d="M 85.1 17.9 A 58 58 0 0 1 129.5 94.8" marker-end="url(#loop-arrow)"/>
+    <path d="M 119.4 112.3 A 58 58 0 0 1 30.6 112.3" marker-end="url(#loop-arrow)"/>
+    <path d="M 20.5 94.8 A 58 58 0 0 1 64.9 17.9" marker-end="url(#loop-arrow)"/>
+  </g>
+  <g font-family="Inter, sans-serif" font-size="13" font-weight="600" text-anchor="middle">
+    <text x="75" y="62" fill="#1F2430">Mesurer</text>
+    <text x="75" y="80" fill="#1F2430">Analyser</text>
+    <text x="75" y="98" fill="#C8102E">Agir</text>
+  </g>
+</svg>
+```
 
-Mon enseignement et ma recherche couvrent les **mathématiques appliquées**,
-les **statistiques**, la **recherche opérationnelle**, le **machine learning**,
-le **deep learning** et l'**actuariat**, avec une emphase sur la pédagogie
-augmentée par l'IA.
+::::
 
-## Indicateurs clés
+**Chef du département Informatique et mathématiques appliquées** à
+**Esprit School of Business**, je dirige l'équipe de recherche
+**AI4U** (Esprit Tech) et représente ESB à la **Task Force IA de Honoris
+United Universities**. Mon terrain : la pédagogie augmentée par l'IA — du
+cours d'algèbre au déploiement d'agents intelligents.
 
 ```{python}
 #| echo: false
+#| output: asis
 import pandas as pd
-from IPython.display import HTML
 
 try:
-    # Source : enseignements_detailed.csv (genere depuis Enseignement.xlsx)
     enseignements = pd.read_csv("data/enseignements_detailed.csv")
-    # Sources encadrement : 4 CSVs generes depuis 'encadrement et activites.xlsx'
     ai4u = pd.read_csv("data/ai4u_projects.csv")
     enc = pd.read_csv("data/encadrants.csv")
     rap = pd.read_csv("data/rapporteurs.csv")
     pj = pd.read_csv("data/president_jury.csv")
-    certifications = pd.read_csv("data/certifications.csv")
-    responsabilites = pd.read_csv("data/responsabilites.csv")
 
-    n_modules = enseignements["nom_module"].nunique()
-    n_heures_total = int(enseignements["charge_horaire"].sum())
-    n_etudiants = int(len(ai4u) + len(enc) + len(rap) + len(pj))
-    n_certifs = int(certifications.shape[0])
-    n_resp = int(responsabilites.shape[0])
     n_annees = enseignements["annee"].nunique()
+    n_modules = enseignements["nom_module"].nunique()
+    n_heures = int(enseignements["charge_horaire"].sum())
+    n_encadrements = len(ai4u) + len(enc) + len(rap) + len(pj)
 except Exception:
-    n_modules, n_heures_total, n_etudiants, n_certifs, n_resp, n_annees = 0, 0, 0, 0, 0, 0
+    n_annees = n_modules = n_heures = n_encadrements = 0
 
-html = f"""
-<div style="text-align:center; margin: 2rem 0;">
-  <div class="kpi"><span class="value">{n_annees}</span><span class="label">Années d'enseignement ESB</span></div>
-  <div class="kpi"><span class="value">{n_modules}</span><span class="label">Modules différents</span></div>
-  <div class="kpi"><span class="value">{n_heures_total}</span><span class="label">Heures cumulées</span></div>
-  <div class="kpi"><span class="value">{n_etudiants}</span><span class="label">Encadrements &amp; jurys</span></div>
-  <div class="kpi"><span class="value">{n_certifs}</span><span class="label">Certifications</span></div>
-  <div class="kpi"><span class="value">{n_resp}</span><span class="label">Responsabilités</span></div>
+print(f'''
+<div style="text-align:center; margin: 1.6rem 0;">
+  <div class="kpi"><span class="value">{n_annees}</span><span class="label">Années à ESB</span></div>
+  <div class="kpi"><span class="value">{n_heures:,}</span><span class="label">Heures d'enseignement</span></div>
+  <div class="kpi"><span class="value">{n_encadrements}</span><span class="label">Encadrements &amp; jurys</span></div>
 </div>
-"""
-HTML(html)
+
+<div class="entry-grid">
+  <a class="entry-card" href="enseignements/index.html">
+    <div class="entry-title">Enseignement</div>
+    <div class="entry-desc">Vision pédagogique, feedback continu, récapitulatif et supports de cours.</div>
+    <span class="entry-count">{n_modules} modules · {n_heures:,} h</span>
+  </a>
+  <a class="entry-card" href="encadrement-projets.html">
+    <div class="entry-title">Encadrement</div>
+    <div class="entry-desc">PFE et mémoires encadrés, rapports évalués, jurys présidés, projets AI4U.</div>
+    <span class="entry-count">{n_encadrements} encadrements &amp; jurys</span>
+  </a>
+  <a class="entry-card" href="recherche.html">
+    <div class="entry-title">Recherche</div>
+    <div class="entry-desc">Équipe AI4U, plateforme ESB-Learning (Agentic AI), publications et communications.</div>
+    <span class="entry-count">AI4U · ESB-Learning</span>
+  </a>
+</div>
+''')
 ```
 
-## Postes actuels
+## Parcours
 
-::: {.card-module}
-### Chef département Informatique et mathématiques appliquées · ESB · depuis 2019
-**Département Informatique et mathématiques appliquées**
-
-Direction du département, supervision des enseignants, coordination
-pédagogique, jurys de recrutement, partenariats académiques.
-:::
-
-::: {.card-module}
-### Head of Research Team AI4U · Esprit Tech · depuis 2023
-**Artificial Intelligence 4 University**
-
-Direction d'une équipe de recherche dédiée aux applications de
-l'intelligence artificielle dans l'enseignement supérieur.
-:::
-
-::: {.card-module}
-### AI Instructor · Training of Trainers · ESB · depuis 2023
-Sessions de formation spécialisées en **AI, Machine Learning, Deep Learning,
-Data Analysis, NLP, Transformers et LLM** pour les formateurs internes.
-:::
-
-::: {.card-module}
-### Co-Responsible Alternance Program — Generative AI · ESB × Jems Group · depuis 2024
-Programme **Business Analytics oriented to Generative Artificial Intelligence**
-en partenariat avec **Jems Group**.
-:::
-
-::: {.card-module}
-### HUU Task Force AI Team · Honoris United University · depuis 2024
-**Representative of ESB** au sein de la Task Force AI de Honoris United
-University, réseau de 11 institutions d'enseignement supérieur sur 10 pays.
-:::
-
-::: {.card-module}
-### Tekouin Administrator · ESB · depuis 2020
-Administration de la plateforme **Tekouin** — e-learning de coding
-pour les étudiants ESB.
-:::
-
-::: {.card-module}
-### Architecte & développeur — ESB-Learning · depuis 2024
-Conception et développement d'une plateforme **d'apprentissage adaptatif
-à architecture nativement Agentic AI** pour ESB : 5 agents autonomes
-(LangGraph ReAct + StateGraph), 37 composants IA, RAG hybride
-(ChromaDB + BM25 + YouTube), intégration **TunBERT** pour le dialecte
-tunisien, sandbox Piston multi-langage. Détails en
-[Recherche](recherche.qmd#projet-phare-esb-learning-plateforme-agentic-ai).
-:::
+```{=html}
+<ul class="timeline">
+  <li><span class="tl-year">2024 —</span> <strong>Architecte & développeur</strong> de la plateforme <a href="recherche.html#projet-phare-esb-learning-plateforme-agentic-ai">ESB-Learning</a> (apprentissage adaptatif, architecture Agentic AI)</li>
+  <li><span class="tl-year">2024 —</span> <strong>Co-responsable</strong> du programme Alternance Business Analytics × Generative AI, ESB × <strong>Jems Group</strong></li>
+  <li><span class="tl-year">2024 —</span> <strong>Représentant ESB</strong>, Task Force AI, <strong>Honoris United Universities</strong> (11 institutions, 10 pays)</li>
+  <li><span class="tl-year">2023 —</span> <strong>Head of Research Team AI4U</strong>, Esprit Tech</li>
+  <li><span class="tl-year">2023 —</span> <strong>AI Instructor</strong>, Training of Trainers, ESB (ML, DL, NLP, Transformers, LLM)</li>
+  <li><span class="tl-year">2020 —</span> <strong>Administrateur Tekouin</strong>, plateforme e-learning de coding, ESB</li>
+  <li><span class="tl-year">2019 —</span> <strong>Chef du département Informatique et mathématiques appliquées</strong>, ESB</li>
+</ul>
+```
 
 ## Domaines d'expertise
 
@@ -170,34 +159,13 @@ tunisien, sandbox Piston multi-langage. Détails en
 :::
 :::
 
-## Modules actuels
+## Modules de l'année
 
-::: {.card-module}
-### [Algèbre 2 (ECUE211)](enseignements/algebre-2.qmd)
-Espaces vectoriels · Matrices · Déterminants — S2 LMAD/SD · 84h · 7 ECTS
-:::
+- **[Algèbre 2 (ECUE211)](enseignements/algebre-2.qmd)** — Espaces vectoriels, matrices, déterminants · S2 LMAD/SD · 84 h
+- **[Algèbre 3 (ECUE311)](enseignements/algebre-3.qmd)** — Réduction, espaces euclidiens, formes quadratiques, ACP · 75 h
+- **[Probabilités (ECUE411)](enseignements/probabilites.qmd)** — Variables aléatoires, lois usuelles, théorèmes limites · S4 LMAD · 84 h
+- **[Analyse 4 (ECUE421)](enseignements/analyse-4.qmd)** — Topologie, calcul différentiel, descente de gradient · S4 LMAD · 84 h
+- **[Recherche Opérationnelle (ECUEO412)](enseignements/recherche-operationnelle.qmd)** — Programmation linéaire, théorie des graphes · 42 h
+- **Portfolio Optimization** — Master GAMMA / Alternance BA · 42 h · *nouveau module*
 
-::: {.card-module}
-### [Algèbre 3 (ECUE311)](enseignements/algebre-3.qmd)
-Réduction · Normes · Espaces euclidiens · Formes quadratiques · ACP — S2 · 75h · 7 ECTS
-:::
-
-::: {.card-module}
-### [Probabilités (ECUE411)](enseignements/probabilites.qmd)
-Variables aléatoires · Lois usuelles · Théorèmes limites — S4 LMAD · 84h · 7 ECTS
-:::
-
-::: {.card-module}
-### [Analyse 4 (ECUE421)](enseignements/analyse-4.qmd)
-Topologie · Calcul différentiel · Descente de gradient — S4 LMAD · 84h · 7 ECTS
-:::
-
-::: {.card-module}
-### [Recherche Opérationnelle (ECUEO412)](enseignements/recherche-operationnelle.qmd)
-Programmation linéaire · Théorie des graphes — 42h
-:::
-
-::: {.card-module}
-### Portfolio Optimization · 2025–2026 · NEW
-Optimisation de portefeuille — Master GAMMA / Alternance BA · 42h
-:::
+[Catalogue complet des modules →](enseignements/modules/index.qmd)

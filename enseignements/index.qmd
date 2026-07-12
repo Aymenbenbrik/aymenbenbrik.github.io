@@ -223,21 +223,21 @@ capitaliser chaque semestre dans le syllabus et la fiche module.
 
 ::: {.grid}
 ::: {.g-col-md-4 .g-col-12}
-::: {.kpi style="background: linear-gradient(135deg,#0277BD,#01579B); width:100%; min-width:0;"}
+::: {.kpi style="width:100%; min-width:0;"}
 [FB1 · Diagnostic — Semaine 1]{.label}
 [[]{.bi .bi-search}]{.value style="font-size:2rem"}
 [Prérequis · Motivation · Objectifs clairs]{.label}
 :::
 :::
 ::: {.g-col-md-4 .g-col-12}
-::: {.kpi style="background: linear-gradient(135deg,#C8102E,#8B0017); width:100%; min-width:0;"}
+::: {.kpi style="width:100%; min-width:0;"}
 [FB2 · Ajustement — Semaine 4]{.label}
 [[]{.bi .bi-sliders}]{.value style="font-size:2rem"}
 [Compréhension · Rythme · Charge · Pédagogie]{.label}
 :::
 :::
 ::: {.g-col-md-4 .g-col-12}
-::: {.kpi style="background: linear-gradient(135deg,#2E7D32,#1B5E20); width:100%; min-width:0;"}
+::: {.kpi style="width:100%; min-width:0;"}
 [FB3 · Optimisation — Semaine 10]{.label}
 [[]{.bi .bi-rocket-takeoff}]{.value style="font-size:2rem"}
 [Impact · Préparation finale · Capitalisation]{.label}
@@ -287,25 +287,25 @@ Rapport complet : **[[]{.bi .bi-file-earmark-pdf} Enquête Pédagogie Active (PD
 
 ::: {.grid}
 ::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
-::: {.kpi style="background: linear-gradient(135deg,#0277BD,#01579B); width:100%; min-width:0;"}
+::: {.kpi style="width:100%; min-width:0;"}
 [3,5 / 5]{.value}
 [Satisfaction globale (aucune note ≤ 2)]{.label}
 :::
 :::
 ::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
-::: {.kpi style="background: linear-gradient(135deg,#C8102E,#8B0017); width:100%; min-width:0;"}
+::: {.kpi style="width:100%; min-width:0;"}
 [95 %]{.value}
 [souhaitent plus d'activités interactives]{.label}
 :::
 :::
 ::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
-::: {.kpi style="background: linear-gradient(135deg,#2E7D32,#1B5E20); width:100%; min-width:0;"}
+::: {.kpi style="width:100%; min-width:0;"}
 [89 %]{.value}
 [se sentent impliqués dans leur apprentissage]{.label}
 :::
 :::
 ::: {.g-col-md-3 .g-col-sm-6 .g-col-12}
-::: {.kpi style="background: linear-gradient(135deg,#F57C00,#E65100); width:100%; min-width:0;"}
+::: {.kpi style="width:100%; min-width:0;"}
 [100 %]{.value}
 [exposés aux travaux de groupe]{.label}
 :::
