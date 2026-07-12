@@ -4,14 +4,14 @@
     "href": "enseignements/algebre-3.html",
     "title": "Algèbre 3 — ECUE311",
     "section": "",
-    "text": "Module avancé d’algèbre linéaire et bilinéaire couvrant la réduction des endomorphismes, les normes, les espaces euclidiens, les formes quadratiques et l’analyse en composantes principales.\nVolume : 75h = 42C + 27TD + 9TP + 6 projet."
+    "text": "Aller au contenu principal"
   },
   {
     "objectID": "enseignements/algebre-3.html#présentation",
     "href": "enseignements/algebre-3.html#présentation",
     "title": "Algèbre 3 — ECUE311",
-    "section": "",
-    "text": "Module avancé d’algèbre linéaire et bilinéaire couvrant la réduction des endomorphismes, les normes, les espaces euclidiens, les formes quadratiques et l’analyse en composantes principales.\nVolume : 75h = 42C + 27TD + 9TP + 6 projet."
+    "section": "Présentation",
+    "text": "Présentation\nModule avancé d’algèbre linéaire et bilinéaire couvrant la réduction des endomorphismes, les normes, les espaces euclidiens, les formes quadratiques et l’analyse en composantes principales.\nVolume : 75h = 42C + 27TD + 9TP + 6 projet."
   },
   {
     "objectID": "enseignements/algebre-3.html#espace-blackboard",
@@ -46,14 +46,14 @@
     "href": "enseignements/portfolio-optimization.html",
     "title": "Portfolio Optimization",
     "section": "",
-    "text": "Module créé en 2025–2026, dédié à l’optimisation de portefeuille financier — théorie classique (Markowitz, CAPM) et approches modernes (Black-Litterman, Risk Parity, ML-based allocation).\nS’inscrit dans la continuité de mon MSc Applied Mathematics — Actuarial Science Track (Paris Dauphine Tunis) et de mon expertise actuariat établie depuis 2016."
+    "text": "Aller au contenu principal"
   },
   {
     "objectID": "enseignements/portfolio-optimization.html#présentation",
     "href": "enseignements/portfolio-optimization.html#présentation",
     "title": "Portfolio Optimization",
-    "section": "",
-    "text": "Module créé en 2025–2026, dédié à l’optimisation de portefeuille financier — théorie classique (Markowitz, CAPM) et approches modernes (Black-Litterman, Risk Parity, ML-based allocation).\nS’inscrit dans la continuité de mon MSc Applied Mathematics — Actuarial Science Track (Paris Dauphine Tunis) et de mon expertise actuariat établie depuis 2016."
+    "section": "Présentation",
+    "text": "Présentation\nModule créé en 2025–2026, dédié à l’optimisation de portefeuille financier — théorie classique (Markowitz, CAPM) et approches modernes (Black-Litterman, Risk Parity, ML-based allocation).\nS’inscrit dans la continuité de mon MSc Applied Mathematics — Actuarial Science Track (Paris Dauphine Tunis) et de mon expertise actuariat établie depuis 2016."
   },
   {
     "objectID": "enseignements/portfolio-optimization.html#espace-blackboard",
@@ -109,14 +109,14 @@
     "href": "enseignements/deep-learning.html",
     "title": "Deep Learning",
     "section": "",
-    "text": "Module créé en 2022–2023, maintenu et enrichi avec les évolutions des architectures neuronales modernes. Approche pratique : construction de réseaux from scratch puis avec TensorFlow/PyTorch.\nModule conçu en cohérence avec ma Spécialisation Deep Learning de deeplearning.ai (Coursera, 5 cours certifiés en 2019)."
+    "text": "Aller au contenu principal"
   },
   {
     "objectID": "enseignements/deep-learning.html#présentation",
     "href": "enseignements/deep-learning.html#présentation",
     "title": "Deep Learning",
-    "section": "",
-    "text": "Module créé en 2022–2023, maintenu et enrichi avec les évolutions des architectures neuronales modernes. Approche pratique : construction de réseaux from scratch puis avec TensorFlow/PyTorch.\nModule conçu en cohérence avec ma Spécialisation Deep Learning de deeplearning.ai (Coursera, 5 cours certifiés en 2019)."
+    "section": "Présentation",
+    "text": "Présentation\nModule créé en 2022–2023, maintenu et enrichi avec les évolutions des architectures neuronales modernes. Approche pratique : construction de réseaux from scratch puis avec TensorFlow/PyTorch.\nModule conçu en cohérence avec ma Spécialisation Deep Learning de deeplearning.ai (Coursera, 5 cours certifiés en 2019)."
   },
   {
     "objectID": "enseignements/deep-learning.html#espace-blackboard",
@@ -165,14 +165,14 @@
     "href": "enseignements/nlp-natural-language-processing.html",
     "title": "NLP — Natural Language Processing",
     "section": "",
-    "text": "Module créé en 2022–2023, axé sur les techniques modernes de NLP (Transformers, attention, LLMs) tout en couvrant les fondamentaux classiques (tokenization, embeddings, modèles séquence-à-séquence).\nLié directement à mes activités d’AI Instructor (Training of Trainers Departement) où j’anime des sessions sur NLP, Transformers et LLM."
+    "text": "Aller au contenu principal"
   },
   {
     "objectID": "enseignements/nlp-natural-language-processing.html#présentation",
     "href": "enseignements/nlp-natural-language-processing.html#présentation",
     "title": "NLP — Natural Language Processing",
-    "section": "",
-    "text": "Module créé en 2022–2023, axé sur les techniques modernes de NLP (Transformers, attention, LLMs) tout en couvrant les fondamentaux classiques (tokenization, embeddings, modèles séquence-à-séquence).\nLié directement à mes activités d’AI Instructor (Training of Trainers Departement) où j’anime des sessions sur NLP, Transformers et LLM."
+    "section": "Présentation",
+    "text": "Présentation\nModule créé en 2022–2023, axé sur les techniques modernes de NLP (Transformers, attention, LLMs) tout en couvrant les fondamentaux classiques (tokenization, embeddings, modèles séquence-à-séquence).\nLié directement à mes activités d’AI Instructor (Training of Trainers Departement) où j’anime des sessions sur NLP, Transformers et LLM."
   },
   {
     "objectID": "enseignements/nlp-natural-language-processing.html#espace-blackboard",
@@ -228,7 +228,7 @@
     "href": "enseignements/modules/integration-et-probabilites.html",
     "title": "Intégration et Probabilités",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/integration-et-probabilites.html#synthèse",
@@ -263,7 +263,7 @@
     "href": "enseignements/modules/algebre-3.html",
     "title": "Algèbre 3",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/algebre-3.html#synthèse",
@@ -312,7 +312,7 @@
     "href": "enseignements/modules/analyse-des-donnees-avec-spss.html",
     "title": "Analyse des données avec SPSS",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/analyse-des-donnees-avec-spss.html#synthèse",
@@ -347,7 +347,7 @@
     "href": "enseignements/modules/index.html",
     "title": "Modules — Vue d’ensemble",
     "section": "",
-    "text": "Catalogue des 42 modules dispensés à ESB (2016–2026), dont 11 avec fiche pédagogique détaillée (★). Cliquez sur un module pour accéder à sa fiche.",
+    "text": "Aller au contenu principal\nCatalogue des 42 modules dispensés à ESB (2016–2026), dont 11 avec fiche pédagogique détaillée (★). Cliquez sur un module pour accéder à sa fiche.",
     "crumbs": [
       "Catalogue des modules"
     ]
@@ -397,7 +397,7 @@
     "href": "enseignements/modules/mathematiques-1.html",
     "title": "Mathématiques 1",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/mathematiques-1.html#synthèse",
@@ -432,7 +432,7 @@
     "href": "enseignements/modules/analyse-4.html",
     "title": "Analyse 4",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/analyse-4.html#synthèse",
@@ -481,7 +481,7 @@
     "href": "enseignements/modules/deep-learning.html",
     "title": "Deep Learning",
     "section": "",
-    "text": "Coordinateur Anglais Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Anglais Nouveau module"
   },
   {
     "objectID": "enseignements/modules/deep-learning.html#synthèse",
@@ -530,7 +530,7 @@
     "href": "enseignements/modules/les-fondamentaux-des-mathematiques.html",
     "title": "Les fondamentaux des mathématiques",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/les-fondamentaux-des-mathematiques.html#synthèse",
@@ -565,7 +565,7 @@
     "href": "enseignements/modules/analyse-statistique-avec-r.html",
     "title": "Analyse statistique avec R",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/analyse-statistique-avec-r.html#synthèse",
@@ -600,7 +600,7 @@
     "href": "enseignements/modules/series-temporelles.html",
     "title": "Séries Temporelles",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/series-temporelles.html#synthèse",
@@ -642,7 +642,7 @@
     "href": "enseignements/modules/programmation-python-2.html",
     "title": "Programmation Python 2",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/programmation-python-2.html#synthèse",
@@ -691,7 +691,7 @@
     "href": "enseignements/modules/analyse-2.html",
     "title": "Analyse 2",
     "section": "",
-    "text": "Nouveau module"
+    "text": "Aller au contenu principal\nNouveau module"
   },
   {
     "objectID": "enseignements/modules/analyse-2.html#synthèse",
@@ -719,7 +719,7 @@
     "href": "enseignements/modules/gestion-de-projet.html",
     "title": "Gestion de projet",
     "section": "",
-    "text": "Coordinateur"
+    "text": "Aller au contenu principal\nCoordinateur"
   },
   {
     "objectID": "enseignements/modules/gestion-de-projet.html#synthèse",
@@ -754,7 +754,7 @@
     "href": "enseignements/modules/recherche-operationnelle.html",
     "title": "Recherche Opérationnelle",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/recherche-operationnelle.html#synthèse",
@@ -803,7 +803,7 @@
     "href": "enseignements/modules/statistiques.html",
     "title": "Statistiques",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/statistiques.html#synthèse",
@@ -838,7 +838,7 @@
     "href": "enseignements/modules/optimisation-numerique.html",
     "title": "Optimisation numérique",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/optimisation-numerique.html#synthèse",
@@ -873,7 +873,7 @@
     "href": "enseignements/modules/generative-computer-vision.html",
     "title": "Generative Computer Vision",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/generative-computer-vision.html#synthèse",
@@ -922,7 +922,7 @@
     "href": "enseignements/modules/analyse-des-donnees.html",
     "title": "Analyse des données",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/analyse-des-donnees.html#synthèse",
@@ -957,7 +957,7 @@
     "href": "enseignements/modules/apprentissage-statistique.html",
     "title": "Apprentissage Statistique",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/apprentissage-statistique.html#synthèse",
@@ -992,7 +992,7 @@
     "href": "enseignements/modules/algebre-1.html",
     "title": "Algèbre 1",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/algebre-1.html#synthèse",
@@ -1034,7 +1034,7 @@
     "href": "enseignements/modules/atelier-de-programmation.html",
     "title": "Atelier de programmation",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/atelier-de-programmation.html#synthèse",
@@ -1069,7 +1069,7 @@
     "href": "enseignements/modules/statistiques-inferentielles.html",
     "title": "Statistiques inférentielles",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/statistiques-inferentielles.html#synthèse",
@@ -1104,7 +1104,7 @@
     "href": "enseignements/feedback-continu.html",
     "title": "Feedback continu",
     "section": "",
-    "text": "Je considère le feedback non pas comme une évaluation ponctuelle de fin de semestre, mais comme un instrument de pilotage pédagogique en temps réel. Mon système de feedback continu repose sur trois mesures structurées — FB1 Diagnostic (semaine 1), FB2 Ajustement (semaine 4) et FB3 Optimisation (semaine 10) — couplées à des seuils déclencheurs quantifiés et à des actions correctives rapides tracées dans une fiche dédiée (fiche ARC). L’objectif : détecter tôt les difficultés de compréhension, d’engagement ou de rythme, agir dans les deux semaines, et capitaliser chaque semestre dans le syllabus et la fiche module.\n\n\n\n\nFB1 · Diagnostic — Semaine 1  Prérequis · Motivation · Objectifs clairs\n\n\n\n\nFB2 · Ajustement — Semaine 4  Compréhension · Rythme · Charge · Pédagogie\n\n\n\n\nFB3 · Optimisation — Semaine 10  Impact · Préparation finale · Capitalisation\n\n\n\n\n\n\nLes trois temps du feedback continu et la boucle d’action corrective",
+    "text": "Aller au contenu principal",
     "crumbs": [
       "Feedback continu"
     ]
@@ -1113,8 +1113,8 @@
     "objectID": "enseignements/feedback-continu.html#ma-vision-du-feedback-continu",
     "href": "enseignements/feedback-continu.html#ma-vision-du-feedback-continu",
     "title": "Feedback continu",
-    "section": "",
-    "text": "Je considère le feedback non pas comme une évaluation ponctuelle de fin de semestre, mais comme un instrument de pilotage pédagogique en temps réel. Mon système de feedback continu repose sur trois mesures structurées — FB1 Diagnostic (semaine 1), FB2 Ajustement (semaine 4) et FB3 Optimisation (semaine 10) — couplées à des seuils déclencheurs quantifiés et à des actions correctives rapides tracées dans une fiche dédiée (fiche ARC). L’objectif : détecter tôt les difficultés de compréhension, d’engagement ou de rythme, agir dans les deux semaines, et capitaliser chaque semestre dans le syllabus et la fiche module.\n\n\n\n\nFB1 · Diagnostic — Semaine 1  Prérequis · Motivation · Objectifs clairs\n\n\n\n\nFB2 · Ajustement — Semaine 4  Compréhension · Rythme · Charge · Pédagogie\n\n\n\n\nFB3 · Optimisation — Semaine 10  Impact · Préparation finale · Capitalisation\n\n\n\n\n\n\nLes trois temps du feedback continu et la boucle d’action corrective",
+    "section": "Ma vision du feedback continu",
+    "text": "Ma vision du feedback continu\n\nJe considère le feedback non pas comme une évaluation ponctuelle de fin de semestre, mais comme un instrument de pilotage pédagogique en temps réel. Mon système de feedback continu repose sur trois mesures structurées — FB1 Diagnostic (semaine 1), FB2 Ajustement (semaine 4) et FB3 Optimisation (semaine 10) — couplées à des seuils déclencheurs quantifiés et à des actions correctives rapides tracées dans une fiche dédiée (fiche ARC). L’objectif : détecter tôt les difficultés de compréhension, d’engagement ou de rythme, agir dans les deux semaines, et capitaliser chaque semestre dans le syllabus et la fiche module.\n\n\n\n\nFB1 · Diagnostic — Semaine 1  Prérequis · Motivation · Objectifs clairs\n\n\n\n\nFB2 · Ajustement — Semaine 4  Compréhension · Rythme · Charge · Pédagogie\n\n\n\n\nFB3 · Optimisation — Semaine 10  Impact · Préparation finale · Capitalisation\n\n\n\n\n\n\nLes trois temps du feedback continu et la boucle d’action corrective",
     "crumbs": [
       "Feedback continu"
     ]
@@ -1164,14 +1164,14 @@
     "href": "enseignements/generative-computer-vision.html",
     "title": "Generative Computer Vision",
     "section": "",
-    "text": "Module créé en 2024–2025, à la pointe des techniques de vision générative : GANs, diffusion models, vision-language models (CLIP, DALL-E, Stable Diffusion, Midjourney-like architectures).\nS’inscrit dans le programme stratégique Alternance BA — Business Analytics oriented to Generative AI (partenariat ESB / Jems Group) dont je suis Co-Responsable depuis 2024."
+    "text": "Aller au contenu principal"
   },
   {
     "objectID": "enseignements/generative-computer-vision.html#présentation",
     "href": "enseignements/generative-computer-vision.html#présentation",
     "title": "Generative Computer Vision",
-    "section": "",
-    "text": "Module créé en 2024–2025, à la pointe des techniques de vision générative : GANs, diffusion models, vision-language models (CLIP, DALL-E, Stable Diffusion, Midjourney-like architectures).\nS’inscrit dans le programme stratégique Alternance BA — Business Analytics oriented to Generative AI (partenariat ESB / Jems Group) dont je suis Co-Responsable depuis 2024."
+    "section": "Présentation",
+    "text": "Présentation\nModule créé en 2024–2025, à la pointe des techniques de vision générative : GANs, diffusion models, vision-language models (CLIP, DALL-E, Stable Diffusion, Midjourney-like architectures).\nS’inscrit dans le programme stratégique Alternance BA — Business Analytics oriented to Generative AI (partenariat ESB / Jems Group) dont je suis Co-Responsable depuis 2024."
   },
   {
     "objectID": "enseignements/generative-computer-vision.html#espace-blackboard",
@@ -1227,14 +1227,14 @@
     "href": "enseignements/machine-learning.html",
     "title": "Machine Learning",
     "section": "",
-    "text": "Module créé en 2021–2022 dans le cadre de l’évolution du curriculum data science d’ESB, puis maintenu et enrichi chaque année. Approche par projet avec datasets réels."
+    "text": "Aller au contenu principal"
   },
   {
     "objectID": "enseignements/machine-learning.html#présentation",
     "href": "enseignements/machine-learning.html#présentation",
     "title": "Machine Learning",
-    "section": "",
-    "text": "Module créé en 2021–2022 dans le cadre de l’évolution du curriculum data science d’ESB, puis maintenu et enrichi chaque année. Approche par projet avec datasets réels."
+    "section": "Présentation",
+    "text": "Présentation\nModule créé en 2021–2022 dans le cadre de l’évolution du curriculum data science d’ESB, puis maintenu et enrichi chaque année. Approche par projet avec datasets réels."
   },
   {
     "objectID": "enseignements/machine-learning.html#espace-blackboard",
@@ -1283,7 +1283,7 @@
     "href": "index.html",
     "title": "Aymen Ben Brik",
     "section": "",
-    "text": "J’enseigne les mathématiques et l’intelligence artificielle — et je pilote chaque semestre par les données.\n\n\n  Boucle pédagogique : mesurer, analyser, agir\n  \n    \n      \n    \n  \n  \n    \n    \n    \n  \n  \n    Mesurer\n    Analyser\n    Agir\nChef du département Informatique et mathématiques appliquées à Esprit School of Business, je dirige l’équipe de recherche AI4U (Esprit Tech) et représente ESB à la Task Force IA de Honoris United Universities. Mon terrain : la pédagogie augmentée par l’IA — du cours d’algèbre au déploiement d’agents intelligents."
+    "text": "Aller au contenu principal\nChef du département Informatique et mathématiques appliquées à Esprit School of Business, je dirige l’équipe de recherche AI4U (Esprit Tech) et représente ESB à la Task Force IA de Honoris United Universities. Mon terrain : la pédagogie augmentée par l’IA — du cours d’algèbre au déploiement d’agents intelligents."
   },
   {
     "objectID": "index.html#parcours",
@@ -1311,14 +1311,14 @@
     "href": "certifications.html",
     "title": "Certifications & Formations",
     "section": "",
-    "text": "40+ certifications et formations cumulées de 2018 à 2026, couvrant trois grands axes :\n\nCoursera — 26 cours individuels + 3 certifications de spécialisation (Deep Learning, TensorFlow Developer, Reasoning/Data Analysis/Writing), couvrant Deep Learning, NLP, Computer Vision, Time Series, Tableau, Python, Mathématiques pour ML, Statistique inférentielle, IA générative et Scrum.\nUdemy — 8 certifications en data science (Python, R, SQL, ML, DL, Time Series, Tableau).\nFormations institutionnelles et pédagogiques — Power BI (IT LAND), Prompt Engineering (D2F), Reviewer WEITA 2026, écoles d’été CIMPA + IHEC, mobilité ERASMUS."
+    "text": "Aller au contenu principal"
   },
   {
     "objectID": "certifications.html#synthèse",
     "href": "certifications.html#synthèse",
     "title": "Certifications & Formations",
-    "section": "",
-    "text": "40+ certifications et formations cumulées de 2018 à 2026, couvrant trois grands axes :\n\nCoursera — 26 cours individuels + 3 certifications de spécialisation (Deep Learning, TensorFlow Developer, Reasoning/Data Analysis/Writing), couvrant Deep Learning, NLP, Computer Vision, Time Series, Tableau, Python, Mathématiques pour ML, Statistique inférentielle, IA générative et Scrum.\nUdemy — 8 certifications en data science (Python, R, SQL, ML, DL, Time Series, Tableau).\nFormations institutionnelles et pédagogiques — Power BI (IT LAND), Prompt Engineering (D2F), Reviewer WEITA 2026, écoles d’été CIMPA + IHEC, mobilité ERASMUS."
+    "section": "Synthèse",
+    "text": "Synthèse\n40+ certifications et formations cumulées de 2018 à 2026, couvrant trois grands axes :\n\nCoursera — 26 cours individuels + 3 certifications de spécialisation (Deep Learning, TensorFlow Developer, Reasoning/Data Analysis/Writing), couvrant Deep Learning, NLP, Computer Vision, Time Series, Tableau, Python, Mathématiques pour ML, Statistique inférentielle, IA générative et Scrum.\nUdemy — 8 certifications en data science (Python, R, SQL, ML, DL, Time Series, Tableau).\nFormations institutionnelles et pédagogiques — Power BI (IT LAND), Prompt Engineering (D2F), Reviewer WEITA 2026, écoles d’été CIMPA + IHEC, mobilité ERASMUS."
   },
   {
     "objectID": "certifications.html#coursera-deep-learning-specialization-deeplearning.ai-andrew-ng",
@@ -1395,14 +1395,14 @@
     "href": "cv.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Nom · Prénom\nBEN BRIK · Aymen\n\n\nEmail pro\naymen.benbrik@esprit.tn\n\n\nEmail perso\naymenbenbrik@gmail.com\n\n\nTéléphone · Skype\n+216 94 937 226 · aymenbenbrik.skype\n\n\nAdresse\nRésidence El Mesk, Appart. A12, Cité des palmeraies, Aouina 2045 Tunis\n\n\nÉtablissement\nEsprit School of Business · Esprit Tech\n\n\nFonction\nChef département Informatique et mathématiques appliquées · Head of Research Team AI4U"
+    "text": "Aller au contenu principal"
   },
   {
     "objectID": "cv.html#état-civil",
     "href": "cv.html#état-civil",
     "title": "Curriculum Vitae",
-    "section": "",
-    "text": "Nom · Prénom\nBEN BRIK · Aymen\n\n\nEmail pro\naymen.benbrik@esprit.tn\n\n\nEmail perso\naymenbenbrik@gmail.com\n\n\nTéléphone · Skype\n+216 94 937 226 · aymenbenbrik.skype\n\n\nAdresse\nRésidence El Mesk, Appart. A12, Cité des palmeraies, Aouina 2045 Tunis\n\n\nÉtablissement\nEsprit School of Business · Esprit Tech\n\n\nFonction\nChef département Informatique et mathématiques appliquées · Head of Research Team AI4U"
+    "section": "État civil",
+    "text": "État civil\n\n\n\nNom · Prénom\nBEN BRIK · Aymen\n\n\nEmail pro\naymen.benbrik@esprit.tn\n\n\nEmail perso\naymenbenbrik@gmail.com\n\n\nTéléphone · Skype\n+216 94 937 226 · aymenbenbrik.skype\n\n\nAdresse\nRésidence El Mesk, Appart. A12, Cité des palmeraies, Aouina 2045 Tunis\n\n\nÉtablissement\nEsprit School of Business · Esprit Tech\n\n\nFonction\nChef département Informatique et mathématiques appliquées · Head of Research Team AI4U"
   },
   {
     "objectID": "cv.html#expériences-professionnelles",
@@ -1472,14 +1472,14 @@
     "href": "recherche.html",
     "title": "Recherche & Production scientifique",
     "section": "",
-    "text": "Direction d’une équipe de recherche dédiée aux applications de l’intelligence artificielle dans l’enseignement supérieur.\nAxes de recherche :\n\nPédagogie augmentée par l’IA et la GenAI\nGénération automatique de contenus pédagogiques\nÉvaluation augmentée par l’IA\nLLMs, Transformers et NLP appliqués à l’enseignement\nComputer Vision pour l’analyse de productions étudiantes\nOutils de personnalisation de l’apprentissage"
+    "text": "Aller au contenu principal"
   },
   {
     "objectID": "recherche.html#head-of-research-team-ai4u-esprit-tech-depuis-2023",
     "href": "recherche.html#head-of-research-team-ai4u-esprit-tech-depuis-2023",
     "title": "Recherche & Production scientifique",
-    "section": "",
-    "text": "Direction d’une équipe de recherche dédiée aux applications de l’intelligence artificielle dans l’enseignement supérieur.\nAxes de recherche :\n\nPédagogie augmentée par l’IA et la GenAI\nGénération automatique de contenus pédagogiques\nÉvaluation augmentée par l’IA\nLLMs, Transformers et NLP appliqués à l’enseignement\nComputer Vision pour l’analyse de productions étudiantes\nOutils de personnalisation de l’apprentissage"
+    "section": "Head of Research Team AI4U · Esprit Tech · depuis 2023",
+    "text": "Head of Research Team AI4U · Esprit Tech · depuis 2023\n\nAI4U — Artificial Intelligence 4 University\nDirection d’une équipe de recherche dédiée aux applications de l’intelligence artificielle dans l’enseignement supérieur.\nAxes de recherche :\n\nPédagogie augmentée par l’IA et la GenAI\nGénération automatique de contenus pédagogiques\nÉvaluation augmentée par l’IA\nLLMs, Transformers et NLP appliqués à l’enseignement\nComputer Vision pour l’analyse de productions étudiantes\nOutils de personnalisation de l’apprentissage"
   },
   {
     "objectID": "recherche.html#huu-task-force-ai-team-honoris-united-university-depuis-2024",
@@ -1563,7 +1563,7 @@
     "href": "encadrement/index.html",
     "title": "Encadrement des projets",
     "section": "",
-    "text": "Mon approche d’encadrement repose sur une progression structurée en sept étapes, adaptée au profil et au niveau de chaque étudiant. Je commence par un cadrage rigoureux du sujet et un état de l’art complet pour garantir la solidité scientifique du travail. La phase de développement ou d’expérimentation est ponctuée de points de suivi hebdomadaires permettant un ajustement continu. L’analyse des résultats est conduite avec une exigence de reproductibilité (Python, R, notebooks versionnés). La rédaction du rapport et la préparation de la soutenance sont accompagnées de relectures multiples et de simulations orales. Mon objectif final : que chaque étudiant développe son autonomie scientifique tout en livrant un travail valorisable.\n\n\n\n\nAutonomie \n\n\n\n\nRigueur \n\n\n\n\nSuivi régulier \n\n\n\n\nValorisation \n\n\n\n\n\n1Choix du sujet\n\n\n2Cadrage\n\n\n3État de l’art\n\n\n4Développement / Expérimentation\n\n\n5Analyse des résultats\n\n\n6Rapport\n\n\n7Soutenance",
+    "text": "Aller au contenu principal",
     "crumbs": [
       "Encadrement",
       "Vue d'ensemble"
@@ -1578,6 +1578,17 @@
     "crumbs": [
       "Encadrement",
       "Vue d'ensemble"
+    ]
+  },
+  {
+    "objectID": "encadrement/rapporteur.html",
+    "href": "encadrement/rapporteur.html",
+    "title": "Rapporteur",
+    "section": "",
+    "text": "Aller au contenu principal",
+    "crumbs": [
+      "Encadrement",
+      "Rapporteur"
     ]
   },
   {
@@ -1614,6 +1625,17 @@
     ]
   },
   {
+    "objectID": "encadrement/encadrements.html",
+    "href": "encadrement/encadrements.html",
+    "title": "Encadrements académiques",
+    "section": "",
+    "text": "Aller au contenu principal",
+    "crumbs": [
+      "Encadrement",
+      "Encadrements académiques"
+    ]
+  },
+  {
     "objectID": "encadrement/encadrements.html#évolution-temporelle",
     "href": "encadrement/encadrements.html#évolution-temporelle",
     "title": "Encadrements académiques",
@@ -1644,6 +1666,17 @@
     "crumbs": [
       "Encadrement",
       "Encadrements académiques"
+    ]
+  },
+  {
+    "objectID": "encadrement/president-jury.html",
+    "href": "encadrement/president-jury.html",
+    "title": "Président de jury",
+    "section": "",
+    "text": "Aller au contenu principal",
+    "crumbs": [
+      "Encadrement",
+      "Président de jury"
     ]
   },
   {
@@ -1680,6 +1713,17 @@
     ]
   },
   {
+    "objectID": "encadrement/ai4u.html",
+    "href": "encadrement/ai4u.html",
+    "title": "Projets AI4U",
+    "section": "",
+    "text": "Aller au contenu principal",
+    "crumbs": [
+      "Encadrement",
+      "Projets AI4U"
+    ]
+  },
+  {
     "objectID": "encadrement/ai4u.html#évolution-et-répartitions",
     "href": "encadrement/ai4u.html#évolution-et-répartitions",
     "title": "Projets AI4U",
@@ -1706,14 +1750,14 @@
     "href": "evenements.html",
     "title": "Événements",
     "section": "",
-    "text": "Banque de questions : ~120 questions opérationnelles, enrichies en continu\nConcours Cameroun 2018 : 4 sessions (Calcul & Logique #1 le 22/04/2018, Logique #2 le 01/07, Logique #3 le 29/07, Logique #4 le 19/08)\nConcours Cameroun 2019 : Logique 1 (14/04), CG2 (30/06), CG3 (04/08), Logique 2 et 3"
+    "text": "Aller au contenu principal"
   },
   {
     "objectID": "evenements.html#concours-dadmission-esb",
     "href": "evenements.html#concours-dadmission-esb",
     "title": "Événements",
-    "section": "",
-    "text": "Banque de questions : ~120 questions opérationnelles, enrichies en continu\nConcours Cameroun 2018 : 4 sessions (Calcul & Logique #1 le 22/04/2018, Logique #2 le 01/07, Logique #3 le 29/07, Logique #4 le 19/08)\nConcours Cameroun 2019 : Logique 1 (14/04), CG2 (30/06), CG3 (04/08), Logique 2 et 3"
+    "section": "Concours d’admission ESB",
+    "text": "Concours d’admission ESB\n\nResponsable de l’épreuve Logique · depuis 2017\n\nBanque de questions : ~120 questions opérationnelles, enrichies en continu\nConcours Cameroun 2018 : 4 sessions (Calcul & Logique #1 le 22/04/2018, Logique #2 le 01/07, Logique #3 le 29/07, Logique #4 le 19/08)\nConcours Cameroun 2019 : Logique 1 (14/04), CG2 (30/06), CG3 (04/08), Logique 2 et 3"
   },
   {
     "objectID": "evenements.html#animation-de-formations-et-ateliers",
@@ -1818,7 +1862,7 @@
     "href": "capsules-video.html",
     "title": "Capsules vidéo",
     "section": "",
-    "text": "Pourquoi des capsules vidéo ? L’asynchrone libère du temps de présence pour la discussion, le projet et la résolution de problèmes complexes. Les capsules ci-dessous servent de support de révision (Algèbre 2) ou de démarche pas-à-pas sur un cas réel (SARIMA).",
+    "text": "Aller au contenu principal",
     "crumbs": [
       "Capsules vidéo"
     ]
@@ -1858,14 +1902,14 @@
     "href": "responsabilites.html",
     "title": "Responsabilités",
     "section": "",
-    "text": "Département Informatique et mathématiques appliquées\nDirection complète du département (passage de Co-Chef en 2019 à Chef du département). Supervision de l’équipe enseignante (permanents et vacataires), coordination pédagogique de l’ensemble des modules math/stats/RO/ML/DL, participation aux comités stratégiques d’ESB.\n\n\n\nRepresentative of ESB at Honoris Task Force AI\nReprésentation d’Esprit School of Business au sein de la Task Force AI de Honoris United University, réseau d’enseignement supérieur réunissant 11 institutions sur 10 pays.\n\n\n\nPrésidence des conseils de classe pour les formations IMA + participation transverse aux autres formations en qualité de Chef de département\nAnimation systématique en 3 temps : (1) analyse des résultats académiques par cohorte / module / niveau, (2) recueil des retours des enseignants et des représentants étudiants, (3) brainstorming + concrétisation de solutions pour les itérations suivantes. Périmètre IMA : LSD, LBC-BI/BIS, BA, GAMMA, MDSI, FIND, etc.\n\n\n\nStrategic Plan ESB — 2 cycles successifs\nParticipation à 2 cycles stratégiques d’ESB :\n\nStrategic Plan 2022–2025 : session SWOT du 07/02/2022, First Draft du 22/02/2022, COS 22 (Conseil d’Orientation Stratégique) du 02/12/2022 à la Fondation Tunisie pour le Développement\nStrategic Plan 2026–2029 : workshop de planification stratégique Février 2026 (8 années cumulées de présence au Comité), alignement sur les standards d’accréditations AMBA / BGA / AACSB\n\nApports : vision LSD 2026, trajectoire AI4U, partenariats industriels (iCompass, Jems, ATA, Vistasy, SAP), modèle de mentorat structurant (5 axes).\n\n\n\nBusiness Graduates Association — Accréditation institutionnelle ESB\nComité de pilotage : F. Kammoun, M. Trimeche (lead), M. Chichti, W. El Ayeb, N. Cheikhrouhou, A. Ben Brik.\nPorteur du dossier d’accréditation IMA (9 workstreams) :\n\n5 matrices PLO-CLO validées pour les 5 programmes IMA (LMAD, LBC-BI, LBC-BIS, MA Business Analytics, MA GAMMA) — transmission et validation avec M. Trimeche (email du 24/07/2023)\n72 syllabi BGA-format délivrés (69 uniques après dédoublonnage FR/EN) avec positionnement Introduced/Reinforced/Emphasized (I/R/E)\n16 CAR (Course Assessment Review) produits — 14 avec nouveau calcul par CLO + 2 conservés avec valeurs originales, sur 6 programmes (LBC-BI, BA, MDSI, LMAD, GAMMA, FIND) ; 8 CAR différenciés par groupe\n6 PLAR (Program Learning Assessment Review) trajectoires consolidées sur 3 programmes (BA, LBC-BI, LBC-BIS) — tous au-dessus du benchmark 60 % (range 62.25 %–72.06 %)\n3 rapports annuels Tekouin (22-23, 23-24, 24-25) et 3 rapports annuels MASSAI (NVIDIA partnership)\nCo-développement du Metric 3.1 (Standard 3 — Faculty) avec Ghada Makni : méthodologie + collecte de données + template de reporting\nWorkshop interne facilité sur Syllabi BGA + Calcul des CAR — 24–28 mars 2025, salle D22 ESB, 5 jours, 30 enseignants du département IMA, animateur unique"
+    "text": "Aller au contenu principal"
   },
   {
     "objectID": "responsabilites.html#direction-départementale-et-stratégique",
     "href": "responsabilites.html#direction-départementale-et-stratégique",
     "title": "Responsabilités",
-    "section": "",
-    "text": "Département Informatique et mathématiques appliquées\nDirection complète du département (passage de Co-Chef en 2019 à Chef du département). Supervision de l’équipe enseignante (permanents et vacataires), coordination pédagogique de l’ensemble des modules math/stats/RO/ML/DL, participation aux comités stratégiques d’ESB.\n\n\n\nRepresentative of ESB at Honoris Task Force AI\nReprésentation d’Esprit School of Business au sein de la Task Force AI de Honoris United University, réseau d’enseignement supérieur réunissant 11 institutions sur 10 pays.\n\n\n\nPrésidence des conseils de classe pour les formations IMA + participation transverse aux autres formations en qualité de Chef de département\nAnimation systématique en 3 temps : (1) analyse des résultats académiques par cohorte / module / niveau, (2) recueil des retours des enseignants et des représentants étudiants, (3) brainstorming + concrétisation de solutions pour les itérations suivantes. Périmètre IMA : LSD, LBC-BI/BIS, BA, GAMMA, MDSI, FIND, etc.\n\n\n\nStrategic Plan ESB — 2 cycles successifs\nParticipation à 2 cycles stratégiques d’ESB :\n\nStrategic Plan 2022–2025 : session SWOT du 07/02/2022, First Draft du 22/02/2022, COS 22 (Conseil d’Orientation Stratégique) du 02/12/2022 à la Fondation Tunisie pour le Développement\nStrategic Plan 2026–2029 : workshop de planification stratégique Février 2026 (8 années cumulées de présence au Comité), alignement sur les standards d’accréditations AMBA / BGA / AACSB\n\nApports : vision LSD 2026, trajectoire AI4U, partenariats industriels (iCompass, Jems, ATA, Vistasy, SAP), modèle de mentorat structurant (5 axes).\n\n\n\nBusiness Graduates Association — Accréditation institutionnelle ESB\nComité de pilotage : F. Kammoun, M. Trimeche (lead), M. Chichti, W. El Ayeb, N. Cheikhrouhou, A. Ben Brik.\nPorteur du dossier d’accréditation IMA (9 workstreams) :\n\n5 matrices PLO-CLO validées pour les 5 programmes IMA (LMAD, LBC-BI, LBC-BIS, MA Business Analytics, MA GAMMA) — transmission et validation avec M. Trimeche (email du 24/07/2023)\n72 syllabi BGA-format délivrés (69 uniques après dédoublonnage FR/EN) avec positionnement Introduced/Reinforced/Emphasized (I/R/E)\n16 CAR (Course Assessment Review) produits — 14 avec nouveau calcul par CLO + 2 conservés avec valeurs originales, sur 6 programmes (LBC-BI, BA, MDSI, LMAD, GAMMA, FIND) ; 8 CAR différenciés par groupe\n6 PLAR (Program Learning Assessment Review) trajectoires consolidées sur 3 programmes (BA, LBC-BI, LBC-BIS) — tous au-dessus du benchmark 60 % (range 62.25 %–72.06 %)\n3 rapports annuels Tekouin (22-23, 23-24, 24-25) et 3 rapports annuels MASSAI (NVIDIA partnership)\nCo-développement du Metric 3.1 (Standard 3 — Faculty) avec Ghada Makni : méthodologie + collecte de données + template de reporting\nWorkshop interne facilité sur Syllabi BGA + Calcul des CAR — 24–28 mars 2025, salle D22 ESB, 5 jours, 30 enseignants du département IMA, animateur unique"
+    "section": "Direction départementale et stratégique",
+    "text": "Direction départementale et stratégique\n\nChef département Informatique et mathématiques appliquées · ESB · depuis 2019\nDépartement Informatique et mathématiques appliquées\nDirection complète du département (passage de Co-Chef en 2019 à Chef du département). Supervision de l’équipe enseignante (permanents et vacataires), coordination pédagogique de l’ensemble des modules math/stats/RO/ML/DL, participation aux comités stratégiques d’ESB.\n\n\nHUU Task Force AI Team · Honoris United University · depuis 2024\nRepresentative of ESB at Honoris Task Force AI\nReprésentation d’Esprit School of Business au sein de la Task Force AI de Honoris United University, réseau d’enseignement supérieur réunissant 11 institutions sur 10 pays.\n\n\nPrésident des conseils de classe · ESB · depuis 2019\nPrésidence des conseils de classe pour les formations IMA + participation transverse aux autres formations en qualité de Chef de département\nAnimation systématique en 3 temps : (1) analyse des résultats académiques par cohorte / module / niveau, (2) recueil des retours des enseignants et des représentants étudiants, (3) brainstorming + concrétisation de solutions pour les itérations suivantes. Périmètre IMA : LSD, LBC-BI/BIS, BA, GAMMA, MDSI, FIND, etc.\n\n\nMembre du Comité Interne de Planification Stratégique (ESB-SPC) · depuis 2022\nStrategic Plan ESB — 2 cycles successifs\nParticipation à 2 cycles stratégiques d’ESB :\n\nStrategic Plan 2022–2025 : session SWOT du 07/02/2022, First Draft du 22/02/2022, COS 22 (Conseil d’Orientation Stratégique) du 02/12/2022 à la Fondation Tunisie pour le Développement\nStrategic Plan 2026–2029 : workshop de planification stratégique Février 2026 (8 années cumulées de présence au Comité), alignement sur les standards d’accréditations AMBA / BGA / AACSB\n\nApports : vision LSD 2026, trajectoire AI4U, partenariats industriels (iCompass, Jems, ATA, Vistasy, SAP), modèle de mentorat structurant (5 axes).\n\n\nMembre permanent du Steering Committee BGA · ESB · depuis 09/2024\nBusiness Graduates Association — Accréditation institutionnelle ESB\nComité de pilotage : F. Kammoun, M. Trimeche (lead), M. Chichti, W. El Ayeb, N. Cheikhrouhou, A. Ben Brik.\nPorteur du dossier d’accréditation IMA (9 workstreams) :\n\n5 matrices PLO-CLO validées pour les 5 programmes IMA (LMAD, LBC-BI, LBC-BIS, MA Business Analytics, MA GAMMA) — transmission et validation avec M. Trimeche (email du 24/07/2023)\n72 syllabi BGA-format délivrés (69 uniques après dédoublonnage FR/EN) avec positionnement Introduced/Reinforced/Emphasized (I/R/E)\n16 CAR (Course Assessment Review) produits — 14 avec nouveau calcul par CLO + 2 conservés avec valeurs originales, sur 6 programmes (LBC-BI, BA, MDSI, LMAD, GAMMA, FIND) ; 8 CAR différenciés par groupe\n6 PLAR (Program Learning Assessment Review) trajectoires consolidées sur 3 programmes (BA, LBC-BI, LBC-BIS) — tous au-dessus du benchmark 60 % (range 62.25 %–72.06 %)\n3 rapports annuels Tekouin (22-23, 23-24, 24-25) et 3 rapports annuels MASSAI (NVIDIA partnership)\nCo-développement du Metric 3.1 (Standard 3 — Faculty) avec Ghada Makni : méthodologie + collecte de données + template de reporting\nWorkshop interne facilité sur Syllabi BGA + Calcul des CAR — 24–28 mars 2025, salle D22 ESB, 5 jours, 30 enseignants du département IMA, animateur unique"
   },
   {
     "objectID": "responsabilites.html#recherche",
@@ -1949,14 +1993,14 @@
     "href": "enseignements/outillage-machine-learning.html",
     "title": "Tools for Machine Learning",
     "section": "",
-    "text": "Module créé en 2024–2025, axé sur l’écosystème opérationnel du ML : versioning, expérimentation, déploiement, MLOps. Approche ingénieur — savoir choisir les bons outils et les intégrer dans un pipeline reproductible."
+    "text": "Aller au contenu principal"
   },
   {
     "objectID": "enseignements/outillage-machine-learning.html#présentation",
     "href": "enseignements/outillage-machine-learning.html#présentation",
     "title": "Tools for Machine Learning",
-    "section": "",
-    "text": "Module créé en 2024–2025, axé sur l’écosystème opérationnel du ML : versioning, expérimentation, déploiement, MLOps. Approche ingénieur — savoir choisir les bons outils et les intégrer dans un pipeline reproductible."
+    "section": "Présentation",
+    "text": "Présentation\nModule créé en 2024–2025, axé sur l’écosystème opérationnel du ML : versioning, expérimentation, déploiement, MLOps. Approche ingénieur — savoir choisir les bons outils et les intégrer dans un pipeline reproductible."
   },
   {
     "objectID": "enseignements/outillage-machine-learning.html#espace-blackboard",
@@ -2012,14 +2056,14 @@
     "href": "enseignements/algebre-2.html",
     "title": "Algèbre 2 — ECUE211",
     "section": "",
-    "text": "Module de fondamentaux en algèbre linéaire pour les étudiants de S2 LMAD/SD, avec 84 heures réparties en cours magistraux (42h) et travaux dirigés (42h)."
+    "text": "Aller au contenu principal"
   },
   {
     "objectID": "enseignements/algebre-2.html#présentation",
     "href": "enseignements/algebre-2.html#présentation",
     "title": "Algèbre 2 — ECUE211",
-    "section": "",
-    "text": "Module de fondamentaux en algèbre linéaire pour les étudiants de S2 LMAD/SD, avec 84 heures réparties en cours magistraux (42h) et travaux dirigés (42h)."
+    "section": "Présentation",
+    "text": "Présentation\nModule de fondamentaux en algèbre linéaire pour les étudiants de S2 LMAD/SD, avec 84 heures réparties en cours magistraux (42h) et travaux dirigés (42h)."
   },
   {
     "objectID": "enseignements/algebre-2.html#espace-blackboard",
@@ -2054,14 +2098,14 @@
     "href": "enseignements/recherche-operationnelle.html",
     "title": "Recherche Opérationnelle — ECUEO412",
     "section": "",
-    "text": "Module de recherche opérationnelle structuré en deux parties :\n\nPartie 1 : Programmation linéaire (28h)\nPartie 2 : Théorie des graphes (14h)"
+    "text": "Aller au contenu principal"
   },
   {
     "objectID": "enseignements/recherche-operationnelle.html#présentation",
     "href": "enseignements/recherche-operationnelle.html#présentation",
     "title": "Recherche Opérationnelle — ECUEO412",
-    "section": "",
-    "text": "Module de recherche opérationnelle structuré en deux parties :\n\nPartie 1 : Programmation linéaire (28h)\nPartie 2 : Théorie des graphes (14h)"
+    "section": "Présentation",
+    "text": "Présentation\nModule de recherche opérationnelle structuré en deux parties :\n\nPartie 1 : Programmation linéaire (28h)\nPartie 2 : Théorie des graphes (14h)"
   },
   {
     "objectID": "enseignements/recherche-operationnelle.html#espace-blackboard",
@@ -2096,7 +2140,7 @@
     "href": "enseignements/modules/cours-de-soutien-statistiques-inferentielles.html",
     "title": "Cours de soutien Statistiques inférentielles",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/cours-de-soutien-statistiques-inferentielles.html#synthèse",
@@ -2117,7 +2161,7 @@
     "href": "enseignements/modules/outillage-machine-learning.html",
     "title": "Outillage Machine Learning",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/outillage-machine-learning.html#synthèse",
@@ -2159,7 +2203,7 @@
     "href": "enseignements/modules/machine-learning.html",
     "title": "Machine Learning",
     "section": "",
-    "text": "Coordinateur Anglais"
+    "text": "Aller au contenu principal\nCoordinateur Anglais"
   },
   {
     "objectID": "enseignements/modules/machine-learning.html#synthèse",
@@ -2208,7 +2252,7 @@
     "href": "enseignements/modules/intelligence-artificielle.html",
     "title": "Intelligence Artificielle",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/intelligence-artificielle.html#synthèse",
@@ -2243,7 +2287,7 @@
     "href": "enseignements/modules/introduction-data-science.html",
     "title": "Introduction Data Science",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/introduction-data-science.html#synthèse",
@@ -2278,7 +2322,7 @@
     "href": "enseignements/modules/algebre-2.html",
     "title": "Algèbre 2",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/algebre-2.html#synthèse",
@@ -2334,7 +2378,7 @@
     "href": "enseignements/modules/programmation-avec-r.html",
     "title": "Programmation avec R",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/programmation-avec-r.html#synthèse",
@@ -2369,7 +2413,7 @@
     "href": "enseignements/modules/logique-mathematique.html",
     "title": "Logique Mathématique",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/logique-mathematique.html#synthèse",
@@ -2404,7 +2448,7 @@
     "href": "enseignements/modules/probabilites-et-statistiques.html",
     "title": "Probabilités et Statistiques",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/probabilites-et-statistiques.html#synthèse",
@@ -2439,7 +2483,7 @@
     "href": "enseignements/modules/modeles-lineaires-generalises.html",
     "title": "Modèles linéaires généralisés",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/modeles-lineaires-generalises.html#synthèse",
@@ -2474,7 +2518,7 @@
     "href": "enseignements/modules/mathematiques-appliquees-a-la-gestion.html",
     "title": "Mathématiques appliquées à la gestion",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/mathematiques-appliquees-a-la-gestion.html#synthèse",
@@ -2502,7 +2546,7 @@
     "href": "enseignements/modules/cours-de-soutien-mathematiques.html",
     "title": "Cours de soutien Mathématiques",
     "section": "",
-    "text": "Coordinateur"
+    "text": "Aller au contenu principal\nCoordinateur"
   },
   {
     "objectID": "enseignements/modules/cours-de-soutien-mathematiques.html#synthèse",
@@ -2523,7 +2567,7 @@
     "href": "enseignements/modules/statistiques-descriptives-et-probabilites.html",
     "title": "Statistiques descriptives et Probabilités",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/statistiques-descriptives-et-probabilites.html#synthèse",
@@ -2558,7 +2602,7 @@
     "href": "enseignements/modules/nlp-natural-language-processing.html",
     "title": "NLP - Natural Language Processing",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/nlp-natural-language-processing.html#synthèse",
@@ -2593,7 +2637,7 @@
     "href": "enseignements/modules/probabilites.html",
     "title": "Probabilités",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/probabilites.html#synthèse",
@@ -2642,7 +2686,7 @@
     "href": "enseignements/modules/machine-learning-non-supervise.html",
     "title": "Machine Learning (non supervisé)",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/machine-learning-non-supervise.html#synthèse",
@@ -2684,7 +2728,7 @@
     "href": "enseignements/modules/data-mining.html",
     "title": "Data Mining",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/data-mining.html#synthèse",
@@ -2719,7 +2763,7 @@
     "href": "enseignements/modules/mathematiques-2.html",
     "title": "Mathématiques 2",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/mathematiques-2.html#synthèse",
@@ -2754,7 +2798,7 @@
     "href": "enseignements/modules/programmation-python-3.html",
     "title": "Programmation Python 3",
     "section": "",
-    "text": "Coordinateur Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Nouveau module"
   },
   {
     "objectID": "enseignements/modules/programmation-python-3.html#synthèse",
@@ -2796,7 +2840,7 @@
     "href": "enseignements/modules/machine-learning-supervise.html",
     "title": "Machine Learning (supervisé)",
     "section": "",
-    "text": "Coordinateur"
+    "text": "Aller au contenu principal\nCoordinateur"
   },
   {
     "objectID": "enseignements/modules/machine-learning-supervise.html#synthèse",
@@ -2838,7 +2882,7 @@
     "href": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html",
     "title": "Fondements de la théorie de la décision",
     "section": "",
-    "text": "Coordinateur Anglais Nouveau module"
+    "text": "Aller au contenu principal\nCoordinateur Anglais Nouveau module"
   },
   {
     "objectID": "enseignements/modules/fondements-de-la-theorie-de-la-decision.html#synthèse",
@@ -2873,7 +2917,7 @@
     "href": "enseignements/modules/cours-de-soutien.html",
     "title": "Cours de soutien",
     "section": "",
-    "text": "Coordinateur"
+    "text": "Aller au contenu principal\nCoordinateur"
   },
   {
     "objectID": "enseignements/modules/cours-de-soutien.html#synthèse",
@@ -2894,14 +2938,14 @@
     "href": "enseignements/python-programming.html",
     "title": "Python Programming · Advanced Python",
     "section": "",
-    "text": "Deux modules complémentaires créés en 2022–2023 :\n\nPython Programming (S1, 42h) — initiation et fondamentaux\nAdvanced Python Programming (S2, 42h) — patterns avancés et écosystème data\n\nCouverture orientée data science et IA, avec focus sur la reproductibilité (seeds, environnements, packaging)."
+    "text": "Aller au contenu principal"
   },
   {
     "objectID": "enseignements/python-programming.html#présentation",
     "href": "enseignements/python-programming.html#présentation",
     "title": "Python Programming · Advanced Python",
-    "section": "",
-    "text": "Deux modules complémentaires créés en 2022–2023 :\n\nPython Programming (S1, 42h) — initiation et fondamentaux\nAdvanced Python Programming (S2, 42h) — patterns avancés et écosystème data\n\nCouverture orientée data science et IA, avec focus sur la reproductibilité (seeds, environnements, packaging)."
+    "section": "Présentation",
+    "text": "Présentation\nDeux modules complémentaires créés en 2022–2023 :\n\nPython Programming (S1, 42h) — initiation et fondamentaux\nAdvanced Python Programming (S2, 42h) — patterns avancés et écosystème data\n\nCouverture orientée data science et IA, avec focus sur la reproductibilité (seeds, environnements, packaging)."
   },
   {
     "objectID": "enseignements/python-programming.html#espace-blackboard",
@@ -2957,14 +3001,14 @@
     "href": "enseignements/probabilites.html",
     "title": "Probabilités — ECUE411",
     "section": "",
-    "text": "Module de probabilités pour les étudiants de S4 LMAD, 84 heures réparties en cours (36h), TD (36h), TP Python (9h) et projet (3h)."
+    "text": "Aller au contenu principal"
   },
   {
     "objectID": "enseignements/probabilites.html#présentation",
     "href": "enseignements/probabilites.html#présentation",
     "title": "Probabilités — ECUE411",
-    "section": "",
-    "text": "Module de probabilités pour les étudiants de S4 LMAD, 84 heures réparties en cours (36h), TD (36h), TP Python (9h) et projet (3h)."
+    "section": "Présentation",
+    "text": "Présentation\nModule de probabilités pour les étudiants de S4 LMAD, 84 heures réparties en cours (36h), TD (36h), TP Python (9h) et projet (3h)."
   },
   {
     "objectID": "enseignements/probabilites.html#espace-blackboard",
@@ -2999,14 +3043,14 @@
     "href": "enseignements/analyse-4.html",
     "title": "Analyse 4 — ECUE421",
     "section": "",
-    "text": "Module d’analyse à plusieurs variables, ouvrant sur le calcul différentiel multidimensionnel et les algorithmes d’optimisation (descente de gradient).\nVolume : 84h = 36C + 36TD + 6TP + 6 projet."
+    "text": "Aller au contenu principal"
   },
   {
     "objectID": "enseignements/analyse-4.html#présentation",
     "href": "enseignements/analyse-4.html#présentation",
     "title": "Analyse 4 — ECUE421",
-    "section": "",
-    "text": "Module d’analyse à plusieurs variables, ouvrant sur le calcul différentiel multidimensionnel et les algorithmes d’optimisation (descente de gradient).\nVolume : 84h = 36C + 36TD + 6TP + 6 projet."
+    "section": "Présentation",
+    "text": "Présentation\nModule d’analyse à plusieurs variables, ouvrant sur le calcul différentiel multidimensionnel et les algorithmes d’optimisation (descente de gradient).\nVolume : 84h = 36C + 36TD + 6TP + 6 projet."
   },
   {
     "objectID": "enseignements/analyse-4.html#espace-blackboard",
@@ -3035,6 +3079,16 @@
     "title": "Analyse 4 — ECUE421",
     "section": "Plan détaillé",
     "text": "Plan détaillé\n\nTopologie de \\(\\mathbb{R}^n\\) : ouverts, fermés, compacts, connexes\nLimites et continuité des fonctions de plusieurs variables\nDérivées partielles, différentiabilité, gradient\nDifférentielles d’ordre supérieur, formule de Taylor\nThéorème des fonctions implicites et inversion locale\nExtrema libres et liés (multiplicateurs de Lagrange)\nAlgorithmes d’optimisation : descente de gradient, méthode de Newton\nApplication : régression linéaire, logistique"
+  },
+  {
+    "objectID": "enseignements/index.html",
+    "href": "enseignements/index.html",
+    "title": "Enseignement",
+    "section": "",
+    "text": "Aller au contenu principal",
+    "crumbs": [
+      "Vue d'ensemble"
+    ]
   },
   {
     "objectID": "enseignements/index.html#maintenir-ces-données",
