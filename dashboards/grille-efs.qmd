@@ -154,7 +154,7 @@ dict(
 )
 ```
 
-## Row {height="220px"}
+## Row {height="240px"}
 
 ```{python}
 #| title: "Score global /340 — seuil indicatif à 238 pts (70 %)"
@@ -179,12 +179,12 @@ fig = go.Figure(go.Indicator(
     },
     number={"font": {"size": 42}},
 ))
-fig.update_layout(autosize=True, margin=dict(l=20, r=30, t=15, b=15),
-                   font=dict(family="Inter, sans-serif"))
+fig.update_layout(autosize=True, margin=dict(l=24, r=36, t=30, b=30),
+                   font=dict(family="Inter, sans-serif", size=13))
 fig.show()
 ```
 
-## Row {height="420px"}
+## Row {height="460px"}
 
 ```{python}
 #| title: "Progression par livrable (obtenu / restant)"
@@ -197,19 +197,22 @@ y_labels = [SHORT[k] for k in labels]
 fig = go.Figure()
 fig.add_trace(go.Bar(
     name="Obtenu", x=obtenus, y=y_labels, orientation="h",
-    text=[f"{o}/{t}" for o, t in zip(obtenus, totaux)],
-    textposition="inside", insidetextanchor="start",
     marker_color=COLOR_PRIMARY,
 ))
 fig.add_trace(go.Bar(
     name="Reste", x=restes, y=y_labels, orientation="h",
+    text=[f"{o:g}/{t}" for o, t in zip(obtenus, totaux)],
+    textposition="outside", cliponaxis=False,
+    textfont=dict(size=12, color="#1F2430"),
     marker_color="#E6E8EC",
 ))
 fig.update_layout(
     barmode="stack", template="plotly_white", autosize=True,
-    margin=dict(l=10, r=20, t=10, b=10),
+    margin=dict(l=12, r=64, t=52, b=44),
     xaxis_title="Points", yaxis=dict(autorange="reversed"),
-    legend=dict(orientation="h", y=-0.15, x=0.5, xanchor="center"),
+    xaxis=dict(range=[0, max(totaux) * 1.18]),
+    legend=dict(orientation="h", x=0, xanchor="left", y=1.02,
+                yanchor="bottom", font=dict(size=11)),
     font=dict(family="Inter, sans-serif"),
 )
 fig.show()
@@ -232,19 +235,23 @@ df_rub = pd.DataFrame(rows)
 fig = go.Figure()
 fig.add_trace(go.Bar(
     name="Obtenu", x=df_rub["obtenu"], y=df_rub["y"], orientation="h",
-    text=[f"{o}/{m}" for o, m in zip(df_rub["obtenu"], df_rub["max"])],
-    textposition="outside",
     marker_color=COLOR_PRIMARY,
 ))
 fig.add_trace(go.Bar(
     name="Reste", x=df_rub["reste"], y=df_rub["y"], orientation="h",
+    text=[f"{o:g}/{m:g}" for o, m in zip(df_rub["obtenu"], df_rub["max"])],
+    textposition="outside", cliponaxis=False,
+    textfont=dict(size=11, color="#1F2430"),
     marker_color="#E6E8EC",
 ))
 fig.update_layout(
-    barmode="stack", template="plotly_white", height=700,
-    margin=dict(l=10, r=30, t=10, b=10),
-    xaxis_title="Points", yaxis=dict(autorange="reversed", tickfont=dict(size=10)),
-    legend=dict(orientation="h", y=1.03, x=0, xanchor="left"),
+    barmode="stack", template="plotly_white", height=820,
+    margin=dict(l=12, r=64, t=52, b=44),
+    xaxis_title="Points",
+    yaxis=dict(autorange="reversed", tickfont=dict(size=11)),
+    xaxis=dict(range=[0, float(df_rub["max"].max()) * 1.2]),
+    legend=dict(orientation="h", x=0, xanchor="left", y=1.01,
+                yanchor="bottom", font=dict(size=11)),
     font=dict(family="Inter, sans-serif"),
 )
 fig.show()
