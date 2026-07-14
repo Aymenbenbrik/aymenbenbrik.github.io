@@ -1,6 +1,6 @@
 ---
 title: "Grille EFS — Score auto-évalué /340"
-subtitle: "Auto-évaluation v2 du 12/07/2026 (enrichie de la présentation de soutenance) · Grille 4 (/70) évaluée par le jury · Session 2026-2027"
+subtitle: "Auto-évaluation v3 du 14/07/2026 (livrables + présentation V4) · Grille 4 (/70) évaluée par le jury · Session 2026-2027"
 aliases:
   - /dashboards/index.html
 format:
@@ -25,17 +25,17 @@ COLOR_OK = "#2E7D32"
 # === SCORES AUTO-EVALUES (a mettre a jour) ===
 LIVRABLES = {
     "Livrable 1 — Production RDI": {
-        "obtenu": 66, "max": 90,
+        "obtenu": 67, "max": 90,
         "rubriques": [
             ("Publications scientifiques", 30, 50),
-            ("Production technique", 18, 20),
+            ("Production technique", 19, 20),
             ("Projet RDI 2 ans", 18, 20),
         ],
     },
     "Livrable 2 — Production Pédagogique": {
-        "obtenu": 56, "max": 65,
+        "obtenu": 57, "max": 65,
         "rubriques": [
-            ("Supports pédagogiques (SPOC, capsules)", 26, 30),
+            ("Supports pédagogiques (SPOC, capsules)", 27, 30),
             ("Intégration de technologies", 18, 20),
             ("Apport de l'expérience professionnelle", 12, 15),
         ],
@@ -289,23 +289,23 @@ show(df_table, lengthMenu=[10, 25], classes="display compact", paging=False)
 
 ## Row
 
-::: {.card title="Livrable 1 — Production RDI : 66/90"}
+::: {.card title="Livrable 1 — Production RDI : 67/90"}
 
 | Rubrique | Note | Fondement factuel (références dans les livrables) |
 |---|---:|---|
 | Publications scientifiques | 22→**30**/50 | Article **IJQSS** accepté (Emerald, Scopus/WoS, `IJQSS-02-2026-0065`) · 8 communications dont **Best Paper AfricaTek 2025** et **1er + 2e prix WEITA 2026** (2e prix en auteur unique) · 2 soumissions IEEE CIFEr 2026 (#166 auteur unique, #130) |
-| Production technique | **18**/20 | 17 prototypes · **ESB-Learning** (5 agents, MCP, RAG hybride, TunBERT — **PI déposée**) · RecruScore (12 agents) · **FARDI : 1 projet financé** · Tekouin : 4 959 étudiants, 19 733 usages |
+| Production technique | **19**/20 | 17 prototypes · **ESB-Learning** (29 nœuds IA, 6 agents LangGraph, 24 outils MCP, RAG hybride, TunBERT — **PI déposée**) · RecruScore (12 agents) · Teacher's Activity Tracking · **FARDI : 2 candidatures, 1 financée** · Tekouin : **9 espaces développés, 380 exercices auto-correctifs créés** |
 | Projet RDI 2 ans | **18**/20 | Plan 2026-2028 en 4 axes, jalonné An1/An2 (50 → 3 000 étudiants) · **WG USPI** (concepteur + Management Team) : 1er livrable déjà accepté (IJQSS) · conformité RGPD + Loi 2004-63 |
 
 :::
 
 ## Row
 
-::: {.card title="Livrable 2 — Production Pédagogique : 56/65"}
+::: {.card title="Livrable 2 — Production Pédagogique : 57/65"}
 
 | Rubrique | Note | Fondement factuel |
 |---|---:|---|
-| Supports pédagogiques | **26**/30 | **39 fiches modules** (contribution personnelle explicitée) · 32 dépôts GitHub · **72 syllabi BGA** · 28 modules scénarisés Blackboard (parcours adaptatifs à 3 niveaux) · capsules YouTube |
+| Supports pédagogiques | **27**/30 | **39 fiches modules** (contribution personnelle explicitée) · 32 dépôts GitHub · **72 syllabi BGA** · 28 modules scénarisés Blackboard · **380 exercices auto-correctifs Tekouin** (9 espaces, 54 sections, 32 cours) · capsules YouTube |
 | Intégration de technologies | **18**/20 | Chaîne **Tekouin → ESB-Learning (CAR) → BGA (PLAR)** · épreuves sur machine (22 cours-piliers) avec anti-triche · feedback continu FB1/FB2/FB3 + fiches ARC |
 | Apport de l'expérience professionnelle | **12**/15 | **SAP Academy : 40 étudiants certifiés** · Orange B2B (30 collaborateurs) · conventions IT LAND, iCompass · données réelles : Pluxee (380 Mo), Covéa, Vermeg · GAMMA reconnu **Master d'Actuariat** (ATA) |
 
@@ -349,8 +349,8 @@ show(df_table, lengthMenu=[10, 25], classes="display compact", paging=False)
 ::: {.card title="Lecture"}
 Chaque note est adossée aux pièces des livrables (preuves numérotées,
 annexes thématiques, identifiants externes). La **Grille 4 (/70)** — dossier,
-présentation, entretien — appartient au jury : avec 225,5 points auto-évalués,
-le seuil indicatif de 238 est atteint dès **12,5/70**.
+présentation, entretien — appartient au jury : avec 227,5 points auto-évalués,
+le seuil indicatif de 238 est atteint dès **10,5/70**.
 :::
 
 # Aide
@@ -359,8 +359,8 @@ le seuil indicatif de 238 est atteint dès **12,5/70**.
 
 ::: {.card title="Comment mettre à jour les scores"}
 
-Les scores affichés sont une **auto-évaluation argumentée** (v2, 12/07/2026),
-fondée sur les activités documentées du dossier et la présentation de soutenance v3 ; la **Grille 4 (/70) reste à 0 car
+Les scores affichés sont une **auto-évaluation argumentée** (v3, 14/07/2026),
+fondée sur les livrables déposés et la présentation de soutenance V4 ; la **Grille 4 (/70) reste à 0 car
 elle est attribuée par le jury** (dossier, présentation, entretien).
 
 Le tableau de bord lit ses scores depuis le dictionnaire `LIVRABLES` défini en
